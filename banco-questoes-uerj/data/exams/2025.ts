@@ -1,0 +1,218 @@
+import type { ExamInput } from '../types';
+
+/** Questões AUTORAIS no estilo da banca — não são transcrições do caderno oficial. */
+export const exam2025: ExamInput = {
+  slug: 'uerj-2025-r-plus-cm-autoral',
+  year: 2025,
+  board: 'UERJ',
+  program: 'R+ Clínica Médica',
+  title: 'UERJ 2025 — R+ Clínica Médica (conjunto autoral no estilo da banca)',
+  source: 'AUTORAL_ESTILO_BANCA',
+  reference: 'Questões autorais para treino; distribuição temática inspirada no perfil histórico da banca.',
+  questions: [
+    {
+      number: 1,
+      statement:
+        'Homem de 57 anos, hipertenso e dislipidêmico, assintomático, tem LDL-colesterol de 168 mg/dL. Calculado o risco cardiovascular em 10 anos, obtém-se 12%. Não há doença aterosclerótica estabelecida nem diabetes. Qual a conduta mais apropriada em relação à terapia hipolipemiante?',
+      alternatives: [
+        { letter: 'A', text: 'Apenas mudança de estilo de vida, sem indicação de estatina.' },
+        { letter: 'B', text: 'Iniciar estatina de moderada a alta intensidade, com meta de redução do LDL.' },
+        { letter: 'C', text: 'Iniciar fibrato como monoterapia de primeira linha.' },
+        { letter: 'D', text: 'Iniciar inibidor de PCSK9 como primeira escolha.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'dislipidemia-e-risco-cv',
+      difficulty: 'FACIL',
+      keywords: ['dislipidemia', 'estatina', 'risco cardiovascular', 'LDL-colesterol', 'prevenção primária'],
+      reference: 'Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose',
+    },
+    {
+      number: 2,
+      statement:
+        'Mulher de 30 anos apresenta palpitações súbitas de início e término abruptos. ECG durante o episódio mostra taquicardia regular de QRS estreito a 190 bpm, sem ondas P visíveis. Está estável hemodinamicamente. Após manobra vagal sem sucesso, qual a conduta?',
+      alternatives: [
+        { letter: 'A', text: 'Cardioversão elétrica sincronizada imediata.' },
+        { letter: 'B', text: 'Adenosina intravenosa em bolus rápido.' },
+        { letter: 'C', text: 'Amiodarona intravenosa em infusão lenta.' },
+        { letter: 'D', text: 'Digoxina intravenosa.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'arritmias',
+      difficulty: 'FACIL',
+      keywords: ['taquicardia supraventricular', 'adenosina', 'manobra vagal', 'QRS estreito', 'reentrada nodal'],
+      reference: 'ACC/AHA/HRS Guideline for Supraventricular Tachycardia',
+    },
+    {
+      number: 3,
+      statement:
+        'Homem de 66 anos, ex-tabagista, apresenta dispneia progressiva há 18 meses e tosse seca. Ao exame, estertores em velcro nas bases e baqueteamento digital. A tomografia de alta resolução mostra faveolamento subpleural e basal, com bronquiectasias de tração, sem vidro fosco extenso. Qual o padrão tomográfico e o diagnóstico mais provável?',
+      alternatives: [
+        { letter: 'A', text: 'Pneumonia intersticial usual; fibrose pulmonar idiopática.' },
+        { letter: 'B', text: 'Pneumonia intersticial não específica; esclerose sistêmica.' },
+        { letter: 'C', text: 'Pneumonia em organização; criptogênica.' },
+        { letter: 'D', text: 'Pneumonite de hipersensibilidade aguda.' },
+      ],
+      answerKey: 'A',
+      theme: 'pneumologia',
+      subtheme: 'doencas-intersticiais',
+      difficulty: 'DIFICIL',
+      keywords: ['fibrose pulmonar idiopática', 'padrão PIU', 'faveolamento', 'TCAR', 'estertores em velcro'],
+      reference: 'ATS/ERS/JRS/ALAT Guideline — Idiopathic Pulmonary Fibrosis',
+    },
+    {
+      number: 4,
+      statement:
+        'Paciente de 41 anos vivendo com HIV, em uso irregular de terapia antirretroviral, apresenta cefaleia subaguda há 3 semanas, febre e confusão. CD4 de 42 células/mm³. A punção lombar revela pressão de abertura de 38 cmH2O, e o teste de antígeno criptocócico no líquor é positivo. Além do antifúngico, qual medida é essencial no manejo?',
+      alternatives: [
+        { letter: 'A', text: 'Punções lombares de alívio seriadas para controle da pressão intracraniana.' },
+        { letter: 'B', text: 'Corticoterapia sistêmica de rotina em dose alta.' },
+        { letter: 'C', text: 'Início imediato da terapia antirretroviral, no mesmo dia.' },
+        { letter: 'D', text: 'Manitol intravenoso como medida de primeira linha.' },
+      ],
+      answerKey: 'A',
+      theme: 'infectologia',
+      subtheme: 'hiv-aids',
+      difficulty: 'DIFICIL',
+      keywords: ['neurocriptococose', 'pressão de abertura', 'punção de alívio', 'anfotericina B', 'síndrome inflamatória de reconstituição imune'],
+      reference: 'WHO Guidelines for cryptococcal disease in HIV / PCDT HIV (MS)',
+    },
+    {
+      number: 5,
+      statement:
+        'Homem de 38 anos apresenta febre há 5 dias, mialgia intensa em panturrilhas, icterícia rubínica, sufusão conjuntival e oligúria. Relata contato com água de enchente. Creatinina 3,8 mg/dL, potássio 3,0 mEq/L, bilirrubina direta elevada, plaquetas 78.000/mm³. Qual o diagnóstico mais provável?',
+      alternatives: [
+        { letter: 'A', text: 'Hepatite viral aguda.' },
+        { letter: 'B', text: 'Leptospirose na forma de síndrome de Weil.' },
+        { letter: 'C', text: 'Febre amarela.' },
+        { letter: 'D', text: 'Dengue com sinais de alarme.' },
+      ],
+      answerKey: 'B',
+      theme: 'infectologia',
+      subtheme: 'doencas-tropicais',
+      difficulty: 'MEDIA',
+      keywords: ['leptospirose', 'síndrome de Weil', 'insuficiência renal com hipopotassemia', 'sufusão conjuntival', 'icterícia rubínica'],
+      reference: 'Guia de Vigilância em Saúde — Leptospirose (MS)',
+    },
+    {
+      number: 6,
+      statement:
+        'Paciente de 60 anos, em uso de omeprazol e com vômitos persistentes há 4 dias, apresenta gasometria arterial: pH 7,52, pCO2 48 mmHg, bicarbonato 38 mEq/L. Sódio 138 mEq/L, cloro 92 mEq/L, potássio 3,0 mEq/L. Qual o distúrbio ácido-base predominante?',
+      alternatives: [
+        { letter: 'A', text: 'Alcalose respiratória com compensação metabólica.' },
+        { letter: 'B', text: 'Alcalose metabólica com compensação respiratória adequada.' },
+        { letter: 'C', text: 'Acidose metabólica com ânion gap elevado.' },
+        { letter: 'D', text: 'Distúrbio misto com acidose respiratória primária.' },
+      ],
+      answerKey: 'B',
+      theme: 'nefrologia',
+      subtheme: 'disturbios-acido-base',
+      difficulty: 'MEDIA',
+      keywords: ['alcalose metabólica', 'vômitos', 'hipocloremia', 'compensação respiratória', 'gasometria'],
+      reference: 'Fisiologia ácido-base aplicada à clínica',
+    },
+    {
+      number: 7,
+      statement:
+        'Mulher de 52 anos, em uso de prednisona 20 mg/dia há 8 meses por polimialgia reumática, realiza densitometria óssea com T-score de -2,7 em coluna lombar. Não há fratura prévia. Além de cálcio e vitamina D, qual a conduta indicada?',
+      alternatives: [
+        { letter: 'A', text: 'Apenas exercícios de impacto e reavaliação em 2 anos.' },
+        { letter: 'B', text: 'Iniciar bisfosfonato para osteoporose induzida por glicocorticoide.' },
+        { letter: 'C', text: 'Iniciar terapia de reposição hormonal como primeira escolha.' },
+        { letter: 'D', text: 'Suspender abruptamente o corticoide e não iniciar nenhum fármaco.' },
+      ],
+      answerKey: 'B',
+      theme: 'endocrinologia',
+      subtheme: 'metabolismo-osseo',
+      difficulty: 'MEDIA',
+      keywords: ['osteoporose induzida por glicocorticoide', 'bisfosfonato', 'T-score', 'densitometria', 'prevenção de fratura'],
+      reference: 'ACR Guideline for Glucocorticoid-Induced Osteoporosis',
+    },
+    {
+      number: 8,
+      statement:
+        'Homem de 49 anos, etilista, chega com dor abdominal intensa em faixa, irradiada para o dorso, associada a vômitos. Lipase sérica 8 vezes o limite superior. Está hemodinamicamente estável, sem falência orgânica. Qual a conduta inicial mais adequada nas primeiras 24 horas?',
+      alternatives: [
+        { letter: 'A', text: 'Jejum prolongado por 7 dias com nutrição parenteral total.' },
+        { letter: 'B', text: 'Hidratação intravenosa com Ringer lactato, analgesia e dieta oral precoce conforme tolerância.' },
+        { letter: 'C', text: 'Antibioticoterapia profilática de amplo espectro para todos os casos.' },
+        { letter: 'D', text: 'Colangiopancreatografia retrógrada endoscópica de urgência em todos os pacientes.' },
+      ],
+      answerKey: 'B',
+      theme: 'gastroenterologia',
+      subtheme: 'pancreatite',
+      difficulty: 'MEDIA',
+      keywords: ['pancreatite aguda', 'Ringer lactato', 'dieta oral precoce', 'lipase', 'critérios de gravidade'],
+      reference: 'ACG Clinical Guideline — Management of Acute Pancreatitis',
+    },
+    {
+      number: 9,
+      statement:
+        'Mulher de 58 anos apresenta epigastralgia e dispepsia há 6 meses, com teste respiratório da ureia positivo para Helicobacter pylori. Não há sinais de alarme. Após tratamento de erradicação, qual a conduta correta quanto à confirmação de cura?',
+      alternatives: [
+        { letter: 'A', text: 'Repetir sorologia para H. pylori após 4 semanas.' },
+        { letter: 'B', text: 'Realizar teste respiratório ou antígeno fecal ao menos 4 semanas após o fim do antibiótico e 2 semanas sem IBP.' },
+        { letter: 'C', text: 'Nenhum teste de controle é necessário em qualquer situação.' },
+        { letter: 'D', text: 'Repetir endoscopia digestiva alta imediatamente ao término do tratamento.' },
+      ],
+      answerKey: 'B',
+      theme: 'gastroenterologia',
+      subtheme: 'doenca-ulcerosa-peptica',
+      difficulty: 'MEDIA',
+      keywords: ['Helicobacter pylori', 'teste respiratório da ureia', 'controle de cura', 'inibidor de bomba de prótons', 'antígeno fecal'],
+      reference: 'Consenso de Maastricht / Consenso Brasileiro sobre H. pylori',
+    },
+    {
+      number: 10,
+      statement:
+        'Homem de 68 anos em uso de varfarina por fibrilação atrial apresenta INR de 8,5, sem sangramento ativo. Qual a conduta mais adequada?',
+      alternatives: [
+        { letter: 'A', text: 'Suspender a varfarina e administrar vitamina K por via oral.' },
+        { letter: 'B', text: 'Administrar complexo protrombínico e plasma fresco congelado imediatamente.' },
+        { letter: 'C', text: 'Manter a dose e repetir o INR em 7 dias.' },
+        { letter: 'D', text: 'Administrar protamina intravenosa.' },
+      ],
+      answerKey: 'A',
+      theme: 'hematologia',
+      subtheme: 'trombofilia-e-anticoagulacao',
+      difficulty: 'MEDIA',
+      keywords: ['varfarina', 'INR supraterapêutico', 'vitamina K', 'reversão de anticoagulação', 'sangramento'],
+      reference: 'ACCP / ASH Guidelines on anticoagulation management',
+    },
+    {
+      number: 11,
+      statement:
+        'Mulher de 54 anos, sem fatores de risco adicionais e sem história familiar, pergunta sobre rastreamento de câncer colorretal. Está assintomática. De acordo com as recomendações vigentes, qual a orientação adequada?',
+      alternatives: [
+        { letter: 'A', text: 'Nenhum rastreamento é indicado antes dos 70 anos.' },
+        { letter: 'B', text: 'Rastreamento indicado, por colonoscopia ou pesquisa de sangue oculto nas fezes em intervalos definidos.' },
+        { letter: 'C', text: 'Rastreamento apenas com toque retal anual.' },
+        { letter: 'D', text: 'Rastreamento exclusivamente com marcador tumoral CEA sérico anual.' },
+      ],
+      answerKey: 'B',
+      theme: 'oncologia',
+      subtheme: 'rastreamento-oncologico',
+      difficulty: 'FACIL',
+      keywords: ['rastreamento de câncer colorretal', 'colonoscopia', 'sangue oculto nas fezes', 'prevenção secundária', 'risco médio'],
+      reference: 'Diretrizes do INCA / USPSTF para rastreamento de câncer colorretal',
+    },
+    {
+      number: 12,
+      statement:
+        'Em um ensaio clínico randomizado, a incidência de desfecho no grupo intervenção foi de 8% e no grupo controle, de 12%. Qual o número necessário para tratar (NNT) a fim de evitar um desfecho?',
+      alternatives: [
+        { letter: 'A', text: '4' },
+        { letter: 'B', text: '12' },
+        { letter: 'C', text: '25' },
+        { letter: 'D', text: '33' },
+      ],
+      answerKey: 'C',
+      theme: 'medicina-preventiva',
+      subtheme: 'bioestatistica',
+      difficulty: 'MEDIA',
+      keywords: ['NNT', 'redução absoluta de risco', 'ensaio clínico randomizado', 'bioestatística', 'medida de efeito'],
+      reference: 'Medicina baseada em evidências — medidas de efeito',
+    },
+  ],
+};

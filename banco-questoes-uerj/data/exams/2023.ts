@@ -1,0 +1,218 @@
+import type { ExamInput } from '../types';
+
+/** Questões AUTORAIS no estilo da banca — não são transcrições do caderno oficial. */
+export const exam2023: ExamInput = {
+  slug: 'uerj-2023-r-plus-cm-autoral',
+  year: 2023,
+  board: 'UERJ',
+  program: 'R+ Clínica Médica',
+  title: 'UERJ 2023 — R+ Clínica Médica (conjunto autoral no estilo da banca)',
+  source: 'AUTORAL_ESTILO_BANCA',
+  reference: 'Questões autorais para treino; distribuição temática inspirada no perfil histórico da banca.',
+  questions: [
+    {
+      number: 1,
+      statement:
+        'Homem de 48 anos apresenta dor torácica em repouso há 4 horas, já cessada na admissão. ECG mostra infradesnivelamento de ST de 1,5 mm em D2, D3 e aVF. Troponina ultrassensível elevada, com curva ascendente. Encontra-se estável, sem sinais de insuficiência cardíaca, escore GRACE de 152. Qual a conduta indicada?',
+      alternatives: [
+        { letter: 'A', text: 'Trombólise imediata.' },
+        { letter: 'B', text: 'Estratégia invasiva precoce, com coronariografia em até 24 horas.' },
+        { letter: 'C', text: 'Teste ergométrico ambulatorial em 30 dias.' },
+        { letter: 'D', text: 'Tratamento clínico isolado, sem estratificação invasiva.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'sindromes-coronarianas-agudas',
+      difficulty: 'MEDIA',
+      keywords: ['SCA sem supra de ST', 'escore GRACE', 'estratégia invasiva precoce', 'troponina ultrassensível', 'coronariografia'],
+      reference: 'ESC Guidelines for acute coronary syndromes',
+    },
+    {
+      number: 2,
+      statement:
+        'Mulher de 76 anos apresenta dispneia progressiva e síncope aos esforços. Ao exame: sopro sistólico ejetivo rude em foco aórtico com irradiação para carótidas, pulso parvus et tardus e B2 hipofonética. O ecocardiograma mostra área valvar aórtica de 0,7 cm², gradiente médio de 48 mmHg e FEVE preservada. Qual a conduta?',
+      alternatives: [
+        { letter: 'A', text: 'Acompanhamento clínico anual com ecocardiograma seriado.' },
+        { letter: 'B', text: 'Iniciar vasodilatador para reduzir a pós-carga.' },
+        { letter: 'C', text: 'Indicar substituição valvar aórtica.' },
+        { letter: 'D', text: 'Iniciar betabloqueador em dose alta e reavaliar em 6 meses.' },
+      ],
+      answerKey: 'C',
+      theme: 'cardiologia',
+      subtheme: 'valvopatias',
+      difficulty: 'FACIL',
+      keywords: ['estenose aórtica grave', 'sintomas', 'troca valvar', 'TAVI', 'gradiente médio'],
+      reference: 'Diretriz Brasileira de Valvopatias / ACC-AHA Valvular Heart Disease',
+    },
+    {
+      number: 3,
+      statement:
+        'Homem de 40 anos, previamente hígido, apresenta tosse produtiva há 8 semanas, febre vespertina, sudorese noturna e perda de 7 kg. Radiografia de tórax com infiltrado em ápice direito e cavitação. Qual o exame que deve ser priorizado para diagnóstico, conforme as recomendações do Ministério da Saúde?',
+      alternatives: [
+        { letter: 'A', text: 'Baciloscopia de escarro em duas amostras.' },
+        { letter: 'B', text: 'Teste rápido molecular para tuberculose (TRM-TB) no escarro.' },
+        { letter: 'C', text: 'Prova tuberculínica (PPD).' },
+        { letter: 'D', text: 'Tomografia computadorizada de tórax de alta resolução.' },
+      ],
+      answerKey: 'B',
+      theme: 'pneumologia',
+      subtheme: 'tuberculose-pulmonar',
+      difficulty: 'FACIL',
+      keywords: ['tuberculose pulmonar', 'TRM-TB', 'GeneXpert', 'baciloscopia', 'sintomático respiratório'],
+      reference: 'Manual de Recomendações para o Controle da Tuberculose no Brasil (MS)',
+    },
+    {
+      number: 4,
+      statement:
+        'Paciente de 35 anos, retornando de viagem à região amazônica há 12 dias, apresenta febre alta com calafrios em picos, cefaleia, mialgia e icterícia leve. Hemoglobina 9,8 g/dL, plaquetas 62.000/mm³, bilirrubina total 3,4 mg/dL. A gota espessa evidencia formas em anel e trofozoítos com hemácias parasitadas de todos os tamanhos. Qual a conduta inicial?',
+      alternatives: [
+        { letter: 'A', text: 'Iniciar cloroquina e primaquina por 7 dias.' },
+        { letter: 'B', text: 'Iniciar artesunato intravenoso, considerando os critérios de gravidade.' },
+        { letter: 'C', text: 'Aguardar o resultado da sorologia antes de tratar.' },
+        { letter: 'D', text: 'Iniciar doxiciclina isolada por 14 dias.' },
+      ],
+      answerKey: 'B',
+      theme: 'infectologia',
+      subtheme: 'doencas-tropicais',
+      difficulty: 'DIFICIL',
+      keywords: ['malária grave', 'Plasmodium falciparum', 'artesunato', 'gota espessa', 'icterícia'],
+      reference: 'Guia de Tratamento da Malária no Brasil (MS)',
+    },
+    {
+      number: 5,
+      statement:
+        'Homem de 62 anos internado em UTI há 9 dias, em ventilação mecânica, evolui com febre, aumento de secreção traqueal purulenta, novo infiltrado radiológico e piora dos parâmetros ventilatórios. Não recebeu antibiótico nos últimos 90 dias, mas a unidade tem alta prevalência de Pseudomonas aeruginosa multirresistente. Qual a conduta empírica mais adequada?',
+      alternatives: [
+        { letter: 'A', text: 'Ceftriaxona isolada.' },
+        { letter: 'B', text: 'Antibiótico com cobertura antipseudomonas associado a cobertura para MRSA.' },
+        { letter: 'C', text: 'Azitromicina associada a amoxicilina-clavulanato.' },
+        { letter: 'D', text: 'Aguardar o resultado da cultura do aspirado traqueal antes de iniciar antibiótico.' },
+      ],
+      answerKey: 'B',
+      theme: 'infectologia',
+      subtheme: 'infeccoes-relacionadas-assistencia',
+      difficulty: 'MEDIA',
+      keywords: ['pneumonia associada à ventilação mecânica', 'Pseudomonas', 'MRSA', 'antibioticoterapia empírica', 'multirresistência'],
+      reference: 'IDSA/ATS Guidelines for HAP/VAP',
+    },
+    {
+      number: 6,
+      statement:
+        'Mulher de 34 anos, previamente hígida, apresenta edema periorbitário e de membros inferiores há 3 semanas. Exames: proteinúria de 8,2 g/24h, albumina sérica 1,9 g/dL, colesterol total 380 mg/dL, creatinina 0,8 mg/dL, sedimento urinário sem hematúria dismórfica. Sorologias e complemento normais. Qual a causa mais provável de síndrome nefrótica primária nessa faixa etária em adultos?',
+      alternatives: [
+        { letter: 'A', text: 'Glomeruloesclerose segmentar e focal.' },
+        { letter: 'B', text: 'Glomerulonefrite pós-estreptocócica.' },
+        { letter: 'C', text: 'Nefropatia por IgA.' },
+        { letter: 'D', text: 'Glomerulonefrite membranoproliferativa.' },
+      ],
+      answerKey: 'A',
+      theme: 'nefrologia',
+      subtheme: 'glomerulopatias',
+      difficulty: 'DIFICIL',
+      keywords: ['síndrome nefrótica', 'GESF', 'proteinúria nefrótica', 'biópsia renal', 'hipoalbuminemia'],
+      reference: 'KDIGO Glomerular Diseases Guideline',
+    },
+    {
+      number: 7,
+      statement:
+        'Homem de 68 anos, diabético e hipertenso, tem TFG estimada de 26 mL/min/1,73 m² e albuminúria de 900 mg/g. Encontra-se assintomático, com potássio 4,8 mEq/L, bicarbonato 19 mEq/L, hemoglobina 10,2 g/dL e fósforo 5,4 mg/dL. Além do controle pressórico e glicêmico, qual medida é prioritária no manejo da doença renal crônica neste estágio?',
+      alternatives: [
+        { letter: 'A', text: 'Iniciar diálise imediatamente, pela TFG abaixo de 30 mL/min.' },
+        { letter: 'B', text: 'Corrigir a acidose metabólica com bicarbonato oral e controlar o fósforo.' },
+        { letter: 'C', text: 'Suspender o inibidor da ECA por risco de progressão.' },
+        { letter: 'D', text: 'Iniciar reposição de ferro parenteral independentemente dos índices de ferro.' },
+      ],
+      answerKey: 'B',
+      theme: 'nefrologia',
+      subtheme: 'doenca-renal-cronica',
+      difficulty: 'MEDIA',
+      keywords: ['doença renal crônica', 'acidose metabólica', 'hiperfosfatemia', 'albuminúria', 'KDIGO'],
+      reference: 'KDIGO CKD Evaluation and Management Guideline',
+    },
+    {
+      number: 8,
+      statement:
+        'Mulher de 42 anos apresenta perda ponderal, palpitações, tremor fino e intolerância ao calor. Ao exame: bócio difuso com sopro, exoftalmia e taquicardia. TSH suprimido e T4 livre elevado. A captação de iodo radioativo está difusamente aumentada. Qual o diagnóstico?',
+      alternatives: [
+        { letter: 'A', text: 'Tireoidite subaguda de De Quervain.' },
+        { letter: 'B', text: 'Doença de Graves.' },
+        { letter: 'C', text: 'Bócio multinodular tóxico.' },
+        { letter: 'D', text: 'Tireotoxicose factícia.' },
+      ],
+      answerKey: 'B',
+      theme: 'endocrinologia',
+      subtheme: 'tireoide',
+      difficulty: 'FACIL',
+      keywords: ['doença de Graves', 'hipertireoidismo', 'captação de iodo', 'oftalmopatia', 'TRAb'],
+      reference: 'ATA Guidelines for Hyperthyroidism',
+    },
+    {
+      number: 9,
+      statement:
+        'Homem de 29 anos com diarreia crônica, dor abdominal em quadrante inferior direito, perda de peso e fístula perianal. A colonoscopia mostra lesões salteadas com aspecto em pedra de calçamento no íleo terminal e cólon ascendente, com mucosa retal preservada. Qual o diagnóstico mais provável?',
+      alternatives: [
+        { letter: 'A', text: 'Retocolite ulcerativa.' },
+        { letter: 'B', text: 'Doença de Crohn.' },
+        { letter: 'C', text: 'Colite pseudomembranosa.' },
+        { letter: 'D', text: 'Doença celíaca.' },
+      ],
+      answerKey: 'B',
+      theme: 'gastroenterologia',
+      subtheme: 'doenca-inflamatoria-intestinal',
+      difficulty: 'FACIL',
+      keywords: ['doença de Crohn', 'lesões salteadas', 'fístula perianal', 'íleo terminal', 'pedra de calçamento'],
+      reference: 'ECCO Guidelines on Crohn’s Disease',
+    },
+    {
+      number: 10,
+      statement:
+        'Mulher de 63 anos, tabagista, apresenta cefaleia, náuseas e confusão. Sódio sérico de 116 mEq/L, osmolalidade urinária elevada e euvolemia. A tomografia de tórax revela massa hilar de 4 cm. Qual a síndrome paraneoplásica mais provavelmente associada e o tipo histológico correspondente?',
+      alternatives: [
+        { letter: 'A', text: 'Hipercalcemia por PTHrP, associada ao carcinoma escamoso.' },
+        { letter: 'B', text: 'SIADH, associada ao carcinoma de pequenas células.' },
+        { letter: 'C', text: 'Síndrome de Cushing ectópica, associada ao adenocarcinoma.' },
+        { letter: 'D', text: 'Síndrome miastênica de Lambert-Eaton, associada ao carcinoma escamoso.' },
+      ],
+      answerKey: 'B',
+      theme: 'oncologia',
+      subtheme: 'emergencias-oncologicas',
+      difficulty: 'MEDIA',
+      keywords: ['SIADH paraneoplásica', 'carcinoma de pequenas células', 'hiponatremia', 'câncer de pulmão', 'síndrome paraneoplásica'],
+      reference: 'NCCN Guidelines — Small Cell Lung Cancer',
+    },
+    {
+      number: 11,
+      statement:
+        'Homem de 82 anos, internado por fratura de fêmur, apresenta no segundo dia pós-operatório desorientação flutuante, alteração do ciclo sono-vigília, desatenção e alucinações visuais. Não havia déficit cognitivo prévio relevante. Qual a conduta inicial mais adequada?',
+      alternatives: [
+        { letter: 'A', text: 'Iniciar haloperidol profilático em todos os idosos internados.' },
+        { letter: 'B', text: 'Investigar e corrigir causas precipitantes, priorizando medidas não farmacológicas.' },
+        { letter: 'C', text: 'Iniciar benzodiazepínico para regularizar o ciclo do sono.' },
+        { letter: 'D', text: 'Iniciar inibidor da colinesterase para tratamento do quadro agudo.' },
+      ],
+      answerKey: 'B',
+      theme: 'geriatria',
+      subtheme: 'delirium',
+      difficulty: 'FACIL',
+      keywords: ['delirium', 'CAM', 'medidas não farmacológicas', 'fatores precipitantes', 'idoso hospitalizado'],
+      reference: 'NICE Guideline — Delirium: prevention, diagnosis and management',
+    },
+    {
+      number: 12,
+      statement:
+        'Mulher de 55 anos apresenta cefaleia temporal de início recente, claudicação de mandíbula, dor à palpação da artéria temporal e VHS de 96 mm/h. Refere episódio de amaurose fugaz no olho direito ontem. Qual a conduta imediata?',
+      alternatives: [
+        { letter: 'A', text: 'Aguardar a biópsia de artéria temporal antes de iniciar qualquer tratamento.' },
+        { letter: 'B', text: 'Iniciar corticoterapia em dose alta imediatamente e programar a biópsia.' },
+        { letter: 'C', text: 'Iniciar anti-inflamatório não esteroidal e reavaliar em uma semana.' },
+        { letter: 'D', text: 'Solicitar angiorressonância cerebral e adiar o tratamento até o resultado.' },
+      ],
+      answerKey: 'B',
+      theme: 'reumatologia',
+      subtheme: 'vasculites',
+      difficulty: 'MEDIA',
+      keywords: ['arterite de células gigantes', 'amaurose fugaz', 'corticoterapia', 'VHS', 'biópsia de artéria temporal'],
+      reference: 'EULAR recommendations for large vessel vasculitis',
+    },
+  ],
+};

@@ -1,0 +1,332 @@
+// Banco de Questões R+ Clínica Médica — UERJ
+// PostgreSQL (compatível com Supabase).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Enums
+// ---------------------------------------------------------------------------
+
+enum Difficulty {
+  FACIL
+  MEDIA
+  DIFICIL
+}
+
+/// Status da questão para um usuário específico.
+enum QuestionStatus {
+  NAO_FEITA
+  ACERTOU
+  ERROU
+  REVISAR
+}
+
+/// Procedência do item. Distingue prova real transcrita de questão autoral.
+enum QuestionSource {
+  /// Transcrição de prova oficial aplicada pela banca.
+  PROVA_OFICIAL
+  /// Questão autoral escrita no estilo da banca (simulado / treino).
+  AUTORAL_ESTILO_BANCA
+}
+
+enum QuizMode {
+  ALEATORIO
+  POR_TEMA
+  POR_INCIDENCIA
+  APENAS_ERRADAS
+  APENAS_REVISAO
+  SIMULADO_INEDITO
+}
+
+enum QuizStatus {
+  EM_ANDAMENTO
+  FINALIZADO
+  ABANDONADO
+}
+
+// ---------------------------------------------------------------------------
+// Taxonomia
+// ---------------------------------------------------------------------------
+
+model Theme {
+  id        String     @id @default(cuid())
+  slug      String     @unique
+  name      String
+  /// Ordem de exibição sugerida (não é ranking; ranking vive em ThemeStat).
+  order     Int        @default(0)
+  createdAt DateTime   @default(now())
+
+  subthemes Subtheme[]
+  questions Question[]
+  stat      ThemeStat?
+
+  @@map("themes")
+}
+
+model Subtheme {
+  id      String @id @default(cuid())
+  slug    String @unique
+  name    String
+  themeId String
+
+  theme     Theme         @relation(fields: [themeId], references: [id], onDelete: Cascade)
+  questions Question[]
+  stat      SubthemeStat?
+
+  @@index([themeId])
+  @@map("subthemes")
+}
+
+// ---------------------------------------------------------------------------
+// Provas e questões
+// ---------------------------------------------------------------------------
+
+model Exam {
+  id        String         @id @default(cuid())
+  /// Identificador estável usado pelo importador (ex.: "uerj-2024-r-plus-cm").
+  slug      String         @unique
+  year      Int
+  board     String         @default("UERJ")
+  /// Ex.: "R+ Clínica Médica".
+  program   String         @default("R+ Clínica Médica")
+  title     String
+  source    QuestionSource @default(PROVA_OFICIAL)
+  /// Observações de procedência (URL do caderno, edital, etc.).
+  reference String?
+  /// Simulados inéditos são derivados da análise; incluí-los no cálculo de
+  /// incidência realimentaria o próprio ranking. Ficam de fora das estatísticas.
+  excludeFromStats Boolean  @default(false)
+  appliedAt DateTime?
+  createdAt DateTime       @default(now())
+
+  questions Question[]
+
+  @@index([year])
+  @@map("exams")
+}
+
+model Question {
+  id     String @id @default(cuid())
+  /// Identificador estável de importação: evita duplicar ao reimportar a prova.
+  extId  String @unique
+  examId String
+  year   Int
+  /// Número da questão dentro do caderno.
+  number Int
+
+  statement String     @db.Text
+  /// Letra da alternativa correta ("A".."E"). Nunca é enviada ao cliente
+  /// antes de o usuário responder — ver src/lib/serializers.ts.
+  answerKey String
+  themeId   String
+  subthemeId String?
+  difficulty Difficulty @default(MEDIA)
+  keywords   String[]   @default([])
+  source     QuestionSource @default(PROVA_OFICIAL)
+  /// Referência bibliográfica/diretriz informada na importação (opcional).
+  reference  String?
+
+  /// Frequência histórica do tema desta questão, desnormalizada para permitir
+  /// ordenar/filtrar o banco sem join. Recalculada por scripts/recompute.ts.
+  themeFrequency Float @default(0)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  exam        Exam                @relation(fields: [examId], references: [id], onDelete: Cascade)
+  theme       Theme               @relation(fields: [themeId], references: [id])
+  subtheme    Subtheme?           @relation(fields: [subthemeId], references: [id])
+  alternatives Alternative[]
+  userStates  UserQuestionState[]
+  attempts    Attempt[]
+  explanations Explanation[]
+  quizItems   QuizItem[]
+
+  @@index([year])
+  @@index([themeId])
+  @@index([subthemeId])
+  @@index([difficulty])
+  @@index([themeFrequency])
+  @@map("questions")
+}
+
+model Alternative {
+  id         String @id @default(cuid())
+  questionId String
+  /// "A", "B", "C", "D", "E".
+  letter     String
+  text       String @db.Text
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, letter])
+  @@index([questionId])
+  @@map("alternatives")
+}
+
+// ---------------------------------------------------------------------------
+// Estatísticas de incidência (derivadas — sempre recalculáveis)
+// ---------------------------------------------------------------------------
+
+model ThemeStat {
+  themeId String @id
+  /// Nº de questões do tema no corpus.
+  total   Int    @default(0)
+  /// Participação percentual sobre o total de questões (0–100).
+  percent Float  @default(0)
+  /// Percentual acumulado após ordenar por incidência decrescente (curva de Pareto).
+  cumulativePercent Float @default(0)
+  /// Posição no ranking de incidência (1 = mais cobrado).
+  rank    Int    @default(0)
+  /// True enquanto o acumulado não ultrapassa o corte de 80% (lista 80/20).
+  isPareto Boolean @default(false)
+  /// Nº de questões por ano, ex.: { "2021": 6, "2022": 8 }.
+  perYear  Json    @default("{}")
+  /// Dificuldade média (1 = fácil, 2 = média, 3 = difícil).
+  avgDifficulty Float @default(0)
+  computedAt DateTime @default(now())
+
+  theme Theme @relation(fields: [themeId], references: [id], onDelete: Cascade)
+
+  @@index([rank])
+  @@map("theme_stats")
+}
+
+model SubthemeStat {
+  subthemeId String @id
+  total      Int    @default(0)
+  percent    Float  @default(0)
+  rank       Int    @default(0)
+  perYear    Json   @default("{}")
+  avgDifficulty Float @default(0)
+  computedAt DateTime @default(now())
+
+  subtheme Subtheme @relation(fields: [subthemeId], references: [id], onDelete: Cascade)
+
+  @@index([rank])
+  @@map("subtheme_stats")
+}
+
+/// Uma linha por recomputação, para auditar a evolução do corpus.
+model AnalysisSnapshot {
+  id             String   @id @default(cuid())
+  totalQuestions Int
+  totalExams     Int
+  years          Int[]    @default([])
+  paretoCutoff   Float    @default(80)
+  /// Ranking completo serializado no momento do cálculo.
+  payload        Json
+  createdAt      DateTime @default(now())
+
+  @@map("analysis_snapshots")
+}
+
+// ---------------------------------------------------------------------------
+// Progresso do usuário
+// ---------------------------------------------------------------------------
+
+model UserQuestionState {
+  id         String         @id @default(cuid())
+  userId     String
+  questionId String
+  status     QuestionStatus @default(NAO_FEITA)
+  favorite   Boolean        @default(false)
+  notes      String?        @db.Text
+  attemptCount Int          @default(0)
+  correctCount Int          @default(0)
+  lastAnsweredAt DateTime?
+  updatedAt  DateTime       @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, questionId])
+  @@index([userId, status])
+  @@index([userId, favorite])
+  @@map("user_question_states")
+}
+
+model Attempt {
+  id            String   @id @default(cuid())
+  userId        String
+  questionId    String
+  selectedLetter String
+  correct       Boolean
+  /// Tempo gasto em segundos, se o cliente informar.
+  elapsedSeconds Int?
+  quizId        String?
+  createdAt     DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  quiz     Quiz?    @relation(fields: [quizId], references: [id], onDelete: SetNull)
+
+  @@index([userId, createdAt])
+  @@index([questionId])
+  @@index([quizId])
+  @@map("attempts")
+}
+
+/// Explicação gerada pelo Claude — criada APENAS sob demanda, no clique do
+/// botão "Explicar com Claude". Nunca é pré-gerada no seed nem na importação.
+model Explanation {
+  id         String   @id @default(cuid())
+  questionId String
+  /// Null = explicação compartilhável (gerada sem contexto de resposta do usuário).
+  userId     String?
+  model      String
+  content    String   @db.Text
+  /// Letra que o usuário marcou quando pediu a explicação (contextualiza o texto).
+  selectedLetter String?
+  createdAt  DateTime @default(now())
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId, userId])
+  @@map("explanations")
+}
+
+// ---------------------------------------------------------------------------
+// Simulados
+// ---------------------------------------------------------------------------
+
+model Quiz {
+  id        String     @id @default(cuid())
+  userId    String
+  title     String
+  mode      QuizMode
+  status    QuizStatus @default(EM_ANDAMENTO)
+  /// Configuração usada para montar o simulado (filtros, tamanho, blueprint).
+  config    Json       @default("{}")
+  createdAt DateTime   @default(now())
+  finishedAt DateTime?
+
+  items    QuizItem[]
+  attempts Attempt[]
+
+  @@index([userId, createdAt])
+  @@map("quizzes")
+}
+
+model QuizItem {
+  id         String  @id @default(cuid())
+  quizId     String
+  questionId String
+  position   Int
+  selectedLetter String?
+  correct    Boolean?
+  answeredAt DateTime?
+
+  quiz     Quiz     @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([quizId, position])
+  @@index([quizId])
+  @@map("quiz_items")
+}

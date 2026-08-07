@@ -1,14 +1,28 @@
-# Gastos do mês
+# Flashcards
 
-Interface para lançar gastos mensais (pela web ou pelo WhatsApp), categorizados automaticamente por palavras-chave.
+Repositório com dois projetos independentes.
 
-## Estrutura
+## `banco-questoes-uerj/`
+
+Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**: análise de incidência
+por tema, ranking 80/20, simulados em 6 modos e explicações geradas sob demanda pelo Claude.
+
+Next.js 15 + TypeScript + TailwindCSS + Prisma/PostgreSQL (Supabase).
+
+Ver [`banco-questoes-uerj/README.md`](banco-questoes-uerj/README.md).
+
+## `server/`, `public/`, `shared/` — Gastos do mês
+
+Interface para lançar gastos mensais (pela web ou pelo WhatsApp), categorizados automaticamente por
+palavras-chave.
+
+### Estrutura
 
 - `public/` — frontend (HTML/CSS/JS estático, sem build).
 - `shared/categorize.js` — lógica de categorização, usada tanto pelo frontend quanto pelo backend.
 - `server/` — backend Node/Express: API REST de despesas + webhook do WhatsApp Cloud API.
 
-## Rodando localmente
+### Rodando localmente
 
 ```bash
 cd server
@@ -19,9 +33,10 @@ npm start
 
 Acesse `http://localhost:3000`. Os dados ficam em `server/data/expenses.json`.
 
-Sem preencher as variáveis do WhatsApp no `.env`, a interface web funciona normalmente — só o webhook fica inativo.
+Sem preencher as variáveis do WhatsApp no `.env`, a interface web funciona normalmente — só o
+webhook fica inativo.
 
-## Integrando com o WhatsApp (Meta Cloud API)
+### Integrando com o WhatsApp (Meta Cloud API)
 
 1. **Crie um app no Meta for Developers**: acesse https://developers.facebook.com/apps, crie um app do tipo "Business" e adicione o produto **WhatsApp**.
 2. **Pegue as credenciais de teste**: em *WhatsApp > API Setup* você já tem um número de teste, um `Temporary access token` e o `Phone number ID`. Copie-os para `WHATSAPP_ACCESS_TOKEN` e `WHATSAPP_PHONE_NUMBER_ID` no `.env`.
@@ -38,7 +53,7 @@ Sem preencher as variáveis do WhatsApp no `.env`, a interface web funciona norm
 7. **Restrinja quem pode lançar gastos**: adicione seu número (formato `5521999999999`, sem `+`) em `WHATSAPP_ALLOWED_SENDERS` no `.env`. Sem isso, qualquer pessoa que enviar mensagem para o número da Meta consegue criar gastos.
 8. **Reinicie o servidor** (`npm start`) para carregar o `.env`.
 
-### Como lançar gastos pelo WhatsApp
+#### Como lançar gastos pelo WhatsApp
 
 Envie uma mensagem de texto para o número configurado, no formato `valor descrição`:
 
@@ -50,7 +65,7 @@ Envie uma mensagem de texto para o número configurado, no formato `valor descri
 
 O bot responde confirmando o valor, a descrição e a categoria detectada automaticamente. Você ainda pode corrigir a categoria depois pela interface web.
 
-### Observações
+#### Observações
 
 - No modo de teste (número de teste da Meta), só números previamente adicionados como "testadores" em *API Setup* conseguem enviar mensagens ao bot.
 - Para atender qualquer número sem essa restrição, é preciso submeter o app para revisão da Meta e usar um número de telefone comercial verificado.

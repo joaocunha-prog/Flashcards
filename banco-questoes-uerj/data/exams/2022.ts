@@ -1,0 +1,218 @@
+import type { ExamInput } from '../types';
+
+/** Questões AUTORAIS no estilo da banca — não são transcrições do caderno oficial. */
+export const exam2022: ExamInput = {
+  slug: 'uerj-2022-r-plus-cm-autoral',
+  year: 2022,
+  board: 'UERJ',
+  program: 'R+ Clínica Médica',
+  title: 'UERJ 2022 — R+ Clínica Médica (conjunto autoral no estilo da banca)',
+  source: 'AUTORAL_ESTILO_BANCA',
+  reference: 'Questões autorais para treino; distribuição temática inspirada no perfil histórico da banca.',
+  questions: [
+    {
+      number: 1,
+      statement:
+        'Homem de 71 anos, com fibrilação atrial permanente, hipertensão e diabetes, apresenta clearance de creatinina de 55 mL/min. Não tem prótese valvar nem estenose mitral moderada a grave. Escore CHA2DS2-VASc de 4 e HAS-BLED de 2. Qual a conduta antitrombótica indicada?',
+      alternatives: [
+        { letter: 'A', text: 'AAS 100 mg/dia isoladamente.' },
+        { letter: 'B', text: 'Anticoagulante oral direto em dose ajustada para a função renal.' },
+        { letter: 'C', text: 'Dupla antiagregação com AAS e clopidogrel.' },
+        { letter: 'D', text: 'Nenhuma terapia antitrombótica, dado o risco de sangramento.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'arritmias',
+      difficulty: 'FACIL',
+      keywords: ['fibrilação atrial', 'CHA2DS2-VASc', 'DOAC', 'anticoagulação', 'HAS-BLED'],
+      reference: 'Diretriz Brasileira de Fibrilação Atrial / ESC AF Guidelines',
+    },
+    {
+      number: 2,
+      statement:
+        'Mulher de 44 anos com hipertensão de difícil controle, em uso de três anti-hipertensivos incluindo diurético. Apresenta hipopotassemia espontânea (K 3,0 mEq/L) e alcalose metabólica leve. A relação aldosterona/atividade de renina plasmática está elevada. Qual a hipótese diagnóstica mais provável?',
+      alternatives: [
+        { letter: 'A', text: 'Feocromocitoma.' },
+        { letter: 'B', text: 'Hiperaldosteronismo primário.' },
+        { letter: 'C', text: 'Estenose de artéria renal.' },
+        { letter: 'D', text: 'Síndrome de Cushing.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'hipertensao-arterial',
+      difficulty: 'MEDIA',
+      keywords: ['hipertensão resistente', 'hiperaldosteronismo primário', 'hipopotassemia', 'relação aldosterona/renina', 'hipertensão secundária'],
+      reference: 'Diretrizes Brasileiras de Hipertensão Arterial',
+    },
+    {
+      number: 3,
+      statement:
+        'Homem de 64 anos, tabagista de 50 anos-maço, com dispneia progressiva. Espirometria pós-broncodilatador: VEF1/CVF 0,58 e VEF1 46% do previsto. Teve duas exacerbações moderadas no último ano, mMRC 2, eosinófilos sanguíneos de 340/mm³. Qual o esquema inalatório inicial mais adequado?',
+      alternatives: [
+        { letter: 'A', text: 'Corticoide inalatório isolado.' },
+        { letter: 'B', text: 'Broncodilatador de curta duração por demanda apenas.' },
+        { letter: 'C', text: 'Associação de LABA e LAMA.' },
+        { letter: 'D', text: 'Corticoide oral contínuo em dose baixa.' },
+      ],
+      answerKey: 'C',
+      theme: 'pneumologia',
+      subtheme: 'dpoc',
+      difficulty: 'MEDIA',
+      keywords: ['DPOC', 'GOLD', 'LABA', 'LAMA', 'exacerbação', 'espirometria'],
+      reference: 'GOLD — Global Strategy for Diagnosis, Management and Prevention of COPD',
+    },
+    {
+      number: 4,
+      statement:
+        'Mulher de 38 anos, em pós-operatório de artroplastia de joelho há 6 dias, apresenta dispneia súbita e dor torácica pleurítica. FC 118 bpm, FR 26 irpm, PA 118x72 mmHg, SatO2 91% em ar ambiente. Ausculta pulmonar sem alterações. Não há hipotensão nem disfunção de ventrículo direito. Qual a conduta diagnóstica mais apropriada?',
+      alternatives: [
+        { letter: 'A', text: 'Solicitar D-dímero e liberar caso venha negativo.' },
+        { letter: 'B', text: 'Solicitar angiotomografia de tórax.' },
+        { letter: 'C', text: 'Solicitar radiografia de tórax e, se normal, descartar o diagnóstico.' },
+        { letter: 'D', text: 'Realizar ecocardiograma transtorácico como exame confirmatório.' },
+      ],
+      answerKey: 'B',
+      theme: 'pneumologia',
+      subtheme: 'tromboembolismo-pulmonar',
+      difficulty: 'MEDIA',
+      keywords: ['tromboembolismo pulmonar', 'escore de Wells', 'D-dímero', 'angiotomografia', 'probabilidade pré-teste'],
+      reference: 'ESC Guidelines on acute pulmonary embolism',
+    },
+    {
+      number: 5,
+      statement:
+        'Paciente de 26 anos apresenta febre alta, cefaleia intensa, rigidez de nuca e rash petequial de instalação em 12 horas. Está sonolento, sem déficit focal e sem papiledema. Qual a sequência de conduta mais adequada?',
+      alternatives: [
+        { letter: 'A', text: 'Tomografia de crânio, depois punção lombar e só então antibiótico.' },
+        { letter: 'B', text: 'Coletar hemoculturas, iniciar antibiótico e dexametasona, e realizar punção lombar em seguida.' },
+        { letter: 'C', text: 'Iniciar aciclovir isolado e aguardar o resultado do líquor.' },
+        { letter: 'D', text: 'Realizar punção lombar apenas após 24 horas de antibioticoterapia.' },
+      ],
+      answerKey: 'B',
+      theme: 'infectologia',
+      subtheme: 'meningites',
+      difficulty: 'MEDIA',
+      keywords: ['meningite bacteriana', 'meningococcemia', 'dexametasona', 'punção lombar', 'antibioticoterapia empírica'],
+      reference: 'IDSA Practice Guidelines for Bacterial Meningitis',
+    },
+    {
+      number: 6,
+      statement:
+        'Homem de 60 anos, em uso crônico de omeprazol e hidroclorotiazida, apresenta sódio sérico de 118 mEq/L. Está euvolêmico, com osmolalidade sérica de 248 mOsm/kg, osmolalidade urinária de 480 mOsm/kg e sódio urinário de 55 mEq/L. Função tireoidiana e cortisol normais. Qual o diagnóstico e a conduta inicial?',
+      alternatives: [
+        { letter: 'A', text: 'Hiponatremia hipovolêmica; expandir com salina isotônica em bolus.' },
+        { letter: 'B', text: 'SIADH; restringir água livre e suspender o fármaco desencadeante.' },
+        { letter: 'C', text: 'Pseudo-hiponatremia; nenhuma intervenção necessária.' },
+        { letter: 'D', text: 'Hiponatremia hipervolêmica; iniciar furosemida em dose alta.' },
+      ],
+      answerKey: 'B',
+      theme: 'nefrologia',
+      subtheme: 'disturbios-hidroeletroliticos',
+      difficulty: 'MEDIA',
+      keywords: ['hiponatremia', 'SIADH', 'osmolalidade urinária', 'restrição hídrica', 'tiazídico'],
+      reference: 'European Clinical Practice Guideline on diagnosis and treatment of hyponatraemia',
+    },
+    {
+      number: 7,
+      statement:
+        'Mulher de 30 anos chega à emergência com poliúria, polidipsia, dor abdominal e vômitos. Glicemia 480 mg/dL, pH 7,08, bicarbonato 9 mEq/L, ânion gap 26, cetonúria 3+, potássio sérico 3,1 mEq/L. Qual a primeira medida terapêutica?',
+      alternatives: [
+        { letter: 'A', text: 'Iniciar insulina regular intravenosa em infusão contínua imediatamente.' },
+        { letter: 'B', text: 'Administrar bicarbonato de sódio para corrigir a acidose.' },
+        { letter: 'C', text: 'Repor potássio e hidratar antes de iniciar a insulina.' },
+        { letter: 'D', text: 'Iniciar insulina subcutânea de ação rápida a cada 4 horas.' },
+      ],
+      answerKey: 'C',
+      theme: 'endocrinologia',
+      subtheme: 'emergencias-diabeticas',
+      difficulty: 'MEDIA',
+      keywords: ['cetoacidose diabética', 'hipopotassemia', 'reposição de potássio', 'insulinoterapia', 'ânion gap'],
+      reference: 'Diretriz da Sociedade Brasileira de Diabetes — crises hiperglicêmicas',
+    },
+    {
+      number: 8,
+      statement:
+        'Homem de 52 anos, cirrótico Child-Pugh B, apresenta hematêmese volumosa. Após estabilização hemodinâmica e início de terlipressina e antibioticoprofilaxia, a endoscopia mostra varizes esofágicas de grosso calibre com sangramento ativo, tratadas com ligadura elástica. Qual estratégia transfusional é a mais adequada durante a ressuscitação?',
+      alternatives: [
+        { letter: 'A', text: 'Transfusão restritiva, com alvo de hemoglobina em torno de 7 g/dL.' },
+        { letter: 'B', text: 'Transfusão liberal, com alvo de hemoglobina acima de 10 g/dL.' },
+        { letter: 'C', text: 'Transfusão apenas se a hemoglobina cair abaixo de 5 g/dL.' },
+        { letter: 'D', text: 'Transfusão de plasma fresco congelado para todos, independentemente do INR.' },
+      ],
+      answerKey: 'A',
+      theme: 'gastroenterologia',
+      subtheme: 'hemorragia-digestiva',
+      difficulty: 'MEDIA',
+      keywords: ['hemorragia digestiva alta varicosa', 'estratégia transfusional restritiva', 'terlipressina', 'ligadura elástica', 'cirrose'],
+      reference: 'Consenso de Baveno / AASLD sobre hipertensão portal',
+    },
+    {
+      number: 9,
+      statement:
+        'Mulher de 24 anos apresenta petéquias e equimoses há 10 dias. Plaquetas 9.000/mm³, hemoglobina 13,2 g/dL, leucócitos 6.800/mm³ com diferencial normal. Esfregaço sem esquizócitos. Coagulograma normal. Sem esplenomegalia, sem uso de medicamentos e sorologias negativas. Qual o diagnóstico mais provável?',
+      alternatives: [
+        { letter: 'A', text: 'Púrpura trombocitopênica trombótica.' },
+        { letter: 'B', text: 'Coagulação intravascular disseminada.' },
+        { letter: 'C', text: 'Trombocitopenia imune primária.' },
+        { letter: 'D', text: 'Aplasia de medula óssea.' },
+      ],
+      answerKey: 'C',
+      theme: 'hematologia',
+      subtheme: 'disturbios-hemostasia',
+      difficulty: 'FACIL',
+      keywords: ['PTI', 'trombocitopenia', 'diagnóstico de exclusão', 'esquizócitos', 'púrpura'],
+      reference: 'ASH Guidelines for Immune Thrombocytopenia',
+    },
+    {
+      number: 10,
+      statement:
+        'Homem de 55 anos, obeso e etilista, chega com monoartrite aguda de joelho, com dor intensa, calor e derrame articular. Temperatura axilar 37,9 °C. A artrocentese revela líquido com 28.000 leucócitos/mm³, predomínio de polimorfonucleares, e cristais em forma de agulha com forte birrefringência negativa à luz polarizada. Cultura em andamento. Qual a conduta?',
+      alternatives: [
+        { letter: 'A', text: 'Iniciar anti-inflamatório ou corticoide, pois o achado é típico de gota.' },
+        { letter: 'B', text: 'Iniciar alopurinol em dose alta imediatamente para reduzir o ácido úrico.' },
+        { letter: 'C', text: 'Iniciar antibioticoterapia empírica e descartar cristais como achado incidental.' },
+        { letter: 'D', text: 'Indicar artroscopia de urgência para lavagem articular.' },
+      ],
+      answerKey: 'A',
+      theme: 'reumatologia',
+      subtheme: 'artrites-microcristalinas',
+      difficulty: 'MEDIA',
+      keywords: ['gota', 'urato monossódico', 'birrefringência negativa', 'artrocentese', 'monoartrite aguda'],
+      reference: 'ACR Guideline for the Management of Gout',
+    },
+    {
+      number: 11,
+      statement:
+        'Paciente de 58 anos é encontrado inconsciente em casa. À admissão: Glasgow 7, pupilas mióticas, FR 8 irpm, SatO2 84%. Há frascos de analgésicos opioides ao lado. Qual a conduta imediata?',
+      alternatives: [
+        { letter: 'A', text: 'Administrar flumazenil intravenoso.' },
+        { letter: 'B', text: 'Garantir ventilação e administrar naloxona.' },
+        { letter: 'C', text: 'Realizar lavagem gástrica com carvão ativado.' },
+        { letter: 'D', text: 'Administrar bicarbonato de sódio para alcalinizar a urina.' },
+      ],
+      answerKey: 'B',
+      theme: 'emergencias-e-terapia-intensiva',
+      subtheme: 'intoxicacoes',
+      difficulty: 'FACIL',
+      keywords: ['intoxicação por opioides', 'naloxona', 'miose', 'depressão respiratória', 'antídoto'],
+      reference: 'Protocolos de toxicologia clínica — antídotos',
+    },
+    {
+      number: 12,
+      statement:
+        'Um novo teste diagnóstico para determinada doença apresenta sensibilidade de 95% e especificidade de 90%. Ele é aplicado em uma população em que a prevalência da doença é de 1%. Qual afirmativa é correta a respeito do desempenho do teste nessa população?',
+      alternatives: [
+        { letter: 'A', text: 'O valor preditivo positivo será alto, pois a sensibilidade é elevada.' },
+        { letter: 'B', text: 'O valor preditivo positivo será baixo, pois a prevalência é baixa.' },
+        { letter: 'C', text: 'O valor preditivo negativo será baixo devido à especificidade.' },
+        { letter: 'D', text: 'Os valores preditivos independem da prevalência da doença.' },
+      ],
+      answerKey: 'B',
+      theme: 'medicina-preventiva',
+      subtheme: 'epidemiologia-clinica',
+      difficulty: 'MEDIA',
+      keywords: ['valor preditivo positivo', 'prevalência', 'sensibilidade', 'especificidade', 'teorema de Bayes'],
+      reference: 'Epidemiologia clínica — testes diagnósticos',
+    },
+  ],
+};

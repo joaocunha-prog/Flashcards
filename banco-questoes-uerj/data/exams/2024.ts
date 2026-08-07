@@ -1,0 +1,218 @@
+import type { ExamInput } from '../types';
+
+/** Questões AUTORAIS no estilo da banca — não são transcrições do caderno oficial. */
+export const exam2024: ExamInput = {
+  slug: 'uerj-2024-r-plus-cm-autoral',
+  year: 2024,
+  board: 'UERJ',
+  program: 'R+ Clínica Médica',
+  title: 'UERJ 2024 — R+ Clínica Médica (conjunto autoral no estilo da banca)',
+  source: 'AUTORAL_ESTILO_BANCA',
+  reference: 'Questões autorais para treino; distribuição temática inspirada no perfil histórico da banca.',
+  questions: [
+    {
+      number: 1,
+      statement:
+        'Mulher de 59 anos, diabética, chega com dispneia intensa, ortopneia e estertores crepitantes até os ápices. PA 190x110 mmHg, FC 124 bpm, SatO2 86% em ar ambiente. Radiografia com padrão de congestão alveolar bilateral. Qual a conduta inicial de maior impacto?',
+      alternatives: [
+        { letter: 'A', text: 'Ventilação não invasiva com pressão positiva associada a vasodilatador intravenoso.' },
+        { letter: 'B', text: 'Bolus de cristaloide para melhorar a perfusão.' },
+        { letter: 'C', text: 'Iniciar betabloqueador intravenoso para controle da frequência.' },
+        { letter: 'D', text: 'Iniciar dobutamina como primeira medida.' },
+      ],
+      answerKey: 'A',
+      theme: 'cardiologia',
+      subtheme: 'insuficiencia-cardiaca',
+      difficulty: 'MEDIA',
+      keywords: ['edema agudo de pulmão', 'ventilação não invasiva', 'nitroglicerina', 'IC aguda hipertensiva', 'congestão'],
+      reference: 'Diretriz Brasileira de Insuficiência Cardíaca Aguda',
+    },
+    {
+      number: 2,
+      statement:
+        'Homem de 33 anos, previamente hígido, apresenta dor torácica pleurítica que melhora ao inclinar-se para frente, febre baixa e atrito pericárdico. O ECG mostra supradesnivelamento côncavo difuso de ST e infradesnivelamento de PR. Troponina normal e ecocardiograma sem derrame significativo. Qual o tratamento de escolha?',
+      alternatives: [
+        { letter: 'A', text: 'Corticoide em dose alta por 4 semanas.' },
+        { letter: 'B', text: 'Anti-inflamatório não esteroidal associado a colchicina.' },
+        { letter: 'C', text: 'Antibioticoterapia empírica de amplo espectro.' },
+        { letter: 'D', text: 'Pericardiocentese diagnóstica de urgência.' },
+      ],
+      answerKey: 'B',
+      theme: 'cardiologia',
+      subtheme: 'pericardio-e-miocardio',
+      difficulty: 'FACIL',
+      keywords: ['pericardite aguda', 'colchicina', 'AINE', 'infra de PR', 'atrito pericárdico'],
+      reference: 'ESC Guidelines on Pericardial Diseases',
+    },
+    {
+      number: 3,
+      statement:
+        'Mulher de 27 anos, asmática, chega à emergência com crise. Após 1 hora de tratamento com beta-2 de curta duração inalatório, brometo de ipratrópio e corticoide sistêmico, mantém dispneia intensa, fala em palavras, FR 34 irpm, uso de musculatura acessória e pico de fluxo expiratório de 38% do previsto. A gasometria mostra pCO2 de 44 mmHg. Qual a interpretação e a conduta?',
+      alternatives: [
+        { letter: 'A', text: 'pCO2 normal indica melhora; pode receber alta com corticoide oral.' },
+        { letter: 'B', text: 'Normocapnia neste contexto sinaliza fadiga muscular; considerar suporte ventilatório e UTI.' },
+        { letter: 'C', text: 'Deve-se suspender o corticoide, pois não há resposta em 1 hora.' },
+        { letter: 'D', text: 'Iniciar antibioticoterapia empírica, pois a crise é certamente infecciosa.' },
+      ],
+      answerKey: 'B',
+      theme: 'pneumologia',
+      subtheme: 'asma',
+      difficulty: 'DIFICIL',
+      keywords: ['crise asmática grave', 'normocapnia', 'fadiga muscular', 'pico de fluxo', 'GINA'],
+      reference: 'GINA — Global Strategy for Asthma Management and Prevention',
+    },
+    {
+      number: 4,
+      statement:
+        'Homem de 47 anos apresenta febre, tosse e dispneia há 4 dias. À admissão: FR 30 irpm, PA 88x56 mmHg, confusão mental leve, ureia 68 mg/dL, idade 47 anos. Considerando o escore CURB-65, qual a pontuação e a conduta recomendada?',
+      alternatives: [
+        { letter: 'A', text: 'Pontuação 1; tratamento ambulatorial.' },
+        { letter: 'B', text: 'Pontuação 3; internação hospitalar e considerar terapia intensiva.' },
+        { letter: 'C', text: 'Pontuação 4; alta com antibiótico oral.' },
+        { letter: 'D', text: 'Pontuação 0; nenhuma antibioticoterapia indicada.' },
+      ],
+      answerKey: 'B',
+      theme: 'pneumologia',
+      subtheme: 'pneumonias',
+      difficulty: 'MEDIA',
+      keywords: ['pneumonia adquirida na comunidade', 'CURB-65', 'critérios de internação', 'antibioticoterapia', 'gravidade'],
+      reference: 'Diretrizes brasileiras para pneumonia adquirida na comunidade (SBPT)',
+    },
+    {
+      number: 5,
+      statement:
+        'Paciente de 44 anos, com diagnóstico de hepatite B crônica, apresenta HBsAg positivo, HBeAg positivo, anti-HBe negativo, HBV-DNA de 2 milhões UI/mL e ALT três vezes o limite superior da normalidade. A elastografia sugere fibrose significativa. Qual a conduta?',
+      alternatives: [
+        { letter: 'A', text: 'Apenas acompanhamento semestral, sem tratamento.' },
+        { letter: 'B', text: 'Iniciar antiviral com tenofovir ou entecavir.' },
+        { letter: 'C', text: 'Iniciar corticoterapia para reduzir a inflamação hepática.' },
+        { letter: 'D', text: 'Iniciar terapia com ribavirina isolada.' },
+      ],
+      answerKey: 'B',
+      theme: 'infectologia',
+      subtheme: 'hepatites-virais',
+      difficulty: 'MEDIA',
+      keywords: ['hepatite B crônica', 'tenofovir', 'entecavir', 'HBV-DNA', 'fibrose hepática'],
+      reference: 'Protocolo Clínico e Diretrizes Terapêuticas para Hepatite B (MS)',
+    },
+    {
+      number: 6,
+      statement:
+        'Homem de 70 anos com doença renal crônica em hemodiálise apresenta fraqueza muscular e potássio sérico de 7,4 mEq/L. O ECG mostra ondas T apiculadas e alargamento do complexo QRS. Qual a primeira medida a ser tomada?',
+      alternatives: [
+        { letter: 'A', text: 'Administrar gluconato de cálcio intravenoso.' },
+        { letter: 'B', text: 'Administrar insulina com glicose.' },
+        { letter: 'C', text: 'Iniciar resina de troca por via oral.' },
+        { letter: 'D', text: 'Encaminhar diretamente para hemodiálise, sem medidas prévias.' },
+      ],
+      answerKey: 'A',
+      theme: 'nefrologia',
+      subtheme: 'disturbios-hidroeletroliticos',
+      difficulty: 'FACIL',
+      keywords: ['hiperpotassemia', 'gluconato de cálcio', 'estabilização de membrana', 'alterações eletrocardiográficas', 'hemodiálise'],
+      reference: 'Recomendações para manejo da hiperpotassemia grave',
+    },
+    {
+      number: 7,
+      statement:
+        'Mulher de 46 anos apresenta fadiga, ganho de peso, intolerância ao frio e constipação. TSH 18 mUI/L e T4 livre reduzido. Anti-TPO fortemente positivo. Além da reposição com levotiroxina, qual orientação sobre a administração do fármaco é correta?',
+      alternatives: [
+        { letter: 'A', text: 'Deve ser tomada junto com o café da manhã para melhor absorção.' },
+        { letter: 'B', text: 'Deve ser tomada em jejum, com intervalo em relação a cálcio e ferro.' },
+        { letter: 'C', text: 'Deve ser tomada à noite, junto com carbonato de cálcio.' },
+        { letter: 'D', text: 'A absorção não é influenciada por alimentos ou outros medicamentos.' },
+      ],
+      answerKey: 'B',
+      theme: 'endocrinologia',
+      subtheme: 'tireoide',
+      difficulty: 'FACIL',
+      keywords: ['hipotireoidismo', 'tireoidite de Hashimoto', 'levotiroxina', 'absorção', 'anti-TPO'],
+      reference: 'ATA Guidelines for Hypothyroidism',
+    },
+    {
+      number: 8,
+      statement:
+        'Homem de 51 anos, com obesidade grau II, apresenta ALT 78 U/L, AST 52 U/L, ultrassonografia com esteatose hepática difusa. Sorologias virais negativas, ferritina discretamente elevada com saturação de transferrina normal, sem uso de álcool relevante. Qual a intervenção com maior evidência de benefício sobre a histologia hepática?',
+      alternatives: [
+        { letter: 'A', text: 'Perda ponderal de pelo menos 7 a 10% do peso corporal.' },
+        { letter: 'B', text: 'Uso de ácido ursodesoxicólico.' },
+        { letter: 'C', text: 'Flebotomias seriadas para reduzir a ferritina.' },
+        { letter: 'D', text: 'Restrição proteica rigorosa na dieta.' },
+      ],
+      answerKey: 'A',
+      theme: 'gastroenterologia',
+      subtheme: 'hepatopatias-nao-virais',
+      difficulty: 'MEDIA',
+      keywords: ['doença hepática gordurosa metabólica', 'esteato-hepatite', 'perda de peso', 'MASLD', 'resistência à insulina'],
+      reference: 'AASLD Practice Guidance on MASLD',
+    },
+    {
+      number: 9,
+      statement:
+        'Mulher de 67 anos apresenta dor lombar, fadiga e anemia. Exames: hemoglobina 8,4 g/dL, creatinina 2,6 mg/dL, cálcio 11,8 mg/dL, proteína total 10,4 g/dL com albumina 3,0 g/dL. A radiografia de crânio mostra lesões líticas em saca-bocado. Qual o exame mais adequado para confirmar a suspeita diagnóstica?',
+      alternatives: [
+        { letter: 'A', text: 'Cintilografia óssea.' },
+        { letter: 'B', text: 'Eletroforese de proteínas com imunofixação e mielograma.' },
+        { letter: 'C', text: 'Biópsia de linfonodo periférico.' },
+        { letter: 'D', text: 'Dosagem isolada de fosfatase alcalina.' },
+      ],
+      answerKey: 'B',
+      theme: 'hematologia',
+      subtheme: 'discrasias-plasmocitarias',
+      difficulty: 'MEDIA',
+      keywords: ['mieloma múltiplo', 'CRAB', 'eletroforese de proteínas', 'lesões líticas', 'imunofixação'],
+      reference: 'International Myeloma Working Group criteria',
+    },
+    {
+      number: 10,
+      statement:
+        'Mulher de 45 anos apresenta poliartrite simétrica de mãos e punhos há 8 meses, com rigidez matinal de 90 minutos. Fator reumatoide e anti-CCP positivos, VHS e PCR elevados, com erosões precoces à radiografia. Qual o tratamento de primeira linha após confirmação diagnóstica?',
+      alternatives: [
+        { letter: 'A', text: 'Anti-inflamatório não esteroidal isolado por 6 meses.' },
+        { letter: 'B', text: 'Metotrexato, associado a corticoide em dose baixa como ponte.' },
+        { letter: 'C', text: 'Agente biológico anti-TNF como monoterapia inicial.' },
+        { letter: 'D', text: 'Apenas fisioterapia e observação clínica.' },
+      ],
+      answerKey: 'B',
+      theme: 'reumatologia',
+      subtheme: 'artrite-reumatoide',
+      difficulty: 'FACIL',
+      keywords: ['artrite reumatoide', 'metotrexato', 'DMARD sintético', 'anti-CCP', 'janela de oportunidade'],
+      reference: 'EULAR recommendations for the management of rheumatoid arthritis',
+    },
+    {
+      number: 11,
+      statement:
+        'Homem de 24 anos apresenta crise convulsiva tônico-clônica generalizada que persiste há 7 minutos, sem recuperação da consciência. Já recebeu duas doses de diazepam intravenoso. Qual a próxima etapa terapêutica?',
+      alternatives: [
+        { letter: 'A', text: 'Repetir benzodiazepínico por mais três doses.' },
+        { letter: 'B', text: 'Administrar fármaco antiepiléptico de segunda linha, como fenitoína ou levetiracetam.' },
+        { letter: 'C', text: 'Iniciar diretamente anestesia geral com propofol, sem segunda linha.' },
+        { letter: 'D', text: 'Aguardar resolução espontânea e realizar eletroencefalograma.' },
+      ],
+      answerKey: 'B',
+      theme: 'neurologia',
+      subtheme: 'epilepsia',
+      difficulty: 'MEDIA',
+      keywords: ['estado de mal epiléptico', 'benzodiazepínico', 'fenitoína', 'levetiracetam', 'segunda linha'],
+      reference: 'Neurocritical Care Society — Status Epilepticus Guidelines',
+    },
+    {
+      number: 12,
+      statement:
+        'Paciente de 62 anos com SDRA por pneumonia viral, em ventilação mecânica invasiva, apresenta relação PaO2/FiO2 de 110. Qual estratégia ventilatória está associada a redução de mortalidade?',
+      alternatives: [
+        { letter: 'A', text: 'Volume corrente de 10 mL/kg de peso predito, com PEEP baixa.' },
+        { letter: 'B', text: 'Volume corrente de 6 mL/kg de peso predito, com pressão de platô abaixo de 30 cmH2O.' },
+        { letter: 'C', text: 'Hiperventilação para manter pCO2 abaixo de 30 mmHg.' },
+        { letter: 'D', text: 'Ventilação com pressão de suporte desde a fase aguda.' },
+      ],
+      answerKey: 'B',
+      theme: 'emergencias-e-terapia-intensiva',
+      subtheme: 'insuficiencia-respiratoria-e-vm',
+      difficulty: 'MEDIA',
+      keywords: ['SDRA', 'ventilação protetora', 'volume corrente', 'pressão de platô', 'PEEP'],
+      reference: 'ARDSNet / ATS-ESICM-SCCM ARDS Guidelines',
+    },
+  ],
+};

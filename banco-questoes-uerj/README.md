@@ -193,10 +193,38 @@ Preencha `DATABASE_URL` e `DIRECT_URL`. As demais são opcionais:
 npm install
 npm run db:push      # cria as tabelas
 npm run db:seed      # popula a taxonomia (o banco de questões fica vazio)
+
+for ano in 2021 2022 2023 2024 2025; do
+  npm run exam:import -- data/provas/uerj-$ano.json
+done
+
 npm run dev
 ```
 
-Abra <http://localhost:3000> e importe sua primeira prova.
+Abra <http://localhost:3000>. As 247 questões, o ranking de assuntos e a curva 80/20 já estarão lá.
+
+### 4. Colocando no ar
+
+O app é um Next.js comum e não guarda estado em disco — sobe em qualquer lugar que rode Node. O
+caminho mais curto:
+
+1. Crie um projeto no [Supabase](https://supabase.com) e copie as duas connection strings.
+2. Importe o repositório na [Vercel](https://vercel.com), apontando o **Root Directory** para
+   `banco-questoes-uerj`.
+3. Configure `DATABASE_URL`, `DIRECT_URL` e (se quiser as explicações) `ANTHROPIC_API_KEY` nas
+   variáveis de ambiente do projeto.
+4. Com o `.env` local apontando para o Supabase, rode uma vez da sua máquina:
+
+   ```bash
+   npm run db:push && npm run db:seed
+   for ano in 2021 2022 2023 2024 2025; do
+     npm run exam:import -- data/provas/uerj-$ano.json
+   done
+   ```
+
+O deploy passa a servir o banco já populado. Sem `NEXT_PUBLIC_SUPABASE_URL` e
+`NEXT_PUBLIC_SUPABASE_ANON_KEY` o app roda em modo single-user: não há login e todo o progresso fica
+num usuário fixo — o que basta para uso pessoal, mas deixa a URL aberta a quem a tiver.
 
 ---
 

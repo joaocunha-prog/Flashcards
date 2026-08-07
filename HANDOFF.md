@@ -6,8 +6,10 @@ Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**. 
 por assunto, ranking 80/20, resolução sem gabarito, comentários em medicina baseada em evidências e
 geração de provas inéditas.
 
-Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/banco-questoes-r-uerj-3d1xr7`**.
-Último commit: `f55277b`. Árvore limpa, tudo pushado.
+Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/retomar-sessao-toq38p`** (a branch
+antiga `claude/banco-questoes-r-uerj-3d1xr7` existe no remoto no mesmo commit, mas não é mais a
+branch de trabalho — a designada pelo sistema nesta sessão foi a `retomar-sessao-toq38p`).
+Último commit: `2eaf469`. Árvore limpa, tudo pushado.
 
 ## Estado Atual
 
@@ -34,12 +36,11 @@ código 1. Os 147 comentários existentes foram escritos diretamente pelo modelo
 `claude-opus-5`, mais 70 desta sessão por `claude-sonnet-5` — 2022 Q31–50 e a prova de 2023
 inteira) e importados por `npm run explain:import`.
 
-**Ambiente reiniciado do zero nesta sessão.** Não havia `/tmp/pgdata` nem `.env`: o Postgres foi
-reinicializado com `initdb`, o banco `banco_uerj` recriado, `.env` recriado com `DATABASE_URL` e
-`DIRECT_URL` (o schema exige as duas), `npx prisma db push` aplicado, e as 5 provas +
-todos os `data/comentarios/*.json` reimportados do zero. Ou seja, o passo "Postgres local" do
-HANDOFF anterior (que assumia datadir persistente) não se aplicou — se isso se repetir, rodar
-`initdb` antes do `pg_ctl start`.
+**Ambiente reiniciado do zero nesta sessão.** Não havia `/tmp/pgdata` nem `.env`: rodou-se `initdb`,
+criou-se o banco `banco_uerj`, o `.env` com `DATABASE_URL`+`DIRECT_URL`, `npx prisma db push`, e
+reimportaram-se as 5 provas + todos os `data/comentarios/*.json` do zero. O bloco "Comandos Úteis"
+no fim deste arquivo já cobre os dois cenários (datadir persistente ou container novo) — teste
+`pg_isready` primeiro para saber qual caminho seguir.
 
 ## Decisões Confirmadas
 
@@ -128,13 +129,28 @@ restantes; pula o que já está feito e não sobrescreve os 147 existentes.
 ```bash
 cd banco-questoes-uerj
 
-# Postgres local (o container reinicia e derruba o serviço; o datadir persiste)
+# Postgres local. Teste primeiro se o datadir sobreviveu:
+pg_isready -h 127.0.0.1 -p 5432
+# Se responder "no response", o datadir NÃO persistiu (aconteceu nesta sessão, container novo) —
+# inicialize do zero antes de tentar start:
 PGBIN=$(ls -d /usr/lib/postgresql/*/bin | head -1)
-chown -R postgres:postgres /tmp/pgdata /tmp/pgsock
+mkdir -p /tmp/pgdata /tmp/pgsock && chown -R postgres:postgres /tmp/pgdata /tmp/pgsock
+su postgres -c "$PGBIN/initdb -D /tmp/pgdata"   # só se /tmp/pgdata estiver vazio
+
+# Start (idempotente, funciona nos dois casos acima)
 su postgres -c "$PGBIN/pg_ctl -D /tmp/pgdata -o '-k /tmp/pgsock -h 127.0.0.1 -p 5432' -l /tmp/pg.log start"
 pg_isready -h 127.0.0.1 -p 5432
 
-# .env já existe apontando para postgresql://postgres:postgres@localhost:5432/banco_uerj
+# Se o datadir era novo, falta criar o banco, o .env e aplicar o schema:
+su postgres -c "psql -h 127.0.0.1 -p 5432 -c \"ALTER USER postgres WITH PASSWORD 'postgres';\""
+su postgres -c "psql -h 127.0.0.1 -p 5432 -c 'CREATE DATABASE banco_uerj;'"
+# .env precisa de DATABASE_URL E DIRECT_URL (o schema.prisma exige as duas):
+#   DATABASE_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
+#   DIRECT_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
+npm install && npx prisma db push
+for f in data/provas/uerj-*.json; do npx tsx --env-file-if-exists=.env scripts/import-exam.ts "$f"; done
+
+# Se o .env e o banco já existiam (datadir persistiu), pule direto para:
 
 npm run explain:import        # importa data/comentarios/ e imprime a cobertura
 npm run analysis:recompute    # recalcula e imprime o ranking de assuntos

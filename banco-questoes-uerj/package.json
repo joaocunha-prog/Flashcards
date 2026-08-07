@@ -16,7 +16,8 @@
     "db:studio": "prisma studio",
     "analysis:recompute": "tsx --env-file-if-exists=.env scripts/recompute.ts",
     "exam:import": "tsx --env-file-if-exists=.env scripts/import-exam.ts",
-    "explain:all": "tsx --env-file-if-exists=.env scripts/explain-all.ts"
+    "explain:all": "tsx --env-file-if-exists=.env scripts/explain-all.ts",
+    "explain:import": "tsx --env-file-if-exists=.env scripts/import-explanations.ts"
   },
   "prisma": {
     "seed": "tsx --env-file-if-exists=.env prisma/seed.ts"

@@ -362,6 +362,29 @@ ANTHROPIC_MODEL=claude-opus-5 npm run explain:all
 
 Os números saem da conta da seção [Custo por questão](#custo-por-questão).
 
+### Comentários escritos fora da API
+
+`data/comentarios/` guarda comentários escritos **diretamente por um modelo Claude durante o
+desenvolvimento**, sem chamada à API. Entram no banco por:
+
+```bash
+npm run explain:import
+```
+
+Vão para a mesma prateleira do `explain:all` — explicação compartilhada, `userId: null` —, então
+para a interface não há diferença nenhuma: questão comentada não mostra o botão. O campo `model`
+registra qual modelo escreveu.
+
+O formato é um JSON por prova, com a chave sendo o número da questão. Aceita partes
+(`uerj-2021.json`, `uerj-2021-b.json`, …) para permitir escrita incremental:
+
+```json
+{ "16": "## Resposta correta\n…", "17": "…" }
+```
+
+A importação é **idempotente** e valida que o texto tem as seções obrigatórias antes de gravar —
+um arquivo truncado é recusado em vez de virar comentário quebrado na tela.
+
 ### Sobre gerar antecipadamente
 
 A especificação original deste projeto pedia comentário exclusivamente sob demanda. Gerar em lote é
@@ -564,7 +587,8 @@ npm run db:seed             # popula a taxonomia
 npm run db:studio           # Prisma Studio
 npm run analysis:recompute  # recalcula e imprime o ranking de assuntos
 npm run exam:import -- x.json
-npm run explain:all         # comenta todas as questões sem comentário
+npm run explain:all         # comenta todas as questões sem comentário (via API)
+npm run explain:import      # importa comentários de data/comentarios/
 ```
 
 ---

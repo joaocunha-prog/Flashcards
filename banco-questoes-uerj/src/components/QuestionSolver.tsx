@@ -328,18 +328,28 @@ export function QuestionSolver({
 
         {explanationHtml && (
           <section className="card animate-fade-in">
-            <div className="mb-3 flex items-center gap-2">
-              <h2 className="font-semibold">Explicação</h2>
+            <div className="mb-1 flex flex-wrap items-center gap-2">
+              <h2 className="font-semibold">Comentário</h2>
               <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
-                gerada pelo Claude
+                gerado pelo Claude
               </span>
             </div>
+            <p className="mb-4 text-xs text-slate-500 dark:text-slate-400">
+              Ancorado em medicina baseada em evidências, com a hierarquia de fontes explicitada.
+            </p>
+
             <div
               className="explanation text-sm"
               dangerouslySetInnerHTML={{ __html: explanationHtml }}
             />
-            <p className="mt-4 border-t border-slate-200 pt-3 text-xs text-slate-500 dark:border-slate-800 dark:text-slate-400">
-              Texto gerado por IA. Confira as referências antes de fixar a conduta.
+
+            {/* A checagem de consistência é feita pelo próprio modelo. Chamar
+                isso de "validação clínica" sem ressalva sugeriria revisão
+                humana por especialista, que não houve. */}
+            <p className="mt-5 border-t border-slate-200 pt-3 text-xs leading-relaxed text-slate-500 dark:border-slate-800 dark:text-slate-400">
+              Texto gerado por IA, incluindo a checagem de consistência do gabarito — que é uma
+              verificação do modelo contra a evidência que ele conhece, não revisão por
+              especialista. Confira as referências antes de fixar a conduta.
             </p>
           </section>
         )}

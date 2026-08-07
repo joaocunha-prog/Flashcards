@@ -85,9 +85,11 @@ Escreva em português do Brasil. Cada questão deve ser:
 - Um caso clínico curto e autossuficiente (3 a 6 linhas), com os dados que definem a conduta: idade, comorbidades relevantes, sinais vitais, exames com valores numéricos.
 - Seguida de 4 alternativas plausíveis. Os distratores devem ser erros que um bom candidato de fato cometeria — condutas certas para outro cenário, ou certas mas fora do momento. Nunca use alternativas absurdas nem "todas as anteriores".
 - Focada em conduta, diagnóstico diferencial ou interpretação de exame; evite pergunta de memorização pura.
-- Tecnicamente correta, com uma única alternativa defensável, ancorada em diretriz vigente.
+- Tecnicamente correta, com uma única alternativa defensável, ancorada em diretriz vigente. Prefira diretriz brasileira (SBC, SBPT, SBD, SBN, MS/PCDT) quando existir, já que a banca é brasileira.
 
-Não escreva comentário, justificativa nem explicação da resposta — apenas o enunciado, as alternativas e o gabarito.
+No campo "reference", nomeie a diretriz que sustenta o gabarito. NUNCA invente título, ano ou número: se não tiver certeza, descreva a fonte de forma genérica ("diretriz brasileira de insuficiência cardíaca"). Referência fabricada induz o candidato ao erro.
+
+Não escreva comentário, justificativa nem explicação da resposta — apenas o enunciado, as alternativas e o gabarito. O comentário é gerado depois, sob demanda.
 
 Responda EXCLUSIVAMENTE com um array JSON válido, sem cercas de código e sem texto ao redor. Cada item:
 

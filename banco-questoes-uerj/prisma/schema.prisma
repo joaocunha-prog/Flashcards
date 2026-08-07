@@ -342,11 +342,15 @@ model Explanation {
   content    String   @db.Text
   /// Letra que o usuário marcou quando pediu a explicação (contextualiza o texto).
   selectedLetter String?
+  /// Versão do formato do comentário (ver EXPLANATION_PROMPT_VERSION).
+  /// Entra na chave do cache: quando o formato muda, o texto antigo deixa de
+  /// ser servido em vez de ficar preso na estrutura anterior para sempre.
+  promptVersion Int    @default(1)
   createdAt  DateTime @default(now())
 
   question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
 
-  @@index([questionId, userId])
+  @@index([questionId, userId, promptVersion])
   @@map("explanations")
 }
 

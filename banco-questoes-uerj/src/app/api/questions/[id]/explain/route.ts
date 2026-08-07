@@ -2,7 +2,12 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
 import { getCurrentUserId } from '@/lib/auth';
-import { EXPLANATION_MODEL, MissingApiKeyError, generateExplanation } from '@/lib/claude';
+import {
+  EXPLANATION_MODEL,
+  EXPLANATION_PROMPT_VERSION,
+  MissingApiKeyError,
+  generateExplanation,
+} from '@/lib/claude';
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
@@ -45,6 +50,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       alternatives: { orderBy: { letter: 'asc' } },
       theme: true,
       subtheme: true,
+      topic: true,
       userStates: { where: { userId }, take: 1 },
     },
   });
@@ -64,8 +70,15 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   const selectedLetter = body.selectedLetter ?? null;
 
   if (!body.regenerate) {
+    // A versão do formato entra na chave: um comentário gerado antes da
+    // reformulação não é servido no lugar do formato atual.
     const cached = await prisma.explanation.findFirst({
-      where: { questionId: question.id, userId, selectedLetter },
+      where: {
+        questionId: question.id,
+        userId,
+        selectedLetter,
+        promptVersion: EXPLANATION_PROMPT_VERSION,
+      },
       orderBy: { createdAt: 'desc' },
     });
     if (cached) {
@@ -88,6 +101,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       selectedLetter,
       theme: question.theme.name,
       subtheme: question.subtheme?.name ?? null,
+      topic: question.topic?.name ?? null,
       reference: question.reference,
     });
   } catch (error) {
@@ -114,6 +128,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       model: EXPLANATION_MODEL,
       content,
       selectedLetter,
+      promptVersion: EXPLANATION_PROMPT_VERSION,
     },
   });
 

@@ -225,6 +225,71 @@ Nenhum comentário é escrito na importação ou no seed. `src/lib/claude.ts` é
 produz esse texto, acionado por `POST /api/questions/[id]/explain`, que exige que o usuário já
 tenha respondido (`409` caso contrário — pedir a explicação sem responder revelaria o gabarito).
 
+O texto é cacheado por **(questão, letra marcada, versão do formato)**. A versão entra na chave
+de propósito: quando o formato do comentário muda, o cache é invalidado em vez de servir para
+sempre um texto na estrutura anterior. Incremente `EXPLANATION_PROMPT_VERSION` ao mexer no prompt.
+
+---
+
+## O comentário
+
+Cada comentário é ancorado em medicina baseada em evidências **e** escrito para ensinar. As duas
+coisas puxam em direções opostas — rigor tende ao árido, didática tende ao impreciso —, então a
+estrutura separa uma da outra em nove seções fixas:
+
+| Seção | O que traz |
+| --- | --- |
+| **Resposta correta** | A letra e o dado do enunciado que trava a conduta |
+| **Por que as outras estão erradas** | Um item por distrator, dizendo em que cenário ele seria correto |
+| **Base de evidência** | Diretriz e/ou ensaio de referência, com a força da recomendação |
+| **Revisão rápida** | O conceito central, priorizando o que se repete em prova |
+| **Pearls** | 3 a 5 fatos de alto rendimento que resolvem outras questões do assunto |
+| **Pitfalls** | A armadilha que *esta* questão armou, depois os erros clássicos do tema |
+| **Mnemônico** | Só quando existe um bom — a seção é omitida em vez de forçar |
+| **Checagem de consistência** | Se o gabarito se sustenta hoje; sinaliza questão desatualizada ou anulável |
+| **Referências** | 2 a 4 fontes |
+
+Pearls, Pitfalls, Base de evidência, Mnemônico e Checagem recebem tratamento visual próprio
+(borda lateral colorida e fundo tênue): lidas como texto corrido, justamente as seções de maior
+valor prático se perdem no meio do comentário.
+
+### Hierarquia de fontes
+
+O prompt fixa a ordem de preferência, com as diretrizes brasileiras no topo — a banca é brasileira
+e cobra a conduta praticada no Brasil:
+
+1. Diretrizes brasileiras e PCDT do Ministério da Saúde (SBC, SBPT, SBD, SBN, SBI, SBR, ABHH, INCA)
+2. Diretrizes internacionais (ESC, ACC/AHA, ADA, KDIGO, IDSA, GOLD, GINA, EULAR, ACR, AASLD, ASH, NCCN)
+3. Revisões sistemáticas e metanálises
+4. Ensaios clínicos randomizados de referência
+5. Estudos observacionais
+6. Consenso de especialista — e quando a conduta se apoia só nisso, o comentário diz isso com
+   todas as letras, porque "é o que se faz" não é evidência
+
+Quando a diretriz brasileira diverge da internacional, o comentário aponta as duas e diz qual a
+banca tende a cobrar. A força da recomendação é informada quando a fonte a gradua, e não é
+inventada quando a fonte não gradua.
+
+### Sobre fabricação de referência
+
+A instrução mais dura do prompt é a proibição de inventar citação. Modelos de linguagem produzem
+nome de ensaio clínico e ano de diretriz com fluência e sem lastro, e num banco de questões médicas
+uma referência fabricada não é um detalhe: ela induz o candidato ao erro e contamina a confiança no
+material inteiro. A regra é descrever a fonte genericamente ("diretriz brasileira de insuficiência
+cardíaca, atualização mais recente") em vez de arriscar título, ano ou número.
+
+Isso reduz o problema, não o elimina. **Confira as referências.**
+
+### O que "checagem de consistência" é e o que não é
+
+A última seção pede ao modelo que verifique se o gabarito oficial se sustenta à luz da evidência
+atual, e que sinalize questão antiga cuja conduta mudou, gabarito discutível ou questão passível de
+anulação. Isso é útil de verdade em banco de provas antigas.
+
+Mas é uma verificação **do modelo contra a evidência que ele conhece** — não é revisão por
+especialista, e a interface diz isso explicitamente abaixo de cada comentário. Trate como um
+sinalizador que vale investigar, não como validação.
+
 ### A análise se atualiza sozinha
 
 `ThemeStat`, `SubthemeStat`, `TopicStat` e `AnalysisSnapshot` são tabelas **derivadas**: podem ser
@@ -304,8 +369,9 @@ npm run exam:import -- x.json
 - **As questões geradas são escritas por IA.** Foram validadas estruturalmente (gabarito existe
   entre as alternativas, sem letras duplicadas), mas não clinicamente. Revise antes de usá-las como
   material de estudo definitivo.
-- **As explicações são geradas por IA.** O prompt instrui a não fabricar citações, mas o texto deve
-  ser conferido contra a diretriz antes de virar conduta.
+- **As explicações são geradas por IA**, inclusive a checagem de consistência do gabarito. O prompt
+  fixa a hierarquia de fontes e proíbe fabricar citação, o que reduz o problema sem eliminá-lo.
+  Confira as referências antes de fixar conduta.
 - O job de geração roda em memória do processo: um restart do servidor durante a geração deixa o
   job travado em `GERANDO`. Basta disparar outro.
 - A interface está em português do Brasil e não tem internacionalização.

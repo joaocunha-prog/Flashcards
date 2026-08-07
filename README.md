@@ -1,71 +1,45 @@
-# Flashcards
+# Banco de Questões R+ UERJ
 
-Repositório com dois projetos independentes.
+Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ** (Hospital Universitário
+Pedro Ernesto).
 
-## `banco-questoes-uerj/`
+O projeto vive em [`banco-questoes-uerj/`](banco-questoes-uerj/). Leia o
+[README de lá](banco-questoes-uerj/README.md) para instalação, importação de provas e detalhes de
+arquitetura.
 
-Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**: análise de incidência
-por tema, ranking 80/20, simulados em 6 modos e explicações geradas sob demanda pelo Claude.
+## O que tem dentro
 
-Next.js 15 + TypeScript + TailwindCSS + Prisma/PostgreSQL (Supabase).
+- **247 questões oficiais** das provas de 2021 a 2025, com enunciado, alternativas e gabarito.
+- **Análise da banca**: incidência por tema, ranking de assuntos e curva 80/20, todos recalculados
+  automaticamente a cada prova importada.
+- **Três níveis de classificação** — tema › assunto › tópico —, com o assunto clicável para abrir a
+  lista de tópicos que a banca realmente cobrou.
+- **Dificuldade medida, não estimada**: cada questão herda o percentual real de acerto dos
+  candidatos, que vem no caderno.
+- **Resolução sem gabarito**: ao abrir a questão você vê apenas enunciado e alternativas; ao
+  responder, o app informa somente se acertou ou errou.
+- **Explicação sob demanda** pelo botão "Explicar com Claude", em medicina baseada em evidências,
+  com pearls, pitfalls e mnemônicos.
+- **Ressalvas de gabarito**: dez questões trazem uma nota editorial apontando conduta desatualizada,
+  alternativa dupla ou item passível de anulação — exibida depois que você responde.
+- **Simulados** aleatórios, por tema, por incidência, só das erradas, só das marcadas para revisar,
+  e geração de prova inédita a partir do banco.
 
-Ver [`banco-questoes-uerj/README.md`](banco-questoes-uerj/README.md).
+## Stack
 
-## `server/`, `public/`, `shared/` — Gastos do mês
+Next.js 15 (App Router) · React 19 · TypeScript · TailwindCSS · Prisma · PostgreSQL/Supabase ·
+Anthropic SDK.
 
-Interface para lançar gastos mensais (pela web ou pelo WhatsApp), categorizados automaticamente por
-palavras-chave.
-
-### Estrutura
-
-- `public/` — frontend (HTML/CSS/JS estático, sem build).
-- `shared/categorize.js` — lógica de categorização, usada tanto pelo frontend quanto pelo backend.
-- `server/` — backend Node/Express: API REST de despesas + webhook do WhatsApp Cloud API.
-
-### Rodando localmente
+## Rodando
 
 ```bash
-cd server
+cd banco-questoes-uerj
 npm install
-cp .env.example .env
-npm start
+cp .env.example .env          # aponte DATABASE_URL para o seu Postgres
+npx prisma db push
+npm run db:seed
+npm run exam:import -- data/provas/uerj-2021.json   # e assim para 2022..2025
+npm run dev
 ```
 
-Acesse `http://localhost:3000`. Os dados ficam em `server/data/expenses.json`.
-
-Sem preencher as variáveis do WhatsApp no `.env`, a interface web funciona normalmente — só o
-webhook fica inativo.
-
-### Integrando com o WhatsApp (Meta Cloud API)
-
-1. **Crie um app no Meta for Developers**: acesse https://developers.facebook.com/apps, crie um app do tipo "Business" e adicione o produto **WhatsApp**.
-2. **Pegue as credenciais de teste**: em *WhatsApp > API Setup* você já tem um número de teste, um `Temporary access token` e o `Phone number ID`. Copie-os para `WHATSAPP_ACCESS_TOKEN` e `WHATSAPP_PHONE_NUMBER_ID` no `.env`.
-   - O token temporário expira em 24h; para algo permanente, gere um *System User token* em *Business Settings*.
-3. **Pegue o App Secret**: em *App settings > Basic*, copie o `App secret` para `WHATSAPP_APP_SECRET` (usado para validar que os webhooks realmente vêm da Meta).
-4. **Defina um verify token**: escolha qualquer string secreta e coloque em `WHATSAPP_VERIFY_TOKEN` no `.env`.
-5. **Exponha seu servidor publicamente** (a Meta exige HTTPS público para o webhook):
-   - Em desenvolvimento, use `ngrok http 3000` (ou similar) e copie a URL `https://...ngrok...`.
-   - Em produção, use a URL do seu deploy.
-6. **Configure o webhook**: em *WhatsApp > Configuration*, defina:
-   - Callback URL: `https://SEU_DOMINIO/webhook`
-   - Verify token: o mesmo valor de `WHATSAPP_VERIFY_TOKEN`
-   - Clique em "Verify and Save", depois inscreva-se (Subscribe) no campo `messages`.
-7. **Restrinja quem pode lançar gastos**: adicione seu número (formato `5521999999999`, sem `+`) em `WHATSAPP_ALLOWED_SENDERS` no `.env`. Sem isso, qualquer pessoa que enviar mensagem para o número da Meta consegue criar gastos.
-8. **Reinicie o servidor** (`npm start`) para carregar o `.env`.
-
-#### Como lançar gastos pelo WhatsApp
-
-Envie uma mensagem de texto para o número configurado, no formato `valor descrição`:
-
-```
-50 mercado
-32,90 uber
-120 farmácia
-```
-
-O bot responde confirmando o valor, a descrição e a categoria detectada automaticamente. Você ainda pode corrigir a categoria depois pela interface web.
-
-#### Observações
-
-- No modo de teste (número de teste da Meta), só números previamente adicionados como "testadores" em *API Setup* conseguem enviar mensagens ao bot.
-- Para atender qualquer número sem essa restrição, é preciso submeter o app para revisão da Meta e usar um número de telefone comercial verificado.
+Abra `http://localhost:3000`.

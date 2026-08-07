@@ -162,6 +162,13 @@ model Question {
   source     QuestionSource @default(PROVA_OFICIAL)
   /// Referência bibliográfica/diretriz informada na importação (opcional).
   reference  String?
+  /// Ressalva editorial sobre o gabarito oficial: conduta que mudou desde a
+  /// aplicação, questão com mais de uma alternativa defensável, imprecisão de
+  /// enunciado. Escrita na importação, nunca gerada pelo modelo.
+  ///
+  /// NUNCA é enviada ao cliente antes de o usuário responder — costuma conter
+  /// a letra correta. Só sai pelo endpoint de resposta, junto do resultado.
+  reviewNote String? @db.Text
 
   /// Frequência histórica desnormalizada, para ordenar/filtrar o banco sem
   /// join. Recalculadas por scripts/recompute.ts.

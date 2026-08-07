@@ -31,7 +31,12 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
 
   const question = await prisma.question.findUnique({
     where: { id },
-    select: { id: true, answerKey: true, alternatives: { select: { letter: true } } },
+    select: {
+      id: true,
+      answerKey: true,
+      reviewNote: true,
+      alternatives: { select: { letter: true } },
+    },
   });
 
   if (!question) {
@@ -87,5 +92,8 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     status: state.status,
     attemptCount: state.attemptCount,
     correctCount: state.correctCount,
+    // A ressalva de gabarito viaja aqui, e não no payload da questão, porque
+    // costuma citar a letra correta. Antes de responder, o cliente não a tem.
+    reviewNote: question.reviewNote,
   });
 }

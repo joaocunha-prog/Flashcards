@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import clsx from 'clsx';
 import type { QuestionStatus } from '@prisma/client';
 import type { SafeQuestion } from '@/lib/serializers';
@@ -24,6 +24,8 @@ interface AnswerResponse {
   status: QuestionStatus;
   attemptCount: number;
   correctCount: number;
+  /** Ressalva sobre o gabarito oficial, quando existe. Só chega após responder. */
+  reviewNote: string | null;
 }
 
 export function QuestionSolver({
@@ -53,18 +55,28 @@ export function QuestionSolver({
 
   const [startedAt] = useState(() => Date.now());
 
-  // Ao navegar para outra questão o componente é reutilizado; sem este reset
-  // a próxima questão apareceria já respondida.
+  // O componente é reutilizado ao navegar entre questões; sem este reset a
+  // próxima apareceria já respondida.
+  //
+  // A dependência é APENAS `question.id`. Incluir campos de `userState` aqui
+  // faz o reset disparar logo após responder: `router.refresh()` reexecuta o
+  // server component, o status muda de NAO_FEITA para ACERTOU/ERROU e o efeito
+  // limpa `result` — apagando da tela o "Você acertou", a ressalva de gabarito
+  // e o botão "Explicar com Claude" que acabaram de aparecer.
+  const latestState = useRef(question.userState);
+  latestState.current = question.userState;
+
   useEffect(() => {
+    const state = latestState.current;
     setSelected(null);
     setResult(null);
     setError(null);
     setExplanation(null);
     setExplanationError(null);
-    setFavorite(question.userState?.favorite ?? false);
-    setNotes(question.userState?.notes ?? '');
-    setStatus(question.userState?.status ?? 'NAO_FEITA');
-  }, [question.id, question.userState?.favorite, question.userState?.notes, question.userState?.status]);
+    setFavorite(state?.favorite ?? false);
+    setNotes(state?.notes ?? '');
+    setStatus(state?.status ?? 'NAO_FEITA');
+  }, [question.id]);
 
   const answered = result !== null;
 
@@ -276,6 +288,17 @@ export function QuestionSolver({
                     : 'O gabarito não é exibido aqui — peça a explicação para entender o erro.'}
                 </p>
               </div>
+
+              {result?.reviewNote && (
+                <div className="rounded-lg border-l-4 border-amber-500 bg-amber-50/70 py-3 pl-4 pr-3 dark:bg-amber-950/30">
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-amber-700 dark:text-amber-300">
+                    Ressalva sobre o gabarito oficial
+                  </p>
+                  <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-300">
+                    {result.reviewNote}
+                  </p>
+                </div>
+              )}
 
               <div className="flex flex-wrap gap-2">
                 <button

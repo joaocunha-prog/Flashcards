@@ -6,25 +6,80 @@ Claude.
 
 ---
 
-## O banco nasce vazio
+## O corpus: 5 provas, 247 questões
 
-Nenhuma questão acompanha a instalação. O `npm run db:seed` popula apenas a **taxonomia** — 13
-temas, 93 assuntos e 471 tópicos de Clínica Médica —, que é estrutura de classificação, não
-conteúdo, e não influencia nenhuma estatística.
-
-Enquanto não houver questões:
-
-- o ranking de assuntos e a lista 80/20 aparecem zerados;
-- o botão **Gerar prova de 60 questões** fica desabilitado, com a explicação do porquê.
-
-Para popular:
+`data/provas/` traz as provas oficiais de **2021 a 2025**, prontas para importar:
 
 ```bash
-npm run exam:import -- provas/uerj-2025.json
+for ano in 2021 2022 2023 2024 2025; do
+  npm run exam:import -- data/provas/uerj-$ano.json
+done
 ```
 
-A partir daí o ranking, a curva de Pareto e a geração de provas passam a funcionar, tudo
-recalculado automaticamente.
+| Ano | Questões | Fácil | Média | Difícil |
+| --- | --- | --- | --- | --- |
+| 2021 | 47 | 16 | 22 | 9 |
+| 2022 | 50 | 23 | 19 | 8 |
+| 2023 | 50 | 23 | 21 | 6 |
+| 2024 | 50 | 18 | 23 | 9 |
+| 2025 | 50 | 24 | 16 | 10 |
+| **Total** | **247** | **104** | **101** | **42** |
+
+São 250 questões aplicadas; **três de 2021 (22, 31 e 42) foram anuladas pela banca** e ficaram de
+fora, porque sem gabarito não há como corrigir a resposta.
+
+### A dificuldade é medida, não estimada
+
+O caderno traz o percentual de candidatos que marcou cada alternativa. O percentual que marcou a
+correta é uma medida direta da dificuldade do item para quem presta exatamente esta prova, e é ela
+que classifica a questão:
+
+| % de acerto | Dificuldade |
+| --- | --- |
+| 70% ou mais | `FACIL` |
+| 45% a 69% | `MEDIA` |
+| abaixo de 45% | `DIFICIL` |
+
+Nenhum item foi classificado por opinião.
+
+### A taxonomia é ponto de partida, não gaiola
+
+O `npm run db:seed` popula a **taxonomia** — 13 temas, 93 assuntos e 471 tópicos —, que é estrutura
+de classificação, não conteúdo, e não influencia estatística nenhuma. As 5 provas trouxeram assuntos
+que a taxonomia inicial não previa e que o importador criou sozinho, porque a banca cobra: *Micoses
+sistêmicas*, *Infecções sexualmente transmissíveis*, *Infecções relacionadas à assistência*.
+
+Com o banco vazio, o ranking aparece zerado e o botão **Gerar prova de 60 questões** fica
+desabilitado, explicando o motivo.
+
+---
+
+## Ressalvas de gabarito
+
+Dez questões carregam um campo `reviewNote`: uma nota editorial sobre o gabarito oficial — conduta
+que mudou desde a aplicação, duas alternativas defensáveis, imprecisão de enunciado, item passível
+de anulação.
+
+A nota **só aparece depois que o usuário responde**, e por um motivo concreto: para argumentar por
+que discorda, ela precisa citar a letra do gabarito. Por isso não trafega no payload da questão —
+sai pelo endpoint de resposta, junto do `correct`. O mesmo cuidado que protege o `answerKey` vale
+para ela.
+
+| Prova | Questão | Assunto | Natureza da ressalva |
+| --- | --- | --- | --- |
+| 2021 | 29 | Sítio primário desconhecido | PET-CT hoje vem antes da pan-endoscopia |
+| 2021 | 41 | Nódulo tireoidiano (Bethesda IV) | Lobectomia é alternativa igualmente válida |
+| 2021 | 43 | Nódulo em vidro fosco | Intervalo de 3 meses é do Fleischner 2013 |
+| 2021 | 45 | HSA com hidrocefalia | Hidrocefalia aguda é DVE, não DVP |
+| 2022 | 45 | Coinfecção TB-HIV | Esquema com efavirenz foi substituído por dolutegravir |
+| 2023 | 16 | Síndrome RS3PE | Gabarito exige síndrome soronegativa com FR positivo no enunciado |
+| 2024 | 16 | Nefropatia da SAF | Concordância com ressalva — item limítrofe |
+| 2024 | 28 | Nefropatia por contraste | Fator de risco dominante é a DRC prévia, não o DM2 |
+| 2025 | 32 | Anti-hipertensivo a evitar | Edema com cacifo descrito é o da anlodipina |
+| 2025 | 34 | TEP | Concordância com ressalva — alternativa D é discutivelmente verdadeira |
+
+Isso é **revisão editorial escrita na importação**, distinta da seção "Checagem de consistência" que
+o Claude produz sob demanda. A primeira é fixa e auditável; a segunda é gerada na hora.
 
 ---
 
@@ -40,17 +95,23 @@ O ranking de incidência e a lista 80/20 são calculados no nível de **assunto*
 `Neurologia — Síndromes vasculares`. "Estudar Neurologia" não é uma instrução acionável;
 "estudar síndromes vasculares" é.
 
-Clicar num assunto abre os tópicos que ele cobra, com a incidência de cada um dentro do assunto:
+Clicar num assunto abre os tópicos que ele cobra, com a incidência de cada um dentro do assunto.
+Este é o topo real do ranking com as 5 provas importadas:
 
 ```
-1. Neurologia — Síndromes vasculares          5 q · 26.3%   acum. 26.3%
-     1. AVC isquêmico — trombólise                2 q · 40%
-     2. AVC isquêmico — trombectomia mecânica     1 q · 20%
-     3. Hemorragia subaracnoide e aneurisma       1 q · 20%
-     4. Trombose venosa cerebral                  1 q · 20%
+1. Gastroenterologia e Hepatologia — Hepatopatias não virais   11 q · 4.5%   acum. 4.5%
+     1. Colangite biliar primária e colangite esclerosante          4 q · 36.4%
+     2. Doença hepática gordurosa metabólica                        2 q · 18.2%
+     3. Insuficiência hepática aguda                                2 q · 18.2%
+     4. Hemocromatose                                               1 q ·  9.1%
+     5. Hepatite alcoólica                                          1 q ·  9.1%
+     6. Síndrome de Budd-Chiari                                     1 q ·  9.1%
 ```
 
 Cada tópico é um link que filtra o banco por aquele recorte.
+
+É exatamente o tipo de coisa que o agregado por tema esconde: "Gastroenterologia" é 9,7% da prova e
+não diz o que estudar; "colangite esclerosante caiu 4 vezes em 5 anos" diz.
 
 O agregado por tema continua sendo calculado — serve para filtros e para o painel de alto nível —,
 mas não é o que a lista de estudo apresenta.
@@ -166,7 +227,8 @@ Formato de `data/types.ts`:
       "topic": "AVC isquêmico — trombólise",
       "difficulty": "MEDIA",
       "keywords": ["AVC", "alteplase", "janela terapêutica"],
-      "reference": "Diretrizes AHA/ASA"
+      "reference": "Diretrizes AHA/ASA",
+      "reviewNote": "Opcional. Ressalva sobre o gabarito oficial; só é exibida depois que o usuário responde."
     }
   ]
 }
@@ -426,6 +488,12 @@ npm run exam:import -- x.json
 
 ## Limitações conhecidas
 
+- **A classificação das 247 questões é editorial.** Tema, assunto, tópico e palavras-chave foram
+  atribuídos questão a questão a partir do enunciado; o gabarito e o percentual de acerto vêm do
+  caderno e não foram alterados. Onde a questão cruza duas áreas — anemia falciforme que se complica
+  com coledocolitíase, por exemplo —, a classificação seguiu o raciocínio que resolve o item, e outra
+  leitura seria defensível. Isso desloca alguns pontos percentuais do ranking.
+- **As três questões anuladas de 2021 estão fora do banco** e, portanto, fora das estatísticas.
 - **As questões geradas são escritas por IA.** Foram validadas estruturalmente (gabarito existe
   entre as alternativas, sem letras duplicadas), mas não clinicamente. Revise antes de usá-las como
   material de estudo definitivo.

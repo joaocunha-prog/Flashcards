@@ -1,0 +1,1677 @@
+{
+  "slug": "uerj-2025-r-plus-cm",
+  "year": 2025,
+  "board": "UERJ",
+  "program": "R+ Clínica Médica",
+  "title": "UERJ 2025 — R+ Clínica Médica",
+  "source": "PROVA_OFICIAL",
+  "reference": "Caderno oficial UERJ 2025 — Hospital Universitário Pedro Ernesto (compilação MEDGRUPO, com gabarito e estatística de resposta por alternativa)",
+  "questions": [
+    {
+      "number": 1,
+      "statement": "Mulher de 55 anos, com história de artrite inflamatória de mãos e punhos, joelhos e tornozelos há alguns anos, evoluiu nas últimas semanas com queda do estado geral, fraqueza e cansaço aos esforços. No exame físico, a paciente estava hipocorada ++/4 e havia desvio ulnar e sinovite em articulações interfalangianas proximais. Considerando a provável anemia dessa paciente, os achados hematológicos que melhor caracterizam esse provável diagnóstico clínico, relacionados a reticulócitos, ferro sérico e capacidade de ligação do ferro, respectivamente, são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "baixos / alto / aumentada"
+        },
+        {
+          "letter": "B",
+          "text": "baixos / baixo / diminuída"
+        },
+        {
+          "letter": "C",
+          "text": "aumentados / alto / diminuída"
+        },
+        {
+          "letter": "D",
+          "text": "aumentados / baixo / aumentada"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Hematologia",
+      "subtheme": "Anemias",
+      "topic": "Anemia de doença crônica",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "anemia de doença crônica",
+        "artrite reumatoide",
+        "TIBC diminuída",
+        "ferro sérico baixo"
+      ]
+    },
+    {
+      "number": 2,
+      "statement": "Mulher de 30 anos, negra, com história de fadiga e cansaço aos esforços, está em investigação de anemia. Encontra-se hipocorada +/4 e apresenta úlcera de perna. O baço é palpável e não há linfadenopatia. A hemoglobina é de 10,5g/dL, o volume corpuscular médio (VCM) de 66fL e concentração de hemoglobina corpuscular média (CHCM) de 32. É mais provável encontrar nessa paciente um aumento de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "hemoglobina A2 e de ferritina"
+        },
+        {
+          "letter": "B",
+          "text": "hemoglobina S e ferritina baixa"
+        },
+        {
+          "letter": "C",
+          "text": "sideroblastos em anel e de ferritina"
+        },
+        {
+          "letter": "D",
+          "text": "sideroblastos em anel e ferritina baixa"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Hematologia",
+      "subtheme": "Anemias",
+      "topic": "Talassemias",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "talassemia beta",
+        "hemoglobina A2",
+        "microcitose acentuada",
+        "úlcera de perna"
+      ]
+    },
+    {
+      "number": 3,
+      "statement": "Homem de 60 anos, fumante de 40 maços-ano, está em tratamento de hipertensão arterial sistêmica (HAS), usando enalapril e hidroclorotiazida. Apresenta dispneia a pequenos esforços e espirometria com índice de Tiffenaud = 65% e VEF1seg = 1.600mL. No exame físico, o murmúrio vesicular está diminuído e a saturação de O₂ é de 93%. Verifica-se hemoglobina = 21g/dL, leucócitos = 15.000 e plaquetas = 600.000; dosagem de eritropoietina = 3mUI/mL (normal até 18,5mUI/mL), dosagem da vitamina B12 = 1.500pg/mL (normal até 900pg/mL) e ácido fólico = 5,4ng/mL (normal acima de 5,4ng/mL). O resultado do exame que confirmará o diagnóstico definitivo é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "gasometria arterial"
+        },
+        {
+          "letter": "B",
+          "text": "pesquisa da mutação Jak 2"
+        },
+        {
+          "letter": "C",
+          "text": "dosagem da angiopoietina 2"
+        },
+        {
+          "letter": "D",
+          "text": "tomografia de alta resolução do tórax"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Hematologia",
+      "subtheme": "Neoplasias mieloproliferativas",
+      "topic": "Policitemia vera",
+      "difficulty": "FACIL",
+      "keywords": [
+        "policitemia vera",
+        "mutação JAK2",
+        "eritropoetina suprimida",
+        "B12 elevada"
+      ]
+    },
+    {
+      "number": 4,
+      "statement": "Mulher de 35 anos, hígida, relatou aparecimento de lesões purpúricas nos membros inferiores e sangramento ao escovar os dentes iniciados há quinze dias. No exame físico, havia esplenomegalia e linfadenopatia de região cervical de 1,5 a 2cm, móveis, indolores e sem sinais flogísticos. O laboratório revela hemoglobina = 10g/dL, leucócitos = 4.200cels/mm3 e plaquetas = 20.000/mm3 . No exame de urina, verificaram-se 20 a 30 hemácias por campo, dismorfismo eritrocitário e cilindros. O diagnóstico mais provável é de púrpura trombocitopênica:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "secundária à leucemia aguda"
+        },
+        {
+          "letter": "B",
+          "text": "tipo imune secundária ao vírus HIV"
+        },
+        {
+          "letter": "C",
+          "text": "tipo imune secundária a colagenose"
+        },
+        {
+          "letter": "D",
+          "text": "secundária à microangiopatia trombótica"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Trombocitopenia imune",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "púrpura trombocitopênica imune",
+        "colagenose",
+        "LES",
+        "sedimento urinário ativo"
+      ]
+    },
+    {
+      "number": 5,
+      "statement": "Homem de 66 anos tem história de parestesias de membros inferiores de forma progressiva, associada à perda de peso de 10kg em seis meses. Ao exame físico, estava hipocorada ++/4, com linfadenopatia de cadeia cervical, esplenomegalia e achados compatíveis com polineuropatia periférica sensitivo-motora de membros inferiores. O exame laboratorial revelou hemoglobina = 7g/dL, leucócitos = 6.500/mm³, plaquetas = 200.000/mm³, rouleaux no sangue periférico, creatinina = 1,0mg/dL, cálcio = 9,7g/dL, proteína total = 9,0g/dL e albumina = 3,5g/dL, com banda monoclonal = 5g/dL. O diagnóstico mais provável é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mieloma múltiplo"
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de Schnitzler"
+        },
+        {
+          "letter": "C",
+          "text": "macroglobulinemia de Waldestron"
+        },
+        {
+          "letter": "D",
+          "text": "gamopatia monoclonal de significado indeterminado (MGUS)"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Hematologia",
+      "subtheme": "Discrasias plasmocitárias",
+      "topic": "Macroglobulinemia de Waldenström",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "macroglobulinemia de Waldenström",
+        "rouleaux",
+        "IgM monoclonal",
+        "polineuropatia"
+      ]
+    },
+    {
+      "number": 6,
+      "statement": "Mulher de 30 anos, hígida, apresenta há dez dias artralgia, escarros hemoptoicos, tosse e dispneia a grandes esforços. O exame laboratorial revela hemoglobina = 12g/dL, leucócitos = 12.000/mm³, VHS = 90mm/h, ureia = 82mg/dL e creatinina = 2,8mg/dL. No exame de urina, encontra-se hematúria dismórfica e cilindros. A tomografia computadorizada (TC) de tórax mostra infiltrados pulmonares. A biópsia renal mostra crescentes em 52% dos glomérulos e, na imunofluorescência, o padrão foi descrito como \"pauci- imune\". O diagnóstico mais provável, nesse caso, é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "poliarterite nodosa"
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de Goodpasture"
+        },
+        {
+          "letter": "C",
+          "text": "lúpus eritematoso sistêmico"
+        },
+        {
+          "letter": "D",
+          "text": "poliangeite com granulomatose"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Reumatologia",
+      "subtheme": "Vasculites",
+      "topic": "Vasculites ANCA-associadas",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "granulomatose com poliangeíte",
+        "glomerulonefrite pauci-imune",
+        "crescentes",
+        "síndrome pulmão-rim"
+      ],
+      "reference": "Recomendações EULAR/ACR para vasculites ANCA-associadas"
+    },
+    {
+      "number": 7,
+      "statement": "Homem de 21 anos, hígido, é internado com história de faringite aguda há seis semanas, seguida de febre vespertina de até 39°C, artrite dos tornozelos, joelhos e punhos, com simetria e sem deformidade. Nos últimos dias, vem referindo dor retroesternal que melhora com a flexão do tronco para frente. Ao exame físico, está febril, com rash cutâneo, macular que envolve o tronco, linfadenopatias cervicais bilaterais e baço palpável. O exame laboratorial apresenta leucocitose = 15.000, com desvio para esquerda, plaquetas = 500.000/mm³, aumento do VHS e ptn-C-reativa. O diagnóstico mais provável nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "doença de Still"
+        },
+        {
+          "letter": "B",
+          "text": "febre reumática"
+        },
+        {
+          "letter": "C",
+          "text": "leucemia aguda"
+        },
+        {
+          "letter": "D",
+          "text": "lúpus eritematoso sistêmico"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Reumatologia",
+      "subtheme": "Artrite reumatoide",
+      "topic": "Doença de Still do adulto",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença de Still",
+        "febre vespertina",
+        "pericardite",
+        "rash macular"
+      ]
+    },
+    {
+      "number": 8,
+      "statement": "Mulher de 55 anos tem histórico de poliartrite simétrica cumulativa muito dolorosa de início há nove anos, acometendo interfalangianas proximais, tornozelos e joelhos, que apresenta resposta ruim a AINEs. Refere emagrecimento de 10% do seu peso nos últimos meses e febre de 38°C. Ao exame físico, existe deformidade em mãos, nódulos subcutâneos em superfícies extensoras e esplenomegalia. O exame laboratorial apresenta hemoglobina = 9,5g/dL, leucócitos = 4.500/mm³, sendo 43% de polimorfonucleares, 50% de linfócitos, 5% de monócitos e 2% de eosinófilos, e plaquetas = 180.000/mm³. Os achados que definem a síndrome de Felty, nesse caso, compreendem esplenomegalia, bem como:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Imunofenotipagem com linfócitos B monoclonais e úlcera de perna."
+        },
+        {
+          "letter": "B",
+          "text": "Vermelho do Congo positivo da sinóvia e nódulos pulmonares."
+        },
+        {
+          "letter": "C",
+          "text": "Nódulos subcutâneos e úlcera de perna."
+        },
+        {
+          "letter": "D",
+          "text": "Nódulos subcutâneos e neutropenia."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Reumatologia",
+      "subtheme": "Artrite reumatoide",
+      "topic": "Manifestações extra-articulares",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome de Felty",
+        "neutropenia",
+        "esplenomegalia",
+        "nódulos subcutâneos"
+      ]
+    },
+    {
+      "number": 9,
+      "statement": "Homem de 30 anos apresenta artrite de aparecimento há algumas semanas, com envolvimento inicial do joelho esquerdo, seguido do tornozelo direito, febre ocasional, associada com uveíte anterior, úlcera oral e lesões vesicopustulares na palma das mãos e na planta dos pés, evoluindo com hiperceratose. O FAN e o fator reumatoide são negativos. Refere história de tuberculose na família e atividade sexual sem proteção. O diagnóstico mais provável para o caso é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Artrite reativa."
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome de Behçet."
+        },
+        {
+          "letter": "C",
+          "text": "Artrite psoriática em HIV."
+        },
+        {
+          "letter": "D",
+          "text": "Artrite gonocócica em HIV."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Reumatologia",
+      "subtheme": "Espondiloartrites",
+      "topic": "Artrite reativa",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "artrite reativa",
+        "ceratodermia blenorrágica",
+        "uveíte anterior",
+        "oligoartrite assimétrica"
+      ]
+    },
+    {
+      "number": 10,
+      "statement": "Homem de 31 anos apresenta há algumas semanas febre diária, lesões nodulares avermelhadas, dolorosas, restritas aos membros inferiores, e artrite de joelhos e tornozelos. Evolui com cinco a seis episódios de diarreia por dia, associados com dor em fossa ilíaca direita (FID). Tem lesões papulopustulosas restritas aos membros inferiores e refere episódios de dor e vermelhidão nos olhos há alguns dias. Ao exame físico, verificam-se cicatriz de úlcera na bolsa escrotal e lesão ativa na língua, com massa palpável em FID. Relata vida sexual sem proteção. A primeira hipótese diagnóstica nesse caso é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Doença de Crohn."
+        },
+        {
+          "letter": "B",
+          "text": "Poliarterite nodosa."
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de Behçet."
+        },
+        {
+          "letter": "D",
+          "text": "Linfogranuloma venéreo."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Reumatologia",
+      "subtheme": "Vasculites",
+      "topic": "Doença de Behçet",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença de Behçet",
+        "úlcera escrotal",
+        "pseudofoliculite",
+        "envolvimento intestinal"
+      ],
+      "reference": "Recomendações EULAR para doença de Behçet"
+    },
+    {
+      "number": 11,
+      "statement": "Mulher de 35 anos, hígida, com Índice de Massa Corporal (IMC) = 30 kg/m², apresenta história de dor abdominal em hipocôndrio direito, associada com febre de 38ºC e icterícia há sete dias. Os exames laboratoriais de entrada revelam hemoglobina = 13 g/dl; leucócitos = 5.000/mm³; plaquetas = 245.000/mm³; glicemia = 90 mg/dl; creatinina = 1,0 mg/dl; bilirrubina total = 10 mg/dl; bilirrubina direta = 8,0 mg/dl; AST = 1.000 UI/L; ALT = 1.240 UI/L; fosfatase alcalina = 255 UI/L; gama-GT = 90UI/L e INR = 1,2. Nega tabagismo. Refere ingestão de uma a duas latas de cerveja por dia há vários anos e vida sexual ativa sem proteção. O diagnóstico mais provável para o caso é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Hepatite viral C."
+        },
+        {
+          "letter": "B",
+          "text": "Hepatite viral B."
+        },
+        {
+          "letter": "C",
+          "text": "Colecistite aguda."
+        },
+        {
+          "letter": "D",
+          "text": "Hepatite alcoólica."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Hepatites virais",
+      "topic": "Hepatite B — interpretação sorológica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hepatite B aguda",
+        "transaminases acima de 1.000",
+        "icterícia",
+        "exposição sexual"
+      ],
+      "reference": "PCDT de Hepatites Virais — Ministério da Saúde"
+    },
+    {
+      "number": 12,
+      "statement": "Mulher de 50 anos, com diagnóstico de lúpus eritematoso difuso, nefrite lúpica, em esquema de imunossupressores, vem apresentando, há trinta dias, dor intensa a deglutição, leve disfagia e anorexia. Nega febre. O exame físico mostra uma mulher emagrecida, desnutrida, com perda de 6kg no último mês, sem alterações na cavidade oral. O próximo exame para a investigação diagnóstica, o diagnóstico mais provável e a medicação adequada para tratá-lo, respectivamente, são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "esofagomanometria / citomegalovírus / aciclovir"
+        },
+        {
+          "letter": "B",
+          "text": "esofagografia / herpes simples esofagiano / ganciclovir"
+        },
+        {
+          "letter": "C",
+          "text": "endoscopia digestiva alta / monilíase esofagiana / fluconazol"
+        },
+        {
+          "letter": "D",
+          "text": "TC de tórax com contraste / carcinoma de esôfago / esofagectomia"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Doenças do esôfago",
+      "topic": "Esofagite infecciosa",
+      "difficulty": "FACIL",
+      "keywords": [
+        "candidíase esofágica",
+        "odinofagia",
+        "fluconazol",
+        "imunossupressão"
+      ]
+    },
+    {
+      "number": 13,
+      "statement": "Homem de 55 anos refere história de diarreia com muco e sangue há nove anos, associada à febre diária e emagrecimento de 10% do peso nos últimos três meses. Vem apresentando infecção urinária de repetição. Na internação atual, o paciente relata pneumatúria. A doença principal e um exame para o diagnóstico da complicação do quadro clínico atual, respectivamente, são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "câncer de bexiga / cistoscopia"
+        },
+        {
+          "letter": "B",
+          "text": "câncer de cólon / colonoscopia"
+        },
+        {
+          "letter": "C",
+          "text": "colite ulcerativa / entero-TC intestinal"
+        },
+        {
+          "letter": "D",
+          "text": "doença de Crohn / entero-RM intestinal"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Doença inflamatória intestinal",
+      "topic": "Doença de Crohn",
+      "difficulty": "FACIL",
+      "keywords": [
+        "fístula enterovesical",
+        "pneumatúria",
+        "entero-ressonância",
+        "doença de Crohn"
+      ],
+      "reference": "Diretriz ECCO para doença de Crohn"
+    },
+    {
+      "number": 14,
+      "statement": "Mulher de 60 anos, hígida, tem histórico de emagrecimento de 5kg nas últimas duas semanas, adinamia, dor abdominal e fadiga. No exame físico, verificam-se confusão mental, icterícia +++/4+ e leve ascite. O exame laboratorial mostra leucograma = 4.000/mm³, ALT = 350UI/L, AST = 510UI/L, bilirrubina total = 9mg/dL, bilirrubina direta = 3,8mg/dL, fosfatase alcalina (FA) = 310UI/L, albumina = 3,5g/dL e INR = 1,7. A principal hipótese diagnóstica para o caso é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "insuficiência hepática aguda"
+        },
+        {
+          "letter": "B",
+          "text": "colangite esclerosante"
+        },
+        {
+          "letter": "C",
+          "text": "hepatite alcoólica"
+        },
+        {
+          "letter": "D",
+          "text": "cirrose hepática"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Insuficiência hepática aguda",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "insuficiência hepática aguda",
+        "INR alargado",
+        "encefalopatia",
+        "icterícia"
+      ],
+      "reference": "Diretriz AASLD para insuficiência hepática aguda"
+    },
+    {
+      "number": 15,
+      "statement": "Homem de 50 anos é acompanhada no setor de reumatologia por ter lúpus eritematoso sistêmico (LES) há alguns anos, em uso crônico de 20mg de prednisona. Ele inicia quadro agudo de diarreia mucosanguinolenta com seis a oito evacuações por dia, febrícula, queda do estado geral e leve desidratação. A pesquisa de elementos anormais nas fezes mostra radical heme e raros polimorfonucleares. As sorologias para HIV e HTLV são negativas. A cultura de fezes é negativa e a retosigmoidoscopia mostra úlceras rasas em sigmoide. O diagnóstico mais provável nesse caso é de infecção por:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Cryptosporidium"
+        },
+        {
+          "letter": "B",
+          "text": "Microsporidium"
+        },
+        {
+          "letter": "C",
+          "text": "Giárdia"
+        },
+        {
+          "letter": "D",
+          "text": "Ameba"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Amebíase",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "amebíase intestinal",
+        "úlceras rasas",
+        "imunossupressão",
+        "metronidazol"
+      ]
+    },
+    {
+      "number": 16,
+      "statement": "Homem de 50 anos, com história de HAS e diabetes mellitus tipo 2 (DM2) há 10 anos, IMC = 30kg/m², está em uso de metformina, enalapril e hidroclorotiazida. A pressão arterial (PA) está controlada e os exames laboratoriais apresentam hemoglobina glicada = 8,5%, creatinina = 1,4mg/dL e hemoglobina = 12,5g/dL. A melhor opção terapêutica visando a redução de mortalidade nesse caso deve ser:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "insulina noturna"
+        },
+        {
+          "letter": "B",
+          "text": "pioglitazona"
+        },
+        {
+          "letter": "C",
+          "text": "repaglinida"
+        },
+        {
+          "letter": "D",
+          "text": "liraglutida"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Endocrinologia",
+      "subtheme": "Diabetes mellitus",
+      "topic": "iSGLT2 e agonistas de GLP-1",
+      "difficulty": "FACIL",
+      "keywords": [
+        "liraglutida",
+        "redução de mortalidade",
+        "agonista de GLP-1",
+        "estudo LEADER"
+      ],
+      "reference": "Standards of Care da American Diabetes Association"
+    },
+    {
+      "number": 17,
+      "statement": "Mulher de 56 anos, com IMC = 42kg/m², vem apresentando, há algumas semanas, leve dor em hipocôndrio direito com ultrassonografia (USG) abdominal revelando esteatose hepática. Tem HAS e dislipidemia, mas nega DM2. Pensando no estágio da doença, é possível utilizar o FIB-4 para avaliar o risco de fibrose. Esse marcador utiliza como parâmetros:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "idade, AST, ALT e plaquetas"
+        },
+        {
+          "letter": "B",
+          "text": "idade, fosfatase alcalina, AST e g-Gt"
+        },
+        {
+          "letter": "C",
+          "text": "ácido hialurónico, g-Gt, ALT e bilirrubina"
+        },
+        {
+          "letter": "D",
+          "text": "haptoglobina, ácido hialurónico, plaquetas e bilirrubina"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Doença hepática gordurosa metabólica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "FIB-4",
+        "estratificação de fibrose",
+        "esteatose hepática",
+        "plaquetas"
+      ],
+      "reference": "Diretriz AASLD para doença hepática esteatótica metabólica"
+    },
+    {
+      "number": 18,
+      "statement": "Mulher de 55 anos, com história de emagrecimento e queda do estado geral, apresenta alteração da cor da urina, há dois meses. Evolui com poliúria = 3.000mL, densidade urinária = 1.004 e desidratação. No exame físico, verificam-se massa abdominal em flanco direito, dura, imóvel a respiração e ausência de outras visceromegalias. Os exames de laboratório mostram hemoglobina = 12g/dL, plaquetas = 220.000/mm³, creatinina = 1,3mg/dL, sódio = 148mEq/L, potássio = 3,3mEq/L, cálcio = 14mg/dL, fósforo = 3,5mg/dL e exame de urina com hematúria. A melhor combinação medicamentosa para o quadro de diabetes insipidus nefrogênico verificado nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "cloreto de sódio com bifosfonato"
+        },
+        {
+          "letter": "B",
+          "text": "cloreto de sódio com tiazídico"
+        },
+        {
+          "letter": "C",
+          "text": "furosemida com bifosfonato"
+        },
+        {
+          "letter": "D",
+          "text": "furosemida com calcitonina"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Hipercalcemia maligna",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipercalcemia maligna",
+        "diabetes insipidus nefrogênico",
+        "bisfosfonato",
+        "hidratação salina"
+      ]
+    },
+    {
+      "number": 19,
+      "statement": "Mulher de 33 anos, com DM tipo 1 há vários anos, procura atendimento médico por ganho de peso, adinamia, fraqueza e sonolência diurna. No exame físico, verifica-se que a tireoide está aumentada, com consistência firme e nodulações. A PA tem diminuído nos últimos meses, associada à hiperpigmentação da pele. O exame laboratorial mostra hemoglobina = 10g/dL, creatinina = 1,4mg/dL, sódio = 132mEq/L, potássio = 5,7mEq/L, cálcio = 10mg/dL, fósforo = 3,5mg/dL, T4livre = 0,60ng/dL (normal entre 0,70 a 1,48ng/dL), TSH = 20uUl/mL (normal abaixo de 4,5uUI/dL) e anticorpo antimicrossomal (anti-TPO) positivo. O diagnóstico mais provável nesse caso é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neoplasia endócrina múltipla (NEM 1)"
+        },
+        {
+          "letter": "B",
+          "text": "neoplasia endócrina múltipla (NEM 2a)"
+        },
+        {
+          "letter": "C",
+          "text": "síndrome poliglandular autoimune tipo 1"
+        },
+        {
+          "letter": "D",
+          "text": "síndrome poliglandular autoimune tipo 2"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da adrenal",
+      "topic": "Insuficiência adrenal primária e secundária",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "síndrome poliglandular autoimune tipo 2",
+        "tireoidite de Hashimoto",
+        "doença de Addison",
+        "DM1"
+      ]
+    },
+    {
+      "number": 20,
+      "statement": "Homem de 86 anos, com história de palpitações, dispneia, tremor de extremidades e perda de peso, tem DM2 e cardiopatia hipertensiva. Ao exame físico, apresenta tireoide discretamente aumentada, multinodular, sem linfadenopatias. O T4 livre estava aumentado e o TSH US suprimido. Os níveis de T3 estão maiores do que os de T4. A cintigrafia da tireoide mostra hipercaptação em sete áreas em ambos os lobos da tireoide, e hipocaptação no restante da glândula. Nesse caso, a conduta mais adequada é iniciar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "propranolol, metimazol e iodo radioativo"
+        },
+        {
+          "letter": "B",
+          "text": "propiltiouracil e realizar tireoidectomia subtotal"
+        },
+        {
+          "letter": "C",
+          "text": "propiltiouracil, corticoterapia e aguardar remissão espontânea"
+        },
+        {
+          "letter": "D",
+          "text": "metimazol, betabloqueador e realizar instilação de álcool nas nodulações"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da tireoide",
+      "topic": "Hipertireoidismo e doença de Graves",
+      "difficulty": "FACIL",
+      "keywords": [
+        "bócio multinodular tóxico",
+        "iodo radioativo",
+        "metimazol",
+        "T3 toxicose"
+      ],
+      "reference": "Diretriz da American Thyroid Association para hipertireoidismo"
+    },
+    {
+      "number": 21,
+      "statement": "Homem de 22 anos, com vício em drogas, desenvolve quadro de cefaleia holocraniana, com piora progressiva nos últimos dias e episódios de febre de 39°C. Evolui em alguns dias, com hemiparesia progressiva à direita, crise convulsiva e certo grau de confusão mental. Não há rigidez de nuca ou alteração de pares cranianos. O paciente está emagrecido, anemiado e com monilíase oral. O próximo passo na elucidação do caso é realizar sorologia para HIV, além de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Punção lombar."
+        },
+        {
+          "letter": "B",
+          "text": "USG com Doppler das carótidas."
+        },
+        {
+          "letter": "C",
+          "text": "TC do sistema nervoso central com contraste."
+        },
+        {
+          "letter": "D",
+          "text": "Exames de látex no sangue e liquor para cryptococcus."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Neurotoxoplasmose",
+      "difficulty": "FACIL",
+      "keywords": [
+        "neurotoxoplasmose",
+        "HIV",
+        "lesão com efeito de massa",
+        "TC com contraste"
+      ],
+      "reference": "PCDT de Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde"
+    },
+    {
+      "number": 22,
+      "statement": "Mulher de 30 anos, hígida, apresenta quadro de cefaleia holocraniana súbita de forte intensidade associado à fotofobia, náuseas e vômitos. Nega febre ou história prévia de cefaleia. O exame neurológico é normal, exceto por rigidez de nuca terminal. Cinco dias após o início do quadro, evolui com alteração do nível de consciência e hemiparesia à esquerda. A sorologia para toxoplasmose é positiva para lgG e negativa para IgM, e a sorologia para Citomegalovírus (CMV) é positiva. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Isquemia cerebral transitória evoluindo com AVC."
+        },
+        {
+          "letter": "B",
+          "text": "Hemorragia subaracnoidea com vasoespasmo."
+        },
+        {
+          "letter": "C",
+          "text": "Hemorragia subaracnoidea por CMV."
+        },
+        {
+          "letter": "D",
+          "text": "HIV com neurotoxoplasmose."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vasculares",
+      "topic": "Hemorragia subaracnoide e aneurisma",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hemorragia subaracnoide",
+        "vasoespasmo",
+        "déficit tardio",
+        "cefaleia em trovoada"
+      ],
+      "reference": "Diretriz AHA/ASA para hemorragia subaracnoide aneurismática"
+    },
+    {
+      "number": 23,
+      "statement": "Homem de 56 anos apresentou, de forma súbita há dois dias, tonteira giratória de forte intensidade, acompanhada de náuseas, e episódios ocasionais de vômitos, desencadeada ao se virar na cama ou rodar a cabeça abruptamente. Nega alterações auditivas. Refere já ter tido episódios prévios nos últimos anos. Ao exame, verifica-se nistagmo horizontal na mirada lateral esquerda. A principal hipótese diagnóstica nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "vertigem posicional benigna"
+        },
+        {
+          "letter": "B",
+          "text": "enxaquecá vestibular"
+        },
+        {
+          "letter": "C",
+          "text": "síndrome de Méniére"
+        },
+        {
+          "letter": "D",
+          "text": "colesteatoma"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Vertigem e síndromes vestibulares",
+      "difficulty": "FACIL",
+      "keywords": [
+        "vertigem posicional paroxística benigna",
+        "nistagmo",
+        "manobra de Dix-Hallpike"
+      ]
+    },
+    {
+      "number": 24,
+      "statement": "Homem de 65 anos apresenta, há algumas semanas, tosse seca persistente e emagrecimento. Ao exame físico, verificam-se quadro de fraqueza muscular proximal e arreflexia de membros inferiores, associado com secura da boca, disfagia, diplopia e ptose palpebral. Os reflexos e parte da força tendem a aumentar com o exercício. A doença de base que levou a essa síndrome paraneoplásica é provavelmente ocasionada por um:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "timoma maligno"
+        },
+        {
+          "letter": "B",
+          "text": "adenocarcinoma de pulmão"
+        },
+        {
+          "letter": "C",
+          "text": "tumor neuroendócrino do pulmão"
+        },
+        {
+          "letter": "D",
+          "text": "tumor de células germinativas do mediastino"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Oncologia",
+      "subtheme": "Síndromes paraneoplásicas",
+      "topic": "Síndromes neurológicas paraneoplásicas",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome de Lambert-Eaton",
+        "carcinoma de pequenas células",
+        "incremento pós-exercício"
+      ]
+    },
+    {
+      "number": 25,
+      "statement": "A avaliação de um paciente com história compatível com síndrome de Guillain-Barré indica a hipótese diagnóstica da variante de Miller-Fischer, que se apresenta com:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Paralisia espástica de membros, mioclonia e ausência de alterações sensitivas."
+        },
+        {
+          "letter": "B",
+          "text": "Paralisia flácida de membros, miofasciculação e alterações esfincterianas."
+        },
+        {
+          "letter": "C",
+          "text": "Hiperreflexia, mioclonia e fraqueza de membros inferiores."
+        },
+        {
+          "letter": "D",
+          "text": "Oftalmoplegia, arreflexia e ataxia da marcha."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Neurologia",
+      "subtheme": "Doenças neuromusculares",
+      "topic": "Síndrome de Guillain-Barré",
+      "difficulty": "FACIL",
+      "keywords": [
+        "variante de Miller-Fisher",
+        "oftalmoplegia",
+        "arreflexia",
+        "ataxia"
+      ]
+    },
+    {
+      "number": 26,
+      "statement": "Homem de 68 anos, hipertenso há seis anos, em uso de 8mg de candesartana ao dia, foi a consulta com história de dois episódios anteriores de fibrilação atrial revertida a ritmo sinusal. Relatou que o último episódio teve início indeterminado e foi revertido há cinco dias. Trouxe exames feitos recentemente indicando ecocardiograma normal e angiotomografia das coronárias sem lesões angiograficamente significativas na macrocirculação epicárdica. Apresentou prescrição atual de apixabana 5mg a cada 12 horas e, para manutenção do ritmo sinusal, amiodarona 200mg ao dia. O paciente relata efeitos colaterais e procura uma conduta mais eficaz que minimize esses efeitos. Com os dados oferecidos, a conduta mais indicada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Trocar apixabana por cumarínico e manter amiodarona."
+        },
+        {
+          "letter": "B",
+          "text": "Manter apixabana e trocar amiodarona por propafenona."
+        },
+        {
+          "letter": "C",
+          "text": "Trocar apixabana por rivaroxabana e amiodarona por verapamil."
+        },
+        {
+          "letter": "D",
+          "text": "Manter a prescrição atual, priorizando os benefícios ao paciente."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Cardiologia",
+      "subtheme": "Arritmias",
+      "topic": "Fibrilação atrial — controle de frequência e ritmo",
+      "difficulty": "FACIL",
+      "keywords": [
+        "propafenona",
+        "amiodarona",
+        "coração estruturalmente normal",
+        "controle de ritmo"
+      ],
+      "reference": "Diretriz ESC de fibrilação atrial"
+    },
+    {
+      "number": 27,
+      "statement": "Homem de 75 anos queixa-se de edema dos membros inferiores e aumento do volume abdominal. Ao exame físico, tem turgência jugular a 45°, hepatomegalia e edema mole, frio e com cacifo 3+/4+ nos membros inferiores. O eletrocardiograma mostra baixa voltagem e o ecocardiograma descarta derrame ou espessamento pericárdico, embora as paredes ventriculares estejam espessadas, o átrio esquerdo aumentado, e haja disfunção diastólica do ventrículo esquerdo. O diagnóstico mais provável nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Amiloidose."
+        },
+        {
+          "letter": "B",
+          "text": "Endomiocardiofibrose."
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome de Takotsubo."
+        },
+        {
+          "letter": "D",
+          "text": "Cardiomiopatia hipertrófica."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Cardiologia",
+      "subtheme": "Doenças do pericárdio e miocárdio",
+      "topic": "Cardiomiopatias restritivas e infiltrativas",
+      "difficulty": "FACIL",
+      "keywords": [
+        "amiloidose cardíaca",
+        "baixa voltagem",
+        "disfunção diastólica",
+        "paredes espessadas"
+      ]
+    },
+    {
+      "number": 28,
+      "statement": "No ambulatório, um homem de 30 anos é atendido em primeira consulta. A ausculta do precórdio revela sopro sistólico aórtico \"em diamante\" irradiado para o pescoço. É solicitado ecocardiograma bidimensional que revela aorta bicúspide com estenose valvar significativa. Além do envolvimento valvar, deve-se verificar possível ocorrência concomitante de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Coartação da aorta."
+        },
+        {
+          "letter": "B",
+          "text": "Comunicação interatrial."
+        },
+        {
+          "letter": "C",
+          "text": "Hipertensão arterial pulmonar."
+        },
+        {
+          "letter": "D",
+          "text": "Dilatação da aorta ascendente."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Valvopatias",
+      "topic": "Estenose aórtica",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "valva aórtica bicúspide",
+        "aortopatia",
+        "dilatação da aorta ascendente"
+      ],
+      "reference": "Diretriz ESC/EACTS de valvopatias"
+    },
+    {
+      "number": 29,
+      "statement": "Ao auscultar um paciente com insuficiência mitral crônica grave, espera-se ouvir como típico:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Quarta bulha cardíaca melhor audível na ponta."
+        },
+        {
+          "letter": "B",
+          "text": "Sopro pré-sistólico com reforço na inspiração profunda."
+        },
+        {
+          "letter": "C",
+          "text": "Hiperfonese da primeira bulha com reforço pressistólico."
+        },
+        {
+          "letter": "D",
+          "text": "Primeiro ruído cardíaco abafado pelo sopro holossistólico."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Valvopatias",
+      "topic": "Insuficiência mitral",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "insuficiência mitral crônica",
+        "sopro holossistólico",
+        "primeira bulha abafada"
+      ]
+    },
+    {
+      "number": 30,
+      "statement": "Homem de 40 anos refere dor precordial de forte intensidade iniciada há oito horas. Seu eletrocardiograma mostra elevação difusa do segmento ST em D1, D2, e AVF, e de V2 a V6, com depressões recíprocas em V1 e aVR. Questiona-se haver infradesnivelamento do segmento PR. Tem pequena elevação de troponina sérica (paciente = 0,05 e corte normal de referência = 0,04ng/mL). O ecocardiograma revela derrame pericárdico de leve a moderado. O melhor tratamento inicial nesse caso seria iniciar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Ibuprofeno com colchicina."
+        },
+        {
+          "letter": "B",
+          "text": "Ibuprofeno com indometacina."
+        },
+        {
+          "letter": "C",
+          "text": "AAS e realizar angioplastia primária."
+        },
+        {
+          "letter": "D",
+          "text": "Trombolítico com posterior anticoagulação plena."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Cardiologia",
+      "subtheme": "Doenças do pericárdio e miocárdio",
+      "topic": "Pericardite aguda",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pericardite aguda",
+        "colchicina",
+        "infradesnivelamento de PR",
+        "supra difuso"
+      ],
+      "reference": "Diretriz ESC de doenças do pericárdio"
+    },
+    {
+      "number": 31,
+      "statement": "No ambulatório, foi pedido teste ergométrico para um homem assintomático de 40 anos, com hipertensão controlada com enalapril. O exame foi normal. A partir disso, é possível concluir que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "é improvável que haja lesão trivascular importante"
+        },
+        {
+          "letter": "B",
+          "text": "um resultado negativo em paciente assintomático praticamente exclui doença coronária obstrutiva"
+        },
+        {
+          "letter": "C",
+          "text": "um resultado normal deve ser interpretado com reserva, já que lesões da coronária direita podem gerar resultados falso negativos"
+        },
+        {
+          "letter": "D",
+          "text": "é comum ocorrer lesão importante no tronco da coronária esquerda, mesmo com teste ergométrico normal, portanto deve-se confirmar o resultado com cintilografia miocárdica"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Cardiologia",
+      "subtheme": "Síndromes coronarianas agudas",
+      "topic": "Angina estável e testes de isquemia",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "teste ergométrico",
+        "probabilidade pré-teste",
+        "valor preditivo negativo"
+      ]
+    },
+    {
+      "number": 32,
+      "statement": "Mulher de 58 anos, com hipertensão e DM2, tem história de infarto do miocárdio prévio e angina pectoris pós-infarto. Relata dificuldade para controle da pressão arterial. No exame físico, verificam-se PA = 170x98mmHg, FC = 98bpm, presença de quarta bulha cardíaca, além de edema de membros inferiores mole e com cacifo 1+/4+. A paciente está em uso de hipoglicemiante oral, hidroclorotiazida e losartana. A droga que pior se encaixaria no esquema anti-hipertensivo por seus efeitos colaterais descritos seria:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "atenolol"
+        },
+        {
+          "letter": "B",
+          "text": "clonidina"
+        },
+        {
+          "letter": "C",
+          "text": "anlodipina"
+        },
+        {
+          "letter": "D",
+          "text": "hidralazina"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Hipertensão arterial",
+      "topic": "Tratamento farmacológico",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "hidralazina",
+        "taquicardia reflexa",
+        "retenção hidrossalina",
+        "anlodipino"
+      ],
+      "reference": "Diretriz Brasileira de Hipertensão Arterial (SBC)",
+      "reviewNote": "DISCORDO de o gabarito D (hidralazina) ser inequivocamente melhor que a alternativa C (anlodipina), marcada por 65% dos candidatos. O raciocínio do gabarito é defensável: a hidralazina é vasodilatador arterial direto e provoca taquicardia reflexa — ruim para quem tem angina pós-infarto e já está com FC de 98bpm — além de retenção hidrossalina por ativação do sistema renina-angiotensina-aldosterona, que piora o edema. O problema é que o enunciado descreve edema de membros inferiores mole e com cacifo, que é justamente a reação adversa mais característica da anlodipina (edema por vasodilatação arteriolar pré-capilar, dose-dependente, presente em 5 a 10% dos pacientes e o principal motivo de abandono da droga). Como o item pede 'a droga que PIOR se encaixaria no esquema por seus efeitos colaterais DESCRITOS', e o efeito colateral descrito no enunciado é exatamente o da anlodipina, a alternativa C tem sustentação textual pelo menos tão boa quanto a D. Item ambíguo; a distribuição de respostas (65% em C contra 22% em D) reforça isso."
+    },
+    {
+      "number": 33,
+      "statement": "Mulher de 65 anos, com hipertensão há 20 anos, em uso de enalapril e hidroclorotiazida, vai a emergência queixando-se de cefaleia holocraniana. Sua pressão arterial em ambos os braços é de 190×110mmHg. A TC descarta sangramento intracraniano. Nesse caso, a pressão arterial deve ser diminuída lentamente ao longo de 24 horas, ao invés de rapidamente, principalmente pelo risco de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "isquemia cerebral"
+        },
+        {
+          "letter": "B",
+          "text": "dissecção da aorta"
+        },
+        {
+          "letter": "C",
+          "text": "fibrilação ventricular"
+        },
+        {
+          "letter": "D",
+          "text": "isquemia mesentérica"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Cardiologia",
+      "subtheme": "Hipertensão arterial",
+      "topic": "Emergência e urgência hipertensiva",
+      "difficulty": "FACIL",
+      "keywords": [
+        "autorregulação cerebral",
+        "redução gradual da PA",
+        "urgência hipertensiva"
+      ],
+      "reference": "Diretriz Brasileira de Hipertensão Arterial (SBC)"
+    },
+    {
+      "number": 34,
+      "statement": "Sobre o tromboembolismo pulmonar (TEP), é correto afirmar que o(a):",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "sintoma mais comum do TEP é a sincope"
+        },
+        {
+          "letter": "B",
+          "text": "infarto pulmonar costuma acontecer nos pequenos TEPs"
+        },
+        {
+          "letter": "C",
+          "text": "hipoventilação alveolar é considerada o principal sinal de gravidade em TEP"
+        },
+        {
+          "letter": "D",
+          "text": "arteriografia pulmonar tem maior resolução para confirmar TEP do que a angiotomografia do tórax"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Pneumologia",
+      "subtheme": "Tromboembolismo pulmonar",
+      "topic": "Diagnóstico por imagem",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "infarto pulmonar",
+        "angiotomografia",
+        "arteriografia pulmonar",
+        "TEP periférico"
+      ],
+      "reference": "Diretriz ESC de embolia pulmonar",
+      "reviewNote": "Concordo com o gabarito B (infarto pulmonar costuma acontecer nos TEPs pequenos — é contraintuitivo, mas correto: o infarto ocorre em êmbolos distais/periféricos, porque a circulação brônquica não consegue suprir a periferia pulmonar; êmbolos centrais grandes matam por falência de ventrículo direito, não por infarto). Registro, porém, uma ressalva sobre a alternativa D, marcada por 50% dos candidatos: dizer que a arteriografia pulmonar tem maior resolução que a angiotomografia não é absurdo — a arteriografia por cateter foi o padrão-ouro histórico e ainda supera a angio-TC na detecção de êmbolos subsegmentares. O que tornou a angio-TC o exame de escolha não foi resolução superior, e sim disponibilidade, rapidez, menor invasividade e capacidade de diagnóstico diferencial. A alternativa está escrita de forma que a torna discutivelmente verdadeira, o que enfraquece o item, ainda que B seja a resposta mais correta."
+    },
+    {
+      "number": 35,
+      "statement": "Homem de 30 anos é levado ao pronto socorro inconsciente. Seus colegas de trabalho relatam que o paciente sentiu forte cefaleia repentinamente e, poucos minutos depois, ficou inconsciente. A angiotomografia de crânio revela hemorragia subaracnoidea e aneurisma na cerebral média. A pressão arterial média é de 115mmHg, e a pressão intracraniana é de 45mmHg. Enquanto se aguarda a decisão sobre o momento ideal de intervir no aneurisma, para prevenir lesões isquêmicas tardias, deve-se iniciar nesse momento:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Manitol."
+        },
+        {
+          "letter": "B",
+          "text": "Nimodipina."
+        },
+        {
+          "letter": "C",
+          "text": "Acetazolamida."
+        },
+        {
+          "letter": "D",
+          "text": "Dexametasona."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vasculares",
+      "topic": "Hemorragia subaracnoide e aneurisma",
+      "difficulty": "FACIL",
+      "keywords": [
+        "nimodipina",
+        "isquemia cerebral tardia",
+        "vasoespasmo",
+        "aneurisma"
+      ],
+      "reference": "Diretriz AHA/ASA para hemorragia subaracnoide aneurismática"
+    },
+    {
+      "number": 36,
+      "statement": "Durante o tratamento de um paciente com cetoacidose diabética, a partir do momento em que se atinge estabilidade hemodinâmica e bom fluxo urinário, é recomendável que se troque a solução salina a 0,9% por solução de Ringer com Lactato ou solução salina 0,45%. Essa conduta visa evitar posterior desenvolvimento de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Hipervolemia."
+        },
+        {
+          "letter": "B",
+          "text": "Hipercalemia."
+        },
+        {
+          "letter": "C",
+          "text": "Hipercloremia."
+        },
+        {
+          "letter": "D",
+          "text": "Hipernatremia."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Endocrinologia",
+      "subtheme": "Emergências diabéticas",
+      "topic": "Cetoacidose diabética",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "acidose hiperclorêmica",
+        "salina 0,9%",
+        "Ringer lactato",
+        "cetoacidose"
+      ]
+    },
+    {
+      "number": 37,
+      "statement": "Homem de 70 anos compareceu a consulta com queixas de \"pressão e glicose altas\". Referia usar omeprazol há muitos meses para dispepsia. O médico associou a esse fármaco hidroclorotiazida, metformina, além de prescrever amoxacilina com clavulanato para possível infecção urinária. Doze dias depois, o paciente foi internado com irritabilidade, além de parestesias nos dedos de mãos e pés. Ao exame físico, notou-se espasmo do carpo durante a aferição da pressão arterial. Nos exames complementares, o cálcio sérico estava baixo (5,8mg/mL), a albumina sérica normal (4,0mg/dL), e o PTH praticamente indetectável. Após reposição de cálcio, a calcemia se manteve praticamente nos mesmos níveis anteriores, assim como o PTH. Na tentativa de elucidar o que está acontecendo, seria importante dosar os níveis séricos de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "lgG4"
+        },
+        {
+          "letter": "B",
+          "text": "cloro"
+        },
+        {
+          "letter": "C",
+          "text": "magnésio"
+        },
+        {
+          "letter": "D",
+          "text": "hormônio estimulador da tireoide (TSH)"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Nefrologia",
+      "subtheme": "Distúrbios hidroeletrolíticos",
+      "topic": "Distúrbios do magnésio e do fósforo",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipomagnesemia",
+        "inibidor de bomba de prótons",
+        "hipocalcemia refratária",
+        "PTH suprimido"
+      ]
+    },
+    {
+      "number": 38,
+      "statement": "Mulher de 55 anos foi internada com desorientação, desidratação e queda do estado geral. Parentes relatam que ela está em tratamento oncológico. Nos exames complementares, verificam-se calcemia de 16mg/dL e creatinina de 2,5mg/dL. Após hidratação com soro fisiológico, que gerou pouco resultado, é administrado corticosteroide, que resulta em queda da calcemia e melhora do estado geral. A neoplasia que mais provavelmente acomete essa paciente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "carcinoma ductal infiltrante da mama"
+        },
+        {
+          "letter": "B",
+          "text": "pequenas células do pulmão"
+        },
+        {
+          "letter": "C",
+          "text": "hipernefroma"
+        },
+        {
+          "letter": "D",
+          "text": "linfoma"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Hipercalcemia maligna",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "hipercalcemia por calcitriol",
+        "linfoma",
+        "corticoide",
+        "1,25-di-hidroxivitamina D"
+      ]
+    },
+    {
+      "number": 39,
+      "statement": "Paciente de 50 anos com carcinoma gástrico vai à emergência com dor na perna esquerda. Não tem queixas respiratórias. Está hipocorado +/4+, eupneico, estável hemodinamicamente e, na perna esquerda, tem edema mole com cacifo ++/4+, temperatura discretamente aumentada e apresenta ligeiro rubor nesse membro. O ecodoppler confirma o diagnóstico de trombose venosa profunda. O paciente refere não querer permanecer internado nem usar injeções subcutâneas. A melhor opção nesse momento é iniciar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dipiridamol"
+        },
+        {
+          "letter": "B",
+          "text": "apixaban"
+        },
+        {
+          "letter": "C",
+          "text": "warfarina"
+        },
+        {
+          "letter": "D",
+          "text": "aspirina"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Hematologia",
+      "subtheme": "Trombofilia e anticoagulação",
+      "topic": "Anticoagulantes orais diretos",
+      "difficulty": "FACIL",
+      "keywords": [
+        "trombose associada a câncer",
+        "apixabana",
+        "anticoagulante oral direto",
+        "estudo Caravaggio"
+      ],
+      "reference": "Diretriz ASH para tromboembolismo venoso no câncer"
+    },
+    {
+      "number": 40,
+      "statement": "Paciente que está no quinto dia de pós-operatório de transplante hepático sem intercorrências inicia quadro infeccioso com febre de 38°C, taquicardia e queda do estado geral. Está em uso de glicocorticoide venoso e tacrolimus. A etiologia mais provável causadora dessa infecção é por:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "fungos"
+        },
+        {
+          "letter": "B",
+          "text": "bactérias"
+        },
+        {
+          "letter": "C",
+          "text": "herpesvírus"
+        },
+        {
+          "letter": "D",
+          "text": "citomegalovírus"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Infecção no transplantado",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "transplante hepático",
+        "primeiro mês pós-transplante",
+        "infecção bacteriana",
+        "cronologia"
+      ]
+    },
+    {
+      "number": 41,
+      "statement": "Homem de 68 anos, com DM2, em uso de metformina e pioglitazona, será operado de forma eletiva para correção de estenose do canal medular nos níveis de L1 a L5. A coluna será fixada com hastes e parafusos. A cirurgia deve durar entre seis e oito horas. O paciente não tem alergias e a função renal é normal. Opta-se pelo uso da cefazolina, cujo início e duração da profilaxia devem ser prescritos, respectivamente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "quatro horas antes de iniciar a cirurgia / até 48h após o término da cirurgia"
+        },
+        {
+          "letter": "B",
+          "text": "seis horas antes de iniciar cirurgia / até 12h após término da cirurgia"
+        },
+        {
+          "letter": "C",
+          "text": "uma hora antes de iniciar a cirurgia / até o fechamento da pele"
+        },
+        {
+          "letter": "D",
+          "text": "um dia antes da cirurgia / até 24h após término da cirurgia"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Antibioticoprofilaxia cirúrgica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "cefazolina",
+        "profilaxia cirúrgica",
+        "uma hora antes da incisão",
+        "duração"
+      ],
+      "reference": "Diretriz ASHP/IDSA de profilaxia antimicrobiana em cirurgia"
+    },
+    {
+      "number": 42,
+      "statement": "Paciente de 72 anos, internado com dor abdominal, febre, queda do estado geral e náuseas, há cinco dias, recebeu diagnóstico de abscesso intraperitoneal por doença diverticular do cólon perfurada. Foi submetido a laparotomia com drenagem de abscesso e colostomia, quando foram iniciados ciprofloxacino e metronidazol. No sexto dia de pós-operatório, queixou-se de náuseas e vômitos e febre. Seu leucograma mostrava piora da leucocitose e do desvio a esquerda. Uma TC revelou abscessos entre alças, e o paciente foi novamente operado. No segundo dia desse pós-operatório, evoluiu com pneumonia e foi levado ao centro de terapia intensiva (CTI) com insuficiência respiratória aguda. Foi cogitado iniciar monoterapia com tigeciclina, porém o espectro dessa droga não contemplaria um patógeno importante, nesse caso, que é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Staphylococcus aureus resistentes à meticilina"
+        },
+        {
+          "letter": "B",
+          "text": "Enterococcus resistentes à vancomicina"
+        },
+        {
+          "letter": "C",
+          "text": "Pseudomonas aeruginosa"
+        },
+        {
+          "letter": "D",
+          "text": "Klebsiella pneumoniae"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "Antibioticoterapia",
+      "topic": "Espectro e escolha empírica",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "tigeciclina",
+        "Pseudomonas aeruginosa",
+        "espectro antimicrobiano",
+        "monoterapia"
+      ]
+    },
+    {
+      "number": 43,
+      "statement": "Mulher de 38 anos inicia quadro agudo com febre alta de 39°C, confusão mental e rigidez de nuca. A TC do encéfalo mostra área de edema no lobo temporal esquerdo, descartando lesões tumorais. O estudo do líquor revela aumento das proteínas, 1.350 leucócitos com 85% de mononucleares, e 10 hemácias. Com os dados disponíveis, verifica-se que o agente etiológico mais provável é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "citomegalovírus"
+        },
+        {
+          "letter": "B",
+          "text": "meningococo"
+        },
+        {
+          "letter": "C",
+          "text": "enterovírus"
+        },
+        {
+          "letter": "D",
+          "text": "herpesvírus"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Meningites e infecções do SNC",
+      "topic": "Encefalite herpética",
+      "difficulty": "FACIL",
+      "keywords": [
+        "encefalite herpética",
+        "lobo temporal",
+        "liquor com mononucleares",
+        "aciclovir"
+      ]
+    },
+    {
+      "number": 44,
+      "statement": "Mulher de 65 anos em tratamento com bifosfonato para osteoporose desenvolve quadro arrastado de dor local no ângulo da mandíbula, vermelhidão local e edema com calor. Evolui com formação de abscessos e massa endurecida que não respeita planos de clivagem. É feita biopsia da massa que revela infiltrado neutrofílico com áreas de necrose e grânulos sulfurosos. O melhor tratamento nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "amicacina"
+        },
+        {
+          "letter": "B",
+          "text": "amoxacilina"
+        },
+        {
+          "letter": "C",
+          "text": "metronidazol"
+        },
+        {
+          "letter": "D",
+          "text": "ciprofloxacina"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções de pele e partes moles",
+      "topic": "Actinomicose",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "actinomicose cervicofacial",
+        "grânulos sulfurosos",
+        "penicilina",
+        "osteonecrose por bisfosfonato"
+      ]
+    },
+    {
+      "number": 45,
+      "statement": "Um paciente com perda de função renal e eosinofilia no sangue periférico foi submetido a biópsia renal cujo resultado revelou nefrite intersticial alérgica. A dupla de drogas que mais provavelmente poderiam estar sendo usadas é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "amlodipina e dipiridamol"
+        },
+        {
+          "letter": "B",
+          "text": "omeprazol e alopurinol"
+        },
+        {
+          "letter": "C",
+          "text": "doxiciclina e carvedilol"
+        },
+        {
+          "letter": "D",
+          "text": "propafenona e nitrato"
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Nefrologia",
+      "subtheme": "Injúria renal aguda",
+      "topic": "Nefrite intersticial aguda",
+      "difficulty": "FACIL",
+      "keywords": [
+        "nefrite intersticial alérgica",
+        "omeprazol",
+        "alopurinol",
+        "eosinofilia"
+      ]
+    },
+    {
+      "number": 46,
+      "statement": "Pacientes que fazem uso de lítio para tratamento de doença psiquiátrica crônica devem ter seus níveis de lítio monitorizados com frequência para antever efeitos colaterais, sendo o mais comum, em nível renal:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "glomerulonefrite eosinofílica aguda"
+        },
+        {
+          "letter": "B",
+          "text": "nefrite túbulo intersticial alérgica"
+        },
+        {
+          "letter": "C",
+          "text": "diabetes insipidus nefrogênico"
+        },
+        {
+          "letter": "D",
+          "text": "necrose tubular aguda"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Nefrotoxicidade por fármacos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "lítio",
+        "diabetes insipidus nefrogênico",
+        "poliúria",
+        "monitorização"
+      ]
+    },
+    {
+      "number": 47,
+      "statement": "Homem de 37 anos está sendo acompanhado no ambulatório há cinco anos. Não tem outra patologia conhecida. Sua doença foi notada no exame pré-admissional do atual emprego, quando foi referido para o seguimento. Seu problema é hematúria intermitente com hemácias dismórficas. Com diagnóstico de nefropatia por IgA, tem proteinúria acessada semestralmente. Nas duas últimas aferições, verificou-se que a proteinúria vem crescendo em níveis em torno de 600 e 800mg por 24h. A primeira droga que deveria ser tentada nesse momento é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "captopril"
+        },
+        {
+          "letter": "B",
+          "text": "azatioprina"
+        },
+        {
+          "letter": "C",
+          "text": "prednisona"
+        },
+        {
+          "letter": "D",
+          "text": "micofenolato de mofetila"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Glomerulopatias",
+      "topic": "Nefropatia por IgA",
+      "difficulty": "FACIL",
+      "keywords": [
+        "nefropatia por IgA",
+        "proteinúria",
+        "inibidor da ECA",
+        "nefroproteção"
+      ],
+      "reference": "KDIGO — Doenças Glomerulares"
+    },
+    {
+      "number": 48,
+      "statement": "Paciente com insuficiência renal aguda apresenta ureia = 130mg/dL, creatinina = 2,1mg/dL, fração de excreção de sódio < 1%, cilindros hialinos na urinálise e densidade urinária específica = 1.020. O diagnóstico mais provável é de insuficiência renal tipo:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "nefropatia por contraste"
+        },
+        {
+          "letter": "B",
+          "text": "necrose tubular aguda"
+        },
+        {
+          "letter": "C",
+          "text": "pós-renal"
+        },
+        {
+          "letter": "D",
+          "text": "pré-renal"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Nefrologia",
+      "subtheme": "Injúria renal aguda",
+      "topic": "IRA pré-renal",
+      "difficulty": "FACIL",
+      "keywords": [
+        "fração de excreção de sódio",
+        "cilindros hialinos",
+        "densidade urinária",
+        "azotemia pré-renal"
+      ]
+    },
+    {
+      "number": 49,
+      "statement": "Sobre o tratamento da asma brônquica, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a alta aderência ao tratamento é uma das principais vantagens dos corticoides inaláveis"
+        },
+        {
+          "letter": "B",
+          "text": "o uso intermitente de corticosteroides via intramuscular é preferível em relação aos inaláveis"
+        },
+        {
+          "letter": "C",
+          "text": "os corticosteroides inaláveis são o principal grupo de drogas para o tratamento crônico desse tipo de asma"
+        },
+        {
+          "letter": "D",
+          "text": "os agonistas beta 2 de longa duração, como o formoterol, devem ser usados como monoterapia de manutenção na asma leve"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Pneumologia",
+      "subtheme": "Asma",
+      "topic": "Controle e ajuste de etapa",
+      "difficulty": "FACIL",
+      "keywords": [
+        "corticoide inalatório",
+        "tratamento de manutenção",
+        "asma",
+        "GINA"
+      ],
+      "reference": "Global Initiative for Asthma (GINA)"
+    },
+    {
+      "number": 50,
+      "statement": "Mulher de 42 anos procura o ambulatório devido a artralgias, cansaço e tosse seca iniciados há três meses. Nega emagrecimento, mas refere febre baixa eventual. Ao exame físico, notam-se estertores crepitantes nas bases. Na telerradiografia do tórax, verifica-se infiltrado reticulonodular peribroncovascular e linfadenomegalia hilar, sem evidência de derrame pleural. Esses achados são mais compatíveis com o diagnóstico de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "sarcoidose"
+        },
+        {
+          "letter": "B",
+          "text": "bronquiolite obliterante"
+        },
+        {
+          "letter": "C",
+          "text": "fibrose pulmonar idiopática"
+        },
+        {
+          "letter": "D",
+          "text": "esclerodermia com acometimento do interstício pulmonar"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Pneumologia",
+      "subtheme": "Doenças intersticiais",
+      "topic": "Sarcoidose",
+      "difficulty": "FACIL",
+      "keywords": [
+        "sarcoidose",
+        "adenopatia hilar bilateral",
+        "infiltrado reticulonodular"
+      ]
+    }
+  ]
+}

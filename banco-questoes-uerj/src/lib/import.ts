@@ -34,6 +34,9 @@ const questionSchema = z
     difficulty: z.enum(['FACIL', 'MEDIA', 'DIFICIL']),
     keywords: z.array(z.string().trim().min(1)).default([]),
     reference: z.string().trim().optional(),
+    /// Ressalva sobre o gabarito oficial. Pode citar a letra correta, então só
+    /// é exposta depois que o usuário responde.
+    reviewNote: z.string().trim().min(1).optional(),
   })
   .refine(
     (question) => question.alternatives.some((alt) => alt.letter === question.answerKey),
@@ -200,6 +203,7 @@ export async function importExam(
         keywords: question.keywords,
         source: exam.source,
         reference: question.reference ?? null,
+        reviewNote: question.reviewNote ?? null,
       };
 
       if (existing) {

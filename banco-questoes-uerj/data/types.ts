@@ -32,6 +32,14 @@ export interface QuestionInput {
   keywords: string[];
   /** Diretriz/fonte de referência do item, quando conhecida. */
   reference?: string;
+  /**
+   * Ressalva editorial sobre o gabarito oficial — conduta que mudou desde a
+   * aplicação, duas alternativas defensáveis, imprecisão do enunciado.
+   *
+   * Só aparece na interface DEPOIS que o usuário responde, porque quase sempre
+   * precisa citar a letra correta para fazer sentido.
+   */
+  reviewNote?: string;
 }
 
 export interface ExamInput {

@@ -17,6 +17,7 @@ const bodySchema = z.object({
   ]),
   size: z.number().int().min(1).max(200).default(20),
   themeSlugs: z.array(z.string()).optional(),
+  subthemeSlugs: z.array(z.string()).optional(),
   years: z.array(z.number().int()).optional(),
   difficulties: z.array(z.enum(['FACIL', 'MEDIA', 'DIFICIL'])).optional(),
 });
@@ -38,6 +39,7 @@ export async function POST(request: Request) {
       mode: body.mode,
       size: body.size,
       themeSlugs: body.themeSlugs,
+      subthemeSlugs: body.subthemeSlugs,
       years: body.years,
       difficulties: body.difficulties,
       // O simulado inédito puxa justamente as questões marcadas como mock.

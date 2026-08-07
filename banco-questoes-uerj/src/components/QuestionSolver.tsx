@@ -171,6 +171,11 @@ export function QuestionSolver({
               {question.theme.name}
             </span>
             {question.subtheme && <span className="text-slate-400">{question.subtheme.name}</span>}
+            {question.topic && (
+              <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                {question.topic.name}
+              </span>
+            )}
             <DifficultyBadge difficulty={question.difficulty} />
             <StatusBadge status={status} />
           </div>
@@ -411,12 +416,12 @@ export function QuestionSolver({
         )}
 
         <div className="card">
-          <p className="label mb-2">Incidência do tema</p>
+          <p className="label mb-2">Incidência do assunto</p>
           <p className="text-2xl font-semibold tabular-nums text-brand-600 dark:text-brand-400">
-            {question.themeFrequency.toFixed(1)}%
+            {question.subjectFrequency.toFixed(1)}%
           </p>
           <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-            do corpus histórico analisado
+            {question.subtheme?.name ?? 'sem assunto classificado'} · do corpus histórico
           </p>
         </div>
       </aside>

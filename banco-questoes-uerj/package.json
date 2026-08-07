@@ -12,13 +12,13 @@
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:migrate": "prisma migrate dev",
-    "db:seed": "tsx prisma/seed.ts",
+    "db:seed": "tsx --env-file-if-exists=.env prisma/seed.ts",
     "db:studio": "prisma studio",
-    "analysis:recompute": "tsx scripts/recompute.ts",
-    "exam:import": "tsx scripts/import-exam.ts"
+    "analysis:recompute": "tsx --env-file-if-exists=.env scripts/recompute.ts",
+    "exam:import": "tsx --env-file-if-exists=.env scripts/import-exam.ts"
   },
   "prisma": {
-    "seed": "tsx prisma/seed.ts"
+    "seed": "tsx --env-file-if-exists=.env prisma/seed.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",

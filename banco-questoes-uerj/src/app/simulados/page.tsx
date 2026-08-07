@@ -3,6 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { getCurrentUserId } from '@/lib/auth';
 import { QUIZ_MODE_LABEL } from '@/lib/quiz';
 import { QuizBuilder } from '@/components/QuizBuilder';
+import { GenerateExamButton } from '@/components/GenerateExamButton';
 import { EmptyState, PageHeader, ProgressBar } from '@/components/ui';
 
 export const dynamic = 'force-dynamic';
@@ -26,6 +27,10 @@ export default async function SimuladosPage() {
   return (
     <div>
       <PageHeader title="Simulados" subtitle="Treine no formato da prova" />
+
+      <div className="mb-4">
+        <GenerateExamButton />
+      </div>
 
       <QuizBuilder
         themes={themes

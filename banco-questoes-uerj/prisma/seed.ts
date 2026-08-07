@@ -1,14 +1,17 @@
 import { PrismaClient } from '@prisma/client';
-import { TAXONOMY } from '../data/taxonomy';
-import { HISTORICAL_EXAMS, MOCK_EXAMS } from '../data/exams';
-import { importExam } from '../src/lib/import';
+import { TAXONOMY, TAXONOMY_COUNTS } from '../data/taxonomy';
 import { recomputeAnalysis } from '../src/lib/analysis';
 
 /**
- * Popula a taxonomia e o corpus inicial.
+ * Popula apenas a taxonomia (temas e subtemas).
  *
- * O seed NÃO grava explicações: comentário de questão só é criado quando o
- * usuário aciona "Explicar com Claude" (Etapa 4).
+ * O banco de questões nasce VAZIO, de propósito: o conteúdo entra pelas provas
+ * reais, via `npm run exam:import`. A taxonomia é estrutura, não conteúdo — ela
+ * dá nomes canônicos para a classificação e não influencia nenhuma estatística,
+ * que é calculada exclusivamente a partir das questões.
+ *
+ * O seed também não grava explicações: comentário de questão só é criado quando
+ * o usuário aciona "Explicar com Claude".
  */
 
 const prisma = new PrismaClient();
@@ -21,15 +24,32 @@ async function seedTaxonomy() {
       update: { name: theme.name, order: theme.order },
     });
 
-    for (const subtheme of theme.subthemes) {
-      await prisma.subtheme.upsert({
+    for (const [subIndex, subtheme] of theme.subthemes.entries()) {
+      const subRecord = await prisma.subtheme.upsert({
         where: { slug: subtheme.slug },
-        create: { slug: subtheme.slug, name: subtheme.name, themeId: record.id },
-        update: { name: subtheme.name, themeId: record.id },
+        create: {
+          slug: subtheme.slug,
+          name: subtheme.name,
+          themeId: record.id,
+          order: subIndex + 1,
+        },
+        update: { name: subtheme.name, themeId: record.id, order: subIndex + 1 },
       });
+
+      for (const [topicIndex, topic] of subtheme.topics.entries()) {
+        await prisma.topic.upsert({
+          where: { slug: topic.slug },
+          create: {
+            slug: topic.slug,
+            name: topic.name,
+            subthemeId: subRecord.id,
+            order: topicIndex + 1,
+          },
+          update: { name: topic.name, subthemeId: subRecord.id, order: topicIndex + 1 },
+        });
+      }
     }
   }
-  console.log(`  taxonomia: ${TAXONOMY.length} temas`);
 }
 
 async function main() {
@@ -37,47 +57,23 @@ async function main() {
 
   console.log('1. Taxonomia');
   await seedTaxonomy();
-
-  console.log('\n2. Corpus histórico (base da análise de incidência)');
-  for (const exam of HISTORICAL_EXAMS) {
-    // recompute: false — recalcula uma única vez ao final, não a cada prova.
-    const result = await importExam({ ...exam, excludeFromStats: false }, {
-      client: prisma,
-      recompute: false,
-    });
-    console.log(
-      `  ${exam.year}: ${result.created} criadas, ${result.updated} atualizadas (${exam.slug})`,
-    );
-  }
-
-  console.log('\n3. Simulados inéditos (fora do cálculo de incidência)');
-  for (const exam of MOCK_EXAMS) {
-    const result = await importExam({ ...exam, excludeFromStats: true }, {
-      client: prisma,
-      recompute: false,
-    });
-    console.log(
-      `  ${exam.year}: ${result.created} criadas, ${result.updated} atualizadas (${exam.slug})`,
-    );
-  }
-
-  console.log('\n4. Análise de incidência e ranking 80/20');
-  const analysis = await recomputeAnalysis(prisma);
   console.log(
-    `  ${analysis.totalQuestions} questões | ${analysis.totalExams} provas | anos ${analysis.years.join(', ')}`,
+    `   ${TAXONOMY_COUNTS.themes} temas, ${TAXONOMY_COUNTS.subthemes} assuntos, ${TAXONOMY_COUNTS.topics} tópicos`,
   );
-  console.log(`  ${analysis.paretoThemes.length} temas cobrem ~80% da prova:\n`);
 
-  for (const theme of analysis.themes) {
-    const mark = theme.isPareto ? '★' : ' ';
-    console.log(
-      `  ${mark} ${String(theme.rank).padStart(2)}. ${theme.name.padEnd(38)} ` +
-        `${String(theme.total).padStart(3)} q  ${theme.percent.toFixed(1).padStart(5)}%  ` +
-        `acum ${theme.cumulativePercent.toFixed(1).padStart(5)}%`,
-    );
+  console.log('\n2. Análise de incidência');
+  const analysis = await recomputeAnalysis(prisma);
+  console.log(`   ${analysis.totalQuestions} questões no corpus`);
+
+  if (analysis.totalQuestions === 0) {
+    console.log('\nBanco vazio, como esperado.');
+    console.log('Importe uma prova para começar:');
+    console.log('   npm run exam:import -- caminho/uerj-2025.json');
+    console.log('\nCom questões no banco, o botão "Gerar prova de 60 questões"');
+    console.log('passa a ficar disponível na página de Simulados.');
+  } else {
+    console.log(`   ${analysis.paretoSubjects.length} assuntos cobrem ~80% da prova`);
   }
-
-  console.log('\nPronto.');
 }
 
 main()

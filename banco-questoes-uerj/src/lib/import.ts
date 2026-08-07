@@ -28,6 +28,9 @@ const questionSchema = z
     answerKey: z.string().trim().min(1).max(2).toUpperCase(),
     theme: z.string().trim().min(1),
     subtheme: z.string().trim().min(1).optional(),
+    /// Nível mais específico (ex.: "AVC isquêmico — trombólise"). Só faz
+    /// sentido acompanhado de subtema, que é o pai na hierarquia.
+    topic: z.string().trim().min(1).optional(),
     difficulty: z.enum(['FACIL', 'MEDIA', 'DIFICIL']),
     keywords: z.array(z.string().trim().min(1)).default([]),
     reference: z.string().trim().optional(),
@@ -41,7 +44,11 @@ const questionSchema = z
       new Set(question.alternatives.map((alt) => alt.letter)).size ===
       question.alternatives.length,
     { message: 'letras de alternativa duplicadas', path: ['alternatives'] },
-  );
+  )
+  .refine((question) => !question.topic || Boolean(question.subtheme), {
+    message: 'topic exige subtheme (o tópico é filho do subtema na hierarquia)',
+    path: ['topic'],
+  });
 
 export const examSchema = z
   .object({
@@ -74,6 +81,7 @@ export interface ImportResult {
   updated: number;
   themesCreated: string[];
   subthemesCreated: string[];
+  topicsCreated: string[];
 }
 
 function slugify(value: string): string {
@@ -86,14 +94,14 @@ function slugify(value: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-function titleize(slug: string): string {
-  const text = slug.replace(/-/g, ' ');
-  return text.charAt(0).toUpperCase() + text.slice(1);
+/** Mesma regra de `data/taxonomy.ts`: o slug do t\u00f3pico \u00e9 prefixado pelo subtema. */
+function topicSlugFor(subthemeSlug: string, topicName: string): string {
+  return `${subthemeSlug}--${slugify(topicName)}`;
 }
 
 /**
- * Importa uma prova. Temas e subtemas ausentes são criados na hora, de modo
- * que uma prova futura pode trazer um assunto que ainda não existe na
+ * Importa uma prova. Tema, subtema e tópico ausentes são criados na hora, de
+ * modo que uma prova futura pode trazer um assunto que ainda não existe na
  * taxonomia sem quebrar a importação.
  */
 export async function importExam(
@@ -105,6 +113,7 @@ export async function importExam(
 
   const themesCreated: string[] = [];
   const subthemesCreated: string[] = [];
+  const topicsCreated: string[] = [];
 
   const result = await client.$transaction(async (tx) => {
     const examRecord = await tx.exam.upsert({
@@ -140,22 +149,37 @@ export async function importExam(
       let theme = await tx.theme.findUnique({ where: { slug: themeSlug } });
       if (!theme) {
         theme = await tx.theme.create({
-          data: { slug: themeSlug, name: titleize(themeSlug), order: 999 },
+          data: { slug: themeSlug, name: question.theme, order: 999 },
         });
         themesCreated.push(themeSlug);
       }
 
       let subthemeId: string | null = null;
+      let topicId: string | null = null;
+
       if (question.subtheme) {
         const subthemeSlug = slugify(question.subtheme);
         let subtheme = await tx.subtheme.findUnique({ where: { slug: subthemeSlug } });
         if (!subtheme) {
           subtheme = await tx.subtheme.create({
-            data: { slug: subthemeSlug, name: titleize(subthemeSlug), themeId: theme.id },
+            data: { slug: subthemeSlug, name: question.subtheme, themeId: theme.id },
           });
           subthemesCreated.push(subthemeSlug);
         }
         subthemeId = subtheme.id;
+
+        // O tópico só existe sob um subtema — o schema Zod já garante isso.
+        if (question.topic) {
+          const slug = topicSlugFor(subthemeSlug, question.topic);
+          let topic = await tx.topic.findUnique({ where: { slug } });
+          if (!topic) {
+            topic = await tx.topic.create({
+              data: { slug, name: question.topic, subthemeId: subtheme.id },
+            });
+            topicsCreated.push(slug);
+          }
+          topicId = topic.id;
+        }
       }
 
       // extId amarra a questão à prova e ao número no caderno: é o que torna a
@@ -171,6 +195,7 @@ export async function importExam(
         answerKey: question.answerKey,
         themeId: theme.id,
         subthemeId,
+        topicId,
         difficulty: question.difficulty,
         keywords: question.keywords,
         source: exam.source,
@@ -217,5 +242,6 @@ export async function importExam(
     updated: result.updated,
     themesCreated,
     subthemesCreated,
+    topicsCreated,
   };
 }

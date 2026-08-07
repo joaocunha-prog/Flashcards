@@ -24,6 +24,17 @@ export interface UserStats {
     correct: number;
     accuracy: number;
   }>;
+  /** Desempenho no nível de assunto (tema — subtema), o mesmo do ranking. */
+  bySubject: Array<{
+    slug: string;
+    name: string;
+    label: string;
+    themeSlug: string;
+    total: number;
+    answered: number;
+    correct: number;
+    accuracy: number;
+  }>;
   byDifficulty: Array<{
     difficulty: string;
     answered: number;
@@ -44,7 +55,7 @@ export async function getUserStats(
   userId: string,
   client: PrismaClient = defaultPrisma,
 ): Promise<UserStats> {
-  const [totalQuestions, states, themes, attempts] = await Promise.all([
+  const [totalQuestions, states, themes, subthemes, attempts] = await Promise.all([
     client.question.count({ where: { exam: { excludeFromStats: false } } }),
     client.userQuestionState.findMany({
       where: { userId },
@@ -57,6 +68,7 @@ export async function getUserStats(
           select: {
             difficulty: true,
             theme: { select: { slug: true, name: true } },
+            subtheme: { select: { slug: true, name: true } },
           },
         },
       },
@@ -66,6 +78,15 @@ export async function getUserStats(
       select: {
         slug: true,
         name: true,
+        _count: { select: { questions: true } },
+      },
+    }),
+    client.subtheme.findMany({
+      orderBy: { name: 'asc' },
+      select: {
+        slug: true,
+        name: true,
+        theme: { select: { slug: true, name: true } },
         _count: { select: { questions: true } },
       },
     }),
@@ -119,6 +140,34 @@ export async function getUserStats(
     difficultyProgress.set(key, entry);
   }
 
+  // Mesmo cruzamento do tema, um nível abaixo: o catálogo dá o denominador,
+  // os estados do usuário dão o numerador.
+  const subjectProgress = new Map<string, { answered: number; correct: number }>();
+  for (const state of states) {
+    if (state.attemptCount === 0 || !state.question.subtheme) continue;
+    const slug = state.question.subtheme.slug;
+    const entry = subjectProgress.get(slug) ?? { answered: 0, correct: 0 };
+    entry.answered += 1;
+    if (state.status === 'ACERTOU') entry.correct += 1;
+    subjectProgress.set(slug, entry);
+  }
+
+  const bySubject = subthemes
+    .filter((subtheme) => subtheme._count.questions > 0)
+    .map((subtheme) => {
+      const progress = subjectProgress.get(subtheme.slug) ?? { answered: 0, correct: 0 };
+      return {
+        slug: subtheme.slug,
+        name: subtheme.name,
+        label: `${subtheme.theme.name} — ${subtheme.name}`,
+        themeSlug: subtheme.theme.slug,
+        total: subtheme._count.questions,
+        answered: progress.answered,
+        correct: progress.correct,
+        accuracy: pct(progress.correct, progress.answered),
+      };
+    });
+
   const byDifficulty = (['FACIL', 'MEDIA', 'DIFICIL'] as const).map((difficulty) => {
     const entry = difficultyProgress.get(difficulty) ?? { answered: 0, correct: 0 };
     return {
@@ -162,6 +211,7 @@ export async function getUserStats(
     accuracy: pct(correct, correct + wrong),
     progress: pct(answered, totalQuestions),
     byTheme,
+    bySubject,
     byDifficulty,
     daily,
     streakDays,

@@ -12,16 +12,17 @@ export default async function EstatisticasPage() {
 
   const maxDaily = Math.max(1, ...stats.daily.map((day) => day.answered));
 
-  // Cruza desempenho com incidência: erro em tema muito cobrado custa mais caro.
-  const priority = stats.byTheme
-    .map((theme) => {
-      const incidence = analysis.themes.find((t) => t.slug === theme.slug)?.percent ?? 0;
-      const gap = theme.answered === 0 ? 100 : 100 - theme.accuracy;
-      return { ...theme, incidence, score: (gap * incidence) / 100 };
+  // Cruza desempenho com incidência: errar num assunto muito cobrado custa
+  // mais caro do que errar num assunto raro.
+  const priority = stats.bySubject
+    .map((subject) => {
+      const incidence = analysis.subjects.find((s) => s.slug === subject.slug)?.percent ?? 0;
+      const gap = subject.answered === 0 ? 100 : 100 - subject.accuracy;
+      return { ...subject, incidence, score: (gap * incidence) / 100 };
     })
-    .filter((theme) => theme.incidence > 0)
+    .filter((subject) => subject.incidence > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 8);
+    .slice(0, 10);
 
   return (
     <div>
@@ -71,24 +72,30 @@ export default async function EstatisticasPage() {
         <section className="card">
           <h2 className="mb-1 font-semibold">Prioridade de estudo</h2>
           <p className="mb-4 text-xs text-slate-500 dark:text-slate-400">
-            Combina o quanto o tema cai na prova com o quanto você ainda erra nele.
+            Combina o quanto o assunto cai na prova com o quanto você ainda erra nele.
           </p>
-          <ol className="space-y-2">
-            {priority.map((theme) => (
-              <li key={theme.slug} className="flex items-center justify-between gap-3 text-sm">
-                <Link
-                  href={`/questoes?theme=${theme.slug}`}
-                  className="min-w-0 flex-1 truncate hover:text-brand-600 dark:hover:text-brand-400"
-                >
-                  {theme.name}
-                </Link>
-                <span className="shrink-0 text-xs tabular-nums text-slate-500 dark:text-slate-400">
-                  {theme.incidence.toFixed(1)}% da prova ·{' '}
-                  {theme.answered === 0 ? 'não iniciado' : `${theme.accuracy}% de acerto`}
-                </span>
-              </li>
-            ))}
-          </ol>
+          {priority.length === 0 ? (
+            <p className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">
+              Aparece quando houver questões no banco.
+            </p>
+          ) : (
+            <ol className="space-y-2">
+              {priority.map((subject) => (
+                <li key={subject.slug} className="flex items-center justify-between gap-3 text-sm">
+                  <Link
+                    href={`/questoes?subtheme=${subject.slug}`}
+                    className="min-w-0 flex-1 truncate hover:text-brand-600 dark:hover:text-brand-400"
+                  >
+                    {subject.label}
+                  </Link>
+                  <span className="shrink-0 text-xs tabular-nums text-slate-500 dark:text-slate-400">
+                    {subject.incidence.toFixed(1)}% da prova ·{' '}
+                    {subject.answered === 0 ? 'não iniciado' : `${subject.accuracy}% de acerto`}
+                  </span>
+                </li>
+              ))}
+            </ol>
+          )}
         </section>
       </div>
 
@@ -129,12 +136,12 @@ export default async function EstatisticasPage() {
       </section>
 
       <section className="card mt-4">
-        <h2 className="mb-4 font-semibold">Cobertura por tema</h2>
+        <h2 className="mb-4 font-semibold">Cobertura por assunto</h2>
         <div className="-mx-5 overflow-x-auto px-5">
           <table className="w-full min-w-[520px] text-sm">
             <thead>
               <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500 dark:border-slate-800 dark:text-slate-400">
-                <th className="py-2 pr-2 font-semibold">Tema</th>
+                <th className="py-2 pr-2 font-semibold">Assunto</th>
                 <th className="py-2 pr-2 text-right font-semibold">Feitas</th>
                 <th className="py-2 pr-2 text-right font-semibold">Acertos</th>
                 <th className="py-2 pr-2 text-right font-semibold">Aproveitamento</th>
@@ -142,30 +149,32 @@ export default async function EstatisticasPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-              {stats.byTheme
-                .filter((theme) => theme.total > 0)
-                .map((theme) => (
-                  <tr key={theme.slug}>
-                    <td className="py-2 pr-2">
-                      <Link
-                        href={`/questoes?theme=${theme.slug}`}
-                        className="hover:text-brand-600 dark:hover:text-brand-400"
-                      >
-                        {theme.name}
-                      </Link>
-                    </td>
-                    <td className="py-2 pr-2 text-right tabular-nums">
-                      {theme.answered}/{theme.total}
-                    </td>
-                    <td className="py-2 pr-2 text-right tabular-nums">{theme.correct}</td>
-                    <td className="py-2 pr-2 text-right tabular-nums">
-                      {theme.answered === 0 ? '—' : `${theme.accuracy}%`}
-                    </td>
-                    <td className="py-2">
-                      <ProgressBar value={theme.answered} max={theme.total} />
-                    </td>
-                  </tr>
-                ))}
+              {stats.bySubject.map((subject) => (
+                <tr key={subject.slug}>
+                  <td className="py-2 pr-2">
+                    <Link
+                      href={`/questoes?subtheme=${subject.slug}`}
+                      className="hover:text-brand-600 dark:hover:text-brand-400"
+                    >
+                      <span className="text-slate-500 dark:text-slate-400">
+                        {subject.label.split(' — ')[0]}
+                      </span>
+                      <span className="mx-1.5 text-slate-300 dark:text-slate-600">—</span>
+                      {subject.name}
+                    </Link>
+                  </td>
+                  <td className="py-2 pr-2 text-right tabular-nums">
+                    {subject.answered}/{subject.total}
+                  </td>
+                  <td className="py-2 pr-2 text-right tabular-nums">{subject.correct}</td>
+                  <td className="py-2 pr-2 text-right tabular-nums">
+                    {subject.answered === 0 ? '—' : `${subject.accuracy}%`}
+                  </td>
+                  <td className="py-2">
+                    <ProgressBar value={subject.answered} max={subject.total} />
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>

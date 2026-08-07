@@ -32,7 +32,7 @@ const MODES: Array<{ value: Mode; label: string; description: string }> = [
   {
     value: 'POR_INCIDENCIA',
     label: 'Por incidência',
-    description: 'Distribui as questões na mesma proporção da prova real.',
+    description: 'Distribui as questões na proporção histórica de cada assunto.',
   },
   {
     value: 'APENAS_ERRADAS',
@@ -46,8 +46,8 @@ const MODES: Array<{ value: Mode; label: string; description: string }> = [
   },
   {
     value: 'SIMULADO_INEDITO',
-    label: 'Simulado inédito 2026',
-    description: 'Prova completa e inédita, no estilo e na distribuição da banca.',
+    label: 'Prova gerada',
+    description: 'Resolve a última prova gerada pelo botão acima, na íntegra.',
   },
 ];
 
@@ -204,8 +204,8 @@ export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
 
       {isMock && (
         <p className="mt-5 rounded-lg bg-slate-50 p-3 text-sm text-slate-600 dark:bg-slate-800/50 dark:text-slate-400">
-          O simulado inédito usa o caderno completo já montado a partir da análise de incidência —
-          o tamanho e a distribuição vêm prontos.
+          Usa a prova gerada mais recente por inteiro — o tamanho e a distribuição já vêm prontos.
+          Se ainda não houver nenhuma, gere uma no painel acima.
         </p>
       )}
 

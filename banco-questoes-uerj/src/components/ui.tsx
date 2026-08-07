@@ -125,19 +125,27 @@ export function EmptyState({ title, description, action }: { title: string; desc
 }
 
 /**
- * Aviso de procedência. O corpus embarcado é autoral; deixar isso implícito
- * levaria o usuário a estudar como se fossem os cadernos oficiais da banca.
+ * Aviso de banco vazio. Aparece enquanto não houver questões: sem corpus não
+ * há incidência, ranking nem geração de prova, e é melhor dizer isso do que
+ * mostrar telas zeradas sem explicação.
  */
-export function SourceNotice() {
+export function EmptyBankNotice() {
   return (
     <div className="mb-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-900 dark:bg-amber-950/50 dark:text-amber-200">
-      <p className="font-medium">Sobre o conteúdo deste banco</p>
+      <p className="font-medium">O banco está vazio</p>
       <p className="mt-1 leading-relaxed">
-        As questões que acompanham a instalação são <strong>autorais</strong>, escritas no estilo e no
-        formato da prova de R+ Clínica Médica da UERJ — não são transcrições dos cadernos oficiais.
-        As estatísticas de incidência abaixo descrevem <em>este</em> corpus. Ao importar as provas
-        reais (<code className="rounded bg-amber-100 px-1 dark:bg-amber-900">npm run exam:import</code>),
-        o ranking e a lista 80/20 são recalculados automaticamente e passam a refletir a banca.
+        Nenhuma questão foi cadastrada ainda, então o ranking de assuntos e a lista 80/20 aparecem
+        zerados. Importe as provas da banca para popular o banco:
+      </p>
+      <p className="mt-2">
+        <code className="rounded bg-amber-100 px-1.5 py-0.5 dark:bg-amber-900">
+          npm run exam:import -- prova.json
+        </code>
+      </p>
+      <p className="mt-2 leading-relaxed">
+        A taxonomia de temas, assuntos e tópicos já está carregada e serve de mapa de estudo. A
+        partir das questões importadas, as estatísticas são recalculadas sozinhas e o botão de
+        gerar prova é liberado.
       </p>
     </div>
   );

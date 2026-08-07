@@ -52,6 +52,13 @@ enum QuizStatus {
   ABANDONADO
 }
 
+enum GenerationStatus {
+  PENDENTE
+  GERANDO
+  CONCLUIDO
+  FALHOU
+}
+
 // ---------------------------------------------------------------------------
 // Taxonomia
 // ---------------------------------------------------------------------------
@@ -71,18 +78,39 @@ model Theme {
   @@map("themes")
 }
 
+/// Nível do ranking. É exibido como "Tema — Subtema" (ex.: "Neurologia —
+/// Síndromes vasculares") e é sobre ele que a curva 80/20 é calculada.
 model Subtheme {
   id      String @id @default(cuid())
   slug    String @unique
   name    String
   themeId String
+  order   Int    @default(0)
 
   theme     Theme         @relation(fields: [themeId], references: [id], onDelete: Cascade)
+  topics    Topic[]
   questions Question[]
   stat      SubthemeStat?
 
   @@index([themeId])
   @@map("subthemes")
+}
+
+/// Nível mais específico, revelado ao clicar num assunto do ranking
+/// (ex.: "AVC isquêmico — trombólise").
+model Topic {
+  id         String @id @default(cuid())
+  slug       String @unique
+  name       String
+  subthemeId String
+  order      Int    @default(0)
+
+  subtheme  Subtheme   @relation(fields: [subthemeId], references: [id], onDelete: Cascade)
+  questions Question[]
+  stat      TopicStat?
+
+  @@index([subthemeId])
+  @@map("topics")
 }
 
 // ---------------------------------------------------------------------------
@@ -128,15 +156,18 @@ model Question {
   answerKey String
   themeId   String
   subthemeId String?
+  topicId    String?
   difficulty Difficulty @default(MEDIA)
   keywords   String[]   @default([])
   source     QuestionSource @default(PROVA_OFICIAL)
   /// Referência bibliográfica/diretriz informada na importação (opcional).
   reference  String?
 
-  /// Frequência histórica do tema desta questão, desnormalizada para permitir
-  /// ordenar/filtrar o banco sem join. Recalculada por scripts/recompute.ts.
+  /// Frequência histórica desnormalizada, para ordenar/filtrar o banco sem
+  /// join. Recalculadas por scripts/recompute.ts.
   themeFrequency Float @default(0)
+  /// Incidência do assunto (subtema) — é a que o ranking usa.
+  subjectFrequency Float @default(0)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -144,6 +175,7 @@ model Question {
   exam        Exam                @relation(fields: [examId], references: [id], onDelete: Cascade)
   theme       Theme               @relation(fields: [themeId], references: [id])
   subtheme    Subtheme?           @relation(fields: [subthemeId], references: [id])
+  topic       Topic?              @relation(fields: [topicId], references: [id])
   alternatives Alternative[]
   userStates  UserQuestionState[]
   attempts    Attempt[]
@@ -153,8 +185,9 @@ model Question {
   @@index([year])
   @@index([themeId])
   @@index([subthemeId])
+  @@index([topicId])
   @@index([difficulty])
-  @@index([themeFrequency])
+  @@index([subjectFrequency])
   @@map("questions")
 }
 
@@ -200,11 +233,16 @@ model ThemeStat {
   @@map("theme_stats")
 }
 
+/// Estatística do **assunto** — o nível do ranking principal e da curva 80/20.
 model SubthemeStat {
   subthemeId String @id
   total      Int    @default(0)
   percent    Float  @default(0)
+  /// Percentual acumulado após ordenar por incidência decrescente.
+  cumulativePercent Float @default(0)
   rank       Int    @default(0)
+  /// True enquanto o acumulado não ultrapassa o corte de 80%.
+  isPareto   Boolean @default(false)
   perYear    Json   @default("{}")
   avgDifficulty Float @default(0)
   computedAt DateTime @default(now())
@@ -213,6 +251,26 @@ model SubthemeStat {
 
   @@index([rank])
   @@map("subtheme_stats")
+}
+
+/// Estatística do tópico — o detalhe que aparece ao expandir um assunto.
+model TopicStat {
+  topicId String @id
+  total   Int    @default(0)
+  /// Participação sobre o corpus inteiro.
+  percent Float  @default(0)
+  /// Participação dentro do próprio assunto (soma 100% entre os tópicos dele).
+  percentWithinSubject Float @default(0)
+  /// Posição dentro do assunto (1 = mais cobrado do assunto).
+  rank    Int    @default(0)
+  perYear Json   @default("{}")
+  avgDifficulty Float @default(0)
+  computedAt DateTime @default(now())
+
+  topic Topic @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  @@index([rank])
+  @@map("topic_stats")
 }
 
 /// Uma linha por recomputação, para auditar a evolução do corpus.
@@ -312,6 +370,31 @@ model Quiz {
 
   @@index([userId, createdAt])
   @@map("quizzes")
+}
+
+/// Geração de uma prova inédita pelo Claude a partir do banco existente.
+///
+/// Gerar 60 questões leva minutos, então o trabalho roda fora do ciclo de
+/// request/response e o cliente acompanha o progresso por polling.
+model GenerationJob {
+  id        String           @id @default(cuid())
+  userId    String
+  status    GenerationStatus @default(PENDENTE)
+  /// Quantas questões foram pedidas.
+  requested Int
+  /// Quantas já foram geradas e validadas.
+  generated Int              @default(0)
+  /// Distribuição por tema usada como blueprint, derivada da incidência.
+  blueprint Json             @default("[]")
+  /// Slug da prova criada, quando conclui.
+  examSlug  String?
+  examId    String?
+  error     String?          @db.Text
+  createdAt DateTime         @default(now())
+  finishedAt DateTime?
+
+  @@index([userId, createdAt])
+  @@map("generation_jobs")
 }
 
 model QuizItem {

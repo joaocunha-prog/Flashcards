@@ -1,16 +1,20 @@
 import Link from 'next/link';
 import { readAnalysis } from '@/lib/analysis';
-import { PageHeader, SourceNotice, StatCard } from '@/components/ui';
+import { TAXONOMY_COUNTS } from '@data/taxonomy';
+import { SubjectRanking } from '@/components/SubjectRanking';
+import { EmptyBankNotice, PageHeader, StatCard } from '@/components/ui';
 
 export const dynamic = 'force-dynamic';
 
 /**
- * Etapa 1 — análise da banca: incidência por tema/subtema, ranking e a lista
- * de estudo 80/20. Tudo lido do último snapshot; nenhum número é fixo no código.
+ * Etapa 1 — análise da banca.
+ *
+ * O ranking é por assunto (tema — subtema), clicável para revelar os tópicos.
+ * Nenhum número aqui é fixo no código: tudo vem do último snapshot.
  */
 export default async function AnalisePage() {
   const analysis = await readAnalysis();
-  const maxPercent = Math.max(1, ...analysis.themes.map((t) => t.percent));
+  const isEmpty = analysis.totalQuestions === 0;
 
   const difficultyTotal =
     analysis.difficultyDistribution.FACIL +
@@ -21,135 +25,104 @@ export default async function AnalisePage() {
     <div>
       <PageHeader
         title="Análise da banca"
-        subtitle={`Corpus: ${analysis.totalQuestions} questões · ${analysis.totalExams} provas · ${analysis.years.join(', ')}`}
+        subtitle={
+          isEmpty
+            ? 'Banco vazio — importe provas para gerar a análise'
+            : `Corpus: ${analysis.totalQuestions} questões · ${analysis.totalExams} provas · ${analysis.years.join(', ')}`
+        }
       />
 
-      <SourceNotice />
+      {isEmpty && <EmptyBankNotice />}
 
       <section className="grid grid-cols-2 gap-4 lg:grid-cols-4">
         <StatCard label="Questões analisadas" value={analysis.totalQuestions} />
-        <StatCard label="Temas mapeados" value={analysis.themes.length} />
         <StatCard
-          label="Temas no corte 80/20"
-          value={analysis.paretoThemes.length}
-          hint={`cobrem ${analysis.paretoThemes.at(-1)?.cumulativePercent.toFixed(1) ?? 0}% da prova`}
+          label="Assuntos com questões"
+          value={analysis.subjects.length}
+          hint={`de ${TAXONOMY_COUNTS.subthemes} mapeados`}
+        />
+        <StatCard
+          label="Assuntos no corte 80/20"
+          value={analysis.paretoSubjects.length}
+          hint={
+            analysis.paretoSubjects.length > 0
+              ? `cobrem ${analysis.paretoSubjects.at(-1)?.cumulativePercent.toFixed(1)}% da prova`
+              : 'aguardando questões'
+          }
           tone="brand"
         />
-        <StatCard label="Subtemas mapeados" value={analysis.subthemes.length} />
+        <StatCard label="Temas" value={analysis.themes.length} hint={`de ${TAXONOMY_COUNTS.themes}`} />
       </section>
 
-      <section className="mt-6 card">
+      <section className="card mt-6">
         <h2 className="mb-1 font-semibold">Lista de estudo 80/20</h2>
-        <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
-          Temas ordenados por incidência até somarem {analysis.paretoCutoff}% do acumulado. Estudar
-          nesta ordem é o caminho de maior retorno esperado por hora investida.
+        <p className="mb-2 text-sm text-slate-500 dark:text-slate-400">
+          Assuntos ordenados por incidência até somarem {analysis.paretoCutoff}% do acumulado.
+          Clique num assunto para abrir os tópicos específicos que ele cobra.
         </p>
-
-        <ol className="space-y-2">
-          {analysis.paretoThemes.map((theme) => (
-            <li
-              key={theme.slug}
-              className="flex flex-wrap items-center gap-3 rounded-lg border border-slate-200 p-3 dark:border-slate-800"
-            >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-600 text-xs font-bold text-white dark:bg-brand-500 dark:text-slate-950">
-                {theme.rank}
-              </span>
-              <Link
-                href={`/questoes?theme=${theme.slug}`}
-                className="flex-1 truncate font-medium hover:text-brand-600 dark:hover:text-brand-400"
-              >
-                {theme.name}
-              </Link>
-              <span className="text-sm tabular-nums text-slate-500 dark:text-slate-400">
-                {theme.total} q · {theme.percent.toFixed(1)}%
-              </span>
-              <span className="text-xs tabular-nums text-slate-400">
-                acum. {theme.cumulativePercent.toFixed(1)}%
-              </span>
-            </li>
-          ))}
-        </ol>
+        <SubjectRanking
+          subjects={analysis.paretoSubjects}
+          years={analysis.years}
+          emptyMessage="Sem dados suficientes. Importe ao menos uma prova para o ranking aparecer."
+        />
       </section>
 
-      <section className="mt-4 card">
-        <h2 className="mb-4 font-semibold">Ranking de incidência por tema</h2>
-        <div className="-mx-5 overflow-x-auto px-5">
-          <table className="w-full min-w-[640px] text-sm">
-            <thead>
-              <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500 dark:border-slate-800 dark:text-slate-400">
-                <th className="py-2 pr-2 font-semibold">#</th>
-                <th className="py-2 pr-2 font-semibold">Tema</th>
-                <th className="py-2 pr-2 text-right font-semibold">Questões</th>
-                <th className="py-2 pr-2 text-right font-semibold">%</th>
-                <th className="py-2 pr-2 font-semibold">Incidência</th>
-                <th className="py-2 pr-2 text-right font-semibold">Dificuldade média</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
-              {analysis.themes.map((theme) => (
-                <tr key={theme.slug}>
-                  <td className="py-2 pr-2 tabular-nums text-slate-400">
-                    {theme.isPareto && <span className="mr-1 text-brand-500">★</span>}
-                    {theme.rank}
-                  </td>
-                  <td className="py-2 pr-2">
-                    <Link
-                      href={`/questoes?theme=${theme.slug}`}
-                      className="font-medium hover:text-brand-600 dark:hover:text-brand-400"
-                    >
-                      {theme.name}
-                    </Link>
-                    <div className="mt-0.5 text-xs text-slate-400">
-                      {analysis.years
-                        .map((year) => `${year}: ${theme.perYear[String(year)] ?? 0}`)
-                        .join('  ·  ')}
-                    </div>
-                  </td>
-                  <td className="py-2 pr-2 text-right tabular-nums">{theme.total}</td>
-                  <td className="py-2 pr-2 text-right tabular-nums">{theme.percent.toFixed(1)}%</td>
-                  <td className="py-2 pr-2">
-                    <div className="h-2 w-full min-w-[80px] overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
-                      <div
-                        className={theme.isPareto ? 'h-full bg-brand-500' : 'h-full bg-slate-400'}
-                        style={{ width: `${(theme.percent / maxPercent) * 100}%` }}
-                      />
-                    </div>
-                  </td>
-                  <td className="py-2 pr-2 text-right tabular-nums text-slate-500 dark:text-slate-400">
-                    {theme.avgDifficulty.toFixed(2)}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
-          Dificuldade média numa escala de 1 (fácil) a 3 (difícil).
+      <section className="card mt-4">
+        <h2 className="mb-1 font-semibold">Ranking completo por assunto</h2>
+        <p className="mb-2 text-sm text-slate-500 dark:text-slate-400">
+          Todos os assuntos com pelo menos uma questão no corpus.
         </p>
+        <SubjectRanking
+          subjects={analysis.subjects}
+          years={analysis.years}
+          emptyMessage="Nenhum assunto com questões ainda."
+        />
+        {analysis.unclassified > 0 && (
+          <p className="mt-3 text-xs text-slate-500 dark:text-slate-400">
+            {analysis.unclassified}{' '}
+            {analysis.unclassified === 1 ? 'questão está' : 'questões estão'} sem subtema
+            classificado e {analysis.unclassified === 1 ? 'não entra' : 'não entram'} neste ranking.
+          </p>
+        )}
       </section>
 
       <div className="mt-4 grid gap-4 lg:grid-cols-3">
         <section className="card lg:col-span-2">
-          <h2 className="mb-4 font-semibold">Subtemas mais cobrados</h2>
-          <ol className="space-y-2">
-            {analysis.subthemes.slice(0, 20).map((sub) => (
-              <li key={sub.slug} className="flex items-center justify-between gap-3 text-sm">
-                <span className="min-w-0 flex-1 truncate">
-                  <span className="mr-2 tabular-nums text-slate-400">{sub.rank}.</span>
+          <h2 className="mb-1 font-semibold">Agregado por tema</h2>
+          <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
+            Visão de alto nível. A lista de estudo usa o nível de assunto, mais acionável.
+          </p>
+
+          {analysis.themes.length === 0 ? (
+            <p className="py-6 text-center text-sm text-slate-500 dark:text-slate-400">
+              Sem questões no banco.
+            </p>
+          ) : (
+            <ul className="space-y-2">
+              {analysis.themes.map((theme) => (
+                <li key={theme.slug} className="flex items-center gap-3 text-sm">
+                  <span className="w-6 shrink-0 tabular-nums text-slate-400">{theme.rank}.</span>
                   <Link
-                    href={`/questoes?subtheme=${sub.slug}`}
-                    className="hover:text-brand-600 dark:hover:text-brand-400"
+                    href={`/questoes?theme=${theme.slug}`}
+                    className="min-w-0 flex-1 truncate hover:text-brand-600 dark:hover:text-brand-400"
                   >
-                    {sub.name}
+                    {theme.name}
                   </Link>
-                  <span className="ml-2 text-xs text-slate-400">{sub.themeName}</span>
-                </span>
-                <span className="shrink-0 tabular-nums text-slate-500 dark:text-slate-400">
-                  {sub.total} q · {sub.percent.toFixed(1)}%
-                </span>
-              </li>
-            ))}
-          </ol>
+                  <span className="h-1.5 w-24 shrink-0 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+                    <span
+                      className="block h-full rounded-full bg-brand-400"
+                      style={{
+                        width: `${(theme.percent / Math.max(1, analysis.themes[0].percent)) * 100}%`,
+                      }}
+                    />
+                  </span>
+                  <span className="w-28 shrink-0 text-right tabular-nums text-slate-500 dark:text-slate-400">
+                    {theme.total} q · {theme.percent.toFixed(1)}%
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
         </section>
 
         <section className="card">
@@ -183,7 +156,7 @@ export default async function AnalisePage() {
           <div className="mt-6 rounded-lg bg-slate-50 p-3 text-xs leading-relaxed text-slate-600 dark:bg-slate-800/50 dark:text-slate-400">
             <p className="font-medium text-slate-700 dark:text-slate-300">Como atualizar</p>
             <p className="mt-1">
-              Importe uma prova nova com{' '}
+              Importe uma prova com{' '}
               <code className="rounded bg-slate-200 px-1 dark:bg-slate-700">
                 npm run exam:import -- prova.json
               </code>{' '}

@@ -6,6 +6,7 @@ import type {
   QuestionStatus,
   Subtheme,
   Theme,
+  Topic,
   UserQuestionState,
 } from '@prisma/client';
 
@@ -27,6 +28,7 @@ export type QuestionWithRelations = Question & {
   alternatives: Alternative[];
   theme: Theme;
   subtheme: Subtheme | null;
+  topic: Topic | null;
   userStates?: UserQuestionState[];
 };
 
@@ -44,10 +46,12 @@ export interface SafeQuestion {
   alternatives: SafeAlternative[];
   theme: { id: string; slug: string; name: string };
   subtheme: { id: string; slug: string; name: string } | null;
+  topic: { id: string; slug: string; name: string } | null;
   difficulty: Difficulty;
   keywords: string[];
   source: QuestionSource;
   themeFrequency: number;
+  subjectFrequency: number;
   /** Estado do usuário; ausente quando a consulta não pediu o progresso. */
   userState: SafeUserState | null;
 }
@@ -95,10 +99,14 @@ export function toSafeQuestion(question: QuestionWithRelations): SafeQuestion {
           name: question.subtheme.name,
         }
       : null,
+    topic: question.topic
+      ? { id: question.topic.id, slug: question.topic.slug, name: question.topic.name }
+      : null,
     difficulty: question.difficulty,
     keywords: question.keywords,
     source: question.source,
     themeFrequency: question.themeFrequency,
+    subjectFrequency: question.subjectFrequency,
     userState: toSafeUserState(question.userStates?.[0]),
   };
 }
@@ -113,6 +121,7 @@ export function questionInclude(userId: string) {
     alternatives: true,
     theme: true,
     subtheme: true,
+    topic: true,
     userStates: { where: { userId }, take: 1 },
   } as const;
 }

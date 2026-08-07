@@ -15,7 +15,7 @@ export const QUIZ_MODE_LABEL: Record<QuizMode, string> = {
   POR_INCIDENCIA: 'Por incidência',
   APENAS_ERRADAS: 'Apenas questões erradas',
   APENAS_REVISAO: 'Apenas revisões',
-  SIMULADO_INEDITO: 'Simulado inédito 2026',
+  SIMULADO_INEDITO: 'Prova gerada',
 };
 
 export interface BuildQuizOptions {
@@ -24,6 +24,7 @@ export interface BuildQuizOptions {
   size: number;
   /** Slugs de tema, usados no modo POR_TEMA. */
   themeSlugs?: string[];
+  subthemeSlugs?: string[];
   years?: number[];
   difficulties?: Array<'FACIL' | 'MEDIA' | 'DIFICIL'>;
   /** Inclui questões de simulados inéditos no sorteio. Padrão: false. */
@@ -36,7 +37,7 @@ export interface BuildQuizResult {
   title: string;
   mode: QuizMode;
   questionIds: string[];
-  blueprint?: Array<{ slug: string; name: string; count: number; selected: number }>;
+  blueprint?: Array<{ label: string; slug: string; count: number; selected: number }>;
 }
 
 /** Embaralhamento Fisher-Yates. */
@@ -75,36 +76,46 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
 
   switch (options.mode) {
     case 'SIMULADO_INEDITO': {
-      // Puxa exclusivamente as questões dos simulados inéditos já cadastrados,
-      // na ordem original do caderno — é uma prova montada, não um sorteio.
-      // O `size` é ignorado de propósito: um caderno inédito vale inteiro, e
-      // truncá-lo quebraria a distribuição temática que ele reproduz.
+      // Puxa as questões da prova gerada mais recente, na ordem do caderno —
+      // é uma prova montada, não um sorteio. O `size` é ignorado de propósito:
+      // truncar quebraria a distribuição de assuntos que a prova reproduz.
+      const latest = await client.exam.findFirst({
+        where: { excludeFromStats: true },
+        orderBy: { createdAt: 'desc' },
+        select: { id: true, title: true },
+      });
+      if (!latest) {
+        throw new Error(
+          'Nenhuma prova gerada ainda. Use o botão "Gerar prova de 60 questões" antes de escolher este modo.',
+        );
+      }
       const questions = await client.question.findMany({
-        where: { exam: { excludeFromStats: true } },
-        orderBy: [{ year: 'desc' }, { number: 'asc' }],
+        where: { examId: latest.id },
+        orderBy: { number: 'asc' },
         select: { id: true },
       });
       questionIds = questions.map((q) => q.id);
-      title = 'Simulado Inédito UERJ 2026 — R+ Clínica Médica';
+      title = latest.title;
       break;
     }
 
     case 'POR_INCIDENCIA': {
-      // Monta o caderno respeitando a distribuição temática histórica.
+      // Monta o caderno respeitando a distribuição de assuntos da banca —
+      // o mesmo nível do ranking, e não o agregado por tema.
       const analysis = await readAnalysis(client);
-      const plan = buildBlueprint(analysis.themes, size);
+      const plan = buildBlueprint(analysis.subjects, size);
       blueprint = [];
 
       for (const slot of plan) {
         const pool = await client.question.findMany({
-          where: { ...baseWhere(options), themeId: slot.themeId },
+          where: { ...baseWhere(options), subthemeId: slot.subthemeId },
           select: { id: true },
         });
         const picked = shuffle(pool).slice(0, slot.count).map((q) => q.id);
         questionIds.push(...picked);
         blueprint.push({
+          label: slot.label,
           slug: slot.slug,
-          name: slot.name,
           count: slot.count,
           selected: picked.length,
         });
@@ -125,9 +136,13 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
     }
 
     case 'POR_TEMA': {
+      // Aceita recorte por tema e/ou por assunto.
       const where = {
         ...baseWhere(options),
         ...(options.themeSlugs?.length ? { theme: { slug: { in: options.themeSlugs } } } : {}),
+        ...(options.subthemeSlugs?.length
+          ? { subtheme: { slug: { in: options.subthemeSlugs } } }
+          : {}),
       };
       const pool = await client.question.findMany({ where, select: { id: true } });
       questionIds = shuffle(pool).slice(0, size).map((q) => q.id);
@@ -188,6 +203,7 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
         size,
         requestedSize: options.size,
         themeSlugs: options.themeSlugs ?? [],
+        subthemeSlugs: options.subthemeSlugs ?? [],
         years: options.years ?? [],
         difficulties: options.difficulties ?? [],
         blueprint: blueprint ?? null,

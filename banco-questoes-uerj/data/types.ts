@@ -22,8 +22,12 @@ export interface QuestionInput {
   alternatives: AlternativeInput[];
   /** Letra correta. NUNCA é exposta ao cliente antes de o usuário responder. */
   answerKey: string;
+  /** Ex.: "Neurologia". */
   theme: string;
+  /** Ex.: "Síndromes vasculares". É o nível do ranking de assuntos. */
   subtheme?: string;
+  /** Ex.: "AVC isquêmico — trombólise". Exige `subtheme`. */
+  topic?: string;
   difficulty: DifficultyInput;
   keywords: string[];
   /** Diretriz/fonte de referência do item, quando conhecida. */

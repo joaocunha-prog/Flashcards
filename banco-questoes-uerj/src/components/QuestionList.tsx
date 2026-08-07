@@ -22,6 +22,11 @@ export function QuestionList({ questions }: { questions: SafeQuestion[] }) {
               {question.subtheme && (
                 <span className="text-slate-400">{question.subtheme.name}</span>
               )}
+              {question.topic && (
+                <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                  {question.topic.name}
+                </span>
+              )}
               <DifficultyBadge difficulty={question.difficulty} />
               {question.userState && <StatusBadge status={question.userState.status} />}
               {question.userState?.favorite && (
@@ -30,7 +35,7 @@ export function QuestionList({ questions }: { questions: SafeQuestion[] }) {
                 </span>
               )}
               <span className="ml-auto text-slate-400">
-                incidência do tema {question.themeFrequency.toFixed(1)}%
+                incidência do assunto {question.subjectFrequency.toFixed(1)}%
               </span>
             </div>
 

@@ -14,6 +14,7 @@ export type SortOption = 'recent' | 'oldest' | 'incidence';
 export interface QuestionFilters {
   themes?: string[];
   subthemes?: string[];
+  topics?: string[];
   years?: number[];
   difficulties?: Difficulty[];
   statuses?: Status[];
@@ -36,6 +37,7 @@ export function buildQuestionWhere(
   }
   if (filters.themes?.length) where.theme = { slug: { in: filters.themes } };
   if (filters.subthemes?.length) where.subtheme = { slug: { in: filters.subthemes } };
+  if (filters.topics?.length) where.topic = { slug: { in: filters.topics } };
   if (filters.years?.length) where.year = { in: filters.years };
   if (filters.difficulties?.length) where.difficulty = { in: filters.difficulties };
 
@@ -46,6 +48,7 @@ export function buildQuestionWhere(
       { keywords: { has: search.toLowerCase() } },
       { theme: { name: { contains: search, mode: 'insensitive' } } },
       { subtheme: { name: { contains: search, mode: 'insensitive' } } },
+      { topic: { name: { contains: search, mode: 'insensitive' } } },
     ];
   }
 
@@ -81,7 +84,8 @@ export function buildQuestionWhere(
 
 function buildOrderBy(sort: SortOption = 'recent'): Prisma.QuestionOrderByWithRelationInput[] {
   if (sort === 'incidence') {
-    return [{ themeFrequency: 'desc' }, { year: 'desc' }, { number: 'asc' }];
+    // Incidência do assunto, que é o nível do ranking.
+    return [{ subjectFrequency: 'desc' }, { year: 'desc' }, { number: 'asc' }];
   }
   if (sort === 'oldest') {
     return [{ year: 'asc' }, { number: 'asc' }];
@@ -144,6 +148,7 @@ export function parseFilters(params: URLSearchParams): QuestionFilters {
   return {
     themes: params.getAll('theme').filter(Boolean),
     subthemes: params.getAll('subtheme').filter(Boolean),
+    topics: params.getAll('topic').filter(Boolean),
     years: params.getAll('year').map(Number).filter((y) => !Number.isNaN(y)),
     difficulties,
     statuses,

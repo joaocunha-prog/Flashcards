@@ -30,7 +30,7 @@ export async function POST(request: Request) {
     totalQuestions: analysis.totalQuestions,
     totalExams: analysis.totalExams,
     years: analysis.years,
-    paretoThemes: analysis.paretoThemes.map((t) => t.name),
+    paretoSubjects: analysis.paretoSubjects.map((subject) => subject.label),
     computedAt: analysis.computedAt,
   });
 }

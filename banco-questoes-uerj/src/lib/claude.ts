@@ -15,7 +15,13 @@ import Anthropic from '@anthropic-ai/sdk';
  * duas coisas para que nenhuma sufoque a outra.
  */
 
-export const EXPLANATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-5';
+/**
+ * Modelo padrão: Opus 5. O comentário precisa acertar corte numérico, força de
+ * recomendação e a checagem do gabarito — é exatamente onde o modelo mais forte
+ * paga por si. Para estudar mais barato, defina ANTHROPIC_MODEL (ex.:
+ * `claude-sonnet-5` ou `claude-haiku-4-5`); o custo por questão está no README.
+ */
+export const EXPLANATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-opus-5';
 
 /**
  * Versão do formato do comentário.

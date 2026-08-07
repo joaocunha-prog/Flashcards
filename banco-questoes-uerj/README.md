@@ -300,6 +300,66 @@ cruza a linha dos 80% é incluído, e não excluído por uma fração de ponto.
 
 ---
 
+## Custo por questão
+
+Os dois lugares que gastam token são o botão **Explicar com Claude** e o botão **Gerar prova**.
+Nada mais no app chama a API.
+
+Tamanhos reais dos prompts, medidos no código (`src/lib/claude.ts`, `src/lib/generate.ts`):
+
+| | system | user (típico) | saída |
+| --- | --- | --- | --- |
+| Explicação | 4.338 caracteres | ~1.700 caracteres | 9 seções |
+| Geração (por assunto) | 1.811 caracteres | ~5.300 caracteres | ~450–600 tokens por questão |
+
+Convertendo a ~3,4 caracteres/token (português técnico), **uma explicação custa ~1.800 tokens de
+entrada e ~1.200–1.800 de saída**. O `max_tokens: 4000` é teto, não consumo: cobra-se o que sai.
+
+Custo de **uma explicação** (entrada 1.800 + saída 1.500):
+
+| Modelo | US$/1M in–out | Por explicação |
+| --- | --- | --- |
+| `claude-opus-5` (padrão) | 5 / 25 | **~US$ 0,046** |
+| `claude-sonnet-5` | 3 / 15 | ~US$ 0,028 |
+| `claude-haiku-4-5` | 1 / 5 | ~US$ 0,009 |
+
+Custo de **uma prova gerada de 60 questões** (≈20 chamadas, uma por assunto do blueprint):
+
+| Modelo | Prova inteira | Por questão |
+| --- | --- | --- |
+| `claude-opus-5` (padrão) | ~US$ 0,96 | ~US$ 0,016 |
+| `claude-sonnet-5` | ~US$ 0,53 | ~US$ 0,009 |
+| `claude-haiku-4-5` | ~US$ 0,19 | ~US$ 0,003 |
+
+Trocar o modelo é uma variável de ambiente — vale para os dois botões:
+
+```bash
+ANTHROPIC_MODEL=claude-haiku-4-5
+```
+
+**Cada explicação é paga uma vez.** A tabela `Explanation` guarda o texto por
+`(questão, letra marcada, versão do formato)`; reabrir a questão não gera chamada nova. Estudar 40
+questões por dia com explicação em todas dá ~US$ 55/mês no Opus 5 e ~US$ 11/mês no Haiku 4.5 — mas
+só na primeira passada, porque a revisão sai do cache.
+
+Onde o custo **não** está: a saída responde por ~80% da conta. Cachear o system prompt da explicação
+(`cache_control`) economizaria só ~7% do total e exige acerto de mais de ~22% na janela de 5 minutos
+para compensar o write de 1,25×; não vale a complexidade aqui. Encurtar o comentário economizaria
+muito mais — ao custo exato daquilo que o comentário existe para entregar.
+
+Os números acima são **estimativas por contagem de caracteres**, não medição. Para medir de verdade,
+com a chave configurada:
+
+```bash
+curl https://api.anthropic.com/v1/messages/count_tokens \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01" \
+  -H "content-type: application/json" \
+  -d '{"model":"claude-opus-5","system":"<system prompt>","messages":[{"role":"user","content":"<user prompt>"}]}'
+```
+
+---
+
 ## Estrutura
 
 ```

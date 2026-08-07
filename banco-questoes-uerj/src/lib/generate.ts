@@ -77,7 +77,7 @@ export async function checkReadiness(
   };
 }
 
-const GENERATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-5';
+const GENERATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-opus-5';
 
 const SYSTEM_PROMPT = `Você elabora questões de prova de residência médica brasileira para o acesso a R+ com pré-requisito em Clínica Médica.
 

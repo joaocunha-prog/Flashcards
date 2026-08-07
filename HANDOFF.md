@@ -9,7 +9,7 @@ geração de provas inéditas.
 Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/retomar-sessao-toq38p`** (a branch
 antiga `claude/banco-questoes-r-uerj-3d1xr7` existe no remoto no mesmo commit, mas não é mais a
 branch de trabalho — a designada pelo sistema nesta sessão foi a `retomar-sessao-toq38p`).
-Último commit: `d69c521`. Árvore limpa, tudo pushado.
+Último commit: veja `git log -1`. Árvore limpa, tudo pushado.
 
 ## Estado Atual
 
@@ -18,7 +18,7 @@ as 3 anuladas de 2021: Q22, Q31, Q42). Ranking e curva 80/20 recalculados: 11 te
 38 dentro do corte de 80%. Dificuldade derivada do % real de acerto do caderno (≥70 FACIL, 45–69
 MEDIA, <45 DIFICIL): 104/101/42.
 
-**Comentários: 197 de 247.**
+**Comentários: 247 de 247 — CORPUS COMPLETO.**
 
 | Prova | Comentadas |
 | --- | --- |
@@ -26,30 +26,31 @@ MEDIA, <45 DIFICIL): 104/101/42.
 | 2022 | 50/50 |
 | 2023 | 50/50 |
 | 2024 | 50/50 |
-| 2025 | 0/50 |
+| 2025 | 50/50 |
 
-As 50 restantes **não estão quebradas**: mantêm o botão "Explicar com Claude", que as gera sob
-demanda quando houver chave da API. O app funciona por inteiro.
+Todas as questões carregam o comentário automaticamente ao serem respondidas. O botão "Explicar
+com Claude" segue disponível para questões futuras (provas novas ou geradas), e "Gerar novamente"
+permanece em todas.
 
 **Não existe `ANTHROPIC_API_KEY` neste ambiente.** `npm run explain:all` recusa rodar e sai com
-código 1. Os 197 comentários existentes foram escritos diretamente pelo modelo que conduzia a sessão —
-127 por `claude-opus-5` e 70 por `claude-sonnet-5` (2022 Q31–50 e a prova de 2023 inteira) — e
+código 1. Os 247 comentários foram escritos diretamente pelo modelo que conduzia a sessão —
+177 por `claude-opus-5` e 70 por `claude-sonnet-5` (2022 Q31–50 e a prova de 2023 inteira) — e
 importados por `npm run explain:import`. A procedência de cada lote está registrada no mapa
 `MODELO_POR_ARQUIVO`, em `scripts/import-explanations.ts`: **ao acrescentar um arquivo novo,
 registre ali o modelo que o escreveu** se não for o padrão (`claude-opus-5`).
 
-**Ambiente reiniciado do zero nesta sessão.** Não havia `/tmp/pgdata` nem `.env`: rodou-se `initdb`,
-criou-se o banco `banco_uerj`, o `.env` com `DATABASE_URL`+`DIRECT_URL`, `npx prisma db push`, e
-reimportaram-se as 5 provas + todos os `data/comentarios/*.json` do zero. O bloco "Comandos Úteis"
-no fim deste arquivo já cobre os dois cenários (datadir persistente ou container novo) — teste
-`pg_isready` primeiro para saber qual caminho seguir.
+**Sobre o Postgres.** No início desta sessão não havia `/tmp/pgdata` nem `.env`, e foi preciso
+rodar `initdb`, criar o banco, escrever o `.env` (com `DATABASE_URL` **e** `DIRECT_URL` — o schema
+exige as duas) e reimportar tudo. Depois disso o datadir **persistiu** entre reinícios do container,
+mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retomada. O bloco
+"Comandos Úteis" cobre os dois cenários — rode `pg_isready` primeiro para saber qual se aplica.
 
 ## Decisões Confirmadas
 
 - **Modelos padrão:** explicações em `claude-sonnet-5`; geração de provas inéditas em
   `claude-opus-5`. `ANTHROPIC_MODEL` sobrescreve os dois.
 - **O usuário pediu Sonnet 5 para os comentários.** Na prática, cada lote saiu no modelo que o
-  ambiente rodava naquela sessão — 127 em Opus 5 e 70 em Sonnet 5. Isso foi comunicado e aceito.
+  ambiente rodava naquela sessão — 177 em Opus 5 e 70 em Sonnet 5. Isso foi comunicado e aceito.
   O campo `model` de cada `Explanation` registra a procedência real desde a correção do mapa
   `MODELO_POR_ARQUIVO` (antes gravava `claude-opus-5` em tudo, inclusive nos lotes de Sonnet).
 - **Comentário só chega ao cliente depois da resposta.** A questão carrega apenas o booleano
@@ -92,26 +93,25 @@ no fim deste arquivo já cobre os dois cenários (datadir persistente ou contain
 - `banco-questoes-uerj/data/provas/uerj-{2021..2025}.json` — 247 questões.
 - `banco-questoes-uerj/data/comentarios/` — `uerj-2021.json`, `uerj-2021-b.json`, `uerj-2021-c.json`,
   `uerj-2022.json`, `uerj-2022-b.json`, `uerj-2022-c.json`, `uerj-2023.json`, `uerj-2023-b.json`,
-  `uerj-2023-c.json`, `uerj-2024.json`, `uerj-2024-b.json`, `uerj-2024-c.json` (2021–2024
-  completos; falta só 2025).
+  `uerj-2023-c.json`, `uerj-2024.json`, `uerj-2024-b.json`, `uerj-2024-c.json`, `uerj-2025.json`,
+  `uerj-2025-b.json`, `uerj-2025-c.json` — **corpus completo, 247 comentários**.
 
 ## Pendências
 
-- **50 comentários faltando:** 2025 Q1–50.
 - Pastas `server/`, `public/`, `shared/` (projeto antigo de gastos) ainda no repositório.
 - Nenhum PR aberto. O usuário não pediu.
 
 ## Próxima Ação
 
-Continuar os comentários a partir de **2025 Q1** — é o último lote. Escrever em
-`banco-questoes-uerj/data/comentarios/uerj-2025.json` (partes `-b`, `-c`, … se dividir o lote;
-o padrão usado até aqui foi 15 + 15 + 20). Rodar `npm run explain:import` a cada lote para não
-perder trabalho, e commitar. As questões **2025 Q32 e Q34 têm `reviewNote`** — o texto dessas
-ressalvas deve ser reproduzido na seção `## Checagem de consistência` do comentário
-correspondente, como foi feito em 2022 Q45, 2023 Q16 e 2024 Q16/Q28.
+**Não há trabalho pendente definido pelo usuário.** O objetivo que vinha sendo perseguido — comentar
+as 247 questões — está concluído. Sugestões de continuação, todas a confirmar antes de executar:
 
-Alternativa, se houver chave: `ANTHROPIC_MODEL=claude-sonnet-5 npm run explain:all` cobre as 50
-restantes; pula o que já está feito e não sobrescreve os 197 existentes.
+- **Revisar o app rodando** (`npm run build && PORT=3111 npm run start`) e conferir a exibição dos
+  comentários e das ressalvas na interface, que não foi reinspecionada nesta sessão.
+- **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
+  ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true`.
+- **Remover as pastas `server/`, `public/` e `shared/`** (app antigo de gastos), se o usuário quiser.
+- **Abrir PR** da branch `claude/retomar-sessao-toq38p` — nunca foi pedido.
 
 ## Convenções e Restrições
 

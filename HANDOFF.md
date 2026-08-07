@@ -16,23 +16,23 @@ as 3 anuladas de 2021: Q22, Q31, Q42). Ranking e curva 80/20 recalculados: 11 te
 38 dentro do corte de 80%. Dificuldade derivada do % real de acerto do caderno (≥70 FACIL, 45–69
 MEDIA, <45 DIFICIL): 104/101/42.
 
-**Comentários: 97 de 247.**
+**Comentários: 147 de 247.**
 
 | Prova | Comentadas |
 | --- | --- |
 | 2021 | 47/47 |
 | 2022 | 50/50 |
-| 2023 | 0/50 |
+| 2023 | 50/50 |
 | 2024 | 0/50 |
 | 2025 | 0/50 |
 
-As 150 restantes **não estão quebradas**: mantêm o botão "Explicar com Claude", que as gera sob
+As 100 restantes **não estão quebradas**: mantêm o botão "Explicar com Claude", que as gera sob
 demanda quando houver chave da API. O app funciona por inteiro.
 
 **Não existe `ANTHROPIC_API_KEY` neste ambiente.** `npm run explain:all` recusa rodar e sai com
-código 1. Os 97 comentários existentes foram escritos diretamente pelo modelo da sessão (77 por
-`claude-opus-5`, mais 20 desta sessão por `claude-sonnet-5` — 2022 Q31–50) e importados por
-`npm run explain:import`.
+código 1. Os 147 comentários existentes foram escritos diretamente pelo modelo da sessão (77 por
+`claude-opus-5`, mais 70 desta sessão por `claude-sonnet-5` — 2022 Q31–50 e a prova de 2023
+inteira) e importados por `npm run explain:import`.
 
 **Ambiente reiniciado do zero nesta sessão.** Não havia `/tmp/pgdata` nem `.env`: o Postgres foi
 reinicializado com `initdb`, o banco `banco_uerj` recriado, `.env` recriado com `DATABASE_URL` e
@@ -85,23 +85,24 @@ HANDOFF anterior (que assumia datadir persistente) não se aplicou — se isso s
   `build.mjs`, `classificacao.json`, `ressalvas.json`, `README.md`).
 - `banco-questoes-uerj/data/provas/uerj-{2021..2025}.json` — 247 questões.
 - `banco-questoes-uerj/data/comentarios/` — `uerj-2021.json`, `uerj-2021-b.json`, `uerj-2021-c.json`,
-  `uerj-2022.json`, `uerj-2022-b.json`, `uerj-2022-c.json` (novo — 2022 Q31–50).
+  `uerj-2022.json`, `uerj-2022-b.json`, `uerj-2022-c.json`, `uerj-2023.json`, `uerj-2023-b.json`,
+  `uerj-2023-c.json` (2023 completo — Q1–50).
 
 ## Pendências
 
-- **150 comentários faltando:** 2023 Q1–50, 2024 Q1–50, 2025 Q1–50.
+- **100 comentários faltando:** 2024 Q1–50, 2025 Q1–50.
 - Pastas `server/`, `public/`, `shared/` (projeto antigo de gastos) ainda no repositório.
 - Nenhum PR aberto. O usuário não pediu.
 
 ## Próxima Ação
 
-Continuar os comentários a partir de **2023 Q1**. Escrever em
-`banco-questoes-uerj/data/comentarios/uerj-2023.json` (partes `-b`, `-c`, … são aceitas se o lote
-for dividido), depois `uerj-2024.json`, `uerj-2025.json`. Rodar `npm run explain:import` a cada
-lote para não perder trabalho, e commitar.
+Continuar os comentários a partir de **2024 Q1**. Escrever em
+`banco-questoes-uerj/data/comentarios/uerj-2024.json` (partes `-b`, `-c`, … se o lote for
+dividido), depois `uerj-2025.json`. Rodar `npm run explain:import` a cada lote para não perder
+trabalho, e commitar.
 
-Alternativa, se houver chave: `ANTHROPIC_MODEL=claude-sonnet-5 npm run explain:all` cobre as 150
-restantes; pula o que já está feito e não sobrescreve os 97 existentes.
+Alternativa, se houver chave: `ANTHROPIC_MODEL=claude-sonnet-5 npm run explain:all` cobre as 100
+restantes; pula o que já está feito e não sobrescreve os 147 existentes.
 
 ## Convenções e Restrições
 

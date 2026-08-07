@@ -383,7 +383,22 @@ O formato é um JSON por prova, com a chave sendo o número da questão. Aceita 
 ```
 
 A importação é **idempotente** e valida que o texto tem as seções obrigatórias antes de gravar —
-um arquivo truncado é recusado em vez de virar comentário quebrado na tela.
+um arquivo truncado é recusado em vez de virar comentário quebrado na tela. Ao final ela imprime a
+cobertura atual do banco.
+
+**Cobertura hoje: 77 de 247.**
+
+| Prova | Comentadas |
+| --- | --- |
+| 2021 | 47/47 |
+| 2022 | 30/50 |
+| 2023 | 0/50 |
+| 2024 | 0/50 |
+| 2025 | 0/50 |
+
+As 170 questões restantes continuam com o botão **Explicar com Claude**, que as gera sob demanda
+assim que houver `ANTHROPIC_API_KEY`. Ou seja, o banco funciona por inteiro hoje: parte com
+comentário pronto, parte sob demanda.
 
 ### Sobre gerar antecipadamente
 

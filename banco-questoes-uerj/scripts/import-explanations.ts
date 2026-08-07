@@ -28,8 +28,23 @@ import { EXPLANATION_PROMPT_VERSION } from '../src/lib/claude';
 
 const prisma = new PrismaClient();
 
-const MODELO = 'claude-opus-5';
 const DIRETORIO_PADRAO = 'data/comentarios';
+
+/**
+ * Procedência real de cada lote. Os comentários foram escritos diretamente pelo
+ * modelo que conduzia a sessão, e nem toda sessão rodou o mesmo modelo — quem
+ * for auditar um texto depois precisa saber de qual deles ele saiu. Um lote sem
+ * entrada aqui cai no padrão.
+ *
+ * Ao acrescentar um arquivo novo, registre o modelo que o escreveu.
+ */
+const MODELO_PADRAO = 'claude-opus-5';
+const MODELO_POR_ARQUIVO: Record<string, string> = {
+  'uerj-2022-c.json': 'claude-sonnet-5',
+  'uerj-2023.json': 'claude-sonnet-5',
+  'uerj-2023-b.json': 'claude-sonnet-5',
+  'uerj-2023-c.json': 'claude-sonnet-5',
+};
 
 /** O renderizador espera estes títulos; texto sem nenhum deles não é comentário. */
 const SECOES_ESPERADAS = ['## Resposta correta', '## Por que as outras estão erradas'];
@@ -61,6 +76,7 @@ async function main() {
 
   for (const arquivo of arquivos) {
     const ano = Number(/^uerj-(\d{4})/.exec(arquivo)![1]);
+    const modelo = MODELO_POR_ARQUIVO[arquivo] ?? MODELO_PADRAO;
     const conteudo: Record<string, string> = JSON.parse(
       fs.readFileSync(path.join(dir, arquivo), 'utf8'),
     );
@@ -93,7 +109,7 @@ async function main() {
         data: {
           questionId: questao.id,
           userId: null,
-          model: MODELO,
+          model: modelo,
           content: texto,
           selectedLetter: null,
           promptVersion: EXPLANATION_PROMPT_VERSION,
@@ -104,7 +120,7 @@ async function main() {
       else criados++;
     }
 
-    console.log(`${arquivo}: ${Object.keys(conteudo).length} comentários`);
+    console.log(`${arquivo}: ${Object.keys(conteudo).length} comentários (${modelo})`);
   }
 
   console.log(`\n${criados} criados, ${substituidos} substituídos.`);

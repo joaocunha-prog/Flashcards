@@ -9,6 +9,7 @@ import type {
   Topic,
   UserQuestionState,
 } from '@prisma/client';
+import { EXPLANATION_PROMPT_VERSION } from './claude';
 
 /**
  * Fronteira de segurança do banco de questões.
@@ -30,6 +31,8 @@ export type QuestionWithRelations = Question & {
   subtheme: Subtheme | null;
   topic: Topic | null;
   userStates?: UserQuestionState[];
+  /** Presente quando a consulta usou `questionInclude`. */
+  _count?: { explanations: number };
 };
 
 export interface SafeAlternative {
@@ -54,6 +57,14 @@ export interface SafeQuestion {
   subjectFrequency: number;
   /** Estado do usuário; ausente quando a consulta não pediu o progresso. */
   userState: SafeUserState | null;
+  /**
+   * Há comentário pronto para esta questão (gerado em lote).
+   *
+   * É só o booleano — o TEXTO nunca vem junto, porque entrega o gabarito. Serve
+   * para a tela mostrar o comentário direto depois da resposta, em vez do botão
+   * "Explicar com Claude".
+   */
+  hasExplanation: boolean;
 }
 
 export interface SafeUserState {
@@ -108,6 +119,7 @@ export function toSafeQuestion(question: QuestionWithRelations): SafeQuestion {
     themeFrequency: question.themeFrequency,
     subjectFrequency: question.subjectFrequency,
     userState: toSafeUserState(question.userStates?.[0]),
+    hasExplanation: (question._count?.explanations ?? 0) > 0,
   };
 }
 
@@ -123,5 +135,16 @@ export function questionInclude(userId: string) {
     subtheme: true,
     topic: true,
     userStates: { where: { userId }, take: 1 },
+    // Só a CONTAGEM das explicações compartilhadas, nunca o texto: o conteúdo
+    // entrega o gabarito e não pode acompanhar o payload da questão. O cliente
+    // recebe apenas o booleano, que lhe basta para saber se troca o botão
+    // "Explicar com Claude" pelo comentário já pronto.
+    _count: {
+      select: {
+        explanations: {
+          where: { userId: null, promptVersion: EXPLANATION_PROMPT_VERSION },
+        },
+      },
+    },
   } as const;
 }

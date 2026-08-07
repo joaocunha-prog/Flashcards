@@ -21,7 +21,7 @@ import Anthropic from '@anthropic-ai/sdk';
  * paga por si. Para estudar mais barato, defina ANTHROPIC_MODEL (ex.:
  * `claude-sonnet-5` ou `claude-haiku-4-5`); o custo por questão está no README.
  */
-export const EXPLANATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-opus-5';
+export const EXPLANATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-5';
 
 /**
  * Versão do formato do comentário.

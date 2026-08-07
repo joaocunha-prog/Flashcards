@@ -110,6 +110,11 @@ export function QuestionSolver({
       setResult(data);
       setStatus(data.status);
       router.refresh();
+
+      // Comentário já escrito: busca na hora, sem exigir um clique. O endpoint
+      // só o entrega depois da tentativa registrada acima, então esta é a
+      // primeira oportunidade em que ele pode aparecer sem entregar o gabarito.
+      if (question.hasExplanation) void requestExplanation(false);
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : 'Erro inesperado.');
     } finally {
@@ -283,9 +288,13 @@ export function QuestionSolver({
                   {result?.correct ? 'Você acertou.' : 'Você errou.'}
                 </p>
                 <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">
-                  {result?.correct
-                    ? 'Peça a explicação para confirmar o raciocínio e ver o distrator mais tentador.'
-                    : 'O gabarito não é exibido aqui — peça a explicação para entender o erro.'}
+                  {question.hasExplanation
+                    ? result?.correct
+                      ? 'O comentário abaixo confirma o raciocínio e mostra o distrator mais tentador.'
+                      : 'O comentário abaixo explica onde o raciocínio se quebra.'
+                    : result?.correct
+                      ? 'Peça a explicação para confirmar o raciocínio e ver o distrator mais tentador.'
+                      : 'O gabarito não é exibido aqui — peça a explicação para entender o erro.'}
                 </p>
               </div>
 
@@ -301,22 +310,28 @@ export function QuestionSolver({
               )}
 
               <div className="flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() => requestExplanation(false)}
-                  disabled={explaining}
-                  className="btn-primary"
-                >
-                  {explaining ? (
-                    <>
-                      <Spinner /> Gerando explicação…
-                    </>
-                  ) : explanation ? (
-                    'Ver explicação'
-                  ) : (
-                    'Explicar com Claude'
-                  )}
-                </button>
+                {/* O botão só existe para questão SEM comentário pronto. Onde já
+                    há um, ele é carregado sozinho ao responder — pedir para o
+                    usuário clicar em "Explicar com Claude" para receber um texto
+                    que já está no banco seria um clique inútil. */}
+                {!question.hasExplanation && (
+                  <button
+                    type="button"
+                    onClick={() => requestExplanation(false)}
+                    disabled={explaining}
+                    className="btn-primary"
+                  >
+                    {explaining ? (
+                      <>
+                        <Spinner /> Gerando explicação…
+                      </>
+                    ) : explanation ? (
+                      'Ver explicação'
+                    ) : (
+                      'Explicar com Claude'
+                    )}
+                  </button>
+                )}
 
                 {explanation && (
                   <button
@@ -348,6 +363,13 @@ export function QuestionSolver({
             </div>
           )}
         </article>
+
+        {answered && explaining && !explanationHtml && (
+          <section className="card flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
+            <Spinner />
+            {question.hasExplanation ? 'Carregando o comentário…' : 'Gerando o comentário…'}
+          </section>
+        )}
 
         {explanationHtml && (
           <section className="card animate-fade-in">

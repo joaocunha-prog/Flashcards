@@ -309,15 +309,65 @@ Verificável:
 curl -s 'http://localhost:3000/api/questions?pageSize=5' | grep -c answerKey   # 0
 ```
 
-### As explicações são geradas apenas sob demanda
+### O comentário nunca aparece antes da resposta
 
-Nenhum comentário é escrito na importação ou no seed. `src/lib/claude.ts` é o único lugar que
-produz esse texto, acionado por `POST /api/questions/[id]/explain`, que exige que o usuário já
-tenha respondido (`409` caso contrário — pedir a explicação sem responder revelaria o gabarito).
+`src/lib/claude.ts` é o único lugar do sistema que produz comentário de questão, e
+`POST /api/questions/[id]/explain` é o único caminho até ele. O endpoint exige que o usuário já
+tenha respondido — `409` caso contrário, porque entregar o comentário antes revelaria o gabarito.
+
+Isso vale inclusive para os comentários escritos em lote: a tela recebe apenas o booleano
+`hasExplanation`, nunca o texto. O conteúdo só desce depois que a tentativa foi registrada.
 
 O texto é cacheado por **(questão, letra marcada, versão do formato)**. A versão entra na chave
 de propósito: quando o formato do comentário muda, o cache é invalidado em vez de servir para
 sempre um texto na estrutura anterior. Incremente `EXPLANATION_PROMPT_VERSION` ao mexer no prompt.
+
+---
+
+## Comentando o banco inteiro
+
+```bash
+npm run explain:all
+```
+
+Escreve o comentário de todas as questões que ainda não têm um. As explicações geradas assim são
+**compartilhadas** (`userId: null`): não conhecem a resposta de ninguém, valem para qualquer usuário
+e cobrem o banco inteiro.
+
+Na tela de resolução, questão com comentário pronto **não mostra o botão "Explicar com Claude"** —
+ao responder, o comentário carrega sozinho. O botão continua existindo apenas onde ainda não há
+comentário. "Gerar novamente" permanece disponível nos dois casos e produz uma versão
+contextualizada na letra que você marcou.
+
+| Flag | Efeito |
+| --- | --- |
+| `--ano 2025` | Restringe a uma prova |
+| `--concorrencia 6` | Chamadas simultâneas (padrão 4) |
+| `--limite 10` | Gera só as N primeiras — útil para conferir o resultado antes de pagar o lote |
+| `--refazer` | Apaga os comentários compartilhados do escopo e reescreve |
+
+O script é **retomável**: pula o que já está feito, então interromper no meio e rodar de novo
+continua de onde parou. Falhas isoladas são reportadas no fim sem derrubar o lote, com três
+tentativas e espera crescente para atravessar rate limit.
+
+### Custo do lote
+
+Com `claude-sonnet-5` (padrão), as 247 questões custam por volta de **US$ 4,60** no preço
+introdutório e **US$ 6,90** no preço cheio — uma vez só, porque o resultado fica no banco. Em
+`claude-opus-5` seriam cerca de US$ 11,40. Trocar é uma variável de ambiente:
+
+```bash
+ANTHROPIC_MODEL=claude-opus-5 npm run explain:all
+```
+
+Os números saem da conta da seção [Custo por questão](#custo-por-questão).
+
+### Sobre gerar antecipadamente
+
+A especificação original deste projeto pedia comentário exclusivamente sob demanda. Gerar em lote é
+uma decisão de quem administra o banco: troca custo adiantado por espera zero na hora de estudar, e
+paga uma vez o que, sob demanda, seria pago a cada questão nova aberta. A regra que continua
+valendo, e que não é negociável, é a outra: o comentário só chega ao cliente depois da resposta.
 
 ---
 
@@ -405,32 +455,36 @@ Tamanhos reais dos prompts, medidos no código (`src/lib/claude.ts`, `src/lib/ge
 Convertendo a ~3,4 caracteres/token (português técnico), **uma explicação custa ~1.800 tokens de
 entrada e ~1.200–1.800 de saída**. O `max_tokens: 4000` é teto, não consumo: cobra-se o que sai.
 
-Custo de **uma explicação** (entrada 1.800 + saída 1.500):
+Custo de **uma explicação** (entrada 1.800 + saída 1.500) e do lote das 247 questões:
 
-| Modelo | US$/1M in–out | Por explicação |
-| --- | --- | --- |
-| `claude-opus-5` (padrão) | 5 / 25 | **~US$ 0,046** |
-| `claude-sonnet-5` | 3 / 15 | ~US$ 0,028 |
-| `claude-haiku-4-5` | 1 / 5 | ~US$ 0,009 |
+| Modelo | US$/1M in–out | Por explicação | Banco inteiro (247) |
+| --- | --- | --- | --- |
+| `claude-sonnet-5` (padrão) | 3 / 15 | **~US$ 0,028** | **~US$ 6,90** |
+| `claude-sonnet-5` (intro, até 31/08/2026) | 2 / 10 | ~US$ 0,019 | ~US$ 4,60 |
+| `claude-opus-5` | 5 / 25 | ~US$ 0,046 | ~US$ 11,40 |
+| `claude-haiku-4-5` | 1 / 5 | ~US$ 0,009 | ~US$ 2,30 |
 
 Custo de **uma prova gerada de 60 questões** (≈20 chamadas, uma por assunto do blueprint):
 
 | Modelo | Prova inteira | Por questão |
 | --- | --- | --- |
-| `claude-opus-5` (padrão) | ~US$ 0,96 | ~US$ 0,016 |
+| `claude-opus-5` (padrão da geração) | ~US$ 0,96 | ~US$ 0,016 |
 | `claude-sonnet-5` | ~US$ 0,53 | ~US$ 0,009 |
 | `claude-haiku-4-5` | ~US$ 0,19 | ~US$ 0,003 |
 
-Trocar o modelo é uma variável de ambiente — vale para os dois botões:
+Os dois caminhos têm padrões diferentes de propósito: o comentário usa **Sonnet 5**, porque é um
+lote grande de texto explicativo em que a diferença de qualidade não justifica o custo; a geração de
+questões inéditas segue em **Opus 5**, porque inventar caso clínico plausível com distratores bons é
+onde o modelo mais forte se paga. `ANTHROPIC_MODEL` sobrescreve os dois de uma vez:
 
 ```bash
 ANTHROPIC_MODEL=claude-haiku-4-5
 ```
 
 **Cada explicação é paga uma vez.** A tabela `Explanation` guarda o texto por
-`(questão, letra marcada, versão do formato)`; reabrir a questão não gera chamada nova. Estudar 40
-questões por dia com explicação em todas dá ~US$ 55/mês no Opus 5 e ~US$ 11/mês no Haiku 4.5 — mas
-só na primeira passada, porque a revisão sai do cache.
+`(questão, letra marcada, versão do formato)`; reabrir a questão não gera chamada nova. Com
+`npm run explain:all`, o banco inteiro é pago de uma vez e o custo por questão nova aberta passa a
+ser zero.
 
 Onde o custo **não** está: a saída responde por ~80% da conta. Cachear o system prompt da explicação
 (`cache_control`) economizaria só ~7% do total e exige acerto de mais de ~22% na janela de 5 minutos
@@ -510,6 +564,7 @@ npm run db:seed             # popula a taxonomia
 npm run db:studio           # Prisma Studio
 npm run analysis:recompute  # recalcula e imprime o ranking de assuntos
 npm run exam:import -- x.json
+npm run explain:all         # comenta todas as questões sem comentário
 ```
 
 ---

@@ -70,24 +70,37 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
   const selectedLetter = body.selectedLetter ?? null;
 
   if (!body.regenerate) {
-    // A versão do formato entra na chave: um comentário gerado antes da
-    // reformulação não é servido no lugar do formato atual.
-    const cached = await prisma.explanation.findFirst({
-      where: {
+    // Duas camadas de cache, nesta ordem de preferência:
+    //
+    // 1. A explicação deste usuário para a letra que ele marcou — é a mais
+    //    específica, porque o texto comenta o raciocínio dele.
+    // 2. A explicação compartilhada (`userId: null`), escrita em lote por
+    //    `npm run explain:all`. Não conhece a resposta de ninguém, mas cobre
+    //    o banco inteiro e evita uma chamada por usuário na mesma questão.
+    //
+    // A versão do formato entra nas duas chaves: um comentário gerado antes da
+    // reformulação do prompt não é servido no lugar do formato atual.
+    const candidates = [
+      { questionId: question.id, userId, selectedLetter, promptVersion: EXPLANATION_PROMPT_VERSION },
+      {
         questionId: question.id,
-        userId,
-        selectedLetter,
+        userId: null,
+        selectedLetter: null,
         promptVersion: EXPLANATION_PROMPT_VERSION,
       },
-      orderBy: { createdAt: 'desc' },
-    });
-    if (cached) {
-      return NextResponse.json({
-        content: cached.content,
-        model: cached.model,
-        cached: true,
-        createdAt: cached.createdAt.toISOString(),
-      });
+    ];
+
+    for (const where of candidates) {
+      const cached = await prisma.explanation.findFirst({ where, orderBy: { createdAt: 'desc' } });
+      if (cached) {
+        return NextResponse.json({
+          content: cached.content,
+          model: cached.model,
+          cached: true,
+          shared: cached.userId === null,
+          createdAt: cached.createdAt.toISOString(),
+        });
+      }
     }
   }
 

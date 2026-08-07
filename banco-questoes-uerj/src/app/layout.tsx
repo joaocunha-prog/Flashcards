@@ -56,7 +56,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
         <main className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{children}</main>
         <footer className="mx-auto w-full max-w-7xl px-4 pb-10 pt-4 text-xs text-slate-500 sm:px-6 lg:px-8 dark:text-slate-500">
-          Banco de Questões R+ UERJ · explicações geradas sob demanda pelo Claude
+          Banco de Questões R+ UERJ · comentários escritos pelo Claude
         </footer>
       </body>
     </html>

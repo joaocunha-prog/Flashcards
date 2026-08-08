@@ -84,9 +84,10 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 - **10 questões têm `reviewNote`** — ressalva editorial sobre o gabarito oficial, exibida em painel
   âmbar após a resposta (nunca antes, porque cita a letra correta): 2021 Q29/41/43/45, 2022 Q45,
   2023 Q16, 2024 Q16/28, 2025 Q32/34.
-- **README raiz reescrito** para descrever só este projeto. As pastas `server/`, `public/` e
-  `shared/` (app antigo de controle de gastos) **continuam no repositório** — o usuário foi avisado
-  e não pediu remoção.
+- **README raiz reescrito** para descrever só este projeto.
+- **Resíduos do app antigo de controle de gastos removidos** — pastas `server/`, `public/` e
+  `shared/` (sem `package.json` na raiz e nada as referenciava) apagadas do repositório; entrada
+  morta `server/data/expenses.json` também tirada do `.gitignore`.
 
 ## Arquivos Modificados
 
@@ -127,7 +128,6 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## Pendências
 
-- Pastas `server/`, `public/`, `shared/` (projeto antigo de gastos) ainda no repositório.
 - Nenhum PR aberto. O usuário não pediu.
 
 ## Próxima Ação
@@ -155,8 +155,6 @@ Sugestões de continuação, todas a confirmar com o usuário antes de executar:
 - **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
   ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true` e são resolvidas
   pelo modo "Prova gerada".
-- **Remover as pastas `server/`, `public/` e `shared/`** (app antigo de controle de gastos), se o
-  usuário quiser — continuam no repositório e nada as usa.
 - **Colocar no ar** (Vercel + Supabase). O passo a passo está no README, seção "Colocando no ar".
 - **Apagar as branches de feature já mescladas**: `claude/retomar-sessao-toq38p` e
   `claude/prova-na-integra`.

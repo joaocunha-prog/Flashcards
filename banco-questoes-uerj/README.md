@@ -386,19 +386,20 @@ A importação é **idempotente** e valida que o texto tem as seções obrigató
 um arquivo truncado é recusado em vez de virar comentário quebrado na tela. Ao final ela imprime a
 cobertura atual do banco.
 
-**Cobertura hoje: 77 de 247.**
+**Cobertura hoje: 247 de 247 — banco completo.**
 
 | Prova | Comentadas |
 | --- | --- |
 | 2021 | 47/47 |
-| 2022 | 30/50 |
-| 2023 | 0/50 |
-| 2024 | 0/50 |
-| 2025 | 0/50 |
+| 2022 | 50/50 |
+| 2023 | 50/50 |
+| 2024 | 50/50 |
+| 2025 | 50/50 |
 
-As 170 questões restantes continuam com o botão **Explicar com Claude**, que as gera sob demanda
-assim que houver `ANTHROPIC_API_KEY`. Ou seja, o banco funciona por inteiro hoje: parte com
-comentário pronto, parte sob demanda.
+Todas as questões do corpus têm comentário pronto, que carrega sozinho assim que o usuário
+responde. O botão **Explicar com Claude** continua disponível para questões futuras — provas novas
+importadas ou provas inéditas geradas —, e o botão **Gerar novamente** permanece em qualquer
+questão, para quem quiser uma segunda leitura.
 
 ### Sobre gerar antecipadamente
 

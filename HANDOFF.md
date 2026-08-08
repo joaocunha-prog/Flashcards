@@ -6,8 +6,10 @@ Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**. 
 por assunto, ranking 80/20, resolução sem gabarito, comentários em medicina baseada em evidências e
 geração de provas inéditas.
 
-Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/banco-questoes-r-uerj-3d1xr7`**.
-Último commit: `f55277b`. Árvore limpa, tudo pushado.
+Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/retomar-sessao-toq38p`** (a branch
+antiga `claude/banco-questoes-r-uerj-3d1xr7` existe no remoto no mesmo commit, mas não é mais a
+branch de trabalho — a designada pelo sistema nesta sessão foi a `retomar-sessao-toq38p`).
+Último commit: veja `git log -1`. Árvore limpa, tudo pushado.
 
 ## Estado Atual
 
@@ -16,30 +18,41 @@ as 3 anuladas de 2021: Q22, Q31, Q42). Ranking e curva 80/20 recalculados: 11 te
 38 dentro do corte de 80%. Dificuldade derivada do % real de acerto do caderno (≥70 FACIL, 45–69
 MEDIA, <45 DIFICIL): 104/101/42.
 
-**Comentários: 77 de 247.**
+**Comentários: 247 de 247 — CORPUS COMPLETO.**
 
 | Prova | Comentadas |
 | --- | --- |
 | 2021 | 47/47 |
-| 2022 | 30/50 |
-| 2023 | 0/50 |
-| 2024 | 0/50 |
-| 2025 | 0/50 |
+| 2022 | 50/50 |
+| 2023 | 50/50 |
+| 2024 | 50/50 |
+| 2025 | 50/50 |
 
-As 170 restantes **não estão quebradas**: mantêm o botão "Explicar com Claude", que as gera sob
-demanda quando houver chave da API. O app funciona por inteiro.
+Todas as questões carregam o comentário automaticamente ao serem respondidas. O botão "Explicar
+com Claude" segue disponível para questões futuras (provas novas ou geradas), e "Gerar novamente"
+permanece em todas.
 
 **Não existe `ANTHROPIC_API_KEY` neste ambiente.** `npm run explain:all` recusa rodar e sai com
-código 1. Os 77 comentários existentes foram escritos diretamente pelo modelo da sessão
-(`claude-opus-5`) e importados por `npm run explain:import`.
+código 1. Os 247 comentários foram escritos diretamente pelo modelo que conduzia a sessão —
+177 por `claude-opus-5` e 70 por `claude-sonnet-5` (2022 Q31–50 e a prova de 2023 inteira) — e
+importados por `npm run explain:import`. A procedência de cada lote está registrada no mapa
+`MODELO_POR_ARQUIVO`, em `scripts/import-explanations.ts`: **ao acrescentar um arquivo novo,
+registre ali o modelo que o escreveu** se não for o padrão (`claude-opus-5`).
+
+**Sobre o Postgres.** No início desta sessão não havia `/tmp/pgdata` nem `.env`, e foi preciso
+rodar `initdb`, criar o banco, escrever o `.env` (com `DATABASE_URL` **e** `DIRECT_URL` — o schema
+exige as duas) e reimportar tudo. Depois disso o datadir **persistiu** entre reinícios do container,
+mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retomada. O bloco
+"Comandos Úteis" cobre os dois cenários — rode `pg_isready` primeiro para saber qual se aplica.
 
 ## Decisões Confirmadas
 
 - **Modelos padrão:** explicações em `claude-sonnet-5`; geração de provas inéditas em
   `claude-opus-5`. `ANTHROPIC_MODEL` sobrescreve os dois.
-- **O usuário pediu Sonnet 5 para os comentários.** Os 77 já escritos são Opus 5, porque é o modelo
-  que este ambiente roda — isso foi comunicado e aceito. O campo `model` de cada `Explanation`
-  registra a procedência.
+- **O usuário pediu Sonnet 5 para os comentários.** Na prática, cada lote saiu no modelo que o
+  ambiente rodava naquela sessão — 177 em Opus 5 e 70 em Sonnet 5. Isso foi comunicado e aceito.
+  O campo `model` de cada `Explanation` registra a procedência real desde a correção do mapa
+  `MODELO_POR_ARQUIVO` (antes gravava `claude-opus-5` em tudo, inclusive nos lotes de Sonnet).
 - **Comentário só chega ao cliente depois da resposta.** A questão carrega apenas o booleano
   `hasExplanation`; o texto sai pelo endpoint de explicação, que exige tentativa registrada (409).
 - **Questão com comentário pronto não mostra o botão** "Explicar com Claude" — o texto carrega
@@ -72,28 +85,33 @@ código 1. Os 77 comentários existentes foram escritos diretamente pelo modelo 
   carregamento automático. **Bug corrigido:** o efeito de reset dependia de `userState` e apagava o
   resultado após `router.refresh()`; agora depende só de `question.id`.
 - `banco-questoes-uerj/scripts/explain-all.ts` — geração em lote via API (novo).
-- `banco-questoes-uerj/scripts/import-explanations.ts` — importa `data/comentarios/` (novo).
+- `banco-questoes-uerj/scripts/import-explanations.ts` — importa `data/comentarios/` (novo); passou
+  a registrar a **procedência real** de cada lote pelo mapa `MODELO_POR_ARQUIVO` (antes gravava a
+  constante `claude-opus-5` em tudo, contrariando a própria documentação do script).
 - `banco-questoes-uerj/scripts/extracao/` — pipeline PDF → JSON (`extract.mjs`, `parse.mjs`,
   `build.mjs`, `classificacao.json`, `ressalvas.json`, `README.md`).
 - `banco-questoes-uerj/data/provas/uerj-{2021..2025}.json` — 247 questões.
 - `banco-questoes-uerj/data/comentarios/` — `uerj-2021.json`, `uerj-2021-b.json`, `uerj-2021-c.json`,
-  `uerj-2022.json`, `uerj-2022-b.json`.
+  `uerj-2022.json`, `uerj-2022-b.json`, `uerj-2022-c.json`, `uerj-2023.json`, `uerj-2023-b.json`,
+  `uerj-2023-c.json`, `uerj-2024.json`, `uerj-2024-b.json`, `uerj-2024-c.json`, `uerj-2025.json`,
+  `uerj-2025-b.json`, `uerj-2025-c.json` — **corpus completo, 247 comentários**.
 
 ## Pendências
 
-- **170 comentários faltando:** 2022 Q31–50, 2023 Q1–50, 2024 Q1–50, 2025 Q1–50.
 - Pastas `server/`, `public/`, `shared/` (projeto antigo de gastos) ainda no repositório.
 - Nenhum PR aberto. O usuário não pediu.
 
 ## Próxima Ação
 
-Continuar os comentários a partir de **2022 Q31**. Escrever em
-`banco-questoes-uerj/data/comentarios/uerj-2022-c.json` (partes `-b`, `-c`, … são aceitas), depois
-`uerj-2023.json`, `uerj-2024.json`, `uerj-2025.json`. Rodar `npm run explain:import` a cada lote
-para não perder trabalho, e commitar.
+**Não há trabalho pendente definido pelo usuário.** O objetivo que vinha sendo perseguido — comentar
+as 247 questões — está concluído. Sugestões de continuação, todas a confirmar antes de executar:
 
-Alternativa, se houver chave: `ANTHROPIC_MODEL=claude-sonnet-5 npm run explain:all` cobre as 170 em
-~20 min por ~US$ 3,20; pula o que já está feito e não sobrescreve os 77.
+- **Revisar o app rodando** (`npm run build && PORT=3111 npm run start`) e conferir a exibição dos
+  comentários e das ressalvas na interface, que não foi reinspecionada nesta sessão.
+- **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
+  ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true`.
+- **Remover as pastas `server/`, `public/` e `shared/`** (app antigo de gastos), se o usuário quiser.
+- **Abrir PR** da branch `claude/retomar-sessao-toq38p` — nunca foi pedido.
 
 ## Convenções e Restrições
 
@@ -119,13 +137,28 @@ Alternativa, se houver chave: `ANTHROPIC_MODEL=claude-sonnet-5 npm run explain:a
 ```bash
 cd banco-questoes-uerj
 
-# Postgres local (o container reinicia e derruba o serviço; o datadir persiste)
+# Postgres local. Teste primeiro se o datadir sobreviveu:
+pg_isready -h 127.0.0.1 -p 5432
+# Se responder "no response", o datadir NÃO persistiu (aconteceu nesta sessão, container novo) —
+# inicialize do zero antes de tentar start:
 PGBIN=$(ls -d /usr/lib/postgresql/*/bin | head -1)
-chown -R postgres:postgres /tmp/pgdata /tmp/pgsock
+mkdir -p /tmp/pgdata /tmp/pgsock && chown -R postgres:postgres /tmp/pgdata /tmp/pgsock
+su postgres -c "$PGBIN/initdb -D /tmp/pgdata"   # só se /tmp/pgdata estiver vazio
+
+# Start (idempotente, funciona nos dois casos acima)
 su postgres -c "$PGBIN/pg_ctl -D /tmp/pgdata -o '-k /tmp/pgsock -h 127.0.0.1 -p 5432' -l /tmp/pg.log start"
 pg_isready -h 127.0.0.1 -p 5432
 
-# .env já existe apontando para postgresql://postgres:postgres@localhost:5432/banco_uerj
+# Se o datadir era novo, falta criar o banco, o .env e aplicar o schema:
+su postgres -c "psql -h 127.0.0.1 -p 5432 -c \"ALTER USER postgres WITH PASSWORD 'postgres';\""
+su postgres -c "psql -h 127.0.0.1 -p 5432 -c 'CREATE DATABASE banco_uerj;'"
+# .env precisa de DATABASE_URL E DIRECT_URL (o schema.prisma exige as duas):
+#   DATABASE_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
+#   DIRECT_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
+npm install && npx prisma db push
+for f in data/provas/uerj-*.json; do npx tsx --env-file-if-exists=.env scripts/import-exam.ts "$f"; done
+
+# Se o .env e o banco já existiam (datadir persistiu), pule direto para:
 
 npm run explain:import        # importa data/comentarios/ e imprime a cobertura
 npm run analysis:recompute    # recalcula e imprime o ranking de assuntos

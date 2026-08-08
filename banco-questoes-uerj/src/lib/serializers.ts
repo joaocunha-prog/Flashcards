@@ -23,6 +23,14 @@ import { EXPLANATION_PROMPT_VERSION } from './claude';
  *
  * O gabarito só é revelado pelo endpoint de resposta, e ainda assim apenas
  * como um booleano (`correct`), conforme a Etapa 4.
+ *
+ * A mesma lógica vale para a CLASSIFICAÇÃO DO ASSUNTO na tela de resolução:
+ * saber que a questão é de "Câncer de pulmão", ou ler a palavra-chave
+ * "erlotinibe", estreita o diferencial antes de o usuário raciocinar. Na
+ * listagem do banco isso é navegação legítima; resolvendo, é entrega. Por isso
+ * `toSolveQuestion` agrupa esses campos em `subject` e devolve null enquanto
+ * não houver tentativa registrada — e o endpoint de resposta os manda junto do
+ * resultado, como já faz com a ressalva de gabarito.
  */
 
 export type QuestionWithRelations = Question & {
@@ -76,6 +84,40 @@ export interface SafeUserState {
   lastAnsweredAt: string | null;
 }
 
+/**
+ * Tudo que revela do que a questão trata, num objeto só.
+ *
+ * Fica junto de propósito: separar "tema" de "palavras-chave" convidaria a
+ * esconder um e esquecer o outro, e o efeito prático é o mesmo — entregar o
+ * assunto antes da resposta.
+ */
+export interface QuestionSubject {
+  theme: { id: string; slug: string; name: string };
+  subtheme: { id: string; slug: string; name: string } | null;
+  topic: { id: string; slug: string; name: string } | null;
+  keywords: string[];
+  themeFrequency: number;
+  subjectFrequency: number;
+}
+
+/**
+ * Questão como a tela de resolução a recebe: sem gabarito (como toda
+ * SafeQuestion) e sem classificação de assunto enquanto não houver tentativa.
+ */
+export interface SolveQuestion {
+  id: string;
+  year: number;
+  number: number;
+  statement: string;
+  alternatives: SafeAlternative[];
+  difficulty: Difficulty;
+  source: QuestionSource;
+  userState: SafeUserState | null;
+  hasExplanation: boolean;
+  /** Null até o usuário responder. Ver o cabeçalho deste arquivo. */
+  subject: QuestionSubject | null;
+}
+
 function toSafeUserState(state: UserQuestionState | undefined): SafeUserState | null {
   if (!state) return null;
   return {
@@ -125,6 +167,53 @@ export function toSafeQuestion(question: QuestionWithRelations): SafeQuestion {
 
 export function toSafeQuestions(questions: QuestionWithRelations[]): SafeQuestion[] {
   return questions.map(toSafeQuestion);
+}
+
+/** Extrai a classificação de assunto de uma questão do Prisma. */
+export function toQuestionSubject(question: QuestionWithRelations): QuestionSubject {
+  return {
+    theme: { id: question.theme.id, slug: question.theme.slug, name: question.theme.name },
+    subtheme: question.subtheme
+      ? {
+          id: question.subtheme.id,
+          slug: question.subtheme.slug,
+          name: question.subtheme.name,
+        }
+      : null,
+    topic: question.topic
+      ? { id: question.topic.id, slug: question.topic.slug, name: question.topic.name }
+      : null,
+    keywords: question.keywords,
+    themeFrequency: question.themeFrequency,
+    subjectFrequency: question.subjectFrequency,
+  };
+}
+
+/**
+ * Payload da tela de resolução.
+ *
+ * O assunto só entra depois que existe tentativa registrada — reabrir uma
+ * questão já respondida mostra tudo de novo, que é o comportamento desejado.
+ */
+export function toSolveQuestion(question: QuestionWithRelations): SolveQuestion {
+  const userState = toSafeUserState(question.userStates?.[0]);
+  const answered = (userState?.attemptCount ?? 0) > 0;
+
+  return {
+    id: question.id,
+    year: question.year,
+    number: question.number,
+    statement: question.statement,
+    alternatives: question.alternatives
+      .slice()
+      .sort((a, b) => a.letter.localeCompare(b.letter))
+      .map((alt) => ({ id: alt.id, letter: alt.letter, text: alt.text })),
+    difficulty: question.difficulty,
+    source: question.source,
+    userState,
+    hasExplanation: (question._count?.explanations ?? 0) > 0,
+    subject: answered ? toQuestionSubject(question) : null,
+  };
 }
 
 /** Include padrão do Prisma para montar um SafeQuestion completo. */

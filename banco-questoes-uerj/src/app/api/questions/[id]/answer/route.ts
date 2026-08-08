@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
 import { getCurrentUserId } from '@/lib/auth';
+import { toQuestionSubject } from '@/lib/serializers';
 
 export const dynamic = 'force-dynamic';
 
@@ -31,11 +32,11 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
 
   const question = await prisma.question.findUnique({
     where: { id },
-    select: {
-      id: true,
-      answerKey: true,
-      reviewNote: true,
-      alternatives: { select: { letter: true } },
+    include: {
+      alternatives: true,
+      theme: true,
+      subtheme: true,
+      topic: true,
     },
   });
 
@@ -95,5 +96,9 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     // A ressalva de gabarito viaja aqui, e não no payload da questão, porque
     // costuma citar a letra correta. Antes de responder, o cliente não a tem.
     reviewNote: question.reviewNote,
+    // Idem para a classificação do assunto: só agora ela pode ser exibida.
+    // Vai na resposta para a tela mostrá-la na hora — esperar o
+    // `router.refresh()` faria as tags piscarem alguns instantes depois.
+    subject: toQuestionSubject(question),
   });
 }

@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import clsx from 'clsx';
 import type { QuestionStatus } from '@prisma/client';
-import type { SafeQuestion } from '@/lib/serializers';
+import type { QuestionSubject, SolveQuestion } from '@/lib/serializers';
 import { renderMarkdown } from '@/lib/markdown';
 import { DifficultyBadge, StatusBadge } from './ui';
 
@@ -14,9 +14,13 @@ import { DifficultyBadge, StatusBadge } from './ui';
  * Fluxo: enunciado + alternativas → o usuário marca uma → o servidor responde
  * apenas "acertou" ou "errou" → só então aparece o botão "Explicar com Claude".
  *
- * O gabarito não existe neste componente. `SafeQuestion` não carrega o campo,
+ * O gabarito não existe neste componente. `SolveQuestion` não carrega o campo,
  * e o endpoint de resposta devolve um booleano — de modo que nem o React
  * DevTools nem o payload de rede revelam a letra correta antes da hora.
+ *
+ * A classificação do assunto (tema, subtema, tópico, palavras-chave) segue a
+ * mesma regra: `question.subject` chega null enquanto não há tentativa, e a
+ * resposta do servidor a traz junto do resultado.
  */
 
 interface AnswerResponse {
@@ -26,6 +30,8 @@ interface AnswerResponse {
   correctCount: number;
   /** Ressalva sobre o gabarito oficial, quando existe. Só chega após responder. */
   reviewNote: string | null;
+  /** Classificação do assunto, liberada agora que a resposta foi registrada. */
+  subject: QuestionSubject;
 }
 
 export function QuestionSolver({
@@ -33,7 +39,7 @@ export function QuestionSolver({
   quizId,
   nextHref,
 }: {
-  question: SafeQuestion;
+  question: SolveQuestion;
   quizId?: string;
   nextHref?: string;
 }) {
@@ -79,6 +85,10 @@ export function QuestionSolver({
   }, [question.id]);
 
   const answered = result !== null;
+
+  // Vem do servidor quando a questão já tinha sido respondida antes; vem da
+  // resposta recém-registrada no caso contrário. Antes disso, não existe.
+  const subject = question.subject ?? result?.subject ?? null;
 
   const explanationHtml = useMemo(
     () => (explanation ? renderMarkdown(explanation) : null),
@@ -184,13 +194,25 @@ export function QuestionSolver({
             <span className="font-mono text-slate-400">
               {question.year} · Q{question.number}
             </span>
-            <span className="badge bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">
-              {question.theme.name}
-            </span>
-            {question.subtheme && <span className="text-slate-400">{question.subtheme.name}</span>}
-            {question.topic && (
-              <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
-                {question.topic.name}
+            {subject ? (
+              <>
+                <span className="badge bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+                  {subject.theme.name}
+                </span>
+                {subject.subtheme && (
+                  <span className="text-slate-400">{subject.subtheme.name}</span>
+                )}
+                {subject.topic && (
+                  <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                    {subject.topic.name}
+                  </span>
+                )}
+              </>
+            ) : (
+              // Dizer que o assunto está oculto evita que a ausência das tags
+              // pareça defeito — e reforça que resolver às cegas é o exercício.
+              <span className="italic text-slate-400 dark:text-slate-500">
+                assunto oculto até você responder
               </span>
             )}
             <DifficultyBadge difficulty={question.difficulty} />
@@ -454,11 +476,14 @@ export function QuestionSolver({
           </div>
         </div>
 
-        {question.keywords.length > 0 && (
-          <div className="card">
+        {/* Palavras-chave e incidência ficam fora do ar até a resposta: as
+            primeiras costumam nomear o diagnóstico ou a droga certa, e a
+            segunda identifica o assunto pelo nome. */}
+        {subject && subject.keywords.length > 0 && (
+          <div className="card animate-fade-in">
             <p className="label mb-2">Palavras-chave</p>
             <div className="flex flex-wrap gap-1">
-              {question.keywords.map((keyword) => (
+              {subject.keywords.map((keyword) => (
                 <span
                   key={keyword}
                   className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-300"
@@ -470,15 +495,17 @@ export function QuestionSolver({
           </div>
         )}
 
-        <div className="card">
-          <p className="label mb-2">Incidência do assunto</p>
-          <p className="text-2xl font-semibold tabular-nums text-brand-600 dark:text-brand-400">
-            {question.subjectFrequency.toFixed(1)}%
-          </p>
-          <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-            {question.subtheme?.name ?? 'sem assunto classificado'} · do corpus histórico
-          </p>
-        </div>
+        {subject && (
+          <div className="card animate-fade-in">
+            <p className="label mb-2">Incidência do assunto</p>
+            <p className="text-2xl font-semibold tabular-nums text-brand-600 dark:text-brand-400">
+              {subject.subjectFrequency.toFixed(1)}%
+            </p>
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              {subject.subtheme?.name ?? 'sem assunto classificado'} · do corpus histórico
+            </p>
+          </div>
+        )}
       </aside>
     </div>
   );

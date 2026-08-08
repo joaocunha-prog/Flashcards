@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { prisma } from '@/lib/prisma';
 import { getCurrentUserId } from '@/lib/auth';
-import { questionInclude, toSafeQuestion } from '@/lib/serializers';
+import { questionInclude, toSolveQuestion } from '@/lib/serializers';
 import { QuestionSolver } from '@/components/QuestionSolver';
 
 export const dynamic = 'force-dynamic';
@@ -58,7 +58,9 @@ export default async function QuestaoPage({
     if (next) nextHref = `/questoes/${next.id}`;
   }
 
-  const safeQuestion = toSafeQuestion(question);
+  // toSolveQuestion, e não toSafeQuestion: a classificação do assunto fica
+  // fora do payload enquanto o usuário não tiver respondido.
+  const safeQuestion = toSolveQuestion(question);
 
   return (
     <div>

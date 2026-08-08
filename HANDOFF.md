@@ -132,9 +132,26 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## Próxima Ação
 
-**Não há trabalho pendente.** Tudo que foi pedido está entregue, mesclado e pushado. Sugestões de
-continuação, todas a confirmar com o usuário antes de executar:
+**Não há trabalho pendente aplicado ao código.** Tudo que foi pedido está entregue, mesclado e
+pushado. Há uma proposta discutida em chat e **aprovada pendente de execução**, ver abaixo.
+Sugestões de continuação, todas a confirmar com o usuário antes de executar:
 
+- **Deixar os 247 comentários mais didáticos com emojis nos títulos de seção** (pedido do usuário
+  nesta sessão). Não exige `ANTHROPIC_API_KEY`: é edição leve do texto já existente, feita
+  diretamente pelo modelo (como os comentários originais), não geração via API. Convenção já
+  amostrada em 3 questões (2021 Q1, 2023 Q3, 2024 Q2) e validada com o usuário — emoji **só no
+  título da seção**, nunca no corpo:
+  `## 🎯 Resposta correta`, `## ❌ Por que as outras estão erradas`, `## 📚 Base de evidência`,
+  `## 🧠 Revisão rápida`, `## 💎 Pearls`, `## ⚠️ Pitfalls`, `## 🔤 Mnemônico`,
+  `## ✅ Checagem de consistência` (trocar por `⚠️` se a checagem sinalizar problema no gabarito),
+  `## 🔗 Referências`. Custo estimado ≈ US$ 2–4 em tokens se for feito por API; **US$ 0 se escrito
+  diretamente**, caminho que o usuário escolheu. Antes de rodar nas 247: confirmar que
+  `classifySection()` em `src/lib/markdown.ts` reconhece o título com o emoji na frente (a função
+  casa por `text.includes('pearl')` etc., então em tese não quebra, mas não foi testado de fato —
+  rodar `npx tsx` num teste rápido ou abrir uma questão editada no navegador antes de aplicar a
+  todas). Depois de editar os JSONs em `data/comentarios/`, reimportar com `npm run explain:import`
+  (idempotente, não exige API). Não precisa incrementar `EXPLANATION_PROMPT_VERSION` — é estilo, não
+  estrutura de seção.
 - **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
   ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true` e são resolvidas
   pelo modo "Prova gerada".

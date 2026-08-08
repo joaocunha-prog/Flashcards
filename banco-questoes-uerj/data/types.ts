@@ -51,6 +51,13 @@ export interface ExamInput {
   title: string;
   source: SourceInput;
   reference?: string;
+  /**
+   * Mantém a prova fora do cálculo de incidência. Use `true` em simulados
+   * autorais: contá-los realimentaria o ranking que os originou.
+   *
+   * Padrão: `false`.
+   */
+  excludeFromStats?: boolean;
   appliedAt?: string;
   questions: QuestionInput[];
 }

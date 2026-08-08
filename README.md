@@ -3,9 +3,13 @@
 Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ** (Hospital Universitário
 Pedro Ernesto).
 
-O projeto vive em [`banco-questoes-uerj/`](banco-questoes-uerj/). Leia o
-[README de lá](banco-questoes-uerj/README.md) para instalação, importação de provas e detalhes de
-arquitetura.
+O projeto vive em [`banco-questoes-uerj/`](banco-questoes-uerj/).
+
+- **[GUIA.md](banco-questoes-uerj/GUIA.md)** — passo a passo para subir a aplicação e para incluir
+  provas, gabaritos e comentários. Comece por aqui.
+- **[README do projeto](banco-questoes-uerj/README.md)** — as decisões de produto e de arquitetura:
+  como a incidência é calculada, por que o gabarito nunca chega ao cliente antes da resposta, custo
+  por questão.
 
 ## O que tem dentro
 

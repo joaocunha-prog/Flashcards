@@ -4,6 +4,10 @@ Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**, 
 incidência por assunto, ranking 80/20, geração de provas inéditas e explicações sob demanda pelo
 Claude.
 
+> **Quer só colocar no ar e usar?** O **[GUIA.md](GUIA.md)** é o passo a passo operacional: instalar,
+> rodar, e incluir provas, gabaritos e comentários. Este README explica as decisões por trás do
+> projeto.
+
 ---
 
 ## O corpus: 5 provas, 247 questões

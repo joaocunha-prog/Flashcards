@@ -44,6 +44,8 @@ enum QuizMode {
   APENAS_ERRADAS
   APENAS_REVISAO
   SIMULADO_INEDITO
+  /// Prova oficial completa, na ordem original do caderno — sem sorteio.
+  PROVA_INTEGRA
 }
 
 enum QuizStatus {

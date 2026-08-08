@@ -16,6 +16,7 @@ export const QUIZ_MODE_LABEL: Record<QuizMode, string> = {
   APENAS_ERRADAS: 'Apenas questões erradas',
   APENAS_REVISAO: 'Apenas revisões',
   SIMULADO_INEDITO: 'Prova gerada',
+  PROVA_INTEGRA: 'Prova na íntegra',
 };
 
 export interface BuildQuizOptions {
@@ -29,6 +30,8 @@ export interface BuildQuizOptions {
   difficulties?: Array<'FACIL' | 'MEDIA' | 'DIFICIL'>;
   /** Inclui questões de simulados inéditos no sorteio. Padrão: false. */
   includeMockExams?: boolean;
+  /** Id da prova oficial, usado no modo PROVA_INTEGRA. */
+  examId?: string;
   client?: PrismaClient;
 }
 
@@ -75,6 +78,37 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
   let title = QUIZ_MODE_LABEL[options.mode];
 
   switch (options.mode) {
+    case 'PROVA_INTEGRA': {
+      // Reproduz uma prova oficial completa, na ordem original do caderno —
+      // sem sorteio e sem truncar por `size`, pelo mesmo motivo do modo
+      // SIMULADO_INEDITO: cortar quebraria a prova que o usuário quer refazer.
+      if (!options.examId) {
+        throw new Error('Escolha qual prova você quer refazer na íntegra.');
+      }
+
+      const exam = await client.exam.findUnique({
+        where: { id: options.examId },
+        select: { id: true, title: true, source: true, excludeFromStats: true },
+      });
+      if (!exam) {
+        throw new Error('Prova não encontrada.');
+      }
+      // Só provas oficiais transcritas — a prova gerada pelo Claude já tem seu
+      // próprio modo (SIMULADO_INEDITO), com o aviso de que é inédita.
+      if (exam.source !== 'PROVA_OFICIAL' || exam.excludeFromStats) {
+        throw new Error('Esse modo é só para provas oficiais aplicadas pela banca.');
+      }
+
+      const questions = await client.question.findMany({
+        where: { examId: exam.id },
+        orderBy: { number: 'asc' },
+        select: { id: true },
+      });
+      questionIds = questions.map((q) => q.id);
+      title = exam.title;
+      break;
+    }
+
     case 'SIMULADO_INEDITO': {
       // Puxa as questões da prova gerada mais recente, na ordem do caderno —
       // é uma prova montada, não um sorteio. O `size` é ignorado de propósito:
@@ -207,6 +241,7 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
         years: options.years ?? [],
         difficulties: options.difficulties ?? [],
         blueprint: blueprint ?? null,
+        examId: options.examId ?? null,
       },
       items: {
         create: questionIds.map((questionId, index) => ({

@@ -14,12 +14,15 @@ const bodySchema = z.object({
     'APENAS_ERRADAS',
     'APENAS_REVISAO',
     'SIMULADO_INEDITO',
+    'PROVA_INTEGRA',
   ]),
   size: z.number().int().min(1).max(200).default(20),
   themeSlugs: z.array(z.string()).optional(),
   subthemeSlugs: z.array(z.string()).optional(),
   years: z.array(z.number().int()).optional(),
   difficulties: z.array(z.enum(['FACIL', 'MEDIA', 'DIFICIL'])).optional(),
+  /** Id da prova oficial, exigido no modo PROVA_INTEGRA. */
+  examId: z.string().optional(),
 });
 
 /** POST /api/quizzes — cria um simulado conforme o modo escolhido. */
@@ -44,6 +47,7 @@ export async function POST(request: Request) {
       difficulties: body.difficulties,
       // O simulado inédito puxa justamente as questões marcadas como mock.
       includeMockExams: body.mode === 'SIMULADO_INEDITO',
+      examId: body.examId,
     });
 
     return NextResponse.json({

@@ -1,0 +1,4 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run db:push && npm run db:seed && for ano in 2021 2022 2023 2024 2025; do npm run exam:import -- data/provas/uerj-$ano.json; done && npm run explain:import && npm run analysis:recompute && npm run build"
+}

@@ -6,10 +6,13 @@ Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**. 
 por assunto, ranking 80/20, resolução sem gabarito, comentários em medicina baseada em evidências e
 geração de provas inéditas.
 
-Projeto em `banco-questoes-uerj/`. Branch de trabalho: **`claude/retomar-sessao-toq38p`** (a branch
-antiga `claude/banco-questoes-r-uerj-3d1xr7` existe no remoto no mesmo commit, mas não é mais a
-branch de trabalho — a designada pelo sistema nesta sessão foi a `retomar-sessao-toq38p`).
-Último commit: veja `git log -1`. Árvore limpa, tudo pushado.
+Projeto em `banco-questoes-uerj/`. Branch principal (default do repositório, não existe `main`):
+**`claude/banco-questoes-r-uerj-3d1xr7`**. Todo o trabalho está mesclado nela e pushado; as branches
+de feature usadas no caminho (`claude/retomar-sessao-toq38p`, `claude/prova-na-integra`) já foram
+integradas e podem ser apagadas. Último commit: veja `git log -1`. Árvore limpa.
+
+**Comece pelo [GUIA.md](banco-questoes-uerj/GUIA.md)** para subir a aplicação e para incluir provas,
+gabaritos e comentários — é o passo a passo operacional. O README do projeto explica as decisões.
 
 ## Estado Atual
 
@@ -45,6 +48,21 @@ exige as duas) e reimportar tudo. Depois disso o datadir **persistiu** entre rei
 mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retomada. O bloco
 "Comandos Úteis" cobre os dois cenários — rode `pg_isready` primeiro para saber qual se aplica.
 
+## O que Foi Feito na Última Sessão
+
+- **Comentários: 147 → 247/247.** Provas de 2024 e 2025 escritas do zero; 2022 e 2023 concluídas.
+- **Modo de simulado "Prova na íntegra"** — escolhe uma prova oficial (2021–2025) e resolve o
+  caderno completo, na ordem original, sem sorteio nem corte por tamanho ou dificuldade.
+- **Assunto oculto até responder.** Tema, subtema, tópico, palavras-chave e o cartão de incidência
+  saíram do payload da tela de resolução enquanto não há tentativa registrada — o endpoint de
+  resposta os devolve junto do resultado. O card de palavras-chave era o pior vazamento: na 2022 Q1
+  ele exibia "erlotinibe", que é a resposta.
+- **Tabelas nos comentários passaram a renderizar.** O renderizador caseiro não as conhecia e 59
+  comentários (um quarto) exibiam os pipes literais colados num parágrafo.
+- **Procedência dos comentários corrigida** — `import-explanations.ts` gravava a constante
+  `claude-opus-5` em tudo, inclusive nos 70 lotes escritos por Sonnet 5.
+- **GUIA.md criado**; `data/types.ts` passou a declarar `excludeFromStats`, que faltava.
+
 ## Decisões Confirmadas
 
 - **Modelos padrão:** explicações em `claude-sonnet-5`; geração de provas inéditas em
@@ -59,6 +77,10 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
   sozinho ao responder. "Gerar novamente" permanece nos dois casos.
 - **Geração antecipada em lote contraria a especificação original** ("nunca previamente"). Foi
   decisão explícita do usuário, documentada no README e no cabeçalho de `scripts/explain-all.ts`.
+- **`EXPLANATION_PROMPT_VERSION` está em 2 e NÃO deve ser incrementada sem necessidade real.** Ela
+  entra na chave do cache: subir para 3 aposentaria os 247 comentários gravados e devolveria o botão
+  "Explicar com Claude" a todas as questões. O critério é a ESTRUTURA de seções — afinar o texto do
+  prompt dentro de uma seção existente não exige incremento.
 - **10 questões têm `reviewNote`** — ressalva editorial sobre o gabarito oficial, exibida em painel
   âmbar após a resposta (nunca antes, porque cita a letra correta): 2021 Q29/41/43/45, 2022 Q45,
   2023 Q16, 2024 Q16/28, 2025 Q32/34.
@@ -88,6 +110,13 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 - `banco-questoes-uerj/scripts/import-explanations.ts` — importa `data/comentarios/` (novo); passou
   a registrar a **procedência real** de cada lote pelo mapa `MODELO_POR_ARQUIVO` (antes gravava a
   constante `claude-opus-5` em tudo, contrariando a própria documentação do script).
+- `banco-questoes-uerj/GUIA.md` — **novo.** Passo a passo operacional: subir a aplicação, incluir
+  provas com gabarito e incluir comentários.
+- `banco-questoes-uerj/src/lib/markdown.ts` — passou a renderizar **tabelas** (59 comentários as
+  usam); reconhece o bloco pela linha separadora e suporta alinhamento.
+- `banco-questoes-uerj/src/app/globals.css` — estilo das tabelas, com rolagem própria.
+- `banco-questoes-uerj/src/lib/quiz.ts` + `src/components/QuizBuilder.tsx` +
+  `src/app/simulados/page.tsx` — modo **PROVA_INTEGRA**.
 - `banco-questoes-uerj/scripts/extracao/` — pipeline PDF → JSON (`extract.mjs`, `parse.mjs`,
   `build.mjs`, `classificacao.json`, `ressalvas.json`, `README.md`).
 - `banco-questoes-uerj/data/provas/uerj-{2021..2025}.json` — 247 questões.
@@ -103,15 +132,17 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## Próxima Ação
 
-**Não há trabalho pendente definido pelo usuário.** O objetivo que vinha sendo perseguido — comentar
-as 247 questões — está concluído. Sugestões de continuação, todas a confirmar antes de executar:
+**Não há trabalho pendente.** Tudo que foi pedido está entregue, mesclado e pushado. Sugestões de
+continuação, todas a confirmar com o usuário antes de executar:
 
-- **Revisar o app rodando** (`npm run build && PORT=3111 npm run start`) e conferir a exibição dos
-  comentários e das ressalvas na interface, que não foi reinspecionada nesta sessão.
 - **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
-  ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true`.
-- **Remover as pastas `server/`, `public/` e `shared/`** (app antigo de gastos), se o usuário quiser.
-- **Abrir PR** da branch `claude/retomar-sessao-toq38p` — nunca foi pedido.
+  ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true` e são resolvidas
+  pelo modo "Prova gerada".
+- **Remover as pastas `server/`, `public/` e `shared/`** (app antigo de controle de gastos), se o
+  usuário quiser — continuam no repositório e nada as usa.
+- **Colocar no ar** (Vercel + Supabase). O passo a passo está no README, seção "Colocando no ar".
+- **Apagar as branches de feature já mescladas**: `claude/retomar-sessao-toq38p` e
+  `claude/prova-na-integra`.
 
 ## Convenções e Restrições
 

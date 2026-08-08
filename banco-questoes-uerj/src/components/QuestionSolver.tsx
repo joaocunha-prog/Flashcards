@@ -188,7 +188,10 @@ export function QuestionSolver({
 
   return (
     <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_320px]">
-      <div className="space-y-4">
+      {/* `min-w-0`: item de grid não encolhe abaixo do conteúdo por padrão, e
+          sem isso uma tabela larga no comentário empurra a página inteira para
+          o lado em vez de rolar dentro do próprio wrapper. */}
+      <div className="min-w-0 space-y-4">
         <article className="card">
           <div className="mb-4 flex flex-wrap items-center gap-2 text-xs">
             <span className="font-mono text-slate-400">

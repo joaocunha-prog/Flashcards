@@ -29,6 +29,12 @@ export const EXPLANATION_MODEL = process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-5
  * Entra na chave do cache: mudar o prompt invalida as explicações antigas em
  * vez de servir para sempre um texto no formato anterior. Incremente sempre
  * que a estrutura de seções mudar.
+ *
+ * O critério é a ESTRUTURA, não qualquer edição do prompt. Afinar a orientação
+ * dentro de uma seção que já existe não quebra o texto antigo, e incrementar
+ * por isso aposentaria de uma vez os 247 comentários já gravados — todos
+ * voltariam a exibir o botão "Explicar com Claude". Só incremente ao acrescentar,
+ * remover, renomear ou reordenar seções.
  */
 export const EXPLANATION_PROMPT_VERSION = 2;
 
@@ -90,7 +96,7 @@ Um item por alternativa incorreta, cada um em sua própria linha e separado por 
 O que sustenta a conduta: diretriz e/ou ensaio de referência, com a força da recomendação quando existir. 2 a 5 linhas. Se a evidência for fraca, indireta ou extrapolada, diga.
 
 ## Revisão rápida
-5 a 10 linhas sobre o conceito central. Priorize o que se repete em prova: critérios diagnósticos, cortes numéricos, primeira escolha, contraindicações absolutas.
+5 a 10 linhas sobre o conceito central. Priorize o que se repete em prova: critérios diagnósticos, cortes numéricos, primeira escolha, contraindicações absolutas. Quando o assunto se resolve por contraste entre duas ou três entidades, uma tabela markdown lado a lado ensina mais rápido que o texto corrido — use, mas só quando de fato houver o que comparar.
 
 ## Pearls
 3 a 5 itens em lista. Fatos de alto rendimento que resolvem OUTRAS questões do mesmo assunto: cortes numéricos, "primeira escolha quando X", achados que fecham diagnóstico, exceções que a banca adora.

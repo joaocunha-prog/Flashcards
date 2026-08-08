@@ -1,9 +1,15 @@
 /**
  * Renderizador mínimo de markdown para as explicações do Claude.
  *
- * Cobre só o que o prompt pede: `#`/`##` para seções, `**negrito**`,
- * `` `código` `` e listas. Não vale a pena uma dependência de markdown
- * completa para isso.
+ * Cobre o que os comentários usam: `#`/`##` para seções, `**negrito**`,
+ * `` `código` ``, listas e **tabelas**. Não vale a pena uma dependência de
+ * markdown completa para isso.
+ *
+ * As tabelas importam mais do que parece: um quarto dos comentários abre a
+ * "Revisão rápida" com uma comparação lado a lado (esclerose múltipla versus
+ * NMOSD, pré-renal versus NTA, AL versus ATTR), que é justamente onde a
+ * distinção fica clara. Sem suporte, essas linhas caíam no caso genérico e
+ * viravam um parágrafo com os pipes literais, ilegível.
  *
  * Além de converter, o renderizador **classifica as seções**: cada bloco
  * iniciado por um título vira um `<section data-section="...">` cujo tipo é
@@ -50,6 +56,75 @@ function normalize(text: string): string {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase();
+}
+
+type Align = 'left' | 'center' | 'right' | null;
+
+/** Uma linha de tabela: começa com `|` e tem ao menos mais um separador. */
+function isTableRow(line: string): boolean {
+  const trimmed = line.trim();
+  return trimmed.startsWith('|') && trimmed.indexOf('|', 1) !== -1;
+}
+
+/** Divide `| a | b |` em `['a', 'b']`, descartando as bordas. */
+function splitRow(line: string): string[] {
+  return line
+    .trim()
+    .replace(/^\|/, '')
+    .replace(/\|$/, '')
+    .split('|')
+    .map((cell) => cell.trim());
+}
+
+/**
+ * A linha separadora (`| --- | :---: |`) é o que distingue uma tabela de um
+ * parágrafo que por acaso começa com pipe. Toda célula precisa ser só hífens,
+ * com dois-pontos opcionais nas pontas para o alinhamento.
+ */
+function isTableDelimiter(line: string): boolean {
+  if (!isTableRow(line)) return false;
+  const cells = splitRow(line);
+  return cells.length > 0 && cells.every((cell) => /^:?-+:?$/.test(cell));
+}
+
+function parseAlign(cell: string): Align {
+  const left = cell.startsWith(':');
+  const right = cell.endsWith(':');
+  if (left && right) return 'center';
+  if (right) return 'right';
+  if (left) return 'left';
+  return null;
+}
+
+function cellAttrs(align: Align): string {
+  return align ? ` data-align="${align}"` : '';
+}
+
+/**
+ * O wrapper com rolagem própria é o que impede uma tabela de cinco colunas de
+ * estourar a largura da página no celular.
+ */
+function renderTable(header: string[], aligns: Align[], rows: string[][]): string {
+  const columns = header.length;
+  const out: string[] = ['<div class="table-wrap"><table>', '<thead><tr>'];
+
+  header.forEach((cell, i) => {
+    out.push(`<th${cellAttrs(aligns[i] ?? null)}>${inline(cell)}</th>`);
+  });
+  out.push('</tr></thead>', '<tbody>');
+
+  for (const row of rows) {
+    out.push('<tr>');
+    for (let i = 0; i < columns; i += 1) {
+      // Linha com menos células que o cabeçalho vira célula vazia em vez de
+      // desalinhar a tabela inteira.
+      out.push(`<td${cellAttrs(aligns[i] ?? null)}>${inline(row[i] ?? '')}</td>`);
+    }
+    out.push('</tr>');
+  }
+
+  out.push('</tbody></table></div>');
+  return out.join('');
 }
 
 /**
@@ -101,12 +176,33 @@ export function renderMarkdown(markdown: string): string {
     sectionOpen = false;
   }
 
-  for (const rawLine of lines) {
-    const line = rawLine.trim();
+  // Laço indexado, e não `for…of`: a tabela só é reconhecida olhando a LINHA
+  // SEGUINTE (a separadora), e consome várias linhas de uma vez.
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index].trim();
 
     if (line === '') {
       flushParagraph();
       closeList();
+      continue;
+    }
+
+    if (isTableRow(line) && index + 1 < lines.length && isTableDelimiter(lines[index + 1])) {
+      flushParagraph();
+      closeList();
+
+      const header = splitRow(line);
+      const aligns = splitRow(lines[index + 1]).map(parseAlign);
+
+      const rows: string[][] = [];
+      let cursor = index + 2;
+      while (cursor < lines.length && isTableRow(lines[cursor])) {
+        rows.push(splitRow(lines[cursor]));
+        cursor += 1;
+      }
+
+      html.push(renderTable(header, aligns, rows));
+      index = cursor - 1; // o `index += 1` do laço posiciona na linha seguinte
       continue;
     }
 

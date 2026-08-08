@@ -11,10 +11,15 @@ export const dynamic = 'force-dynamic';
 export default async function SimuladosPage() {
   const userId = await getCurrentUserId();
 
-  const [themes, quizzes] = await Promise.all([
+  const [themes, exams, quizzes] = await Promise.all([
     prisma.theme.findMany({
       orderBy: { order: 'asc' },
       select: { slug: true, name: true, _count: { select: { questions: true } } },
+    }),
+    prisma.exam.findMany({
+      where: { source: 'PROVA_OFICIAL', excludeFromStats: false },
+      orderBy: { year: 'desc' },
+      select: { id: true, year: true, title: true, _count: { select: { questions: true } } },
     }),
     prisma.quiz.findMany({
       where: { userId },
@@ -39,6 +44,14 @@ export default async function SimuladosPage() {
             slug: theme.slug,
             name: theme.name,
             count: theme._count.questions,
+          }))}
+        exams={exams
+          .filter((exam) => exam._count.questions > 0)
+          .map((exam) => ({
+            id: exam.id,
+            year: exam.year,
+            title: exam.title,
+            count: exam._count.questions,
           }))}
       />
 

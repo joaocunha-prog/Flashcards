@@ -10,13 +10,21 @@ interface ThemeOption {
   count: number;
 }
 
+interface ExamOption {
+  id: string;
+  year: number;
+  title: string;
+  count: number;
+}
+
 type Mode =
   | 'ALEATORIO'
   | 'POR_TEMA'
   | 'POR_INCIDENCIA'
   | 'APENAS_ERRADAS'
   | 'APENAS_REVISAO'
-  | 'SIMULADO_INEDITO';
+  | 'SIMULADO_INEDITO'
+  | 'PROVA_INTEGRA';
 
 const MODES: Array<{ value: Mode; label: string; description: string }> = [
   {
@@ -45,18 +53,30 @@ const MODES: Array<{ value: Mode; label: string; description: string }> = [
     description: 'Só o que você marcou como "revisar".',
   },
   {
+    value: 'PROVA_INTEGRA',
+    label: 'Prova na íntegra',
+    description: 'Refaz uma prova oficial completa, na ordem original do caderno.',
+  },
+  {
     value: 'SIMULADO_INEDITO',
     label: 'Prova gerada',
     description: 'Resolve a última prova gerada pelo botão acima, na íntegra.',
   },
 ];
 
-export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
+export function QuizBuilder({
+  themes,
+  exams,
+}: {
+  themes: ThemeOption[];
+  exams: ExamOption[];
+}) {
   const router = useRouter();
   const [mode, setMode] = useState<Mode>('POR_INCIDENCIA');
   const [size, setSize] = useState(20);
   const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
   const [difficulties, setDifficulties] = useState<string[]>([]);
+  const [selectedExamId, setSelectedExamId] = useState<string>(exams[0]?.id ?? '');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -77,6 +97,7 @@ export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
           size,
           themeSlugs: mode === 'POR_TEMA' ? selectedThemes : undefined,
           difficulties: difficulties.length ? difficulties : undefined,
+          examId: mode === 'PROVA_INTEGRA' ? selectedExamId : undefined,
         }),
       });
 
@@ -93,6 +114,11 @@ export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
   }
 
   const isMock = mode === 'SIMULADO_INEDITO';
+  const isFullExam = mode === 'PROVA_INTEGRA';
+  // Ambos os modos resolvem um caderno fixo, do início ao fim — tamanho e
+  // dificuldade não fazem sentido para nenhum dos dois.
+  const usesFixedSet = isMock || isFullExam;
+  const canSubmit = !isFullExam || selectedExamId !== '';
 
   return (
     <div className="card">
@@ -150,7 +176,42 @@ export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
         </div>
       )}
 
-      {!isMock && (
+      {isFullExam && (
+        <div className="mt-5">
+          <p className="label mb-2">Qual prova</p>
+          {exams.length === 0 ? (
+            <p className="text-xs text-slate-500 dark:text-slate-400">
+              Nenhuma prova oficial disponível no banco ainda.
+            </p>
+          ) : (
+            <div className="flex flex-wrap gap-1.5">
+              {exams.map((exam) => (
+                <button
+                  key={exam.id}
+                  type="button"
+                  onClick={() => setSelectedExamId(exam.id)}
+                  aria-pressed={selectedExamId === exam.id}
+                  className={clsx(
+                    'rounded-full border px-3 py-1 text-xs font-medium transition-colors',
+                    selectedExamId === exam.id
+                      ? 'border-brand-600 bg-brand-600 text-white dark:border-brand-500 dark:bg-brand-500 dark:text-slate-950'
+                      : 'border-slate-300 text-slate-600 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800',
+                  )}
+                >
+                  {exam.year}
+                  <span className="ml-1 opacity-60">{exam.count}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          <p className="mt-2 text-xs text-slate-500 dark:text-slate-400">
+            Todas as questões da prova escolhida, na ordem original do caderno — sem sorteio, sem
+            corte por dificuldade ou tamanho.
+          </p>
+        </div>
+      )}
+
+      {!usesFixedSet && (
         <>
           <div className="mt-5">
             <p className="label mb-2">Dificuldade (opcional)</p>
@@ -215,7 +276,12 @@ export function QuizBuilder({ themes }: { themes: ThemeOption[] }) {
         </p>
       )}
 
-      <button type="button" onClick={create} disabled={submitting} className="btn-primary mt-5">
+      <button
+        type="button"
+        onClick={create}
+        disabled={submitting || !canSubmit}
+        className="btn-primary mt-5"
+      >
         {submitting ? 'Montando…' : 'Iniciar simulado'}
       </button>
     </div>

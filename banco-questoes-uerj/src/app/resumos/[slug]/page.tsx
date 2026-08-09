@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getResumo } from '@/lib/resumos';
-import { renderMarkdown } from '@/lib/markdown';
+import { parseResumoSections } from '@/lib/resumoSections';
 import { PracticeResumoButton } from '@/components/PracticeResumoButton';
+import { ResumoSections } from '@/components/ResumoSections';
 
 export const dynamic = 'force-dynamic';
 
@@ -16,7 +17,7 @@ export default async function ResumoPage({
 
   if (!resumo) notFound();
 
-  const html = renderMarkdown(resumo.content);
+  const sections = parseResumoSections(resumo.content);
 
   return (
     <div>
@@ -74,9 +75,7 @@ export default async function ResumoPage({
         </div>
       </header>
 
-      <article className="card">
-        <div className="explanation" dangerouslySetInnerHTML={{ __html: html }} />
-      </article>
+      <ResumoSections sections={sections} />
     </div>
   );
 }

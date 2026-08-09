@@ -20,6 +20,7 @@ const LINKS = [
   { href: '/questoes', label: 'Questões' },
   { href: '/simulados', label: 'Simulados' },
   { href: '/analise', label: 'Análise da banca' },
+  { href: '/resumos', label: 'Resumos' },
   { href: '/favoritas', label: 'Favoritas' },
   { href: '/estatisticas', label: 'Estatísticas' },
   { href: '/historico', label: 'Histórico' },

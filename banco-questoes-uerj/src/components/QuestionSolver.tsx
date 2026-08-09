@@ -6,7 +6,11 @@ import clsx from 'clsx';
 import type { QuestionStatus } from '@prisma/client';
 import type { QuestionSubject, SolveQuestion } from '@/lib/serializers';
 import { renderMarkdown } from '@/lib/markdown';
+import { RESUMO_SLUGS } from '@data/resumos/slugs';
 import { DifficultyBadge, StatusBadge } from './ui';
+
+/** `Set<string>` para aceitar o slug dinâmico de `subject.subtheme` sem briga de tipo com a tupla literal. */
+const RESUMO_SLUG_SET = new Set<string>(RESUMO_SLUGS);
 
 /**
  * Tela de resolução (Etapa 4).
@@ -372,6 +376,12 @@ export function QuestionSolver({
                 <button type="button" onClick={markForReview} className="btn-secondary">
                   Marcar para revisar
                 </button>
+
+                {subject?.subtheme && RESUMO_SLUG_SET.has(subject.subtheme.slug) && (
+                  <a href={`/resumos/${subject.subtheme.slug}`} className="btn-secondary">
+                    Revisar assunto
+                  </a>
+                )}
 
                 {nextHref && (
                   <a href={nextHref} className="btn-secondary ml-auto">

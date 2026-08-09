@@ -9,11 +9,20 @@ geração de provas inéditas.
 Projeto em `banco-questoes-uerj/`. Branch default do repositório (não existe `main`):
 **`claude/banco-questoes-r-uerj-3d1xr7`**.
 
-**Atenção: a branch default está atrasada.** O trabalho mais recente vive em
-**`claude/random-questions-by-area-npb9ho`**, que está **23 commits à frente** da default e é a
-branch a usar como base. Ela contém tudo que a default tem, mais o `vercel.json`, a limpeza dos
-resíduos do app de gastos e o simulado por conteúdo. Confira com
-`git rev-list --count claude/banco-questoes-r-uerj-3d1xr7..claude/random-questions-by-area-npb9ho`.
+O trabalho desta sessão está em **`claude/random-questions-by-area-npb9ho`**, **2 commits à frente**
+da default e 0 atrás — só o simulado por conteúdo e a atualização deste documento. Todo o resto já
+está na default.
+
+**Meça sempre contra `origin/`, nunca contra a ref local da default.** A cópia local de
+`claude/banco-questoes-r-uerj-3d1xr7` pode estar parada num commit antigo (nesta sessão estava 22
+commits atrás da própria remota), e comparar contra ela dá um número inflado — foi o que aconteceu
+aqui antes da correção:
+
+```bash
+git fetch origin claude/banco-questoes-r-uerj-3d1xr7
+git rev-list --count origin/claude/banco-questoes-r-uerj-3d1xr7..claude/random-questions-by-area-npb9ho
+```
+
 As branches de feature antigas (`claude/retomar-sessao-toq38p`, `claude/prova-na-integra`) já foram
 integradas e podem ser apagadas. Último commit: veja `git log -1`. Árvore limpa, tudo pushado.
 
@@ -199,8 +208,8 @@ no navegador e pushado em `claude/random-questions-by-area-npb9ho`. Há uma prop
 chat e **aprovada pendente de execução** (os emojis nos comentários), logo abaixo. Sugestões de
 continuação, todas a confirmar com o usuário antes de executar:
 
-- **Mesclar `claude/random-questions-by-area-npb9ho` na branch default**, que está 23 commits
-  atrasada. Ou abrir PR — nunca sem pedido explícito.
+- **Mesclar `claude/random-questions-by-area-npb9ho` na default** (2 commits, sem divergência —
+  fast-forward). Ou abrir PR, nunca sem pedido explícito.
 
 - **Deixar os 247 comentários mais didáticos com emojis nos títulos de seção** (pedido do usuário
   nesta sessão). Não exige `ANTHROPIC_API_KEY`: é edição leve do texto já existente, feita

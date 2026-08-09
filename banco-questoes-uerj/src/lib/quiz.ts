@@ -1,6 +1,7 @@
 import type { PrismaClient, QuizMode } from '@prisma/client';
 import { prisma as defaultPrisma } from './prisma';
 import { buildBlueprint, readAnalysis } from './analysis';
+import { taxonomyUnionWhere } from './questions';
 
 /**
  * Gerador de simulados (Etapa 5).
@@ -11,7 +12,7 @@ import { buildBlueprint, readAnalysis } from './analysis';
 
 export const QUIZ_MODE_LABEL: Record<QuizMode, string> = {
   ALEATORIO: 'Aleatório',
-  POR_TEMA: 'Por tema',
+  POR_TEMA: 'Por conteúdo',
   POR_INCIDENCIA: 'Por incidência',
   APENAS_ERRADAS: 'Apenas questões erradas',
   APENAS_REVISAO: 'Apenas revisões',
@@ -23,9 +24,14 @@ export interface BuildQuizOptions {
   userId: string;
   mode: QuizMode;
   size: number;
-  /** Slugs de tema, usados no modo POR_TEMA. */
+  /**
+   * Recorte por taxonomia, usado no modo POR_TEMA. Os três níveis se **somam**:
+   * a questão entra se cair sob qualquer nó marcado. Marcar um tema e um tópico
+   * de outro tema devolve os dois, não a interseção vazia.
+   */
   themeSlugs?: string[];
   subthemeSlugs?: string[];
+  topicSlugs?: string[];
   years?: number[];
   difficulties?: Array<'FACIL' | 'MEDIA' | 'DIFICIL'>;
   /** Inclui questões de simulados inéditos no sorteio. Padrão: false. */
@@ -170,14 +176,15 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
     }
 
     case 'POR_TEMA': {
-      // Aceita recorte por tema e/ou por assunto.
-      const where = {
-        ...baseWhere(options),
-        ...(options.themeSlugs?.length ? { theme: { slug: { in: options.themeSlugs } } } : {}),
-        ...(options.subthemeSlugs?.length
-          ? { subtheme: { slug: { in: options.subthemeSlugs } } }
-          : {}),
-      };
+      // Recorte por tema, assunto e/ou tópico, somando os níveis. Sem nada
+      // marcado o escopo é nulo e o modo vira sorteio livre, de propósito.
+      // `baseWhere` nunca usa OR, então o spread não atropela nada.
+      const scope = taxonomyUnionWhere(
+        options.themeSlugs,
+        options.subthemeSlugs,
+        options.topicSlugs,
+      );
+      const where = { ...baseWhere(options), ...(scope ?? {}) };
       const pool = await client.question.findMany({ where, select: { id: true } });
       questionIds = shuffle(pool).slice(0, size).map((q) => q.id);
       break;
@@ -238,6 +245,7 @@ export async function buildQuiz(options: BuildQuizOptions): Promise<BuildQuizRes
         requestedSize: options.size,
         themeSlugs: options.themeSlugs ?? [],
         subthemeSlugs: options.subthemeSlugs ?? [],
+        topicSlugs: options.topicSlugs ?? [],
         years: options.years ?? [],
         difficulties: options.difficulties ?? [],
         blueprint: blueprint ?? null,

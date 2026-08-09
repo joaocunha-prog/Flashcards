@@ -588,11 +588,31 @@ src/
 | Modo | Seleção |
 | --- | --- |
 | `ALEATORIO` | Sorteio livre no banco |
-| `POR_TEMA` | Restrito aos temas (ou assuntos) escolhidos |
+| `POR_TEMA` | "Por conteúdo": a **união** dos temas, assuntos e tópicos marcados |
 | `POR_INCIDENCIA` | Distribui na proporção histórica de cada **assunto** |
 | `APENAS_ERRADAS` | Só questões com status `ERROU` |
 | `APENAS_REVISAO` | Só questões marcadas como `REVISAR` |
 | `SIMULADO_INEDITO` | A prova gerada mais recente, na íntegra |
+
+O tamanho é digitado, de 1 a 200, e ao lado do campo o app informa **quantas questões existem para
+o recorte atual** — consultando `GET /api/questions/count`, que devolve só o inteiro. Pedir mais do
+que existe não é erro: o simulado sai com o que houver, e o aviso aparece antes de montar.
+
+### Por que a seleção de conteúdo soma em vez de cruzar
+
+Os três níveis se **somam**: a questão entra se cair sob qualquer nó marcado. Marcar *Cardiologia* e
+*Arritmias* dá a Cardiologia inteira; marcar *Cardiologia* e um tópico de Pneumologia dá os dois.
+
+Cruzar seria pior que inútil. Numa árvore de seleção múltipla, a interseção faz **marcar mais
+diminuir o resultado** — `Cardiologia + Neurologia + Arritmias` devolveria só Arritmias, e
+Neurologia sumiria em silêncio. Pior: `Cardiologia + <tópico de outro tema>` devolveria zero. Some-se
+que `subthemeId` e `topicId` são nulos em parte do corpus, então cruzar excluiria as questões de um
+tema que ainda não têm assunto classificado.
+
+O banco de questões em `/questoes` continua **cruzando** os níveis, e deve mesmo: lá o filtro vem da
+URL (`?theme=x&subtheme=y`, gerado pelo drill-down do ranking) e descreve um recorte só, refinado
+nível a nível. A diferença é explícita — `buildQuestionWhere` recebe `taxonomyMatch`, que só o
+montador de simulado passa como `UNIAO`.
 
 ---
 

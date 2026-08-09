@@ -50,6 +50,14 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## O que Foi Feito na Última Sessão
 
+- **Simulado por conteúdo, nos três níveis, com número de questões digitado.** O modo `POR_TEMA`
+  (rótulo agora "Por conteúdo") passou a aceitar **tema, assunto e tópico** numa árvore de seleção
+  com busca; o tamanho virou campo numérico livre de 1 a 200, no lugar do slider de 5–50 passo 5; e
+  um contador ao vivo informa quantas questões existem para o recorte antes de montar. Sem migração:
+  nenhum valor novo no enum `QuizMode`. Detalhes na seção "Decisões Confirmadas".
+
+## O que Foi Feito em Sessões Anteriores
+
 - **Comentários: 147 → 247/247.** Provas de 2024 e 2025 escritas do zero; 2022 e 2023 concluídas.
 - **Modo de simulado "Prova na íntegra"** — escolhe uma prova oficial (2021–2025) e resolve o
   caderno completo, na ordem original, sem sorteio nem corte por tamanho ou dificuldade.
@@ -65,6 +73,27 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## Decisões Confirmadas
 
+- **A seleção de conteúdo do simulado é UNIÃO, não interseção.** `buildQuestionWhere` ganhou
+  `taxonomyMatch?: 'ANINHADO' | 'UNIAO'`, com **default `ANINHADO`** — então `/questoes`,
+  `/favoritas` e os links do drill-down do ranking continuam cruzando os níveis, sem regressão. Só o
+  montador de simulado passa `UNIAO` (via `taxonomy=uniao` na query do contador, e via
+  `taxonomyUnionWhere` dentro de `buildQuiz`). O motivo está no README do projeto: com interseção,
+  marcar um nó a mais *diminuiria* o resultado, e tema + tópico de outro tema daria zero.
+  **Armadilha ao mexer nisso:** `where.OR` já pertence à busca textual em `buildQuestionWhere` — a
+  cláusula de união entra no array `where.AND`, nunca em `where.OR`, senão uma apaga a outra.
+- **`POR_TEMA` cobre os três níveis e não virou modo novo.** Acrescentar valor ao enum `QuizMode`
+  exigiria migração; o modo já degenerava em sorteio livre sem seleção. O rótulo em
+  `QUIZ_MODE_LABEL` mudou para **"Por conteúdo"**, o que renomeia também os simulados antigos no
+  histórico — desejável, "Por tema" passou a mentir.
+- **Na árvore, marcar um pai não mexe no estado dos filhos.** Os filhos só aparecem cobertos
+  (marcados e desabilitados). Assim desmarcar o pai devolve exatamente a seleção que existia antes,
+  sem código de restauração. O que um ancestral cobre é descartado no submit, só para o
+  `Quiz.config` ficar legível — não muda o resultado.
+- **O campo de tamanho guarda string, não número.** Clampar a cada tecla impede digitar "100" quando
+  o pool tem 8 questões; o clamp acontece no `onBlur` e no submit.
+- **Contagens dos chips da árvore excluem provas geradas** (`_count` filtrado por
+  `excludeFromStats: false`), para bater com o contador ao vivo — que também as exclui, espelhando o
+  `includeMockExams` do `POST /api/quizzes`. Somar os chips e achar outro número seria confuso.
 - **Modelos padrão:** explicações em `claude-sonnet-5`; geração de provas inéditas em
   `claude-opus-5`. `ANTHROPIC_MODEL` sobrescreve os dois.
 - **O usuário pediu Sonnet 5 para os comentários.** Na prática, cada lote saiu no modelo que o
@@ -90,6 +119,24 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
   morta `server/data/expenses.json` também tirada do `.gitignore`.
 
 ## Arquivos Modificados
+
+### Simulado por conteúdo (última sessão)
+
+- `banco-questoes-uerj/src/lib/questions.ts` — `TaxonomyMatch`, `taxonomyUnionWhere()`,
+  `countQuestions()`; `buildQuestionWhere` passou a acumular condições num array `andConditions`
+  (antes `stateConditions`) para não colidir com o `where.OR` da busca; `parseFilters` lê `taxonomy`.
+- `banco-questoes-uerj/src/app/api/questions/count/route.ts` — **nova.** Devolve só `{ total }`.
+- `banco-questoes-uerj/src/lib/quiz.ts` — `topicSlugs` em `BuildQuizOptions`, `POR_TEMA` usando
+  `taxonomyUnionWhere`, `topicSlugs` no `config`, rótulo "Por conteúdo".
+- `banco-questoes-uerj/src/app/api/quizzes/route.ts` — `topicSlugs` no zod e no repasse.
+- `banco-questoes-uerj/src/app/simulados/page.tsx` — árvore tema › assunto › tópico numa query
+  aninhada, com `_count` filtrado e poda de baixo para cima.
+- `banco-questoes-uerj/src/components/QuizBuilder.tsx` — árvore com busca e pastilhas removíveis,
+  campo numérico, contador ao vivo com debounce e `AbortController`.
+- `banco-questoes-uerj/src/components/ui.tsx` + `QuestionFilters.tsx` — `Chip` e `FilterGroup`
+  extraídos para o módulo compartilhado (estavam duplicados) e `Chip` ganhou `disabled`.
+
+### Sessões anteriores
 
 - `README.md` (raiz) — reescrito, só o banco de questões.
 - `banco-questoes-uerj/README.md` — corpus, ressalvas de gabarito, custo, `explain:all`,

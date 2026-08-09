@@ -3,6 +3,7 @@
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useState, useTransition } from 'react';
 import clsx from 'clsx';
+import { Chip, FilterGroup } from '@/components/ui';
 
 interface ThemeOption {
   slug: string;
@@ -230,37 +231,3 @@ export function QuestionFilters({
   );
 }
 
-function FilterGroup({ label, children }: { label: string; children: React.ReactNode }) {
-  return (
-    <div>
-      <p className="label mb-2">{label}</p>
-      <div className="flex flex-wrap gap-1.5">{children}</div>
-    </div>
-  );
-}
-
-function Chip({
-  active,
-  onClick,
-  children,
-}: {
-  active: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-pressed={active}
-      className={clsx(
-        'rounded-full border px-3 py-1 text-xs font-medium transition-colors',
-        active
-          ? 'border-brand-600 bg-brand-600 text-white dark:border-brand-500 dark:bg-brand-500 dark:text-slate-950'
-          : 'border-slate-300 text-slate-600 hover:bg-slate-100 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800',
-      )}
-    >
-      {children}
-    </button>
-  );
-}

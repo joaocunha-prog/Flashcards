@@ -8,13 +8,48 @@ import { EmptyState, PageHeader, ProgressBar } from '@/components/ui';
 
 export const dynamic = 'force-dynamic';
 
+/** Provas geradas pelo Claude ficam fora das contagens, como do sorteio. */
+const NAO_GERADAS = { exam: { excludeFromStats: false } };
+
 export default async function SimuladosPage() {
   const userId = await getCurrentUserId();
 
   const [themes, exams, quizzes] = await Promise.all([
+    // A árvore inteira de uma vez: ~11 temas, 70 assuntos e ~200 tópicos depois
+    // da poda, na casa dos 30 KB no payload. Sai mais barato que ir ao servidor
+    // a cada nó expandido.
+    //
+    // A contagem exclui provas geradas para bater com o contador ao vivo do
+    // montador, que também as exclui — senão somar os chips daria um número
+    // diferente do que a tela informa.
     prisma.theme.findMany({
+      // Temas seguem a ordem deliberada da taxonomia; assuntos e tópicos vão em
+      // ordem alfabética, que é como se procura numa lista de 70. O campo
+      // `order` deles tem duas convenções (o seed grava o índice, o importador
+      // deixa no default 0), então ordenar por ele jogaria os assuntos criados
+      // na importação para o topo.
       orderBy: { order: 'asc' },
-      select: { slug: true, name: true, _count: { select: { questions: true } } },
+      select: {
+        slug: true,
+        name: true,
+        _count: { select: { questions: { where: NAO_GERADAS } } },
+        subthemes: {
+          orderBy: { name: 'asc' },
+          select: {
+            slug: true,
+            name: true,
+            _count: { select: { questions: { where: NAO_GERADAS } } },
+            topics: {
+              orderBy: { name: 'asc' },
+              select: {
+                slug: true,
+                name: true,
+                _count: { select: { questions: { where: NAO_GERADAS } } },
+              },
+            },
+          },
+        },
+      },
     }),
     prisma.exam.findMany({
       where: { source: 'PROVA_OFICIAL', excludeFromStats: false },
@@ -39,12 +74,28 @@ export default async function SimuladosPage() {
 
       <QuizBuilder
         themes={themes
-          .filter((theme) => theme._count.questions > 0)
+          // Poda de baixo para cima: um assunto expandido nunca mostra tópico
+          // vazio, e um tema nunca expande para lista nenhuma.
           .map((theme) => ({
             slug: theme.slug,
             name: theme.name,
             count: theme._count.questions,
-          }))}
+            subthemes: theme.subthemes
+              .map((subtheme) => ({
+                slug: subtheme.slug,
+                name: subtheme.name,
+                count: subtheme._count.questions,
+                topics: subtheme.topics
+                  .filter((topic) => topic._count.questions > 0)
+                  .map((topic) => ({
+                    slug: topic.slug,
+                    name: topic.name,
+                    count: topic._count.questions,
+                  })),
+              }))
+              .filter((subtheme) => subtheme.count > 0),
+          }))
+          .filter((theme) => theme.count > 0)}
         exams={exams
           .filter((exam) => exam._count.questions > 0)
           .map((exam) => ({

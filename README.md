@@ -26,8 +26,10 @@ O projeto vive em [`banco-questoes-uerj/`](banco-questoes-uerj/).
   com pearls, pitfalls e mnemônicos.
 - **Ressalvas de gabarito**: dez questões trazem uma nota editorial apontando conduta desatualizada,
   alternativa dupla ou item passível de anulação — exibida depois que você responde.
-- **Simulados** aleatórios, por tema, por incidência, só das erradas, só das marcadas para revisar,
-  e geração de prova inédita a partir do banco.
+- **Simulados** aleatórios, por conteúdo (macro área, assunto ou tópico, à sua escolha), por
+  incidência, só das erradas, só das marcadas para revisar, e geração de prova inédita a partir do
+  banco. Você digita quantas questões quer e o app diz quantas existem para o recorte antes de
+  montar.
 
 ## Stack
 

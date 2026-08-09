@@ -11,10 +11,26 @@ export type Difficulty = 'FACIL' | 'MEDIA' | 'DIFICIL';
 export type Status = 'NAO_FEITA' | 'ACERTOU' | 'ERROU' | 'REVISAR';
 export type SortOption = 'recent' | 'oldest' | 'incidence';
 
+/**
+ * Como combinar os três níveis da taxonomia entre si.
+ *
+ * `ANINHADO` cruza os níveis (tema E subtema E tópico). É o que o banco de
+ * questões e o drill-down do ranking precisam: `?theme=x&subtheme=y` descreve
+ * um recorte só, refinado nível a nível.
+ *
+ * `UNIAO` soma os níveis (tema OU subtema OU tópico). É o que o montador de
+ * simulado precisa: quem marca vários nós de uma árvore quer a união deles.
+ * Cruzar seria pior que inútil — marcar Cardiologia e um tópico de Neurologia
+ * daria zero questão, e marcar um tema a mais poderia *diminuir* o resultado.
+ */
+export type TaxonomyMatch = 'ANINHADO' | 'UNIAO';
+
 export interface QuestionFilters {
   themes?: string[];
   subthemes?: string[];
   topics?: string[];
+  /** Padrão: `ANINHADO`. */
+  taxonomyMatch?: TaxonomyMatch;
   years?: number[];
   difficulties?: Difficulty[];
   statuses?: Status[];
@@ -26,18 +42,44 @@ export interface QuestionFilters {
   pageSize?: number;
 }
 
+/**
+ * Cláusula que aceita a questão se ela cair sob *qualquer* nó marcado.
+ * Devolve `null` quando nada foi marcado — o caso "banco inteiro".
+ */
+export function taxonomyUnionWhere(
+  themes?: string[],
+  subthemes?: string[],
+  topics?: string[],
+): Prisma.QuestionWhereInput | null {
+  const branches: Prisma.QuestionWhereInput[] = [];
+
+  if (themes?.length) branches.push({ theme: { slug: { in: themes } } });
+  if (subthemes?.length) branches.push({ subtheme: { slug: { in: subthemes } } });
+  if (topics?.length) branches.push({ topic: { slug: { in: topics } } });
+
+  return branches.length ? { OR: branches } : null;
+}
+
 export function buildQuestionWhere(
   filters: QuestionFilters,
   userId: string,
 ): Prisma.QuestionWhereInput {
   const where: Prisma.QuestionWhereInput = {};
+  // Condições que precisam conviver sem se sobrescrever. `where.OR` já é do
+  // filtro de busca textual, então tudo que também usa OR entra aqui.
+  const andConditions: Prisma.QuestionWhereInput[] = [];
 
   if (!filters.includeMocks) {
     where.exam = { excludeFromStats: false };
   }
-  if (filters.themes?.length) where.theme = { slug: { in: filters.themes } };
-  if (filters.subthemes?.length) where.subtheme = { slug: { in: filters.subthemes } };
-  if (filters.topics?.length) where.topic = { slug: { in: filters.topics } };
+  if (filters.taxonomyMatch === 'UNIAO') {
+    const scope = taxonomyUnionWhere(filters.themes, filters.subthemes, filters.topics);
+    if (scope) andConditions.push(scope);
+  } else {
+    if (filters.themes?.length) where.theme = { slug: { in: filters.themes } };
+    if (filters.subthemes?.length) where.subtheme = { slug: { in: filters.subthemes } };
+    if (filters.topics?.length) where.topic = { slug: { in: filters.topics } };
+  }
   if (filters.years?.length) where.year = { in: filters.years };
   if (filters.difficulties?.length) where.difficulty = { in: filters.difficulties };
 
@@ -52,10 +94,8 @@ export function buildQuestionWhere(
     ];
   }
 
-  const stateConditions: Prisma.QuestionWhereInput[] = [];
-
   if (filters.favoritesOnly) {
-    stateConditions.push({ userStates: { some: { userId, favorite: true } } });
+    andConditions.push({ userStates: { some: { userId, favorite: true } } });
   }
 
   if (filters.statuses?.length) {
@@ -72,11 +112,11 @@ export function buildQuestionWhere(
     if (others.length) {
       statusOr.push({ userStates: { some: { userId, status: { in: others } } } });
     }
-    stateConditions.push({ OR: statusOr });
+    andConditions.push({ OR: statusOr });
   }
 
-  if (stateConditions.length) {
-    where.AND = stateConditions;
+  if (andConditions.length) {
+    where.AND = andConditions;
   }
 
   return where;
@@ -129,6 +169,18 @@ export async function listQuestions(
   };
 }
 
+/**
+ * Só o tamanho do recorte, sem trazer questão nenhuma. É o que o montador de
+ * simulado consulta a cada ajuste de filtro para dizer quantas questões existem.
+ */
+export async function countQuestions(
+  filters: QuestionFilters,
+  userId: string,
+  client: PrismaClient = defaultPrisma,
+): Promise<number> {
+  return client.question.count({ where: buildQuestionWhere(filters, userId) });
+}
+
 /** Lê os filtros a partir de query params (URL da página ou da API). */
 export function parseFilters(params: URLSearchParams): QuestionFilters {
   const difficulties = params
@@ -149,6 +201,7 @@ export function parseFilters(params: URLSearchParams): QuestionFilters {
     themes: params.getAll('theme').filter(Boolean),
     subthemes: params.getAll('subtheme').filter(Boolean),
     topics: params.getAll('topic').filter(Boolean),
+    taxonomyMatch: params.get('taxonomy') === 'uniao' ? 'UNIAO' : 'ANINHADO',
     years: params.getAll('year').map(Number).filter((y) => !Number.isNaN(y)),
     difficulties,
     statuses,

@@ -6,10 +6,16 @@ Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**. 
 por assunto, ranking 80/20, resolução sem gabarito, comentários em medicina baseada em evidências e
 geração de provas inéditas.
 
-Projeto em `banco-questoes-uerj/`. Branch principal (default do repositório, não existe `main`):
-**`claude/banco-questoes-r-uerj-3d1xr7`**. Todo o trabalho está mesclado nela e pushado; as branches
-de feature usadas no caminho (`claude/retomar-sessao-toq38p`, `claude/prova-na-integra`) já foram
-integradas e podem ser apagadas. Último commit: veja `git log -1`. Árvore limpa.
+Projeto em `banco-questoes-uerj/`. Branch default do repositório (não existe `main`):
+**`claude/banco-questoes-r-uerj-3d1xr7`**.
+
+**Atenção: a branch default está atrasada.** O trabalho mais recente vive em
+**`claude/random-questions-by-area-npb9ho`**, que está **23 commits à frente** da default e é a
+branch a usar como base. Ela contém tudo que a default tem, mais o `vercel.json`, a limpeza dos
+resíduos do app de gastos e o simulado por conteúdo. Confira com
+`git rev-list --count claude/banco-questoes-r-uerj-3d1xr7..claude/random-questions-by-area-npb9ho`.
+As branches de feature antigas (`claude/retomar-sessao-toq38p`, `claude/prova-na-integra`) já foram
+integradas e podem ser apagadas. Último commit: veja `git log -1`. Árvore limpa, tudo pushado.
 
 **Comece pelo [GUIA.md](banco-questoes-uerj/GUIA.md)** para subir a aplicação e para incluir provas,
 gabaritos e comentários — é o passo a passo operacional. O README do projeto explica as decisões.
@@ -42,11 +48,20 @@ importados por `npm run explain:import`. A procedência de cada lote está regis
 `MODELO_POR_ARQUIVO`, em `scripts/import-explanations.ts`: **ao acrescentar um arquivo novo,
 registre ali o modelo que o escreveu** se não for o padrão (`claude-opus-5`).
 
-**Sobre o Postgres.** No início desta sessão não havia `/tmp/pgdata` nem `.env`, e foi preciso
-rodar `initdb`, criar o banco, escrever o `.env` (com `DATABASE_URL` **e** `DIRECT_URL` — o schema
-exige as duas) e reimportar tudo. Depois disso o datadir **persistiu** entre reinícios do container,
-mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retomada. O bloco
-"Comandos Úteis" cobre os dois cenários — rode `pg_isready` primeiro para saber qual se aplica.
+**Sobre o Postgres — conte com o cenário do zero.** Duas sessões seguidas começaram sem
+`/tmp/pgdata`, sem `.env` e sem `node_modules`. A sessão anterior registrou que o datadir "persistiu
+entre reinícios do container"; **isso não se confirmou** — num container novo não persiste nada.
+Trate como padrão: `npm install`, `initdb`, criar o banco, escrever o `.env` (com `DATABASE_URL`
+**e** `DIRECT_URL` — o schema exige as duas), `npx prisma db push`, `npm run db:seed` e reimportar
+as 5 provas. Leva uns 5 minutos e está tudo em "Comandos Úteis". Rode `pg_isready` primeiro: se
+responder, o datadir sobreviveu e basta o `pg_ctl start`.
+
+**O `npm run lint` não funciona.** Não há configuração de ESLint no projeto, então `next lint` cai
+num prompt interativo de setup e trava. Verificação estática = `npx tsc --noEmit` + `npm run build`.
+Configurar o ESLint é uma pendência em aberto, nunca pedida pelo usuário.
+
+**O 404 de `/favicon.ico` no console é esperado** — a pasta `public/` foi apagada como resíduo do
+app antigo e nada a repôs. Não é regressão; se incomodar, basta um `app/icon.svg`.
 
 ## O que Foi Feito na Última Sessão
 
@@ -179,9 +194,13 @@ mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retoma
 
 ## Próxima Ação
 
-**Não há trabalho pendente aplicado ao código.** Tudo que foi pedido está entregue, mesclado e
-pushado. Há uma proposta discutida em chat e **aprovada pendente de execução**, ver abaixo.
-Sugestões de continuação, todas a confirmar com o usuário antes de executar:
+**Não há trabalho pendente aplicado ao código.** O simulado por conteúdo está entregue, verificado
+no navegador e pushado em `claude/random-questions-by-area-npb9ho`. Há uma proposta discutida em
+chat e **aprovada pendente de execução** (os emojis nos comentários), logo abaixo. Sugestões de
+continuação, todas a confirmar com o usuário antes de executar:
+
+- **Mesclar `claude/random-questions-by-area-npb9ho` na branch default**, que está 23 commits
+  atrasada. Ou abrir PR — nunca sem pedido explícito.
 
 - **Deixar os 247 comentários mais didáticos com emojis nos títulos de seção** (pedido do usuário
   nesta sessão). Não exige `ANTHROPIC_API_KEY`: é edição leve do texto já existente, feita
@@ -205,6 +224,18 @@ Sugestões de continuação, todas a confirmar com o usuário antes de executar:
 - **Colocar no ar** (Vercel + Supabase). O passo a passo está no README, seção "Colocando no ar".
 - **Apagar as branches de feature já mescladas**: `claude/retomar-sessao-toq38p` e
   `claude/prova-na-integra`.
+
+Encalhes pequenos observados ao fazer o simulado por conteúdo, nenhum urgente:
+
+- **`/questoes` conta provas geradas nos chips de tema, `/simulados` não.** A árvore do montador usa
+  `_count` filtrado por `excludeFromStats: false`, para bater com o contador ao vivo; o
+  `prisma.theme.findMany` de `src/app/questoes/page.tsx` ficou sem esse filtro. Hoje não aparece
+  (não há prova gerada no banco), mas divergiria na primeira que houver. Uma linha de conserto.
+- **Filtrar por tópico existe no simulado e no banco de questões, mas `QuestionFilters.tsx` só
+  desenha o grupo de tema.** `parseFilters` e `buildQuestionWhere` já leem `subtheme` e `topic`; a
+  árvore de seleção do `QuizBuilder` poderia ser reaproveitada ali.
+- **`README.md` do projeto diz "geração dos 6 modos de simulado"** na árvore de arquivos; são 7
+  desde o `PROVA_INTEGRA`.
 
 ## Convenções e Restrições
 
@@ -248,8 +279,9 @@ su postgres -c "psql -h 127.0.0.1 -p 5432 -c 'CREATE DATABASE banco_uerj;'"
 # .env precisa de DATABASE_URL E DIRECT_URL (o schema.prisma exige as duas):
 #   DATABASE_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
 #   DIRECT_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
-npm install && npx prisma db push
+npm install && npx prisma db push && npm run db:seed
 for f in data/provas/uerj-*.json; do npx tsx --env-file-if-exists=.env scripts/import-exam.ts "$f"; done
+npm run analysis:recompute
 
 # Se o .env e o banco já existiam (datadir persistiu), pule direto para:
 
@@ -262,8 +294,11 @@ npx tsc --noEmit && npm run build
 (PORT=3111 npm run start &) ; sleep 6
 fuser -k 3111/tcp             # derrubar (não usar pkill -f, mata o próprio shell)
 
-# Playwright: Chromium em /opt/pw-browsers/chromium
-# chromium.launch({ executablePath: '/opt/pw-browsers/chromium' })
+# Playwright: NÃO vem instalado — `npm install --no-save playwright` (não sujar o package.json).
+# O caminho do Chromium tem o número da build; confira em vez de chutar:
+#   find /opt/pw-browsers -maxdepth 3 -name chrome
+# Nesta sessão: /opt/pw-browsers/chromium-1194/chrome-linux/chrome
+# chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' })
 # O script .mjs precisa ficar DENTRO do projeto, senão não resolve os módulos.
 
 # Cobertura por prova

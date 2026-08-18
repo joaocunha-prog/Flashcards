@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-slate-50 font-sans text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+  }
+
+  /* Evita "flash" de tema errado: o script inline em layout.tsx aplica a
+     classe .dark antes da primeira pintura. */
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-800 dark:bg-slate-900;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-600 text-white hover:bg-brand-700 dark:bg-brand-500 dark:hover:bg-brand-400 dark:text-slate-950;
+  }
+
+  .btn-secondary {
+    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800;
+  }
+
+  .btn-ghost {
+    @apply btn text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+  }
+
+  .label {
+    @apply block text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Explicações do Claude
+   ---------------------------------------------------------------------------
+   O comentário tem 9 seções. Lidas como texto corrido, as de maior valor
+   prático — pearls, pitfalls e a checagem do gabarito — se perdem no meio.
+   Cada seção recebe um tratamento visual próprio para que o olho as encontre
+   sem precisar ler tudo.
+*/
+
+.explanation .explanation-section {
+  @apply mb-4 last:mb-0;
+}
+
+.explanation h3 {
+  @apply mb-2 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400;
+}
+
+.explanation p {
+  @apply mb-3 leading-relaxed text-slate-700 last:mb-0 dark:text-slate-300;
+}
+
+.explanation ul {
+  @apply mb-3 list-disc space-y-1.5 pl-5 text-slate-700 last:mb-0 dark:text-slate-300;
+}
+
+.explanation ol {
+  @apply mb-3 list-decimal space-y-1.5 pl-5 text-slate-700 last:mb-0 dark:text-slate-300;
+}
+
+.explanation li {
+  @apply leading-relaxed;
+}
+
+.explanation .alt-item {
+  @apply mb-2 border-l-2 border-slate-200 pl-3 last:mb-0 dark:border-slate-700;
+}
+
+.explanation strong {
+  @apply font-semibold text-slate-900 dark:text-slate-100;
+}
+
+.explanation code {
+  @apply rounded bg-slate-100 px-1 py-0.5 text-sm dark:bg-slate-800;
+}
+
+/* Tabelas comparativas.
+   Um quarto dos comentários compara duas ou três entidades lado a lado — é
+   onde a distinção fica clara. O wrapper rola sozinho para que uma tabela de
+   cinco colunas não estoure a largura da página no celular; o `min-width`
+   evita o extremo oposto, de espremer as colunas a três caracteres. */
+.explanation .table-wrap {
+  @apply mb-3 overflow-x-auto last:mb-0;
+}
+
+.explanation table {
+  @apply w-full min-w-[22rem] border-collapse text-left text-sm;
+}
+
+.explanation thead th {
+  @apply border-b border-slate-300 pb-2 pr-4 align-bottom text-xs font-semibold uppercase tracking-wide text-slate-500 last:pr-0 dark:border-slate-600 dark:text-slate-400;
+}
+
+.explanation tbody td {
+  @apply border-b border-slate-200 py-2 pr-4 align-top leading-relaxed text-slate-700 last:pr-0 dark:border-slate-800 dark:text-slate-300;
+}
+
+.explanation tbody tr:last-child td {
+  @apply border-b-0;
+}
+
+/* A primeira coluna costuma ser o rótulo da linha ("Extensão da mielite"). */
+.explanation tbody td:first-child {
+  @apply font-medium text-slate-600 dark:text-slate-400;
+}
+
+.explanation [data-align='center'] {
+  @apply text-center;
+}
+
+.explanation [data-align='right'] {
+  @apply text-right;
+}
+
+/* Seções em destaque: borda lateral colorida + fundo tênue. */
+.explanation [data-section='pearls'],
+.explanation [data-section='pitfalls'],
+.explanation [data-section='evidencia'],
+.explanation [data-section='mnemonico'],
+.explanation [data-section='consistencia'] {
+  @apply rounded-r-lg border-l-4 py-3 pl-4 pr-3;
+}
+
+.explanation [data-section='pearls'] {
+  @apply border-emerald-500 bg-emerald-50/70 dark:bg-emerald-950/30;
+}
+.explanation [data-section='pearls'] h3 {
+  @apply text-emerald-700 dark:text-emerald-300;
+}
+
+.explanation [data-section='pitfalls'] {
+  @apply border-rose-500 bg-rose-50/70 dark:bg-rose-950/30;
+}
+.explanation [data-section='pitfalls'] h3 {
+  @apply text-rose-700 dark:text-rose-300;
+}
+
+.explanation [data-section='evidencia'] {
+  @apply border-indigo-500 bg-indigo-50/70 dark:bg-indigo-950/30;
+}
+.explanation [data-section='evidencia'] h3 {
+  @apply text-indigo-700 dark:text-indigo-300;
+}
+
+.explanation [data-section='mnemonico'] {
+  @apply border-amber-500 bg-amber-50/70 dark:bg-amber-950/30;
+}
+.explanation [data-section='mnemonico'] h3 {
+  @apply text-amber-700 dark:text-amber-300;
+}
+
+.explanation [data-section='consistencia'] {
+  @apply border-slate-400 bg-slate-50 dark:border-slate-600 dark:bg-slate-800/50;
+}
+
+/* A resposta correta abre o comentário e merece peso tipográfico maior. */
+.explanation [data-section='resposta'] h3 {
+  @apply text-brand-700 dark:text-brand-300;
+}
+.explanation [data-section='resposta'] p {
+  @apply text-[15px] text-slate-800 dark:text-slate-200;
+}
+
+.explanation [data-section='referencias'] ul,
+.explanation [data-section='referencias'] ol,
+.explanation [data-section='referencias'] p {
+  @apply text-sm text-slate-500 dark:text-slate-400;
+}

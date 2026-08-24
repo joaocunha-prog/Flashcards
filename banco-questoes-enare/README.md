@@ -94,6 +94,27 @@ primeira prova importada.
 
 ---
 
+## Resumos: 80/20 e Selecionados
+
+A aba **Resumos** (`/resumos`) tem duas vitrines sobre o mesmo conteúdo escrito em `data/resumos/`,
+alternadas por abas na própria página:
+
+- **80/20** — segue `SubthemeStat.isPareto`, calculado ao vivo a partir da incidência real do
+  corpus. Automático: não precisa de nenhuma marcação manual, só que o assunto esteja dentro do
+  corte de 80% e já tenha resumo escrito.
+- **Selecionados** — curadoria manual, independente do ranking. Serve para um assunto relevante que
+  ficou fora do corte de 80%, ou qualquer resumo que você queira destacar por outro motivo. Marca-se
+  e desmarca-se pelo botão **"📌 Selecionar"** na página do próprio resumo — é uma marca global (não
+  por usuário), persistida em `ResumoSelection` no banco, do mesmo jeito que o texto do resumo em si
+  é conteúdo compartilhado, não progresso pessoal.
+
+Um resumo pode aparecer nas duas vitrines ao mesmo tempo, ou em nenhuma até ser importado/marcado. O
+que **não muda** é como o texto entra no sistema: continua sendo um arquivo em `data/resumos/`,
+registrado em `content.ts` e `slugs.ts` — a marca "Selecionado" é só uma segunda forma de agrupar o
+que já existe, não uma segunda forma de escrever resumo.
+
+---
+
 ## Gerar prova de 60 questões
 
 Botão na página **Simulados**. A prova não é inventada do zero: o banco é a matéria-prima.

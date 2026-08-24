@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getResumo } from '@/lib/resumos';
 import { parseResumoSections } from '@/lib/resumoSections';
 import { PracticeResumoButton } from '@/components/PracticeResumoButton';
+import { SelectResumoButton } from '@/components/SelectResumoButton';
 import { ResumoSections } from '@/components/ResumoSections';
 
 export const dynamic = 'force-dynamic';
@@ -32,18 +33,25 @@ export default async function ResumoPage({
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div className="flex items-start gap-3">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-600 text-base font-bold text-white dark:bg-brand-500 dark:text-slate-950">
-              {resumo.rank}
+              {resumo.rank || '—'}
             </span>
             <div>
               <h1 className="text-2xl font-semibold tracking-tight">{resumo.name}</h1>
               <p className="mt-0.5 text-sm text-slate-500 dark:text-slate-400">{resumo.themeName}</p>
             </div>
           </div>
-          {resumo.isPareto && (
-            <span className="badge bg-amber-50 text-amber-700 dark:bg-amber-950 dark:text-amber-300">
-              🔥 Prioridade 80/20
-            </span>
-          )}
+          <div className="flex flex-wrap justify-end gap-1.5">
+            {resumo.isPareto && (
+              <span className="badge bg-amber-50 text-amber-700 dark:bg-amber-950 dark:text-amber-300">
+                🔥 Prioridade 80/20
+              </span>
+            )}
+            {resumo.selected && (
+              <span className="badge bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300">
+                📌 Selecionado
+              </span>
+            )}
+          </div>
         </div>
 
         <dl className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -71,7 +79,8 @@ export default async function ResumoPage({
           <Link href={`/questoes?subtheme=${resumo.slug}`} className="btn-secondary">
             Questões relacionadas ({resumo.total})
           </Link>
-          <PracticeResumoButton subthemeSlug={resumo.slug} size={resumo.total} />
+          {resumo.total > 0 && <PracticeResumoButton subthemeSlug={resumo.slug} size={resumo.total} />}
+          <SelectResumoButton slug={resumo.slug} initialSelected={resumo.selected} />
         </div>
       </header>
 

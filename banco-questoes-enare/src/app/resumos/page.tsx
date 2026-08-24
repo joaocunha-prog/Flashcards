@@ -1,14 +1,14 @@
 import { listResumos } from '@/lib/resumos';
-import { ResumoCard } from '@/components/ResumoCard';
+import { ResumosTabs } from '@/components/ResumosTabs';
 import { EmptyState, PageHeader } from '@/components/ui';
 
 export const dynamic = 'force-dynamic';
 
 /**
- * Aba Resumos — os assuntos de maior incidência, em ordem de prioridade
- * 80/20, cada um com resumo médico completo. A ordem e os números vêm do
- * mesmo ranking calculado em `/analise`; só o conteúdo textual é próprio
- * desta aba.
+ * Aba Resumos — duas vitrines sobre o mesmo conteúdo: **80/20**, os assuntos
+ * dentro do corte de incidência (ranking ao vivo, igual à Análise da banca),
+ * e **Selecionados**, uma curadoria editorial independente do ranking. A
+ * lista completa vem de `listResumos()`; a troca de aba é só filtro client-side.
  */
 export default async function ResumosPage() {
   const resumos = await listResumos();
@@ -19,7 +19,7 @@ export default async function ResumosPage() {
         title="Resumos"
         subtitle={
           resumos.length > 0
-            ? `Os ${resumos.length} assuntos de maior incidência, em ordem de prioridade — a mesma curva 80/20 da Análise da banca`
+            ? `${resumos.length} resumos escritos — filtre por 80/20 (ranking de incidência) ou Selecionados (curadoria)`
             : 'Nenhum resumo disponível ainda'
         }
       />
@@ -27,14 +27,10 @@ export default async function ResumosPage() {
       {resumos.length === 0 ? (
         <EmptyState
           title="Nenhum resumo publicado ainda"
-          description="Os resumos cobrem os assuntos de maior incidência do ranking 80/20. Importe provas para o ranking ser calculado."
+          description="Escreva um resumo em data/resumos/ e importe a prova (ou a taxonomia) do assunto correspondente para ele aparecer aqui."
         />
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {resumos.map((resumo) => (
-            <ResumoCard key={resumo.slug} resumo={resumo} />
-          ))}
-        </div>
+        <ResumosTabs resumos={resumos} />
       )}
     </div>
   );

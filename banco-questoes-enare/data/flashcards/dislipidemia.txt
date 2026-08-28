@@ -1,0 +1,18 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Cardiologia::Dislipidemia
+A doença arterial periférica (DAP) é equivalente de risco cardiovascular aterosclerótico — indicação de estatina de {{c1::ALTA intensidade}} (atorvastatina 40-80 mg ou rosuvastatina 20-40 mg), independentemente do LDL basal.	ENARE 2025 Q34 — meta de LDL <70 mg/dL (ou <50 mg/dL se risco adicional muito alto).	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::FACIL
+O índice tornozelo-braquial (ITB) <{{c1::0,9}} confirma o diagnóstico de doença arterial periférica.	A DAP pode ser assintomática ou ter sintomas atípicos, não só claudicação clássica.	Assunto::dislipidemia Conceito
+Triglicerídeos acima de {{c1::500-1000 mg/dL}} elevam o risco de pancreatite aguda — essa é a preocupação imediata na hipertrigliceridemia grave, não apenas o risco cardiovascular.	Triglicerídeos >1000 mg/dL exigem tratamento urgente, mesmo sem sintomas abdominais no momento.	Assunto::dislipidemia Conceito
+O tratamento inicial da hipertrigliceridemia grave inclui restrição de gordura na dieta, controle glicêmico e suspensão de álcool, além de {{c1::fibrato}} como primeira linha farmacológica.		Assunto::dislipidemia Conceito
+Na hipertrigliceridemia grave refratária a fibrato, deve-se associar {{c1::ômega-3 em altas doses}} e/ou niacina, e investigar causas secundárias como {{c2::hipotireoidismo, DM descompensado, álcool e síndrome nefrótica}}.	ENARE 2025 Q45 (DIFÍCIL) — exige raciocínio de escalonamento terapêutico, não apenas aumentar a dose de fibrato indefinidamente.	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Com triglicerídeos muito elevados (>400-500 mg/dL), a fórmula de {{c1::Friedewald}} fica inválida para estimar o LDL — deve-se usar LDL direto ou colesterol não-HDL como referência.		Assunto::dislipidemia Conceito
+Entre os fibratos, o {{c1::fenofibrato}} é preferido à genfibrozila quando associado a estatina, pelo menor risco de interação farmacológica e miopatia.		Assunto::dislipidemia Conceito
+O ácido bempedoico é uma nova classe hipolipemiante que inibe a {{c1::ATP-citrato liase}}, etapa da síntese de colesterol anterior à HMG-CoA redutase.	ENARE 2026 Q47 — cobra o mecanismo de ação e a vantagem de segurança muscular frente à estatina.	Assunto::dislipidemia Banca::ENARE Ano::2026 Dificuldade::FACIL
+O ácido bempedoico é um pró-fármaco ativado seletivamente no {{c1::fígado}} (não no músculo), o que reduz o risco de mialgia/miopatia em relação à estatina.	A enzima ativadora (muito-longa-cadeia acil-CoA sintetase 1) está presente no fígado, mas praticamente ausente no músculo esquelético.	Assunto::dislipidemia Conceito
+O estudo {{c1::CLEAR Outcomes}} demonstrou redução de eventos cardiovasculares com ácido bempedoico em pacientes com intolerância à estatina.		Assunto::dislipidemia Conceito
+O ácido bempedoico pode elevar {{c1::ácido úrico}} e desencadear crise de gota em paciente com histórico de hiperuricemia.		Assunto::dislipidemia Conceito
+A sequência terapêutica padrão em prevenção secundária, quando a meta de LDL não é atingida, é: estatina de alta intensidade → {{c1::ezetimiba}} → {{c2::inibidor de PCSK9 ou ácido bempedoico}}.		Assunto::dislipidemia Conceito
+Aguardar a meta de LDL antes de tratar um triglicerídeo muito alto é um erro — a prioridade imediata na hipertrigliceridemia grave é {{c1::prevenir pancreatite}}, não atingir a meta de LDL.		Assunto::dislipidemia Conceito
+🔤 Mnemônico (recurso próprio) para o mecanismo do ácido bempedoico — "BEM antes do HMG": o ácido {{c1::BEM}}pedoico age numa etapa ANTES da HMG-CoA redutase, inibindo a ATP-citrato liase; como a enzima que o ativa só existe no fígado, o músculo fica poupado.		Assunto::dislipidemia Conceito Mnemonico

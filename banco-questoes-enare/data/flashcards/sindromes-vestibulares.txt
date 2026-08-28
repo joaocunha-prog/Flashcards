@@ -18,6 +18,4 @@ Marca da Ménière nas fases iniciais: {{c1::flutuação}} da audição.	—	Ass
 Com a progressão da Ménière, a perda auditiva tende a se tornar {{c1::permanente}}.	—	Assunto::sindromes-vestibulares Conceito
 Com a progressão, os episódios vertiginosos podem se tornar {{c1::menos frequentes}}, com desequilíbrio crônico residual.	—	Assunto::sindromes-vestibulares Conceito
 Opção de segunda linha refratária na Ménière: injeção intratimpânica de {{c1::gentamicina ou corticoide}}.	—	Assunto::sindromes-vestibulares Conceito
-🔤 Mnemônico SMD — S: {{c1::Segundos}} = VPPB.	<img src="sindromes-vestibulares-duracao.svg" style="max-width:100%">	Assunto::sindromes-vestibulares Mnemonico
-🔤 Mnemônico SMD — M: {{c1::Minutos a horas}} = Ménière.	—	Assunto::sindromes-vestibulares Mnemonico
-🔤 Mnemônico SMD — D: {{c1::Dias}} = neurite vestibular/labirintite.	—	Assunto::sindromes-vestibulares Mnemonico
+🔤 Mnemônico SMD: S = {{c1::Segundos}} = VPPB; M = {{c2::Minutos a horas}} = Ménière; D = {{c3::Dias}} = neurite vestibular/labirintite.	<img src="sindromes-vestibulares-duracao.svg" style="max-width:100%">	Assunto::sindromes-vestibulares Mnemonico

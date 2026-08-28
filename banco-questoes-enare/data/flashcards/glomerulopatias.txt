@@ -9,9 +9,7 @@ Anti-PLA2R negativo ou quadro atípico ainda exige {{c1::biópsia renal}}.	—	A
 Na nefropatia membranosa, os depósitos imunes se localizam na posição {{c1::subepitelial}} da membrana basal.	Espessa a parede capilar sem proliferação celular importante.	Assunto::glomerulopatias Conceito
 No seguimento da nefropatia membranosa, a queda do anti-PLA2R precede a {{c1::remissão clínica}}.	—	Assunto::glomerulopatias Conceito
 No seguimento, a elevação do anti-PLA2R pode antecipar {{c1::recidiva}}.	Não repetir o anti-PLA2R no seguimento é pitfall.	Assunto::glomerulopatias Conceito
-Causa secundária de nefropatia membranosa a excluir: {{c1::lúpus}}.	—	Assunto::glomerulopatias Conceito
-Causa secundária de nefropatia membranosa a excluir: {{c1::hepatite B ou C}}.	—	Assunto::glomerulopatias Conceito
-Causa secundária de nefropatia membranosa a excluir: {{c1::neoplasia sólida}}.	Rastreio oncológico indicado em idosos com nefropatia membranosa.	Assunto::glomerulopatias Conceito
+Causas secundárias de nefropatia membranosa a excluir: {{c1::lúpus}}; {{c2::hepatite B ou C}}; {{c3::neoplasia sólida}}.	Rastreio oncológico indicado em idosos com nefropatia membranosa.	Assunto::glomerulopatias Conceito
 Fármaco associado à nefropatia membranosa secundária: {{c1::AINEs}}.	—	Assunto::glomerulopatias Conceito
 Em PVHIV com síndrome nefrótica, pensar em glomerulopatia {{c1::colapsante (HIVAN)}}.	Proteinúria maciça com evolução rápida para perda de função renal.	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
 HIVAN é mais comum em pacientes de ascendência {{c1::africana}} com carga viral não controlada.	—	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
@@ -23,6 +21,4 @@ Tratamento da nefropatia membranosa de baixo risco: {{c1::terapia conservadora}}
 Tratamento da nefropatia membranosa de alto risco: imunossupressão com {{c1::rituximabe}}.	—	Assunto::glomerulopatias Conceito
 Alternativa de imunossupressão na nefropatia membranosa de alto risco: {{c1::ciclofosfamida + corticoide}}.	—	Assunto::glomerulopatias Conceito
 Tratamento da HIVAN inclui otimização da {{c1::TARV}} para supressão da carga viral.	Associado a bloqueio do sistema renina-angiotensina.	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
-🔤 Mnemônico PHD para síndrome nefrótica — P: {{c1::PLA2R}} (nefropatia membranosa).	Recurso próprio, não é mnemônico oficial.	Assunto::glomerulopatias Mnemonico
-🔤 Mnemônico PHD — H: {{c1::HIV}} (HIVAN colapsante).	—	Assunto::glomerulopatias Mnemonico
-🔤 Mnemônico PHD — D: {{c1::Diabetes}} (nefropatia diabética, se houver retinopatia).	—	Assunto::glomerulopatias Mnemonico
+🔤 Mnemônico PHD para síndrome nefrótica: P = {{c1::PLA2R}} (nefropatia membranosa); H = {{c2::HIV}} (HIVAN colapsante); D = {{c3::Diabetes}} (nefropatia diabética, se houver retinopatia).	Recurso próprio, não é mnemônico oficial.	Assunto::glomerulopatias Mnemonico

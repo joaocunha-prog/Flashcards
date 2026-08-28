@@ -22,6 +22,4 @@ Ao iniciar espironolactona, também monitorar a {{c1::função renal}}.	—	Assu
 Causa secundária mais prevalente e subdiagnosticada de hipertensão resistente: {{c1::apneia obstrutiva do sono}}.	—	Assunto::hipertensao-arterial Conceito
 Tratamento da apneia do sono que melhora o controle pressórico: {{c1::CPAP}}.	—	Assunto::hipertensao-arterial Conceito
 Mesmo sem hiperaldosteronismo primário franco, muitos hipertensos resistentes têm {{c1::aldosterona relativamente elevada}} para o volume.	Explica a boa resposta à espironolactona.	Assunto::hipertensao-arterial Conceito
-🔤 Mnemônico 3R — 1º R: {{c1::Rastrear}} adesão e técnica de medida.	Recurso próprio, não é mnemônico oficial.	Assunto::hipertensao-arterial Mnemonico
-🔤 Mnemônico 3R — 2º R: {{c1::Registrar}} a PA fora do consultório (MAPA/MRPA).	—	Assunto::hipertensao-arterial Mnemonico
-🔤 Mnemônico 3R — 3º R: {{c1::Recrutar}} espironolactona como 4ª droga preferencial.	—	Assunto::hipertensao-arterial Mnemonico
+🔤 Mnemônico 3R: 1º R = {{c1::Rastrear}} adesão e técnica de medida; 2º R = {{c2::Registrar}} a PA fora do consultório (MAPA/MRPA); 3º R = {{c3::Recrutar}} espironolactona como 4ª droga preferencial.	Recurso próprio, não é mnemônico oficial.	Assunto::hipertensao-arterial Mnemonico

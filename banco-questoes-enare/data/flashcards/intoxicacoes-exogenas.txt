@@ -13,10 +13,7 @@ Antídoto de primeira linha para etilenoglicol e metanol: {{c1::fomepizol}}.	—
 Fomepizol atua {{c1::inibindo a álcool desidrogenase}}.	Bloqueia a formação dos metabólitos tóxicos.	Assunto::intoxicacoes-exogenas Conceito
 Alternativa ao fomepizol quando indisponível: {{c1::etanol IV}}.	Compete pela mesma enzima, que tem maior afinidade pelo etanol.	Assunto::intoxicacoes-exogenas Conceito
 Fomepizol {{c1::não trata a acidose já formada}}.	Acidose grave estabelecida ainda exige bicarbonato e, com frequência, hemodiálise.	Assunto::intoxicacoes-exogenas Conceito
-Indicação de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::acidose metabólica grave refratária}}.	—	Assunto::intoxicacoes-exogenas Conceito
-Indicação de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::lesão de órgão-alvo}} (renal ou visual).	—	Assunto::intoxicacoes-exogenas Conceito
-Indicação de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::instabilidade hemodinâmica}}.	—	Assunto::intoxicacoes-exogenas Conceito
-Indicação de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::nível sérico muito elevado}} do álcool.	—	Assunto::intoxicacoes-exogenas Conceito
+Indicações de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::acidose metabólica grave refratária}}, {{c2::lesão de órgão-alvo}} (renal ou visual), {{c3::instabilidade hemodinâmica}} e {{c4::nível sérico muito elevado}} do álcool.	—	Assunto::intoxicacoes-exogenas Conceito
 Cofator usado no tratamento da intoxicação por metanol: {{c1::ácido fólico}}.	—	Assunto::intoxicacoes-exogenas Conceito
 Cofator usado no tratamento da intoxicação por etilenoglicol: {{c1::tiamina/piridoxina}}.	—	Assunto::intoxicacoes-exogenas Conceito
 EBSERH 2026 Q55: indicações de hemodiálise na intoxicação por etilenoglicol incluem {{c1::acidose refratária e lesão de órgão-alvo}}.	Além do antídoto (fomepizol), a remoção extracorpórea é obrigatória em certos cenários.	Assunto::intoxicacoes-exogenas Banca::EBSERH Ano::2026 Dificuldade::MEDIA

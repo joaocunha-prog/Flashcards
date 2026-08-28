@@ -2,15 +2,12 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Cardiologia::Insuficiência cardíaca
-NYHA classe {{c1::I}}: sem limitação a esforços habituais.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-NYHA classe {{c1::II}}: limitação leve, sintomas aos esforços habituais.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-NYHA classe {{c1::III}}: limitação importante, sintomas aos mínimos esforços.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-NYHA classe {{c1::IV}}: sintomas em repouso.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+NYHA: classe I = {{c1::sem limitação a esforços habituais}}; classe II = {{c2::limitação leve, sintomas aos esforços habituais}}; classe III = {{c3::limitação importante, sintomas aos mínimos esforços}}; classe IV = {{c4::sintomas em repouso}}.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 NYHA guia terapia e prognóstico, mas não corresponde diretamente à {{c1::fração de ejeção}}.	—	Assunto::insuficiencia-cardiaca Conceito
 A classificação NYHA é {{c1::dinâmica}} (pode mudar com tratamento ou descompensação).	Diferente do estadiamento ACC/AHA (A-D), que não regride.	Assunto::insuficiencia-cardiaca Conceito
 O estadiamento ACC/AHA (A-D) é {{c1::progressivo e não regride}}.	Não confundir com a classificação NYHA, que é dinâmica.	Assunto::insuficiencia-cardiaca Conceito
 Espironolactona tem benefício comprovado de {{c1::redução de mortalidade}} na IC com fração reduzida.	Classicamente demonstrado em pacientes NYHA III-IV.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-Um dos quatro pilares da IC com fração reduzida: {{c1::antagonista de mineralocorticoide}}.	Junto com IECA/BRA (ou ARNI), betabloqueador e inibidor de SGLT2.	Assunto::insuficiencia-cardiaca Conceito
+Os quatro pilares da IC com fração reduzida: {{c1::IECA/BRA ou ARNI}}, {{c2::betabloqueador}}, {{c3::antagonista de mineralocorticoide}} e {{c4::inibidor de SGLT2}}.	—	Assunto::insuficiencia-cardiaca Conceito
 Principal risco a monitorizar com espironolactona: {{c1::hipercalemia}}.	Especialmente associada a IECA/BRA/ARNI.	Assunto::insuficiencia-cardiaca Conceito
 Choque cardiogênico "frio-úmido" combina baixo débito com {{c1::congestão}}.	Perfil hemodinâmico orienta diretamente a terapia.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 Inotrópico de escolha no choque cardiogênico frio-úmido: {{c1::dobutamina}}.	Melhora o débito cardíaco.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA

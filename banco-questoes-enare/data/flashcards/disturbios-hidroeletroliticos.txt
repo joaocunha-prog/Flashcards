@@ -10,22 +10,13 @@ SIADH é a causa clássica de hiponatremia {{c1::euvolêmica}}.	Sem edema, sem s
 No SIADH, o sódio urinário é tipicamente {{c1::>20-40 mEq/L}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
 No SIADH, a osmolaridade urinária é {{c1::>100 mOsm/kg}}, inapropriadamente elevada.	—	Assunto::disturbios-hidroeletroliticos Conceito
 No SIADH, o ácido úrico sérico costuma estar {{c1::baixo}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
-SIADH pode ser causado por medicações como {{c1::ISRS}}.	Também carbamazepina e ciclofosfamida.	Assunto::disturbios-hidroeletroliticos Conceito
-SIADH pode ser causado por {{c1::carbamazepina}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
-SIADH pode ser causado por {{c1::ciclofosfamida}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
-SIADH também pode ser causado por doença {{c1::pulmonar ou do SNC}}.	Ex.: pneumonia, neoplasia de pequenas células.	Assunto::disturbios-hidroeletroliticos Conceito
+SIADH pode ser causado por medicações como {{c1::ISRS}}, {{c2::carbamazepina}} ou {{c3::ciclofosfamida}}, além de doença {{c4::pulmonar ou do SNC}}.	Ex.: pneumonia, neoplasia de pequenas células (doença pulmonar/SNC).	Assunto::disturbios-hidroeletroliticos Conceito
 Limite de correção da hiponatremia: no máximo {{c1::8-10 mEq/L}} nas primeiras 24h.	Mais conservador (6-8 mEq/L) se alto risco de desmielinização osmótica.	Assunto::disturbios-hidroeletroliticos Conceito
 Meta imediata na hiponatremia sintomática grave: elevar {{c1::4-6 mEq/L}} para reverter os sintomas.	Não é normalizar o sódio de uma vez; depois desacelera-se a correção.	Assunto::disturbios-hidroeletroliticos Conceito
 Corrigir a hiponatremia rápido demais tem como risco a {{c1::síndrome de desmielinização osmótica}}.	Também chamada mielinólise pontina — sequela neurológica permanente.	Assunto::disturbios-hidroeletroliticos Conceito
-Fator de risco para desmielinização osmótica: {{c1::alcoolismo}}.	Também desnutrição, hipopotassemia, hepatopatia, hiponatremia muito crônica/grave.	Assunto::disturbios-hidroeletroliticos Conceito
-Fator de risco para desmielinização osmótica: {{c1::desnutrição}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
-Fator de risco para desmielinização osmótica: {{c1::hipopotassemia}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
-Fator de risco para desmielinização osmótica: {{c1::hepatopatia}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
+Fatores de risco para desmielinização osmótica: {{c1::alcoolismo}}, {{c2::desnutrição}}, {{c3::hipopotassemia}} e {{c4::hepatopatia}}.	Hiponatremia muito crônica/grave também é fator de risco.	Assunto::disturbios-hidroeletroliticos Conceito
 Hipercalemia é definida pelo {{c1::ECG}}, não só pelo valor laboratorial.	—	Assunto::disturbios-hidroeletroliticos Conceito
-Progressão eletrocardiográfica da hipercalemia, 1º achado: {{c1::onda T apiculada}}.	<img src="disturbios-hidroeletroliticos-hipercalemia-ecg.svg" style="max-width:100%">	Assunto::disturbios-hidroeletroliticos Conceito
-2º achado na progressão eletrocardiográfica da hipercalemia: {{c1::alargamento do QRS}}.	<img src="disturbios-hidroeletroliticos-hipercalemia-ecg.svg" style="max-width:100%">	Assunto::disturbios-hidroeletroliticos Conceito
-3º achado na progressão eletrocardiográfica da hipercalemia: {{c1::perda da onda P}}.	<img src="disturbios-hidroeletroliticos-hipercalemia-ecg.svg" style="max-width:100%">	Assunto::disturbios-hidroeletroliticos Conceito
-Achado mais grave na progressão eletrocardiográfica da hipercalemia: {{c1::padrão sinusoidal}}.	Pré-fibrilação/assistolia iminente.	Assunto::disturbios-hidroeletroliticos Conceito
+Progressão eletrocardiográfica da hipercalemia: {{c1::onda T apiculada}} → {{c2::alargamento do QRS}} → {{c3::perda da onda P}} → {{c4::padrão sinusoidal}} (achado mais grave, pré-fibrilação/assistolia iminente).	<img src="disturbios-hidroeletroliticos-hipercalemia-ecg.svg" style="max-width:100%">	Assunto::disturbios-hidroeletroliticos Conceito
 Na hipercalemia com alteração de ECG, a primeira medida é {{c1::gluconato de cálcio IV}}.	—	Assunto::disturbios-hidroeletroliticos Conceito
 Gluconato de cálcio na hipercalemia {{c1::não baixa o potássio}} — só estabiliza a membrana.	Erro clássico: usá-lo esperando reduzir o potássio sérico.	Assunto::disturbios-hidroeletroliticos Conceito
 Insulina regular + glicose na hipercalemia {{c1::desloca potássio para dentro da célula}}.	Não remove potássio do corpo — monitorar glicemia (risco de hipoglicemia tardia).	Assunto::disturbios-hidroeletroliticos Conceito
@@ -35,10 +26,4 @@ As únicas medidas que removem potássio do organismo na hipercalemia: {{c1::res
 ENARE 2025 Q1: hiponatremia hipovolêmica sintomática grave (convulsão) trata-se com {{c1::salina hipertônica a 3%}}.	Pitfall: confundir com reposição isotônica de rotina da hipovolemia.	Assunto::disturbios-hidroeletroliticos Banca::ENARE Ano::2025 Dificuldade::MEDIA
 ENARE 2026 Q12: SIADH com hiponatremia grave sintomática — tratamento de emergência é {{c1::salina hipertônica}}.	O diferencial com hiponatremia hipovolêmica é a volemia normal no SIADH.	Assunto::disturbios-hidroeletroliticos Banca::ENARE Ano::2026 Dificuldade::FACIL
 ENARE 2026 Q72: alteração eletrocardiográfica de hipercalemia já é gatilho para tratar {{c1::antes do resultado laboratorial}}.	Pitfall: esperar a dosagem sérica confirmatória enquanto o ECG já mostra gravidade.	Assunto::disturbios-hidroeletroliticos Banca::ENARE Ano::2026 Dificuldade::MEDIA
-🔤 Mnemônico causas de hipercalemia — MACHINE, M: {{c1::Medicamentos}} (IECA/BRA, poupadores de K, AINE).	Mnemônico difundido na literatura para causas de hipercalemia.	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — A: {{c1::Acidose}}.	—	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — C: {{c1::Cellular destruction}} (rabdomiólise, hemólise, lise tumoral).	—	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — H: {{c1::Hipoaldosteronismo}}.	—	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — I: {{c1::Intake excessivo}}.	—	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — N: {{c1::Nephrons}} (insuficiência renal).	—	Assunto::disturbios-hidroeletroliticos Mnemonico
-🔤 MACHINE — E: {{c1::Excreção prejudicada}}.	—	Assunto::disturbios-hidroeletroliticos Mnemonico
+🔤 Mnemônico causas de hipercalemia — MACHINE: M = {{c1::Medicamentos}} (IECA/BRA, poupadores de K, AINE); A = {{c2::Acidose}}; C = {{c3::Cellular destruction}} (rabdomiólise, hemólise, lise tumoral); H = {{c4::Hipoaldosteronismo}}; I = {{c5::Intake excessivo}}; N = {{c6::Nephrons}} (insuficiência renal); E = {{c7::Excreção prejudicada}}.	Mnemônico difundido na literatura para causas de hipercalemia.	Assunto::disturbios-hidroeletroliticos Mnemonico

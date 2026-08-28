@@ -8,9 +8,7 @@ Na TVC, o infarto hemorrágico é consequência da própria {{c1::congestão ven
 Exame de escolha para confirmar TVC: {{c1::angio-RM ou angio-TC venosa}}.	—	Assunto::sindromes-vasculares Conceito
 TC de crânio simples normal {{c1::não descarta}} o diagnóstico de TVC.	—	Assunto::sindromes-vasculares Conceito
 Na TVC, os territórios de infarto {{c1::não respeitam distribuição arterial}}.	Costumam ser bilaterais e hemorrágicos.	Assunto::sindromes-vasculares Conceito
-Fator de risco protrombótico para TVC: {{c1::puerpério}}.	—	Assunto::sindromes-vasculares Conceito
-Fator de risco protrombótico para TVC: {{c1::anticoncepcional oral combinado}}.	—	Assunto::sindromes-vasculares Conceito
-Fator de risco protrombótico para TVC: {{c1::trombofilias}}.	—	Assunto::sindromes-vasculares Conceito
+Fatores de risco protrombóticos para TVC: {{c1::puerpério}}; {{c2::anticoncepcional oral combinado}}; {{c3::trombofilias}}.	—	Assunto::sindromes-vasculares Conceito
 Fator de risco para TVC ligado a infecção: {{c1::infecção otomastoidea/sinusal}}.	—	Assunto::sindromes-vasculares Conceito
 SVCR se manifesta com cefaleia {{c1::thunderclap (em trovoada)}} recorrente.	—	Assunto::sindromes-vasculares Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 Gatilho clássico de SVCR: {{c1::atividade sexual}} (ou esforço/Valsalva).	—	Assunto::sindromes-vasculares Conceito
@@ -21,5 +19,4 @@ Tratamento sintomático de base da SVCR: bloqueador de canal de cálcio {{c1::ni
 Apesar do nome "reversível", cerca de {{c1::20-25%}} dos casos de SVCR têm complicações.	AVC isquêmico, HSA de convexidade, PRES.	Assunto::sindromes-vasculares Conceito
 Fator de risco compartilhado entre TVC e SVCR: {{c1::puerpério}}.	Cefaleia thunderclap pós-parto exige pensar nas duas hipóteses.	Assunto::sindromes-vasculares Conceito
 No AVC arterial isquêmico com transformação hemorrágica extensa, a anticoagulação plena é geralmente {{c1::contraindicada/adiada}}.	Contraste direto com a conduta na TVC.	Assunto::sindromes-vasculares Conceito
-🔤 Mnemônico 2V — Veia trombosada (TVC): {{c1::anticoagula mesmo com sangue}}.	Recurso próprio, não é mnemônico oficial.	Assunto::sindromes-vasculares Mnemonico
-🔤 Mnemônico 2V — Vasoconstrição reversível (SVCR): {{c1::nimodipina + remoção do gatilho}}.	—	Assunto::sindromes-vasculares Mnemonico
+🔤 Mnemônico 2V: Veia trombosada (TVC) = {{c1::anticoagula mesmo com sangue}}; Vasoconstrição reversível (SVCR) = {{c2::nimodipina + remoção do gatilho}}.	Recurso próprio, não é mnemônico oficial.	Assunto::sindromes-vasculares Mnemonico

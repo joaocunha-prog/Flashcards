@@ -7,10 +7,8 @@ Na insuficiência hepática aguda, o edema cerebral é do tipo {{c1::citotóxico
 Hiperamonemia grave (>150-200) na insuficiência hepática aguda é preditor de risco de {{c1::edema cerebral}}.	Justifica monitorização e medidas de redução da pressão intracraniana.	Assunto::hepatopatias-nao-virais Conceito
 Na insuficiência hepática aguda, a amônia não metabolizada causa edema {{c1::de astrócitos}}.	O fígado normalmente converte amônia em ureia.	Assunto::hepatopatias-nao-virais Conceito
 Critérios de King's College definem indicação de {{c1::transplante hepático de urgência}}.	Na insuficiência hepática aguda.	Assunto::hepatopatias-nao-virais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Critério de King's College por paracetamol (isolado): {{c1::pH <7,3 ou lactato elevado}}.	—	Assunto::hepatopatias-nao-virais Conceito
-Critério alternativo de King's College por paracetamol (tríade): INR >6,5 + creatinina >3,4 + {{c1::encefalopatia grau III/IV}}.	—	Assunto::hepatopatias-nao-virais Conceito
-Critério de King's College para etiologia não-paracetamol (isolado): {{c1::INR >6,5}}.	Alternativa: 3 de 5 critérios clínicos/laboratoriais.	Assunto::hepatopatias-nao-virais Conceito
-Um dos 5 critérios de King's College não-paracetamol: intervalo icterícia-encefalopatia {{c1::>7 dias}}.	Os outros são idade, etiologia, INR >3,5 e bilirrubina >17,5.	Assunto::hepatopatias-nao-virais Conceito
+Critérios de King's College por paracetamol: isolado = {{c1::pH <7,3 ou lactato elevado}}; alternativa (tríade) = {{c2::INR >6,5}} + {{c3::creatinina >3,4}} + {{c4::encefalopatia grau III/IV}}.	—	Assunto::hepatopatias-nao-virais Conceito
+Critérios de King's College não-paracetamol: isolado = {{c1::INR >6,5}}; alternativa = 3 de 5 entre {{c2::idade}}, {{c3::etiologia}}, {{c4::intervalo icterícia-encefalopatia >7 dias}}, {{c5::INR >3,5}} e {{c6::bilirrubina >17,5}}.	—	Assunto::hepatopatias-nao-virais Conceito
 Os critérios de King's College para paracetamol e não-paracetamol {{c1::não são intercambiáveis}}.	Pitfall clássico: aplicar o critério errado para a etiologia da vinheta.	Assunto::hepatopatias-nao-virais Conceito
 DHEM (doença hepática esteatótica associada à disfunção metabólica) é diagnóstico de {{c1::exclusão}}.	Mesmo diante de síndrome metabólica evidente.	Assunto::hepatopatias-nao-virais Banca::ENARE Ano::2025 Dificuldade::FACIL
 Antes de firmar diagnóstico de DHEM, deve-se excluir consumo relevante de {{c1::álcool}}.	Também hepatites virais e hepatopatias autoimunes.	Assunto::hepatopatias-nao-virais Conceito

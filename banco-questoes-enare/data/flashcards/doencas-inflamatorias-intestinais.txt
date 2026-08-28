@@ -4,8 +4,7 @@
 #deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Doenças inflamatórias intestinais
 A doença de Crohn acomete o tubo digestivo de forma {{c1::transmural}} (todas as camadas da parede).	Essa transmuralidade explica diretamente suas complicações características.	Assunto::doencas-inflamatorias-intestinais Conceito
 A doença de Crohn tem padrão {{c1::salteado}} (segmentos doentes intercalados com mucosa normal).	Pode acometer qualquer ponto do tubo digestivo, da boca ao ânus.	Assunto::doencas-inflamatorias-intestinais Conceito
-Complicação mais prevalente da doença de Crohn: {{c1::estenose/suboclusão}}.	Decorre de fibrose cicatricial da inflamação transmural crônica.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-Outra complicação prevalente da doença de Crohn: {{c1::fístulas/abscessos}}.	Decorrem da penetração transmural ativa da inflamação.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Complicações mais prevalentes da doença de Crohn: {{c1::estenose/suboclusão}} (fibrose cicatricial da inflamação transmural crônica); {{c2::fístulas/abscessos}} (penetração transmural ativa).	As duas podem coexistir na mesma doença — mecanismos diferentes, mesma transmuralidade de base.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 Estenose e fístula podem {{c1::coexistir}} na mesma doença de Crohn.	Não são mutuamente excludentes — mecanismos fisiopatológicos distintos, mesma doença.	Assunto::doencas-inflamatorias-intestinais Conceito
 Fístulas perianais são praticamente marca registrada da {{c1::doença de Crohn}}.	Raras na colite ulcerativa, pelo caráter exclusivamente transmural do Crohn.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 O padrão radiológico "em corda" ({{c1::string sign}}) reflete estenose luminal por edema/fibrose.	—	Assunto::doencas-inflamatorias-intestinais Conceito

@@ -2,9 +2,7 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Cardiologia::Arritmias
-No WPW, o intervalo PR é {{c1::curto (<120 ms)}}.	Achado 1 de 3 do padrão eletrocardiográfico clássico.<br><img src="arritmias-wpw-ecg.svg">	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-No WPW, o QRS mostra {{c1::onda delta}} (empastamento inicial).	Achado 2 de 3 — sinal da pré-excitação ventricular.	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-No WPW, o QRS está {{c1::alargado}}.	Achado 3 de 3 do trio clássico (PR curto + onda delta + QRS largo). Vinheta EBSERH 2025 Q45.	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+No WPW, o padrão eletrocardiográfico clássico mostra: PR = {{c1::curto (<120 ms)}}; QRS com {{c2::onda delta}} (empastamento inicial); QRS {{c3::alargado}}.	Tríade clássica do padrão de pré-excitação ventricular. Vinheta EBSERH 2025 Q45.<br><img src="arritmias-wpw-ecg.svg">	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 No WPW, a via acessória responsável chama-se feixe de {{c1::Kent}}.	Liga átrio a ventrículo contornando o nó AV.	Assunto::arritmias Conceito
 A onda delta do WPW pode ser {{c1::intermitente}}.	Não exclui WPW se a história clínica for sugestiva.	Assunto::arritmias Conceito
 No WPW, o principal risco arrítmico é {{c1::fibrilação atrial pré-excitada}}.	Conduzida diretamente pela via acessória, resposta ventricular muito rápida.	Assunto::arritmias Conceito

@@ -4,10 +4,7 @@
 #deck:ENARE-EBSERH::80-20::Endocrinologia::Doenças da tireoide
 Tempestade tireotóxica é hipertireoidismo grave associado a {{c1::disfunção sistêmica}} (febre, taquiarritmia, alteração de consciência).	Emergência endócrina.	Assunto::doencas-da-tireoide Conceito
 O diagnóstico da tempestade tireotóxica é apoiado pelo escore de {{c1::Burch-Wartofsky}}.	O escore não deve atrasar o início do tratamento.	Assunto::doencas-da-tireoide Conceito
-Na tempestade tireotóxica, o 1º fármaco da sequência de tratamento é {{c1::betabloqueador (propranolol)}}.	Também reduz a conversão periférica de T4 em T3.	Assunto::doencas-da-tireoide Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Na tempestade tireotóxica, o 2º fármaco da sequência é a tionamida {{c1::propiltiouracila (PTU)}}.	PTU é preferido a metimazol na fase aguda.	Assunto::doencas-da-tireoide Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Na tempestade tireotóxica, o iodo (Lugol) deve ser dado pelo menos {{c1::1 hora}} após a tionamida.	Dar iodo antes pode piorar o quadro (efeito Wolff-Chaikoff seguido de escape).	Assunto::doencas-da-tireoide Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Na tempestade tireotóxica, o último fármaco da sequência é {{c1::corticoide (hidrocortisona)}}.	Fecha a sequência: betabloqueador → tionamida → iodo → corticoide.	Assunto::doencas-da-tireoide Conceito
+Sequência de tratamento da tempestade tireotóxica: 1º {{c1::betabloqueador (propranolol)}}; 2º {{c2::tionamida (propiltiouracila/PTU)}}; 3º {{c3::iodo (Lugol), pelo menos 1 hora após a tionamida}}; 4º {{c4::corticoide (hidrocortisona)}}.	Ordem importa: iodo sempre depois da tionamida, nunca antes (evita piora por efeito Wolff-Chaikoff seguido de escape).	Assunto::doencas-da-tireoide Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 PTU também inibe a {{c1::conversão periférica de T4 em T3}}.	Efeito que o metimazol não tem — por isso PTU é preferido na fase aguda.	Assunto::doencas-da-tireoide Conceito
 Tireoidite subaguda de De Quervain cursa com dor cervical anterior, geralmente {{c1::pós-viral}}.	Processo inflamatório que rompe folículos tireoidianos.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2025 Dificuldade::FACIL
 Na tireoidite de De Quervain, a fase tireotóxica é seguida de {{c1::hipotireoidismo transitório}} e depois eutireoidismo.	Padrão trifásico clássico.	Assunto::doencas-da-tireoide Conceito

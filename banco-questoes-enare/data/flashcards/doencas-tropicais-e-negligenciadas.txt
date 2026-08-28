@@ -3,7 +3,7 @@
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Infectologia::Doenças tropicais e negligenciadas
 Síndrome de Löffler é causada pela passagem de larvas de helmintos pelos {{c1::pulmões}}.	Ascaris lumbricoides, Strongyloides stercoralis, Ancylostoma/Necator.	Assunto::doencas-tropicais-e-negligenciadas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-Achados clássicos da síndrome de Löffler: tosse seca, dispneia e {{c1::infiltrado pulmonar migratório}}.	Com eosinofilia associada.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Achados clássicos da síndrome de Löffler: {{c1::tosse seca}}, {{c2::dispneia}} e {{c3::infiltrado pulmonar migratório}}.	Com eosinofilia associada.	Assunto::doencas-tropicais-e-negligenciadas Conceito
 A eosinofilia na síndrome de Löffler é maior na fase {{c1::de migração larvária pulmonar}} do que na intestinal.	—	Assunto::doencas-tropicais-e-negligenciadas Conceito
 A síndrome de Löffler é um quadro {{c1::autolimitado}}.	Não deve ser tratada como pneumonia bacteriana.	Assunto::doencas-tropicais-e-negligenciadas Conceito
 Estrongiloidíase disseminada (síndrome de hiperinfecção) ocorre tipicamente em pacientes {{c1::imunossuprimidos}}.	Sobretudo em uso de corticoide, mesmo dose baixa ou curta.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2025 Dificuldade::FACIL

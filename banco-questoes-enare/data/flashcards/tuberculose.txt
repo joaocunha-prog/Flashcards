@@ -5,10 +5,7 @@
 Esquema básico RIPE dura {{c1::6 meses}} no total para TB sensível.	—	Assunto::tuberculose Conceito
 Fase intensiva do RIPE (2 meses) inclui rifampicina + isoniazida + pirazinamida + {{c1::etambutol}}.	—	Assunto::tuberculose Conceito
 Fase de manutenção do RIPE (4 meses) usa {{c1::rifampicina + isoniazida}}.	—	Assunto::tuberculose Conceito
-🔤 RIPE — R: {{c1::Rifampicina}}.	—	Assunto::tuberculose Mnemonico
-🔤 RIPE — I: {{c1::Isoniazida}}.	—	Assunto::tuberculose Mnemonico
-🔤 RIPE — P: {{c1::Pirazinamida}}.	—	Assunto::tuberculose Mnemonico
-🔤 RIPE — E: {{c1::Etambutol}}.	—	Assunto::tuberculose Mnemonico
+🔤 RIPE: R = {{c1::Rifampicina}}; I = {{c2::Isoniazida}}; P = {{c3::Pirazinamida}}; E = {{c4::Etambutol}}.	—	Assunto::tuberculose Mnemonico
 Reação paradoxal no tratamento da TB pode ocorrer mesmo {{c1::sem HIV}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
 Reação paradoxal reflete reconstituição da resposta imune, {{c1::não falha terapêutica}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
 Uso de {{c1::anti-TNF}} é fator de risco para reação paradoxal no tratamento da TB.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
@@ -16,9 +13,7 @@ Anti-TNF também é fator de risco para {{c1::reativação de TB latente}}.	—	
 Conduta diante de reação paradoxal: manter o esquema {{c1::RIPE inalterado}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
 Em reação paradoxal significativa, considerar o uso de {{c1::corticoide}}.	—	Assunto::tuberculose Conceito
 TNF-alfa é citocina essencial para formação e manutenção do {{c1::granuloma}}.	—	Assunto::tuberculose Conceito
-Fármaco do RIPE associado a hepatotoxicidade: {{c1::isoniazida}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
-Fármaco do RIPE associado a hepatotoxicidade: {{c1::rifampicina}}.	—	Assunto::tuberculose Conceito
-Fármaco do RIPE associado a hepatotoxicidade: {{c1::pirazinamida}}.	—	Assunto::tuberculose Conceito
+Fármacos do RIPE associados a hepatotoxicidade: {{c1::isoniazida}}, {{c2::rifampicina}}, {{c3::pirazinamida}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
 Entre os fármacos do RIPE, o mais hepatotóxico costuma ser a {{c1::pirazinamida}}.	—	Assunto::tuberculose Conceito
 Elevação de transaminases até {{c1::3-5x}} o limite superior, assintomática, não exige suspensão do esquema.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
 Suspensão do esquema é indicada diante de sintomas como {{c1::icterícia}}.	Ou náusea persistente/dor em hipocôndrio direito.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL

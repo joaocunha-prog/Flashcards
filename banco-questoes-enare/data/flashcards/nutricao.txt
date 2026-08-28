@@ -13,11 +13,7 @@ Fisiopatologia da síndrome de realimentação: reintrodução de carboidratos d
 A insulina na síndrome de realimentação promove influxo celular maciço de {{c1::fósforo, potássio e magnésio}}.	Depleta esses eletrólitos no plasma.	Assunto::nutricao Conceito
 Prevenção da síndrome de realimentação: iniciar dieta com {{c1::volume/calorias reduzidos}}.	—	Assunto::nutricao Conceito
 Prevenção da síndrome de realimentação: repor eletrólitos {{c1::antes e durante}} a realimentação, não depois.	Pitfall clássico: iniciar nutrição parenteral plena sem reposição eletrolítica prévia.	Assunto::nutricao Conceito
-Pós-bypass gástrico em Y de Roux exige suplementação vitalícia de {{c1::vitamina B12}}.	—	Assunto::nutricao Conceito
-Suplementação vitalícia pós-bypass em Y de Roux também inclui {{c1::ferro}}.	—	Assunto::nutricao Conceito
-Suplementação vitalícia pós-bypass em Y de Roux também inclui {{c1::cálcio}}.	—	Assunto::nutricao Conceito
-Suplementação vitalícia pós-bypass em Y de Roux também inclui {{c1::vitamina D}}.	—	Assunto::nutricao Conceito
-Suplementação vitalícia pós-bypass em Y de Roux também inclui {{c1::folato}}.	—	Assunto::nutricao Conceito
+🔤 Mnemônico B-Fe-Ca-D-Fo — suplementação vitalícia pós-bypass em Y de Roux: {{c1::vitamina B12}}, {{c2::ferro}}, {{c3::cálcio}}, {{c4::vitamina D}} e {{c5::folato}}.	Os cinco pilares do acompanhamento nutricional a longo prazo.	Assunto::nutricao Mnemonico
 Cálcio e vitamina D são absorvidos principalmente no {{c1::duodeno/jejuno proximal}}.	Segmento excluído no bypass gástrico em Y de Roux.	Assunto::nutricao Conceito
 B12 depende do {{c1::fator intrínseco}} produzido no estômago para ser absorvida no íleo terminal.	—	Assunto::nutricao Conceito
 Deficiência de B12 pós-bypass leva {{c1::meses a anos}} para se manifestar clinicamente.	Grandes reservas hepáticas — suplementação começa antes dos sintomas aparecerem.	Assunto::nutricao Conceito
@@ -26,4 +22,3 @@ Na diverticulite complicada com jejum prolongado previsto, a via nutricional pre
 ENARE 2026 Q17: em íleo pós-operatório com desnutrição grave, não postergar a {{c1::terapia nutricional}} além do razoável.	Prioriza via enteral quando o trânsito permite.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::MEDIA
 ENARE 2026 Q19: seguimento pós-bypass em Y de Roux exige suplementar {{c1::B12, ferro, cálcio, vitamina D e folato}}.	Os cinco pilares do acompanhamento nutricional a longo prazo.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::FACIL
 ENARE 2026 Q54: terapia nutricional em diverticulite complicada exige escolher {{c1::via e momento certos}} do suporte nutricional.	Integra gravidade da complicação abdominal com decisão nutricional.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::DIFICIL
-🔤 Mnemônico pós-bypass: {{c1::B-Fe-Ca-D-Fo}} — B12, Ferro, Cálcio, vitamina D, Folato.	Os cinco pilares da suplementação vitalícia pós-bypass em Y de Roux.	Assunto::nutricao Mnemonico

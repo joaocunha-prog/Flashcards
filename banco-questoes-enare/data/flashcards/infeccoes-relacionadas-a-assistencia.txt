@@ -3,7 +3,7 @@
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Infectologia::Infecções relacionadas à assistência
 Medida isolada mais eficaz de prevenção de infecção relacionada à assistência: {{c1::higiene das mãos}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-A OMS estrutura a higiene das mãos em {{c1::5 momentos}}.	Antes de tocar o paciente, antes de procedimento asséptico, após risco de exposição a fluido, após tocar o paciente, após tocar superfícies próximas.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Os 5 momentos da higiene das mãos (OMS): {{c1::antes de tocar o paciente}}; {{c2::antes de procedimento asséptico}}; {{c3::após risco de exposição a fluido corporal}}; {{c4::após tocar o paciente}}; {{c5::após tocar superfícies próximas ao paciente}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
 Preferência geral para higienização das mãos: {{c1::álcool gel}}.	Exceto sujidade visível ou suspeita de C. difficile.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
 Diante de suspeita de C. difficile, a higiene das mãos deve ser feita com {{c1::água e sabão}}.	Álcool gel não elimina esporos.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
 Diagnóstico ideal de colite por C. difficile combina NAAT/PCR com detecção de {{c1::toxina (EIA) ou antígeno GDH}}.	NAAT isolado pode detectar apenas colonização.	Assunto::infeccoes-relacionadas-a-assistencia Banca::EBSERH Ano::2026 Dificuldade::MEDIA

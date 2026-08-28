@@ -2,12 +2,8 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Pneumologia::Derrame pleural
-No derrame pleural, a percussão é {{c1::maciça}}.	Um dos três achados da tríade semiológica clássica (com frêmito e murmúrio abolidos).	Assunto::derrame-pleural Banca::ENARE Ano::2025 Dificuldade::MEDIA
-No derrame pleural, o murmúrio vesicular está {{c1::diminuído ou abolido}}.	—	Assunto::derrame-pleural Banca::ENARE Ano::2025 Dificuldade::MEDIA
-No derrame pleural, o frêmito toracovocal está {{c1::reduzido ou abolido}}.	O líquido pleural absorve a vibração em vez de transmiti-la.	Assunto::derrame-pleural Banca::ENARE Ano::2026 Dificuldade::FACIL
-Na consolidação pneumônica, o frêmito toracovocal está {{c1::aumentado}} — oposto do derrame.	Ponto clássico de distrator em prova.	Assunto::derrame-pleural Conceito
-Consolidação pneumônica tem {{c1::broncofonia/pectorilóquia}} na ausculta, diferente do derrame.	O parênquima consolidado, denso e preenchido por exsudato, transmite melhor o som.	Assunto::derrame-pleural Conceito
-Consolidação pneumônica também tem {{c1::estertores}} na ausculta.	O derrame pleural não costuma apresentar esse achado.	Assunto::derrame-pleural Conceito
+Tríade semiológica clássica do derrame pleural: percussão {{c1::maciça}}; frêmito toracovocal {{c2::reduzido/abolido}}; murmúrio vesicular {{c3::diminuído/abolido}}.	O líquido pleural absorve a vibração torácica em vez de transmiti-la; achado cobrado em ENARE 2025 Q19 e ENARE 2026 Q27.	Assunto::derrame-pleural Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Achados semiológicos da consolidação pneumônica (padrão oposto ao derrame): frêmito toracovocal {{c1::aumentado}}; ausculta com {{c2::broncofonia/pectorilóquia}}; presença de {{c3::estertores}}.	O parênquima consolidado, denso e preenchido por exsudato, transmite melhor o som — contraste clássico cobrado como distrator em prova.	Assunto::derrame-pleural Conceito
 Diferente do derrame (maciço), o pneumotórax é {{c1::hipertimpânico}} à percussão.	Confundir os dois é erro comum ao decidir a próxima conduta.	Assunto::derrame-pleural Conceito
 A egofonia ocorre no {{c1::limite superior}} do derrame pleural.	Zona de transição entre o líquido e o pulmão comprimido (atelectasia compressiva).	Assunto::derrame-pleural Conceito
 A egofonia surge porque o pulmão comprimido transmite melhor sons de {{c1::alta frequência}}.	Fenômeno fisiopatologicamente distinto da broncofonia da consolidação.	Assunto::derrame-pleural Conceito

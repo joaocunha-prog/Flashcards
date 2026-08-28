@@ -2,11 +2,7 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Nefrologia::Injúria renal aguda
-Mnemônico AEIOU — A: {{c1::Acidose refratária}}.	Indicação de diálise de urgência na IRA.	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Mnemônico AEIOU — E: {{c1::Eletrólitos (hipercalemia refratária/grave)}}.	—	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Mnemônico AEIOU — I: {{c1::Intoxicação exógena por substância dialisável}}.	—	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Mnemônico AEIOU — O: {{c1::Overload de volume refratário a diurético}}.	—	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Mnemônico AEIOU — U: {{c1::Uremia sintomática}} (encefalopatia, pericardite, sangramento).	—	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Mnemônico AEIOU — indicações de diálise de urgência: A = {{c1::Acidose refratária}}; E = {{c2::Eletrólitos (hipercalemia refratária/grave)}}; I = {{c3::Intoxicação exógena por substância dialisável}}; O = {{c4::Overload de volume refratário a diurético}}; U = {{c5::Uremia sintomática (encefalopatia, pericardite, sangramento)}}.	Uma indicação absoluta isolada já basta para indicar TRS.	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 Uma única indicação absoluta de diálise de urgência {{c1::já basta}} para indicar TRS.	Não é necessário somar critérios.	Assunto::injuria-renal-aguda Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 Hipercalemia grave com alteração de {{c1::ECG}}, refratária a tratamento clínico, indica diálise de urgência.	Independe do valor absoluto de creatinina.	Assunto::injuria-renal-aguda Conceito
 Indicações de diálise de urgência independem do {{c1::estágio KDIGO}} quando há complicação refratária.	—	Assunto::injuria-renal-aguda Conceito

@@ -14,14 +14,9 @@ Na exacerbação da DPOC, a VNI é 1ª escolha diante de {{c1::acidose respirat�
 A VNI reduz necessidade de {{c1::intubação}}, tempo de internação e mortalidade na exacerbação da DPOC.	—	Assunto::dpoc Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 A VNI melhora a ventilação alveolar ao contrapor o {{c1::auto-PEEP}} gerado pelo aprisionamento aéreo.	Atua também com pressão de suporte inspiratória, reduzindo o trabalho muscular.	Assunto::dpoc Conceito
 Hipercapnia leve/moderada com rebaixamento leve, revertido rapidamente pela VNI, {{c1::não contraindica}} a VNI.	Contraindicar VNI só por isso é pitfall que priva o paciente do tratamento de escolha.	Assunto::dpoc Conceito
-Contraindicação real à VNI: {{c1::incapacidade de proteger via aérea}} (coma verdadeiro).	—	Assunto::dpoc Conceito
-Contraindicação à VNI: {{c1::instabilidade hemodinâmica}}.	—	Assunto::dpoc Conceito
-Contraindicação à VNI: {{c1::vômitos incoercíveis}}.	—	Assunto::dpoc Conceito
-Contraindicação à VNI: {{c1::trauma/cirurgia facial recente}}.	—	Assunto::dpoc Conceito
-Tríade terapêutica da exacerbação da DPOC — item 1: {{c1::broncodilatador de curta ação}} (beta-2 + anticolinérgico).	—	Assunto::dpoc Conceito
-Tríade terapêutica da exacerbação da DPOC — item 2: {{c1::corticoide sistêmico}}.	—	Assunto::dpoc Conceito
-Tríade terapêutica da exacerbação da DPOC — item 3: {{c1::antibiótico}}, se critérios de Anthonisen presentes.	Prescrever para toda exacerbação, sem critérios, é uso indiscriminado.	Assunto::dpoc Conceito
+Contraindicações reais à VNI (4): {{c1::incapacidade de proteger via aérea}} (coma verdadeiro); {{c2::instabilidade hemodinâmica}}; {{c3::vômitos incoercíveis}}; {{c4::trauma/cirurgia facial recente}}.	Hipercapnia leve/moderada com rebaixamento leve, revertido rapidamente pela VNI, não entra nessa lista — não contraindica o uso.	Assunto::dpoc Conceito
+Tríade terapêutica da exacerbação da DPOC: {{c1::broncodilatador de curta ação}} (beta-2 + anticolinérgico); {{c2::corticoide sistêmico}}; {{c3::antibiótico}}, se critérios de Anthonisen presentes.	Prescrever antibiótico para toda exacerbação, sem critérios, é uso indiscriminado.	Assunto::dpoc Conceito
 Corticoide sistêmico na exacerbação da DPOC: curso curto de cerca de {{c1::5 dias}}.	Cursos prolongados não trazem benefício adicional e aumentam efeitos adversos.	Assunto::dpoc Conceito
-Antibiótico na exacerbação só com critérios de {{c1::Anthonisen}} presentes.	Aumento de dispneia, volume e purulência do escarro.	Assunto::dpoc Conceito
+Critérios de {{c1::Anthonisen}} para exacerbação da DPOC (indicação de antibiótico): {{c2::piora da dispneia}}; {{c3::aumento do volume do escarro}}; {{c4::purulência do escarro}}.	Classicamente, ≥2 dos 3 critérios (idealmente incluindo a purulência) indicam benefício de antibioticoterapia.	Assunto::dpoc Conceito
 Ausência de melhora clínica/gasométrica após {{c1::1-2 horas}} de VNI bem ajustada: sinal de alarme para intubação.	Não se deve insistir indefinidamente na VNI diante de piora.	Assunto::dpoc Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 🔤 Mnemônico da tríade terapêutica da exacerbação da DPOC: {{c1::BCA}}.	Broncodilatador + Corticoide + Antibiótico (se Anthonisen). Recurso próprio, não é mnemônico oficial.	Assunto::dpoc Mnemonico

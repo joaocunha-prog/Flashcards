@@ -3,10 +3,7 @@
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Hematologia::Anemias
 Anemia ferropriva é {{c1::microcítica e hipocrômica}}.	VCM e HCM baixos.	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
-Na anemia ferropriva, o RDW está {{c1::elevado}}.	Ajuda a diferenciar de talassemia, onde o RDW é tipicamente normal.	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
-O marcador mais específico de ferropenia é {{c1::ferritina baixa}}.	—	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
-Na ferropenia, a TIBC (capacidade de ligação do ferro) está {{c1::elevada}}.	Foi a vinheta ENARE 2026 Q15 (perfil laboratorial da ferropriva).	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
-Na ferropenia, a saturação de transferrina está {{c1::baixa}}.	—	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+Anemia ferropriva, perfil laboratorial: RDW = {{c1::elevado}}; ferritina = {{c2::baixa}} (marcador mais específico); TIBC (capacidade de ligação do ferro) = {{c3::elevada}}; saturação de transferrina = {{c4::baixa}}.	RDW elevado ajuda a diferenciar de talassemia (RDW tipicamente normal). Foi a vinheta ENARE 2026 Q15 (perfil laboratorial da ferropriva).	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
 Ferritina é reagente de {{c1::fase aguda}}.	Em contexto inflamatório, ferritina "normal" não exclui ferropenia.	Assunto::anemias Conceito
 A causa mais comum de ferropenia em adultos é {{c1::perda sanguínea crônica}}.	Investigar trato gastrointestinal em homens e em mulheres pós-menopausa.	Assunto::anemias Conceito
 Deficiência de B12 causa anemia macrocítica com neutrófilos {{c1::hipersegmentados}}.	Achado clássico do esfregaço na deficiência de B12/folato.	Assunto::anemias Conceito

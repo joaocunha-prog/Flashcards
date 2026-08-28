@@ -3,9 +3,7 @@
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Cardiologia::Doenças do pericárdio e miocárdio
 Suspeitar de sarcoidose cardíaca em paciente jovem com {{c1::BAV inexplicado}}.	Bandeira vermelha clássica antes de rotular como idiopático.	Assunto::doencas-do-pericardio-e-miocardio Conceito
-Indicação de CDI na sarcoidose cardíaca de alto risco: {{c1::FEVE reduzida significativamente}}.	Uma de 3 indicações principais na doença.	Assunto::doencas-do-pericardio-e-miocardio Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Indicação de CDI na sarcoidose cardíaca: {{c1::TV sustentada ou parada cardíaca prévia}}.	—	Assunto::doencas-do-pericardio-e-miocardio Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Indicação de CDI na sarcoidose cardíaca: {{c1::marca-passo definitivo indicado}} em paciente jovem.	—	Assunto::doencas-do-pericardio-e-miocardio Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Indicações de CDI na sarcoidose cardíaca de alto risco (3 critérios): {{c1::FEVE reduzida significativamente}}; {{c2::TV sustentada ou parada cardíaca prévia}}; {{c3::indicação de marca-passo definitivo}} em paciente jovem.	A indicação decorre do substrato de risco arrítmico, não da intensidade da inflamação ativa.	Assunto::doencas-do-pericardio-e-miocardio Banca::EBSERH Ano::2026 Dificuldade::MEDIA
 Na sarcoidose cardíaca, o CDI é indicado pelo {{c1::substrato de risco arrítmico}}, não pela intensidade da inflamação.	Tratar só com imunossupressão e ignorar o risco arrítmico é pitfall.	Assunto::doencas-do-pericardio-e-miocardio Conceito
 Mesmo após controlar a inflamação, o risco de morte súbita persiste pela {{c1::fibrose residual}}.	Granulomas substituídos por cicatriz mantêm zonas de condução lenta e reentrada.	Assunto::doencas-do-pericardio-e-miocardio Conceito
 {{c1::PET-CT com FDG}} identifica inflamação ativa na sarcoidose cardíaca.	Orienta a decisão entre imunossupressão e dispositivo.	Assunto::doencas-do-pericardio-e-miocardio Conceito

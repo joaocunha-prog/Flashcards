@@ -3,17 +3,9 @@
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Pneumologia::Pneumonias
 CURB-65 é usado para avaliar {{c1::gravidade/indicação de internação}} em PAC.	—	Assunto::pneumonias Conceito
-CURB-65 — C: {{c1::confusão mental}}.	1 ponto por item, 0-5 no total.	Assunto::pneumonias Conceito
-CURB-65 — U: {{c1::ureia elevada (>50 mg/dL)}}.	Reflete gravidade sistêmica, não doença renal primária — item mais esquecido.	Assunto::pneumonias Conceito
-CURB-65 — R: {{c1::frequência respiratória ≥30/min}}.	—	Assunto::pneumonias Conceito
-CURB-65 — B: {{c1::PA sistólica <90 ou diastólica ≤60 mmHg}}.	—	Assunto::pneumonias Conceito
-CURB-65 — 65: {{c1::idade ≥65 anos}}.	—	Assunto::pneumonias Conceito
-CURB-65 ≥2 pontos já indica {{c1::internação}}.	—	Assunto::pneumonias Conceito
-CURB-65 ≥3 pontos sugere considerar {{c1::UTI}}.	—	Assunto::pneumonias Conceito
-Investigação inicial de pneumonia grave inclui {{c1::hemoculturas}} (2 pares, antes do antibiótico se possível).	—	Assunto::pneumonias Conceito
-Investigação inicial de pneumonia grave inclui {{c1::cultura de escarro}}.	—	Assunto::pneumonias Conceito
-Investigação inicial de pneumonia grave inclui {{c1::antígeno urinário}} para pneumococo e Legionella.	—	Assunto::pneumonias Conceito
-Investigação inicial de pneumonia grave inclui {{c1::gasometria arterial}}.	—	Assunto::pneumonias Conceito
+CURB-65: C = {{c1::confusão mental}}; U = {{c2::ureia elevada (>50 mg/dL)}}; R = {{c3::frequência respiratória ≥30/min}}; B = {{c4::PA sistólica <90 ou diastólica ≤60 mmHg}}; 65 = {{c5::idade ≥65 anos}}.	1 ponto por item, 0-5 no total. Item U (ureia) reflete gravidade sistêmica, não doença renal primária — o mais esquecido.	Assunto::pneumonias Conceito
+No CURB-65, ≥2 pontos já indica {{c1::internação}}; ≥3 pontos sugere considerar {{c2::UTI}}.	—	Assunto::pneumonias Conceito
+Investigação inicial de pneumonia grave inclui {{c1::hemoculturas}} (2 pares, antes do antibiótico se possível), {{c2::cultura de escarro}}, {{c3::antígeno urinário}} (pneumococo e Legionella) e {{c4::gasometria arterial}}.	—	Assunto::pneumonias Conceito
 Diante de pneumonia grave/sepse, o antibiótico empírico deve ser iniciado dentro da {{c1::primeira hora}}.	—	Assunto::pneumonias Conceito
 O início do antibiótico empírico em pneumonia grave {{c1::não espera}} resultado de cultura.	Pitfall: aguardar cultura para iniciar antibiótico — atraso aumenta mortalidade.	Assunto::pneumonias Conceito
 Cultura de escarro tem sensibilidade {{c1::baixa (~50% ou menos)}} para Streptococcus pneumoniae.	Limitada por contaminação de via aérea superior e uso prévio de antibiótico.	Assunto::pneumonias Conceito

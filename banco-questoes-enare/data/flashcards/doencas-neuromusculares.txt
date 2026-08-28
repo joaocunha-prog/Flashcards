@@ -5,8 +5,7 @@
 Síndrome de Guillain-Barré: fraqueza {{c1::ascendente e simétrica}} com arreflexia.	Polirradiculoneuropatia aguda.	Assunto::doencas-neuromusculares Conceito
 O gatilho infeccioso clássico da síndrome de Guillain-Barré é {{c1::Campylobacter jejuni}}.	Vírus respiratórios/gastrointestinais também são gatilhos comuns.	Assunto::doencas-neuromusculares Conceito
 Na SGB, deve-se monitorar seriadamente a {{c1::capacidade vital forçada}}.	Pelo risco de insuficiência respiratória.	Assunto::doencas-neuromusculares Conceito
-No padrão eletroneuromiográfico da SGB desmielinizante (AIDP), a velocidade de condução está {{c1::reduzida}}.	Também há latências distais prolongadas e bloqueio de condução.	Assunto::doencas-neuromusculares Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-No padrão eletroneuromiográfico da AIDP, as ondas F estão {{c1::ausentes ou prolongadas}}.	Achado desmielinizante proximal característico.	Assunto::doencas-neuromusculares Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+No padrão eletroneuromiográfico da SGB desmielinizante (AIDP): velocidade de condução {{c1::reduzida}}; latências distais {{c2::prolongadas}}; ondas F {{c3::ausentes ou prolongadas}}; e bloqueio de condução presente.	Ondas F refletem achado desmielinizante proximal; velocidade e latências refletem achado distal.	Assunto::doencas-neuromusculares Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 Nas formas axonais de SGB (AMAN/AMSAN), a amplitude do potencial de ação está {{c1::reduzida}}.	Velocidade de condução preservada — padrão oposto ao da forma desmielinizante.	Assunto::doencas-neuromusculares Banca::EBSERH Ano::2025 Dificuldade::MEDIA
 No líquor da SGB, o achado clássico é dissociação {{c1::albumino-citológica}} (proteína alta, celularidade normal).	Pode estar ausente na primeira semana de doença.	Assunto::doencas-neuromusculares Conceito
 O tratamento da SGB é {{c1::imunoglobulina IV ou plasmaférese}}.	Eficácia equivalente entre as duas opções.	Assunto::doencas-neuromusculares Conceito
@@ -24,8 +23,6 @@ A miastenia gravis está associada a timoma em até {{c1::10-15%}} dos casos.	TC
 A timectomia é indicada sempre que há {{c1::timoma confirmado}}, independente do controle clínico da MG.	Decisão oncológica, não apenas neurológica.	Assunto::doencas-neuromusculares Banca::ENARE Ano::2026 Dificuldade::MEDIA
 A timectomia também é considerada em MG generalizada sem timoma, em pacientes {{c1::jovens}}.	Doença moderada a grave — indicação baseada no estudo MGTX.	Assunto::doencas-neuromusculares Conceito
 Tratamento sintomático de primeira linha da miastenia gravis: {{c1::piridostigmina}}.	Anticolinesterásico.	Assunto::doencas-neuromusculares Conceito
-Na afasia de {{c1::Broca}}, a fala é não fluente e a compreensão é relativamente preservada.	Lesão frontal posterior/inferior; repetição também prejudicada.	Assunto::doencas-neuromusculares Banca::ENARE Ano::2026 Dificuldade::MEDIA
-Na afasia de {{c1::Wernicke}}, a fala é fluente mas incompreensível, com compreensão prejudicada.	Lesão temporal posterior.	Assunto::doencas-neuromusculares Banca::ENARE Ano::2026 Dificuldade::MEDIA
-A afasia de Broca decorre de lesão {{c1::frontal posterior/inferior}}.	Área de Broca, no giro frontal inferior.	Assunto::doencas-neuromusculares Conceito
-A afasia de Wernicke decorre de lesão {{c1::temporal posterior}}.	Área de Wernicke.	Assunto::doencas-neuromusculares Conceito
+Na afasia de {{c1::Broca}}, a fala é não fluente e a compreensão é relativamente preservada; na afasia de {{c2::Wernicke}}, a fala é fluente mas incompreensível, com compreensão prejudicada.	Na de Broca a repetição também está prejudicada.	Assunto::doencas-neuromusculares Banca::ENARE Ano::2026 Dificuldade::MEDIA
+A afasia de Broca decorre de lesão {{c1::frontal posterior/inferior}} (área de Broca); a afasia de Wernicke decorre de lesão {{c2::temporal posterior}} (área de Wernicke).	Localizações diferentes explicam o padrão clínico oposto de fluência entre as duas.	Assunto::doencas-neuromusculares Conceito
 🔤 Mnemônico: "{{c1::Broca fala pouco, Wernicke fala sem sentido}}".	Recurso próprio para não inverter as duas afasias — pitfall clássico de decoreba.	Assunto::doencas-neuromusculares Mnemonico

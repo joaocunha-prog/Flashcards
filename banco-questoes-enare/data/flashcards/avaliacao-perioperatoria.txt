@@ -16,17 +16,9 @@ Depois da urgência cirúrgica, o algoritmo avalia presença de {{c1::doença ca
 Capacidade funcional ≥ {{c1::4 METs}} dispensa investigação cardíaca adicional na maioria dos casos.	Vale mesmo em paciente com fatores de risco presentes.	Assunto::avaliacao-perioperatoria Banca::ENARE Ano::2026 Dificuldade::MEDIA
 Capacidade funcional de 4 METs corresponde a {{c1::subir 2 lances de escada}} sem sintomas.	—	Assunto::avaliacao-perioperatoria Conceito
 Incapacidade de subir 1 lance de escada indica capacidade funcional {{c1::baixa}} (menor que 4 METs).	Reforça indicação de investigação adicional antes de cirurgia de alto risco.	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 1: {{c1::cirurgia de alto risco}}.	Cada fator do RCRI soma 1 ponto.	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 2: {{c1::doença arterial coronariana}}.	—	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 3: {{c1::insuficiência cardíaca congestiva}}.	—	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 4: {{c1::doença cerebrovascular}}.	—	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 5: {{c1::diabetes insulino-dependente}}.	—	Assunto::avaliacao-perioperatoria Conceito
-RCRI (índice de Lee), fator 6: {{c1::creatinina &gt; 2 mg/dL}}.	—	Assunto::avaliacao-perioperatoria Conceito
+RCRI (índice de Lee), 6 fatores (1 ponto cada): {{c1::cirurgia de alto risco}}; {{c2::doença arterial coronariana}}; {{c3::insuficiência cardíaca congestiva}}; {{c4::doença cerebrovascular}}; {{c5::diabetes insulino-dependente}}; {{c6::creatinina &gt; 2 mg/dL}}.	Escore de 0 a 6 pontos, somando 1 ponto por fator presente.	Assunto::avaliacao-perioperatoria Conceito
 RCRI ≥ {{c1::2 pontos}} eleva o risco de evento cardíaco maior perioperatório.	—	Assunto::avaliacao-perioperatoria Conceito
-Condição cardíaca ativa que adia cirurgia eletiva: síndrome coronariana aguda nos últimos {{c1::60 dias}}.	Independe do RCRI — precisa ser tratada antes de qualquer outra etapa.	Assunto::avaliacao-perioperatoria Conceito
-Condição cardíaca ativa que adia cirurgia eletiva: {{c1::ICC descompensada}}.	—	Assunto::avaliacao-perioperatoria Conceito
-Condição cardíaca ativa que adia cirurgia eletiva: {{c1::arritmia significativa}}.	—	Assunto::avaliacao-perioperatoria Conceito
-Condição cardíaca ativa que adia cirurgia eletiva: {{c1::doença valvar grave sintomática}}.	—	Assunto::avaliacao-perioperatoria Conceito
+Condições cardíacas ativas que adiam cirurgia eletiva (4): {{c1::síndrome coronariana aguda nos últimos 60 dias}}; {{c2::ICC descompensada}}; {{c3::arritmia significativa}}; {{c4::doença valvar grave sintomática}}.	Independem do RCRI — precisam ser tratadas antes de qualquer outra etapa do algoritmo.	Assunto::avaliacao-perioperatoria Conceito
 Exame complementar cardíaco pré-operatório só deve ser pedido se {{c1::for mudar a conduta}}.	Pedir ecocardiograma/teste ergométrico de rotina é conduta ultrapassada.	Assunto::avaliacao-perioperatoria Conceito
 {{c1::BNP e troponina}} pré-operatórios têm papel crescente em cirurgia de alto risco com RCRI elevado.	Não substituem a avaliação clínica funcional (METs).	Assunto::avaliacao-perioperatoria Conceito
 🔤 Mnemônico dos 6 fatores do RCRI (índice de Lee): {{c1::CDICDC}}.	Cirurgia de alto risco, DAC, ICC, Cerebrovascular, Diabetes insulino-dependente, Creatinina &gt;2. Recurso próprio, não é mnemônico oficial.	Assunto::avaliacao-perioperatoria Mnemonico

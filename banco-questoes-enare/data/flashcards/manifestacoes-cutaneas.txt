@@ -12,7 +12,7 @@ O eritema nodoso NÃO deve ser tratado como {{c1::celulite bacteriana}}.	Não é
 Eritema nodoso é uma reação de hipersensibilidade tipo {{c1::IV}}.	Deposição de imunocomplexos e ativação inflamatória no septo adiposo.	Assunto::manifestacoes-cutaneas Conceito
 Pitting ungueal (unhas em dedal) é achado clássico de {{c1::psoríase ungueal}}.	Pode ocorrer mesmo sem placa cutânea evidente.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
 Pitting ungueal isolado é fator de risco para {{c1::artrite psoriásica}}.	Mesmo em paciente sem placas cutâneas visíveis — foi a vinheta ENARE 2026 Q22.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
-Além do pitting, outros achados ungueais de psoríase são onicólise e {{c1::hiperceratose subungueal}}.	Tríade ungueal clássica: pitting + onicólise + hiperceratose subungueal.	Assunto::manifestacoes-cutaneas Conceito
+Tríade ungueal clássica da psoríase: {{c1::pitting}} (unhas em dedal); {{c2::onicólise}}; {{c3::hiperceratose subungueal}}.	Pode ocorrer mesmo sem placa cutânea evidente; pitting isolado já é fator de risco para artrite psoriásica.	Assunto::manifestacoes-cutaneas Conceito
 Pioderma gangrenoso tem bordas {{c1::violáceas e solapadas}}.	Úlcera necrótica de crescimento rápido, dor desproporcional ao aspecto inicial.	Assunto::manifestacoes-cutaneas Conceito
 Pioderma gangrenoso é classicamente associado a {{c1::doença inflamatória intestinal}}.	Principalmente retocolite ulcerativa.	Assunto::manifestacoes-cutaneas Conceito
 Além da DII, pioderma gangrenoso também se associa a {{c1::artrite reumatoide}}.	E a neoplasias mieloproliferativas.	Assunto::manifestacoes-cutaneas Conceito

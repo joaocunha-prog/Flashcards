@@ -2,21 +2,12 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Oncologia::Rastreamento oncológico
-USPSTF: rastreamento de câncer colorretal em risco médio inicia-se aos {{c1::45 anos}}.	Idade reduzida da recomendação anterior de 50 anos.	Assunto::rastreamento-oncologico Conceito
-USPSTF: rastreamento colorretal em risco médio vai até os {{c1::75 anos}}.	—	Assunto::rastreamento-oncologico Conceito
-Entre {{c1::76-85 anos}}, a decisão de rastreamento colorretal é individualizada.	—	Assunto::rastreamento-oncologico Conceito
-Método de rastreamento colorretal: {{c1::colonoscopia a cada 10 anos}}.	—	Assunto::rastreamento-oncologico Conceito
-Método de rastreamento colorretal: {{c1::FIT/sangue oculto anual}}.	—	Assunto::rastreamento-oncologico Conceito
-Método de rastreamento colorretal: {{c1::sigmoidoscopia flexível a cada 5 anos}} (± FIT).	—	Assunto::rastreamento-oncologico Conceito
-Método de rastreamento colorretal: {{c1::colonografia por TC a cada 5 anos}}.	—	Assunto::rastreamento-oncologico Conceito
+USPSTF, rastreamento colorretal em risco médio: inicia-se aos {{c1::45 anos}}, vai até os {{c2::75 anos}}; entre {{c3::76-85 anos}} a decisão é individualizada.	Idade de início reduzida da recomendação anterior de 50 anos.	Assunto::rastreamento-oncologico Conceito
+Métodos de rastreamento colorretal: {{c1::colonoscopia a cada 10 anos}}, {{c2::FIT/sangue oculto anual}}, {{c3::sigmoidoscopia flexível a cada 5 anos}} (± FIT) e {{c4::colonografia por TC a cada 5 anos}}.	—	Assunto::rastreamento-oncologico Conceito
 Exame de rastreamento colorretal positivo (FIT) sempre exige {{c1::colonoscopia diagnóstica completa}}.	Não se repete o mesmo teste nem se troca por outro método.	Assunto::rastreamento-oncologico Conceito
 Pólipo colorretal de baixo risco: 1-2 adenomas tubulares {{c1::<10mm}}, sem displasia de alto grau.	—	Assunto::rastreamento-oncologico Conceito
 Após polipectomia de pólipo de baixo risco, repetir colonoscopia em {{c1::7-10 anos}}.	—	Assunto::rastreamento-oncologico Conceito
-Pólipo de alto risco: {{c1::≥3 adenomas}}.	Exige vigilância mais precoce, em geral em 3 anos.	Assunto::rastreamento-oncologico Conceito
-Pólipo de alto risco: adenoma {{c1::≥10mm}}.	—	Assunto::rastreamento-oncologico Conceito
-Pólipo de alto risco: componente {{c1::viloso}}.	—	Assunto::rastreamento-oncologico Conceito
-Pólipo de alto risco: {{c1::displasia de alto grau}}.	—	Assunto::rastreamento-oncologico Conceito
-Pólipo de alto risco: adenoma serrilhado séssil {{c1::grande}}.	—	Assunto::rastreamento-oncologico Conceito
+Pólipo de alto risco: {{c1::≥3 adenomas}}, adenoma {{c2::≥10mm}}, componente {{c3::viloso}}, {{c4::displasia de alto grau}} ou adenoma serrilhado séssil {{c5::grande}}.	Exige vigilância mais precoce, em geral em 3 anos.	Assunto::rastreamento-oncologico Conceito
 Pólipos de alto risco exigem vigilância em geral em {{c1::3 anos}}.	Pitfall: aplicar esse intervalo curto a um pólipo de baixo risco.	Assunto::rastreamento-oncologico Conceito
 História familiar de câncer colorretal ou síndrome hereditária {{c1::muda a idade e o intervalo}} de rastreamento.	Os intervalos padrão da USPSTF valem só para risco médio.	Assunto::rastreamento-oncologico Conceito
 Escore de Gleason soma o padrão histológico {{c1::primário + secundário}}.	O mais comum + o segundo mais comum na amostra.	Assunto::rastreamento-oncologico Conceito

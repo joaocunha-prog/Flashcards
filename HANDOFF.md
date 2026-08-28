@@ -6,8 +6,7 @@ Banco de questões ENARE + EBSERH (Grupo Clínica Médica). Mesma base de códig
 `banco-questoes-uerj/`, projeto em `banco-questoes-enare/`. Branch: **`claude/enare-project-setup-b3ilb6`**
 (não é a default do repo — a default é `claude/banco-questoes-r-uerj-3d1xr7`, do projeto UERJ).
 **PR aberto: #2** (`joaocunha-prog/Flashcards`), branch de origem para a default. Todo o trabalho até
-aqui está commitado e pushado nessa branch, exceto os 4 arquivos de resumo listados abaixo em
-"Estado Atual", que estão no working tree local desta sessão sem commit ainda.
+aqui está commitado e pushado nessa branch.
 
 **Comece pelo [GUIA.md](banco-questoes-enare/GUIA.md)** para subir a aplicação. O README do projeto
 explica as decisões e já documenta as estatísticas reais do corpus.
@@ -30,41 +29,23 @@ página `/resumos`, model `ResumoSelection` no schema, endpoint `PATCH /api/resu
 componentes `ResumosTabs`/`SelectResumoButton`. Replicada também em `banco-questoes-uerj/` (mesmo
 código). Isso já está pronto — não precisa mexer.
 
-### Tarefa em andamento: escrever os 46 resumos do corte 80/20
+### Tarefa concluída: escrever os 46 resumos do corte 80/20
 
-O usuário pediu **"Crie os resumos dos tópicos do 80/20"**. Cada resumo é um arquivo
-`data/resumos/<slug>.ts` no formato de `banco-questoes-uerj/data/resumos/*.ts` (ver qualquer um lá
-como referência de tom/profundidade — ex.: `hiv-aids.ts` de lá tem a mesma estrutura, mas cobre
-OUTRAS questões, do corpus da UERJ, não deste). Seções usadas (nem todas obrigatórias em todo
-resumo — ver `src/lib/resumoSections.ts` para a lista completa de emojis reconhecidos:
-🎯 essencial, 💎 pearls, ⚠️ pitfalls, 📝 enare ("Como a banca cobra"), 🆕 atualização, 🧠 conceito,
-🩺 quadro clínico, 🔎 diagnóstico, 🚨 gravidade, 💊 tratamento, 🔀 diferencial, 🔤 mnemônicos,
-📋 tabela, 📚 referências — título "outra" cai em qualquer emoji não listado):
+O usuário pediu **"Crie os resumos dos tópicos do 80/20"**. **Concluído nesta sessão** — os 46
+arquivos `data/resumos/<slug>.ts` foram escritos (commits `45127be`, `4486d15`, `3cba51a`),
+registrados em `data/resumos/content.ts` (import + entrada no objeto `RESUMO_CONTENT`) e em
+`data/resumos/slugs.ts` (array `RESUMO_SLUGS`, na ordem do ranking 80/20). Formato usado, para
+referência futura: seções `## <emoji> <Título>` (ver `src/lib/resumoSections.ts` para a lista
+completa de emojis reconhecidos: 🎯 essencial, 💎 pearls, ⚠️ pitfalls, 📝 enare ("Como a banca
+cobra"), 🆕 atualização, 🧠 conceito, 🩺 quadro clínico, 🔎 diagnóstico, 🚨 gravidade, 💊 tratamento,
+🔀 diferencial, 🔤 mnemônicos, 📋 tabela, 📚 referências), sempre citando board (ENARE/EBSERH), ano e
+número da questão real na seção "Como a banca cobra" (dados na tabela "Grounding" abaixo).
 
-Template usado nos 4 já escritos (leve, ~90-110 linhas): 🎯 Essencial, 💎 Pearls, ⚠️ Pitfalls,
-📝 Como a banca cobra, 🧠 Conceito e fisiopatologia, 🩺 Quadro clínico, 🔎 Diagnóstico,
-💊 Tratamento, 📚 Referências essenciais. A seção "Como a banca cobra" **precisa citar board (ENARE
-ou EBSERH), ano e número da questão real** — os dados estão na tabela "Grounding" abaixo, não invente.
-
-**JÁ ESCRITOS (4 de 46)** — arquivos no working tree, **ainda não commitados nem registrados em
-`content.ts`/`slugs.ts`**:
-1. `hiv-aids.ts` (rank 1)
-2. `disturbios-da-hemostasia.ts` (rank 2)
-3. `emergencias-oncologicas.ts` (rank 3)
-4. `neuroinfeccao-e-emergencias-neurologicas.ts` (rank 4)
-
-**FALTAM 42** — ranks 5 a 46, lista completa com slug exato na tabela "Ranking 80/20" abaixo.
-
-**Depois de escrever os 46:**
-1. Registrar cada um em `data/resumos/content.ts` — import + entrada no objeto `RESUMO_CONTENT`
-   (chave = slug, valor = o conteúdo importado). Hoje esse arquivo está vazio
-   (`export const RESUMO_CONTENT: Partial<Record<string, string>> = {};`).
-2. Registrar os 46 slugs em `data/resumos/slugs.ts`, no array `RESUMO_SLUGS` (hoje `[] as const`).
-3. `npx tsc --noEmit` dentro de `banco-questoes-enare/` — tem que passar limpo.
-4. Testar de verdade: subir Postgres local (ver "Comandos Úteis"), importar as 4 provas, `npm run
-   build`, subir o servidor, abrir `/resumos` e conferir que as duas abas (80/20 tem que mostrar os
-   46) renderizam e que um resumo individual abre sem erro de parsing de seção.
-5. Commit + push na branch `claude/enare-project-setup-b3ilb6`.
+Validado nesta sessão: `npm install` (node_modules não existia), `npx tsc --noEmit` limpo, `npm run
+build` limpo, teste local completo (Postgres local, import das 4 provas, servidor em `PORT=3111`) —
+`/resumos` lista os 46 assuntos na aba 80/20 e resumos individuais (`hiv-aids`, `cirrose-e-
+complicacoes`, `tuberculose`, e outros verificados por amostragem) abrem sem erro de parsing.
+Postgres local derrubado e `.env` removido ao final, conforme convenção da sessão anterior.
 
 ### Depois dos resumos: nova tarefa pedida pelo usuário (flashcards Anki + tabelas/escalas)
 
@@ -338,18 +319,25 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 
 ## Pendências
 
-- **42 resumos a escrever** (ranks 5–46, ver lista acima) + registrar os 46 em `content.ts`/`slugs.ts`.
-- **Depois**: 46 arquivos de flashcard estilo Anki (um por assunto do 80/20) + 1 arquivo de
-  escalas/tabelas (Forrest, Child-Pugh, e outras a levantar releitura os enunciados). Ver seção
-  específica acima — formato de arquivo ainda não decidido, considerar perguntar ao usuário.
+- **Os 46 resumos do 80/20 estão prontos e registrados** — nada pendente nessa frente.
+- **Próxima tarefa (ainda não iniciada)**: 46 arquivos de flashcard estilo Anki (um por assunto do
+  80/20) + 1 arquivo de escalas/tabelas (Forrest, Child-Pugh, e outras a levantar relendo os
+  enunciados). Ver seção "Depois dos resumos" acima para o pedido literal do usuário — formato de
+  arquivo ainda não decidido, considerar perguntar ao usuário antes de gerar os 46 de uma vez.
 - Nenhum PR novo a abrir — já existe o #2, é só continuar empurrando pra mesma branch.
 
 ## Próxima Ação
 
-1. Retomar da resumo #5 (`cirrose-e-complicacoes`) em diante, na ordem do ranking, até o #46
-   (`tuberculose`). Usar os 4 já escritos como referência de tom/tamanho.
-2. Registrar todos em `content.ts` e `slugs.ts`, typecheck, testar local, commit, push.
-3. Só depois, começar os flashcards Anki + arquivo de escalas — ver pedido literal do usuário acima.
+1. Ler com atenção o pedido literal do usuário na seção "Depois dos resumos: nova tarefa pedida
+   pelo usuário (flashcards Anki + tabelas/escalas)" acima.
+2. Confirmar com o usuário o formato de arquivo dos flashcards (ex.: `.txt` separado por tabulação,
+   formato nativo de importação do Anki, com Basic e Cloze) e onde eles devem morar no repo
+   (sugestão: `banco-questoes-enare/flashcards/` ou `banco-questoes-enare/anki/`) antes de gerar os
+   46 de uma vez.
+3. Reler os 212 enunciados em `data/provas/*.json` para levantar todas as escalas/tabelas cobradas
+   (Forrest, Child-Pugh, NYHA, TI-RADS, Bethesda, CURB-65, Gleason, CHA₂DS₂-VASc/HAS-BLED — lista
+   inicial na seção acima, não exaustiva) antes de escrever o arquivo de escalas.
+4. Escrever os 46 arquivos de flashcards + 1 arquivo de escalas, commit, push na mesma branch.
 
 ## Convenções e Restrições
 

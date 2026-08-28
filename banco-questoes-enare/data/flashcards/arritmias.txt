@@ -2,18 +2,22 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Cardiologia::Arritmias
-O achado eletrocardiográfico clássico da síndrome de Wolff-Parkinson-White é a tríade: {{c1::PR curto (<120 ms)}} + {{c2::onda delta (empastamento inicial do QRS)}} + {{c3::QRS alargado}}.	EBSERH 2025 Q45 — reconhecimento direto desse padrão eletrocardiográfico.<br><img src="arritmias-wpw-ecg.svg">	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-No WPW, a via acessória responsável pela pré-excitação ventricular é o feixe de {{c1::Kent}}, que liga átrio a ventrículo contornando o nó AV.	O estímulo chega ao ventrículo sem o retardo fisiológico do nó AV, encurtando o PR e gerando a onda delta.	Assunto::arritmias Conceito
-A principal arritmia grave associada ao WPW é a {{c1::fibrilação atrial pré-excitada}}, conduzida diretamente pela via acessória, com resposta ventricular muito rápida e risco de degenerar em fibrilação ventricular.		Assunto::arritmias Conceito
-Em fibrilação atrial pré-excitada (WPW), os bloqueadores do nó AV — {{c1::adenosina, verapamil, digoxina e betabloqueador}} — são CONTRAINDICADOS, pois favorecem a condução pela via acessória e podem precipitar fibrilação ventricular.		Assunto::arritmias Conceito
-O tratamento definitivo do WPW sintomático é {{c1::ablação por cateter da via acessória}}.		Assunto::arritmias Conceito
-Extrassístoles ventriculares em paciente assintomático, sem cardiopatia estrutural, são um achado {{c1::benigno}} na maioria dos casos e NÃO exigem antiarrítmico.	ENARE 2025 Q33 — testa o não-tratamento como conduta correta; ecocardiograma pode ser feito para excluir cardiopatia se houver dúvida.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
-Extrassístoles ventriculares muito frequentes (alta carga no Holter) podem, a longo prazo, causar {{c1::cardiomiopatia induzida por extrassístole}} — acompanhamento é diferente de simplesmente ignorar o achado.		Assunto::arritmias Conceito
-O bloqueio atrioventricular {{c1::Mobitz II}} tem indicação de marcapasso definitivo mesmo em paciente assintomático, pelo risco de progressão súbita e imprevisível para {{c2::BAV total}}.	ENARE 2025 Q59.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
-No BAV Mobitz I (Wenckebach), o PR aumenta {{c1::progressivamente}} até bloquear um estímulo — geralmente é supra-hissiano e {{c2::benigno}}.		Assunto::arritmias Conceito
-No BAV Mobitz II, o PR permanece {{c1::constante}} e o bloqueio de um estímulo é súbito — o nível do bloqueio é {{c2::infra-hissiano}}.		Assunto::arritmias Conceito
-O bloqueio AV 2:1 pode corresponder tanto a Mobitz I quanto a Mobitz II — o que define prognóstico e conduta é o {{c1::nível do bloqueio (supra vs. infra-hissiano)}}, nem sempre óbvio no ECG de superfície isolado.		Assunto::arritmias Conceito
-Em FA pré-excitada, quando ablação imediata não está disponível, a droga menos deletéria entre os antiarrítmicos convencionais é a {{c1::amiodarona}} — mas a ablação segue sendo o tratamento definitivo.	Em caso de instabilidade, a conduta é cardioversão elétrica.	Assunto::arritmias Conceito
-O nó AV é geralmente responsivo a atropina (bloqueio benigno, típico do Mobitz I); já o sistema {{c1::His-Purkinje infra-hissiano}} (Mobitz II) não responde a estímulo vagal/atropina, sendo propenso a progressão súbita e completa.		Assunto::arritmias Conceito
-🔤 Mnemônico (recurso próprio) para a tríade do WPW — "PEQ": {{c1::P}}R curto, {{c2::E}}mpastamento inicial (onda delta), {{c3::Q}}RS alargado.		Assunto::arritmias Conceito Mnemonico
-Entre os dois tipos de BAV de segundo grau, a regra prática de conduta é: {{c1::Mobitz II}} sempre indica marcapasso definitivo, mesmo assintomático; Mobitz I raramente indica.	QRS largo no ritmo de escape de um BAV avançado sugere bloqueio mais distal e maior instabilidade elétrica, reforçando a indicação de marcapasso.	Assunto::arritmias Conceito
+No WPW, o intervalo PR é {{c1::curto (<120 ms)}}.	Achado 1 de 3 do padrão eletrocardiográfico clássico.<br><img src="arritmias-wpw-ecg.svg">	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+No WPW, o QRS mostra {{c1::onda delta}} (empastamento inicial).	Achado 2 de 3 — sinal da pré-excitação ventricular.	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+No WPW, o QRS está {{c1::alargado}}.	Achado 3 de 3 do trio clássico (PR curto + onda delta + QRS largo). Vinheta EBSERH 2025 Q45.	Assunto::arritmias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+No WPW, a via acessória responsável chama-se feixe de {{c1::Kent}}.	Liga átrio a ventrículo contornando o nó AV.	Assunto::arritmias Conceito
+A onda delta do WPW pode ser {{c1::intermitente}}.	Não exclui WPW se a história clínica for sugestiva.	Assunto::arritmias Conceito
+No WPW, o principal risco arrítmico é {{c1::fibrilação atrial pré-excitada}}.	Conduzida diretamente pela via acessória, resposta ventricular muito rápida.	Assunto::arritmias Conceito
+Na FA pré-excitada, {{c1::bloqueadores do nó AV}} (adenosina, verapamil, digoxina, betabloqueador) são contraindicados.	Favorecem condução pela via acessória e podem precipitar FV.	Assunto::arritmias Conceito
+O tratamento definitivo do WPW sintomático é {{c1::ablação por cateter}} da via acessória.	—	Assunto::arritmias Conceito
+Na FA pré-excitada sem ablação imediata disponível, a droga preferida é {{c1::amiodarona}} (ou procainamida).	Menos deletéria que os bloqueadores do nó AV nesse contexto.	Assunto::arritmias Conceito
+Extrassístole ventricular em assintomático sem cardiopatia estrutural é achado {{c1::benigno}} na maioria dos casos.	Não exige antiarrítmico. Vinheta ENARE 2025 Q33.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
+Diante de extrassístole ventricular assintomática, a conduta é {{c1::tranquilização}}, sem antiarrítmico.	Ecocardiograma se houver dúvida quanto a cardiopatia estrutural.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
+Extrassístole ventricular de alta carga no Holter pode causar {{c1::cardiomiopatia induzida por extrassístole}} a longo prazo.	Justifica acompanhamento, não apenas ignorar o achado.	Assunto::arritmias Conceito
+No BAV Mobitz I (Wenckebach), o PR {{c1::aumenta progressivamente}} até bloquear.	Geralmente supra-hissiano e benigno.	Assunto::arritmias Conceito
+No BAV Mobitz II, o PR é {{c1::constante}}, com bloqueio súbito.	Bloqueio infra-hissiano.	Assunto::arritmias Conceito
+O BAV Mobitz II tem risco de progressão súbita para {{c1::BAV total}}.	Progressão imprevisível — justifica a indicação de marcapasso.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
+O BAV Mobitz II indica marcapasso definitivo {{c1::mesmo assintomático}}.	Vinheta ENARE 2025 Q59.	Assunto::arritmias Banca::ENARE Ano::2025 Dificuldade::FACIL
+O nível de bloqueio do Mobitz II é {{c1::infra-hissiano}} (sistema His-Purkinje).	Sem resposta a estímulo vagal ou atropina.	Assunto::arritmias Conceito
+No BAV 2:1, prognóstico e conduta dependem do {{c1::nível anatômico do bloqueio}}.	Supra vs. infra-hissiano — nem sempre óbvio pelo ECG de superfície isolado; pode ser Mobitz I ou II.	Assunto::arritmias Conceito
+🔤 Mnemônico do trio eletrocardiográfico do WPW: {{c1::PDQ}}.	PR curto, Delta (onda), QRS alargado. Recurso próprio, não é mnemônico oficial.	Assunto::arritmias Mnemonico

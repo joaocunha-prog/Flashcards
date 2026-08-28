@@ -2,15 +2,28 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Pneumologia::Pneumonias
-O escore CURB-65 para gravidade/internação em PAC soma 1 ponto para cada: {{c1::Confusão mental, Ureia elevada, Respiração ≥30irpm, Baixa pressão arterial (PAS<90 ou PAD≤60), idade ≥65 anos}}.	≥2 pontos já indica internação; ≥3 pontos sugere considerar UTI. A ureia elevada reflete gravidade sistêmica (hipoperfusão/desidratação), não doença renal primária, e é frequentemente esquecida pelos candidatos.	Assunto::pneumonias Conceito
-Na investigação inicial de pneumonia grave, deve-se colher {{c1::hemoculturas (2 pares, antes do antibiótico se possível), cultura de escarro, antígeno urinário para pneumococo e Legionella, gasometria arterial}}, além de imagem de tórax.	Tudo isso é colhido SEM atrasar o início do antibiótico empírico — o painel serve para descalonar/ajustar depois.	Assunto::pneumonias Conceito
-Diante de pneumonia grave/sepse, o antibiótico empírico deve ser iniciado {{c1::dentro da primeira hora}}, sem esperar o resultado de culturas.	Pitfall clássico: aguardar cultura de escarro ou hemocultura para iniciar antibiótico — o atraso terapêutico aumenta mortalidade.	Assunto::pneumonias Conceito
-A cultura de escarro tem sensibilidade {{c1::baixa (em torno de 50% ou menos)}} para Streptococcus pneumoniae, limitada por contaminação de via aérea superior, uso prévio de antibiótico e dificuldade de coleta adequada.	Por isso um escarro negativo NÃO afasta pneumonia pneumocócica — não deve mudar a cobertura antimicrobiana já iniciada empiricamente.	Assunto::pneumonias Conceito
-O uso de antibiótico prévio à coleta do escarro {{c1::reduz ainda mais}} a sensibilidade da cultura, enquanto o {{c2::antígeno urinário para pneumococo}} tem sensibilidade melhor e não é afetado tão rapidamente pelo antibiótico já em uso.	O antígeno urinário detecta um componente estável da parede celular bacteriana e não depende de bactéria viva na amostra — por isso é ferramenta complementar útil em pneumonia grave.	Assunto::pneumonias Conceito
-O Streptococcus pneumoniae continua sendo o {{c1::agente etiológico mais comum de PAC}} em adultos, mesmo com a limitação diagnóstica da cultura de escarro.	A escolha do antibiótico empírico sempre deve cobrir esse agente, independentemente do resultado (ou ausência) de cultura positiva.	Assunto::pneumonias Conceito
-Idosos podem apresentar PAC sem a febre clássica, sendo a {{c1::confusão mental aguda}} por vezes a única manifestação inicial.	Reforça a importância de manter alto índice de suspeita de infecção em idosos com quadros atípicos.	Assunto::pneumonias Conceito
-Comparando os escores de gravidade de PAC: o {{c1::PSI (Pneumonia Severity Index)}} é mais complexo e mais sensível para identificar baixo risco (permite alta segura), enquanto o {{c2::CURB-65}} é mais simples e mais usado à beira-leito.	Critério de internação (indicação de hospitalização) e critério de indicação de UTI são limiares diferentes dentro do mesmo escore — não devem ser confundidos.	Assunto::pneumonias Conceito
-EBSERH 2025 Q46: testou diretamente a {{c1::baixa sensibilidade da cultura de escarro}} para pneumonia pneumocócica — o ponto central é não deixar um exame com sensibilidade ruim mudar a conduta clínica já estabelecida.	Reforça: escarro negativo não descarta pneumococo nem justifica trocar a cobertura antimicrobiana empírica já iniciada.	Assunto::pneumonias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-ENARE 2025 Q27: investigação inicial de pneumonia grave — avalia se o candidato monta o painel diagnóstico correto ({{c1::culturas, antígenos urinários, gasometria, imagem}}) sem atrasar o antibiótico.	O antibiótico empírico deve ser iniciado dentro da primeira hora, independentemente do tempo necessário para completar a investigação.	Assunto::pneumonias Banca::ENARE Ano::2025 Dificuldade::FACIL
-ENARE 2026 Q35: critérios de internação em PAC — aplicação do {{c1::CURB-65}} a um caso clínico para decidir entre tratamento ambulatorial e hospitalar.	Pontuação ≥2 já indica internação; a banca costuma testar se o candidato soma corretamente os 5 critérios (C-U-R-B-65), não apenas confusão e frequência respiratória.	Assunto::pneumonias Banca::ENARE Ano::2026 Dificuldade::MEDIA
-🔤 Mnemônico consagrado — <b>CURB-65</b>: {{c1::Confusão, Ureia elevada, Respiração ≥30irpm, Baixa pressão arterial, idade ≥65 anos}} — cada item vale 1 ponto na avaliação de gravidade da PAC.	Mnemônico amplamente utilizado na literatura de pneumologia/emergência (British Thoracic Society) para decisão de internação em PAC.	Assunto::pneumonias Mnemonico
+CURB-65 é usado para avaliar {{c1::gravidade/indicação de internação}} em PAC.	—	Assunto::pneumonias Conceito
+CURB-65 — C: {{c1::confusão mental}}.	1 ponto por item, 0-5 no total.	Assunto::pneumonias Conceito
+CURB-65 — U: {{c1::ureia elevada (>50 mg/dL)}}.	Reflete gravidade sistêmica, não doença renal primária — item mais esquecido.	Assunto::pneumonias Conceito
+CURB-65 — R: {{c1::frequência respiratória ≥30/min}}.	—	Assunto::pneumonias Conceito
+CURB-65 — B: {{c1::PA sistólica <90 ou diastólica ≤60 mmHg}}.	—	Assunto::pneumonias Conceito
+CURB-65 — 65: {{c1::idade ≥65 anos}}.	—	Assunto::pneumonias Conceito
+CURB-65 ≥2 pontos já indica {{c1::internação}}.	—	Assunto::pneumonias Conceito
+CURB-65 ≥3 pontos sugere considerar {{c1::UTI}}.	—	Assunto::pneumonias Conceito
+Investigação inicial de pneumonia grave inclui {{c1::hemoculturas}} (2 pares, antes do antibiótico se possível).	—	Assunto::pneumonias Conceito
+Investigação inicial de pneumonia grave inclui {{c1::cultura de escarro}}.	—	Assunto::pneumonias Conceito
+Investigação inicial de pneumonia grave inclui {{c1::antígeno urinário}} para pneumococo e Legionella.	—	Assunto::pneumonias Conceito
+Investigação inicial de pneumonia grave inclui {{c1::gasometria arterial}}.	—	Assunto::pneumonias Conceito
+Diante de pneumonia grave/sepse, o antibiótico empírico deve ser iniciado dentro da {{c1::primeira hora}}.	—	Assunto::pneumonias Conceito
+O início do antibiótico empírico em pneumonia grave {{c1::não espera}} resultado de cultura.	Pitfall: aguardar cultura para iniciar antibiótico — atraso aumenta mortalidade.	Assunto::pneumonias Conceito
+Cultura de escarro tem sensibilidade {{c1::baixa (~50% ou menos)}} para Streptococcus pneumoniae.	Limitada por contaminação de via aérea superior e uso prévio de antibiótico.	Assunto::pneumonias Conceito
+Escarro negativo {{c1::não afasta}} pneumonia pneumocócica.	Não deve mudar a cobertura antimicrobiana já iniciada empiricamente.	Assunto::pneumonias Conceito
+Uso de antibiótico prévio à coleta do escarro {{c1::reduz ainda mais}} a sensibilidade da cultura.	—	Assunto::pneumonias Conceito
+Antígeno urinário para pneumococo tem sensibilidade {{c1::melhor}} que a cultura de escarro.	Não depende de bactéria viva na amostra.	Assunto::pneumonias Conceito
+{{c1::Streptococcus pneumoniae}} continua sendo o agente etiológico mais comum de PAC.	—	Assunto::pneumonias Conceito
+Idosos com PAC podem apresentar, sem febre clássica, {{c1::confusão mental aguda}} como única manifestação.	—	Assunto::pneumonias Conceito
+Comparado ao CURB-65, o {{c1::PSI}} é mais complexo e mais sensível para identificar baixo risco.	Permite alta segura; CURB-65 é mais simples e usado à beira-leito.	Assunto::pneumonias Conceito
+EBSERH 2025 Q46: testou a {{c1::baixa sensibilidade da cultura de escarro}} para pneumococo.	Não deixar um exame de sensibilidade ruim mudar a conduta já estabelecida.	Assunto::pneumonias Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+ENARE 2025 Q27: investigação inicial de pneumonia grave sem {{c1::atrasar o antibiótico}}.	Monta o painel diagnóstico completo em paralelo ao antibiótico empírico.	Assunto::pneumonias Banca::ENARE Ano::2025 Dificuldade::FACIL
+ENARE 2026 Q35: aplicação do {{c1::CURB-65}} para decidir internação em PAC.	Soma correta dos 5 critérios, não só confusão e frequência respiratória.	Assunto::pneumonias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+🔤 Mnemônico CURB-65: {{c1::Confusão, Ureia, Respiração, Baixa PA, 65 anos}}.	Cada item vale 1 ponto na avaliação de gravidade da PAC.	Assunto::pneumonias Mnemonico

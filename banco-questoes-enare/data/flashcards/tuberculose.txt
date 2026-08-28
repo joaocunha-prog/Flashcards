@@ -2,15 +2,26 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Infectologia::Tuberculose
-A reação paradoxal (fenômeno tipo IRIS) no tratamento da tuberculose pode ocorrer mesmo {{c1::sem HIV}} — piora clínica/radiológica transitória apesar de tratamento antituberculoso adequado e culturas em negativação.	Reflete reconstituição/exacerbação da resposta imune contra antígenos micobacterianos residuais, não falha terapêutica.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
-O uso de {{c1::anti-TNF}} (imunobiológicos) é fator de risco tanto para reativação de TB latente quanto para {{c2::reação paradoxal}} durante o tratamento da tuberculose ativa.	Não considerar TB como diagnóstico diferencial de piora clínica em uso de anti-TNF, mesmo já em tratamento antituberculoso, por assumir que "já está tratado", é pitfall.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
-A reação paradoxal NÃO significa falha terapêutica nem resistência — a conduta correta é {{c1::manter o esquema RIPE inalterado}} e considerar {{c2::corticoide}} se a reação for significativa.	Trocar o esquema RIPE ou suspender o tratamento diante de reação paradoxal, interpretando como falha ou resistência, é pitfall central deste assunto.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
-O TNF-alfa é citocina essencial para a formação e manutenção do {{c1::granuloma}} — seu bloqueio farmacológico predispõe tanto à reativação de TB latente quanto à reação paradoxal durante o tratamento ativo.	Por isso o rastreio de TB latente é obrigatório antes de iniciar anti-TNF, e anti-TNF aumenta particularmente o risco de TB extrapulmonar/disseminada.	Assunto::tuberculose Conceito
-A hepatotoxicidade por tuberculostáticos ocorre principalmente por {{c1::isoniazida}}, {{c2::rifampicina}} e {{c3::pirazinamida}} — monitorar transaminases é obrigatório, especialmente nos primeiros meses.	Cada fármaco tem mecanismo distinto: isoniazida via metabólitos hepatotóxicos da acetilação, rifampicina por interferência biliar (+ indução enzimática), pirazinamida por toxicidade dose-dependente direta.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
-Entre os quatro fármacos do esquema RIPE, o geralmente mais hepatotóxico é a {{c1::pirazinamida}}, seguida por isoniazida e rifampicina.	Essa hierarquia é útil para decidir qual fármaco suspender/reintroduzir primeiro diante de toxicidade.	Assunto::tuberculose Conceito
-Elevação leve/assintomática de transaminases (até {{c1::3-5x}} o limite superior da normalidade) durante o tratamento da tuberculose NÃO exige suspensão do esquema — reavaliar clinicamente e com exames seriados.	Suspender todo o esquema RIPE ao primeiro sinal de elevação leve e assintomática de transaminases é conduta excessivamente cautelosa e é pitfall.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
-A suspensão do esquema antituberculoso é indicada diante de {{c1::sintomas}} (náusea, icterícia, dor em hipocôndrio direito) ou elevação mais expressiva das transaminases.	Antes de rotular hepatotoxicidade, excluir outras causas de disfunção hepática (hepatites virais, álcool) que podem coexistir e confundir o quadro.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
-A rifampicina pode causar {{c1::hiperbilirrubinemia isolada}} (por competição na captação hepática de bilirrubina) sem necessariamente refletir lesão hepatocelular verdadeira.	Atribuir hiperbilirrubinemia isolada por rifampicina a hepatotoxicidade grave, suspendendo o fármaco sem necessidade, é pitfall.	Assunto::tuberculose Conceito
-Após hepatotoxicidade significativa, a reintrodução dos tuberculostáticos deve ser {{c1::escalonada}} (um fármaco por vez), geralmente começando pelo(s) {{c2::menos hepatotóxico(s)}}, com monitorização da função hepática a cada reintrodução.	Reintroduzir todos os fármacos simultaneamente após hepatotoxicidade significativa, em vez de forma escalonada, é pitfall.	Assunto::tuberculose Conceito
-O esquema básico de tratamento da tuberculose sensível consiste em {{c1::rifampicina}} + {{c2::isoniazida}} + {{c3::pirazinamida}} + {{c4::etambutol}} por 2 meses, seguido de rifampicina + isoniazida por mais 4 meses (6 meses no total).	Esse é o esquema padrão para a maioria dos casos de TB sensível no Brasil e internacionalmente.	Assunto::tuberculose Conceito
-🔤 Mnemônico (já consagrado na literatura) para o esquema básico da tuberculose: a sigla {{c1::RIPE}} representa Rifampicina, Isoniazida, Pirazinamida e Etambutol.	Os três primeiros (R, I, P) são também os principais responsáveis pela hepatotoxicidade do esquema — vale relembrar essa sobreposição ao decidir qual fármaco reintroduzir primeiro.	Assunto::tuberculose Mnemonico
+Esquema básico RIPE dura {{c1::6 meses}} no total para TB sensível.	—	Assunto::tuberculose Conceito
+Fase intensiva do RIPE (2 meses) inclui rifampicina + isoniazida + pirazinamida + {{c1::etambutol}}.	—	Assunto::tuberculose Conceito
+Fase de manutenção do RIPE (4 meses) usa {{c1::rifampicina + isoniazida}}.	—	Assunto::tuberculose Conceito
+🔤 RIPE — R: {{c1::Rifampicina}}.	—	Assunto::tuberculose Mnemonico
+🔤 RIPE — I: {{c1::Isoniazida}}.	—	Assunto::tuberculose Mnemonico
+🔤 RIPE — P: {{c1::Pirazinamida}}.	—	Assunto::tuberculose Mnemonico
+🔤 RIPE — E: {{c1::Etambutol}}.	—	Assunto::tuberculose Mnemonico
+Reação paradoxal no tratamento da TB pode ocorrer mesmo {{c1::sem HIV}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Reação paradoxal reflete reconstituição da resposta imune, {{c1::não falha terapêutica}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Uso de {{c1::anti-TNF}} é fator de risco para reação paradoxal no tratamento da TB.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Anti-TNF também é fator de risco para {{c1::reativação de TB latente}}.	—	Assunto::tuberculose Conceito
+Conduta diante de reação paradoxal: manter o esquema {{c1::RIPE inalterado}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Em reação paradoxal significativa, considerar o uso de {{c1::corticoide}}.	—	Assunto::tuberculose Conceito
+TNF-alfa é citocina essencial para formação e manutenção do {{c1::granuloma}}.	—	Assunto::tuberculose Conceito
+Fármaco do RIPE associado a hepatotoxicidade: {{c1::isoniazida}}.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
+Fármaco do RIPE associado a hepatotoxicidade: {{c1::rifampicina}}.	—	Assunto::tuberculose Conceito
+Fármaco do RIPE associado a hepatotoxicidade: {{c1::pirazinamida}}.	—	Assunto::tuberculose Conceito
+Entre os fármacos do RIPE, o mais hepatotóxico costuma ser a {{c1::pirazinamida}}.	—	Assunto::tuberculose Conceito
+Elevação de transaminases até {{c1::3-5x}} o limite superior, assintomática, não exige suspensão do esquema.	—	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
+Suspensão do esquema é indicada diante de sintomas como {{c1::icterícia}}.	Ou náusea persistente/dor em hipocôndrio direito.	Assunto::tuberculose Banca::ENARE Ano::2025 Dificuldade::FACIL
+Rifampicina pode causar {{c1::hiperbilirrubinemia isolada}} sem lesão hepatocelular verdadeira.	—	Assunto::tuberculose Conceito
+Após hepatotoxicidade significativa, a reintrodução dos fármacos deve ser {{c1::escalonada (um por vez)}}.	—	Assunto::tuberculose Conceito
+Na reintrodução escalonada, começa-se pelo(s) fármaco(s) {{c1::menos hepatotóxico(s)}}.	—	Assunto::tuberculose Conceito

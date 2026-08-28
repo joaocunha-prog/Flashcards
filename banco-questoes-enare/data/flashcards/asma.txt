@@ -2,18 +2,21 @@
 #html:true
 #notetype:Cloze
 #deck:ENARE-EBSERH::80-20::Pneumologia::Asma
-O endótipo de inflamação tipo 2 (T2-alto) na asma é mediado por três citocinas principais: {{c1::IL-4}}, {{c2::IL-5}} e {{c3::IL-13}}, produzidas por linfócitos Th2 e células linfoides inatas do grupo 2 (ILC2).	EBSERH 2025 Q35 — exige conhecer o papel específico de cada citocina na cascata T2.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
-IL-4 e IL-13 promovem a troca de classe de imunoglobulina para {{c1::IgE}} e aumentam a hiper-responsividade brônquica.		Assunto::asma Conceito
-A IL-5 é a principal responsável por recrutar, ativar e manter vivos os {{c1::eosinófilos}} na via aérea.		Assunto::asma Conceito
-Os biomarcadores de inflamação tipo 2 usados para elegibilidade a terapia biológica na asma são: {{c1::eosinofilia periférica/de escarro}}, {{c2::IgE elevada}} e {{c3::FeNO (óxido nítrico exalado) elevado}}.		Assunto::asma Conceito
-A eosinofilia periférica pode estar mascarada pelo uso concomitante de {{c1::corticoide sistêmico}} — dosar biomarcadores antes de escalonar corticoide, sempre que possível.		Assunto::asma Conceito
-A terapia biológica na asma é indicada em asma grave não controlada apesar de {{c1::corticoide inalatório em dose alta + broncodilatador de longa ação (LABA)}}, com adesão e técnica inalatória confirmadas.	Escalonar direto para biológico sem confirmar adesão/técnica é um pitfall clássico.	Assunto::asma Conceito
-No fenótipo alérgico de asma (IgE elevada, sensibilização a aeroalérgeno, início na infância), o biológico de escolha preferencial é o {{c1::omalizumabe}} (anti-IgE).	ENARE 2026 Q20.	Assunto::asma Banca::ENARE Ano::2026 Dificuldade::FACIL
-Os biológicos anti-IL5/IL5R ({{c1::mepolizumabe/benralizumabe}}) são indicados no fenótipo eosinofílico, e o anti-IL4R ({{c2::dupilumabe}}) atua na inflamação T2 ampla, inclusive com dermatite atópica associada.		Assunto::asma Conceito
-Nem toda asma grave é T2-alta — os fenótipos {{c1::não-T2 (neutrofílico, associado a obesidade ou tabagismo)}} respondem mal aos biológicos direcionados à via T2.		Assunto::asma Conceito
-Na crise asmática quase fatal, o {{c1::tórax silencioso}} (ausência de sibilos por fluxo aéreo criticamente reduzido) é sinal de {{c2::gravidade extrema}}, NÃO de melhora clínica.	EBSERH 2026 Q38 — interpretar tórax silencioso como melhora é um pitfall grave.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-Na crise de asma, o achado gasométrico mais grave é a {{c1::normalização ou elevação da PCO2}} — o esperado inicialmente é PCO2 baixo por taquipneia; um PCO2 "normal" já indica exaustão respiratória.	EBSERH 2026 Q38 — cobra a interpretação correta e não intuitiva da gasometria na crise grave.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
-A retenção de CO2 na crise asmática é paradoxal: o início da crise cursa com {{c1::hiperventilação e PCO2 baixo}}; a normalização/elevação da PCO2 sinaliza {{c2::fadiga da musculatura respiratória}}, precedendo a insuficiência respiratória.		Assunto::asma Conceito
-Betabloqueador, mesmo cardiosseletivo, deve ser usado com cautela na asma pelo risco de {{c1::broncoespasmo}}.		Assunto::asma Conceito
-No manejo da crise moderada a grave de asma, além de oxigênio e beta-agonista de curta ação + anticolinérgico inalatório, usa-se corticoide sistêmico precoce e, em casos graves, {{c1::sulfato de magnésio IV}}.	Diante de rebaixamento de consciência ou PCO2 em ascensão, não se deve atrasar a intubação orotraqueal.	Assunto::asma Conceito
-🔤 Mnemônico (recurso próprio) para a via T2 da asma: {{c1::IL-4}} troca a classe do anticorpo para IgE; {{c2::IL-5}} recruta e mantém vivo o Eosinófilo (5 lembra "cinco dedos segurando o eosinófilo"); {{c3::IL-13}} aumenta a hiper-responsividade e a produção de muco.		Assunto::asma Conceito Mnemonico
+O endótipo de inflamação tipo 2 na asma é mediado por IL-4, IL-5 e {{c1::IL-13}}.	Produzidas por Th2 e ILC2.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Na inflamação tipo 2, a IL-4 promove troca de classe de imunoglobulina para {{c1::IgE}}.	Junto com IL-13.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+A IL-13 aumenta a {{c1::hiper-responsividade brônquica}}.	Atua junto com IL-4 sobre epitélio e músculo liso.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+A citocina responsável por recrutar e manter vivos os eosinófilos é {{c1::IL-5}}.	Vinheta EBSERH 2025 Q35 (papel de cada citocina na cascata T2).	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Biomarcador de inflamação T2 no escarro/sangue: {{c1::eosinofilia}}.	Junto com IgE elevada e FeNO elevado — orientam elegibilidade a biológico.	Assunto::asma Conceito
+Outro biomarcador T2 é o {{c1::FeNO}} (óxido nítrico exalado) elevado.	—	Assunto::asma Conceito
+A eosinofilia periférica pode estar mascarada pelo uso de {{c1::corticoide sistêmico}}.	Dosar biomarcadores antes de escalonar corticoide, se possível.	Assunto::asma Conceito
+Biológico na asma exige falha apesar de {{c1::corticoide inalatório em dose alta + LABA}}.	Com adesão e técnica inalatória confirmadas antes de escalonar para biológico.	Assunto::asma Conceito
+No fenótipo alérgico de asma, o biológico preferencial é {{c1::omalizumabe}} (anti-IgE).	Vinheta ENARE 2026 Q20 (fenótipo alérgico e terapia biológica).	Assunto::asma Banca::ENARE Ano::2026 Dificuldade::FACIL
+No fenótipo eosinofílico de asma, os biológicos usados são anti-IL5/IL5R: {{c1::mepolizumabe/benralizumabe}}.	—	Assunto::asma Conceito
+Nem toda asma grave é T2-alta — o fenótipo {{c1::neutrofílico}} responde mal a biológicos anti-T2.	Associado a obesidade ou tabagismo.	Assunto::asma Conceito
+Na crise asmática grave, o achado gasométrico mais grave é PCO2 {{c1::normal ou elevado}}.	Esperado na crise é PCO2 baixo por taquipneia — "normal" já é anormal aqui.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Um PCO2 normalizando em crise asmática grave indica {{c1::exaustão da musculatura respiratória}}.	Sinaliza ventilação mecânica iminente, não melhora clínica.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+O tórax silencioso na crise de asma é sinal de {{c1::gravidade extrema}}, não de melhora.	Fluxo aéreo criticamente reduzido, insuficiente para gerar sibilo.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Outros sinais de falência ventilatória iminente na asma: rebaixamento de consciência e {{c1::bradicardia/hipotensão}}.	—	Assunto::asma Conceito
+Betabloqueador na asma deve ser usado com cautela mesmo se {{c1::cardiosseletivo}}.	Pode desencadear broncoespasmo.	Assunto::asma Conceito
+Dose alta de corticoide inalatório isolada NÃO define, por si só, {{c1::asma grave}}.	Antes de biológico é preciso confirmar adesão e técnica inalatória.	Assunto::asma Conceito
+🔤 Mnemônico das citocinas T2 e seus papéis: {{c1::4-13 fazem IgE, 5 recruta eosinófilo}}.	IL-4 e IL-13: troca de classe para IgE + hiper-responsividade. IL-5: sobrevida/recrutamento de eosinófilos. Recurso próprio.	Assunto::asma Mnemonico

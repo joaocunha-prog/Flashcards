@@ -56,23 +56,31 @@ Pedido literal do usuário, para ler com atenção antes de começar (ainda não
 > para treinar por flashcards e aprender/fixar os assuntos. Crie também um arquivo com
 > tabelas/escalas que são cobradas ex: Forrest, Child-Puigh, etc."
 
-Ou seja, depois de terminar os 46 resumos:
-- **Um arquivo de flashcards por assunto do 80/20** (46 arquivos), formato Anki — decidir entre
-  `.txt` separado por tabulação (formato de importação nativo do Anki, suporta nota tipo Basic e
-  Cloze com `{{c1::...}}`) ou outro formato que o usuário aceite; a essa altura, considerar perguntar
-  ao usuário se ele já tem preferência de formato/onde esses arquivos devem morar no repo (não
-  existe pasta para isso ainda — sugestão: `banco-questoes-enare/flashcards/` ou
-  `banco-questoes-enare/anki/`, a definir). Usar cloze deletion e outros métodos didáticos, conforme
-  pedido — não é só pergunta/resposta simples.
-- **Um arquivo separado com escalas e tabelas cobradas** no corpus: pelo menos Forrest (sangramento
-  digestivo), Child-Pugh, e vasculhar o corpus por outras (NYHA já apareceu — ver `insuficiencia-cardiaca`
-  na tabela "Grounding"; TI-RADS e Bethesda em `doencas-da-tireoide`; CURB-65/critérios de gravidade
-  de PAC em `pneumonias`; Gleason em `rastreamento-oncologico`; CHA₂DS₂-VASc/HAS-BLED aparecem nas
-  vinhetas de `disturbios-da-hemostasia`). Vale reler os 212 enunciados (estão nos JSONs de
-  `data/provas/`) para não deixar escala nenhuma de fora.
-- Isso é conteúdo novo, não estava no plano original — **não tem HANDOFF pronto pra essa parte**, só
-  o pedido literal acima. Ao começar, vale confirmar com o usuário formato de arquivo antes de gerar
-  os 46 de uma vez, para não ter que refazer.
+**Concluído nesta sessão** (commit `1610ee5`). O usuário confirmou por `AskUserQuestion`: formato
+`.txt` tabulado (importação nativa do Anki) e pasta `banco-questoes-enare/data/flashcards/`; pediu
+também explicitamente ser "muito didático", usar mnemônicos e imagens quando necessário.
+
+Resultado: **47 arquivos** em `data/flashcards/` — um por assunto do 80/20 (46, mesmos slugs do
+ranking) + `escalas-e-tabelas.txt`. Formato: notetype **Cloze** do Anki (não Basic — decisão tomada
+nesta sessão para evitar a complexidade/risco de misturar dois notetypes num único arquivo de
+importação), cabeçalho `#separator:tab / #html:true / #notetype:Cloze / #deck:ENARE-EBSERH::80-20::
+<Tema>::<Assunto>`, 3 campos por linha (`Text`, `Extra`, `Tags`). Conteúdo gerado a partir dos
+resumos já escritos em `data/resumos/<slug>.ts` (mesma fonte de verdade médica, sem inventar fatos
+novos), citando banca/ano/número real nas tags quando ligado a uma questão do corpus. Todo arquivo
+tem pelo menos 1 card de mnemônico (rotulado como consagrado ou como "recurso próprio", nunca
+apresentado como oficial se foi inventado). 13 diagramas SVG em `data/flashcards/media/` (algoritmos/
+fluxogramas esquemáticos, nunca imagens médicas "realistas" tipo ECG/radiografia/histologia — só 2
+chegam perto de ECG e são esquemáticos/rotulados, não traçados realistas). 779 cards no total.
+
+`escalas-e-tabelas.txt` cobre as 14 escalas/tabelas confirmadas relendo `statement`/`keywords` dos
+212 enunciados em `data/provas/*.json` (script Python ad-hoc, não commitado): **Forrest**,
+**Child-Pugh**, **MELD**, **King's College**, **HAS-BLED**, **CHA₂DS₂-VASc**, **TI-RADS**,
+**Bethesda**, **Gleason**, **CURB-65**, **FIB-4**, **NAFLD Fibrosis Score**, **NYHA**, **Glasgow**.
+
+Validação feita: script de validação (ad-hoc, removido do repo antes do commit) conferiu header de 4
+linhas, 3 campos por linha de dado, todo card com marcador `{{c#::}}`, e que toda imagem referenciada
+existe em `media/`. Todos os 13 SVGs verificados como XML válido. Não foi possível testar a importação
+real num Anki (sem app disponível no ambiente) — só a validação estrutural do formato de texto.
 
 ## Ranking 80/20 (46 assuntos, rank|tema|assunto|slug|total|percent|cumulativePercent)
 
@@ -320,24 +328,20 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 ## Pendências
 
 - **Os 46 resumos do 80/20 estão prontos e registrados** — nada pendente nessa frente.
-- **Próxima tarefa (ainda não iniciada)**: 46 arquivos de flashcard estilo Anki (um por assunto do
-  80/20) + 1 arquivo de escalas/tabelas (Forrest, Child-Pugh, e outras a levantar relendo os
-  enunciados). Ver seção "Depois dos resumos" acima para o pedido literal do usuário — formato de
-  arquivo ainda não decidido, considerar perguntar ao usuário antes de gerar os 46 de uma vez.
-- Nenhum PR novo a abrir — já existe o #2, é só continuar empurrando pra mesma branch.
+- **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão prontos, validados e commitados**
+  (commit `1610ee5`) — nada pendente nessa frente também. Ver "Estado Atual" acima para detalhes de
+  formato/decisões.
+- **Não testado**: importação real num app Anki (ambiente desta sessão não tem Anki instalado) — só
+  validação estrutural do texto (header, 3 campos por linha, cloze presente, imagens existem). Se o
+  usuário reportar problema de importação, provavelmente é algo sutil do parser real do Anki que a
+  validação estrutural não pegou.
+- Nenhuma tarefa nova pendente no momento — aguardar próximo pedido do usuário. Nenhum PR novo a
+  abrir sem pedido explícito — já existe o #2, é só continuar empurrando pra mesma branch.
 
 ## Próxima Ação
 
-1. Ler com atenção o pedido literal do usuário na seção "Depois dos resumos: nova tarefa pedida
-   pelo usuário (flashcards Anki + tabelas/escalas)" acima.
-2. Confirmar com o usuário o formato de arquivo dos flashcards (ex.: `.txt` separado por tabulação,
-   formato nativo de importação do Anki, com Basic e Cloze) e onde eles devem morar no repo
-   (sugestão: `banco-questoes-enare/flashcards/` ou `banco-questoes-enare/anki/`) antes de gerar os
-   46 de uma vez.
-3. Reler os 212 enunciados em `data/provas/*.json` para levantar todas as escalas/tabelas cobradas
-   (Forrest, Child-Pugh, NYHA, TI-RADS, Bethesda, CURB-65, Gleason, CHA₂DS₂-VASc/HAS-BLED — lista
-   inicial na seção acima, não exaustiva) antes de escrever o arquivo de escalas.
-4. Escrever os 46 arquivos de flashcards + 1 arquivo de escalas, commit, push na mesma branch.
+Nenhuma ação pendente definida — as duas tarefas do usuário (resumos 80/20 e flashcards Anki +
+escalas) estão concluídas e pushadas. Aguardar próximo pedido.
 
 ## Convenções e Restrições
 

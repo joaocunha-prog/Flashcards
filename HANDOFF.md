@@ -2,230 +2,401 @@
 
 ## Objetivo
 
-Banco de questões e simulados para a prova de **R+ Clínica Médica da UERJ**. Análise de incidência
-por assunto, ranking 80/20, resolução sem gabarito, comentários em medicina baseada em evidências e
-geração de provas inéditas.
+Banco de questões ENARE + EBSERH (Grupo Clínica Médica). Mesma base de código do
+`banco-questoes-uerj/`, projeto em `banco-questoes-enare/`. Branch: **`claude/enare-project-setup-b3ilb6`**
+(não é a default do repo — a default é `claude/banco-questoes-r-uerj-3d1xr7`, do projeto UERJ).
+**PR aberto: #2** (`joaocunha-prog/Flashcards`), branch de origem para a default. Todo o trabalho até
+aqui está commitado e pushado nessa branch, exceto os 4 arquivos de resumo listados abaixo em
+"Estado Atual", que estão no working tree local desta sessão sem commit ainda.
 
-Projeto em `banco-questoes-uerj/`. Branch principal (default do repositório, não existe `main`):
-**`claude/banco-questoes-r-uerj-3d1xr7`**. Todo o trabalho está mesclado nela e pushado; as branches
-de feature usadas no caminho (`claude/retomar-sessao-toq38p`, `claude/prova-na-integra`) já foram
-integradas e podem ser apagadas. Último commit: veja `git log -1`. Árvore limpa.
-
-**Comece pelo [GUIA.md](banco-questoes-uerj/GUIA.md)** para subir a aplicação e para incluir provas,
-gabaritos e comentários — é o passo a passo operacional. O README do projeto explica as decisões.
+**Comece pelo [GUIA.md](banco-questoes-enare/GUIA.md)** para subir a aplicação. O README do projeto
+explica as decisões e já documenta as estatísticas reais do corpus.
 
 ## Estado Atual
 
-**Banco populado e funcional.** 247 questões oficiais de 2021–2025 importadas (250 aplicadas menos
-as 3 anuladas de 2021: Q22, Q31, Q42). Ranking e curva 80/20 recalculados: 11 temas, 70 assuntos,
-38 dentro do corte de 80%. Dificuldade derivada do % real de acerto do caderno (≥70 FACIL, 45–69
-MEDIA, <45 DIFICIL): 104/101/42.
+**Banco de questões pronto: 212 questões em 4 provas**, commitadas em `data/provas/`:
+`enare-2025.json` (77), `enare-2026.json` (77), `ebserh-2025.json` (30), `ebserh-2026.json` (28).
 
-**Comentários: 247 de 247 — CORPUS COMPLETO.**
+Estatísticas reais já calculadas (rodando localmente, documentadas no README, **não populadas em
+nenhum banco persistente** — o usuário disse que vai passar a `DATABASE_URL`/`DIRECT_URL` reais
+depois; até lá, populei um Postgres local só para calcular e documentar, e não deixei nada rodando).
+15 temas, 85 assuntos com pelo menos 1 questão, **46 assuntos dentro do corte 80/20** (lista completa
+abaixo). Dificuldade: ENARE medida pelo % real de acerto do caderno (88 FACIL / 47 MEDIA / 19
+DIFICIL nas 154 questões ENARE); EBSERH sem essa estatística na fonte, entra com `MEDIA` padrão nas
+58 questões (documentado no `reference` de cada prova EBSERH).
 
-| Prova | Comentadas |
-| --- | --- |
-| 2021 | 47/47 |
-| 2022 | 50/50 |
-| 2023 | 50/50 |
-| 2024 | 50/50 |
-| 2025 | 50/50 |
+**Feature "Resumos: 80/20 e Selecionados" já implementada e no ar** (commit `dde78c4`): duas abas na
+página `/resumos`, model `ResumoSelection` no schema, endpoint `PATCH /api/resumos/[slug]/select`,
+componentes `ResumosTabs`/`SelectResumoButton`. Replicada também em `banco-questoes-uerj/` (mesmo
+código). Isso já está pronto — não precisa mexer.
 
-Todas as questões carregam o comentário automaticamente ao serem respondidas. O botão "Explicar
-com Claude" segue disponível para questões futuras (provas novas ou geradas), e "Gerar novamente"
-permanece em todas.
+### Tarefa em andamento: escrever os 46 resumos do corte 80/20
 
-**Não existe `ANTHROPIC_API_KEY` neste ambiente.** `npm run explain:all` recusa rodar e sai com
-código 1. Os 247 comentários foram escritos diretamente pelo modelo que conduzia a sessão —
-177 por `claude-opus-5` e 70 por `claude-sonnet-5` (2022 Q31–50 e a prova de 2023 inteira) — e
-importados por `npm run explain:import`. A procedência de cada lote está registrada no mapa
-`MODELO_POR_ARQUIVO`, em `scripts/import-explanations.ts`: **ao acrescentar um arquivo novo,
-registre ali o modelo que o escreveu** se não for o padrão (`claude-opus-5`).
+O usuário pediu **"Crie os resumos dos tópicos do 80/20"**. Cada resumo é um arquivo
+`data/resumos/<slug>.ts` no formato de `banco-questoes-uerj/data/resumos/*.ts` (ver qualquer um lá
+como referência de tom/profundidade — ex.: `hiv-aids.ts` de lá tem a mesma estrutura, mas cobre
+OUTRAS questões, do corpus da UERJ, não deste). Seções usadas (nem todas obrigatórias em todo
+resumo — ver `src/lib/resumoSections.ts` para a lista completa de emojis reconhecidos:
+🎯 essencial, 💎 pearls, ⚠️ pitfalls, 📝 enare ("Como a banca cobra"), 🆕 atualização, 🧠 conceito,
+🩺 quadro clínico, 🔎 diagnóstico, 🚨 gravidade, 💊 tratamento, 🔀 diferencial, 🔤 mnemônicos,
+📋 tabela, 📚 referências — título "outra" cai em qualquer emoji não listado):
 
-**Sobre o Postgres.** No início desta sessão não havia `/tmp/pgdata` nem `.env`, e foi preciso
-rodar `initdb`, criar o banco, escrever o `.env` (com `DATABASE_URL` **e** `DIRECT_URL` — o schema
-exige as duas) e reimportar tudo. Depois disso o datadir **persistiu** entre reinícios do container,
-mas o **serviço cai** e precisa ser reiniciado com `pg_ctl start` a cada retomada. O bloco
-"Comandos Úteis" cobre os dois cenários — rode `pg_isready` primeiro para saber qual se aplica.
+Template usado nos 4 já escritos (leve, ~90-110 linhas): 🎯 Essencial, 💎 Pearls, ⚠️ Pitfalls,
+📝 Como a banca cobra, 🧠 Conceito e fisiopatologia, 🩺 Quadro clínico, 🔎 Diagnóstico,
+💊 Tratamento, 📚 Referências essenciais. A seção "Como a banca cobra" **precisa citar board (ENARE
+ou EBSERH), ano e número da questão real** — os dados estão na tabela "Grounding" abaixo, não invente.
 
-## O que Foi Feito na Última Sessão
+**JÁ ESCRITOS (4 de 46)** — arquivos no working tree, **ainda não commitados nem registrados em
+`content.ts`/`slugs.ts`**:
+1. `hiv-aids.ts` (rank 1)
+2. `disturbios-da-hemostasia.ts` (rank 2)
+3. `emergencias-oncologicas.ts` (rank 3)
+4. `neuroinfeccao-e-emergencias-neurologicas.ts` (rank 4)
 
-- **Comentários: 147 → 247/247.** Provas de 2024 e 2025 escritas do zero; 2022 e 2023 concluídas.
-- **Modo de simulado "Prova na íntegra"** — escolhe uma prova oficial (2021–2025) e resolve o
-  caderno completo, na ordem original, sem sorteio nem corte por tamanho ou dificuldade.
-- **Assunto oculto até responder.** Tema, subtema, tópico, palavras-chave e o cartão de incidência
-  saíram do payload da tela de resolução enquanto não há tentativa registrada — o endpoint de
-  resposta os devolve junto do resultado. O card de palavras-chave era o pior vazamento: na 2022 Q1
-  ele exibia "erlotinibe", que é a resposta.
-- **Tabelas nos comentários passaram a renderizar.** O renderizador caseiro não as conhecia e 59
-  comentários (um quarto) exibiam os pipes literais colados num parágrafo.
-- **Procedência dos comentários corrigida** — `import-explanations.ts` gravava a constante
-  `claude-opus-5` em tudo, inclusive nos 70 lotes escritos por Sonnet 5.
-- **GUIA.md criado**; `data/types.ts` passou a declarar `excludeFromStats`, que faltava.
+**FALTAM 42** — ranks 5 a 46, lista completa com slug exato na tabela "Ranking 80/20" abaixo.
 
-## Decisões Confirmadas
+**Depois de escrever os 46:**
+1. Registrar cada um em `data/resumos/content.ts` — import + entrada no objeto `RESUMO_CONTENT`
+   (chave = slug, valor = o conteúdo importado). Hoje esse arquivo está vazio
+   (`export const RESUMO_CONTENT: Partial<Record<string, string>> = {};`).
+2. Registrar os 46 slugs em `data/resumos/slugs.ts`, no array `RESUMO_SLUGS` (hoje `[] as const`).
+3. `npx tsc --noEmit` dentro de `banco-questoes-enare/` — tem que passar limpo.
+4. Testar de verdade: subir Postgres local (ver "Comandos Úteis"), importar as 4 provas, `npm run
+   build`, subir o servidor, abrir `/resumos` e conferir que as duas abas (80/20 tem que mostrar os
+   46) renderizam e que um resumo individual abre sem erro de parsing de seção.
+5. Commit + push na branch `claude/enare-project-setup-b3ilb6`.
 
-- **Modelos padrão:** explicações em `claude-sonnet-5`; geração de provas inéditas em
-  `claude-opus-5`. `ANTHROPIC_MODEL` sobrescreve os dois.
-- **O usuário pediu Sonnet 5 para os comentários.** Na prática, cada lote saiu no modelo que o
-  ambiente rodava naquela sessão — 177 em Opus 5 e 70 em Sonnet 5. Isso foi comunicado e aceito.
-  O campo `model` de cada `Explanation` registra a procedência real desde a correção do mapa
-  `MODELO_POR_ARQUIVO` (antes gravava `claude-opus-5` em tudo, inclusive nos lotes de Sonnet).
-- **Comentário só chega ao cliente depois da resposta.** A questão carrega apenas o booleano
-  `hasExplanation`; o texto sai pelo endpoint de explicação, que exige tentativa registrada (409).
-- **Questão com comentário pronto não mostra o botão** "Explicar com Claude" — o texto carrega
-  sozinho ao responder. "Gerar novamente" permanece nos dois casos.
-- **Geração antecipada em lote contraria a especificação original** ("nunca previamente"). Foi
-  decisão explícita do usuário, documentada no README e no cabeçalho de `scripts/explain-all.ts`.
-- **`EXPLANATION_PROMPT_VERSION` está em 2 e NÃO deve ser incrementada sem necessidade real.** Ela
-  entra na chave do cache: subir para 3 aposentaria os 247 comentários gravados e devolveria o botão
-  "Explicar com Claude" a todas as questões. O critério é a ESTRUTURA de seções — afinar o texto do
-  prompt dentro de uma seção existente não exige incremento.
-- **10 questões têm `reviewNote`** — ressalva editorial sobre o gabarito oficial, exibida em painel
-  âmbar após a resposta (nunca antes, porque cita a letra correta): 2021 Q29/41/43/45, 2022 Q45,
-  2023 Q16, 2024 Q16/28, 2025 Q32/34.
-- **README raiz reescrito** para descrever só este projeto.
-- **Resíduos do app antigo de controle de gastos removidos** — pastas `server/`, `public/` e
-  `shared/` (sem `package.json` na raiz e nada as referenciava) apagadas do repositório; entrada
-  morta `server/data/expenses.json` também tirada do `.gitignore`.
+### Depois dos resumos: nova tarefa pedida pelo usuário (flashcards Anki + tabelas/escalas)
 
-## Arquivos Modificados
+Pedido literal do usuário, para ler com atenção antes de começar (ainda não iniciado):
 
-- `README.md` (raiz) — reescrito, só o banco de questões.
-- `banco-questoes-uerj/README.md` — corpus, ressalvas de gabarito, custo, `explain:all`,
-  `explain:import`, cobertura, deploy.
-- `banco-questoes-uerj/prisma/schema.prisma` — `Question.reviewNote String? @db.Text`.
-- `banco-questoes-uerj/data/types.ts` + `src/lib/import.ts` — campo `reviewNote` no formato de
-  importação.
-- `banco-questoes-uerj/src/lib/claude.ts` — `EXPLANATION_MODEL = 'claude-sonnet-5'`.
-- `banco-questoes-uerj/src/lib/generate.ts` — `GENERATION_MODEL = 'claude-opus-5'`.
-- `banco-questoes-uerj/src/lib/serializers.ts` — `hasExplanation` no `SafeQuestion`; `_count` de
-  explicações compartilhadas no `questionInclude`.
-- `banco-questoes-uerj/src/app/api/questions/[id]/answer/route.ts` — devolve `reviewNote`.
-- `banco-questoes-uerj/src/app/api/questions/[id]/explain/route.ts` — cache em duas camadas
-  (usuário → compartilhada).
-- `banco-questoes-uerj/src/components/QuestionSolver.tsx` — painel de ressalva, botão condicional,
-  carregamento automático. **Bug corrigido:** o efeito de reset dependia de `userState` e apagava o
-  resultado após `router.refresh()`; agora depende só de `question.id`.
-- `banco-questoes-uerj/scripts/explain-all.ts` — geração em lote via API (novo).
-- `banco-questoes-uerj/scripts/import-explanations.ts` — importa `data/comentarios/` (novo); passou
-  a registrar a **procedência real** de cada lote pelo mapa `MODELO_POR_ARQUIVO` (antes gravava a
-  constante `claude-opus-5` em tudo, contrariando a própria documentação do script).
-- `banco-questoes-uerj/GUIA.md` — **novo.** Passo a passo operacional: subir a aplicação, incluir
-  provas com gabarito e incluir comentários.
-- `banco-questoes-uerj/src/lib/markdown.ts` — passou a renderizar **tabelas** (59 comentários as
-  usam); reconhece o bloco pela linha separadora e suporta alinhamento.
-- `banco-questoes-uerj/src/app/globals.css` — estilo das tabelas, com rolagem própria.
-- `banco-questoes-uerj/src/lib/quiz.ts` + `src/components/QuizBuilder.tsx` +
-  `src/app/simulados/page.tsx` — modo **PROVA_INTEGRA**.
-- `banco-questoes-uerj/scripts/extracao/` — pipeline PDF → JSON (`extract.mjs`, `parse.mjs`,
-  `build.mjs`, `classificacao.json`, `ressalvas.json`, `README.md`).
-- `banco-questoes-uerj/data/provas/uerj-{2021..2025}.json` — 247 questões.
-- `banco-questoes-uerj/data/comentarios/` — `uerj-2021.json`, `uerj-2021-b.json`, `uerj-2021-c.json`,
-  `uerj-2022.json`, `uerj-2022-b.json`, `uerj-2022-c.json`, `uerj-2023.json`, `uerj-2023-b.json`,
-  `uerj-2023-c.json`, `uerj-2024.json`, `uerj-2024-b.json`, `uerj-2024-c.json`, `uerj-2025.json`,
-  `uerj-2025-b.json`, `uerj-2025-c.json` — **corpus completo, 247 comentários**.
+> "Na sequencia preciso que você crie arquivos flashcards no modelo do Anki, pode usar metodos como
+> cloze e outros para ser didaticos. Cada arquivo é um dos tópicos dos 80/20 e deve ser didatico
+> para treinar por flashcards e aprender/fixar os assuntos. Crie também um arquivo com
+> tabelas/escalas que são cobradas ex: Forrest, Child-Puigh, etc."
+
+Ou seja, depois de terminar os 46 resumos:
+- **Um arquivo de flashcards por assunto do 80/20** (46 arquivos), formato Anki — decidir entre
+  `.txt` separado por tabulação (formato de importação nativo do Anki, suporta nota tipo Basic e
+  Cloze com `{{c1::...}}`) ou outro formato que o usuário aceite; a essa altura, considerar perguntar
+  ao usuário se ele já tem preferência de formato/onde esses arquivos devem morar no repo (não
+  existe pasta para isso ainda — sugestão: `banco-questoes-enare/flashcards/` ou
+  `banco-questoes-enare/anki/`, a definir). Usar cloze deletion e outros métodos didáticos, conforme
+  pedido — não é só pergunta/resposta simples.
+- **Um arquivo separado com escalas e tabelas cobradas** no corpus: pelo menos Forrest (sangramento
+  digestivo), Child-Pugh, e vasculhar o corpus por outras (NYHA já apareceu — ver `insuficiencia-cardiaca`
+  na tabela "Grounding"; TI-RADS e Bethesda em `doencas-da-tireoide`; CURB-65/critérios de gravidade
+  de PAC em `pneumonias`; Gleason em `rastreamento-oncologico`; CHA₂DS₂-VASc/HAS-BLED aparecem nas
+  vinhetas de `disturbios-da-hemostasia`). Vale reler os 212 enunciados (estão nos JSONs de
+  `data/provas/`) para não deixar escala nenhuma de fora.
+- Isso é conteúdo novo, não estava no plano original — **não tem HANDOFF pronto pra essa parte**, só
+  o pedido literal acima. Ao começar, vale confirmar com o usuário formato de arquivo antes de gerar
+  os 46 de uma vez, para não ter que refazer.
+
+## Ranking 80/20 (46 assuntos, rank|tema|assunto|slug|total|percent|cumulativePercent)
+
+\`\`\`
+1|Infectologia|HIV/AIDS|hiv-aids|11|5.19|5.19
+2|Hematologia|Distúrbios da hemostasia|disturbios-da-hemostasia|9|4.25|9.43
+3|Oncologia|Emergências oncológicas|emergencias-oncologicas|7|3.3|12.74
+4|Neurologia|Neuroinfecção e emergências neurológicas|neuroinfeccao-e-emergencias-neurologicas|7|3.3|16.04
+5|Gastroenterologia e Hepatologia|Cirrose e complicações|cirrose-e-complicacoes|6|2.83|18.87
+6|Gastroenterologia e Hepatologia|Diarreias e má absorção|diarreias-e-ma-absorcao|6|2.83|21.7
+7|Infectologia|Doenças tropicais e negligenciadas|doencas-tropicais-e-negligenciadas|6|2.83|24.53
+8|Nefrologia|Rim em situações especiais|rim-em-situacoes-especiais|6|2.83|27.36
+9|Gastroenterologia e Hepatologia|Hepatopatias não virais|hepatopatias-nao-virais|5|2.36|29.72
+10|Infectologia|Infecções relacionadas à assistência|infeccoes-relacionadas-a-assistencia|5|2.36|32.08
+11|Cardiologia|Insuficiência cardíaca|insuficiencia-cardiaca|5|2.36|34.43
+12|Neurologia|Distúrbios motores|disturbios-motores|4|1.89|36.32
+13|Nefrologia|Doença renal crônica|doenca-renal-cronica|4|1.89|38.21
+14|Endocrinologia|Doenças da tireoide|doencas-da-tireoide|4|1.89|40.09
+15|Neurologia|Doenças neuromusculares|doencas-neuromusculares|4|1.89|41.98
+16|Infectologia|Infecções de pele e partes moles|infeccoes-de-pele-e-partes-moles|4|1.89|43.87
+17|Infectologia|Infecções do trato urinário|infeccoes-do-trato-urinario|4|1.89|45.75
+18|Infectologia|Infecções sexualmente transmissíveis|infeccoes-sexualmente-transmissiveis|4|1.89|47.64
+19|Reumatologia|Manifestações cutâneas|manifestacoes-cutaneas|4|1.89|49.53
+20|Gastroenterologia e Hepatologia|Motilidade intestinal|motilidade-intestinal|4|1.89|51.42
+21|Hematologia|Anemias|anemias|3|1.42|52.83
+22|Cardiologia|Arritmias|arritmias|3|1.42|54.25
+23|Pneumologia|Asma|asma|3|1.42|55.66
+24|Endocrinologia|Diabetes mellitus|diabetes-mellitus|3|1.42|57.08
+25|Cardiologia|Dislipidemia|dislipidemia|3|1.42|58.49
+26|Nefrologia|Distúrbios hidroeletrolíticos|disturbios-hidroeletroliticos|3|1.42|59.91
+27|Emergências e Terapia Intensiva|Intoxicações exógenas|intoxicacoes-exogenas|3|1.42|61.32
+28|Gastroenterologia e Hepatologia|Nutrição|nutricao|3|1.42|62.74
+29|Pneumologia|Pneumonias|pneumonias|3|1.42|64.15
+30|Oncologia|Rastreamento oncológico|rastreamento-oncologico|3|1.42|65.57
+31|Reumatologia|Artrites microcristalinas|artrites-microcristalinas|2|0.94|66.51
+32|Geriatria|Avaliação geriátrica ampla|avaliacao-geriatrica-ampla|2|0.94|67.45
+33|Emergências e Terapia Intensiva|Avaliação perioperatória|avaliacao-perioperatoria|2|0.94|68.4
+34|Pneumologia|Derrame pleural|derrame-pleural|2|0.94|69.34
+35|Endocrinologia|Doenças da adrenal|doencas-da-adrenal|2|0.94|70.28
+36|Cardiologia|Doenças do pericárdio e miocárdio|doencas-do-pericardio-e-miocardio|2|0.94|71.23
+37|Gastroenterologia e Hepatologia|Doenças inflamatórias intestinais|doencas-inflamatorias-intestinais|2|0.94|72.17
+38|Pneumologia|Doenças intersticiais|doencas-intersticiais|2|0.94|73.11
+39|Pneumologia|DPOC|dpoc|2|0.94|74.06
+40|Nefrologia|Glomerulopatias|glomerulopatias|2|0.94|75
+41|Cardiologia|Hipertensão arterial|hipertensao-arterial|2|0.94|75.94
+42|Nefrologia|Injúria renal aguda|injuria-renal-aguda|2|0.94|76.89
+43|Reumatologia|Síndromes autoimunes induzidas|sindromes-autoimunes-induzidas|2|0.94|77.83
+44|Neurologia|Síndromes vasculares|sindromes-vasculares|2|0.94|78.77
+45|Neurologia|Síndromes vestibulares|sindromes-vestibulares|2|0.94|79.72
+46|Infectologia|Tuberculose|tuberculose|2|0.94|80.66
+\`\`\`
+
+## Grounding — questões reais por assunto (slug|board|ano|número|tópico|dificuldade)
+
+Usado para escrever a seção "Como a banca cobra" de cada resumo com precisão (não inventar
+ano/número). Extraído de `data/provas/*.json` via SQL depois de importar num Postgres local.
+
+\`\`\`
+anemias|ENARE|2026|15|Anemia ferropriva — perfil laboratorial|FACIL
+anemias|ENARE|2026|18|Deficiência de vitamina B12 — degeneração combinada subaguda|FACIL
+anemias|ENARE|2026|71|Pancitopenia — investigação inicial|FACIL
+arritmias|EBSERH|2025|45|Síndrome de Wolff-Parkinson-White — achados eletrocardiográficos|MEDIA
+arritmias|ENARE|2025|33|Extrassístoles ventriculares benignas em assintomático|FACIL
+arritmias|ENARE|2025|59|Bloqueio atrioventricular Mobitz II — indicação de marcapasso|FACIL
+artrites-microcristalinas|EBSERH|2025|44|Gota — fármacos com efeito uricosúrico incidental|MEDIA
+artrites-microcristalinas|ENARE|2026|75|Líquido sinovial na gota|DIFICIL
+asma|EBSERH|2025|35|Inflamação tipo 2 — IL-4, IL-5 e IL-13|MEDIA
+asma|EBSERH|2026|38|Asma quase fatal — retenção de CO2 e falência ventilatória iminente|MEDIA
+asma|ENARE|2026|20|Asma não controlada — fenótipo alérgico e terapia biológica|FACIL
+avaliacao-geriatrica-ampla|EBSERH|2025|55|Delirium no idoso — evitar benzodiazepínicos|MEDIA
+avaliacao-geriatrica-ampla|ENARE|2025|18|Síndrome consumptiva no idoso — principais causas|FACIL
+avaliacao-perioperatoria|ENARE|2025|55|Manejo perioperatório de estatina|FACIL
+avaliacao-perioperatoria|ENARE|2026|56|Avaliação de risco cardiovascular pré-operatório|MEDIA
+cirrose-e-complicacoes|EBSERH|2026|39|Síndrome hepatorrenal — terlipressina e albumina|MEDIA
+cirrose-e-complicacoes|ENARE|2025|8|Ascite por cirrose hepática — GASA e proteína do líquido|FACIL
+cirrose-e-complicacoes|ENARE|2025|40|Ascite por hepatopatia congestiva|FACIL
+cirrose-e-complicacoes|ENARE|2026|16|Peritonite bacteriana espontânea|FACIL
+cirrose-e-complicacoes|ENARE|2026|40|Ascite por carcinomatose peritoneal — GASA baixo|MEDIA
+cirrose-e-complicacoes|ENARE|2026|79|Ascite por carcinomatose peritoneal — GASA baixo|FACIL
+derrame-pleural|ENARE|2025|19|Semiologia do derrame pleural|MEDIA
+derrame-pleural|ENARE|2026|27|Semiologia do derrame pleural|FACIL
+diabetes-mellitus|EBSERH|2025|41|Diabetes tipo 2 — componente genético|MEDIA
+diabetes-mellitus|EBSERH|2025|42|Controle glicêmico intensivo no idoso — mortalidade|MEDIA
+diabetes-mellitus|ENARE|2025|49|Hipoglicemia grave fora do hospital — glucagon|MEDIA
+diarreias-e-ma-absorcao|EBSERH|2025|56|Esteatorreia — abetalipoproteinemia|MEDIA
+diarreias-e-ma-absorcao|ENARE|2026|5|Parasitoses intestinais como diferencial de SII|MEDIA
+diarreias-e-ma-absorcao|ENARE|2026|21|Doença celíaca — sorologia inicial|FACIL
+diarreias-e-ma-absorcao|ENARE|2026|45|Doença celíaca — sorologia positiva|FACIL
+diarreias-e-ma-absorcao|ENARE|2026|51|Doença de Whipple|FACIL
+diarreias-e-ma-absorcao|ENARE|2026|55|Investigação de doença celíaca em diabético tipo 1|MEDIA
+dislipidemia|ENARE|2025|34|Doença arterial periférica — terapia hipolipemiante de alta intensidade|FACIL
+dislipidemia|ENARE|2025|45|Hipertrigliceridemia grave refratária a fibrato|DIFICIL
+dislipidemia|ENARE|2026|47|Ácido bempedoico — nova classe hipolipemiante|FACIL
+disturbios-da-hemostasia|EBSERH|2025|49|Púrpura trombocitopênica trombótica — perfil laboratorial|MEDIA
+disturbios-da-hemostasia|EBSERH|2026|35|Anticoagulação após hemorragia digestiva — reinício entre o 3º e o 7º dia|MEDIA
+disturbios-da-hemostasia|ENARE|2025|13|Tromboembolismo venoso associado a câncer|MEDIA
+disturbios-da-hemostasia|ENARE|2025|23|Doença de von Willebrand|FACIL
+disturbios-da-hemostasia|ENARE|2025|24|Trombofilia hereditária — investigação após TVP recorrente|MEDIA
+disturbios-da-hemostasia|ENARE|2025|42|Manejo perioperatório de anticoagulação (bridging)|FACIL
+disturbios-da-hemostasia|ENARE|2026|60|Doença de von Willebrand|FACIL
+disturbios-da-hemostasia|ENARE|2026|65|Trombose venosa profunda — anticoagulação com apixabana|MEDIA
+disturbios-da-hemostasia|ENARE|2026|80|Reversão de dabigatrana — idarucizumabe|FACIL
+disturbios-hidroeletroliticos|ENARE|2025|1|Hiponatremia hipovolêmica sintomática grave|MEDIA
+disturbios-hidroeletroliticos|ENARE|2026|12|SIADH — hiponatremia grave sintomática|FACIL
+disturbios-hidroeletroliticos|ENARE|2026|72|Hipercalemia — alterações eletrocardiográficas|MEDIA
+disturbios-motores|ENARE|2025|44|Hipotensão ortostática neurogênica na doença de Parkinson|FACIL
+disturbios-motores|ENARE|2025|47|Síndrome das pernas inquietas — cinética do ferro|FACIL
+disturbios-motores|ENARE|2025|52|Doença de Parkinson — interação da levodopa com piridoxina|MEDIA
+disturbios-motores|ENARE|2025|53|Tremor essencial — betabloqueador|FACIL
+doenca-renal-cronica|EBSERH|2025|39|Uremia — correlação com taxa de filtração glomerular|MEDIA
+doenca-renal-cronica|EBSERH|2025|57|Limitações da dosagem de ureia na avaliação renal|MEDIA
+doenca-renal-cronica|ENARE|2026|2|Finerenona na DRC diabética|FACIL
+doenca-renal-cronica|ENARE|2026|70|Vacinação do paciente com DRC — vacina contra VSR|FACIL
+doencas-da-adrenal|EBSERH|2025|34|Hiperaldosteronismo primário — apresentação e causas|MEDIA
+doencas-da-adrenal|EBSERH|2026|47|Insuficiência adrenal terciária — retirada abrupta de glicocorticoide|MEDIA
+doencas-da-tireoide|EBSERH|2026|46|Tempestade tireotóxica — tratamento inicial|MEDIA
+doencas-da-tireoide|ENARE|2025|61|Tireoidite subaguda de De Quervain|FACIL
+doencas-da-tireoide|ENARE|2026|7|Nódulo tireoidiano — Bethesda III (AUS/FLUS)|MEDIA
+doencas-da-tireoide|ENARE|2026|8|Nódulo tireoidiano — TI-RADS e indicação de PAAF|FACIL
+doencas-do-pericardio-e-miocardio|EBSERH|2026|32|Sarcoidose cardíaca de alto risco — indicação de CDI|MEDIA
+doencas-do-pericardio-e-miocardio|ENARE|2025|70|Cardiomiopatia de Takotsubo|FACIL
+doencas-inflamatorias-intestinais|EBSERH|2025|38|Doença de Crohn — complicações mais prevalentes|MEDIA
+doencas-inflamatorias-intestinais|EBSERH|2026|42|Colite ulcerativa grave com reativação de CMV|MEDIA
+doencas-intersticiais|ENARE|2025|74|Sarcoidose — achados histopatológicos|MEDIA
+doencas-intersticiais|ENARE|2026|25|Diferencial sarcoidose vs. linfoma — biópsia guiada por EBUS|DIFICIL
+doencas-neuromusculares|EBSERH|2025|58|Síndrome de Guillain-Barré — padrão eletroneuromiográfico|MEDIA
+doencas-neuromusculares|ENARE|2025|43|Paralisia periódica hipocalêmica|DIFICIL
+doencas-neuromusculares|ENARE|2026|9|Miastenia gravis com timoma — timectomia|MEDIA
+doencas-neuromusculares|ENARE|2026|48|Afasia de Broca vs. Wernicke|MEDIA
+doencas-tropicais-e-negligenciadas|EBSERH|2025|60|Parasitoses intestinais com passagem pulmonar (síndrome de Löffler)|MEDIA
+doencas-tropicais-e-negligenciadas|EBSERH|2026|52|Doença da arranhadura do gato com neurorretinite|MEDIA
+doencas-tropicais-e-negligenciadas|ENARE|2025|21|Estrongiloidíase disseminada (síndrome de hiperinfecção)|FACIL
+doencas-tropicais-e-negligenciadas|ENARE|2025|76|Oncocercose — tratamento dos vermes adultos|DIFICIL
+doencas-tropicais-e-negligenciadas|ENARE|2025|78|Febre maculosa brasileira — hospedeiro amplificador|FACIL
+doencas-tropicais-e-negligenciadas|ENARE|2026|50|Infecção pelo HTLV-1|MEDIA
+dpoc|EBSERH|2025|36|Exacerbação da DPOC — oxigenoterapia controlada|MEDIA
+dpoc|EBSERH|2026|36|Exacerbação hipercápnica da DPOC — ventilação não invasiva|MEDIA
+emergencias-oncologicas|EBSERH|2025|32|Síndrome da veia cava superior — causas benignas emergentes|MEDIA
+emergencias-oncologicas|ENARE|2025|4|Compressão medular — sinais de alarme em lombalgia|FACIL
+emergencias-oncologicas|ENARE|2025|5|Hipercalcemia maligna — investigação não mediada por PTH|FACIL
+emergencias-oncologicas|ENARE|2025|48|Enterocolite neutropênica (tiflite)|FACIL
+emergencias-oncologicas|ENARE|2026|1|Hipercalcemia maligna|MEDIA
+emergencias-oncologicas|ENARE|2026|11|Compressão medular metastática|FACIL
+emergencias-oncologicas|ENARE|2026|32|Dor oncológica refratária com hipercalcemia leve e insuficiência renal|MEDIA
+glomerulopatias|ENARE|2025|9|Nefropatia membranosa idiopática — anti-PLA2R|FACIL
+glomerulopatias|ENARE|2026|13|Síndrome nefrótica em PVHIV/diabético — investigação etiológica|MEDIA
+hepatopatias-nao-virais|EBSERH|2025|47|Encefalopatia na hepatite aguda — edema cerebral|MEDIA
+hepatopatias-nao-virais|EBSERH|2026|41|Insuficiência hepática aguda — critérios de King's College|MEDIA
+hepatopatias-nao-virais|ENARE|2025|26|Doença hepática esteatótica metabólica — diagnóstico de exclusão|FACIL
+hepatopatias-nao-virais|ENARE|2026|14|Doença hepática esteatótica metabólica — rastreio de fibrose|FACIL
+hepatopatias-nao-virais|ENARE|2026|39|Gastrite atrófica metaplásica autoimune|MEDIA
+hipertensao-arterial|ENARE|2025|50|Hipertensão resistente — quarta droga (espironolactona)|FACIL
+hipertensao-arterial|ENARE|2026|58|Hipertensão resistente — efeito do jaleco branco à MAPA|MEDIA
+hiv-aids|EBSERH|2026|51|Início de TARV em pneumocistose com coinfecção por hepatite B|MEDIA
+hiv-aids|ENARE|2025|2|Coinfecção tuberculose-HIV — início da TARV|FACIL
+hiv-aids|ENARE|2025|20|Colite por citomegalovírus em HIV avançado|MEDIA
+hiv-aids|ENARE|2025|63|Abacavir — rastreio de hipersensibilidade (HLA-B*5701)|FACIL
+hiv-aids|ENARE|2025|73|Síndrome inflamatória da reconstituição imune (IRIS)|FACIL
+hiv-aids|ENARE|2025|77|Leucoplasia pilosa oral|DIFICIL
+hiv-aids|ENARE|2025|79|Sarcoma de Kaposi — herpesvírus 8|MEDIA
+hiv-aids|ENARE|2026|3|Profilaxia pré-exposição (PrEP) oral|FACIL
+hiv-aids|ENARE|2026|38|Coinfecção tuberculose-HIV — momento de início da TARV|MEDIA
+hiv-aids|ENARE|2026|46|Esquema antirretroviral de duas drogas em paciente estável|MEDIA
+hiv-aids|ENARE|2026|77|Controlador de elite do HIV|FACIL
+infeccoes-de-pele-e-partes-moles|EBSERH|2026|54|Fasceíte necrotizante estreptocócica — papel da clindamicina|MEDIA
+infeccoes-de-pele-e-partes-moles|ENARE|2025|7|Osteomielite por contiguidade em lesão por pressão|FACIL
+infeccoes-de-pele-e-partes-moles|ENARE|2025|30|Osteomielite por contiguidade em lesão por pressão|FACIL
+infeccoes-de-pele-e-partes-moles|ENARE|2026|62|Abscesso odontogênico cervical com risco de mediastinite|FACIL
+infeccoes-do-trato-urinario|ENARE|2025|28|Pielonefrite não complicada — tratamento ambulatorial|MEDIA
+infeccoes-do-trato-urinario|ENARE|2025|57|Profilaxia de ITU recorrente|FACIL
+infeccoes-do-trato-urinario|ENARE|2026|36|Cistite não complicada recorrente — tratamento empírico|FACIL
+infeccoes-do-trato-urinario|ENARE|2026|61|Pielonefrite complicada por retenção urinária em paciente oncológico|FACIL
+infeccoes-relacionadas-a-assistencia|EBSERH|2025|51|Prevenção de infecção hospitalar — higiene das mãos|MEDIA
+infeccoes-relacionadas-a-assistencia|EBSERH|2026|40|Colite por Clostridioides difficile — teste molecular|MEDIA
+infeccoes-relacionadas-a-assistencia|ENARE|2025|16|Colite por Clostridioides difficile recorrente/refratária|MEDIA
+infeccoes-relacionadas-a-assistencia|ENARE|2025|29|Bacteremia por Staphylococcus aureus relacionada a cateter|FACIL
+infeccoes-relacionadas-a-assistencia|ENARE|2026|68|Colite por Clostridioides difficile|FACIL
+infeccoes-sexualmente-transmissiveis|ENARE|2025|25|Síndrome artrite-dermatite gonocócica (gonococcemia disseminada)|MEDIA
+infeccoes-sexualmente-transmissiveis|ENARE|2025|64|Sífilis latente tardia em pessoa vivendo com HIV|DIFICIL
+infeccoes-sexualmente-transmissiveis|ENARE|2026|28|Sífilis secundária — diagnóstico e tratamento|MEDIA
+infeccoes-sexualmente-transmissiveis|ENARE|2026|29|Corrimento uretral — manejo sindrômico|FACIL
+injuria-renal-aguda|EBSERH|2026|44|Indicações de terapia renal substitutiva de urgência|MEDIA
+injuria-renal-aguda|ENARE|2025|39|Nefrite intersticial aguda por anti-inflamatório|FACIL
+insuficiencia-cardiaca|EBSERH|2025|33|Classificação funcional NYHA|MEDIA
+insuficiencia-cardiaca|EBSERH|2025|59|Espironolactona na insuficiência cardíaca — benefício de sobrevida|MEDIA
+insuficiencia-cardiaca|EBSERH|2026|31|Choque cardiogênico frio-úmido — inotrópico e vasopressor|MEDIA
+insuficiencia-cardiaca|EBSERH|2026|34|Sacubitril/valsartana — farmacologia de BNP e NT-proBNP|MEDIA
+insuficiencia-cardiaca|ENARE|2025|41|ICFEp — inibidor de SGLT2|FACIL
+intoxicacoes-exogenas|EBSERH|2026|55|Intoxicação por etilenoglicol — indicação de hemodiálise|MEDIA
+intoxicacoes-exogenas|ENARE|2025|51|Síndrome serotoninérgica|FACIL
+intoxicacoes-exogenas|ENARE|2026|24|Intoxicação por metanol|FACIL
+manifestacoes-cutaneas|ENARE|2025|35|Eritema nodoso associado a contraceptivo oral|FACIL
+manifestacoes-cutaneas|ENARE|2026|22|Pitting ungueal e psoríase|FACIL
+manifestacoes-cutaneas|ENARE|2026|26|Pioderma gangrenoso|FACIL
+manifestacoes-cutaneas|ENARE|2026|67|Hidradenite supurativa moderada a grave|FACIL
+motilidade-intestinal|ENARE|2025|11|Pseudo-obstrução colônica aguda (síndrome de Ogilvie) em paciente oncológico|MEDIA
+motilidade-intestinal|ENARE|2025|22|Constipação crônica refratária — impactação fecal|DIFICIL
+motilidade-intestinal|ENARE|2025|36|Neostigmina na pseudo-obstrução colônica — monitorização|FACIL
+motilidade-intestinal|ENARE|2026|64|Pseudo-obstrução intestinal em neuropatia autonômica diabética|FACIL
+neuroinfeccao-e-emergencias-neurologicas|EBSERH|2025|52|AVC isquêmico — critério de imagem para trombólise|MEDIA
+neuroinfeccao-e-emergencias-neurologicas|EBSERH|2026|57|Encefalite límbica autoimune anti-LGI1|MEDIA
+neuroinfeccao-e-emergencias-neurologicas|ENARE|2025|38|Neurocisticercose — investigação complementar|FACIL
+neuroinfeccao-e-emergencias-neurologicas|ENARE|2025|46|Trombose séptica do seio cavernoso|FACIL
+neuroinfeccao-e-emergencias-neurologicas|ENARE|2025|60|Encefalite herpética — tratamento empírico|FACIL
+neuroinfeccao-e-emergencias-neurologicas|ENARE|2026|10|Encefalopatia de Wernicke|MEDIA
+neuroinfeccao-e-emergencias-neurologicas|ENARE|2026|30|Lesão expansiva com crise convulsiva — investigação e anticonvulsivante|FACIL
+nutricao|ENARE|2026|17|Terapia nutricional em íleo pós-operatório com desnutrição grave|MEDIA
+nutricao|ENARE|2026|19|Seguimento nutricional pós-bypass gástrico em Y de Roux|FACIL
+nutricao|ENARE|2026|54|Terapia nutricional em diverticulite complicada|DIFICIL
+pneumonias|EBSERH|2025|46|Pneumonia pneumocócica — sensibilidade da cultura de escarro|MEDIA
+pneumonias|ENARE|2025|27|Pneumonia grave — investigação inicial|FACIL
+pneumonias|ENARE|2026|35|Pneumonia adquirida na comunidade — critério de internação|MEDIA
+rastreamento-oncologico|EBSERH|2025|40|Câncer colorretal — recomendação USPSTF|MEDIA
+rastreamento-oncologico|ENARE|2026|6|Rastreamento de câncer colorretal — pólipo de baixo risco|MEDIA
+rastreamento-oncologico|ENARE|2026|43|Câncer de próstata — escore de Gleason|MEDIA
+rim-em-situacoes-especiais|EBSERH|2025|48|Fatores de risco para nefrolitíase — hipoparatireoidismo como exceção|MEDIA
+rim-em-situacoes-especiais|EBSERH|2026|45|Nefrotoxicidade de polimixina e aminoglicosídeo — túbulo proximal|MEDIA
+rim-em-situacoes-especiais|ENARE|2025|10|Doença ateroembólica de colesterol|DIFICIL
+rim-em-situacoes-especiais|ENARE|2025|75|Nefrolitíase — terapia expulsiva|FACIL
+rim-em-situacoes-especiais|ENARE|2026|63|Doença ateroembólica de colesterol pós-cateterismo|MEDIA
+rim-em-situacoes-especiais|ENARE|2026|73|Nefrolitíase por oxalato de cálcio — profilaxia|MEDIA
+sindromes-autoimunes-induzidas|ENARE|2025|15|Síndrome ASIA por substância oleosa injetável|MEDIA
+sindromes-autoimunes-induzidas|ENARE|2026|78|Síndrome ASIA por implante de silicone|FACIL
+sindromes-vasculares|EBSERH|2026|58|Trombose venosa cerebral com infarto hemorrágico — anticoagulação|MEDIA
+sindromes-vasculares|EBSERH|2026|60|Síndrome da vasoconstrição cerebral reversível|MEDIA
+sindromes-vestibulares|ENARE|2025|31|Doença de Ménière — orientação dietética|DIFICIL
+sindromes-vestibulares|ENARE|2026|49|Doença de Ménière|FACIL
+tuberculose|ENARE|2025|3|Reação paradoxal (IRIS) no tratamento da tuberculose em uso de anti-TNF|DIFICIL
+tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
+\`\`\`
+
+## Decisões Confirmadas Nesta Sessão
+
+- **PDFs de caderno e gabarito do EBSERH vieram com o ano trocado entre si** — descoberto cruzando
+  respostas do gabarito com conhecimento médico (ex.: gabarito "óbvio" marcava presença de
+  hemorragia como achado necessário pra trombolisar AVC, o oposto da contraindicação real). O
+  usuário confirmou a troca ("TTROQUE 2026 COM 2025"); depois de invertida, toda a amostra bateu com
+  a literatura. Ver commit `939612a` para o relato completo.
+- **Estatísticas não vão para nenhum banco persistente por enquanto** — usuário disse "vou te passar
+  [a URL] depois". Interpretação confirmada pelo usuário: calcular localmente e documentar no
+  README (feito, commit `e8f2d58`), sem deixar Postgres nem app rodando.
+- **Resumos seguem o padrão UERJ**, adaptado por questão real do corpus ENARE/EBSERH — não é
+  conteúdo genérico de livro-texto, tem que citar a vinheta/ano/número reais.
 
 ## Pendências
 
-- Nenhum PR aberto. O usuário não pediu.
+- **42 resumos a escrever** (ranks 5–46, ver lista acima) + registrar os 46 em `content.ts`/`slugs.ts`.
+- **Depois**: 46 arquivos de flashcard estilo Anki (um por assunto do 80/20) + 1 arquivo de
+  escalas/tabelas (Forrest, Child-Pugh, e outras a levantar releitura os enunciados). Ver seção
+  específica acima — formato de arquivo ainda não decidido, considerar perguntar ao usuário.
+- Nenhum PR novo a abrir — já existe o #2, é só continuar empurrando pra mesma branch.
 
 ## Próxima Ação
 
-**Não há trabalho pendente aplicado ao código.** Tudo que foi pedido está entregue, mesclado e
-pushado. Há uma proposta discutida em chat e **aprovada pendente de execução**, ver abaixo.
-Sugestões de continuação, todas a confirmar com o usuário antes de executar:
-
-- **Deixar os 247 comentários mais didáticos com emojis nos títulos de seção** (pedido do usuário
-  nesta sessão). Não exige `ANTHROPIC_API_KEY`: é edição leve do texto já existente, feita
-  diretamente pelo modelo (como os comentários originais), não geração via API. Convenção já
-  amostrada em 3 questões (2021 Q1, 2023 Q3, 2024 Q2) e validada com o usuário — emoji **só no
-  título da seção**, nunca no corpo:
-  `## 🎯 Resposta correta`, `## ❌ Por que as outras estão erradas`, `## 📚 Base de evidência`,
-  `## 🧠 Revisão rápida`, `## 💎 Pearls`, `## ⚠️ Pitfalls`, `## 🔤 Mnemônico`,
-  `## ✅ Checagem de consistência` (trocar por `⚠️` se a checagem sinalizar problema no gabarito),
-  `## 🔗 Referências`. Custo estimado ≈ US$ 2–4 em tokens se for feito por API; **US$ 0 se escrito
-  diretamente**, caminho que o usuário escolheu. Antes de rodar nas 247: confirmar que
-  `classifySection()` em `src/lib/markdown.ts` reconhece o título com o emoji na frente (a função
-  casa por `text.includes('pearl')` etc., então em tese não quebra, mas não foi testado de fato —
-  rodar `npx tsx` num teste rápido ou abrir uma questão editada no navegador antes de aplicar a
-  todas). Depois de editar os JSONs em `data/comentarios/`, reimportar com `npm run explain:import`
-  (idempotente, não exige API). Não precisa incrementar `EXPLANATION_PROMPT_VERSION` — é estilo, não
-  estrutura de seção.
-- **Gerar uma prova inédita** com `src/lib/generate.ts` (exige `ANTHROPIC_API_KEY`), usando o
-  ranking 80/20 já calculado. Provas geradas entram com `excludeFromStats: true` e são resolvidas
-  pelo modo "Prova gerada".
-- **Colocar no ar** (Vercel + Supabase). O passo a passo está no README, seção "Colocando no ar".
-- **Apagar as branches de feature já mescladas**: `claude/retomar-sessao-toq38p` e
-  `claude/prova-na-integra`.
+1. Retomar da resumo #5 (`cirrose-e-complicacoes`) em diante, na ordem do ranking, até o #46
+   (`tuberculose`). Usar os 4 já escritos como referência de tom/tamanho.
+2. Registrar todos em `content.ts` e `slugs.ts`, typecheck, testar local, commit, push.
+3. Só depois, começar os flashcards Anki + arquivo de escalas — ver pedido literal do usuário acima.
 
 ## Convenções e Restrições
 
-- **Nunca expor `answerKey` nem o texto do comentário antes da resposta.** `toSafeQuestion()` monta
-  o payload campo a campo, sem spread do registro do Prisma. Verificar com
+- **Nunca expor `answerKey` antes da resposta.** Verificar com
   `curl -s 'http://localhost:3000/api/questions?pageSize=5' | grep -c answerKey` → 0.
-- **Formato do comentário — 9 seções em markdown, nesta ordem e com estes títulos** (o renderizador
-  e o CSS dependem deles): `## Resposta correta`, `## Por que as outras estão erradas`,
-  `## Base de evidência`, `## Revisão rápida`, `## Pearls`, `## Pitfalls`, `## Mnemônico` (omitir se
-  não houver bom), `## Checagem de consistência`, `## Referências`. Alternativas incorretas no
-  formato `**B)** motivo`, separadas por linha em branco.
-- `EXPLANATION_PROMPT_VERSION = 2` entra na chave do cache. Mudou o formato, incremente — senão o
-  texto antigo continua sendo servido.
-- **Nunca fabricar referência.** Fonte incerta se descreve genericamente. Quando a conduta se apoia
-  só em consenso ou série de casos, dizer isso explicitamente.
-- Provas geradas entram com `excludeFromStats: true`, para não realimentar o ranking que as originou.
+- **Nunca fabricar referência.** Fonte incerta se descreve genericamente.
 - Português do Brasil em todo o código, comentários, commits e interface.
-- Commits terminam com `Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>`.
-- Não abrir PR sem pedido explícito.
+- Commits terminam com `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>` +
+  `Claude-Session: https://claude.ai/code/session_01XzWDfzp18KGc6AHD4UoSJM`.
+- Não abrir PR novo sem pedido explícito — já existe o #2 para esta branch.
+- **Antes de qualquer teste local, checar se o container é o mesmo desta sessão** (ver Comandos
+  Úteis) — se for um container novo, `/tmp/pgdata-enare` não existe e precisa `initdb` do zero.
 
 ## Comandos Úteis
 
-```bash
-cd banco-questoes-uerj
+\`\`\`bash
+cd banco-questoes-enare
 
 # Postgres local. Teste primeiro se o datadir sobreviveu:
-pg_isready -h 127.0.0.1 -p 5432
-# Se responder "no response", o datadir NÃO persistiu (aconteceu nesta sessão, container novo) —
-# inicialize do zero antes de tentar start:
+pg_isready -h 127.0.0.1 -p 5433
+# Se "no response", container novo — inicializar do zero:
 PGBIN=$(ls -d /usr/lib/postgresql/*/bin | head -1)
-mkdir -p /tmp/pgdata /tmp/pgsock && chown -R postgres:postgres /tmp/pgdata /tmp/pgsock
-su postgres -c "$PGBIN/initdb -D /tmp/pgdata"   # só se /tmp/pgdata estiver vazio
+mkdir -p /tmp/pgdata-enare /tmp/pgsock-enare && chown -R postgres:postgres /tmp/pgdata-enare /tmp/pgsock-enare
+su postgres -c "$PGBIN/initdb -D /tmp/pgdata-enare"   # só se o diretório estiver vazio
 
-# Start (idempotente, funciona nos dois casos acima)
-su postgres -c "$PGBIN/pg_ctl -D /tmp/pgdata -o '-k /tmp/pgsock -h 127.0.0.1 -p 5432' -l /tmp/pg.log start"
-pg_isready -h 127.0.0.1 -p 5432
+# Start (idempotente)
+su postgres -c "$PGBIN/pg_ctl -D /tmp/pgdata-enare -o '-k /tmp/pgsock-enare -h 127.0.0.1 -p 5433' -l /tmp/pg-enare.log start"
+pg_isready -h 127.0.0.1 -p 5433
 
-# Se o datadir era novo, falta criar o banco, o .env e aplicar o schema:
-su postgres -c "psql -h 127.0.0.1 -p 5432 -c \"ALTER USER postgres WITH PASSWORD 'postgres';\""
-su postgres -c "psql -h 127.0.0.1 -p 5432 -c 'CREATE DATABASE banco_uerj;'"
-# .env precisa de DATABASE_URL E DIRECT_URL (o schema.prisma exige as duas):
-#   DATABASE_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
-#   DIRECT_URL="postgresql://postgres:postgres@localhost:5432/banco_uerj"
-npm install && npx prisma db push
-for f in data/provas/uerj-*.json; do npx tsx --env-file-if-exists=.env scripts/import-exam.ts "$f"; done
+# Se o diretório era novo, criar o banco e o .env:
+su postgres -c "psql -h 127.0.0.1 -p 5433 -c \"ALTER USER postgres WITH PASSWORD 'postgres';\""
+su postgres -c "psql -h 127.0.0.1 -p 5433 -c 'CREATE DATABASE banco_questoes_enare;'"
+cat > .env << 'ENVEOF'
+DATABASE_URL="postgresql://postgres:postgres@127.0.0.1:5433/banco_questoes_enare"
+DIRECT_URL="postgresql://postgres:postgres@127.0.0.1:5433/banco_questoes_enare"
+ENVEOF
+npm install && npx prisma db push && npm run db:seed
+for f in data/provas/*.json; do npm run exam:import -- "$f"; done
 
-# Se o .env e o banco já existiam (datadir persistiu), pule direto para:
-
-npm run explain:import        # importa data/comentarios/ e imprime a cobertura
-npm run analysis:recompute    # recalcula e imprime o ranking de assuntos
-npm run exam:import -- data/provas/uerj-2025.json
+# Se o .env e o banco já existiam, pule direto para:
 npx tsc --noEmit && npm run build
-
-# Rodar e inspecionar
 (PORT=3111 npm run start &) ; sleep 6
-fuser -k 3111/tcp             # derrubar (não usar pkill -f, mata o próprio shell)
+curl -s -o /dev/null -w "%{http_code}\\n" http://localhost:3111/resumos
+fuser -k 3111/tcp   # derrubar (não usar pkill -f, mata o próprio shell)
 
-# Playwright: Chromium em /opt/pw-browsers/chromium
-# chromium.launch({ executablePath: '/opt/pw-browsers/chromium' })
-# O script .mjs precisa ficar DENTRO do projeto, senão não resolve os módulos.
-
-# Cobertura por prova
-psql -h 127.0.0.1 -U postgres -d banco_uerj -tAc "
-SELECT q.year, count(*) FILTER (WHERE e.id IS NOT NULL) || '/' || count(*)
-FROM questions q LEFT JOIN explanations e
-  ON e.\"questionId\"=q.id AND e.\"userId\" IS NULL AND e.\"promptVersion\"=2
-GROUP BY q.year ORDER BY q.year;"
-
-# Limpar tentativas de teste antes de entregar
-psql -h 127.0.0.1 -U postgres -d banco_uerj -c "DELETE FROM attempts; DELETE FROM user_question_states;"
-```
+# IMPORTANTE ao terminar a sessão: apagar o .env (tem senha local, não deve ir pro commit)
+# e derrubar o Postgres se não for mais precisar:
+rm -f .env
+su postgres -c "$PGBIN/pg_ctl -D /tmp/pgdata-enare stop"
+\`\`\`

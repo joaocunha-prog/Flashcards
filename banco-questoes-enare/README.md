@@ -71,7 +71,7 @@ conforme for organizando o corpus, ou simplesmente importar provas: o importador
 e tópico ausentes automaticamente.
 
 Sem prova importada, o ranking aparece zerado e o botão **Gerar prova de 60 questões** fica
-desabilitado, explicando o motivo — com as 154 questões atuais ele já está disponível.
+desabilitado, explicando o motivo — com as 212 questões atuais ele já está disponível.
 
 ---
 
@@ -104,16 +104,27 @@ O ranking de incidência e a lista 80/20 são calculados no nível de **assunto*
 `Neurologia — Síndromes vasculares`. "Estudar Neurologia" não é uma instrução acionável;
 "estudar síndromes vasculares" é.
 
-Clicar num assunto abre os tópicos que ele cobra, com a incidência de cada um dentro do assunto —
-por exemplo, se "Cardiologia — Síndromes coronarianas" for o assunto mais frequente do seu corpus,
-o clique mostra quanto disso é "IAM com supra — reperfusão" vs. "Angina instável — estratificação",
-e assim por diante. Cada tópico é um link que filtra o banco por aquele recorte.
+Clicar num assunto abre os tópicos que ele cobra, com a incidência de cada um dentro do assunto.
+Este é o topo real do ranking com as 4 provas importadas (212 questões, 85 assuntos com pelo menos
+uma questão, 46 dentro do corte de 80%):
 
-É exatamente o tipo de coisa que o agregado por tema esconde: "Cardiologia" sozinho não diz o que
-estudar; "síndromes coronarianas caíram N vezes nas últimas provas" diz.
+```
+1. Infectologia — HIV/AIDS                                     11 q · 5.2%   acum. 5.2%
+2. Hematologia — Distúrbios da hemostasia                       9 q · 4.3%   acum. 9.4%
+3. Oncologia — Emergências oncológicas                          7 q · 3.3%   acum. 12.7%
+4. Neurologia — Neuroinfecção e emergências neurológicas        7 q · 3.3%   acum. 16.0%
+5. Gastroenterologia e Hepatologia — Cirrose e complicações      6 q · 2.8%   acum. 18.9%
+```
 
-O agregado por tema continua sendo calculado — serve para filtros e para o painel de alto nível —,
-mas não é o que a lista de estudo apresenta.
+Clicando em "Infectologia — HIV/AIDS", os 11 tópicos aparecem cada um com sua própria questão —
+PrEP, coinfecção TB-HIV, colite por CMV, síndrome inflamatória da reconstituição imune (IRIS),
+sarcoma de Kaposi, leucoplasia pilosa oral, controlador de elite, abacavir/HLA-B\*5701, esquema de
+duas drogas — cada um é um link que filtra o banco por aquele recorte específico, em vez de deixar
+"estudar HIV/AIDS" como uma instrução vaga demais para ser acionável.
+
+O agregado por tema continua sendo calculado — 15 temas ao todo, liderados por Infectologia (42q,
+19.8%), Gastroenterologia e Hepatologia (29q, 13.7%) e Neurologia (22q, 10.4%) — serve para filtros
+e para o painel de alto nível, mas não é o que a lista de estudo apresenta.
 
 ---
 

@@ -61,9 +61,10 @@ Bacteremia relacionada a cateter ocorre por colonização do biofilme na superf�
 
 ## 📚 Referências essenciais
 
-- IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile Infection.
-- WHO Guidelines on Hand Hygiene in Health Care.
-- IDSA Clinical Practice Guidelines for the Management of Intravascular Catheter-Related Infection.
+- Segurança do Paciente em Serviços de Saúde: Higiene das Mãos — Ministério da Saúde/ANVISA (2ª edição), adota os "5 momentos" da OMS na prática brasileira.
+- Medidas de Prevenção de Infecção Relacionada à Assistência à Saúde — ANVISA (Segurança do Paciente).
+- IDSA/SHEA Clinical Practice Guidelines for Clostridioides difficile Infection (sem PCDT brasileiro equivalente para este tratamento específico).
+- IDSA Clinical Practice Guidelines for the Management of Intravascular Catheter-Related Infection (sem PCDT brasileiro equivalente).
 `;
 
 export default content.trim();

@@ -109,10 +109,12 @@ de questões nasce vazio de propósito, e o conteúdo entra pelas provas no pass
 
 ### Passo 5 — Carregue suas provas
 
-`data/provas/` está vazio — é aqui que você coloca os JSONs das provas do ENARE que for montando (ver
-[Parte 2](#parte-2--incluir-uma-prova-e-seu-gabarito) para o formato). Depois de adicionar um arquivo:
+`data/provas/` já tem duas provas (ENARE 2025 e 2026, 154 questões). Para carregá-las, ou para
+adicionar uma prova nova que você montar (ver [Parte 2](#parte-2--incluir-uma-prova-e-seu-gabarito)
+para o formato):
 
 ```bash
+npm run exam:import -- data/provas/enare-2025.json
 npm run exam:import -- data/provas/enare-2026.json
 ```
 
@@ -157,7 +159,7 @@ Para usar outra porta: `PORT=3111 npm start`.
 
 ### Tudo de uma vez
 
-Do zero até o app no ar, para copiar e colar (o banco fica vazio até você importar suas provas):
+Do zero até o app no ar, para copiar e colar:
 
 ```bash
 cd banco-questoes-enare
@@ -168,13 +170,16 @@ npm install
 npm run db:push
 npm run db:seed
 
+npm run exam:import -- data/provas/enare-2025.json
+npm run exam:import -- data/provas/enare-2026.json
+
 npm run dev
 ```
 
-Depois, para cada prova que você adicionar em `data/provas/`:
+Depois, para cada prova nova que você adicionar em `data/provas/`:
 
 ```bash
-npm run exam:import -- data/provas/enare-2026.json
+npm run exam:import -- data/provas/enare-2027.json
 ```
 
 ---

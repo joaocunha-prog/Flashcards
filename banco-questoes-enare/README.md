@@ -10,19 +10,34 @@ Claude.
 
 ---
 
-## O corpus: você popula
+## O corpus
 
-Este projeto nasce **vazio de propósito** — `data/provas/`, `data/comentarios/`, `data/resumos/` e
-`data/taxonomy.ts` não trazem nenhuma prova, comentário, resumo ou taxonomia pré-carregados. É a
-mesma base de código do [banco de questões da UERJ](../banco-questoes-uerj), mas sem o conteúdo
-daquele projeto — o ENARE cobra um corpus diferente (potencialmente várias áreas, não só Clínica
-Médica), então misturar os dois seria incorreto.
+Este projeto nasceu **vazio de propósito** — é a mesma base de código do
+[banco de questões da UERJ](../banco-questoes-uerj), mas sem o conteúdo daquele projeto, porque o
+ENARE cobra um corpus diferente e misturar os dois seria incorreto. `data/comentarios/`,
+`data/resumos/` e `data/taxonomy.ts` continuam vazios; `data/provas/` já tem duas provas:
 
-Para colocar uma prova, monte um JSON no formato de [`data/types.ts`](data/types.ts) — ver a seção
-[Importando uma prova](#importando-uma-prova) — e:
+| Prova | Questões | Fácil | Média | Difícil |
+| --- | --- | --- | --- | --- |
+| 2025 | 77 | 47 | 17 | 13 |
+| 2026 | 77 | 41 | 30 | 6 |
+| **Total** | **154** | **88** | **47** | **19** |
+
+São 80 questões aplicadas em cada prova; **três anuladas por prova** ficaram de fora (2025: Q54,
+Q67, Q69; 2026: Q4, Q44, Q74), porque sem gabarito não há como corrigir a resposta. Fonte: caderno
+compilado MEDGRUPO (Concurso na Íntegra), com gabarito oficial e percentual de resposta por
+alternativa. Tema, assunto, tópico e palavras-chave de cada questão são classificação editorial,
+atribuída questão a questão a partir do enunciado.
+
+As duas provas do EBSERH que também foram enviadas (2025 e 2026, Grupo Clínica Médica) **ainda não
+entraram no banco** — o PDF recebido é só o caderno de questões, sem gabarito, e sem o gabarito
+oficial não há como saber qual alternativa é a correta.
+
+Para colocar uma prova nova, monte um JSON no formato de [`data/types.ts`](data/types.ts) — ver a
+seção [Importando uma prova](#importando-uma-prova) — e:
 
 ```bash
-npm run exam:import -- data/provas/enare-2026.json
+npm run exam:import -- data/provas/enare-2027.json
 ```
 
 ### A dificuldade é medida, não estimada
@@ -46,8 +61,8 @@ influencia estatística nenhuma. Você pode preenchê-la com os temas/assuntos/t
 conforme for organizando o corpus, ou simplesmente importar provas: o importador cria tema, assunto
 e tópico ausentes automaticamente.
 
-Com o banco vazio, o ranking aparece zerado e o botão **Gerar prova de 60 questões** fica
-desabilitado, explicando o motivo.
+Sem prova importada, o ranking aparece zerado e o botão **Gerar prova de 60 questões** fica
+desabilitado, explicando o motivo — com as 154 questões atuais ele já está disponível.
 
 ---
 
@@ -89,8 +104,7 @@ e assim por diante. Cada tópico é um link que filtra o banco por aquele recort
 estudar; "síndromes coronarianas caíram N vezes nas últimas provas" diz.
 
 O agregado por tema continua sendo calculado — serve para filtros e para o painel de alto nível —,
-mas não é o que a lista de estudo apresenta. Com o banco vazio, essa lista só aparece depois da
-primeira prova importada.
+mas não é o que a lista de estudo apresenta.
 
 ---
 

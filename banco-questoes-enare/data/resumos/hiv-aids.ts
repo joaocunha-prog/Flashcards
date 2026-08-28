@@ -12,7 +12,7 @@ const content = `
 
 - **Trate todo mundo, sempre, assim que diagnosticado** — independentemente de CD4 ou carga viral. Não se espera queda de CD4 para iniciar TARV.
 - **Esquema preferencial: tenofovir + lamivudina + dolutegravir** (ou tenofovir alafenamida no lugar do disoproximila, se função renal reduzida). Dolutegravir tem alta barreira genética à resistência.
-- **Coinfecção TB-HIV: RIPE sempre primeiro.** Momento de iniciar TARV depende do CD4 — **CD4 <50 → em até 1-2 semanas**; **CD4 ≥50 → entre 2-8 semanas** (adiar reduz risco de IRIS grave, especialmente em TB do SNC).
+- **Coinfecção TB-HIV: RIPE sempre primeiro.** Momento de iniciar TARV depende do CD4 — **CD4 <200 → em até 2 semanas**; **CD4 ≥200 → em 8 semanas** (fim da fase intensiva do RIPE). **Exceção: meningite tuberculosa** — TARV só após a 4ª semana, **independente do CD4**, pelo risco maior de IRIS no SNC (introdução mais precoce só em serviço especializado com monitorização, sobretudo se CD4 <50).
 - **Rifampicina interage com dolutegravir** (indução enzimática) — dobra-se a dose (2x/dia) durante o uso concomitante, em vez de trocar de classe.
 - **PrEP oral: tenofovir/entricitabina, 1 comprimido diário.** Não confundir com PEP (pós-exposição) nem com esquemas de tratamento.
 - **Paciente estável, carga viral indetectável há anos, CD4 normal:** pode-se simplificar para **biterapia (dolutegravir + lamivudina)** — reduz toxicidade sem perder eficácia.
@@ -69,16 +69,15 @@ A **coinfecção tuberculose-HIV** exige equilíbrio: tratar a TB sem controlar 
 
 - **Início de TARV:** tenofovir + lamivudina + dolutegravir para todos, ajustando backbone conforme função renal e coinfecções (manter tenofovir se HBsAg+).
 - **PrEP:** tenofovir/entricitabina, 1 comprimido diário, contínuo enquanto durar a exposição de risco.
-- **Coinfecção TB:** RIPE primeiro; TARV escalonada por CD4 (≤2 semanas se CD4 <50; 2-8 semanas se CD4 ≥50), dose dobrada de dolutegravir durante rifampicina.
+- **Coinfecção TB:** RIPE primeiro; TARV escalonada por CD4 (até 2 semanas se CD4 <200; 8 semanas se CD4 ≥200), dose dobrada de dolutegravir durante rifampicina. Meningite tuberculosa: TARV só após a 4ª semana, independente do CD4.
 - **Colite por CMV:** ganciclovir intravenoso.
 - **Paciente estável:** considerar biterapia (dolutegravir + lamivudina) para simplificação.
 - **Reação a abacavir:** suspensão definitiva, nunca reexpor.
 
 ## 📚 Referências essenciais
 
-- PCDT de Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde.
+- PCDT de Manejo da Infecção pelo HIV em Adultos — Módulo 1 (Tratamento) e Módulo 2 (Coinfecções e Infecções Oportunistas), Ministério da Saúde (atualização 2023-2024).
 - PCDT de Profilaxia Pré-Exposição (PrEP) de Risco à Infecção pelo HIV — Ministério da Saúde.
-- DHHS Guidelines for the Use of Antiretroviral Agents in Adults and Adolescents with HIV.
 `;
 
 export default content.trim();

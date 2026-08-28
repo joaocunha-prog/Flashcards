@@ -370,6 +370,16 @@ escalas) estão concluídas e pushadas. Aguardar próximo pedido.
 - **Nunca expor `answerKey` antes da resposta.** Verificar com
   `curl -s 'http://localhost:3000/api/questions?pageSize=5' | grep -c answerKey` → 0.
 - **Nunca fabricar referência.** Fonte incerta se descreve genericamente.
+- **Usar referência brasileira (PCDT/Ministério da Saúde, sociedades médicas BR) quando o tema tiver
+  protocolo nacional próprio — não citar diretriz americana/internacional (DHHS, IDSA, ACC/AHA etc.)
+  como se fosse a fonte de um dado numérico específico de conduta.** Cuidado especial: cortes de
+  CD4/tempo/dose podem DIFERIR entre a diretriz americana e o PCDT brasileiro (ex.: momento de
+  iniciar TARV na coinfecção TB-HIV é por CD4 <200/≥200 no PCDT-HIV Módulo 2 2023-2024, não <50/≥50
+  como em versões antigas ou em fontes americanas — corrigido no resumo/flashcards de `hiv-aids` após
+  o usuário flagar o erro). Ao escrever/revisar conteúdo com número específico de guideline, confirmar
+  a fonte certa (buscar o PCDT/protocolo BR atual) antes de escrever, em vez de generalizar de memória
+  a partir de diretrizes internacionais. Diretriz internacional só cabe quando não existe PCDT/protocolo
+  BR equivalente para aquele tema específico.
 - Português do Brasil em todo o código, comentários, commits e interface.
 - Commits terminam com `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>` +
   `Claude-Session: https://claude.ai/code/session_01XzWDfzp18KGc6AHD4UoSJM`.

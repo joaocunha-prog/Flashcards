@@ -82,6 +82,18 @@ contexto/mecanismo/pitfall foi movido para o Extra; toda escala/tabela/lista de 
 programaticamente). Resultado: **1240 cards**. 2 imagens ficaram órfãs na reescrita e foram removidas
 (`doencas-da-tireoide-tempestade-sequencia.svg`, `doencas-neuromusculares-broca-wernicke.svg`).
 
+**Ajuste fino adicional (commit `14770b8`)**: o usuário corrigiu a interpretação de "item por item" —
+para ESCALAS/TABELAS/MNEMÔNICOS DE SIGLA (RIPE, AEIOU, RCRI, HAS-BLED, CHA₂DS₂-VASc, tríade do WPW,
+Child-Pugh, NYHA etc.), o pedido é que a **lista apareça completa** no card, escondendo só **um
+elemento por vez** — não fragmentar em cards isolados sem mostrar o resto da lista (o que a rodada
+anterior tinha feito). Técnica usada: uma única nota com vários números de cloze DISTINTOS na mesma
+linha (`{{c1::}}`, `{{c2::}}`, ...) — o Anki gera automaticamente 1 carta por número, cada uma
+mostrando a lista inteira com só aquele item escondido e os outros já revelados como texto normal.
+Passados os 46 arquivos de assunto de novo (mesmos 7 batches) mesclando toda lista/mnemônico/critério
+que estava fragmentado; cards que já eram fatos atômicos isolados (não listas) foram mantidos como
+estavam. Resultado: **1038 notas gerando 1280 cards no Anki**. `escalas-e-tabelas.txt` foi a primeira
+reescrita e serviu de referência de estilo para os outros 46 arquivos.
+
 `escalas-e-tabelas.txt` cobre as 14 escalas/tabelas confirmadas relendo `statement`/`keywords` dos
 212 enunciados em `data/provas/*.json` (script Python ad-hoc, não commitado): **Forrest**,
 **Child-Pugh**, **MELD**, **King's College**, **HAS-BLED**, **CHA₂DS₂-VASc**, **TI-RADS**,

@@ -1,0 +1,1027 @@
+{
+  "slug": "ebserh-2026",
+  "year": 2026,
+  "board": "EBSERH",
+  "program": "Grupo Clínica Médica — Conhecimentos Específicos",
+  "title": "EBSERH 2026 — Grupo Clínica Médica",
+  "source": "PROVA_OFICIAL",
+  "reference": "Caderno de questões (pciconcursos.com.br) e gabarito oficial da FGV/EBSERH, EBSERH 2026 — Grupo Clínica Médica — apenas os itens de Conhecimentos Específicos (questões 31 a 60; Conhecimentos Básicos ficaram de fora, a pedido). Sem estatística de percentual de resposta por alternativa nesta fonte, então a dificuldade abaixo é um valor padrão (MEDIA), não medida.",
+  "questions": [
+    {
+      "number": 31,
+      "statement": "Mulher, 74 anos, com insuficiência cardíaca com fração de ejeção reduzida (ICFEr, FEVE 28%), etiologia isquêmica, classe funcional NYHA III, em uso irregular de furosemida e carvedilol, dá entrada na emergência com dispneia progressiva há três dias, ortopneia, oligúria nas últimas 12 horas. Relata astenia intensa e fraqueza. Ao exame: • PA: 86 x 54 mmHg; FC: 118 bpm; FR: 28 irpm; SatO₂: 88% em ar ambiente; Extremidades frias e pegajosas; TEC: 4 segundos; Turgência jugular: ++/4+; Estertores crepitantes até 1/3 médio de campos pulmonares; Edema MMII: 3+/4+. • Gasometria arterial (O₂ suplementar 4 L/min): pH: 7,31; HCO₃⁻: 18 mEq/L; Lactato: 4,2 mmol/L. • Creatinina: 2,1 mg/dL (baseline 1,2); BNP: elevado; ECG: taquicardia sinusal, sem supradesnivelamento do ST; POCUS: VE dilatado, hipocontrátil; VCI > 2,2 cm com colapsabilidade < 20%. • Classificação clínica: perfil hemodinâmico “frio e úmido”. A conduta hemodinâmica inicial mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "intensificar diurético intravenoso em bolus e otimizar ventilação não invasiva, evitando drogas vasoativas inicialmente."
+        },
+        {
+          "letter": "B",
+          "text": "iniciar vasodilatador venoso em alta dose (nitroglicerina EV) para reduzir congestão pulmonar, mesmo com hipotensão."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar inotrópico (ex.: dobutamina) e associar vasopressor (preferencialmente noradrenalina) se necessário para manter PAM ≥ 65 mmHg, com diurético após estabilização hemodinâmica."
+        },
+        {
+          "letter": "D",
+          "text": "administrar carga volêmica de 30 mL/kg de cristaloide devido ao lactato elevado e acidose metabólica."
+        },
+        {
+          "letter": "E",
+          "text": "iniciar betabloqueador intravenoso para controle da taquicardia e redução do consumo miocárdico de oxigênio."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Cardiologia",
+      "subtheme": "Insuficiência cardíaca",
+      "topic": "Choque cardiogênico frio-úmido — inotrópico e vasopressor",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "choque cardiogênico",
+        "dobutamina",
+        "noradrenalina",
+        "perfil frio-úmido"
+      ]
+    },
+    {
+      "number": 32,
+      "statement": "Homem, 52 anos, com sarcoidose sistêmica confirmada há cinco anos (biópsia ganglionar com granulomas não caseosos), previamente tratado com prednisona por 12 meses, atualmente sem imunossupressão. Evolui nos últimos três meses com dispneia progressiva aos médios esforços e dois episódios de pré-síncope. • Exame físico: PA: 100/64 mmHg; FC: 96 bpm; FR: 20 irpm; SatO₂: 96% em ar ambiente; Turgência jugular: +/4; Estertores bibasais discretos; Edema maleolar: +/4. • ECG: BAV de 1º grau (PR 280 ms); Bloqueio de ramo direito; Extrassístoles ventriculares frequentes. • Holter 24h: Taquicardia ventricular não sustentada (TVNS) – seis episódios, até 12 batimentos. • Ecocardiograma: FEVE: 38%; Disfunção leve de VD; Hipocinesia septal basal. • Ressonância magnética cardíaca: Realce tardio transmural e mesomiocárdico em septo basal e parede lateral; Extensão de LGE estimada em 18% da massa ventricular. • PET-FDG: Captação focal intensa nas mesmas regiões resultante de atividade inflamatória ativa. • Estudo eletrofisiológico (EEF): Indução de TV monomórfica sustentada com instabilidade hemodinâmica. • Creatinina normal. Troponina discretamente elevada. BNP elevado. Assinale a conduta mais apropriada.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Iniciar corticoterapia isolada e reavaliar função ventricular após três meses antes de indicar dispositivo."
+        },
+        {
+          "letter": "B",
+          "text": "Implante de marcapasso definitivo devido ao distúrbio de condução e manter vigilância arrítmica."
+        },
+        {
+          "letter": "C",
+          "text": "Implante de cardioversor-desfibrilador implantável e reinício imediato de imunossupressão sistêmica; considerar terapia adicional poupadora de esteroide."
+        },
+        {
+          "letter": "D",
+          "text": "Realizar apenas ablação por radiofrequência da TV induzida e evitar CDI neste momento."
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar betabloqueador em dose plena e amiodarona, postergando decisão sobre dispositivo."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Cardiologia",
+      "subtheme": "Doenças do pericárdio e miocárdio",
+      "topic": "Sarcoidose cardíaca de alto risco — indicação de CDI",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "sarcoidose cardíaca",
+        "cardioversor-desfibrilador",
+        "taquicardia ventricular"
+      ]
+    },
+    {
+      "number": 33,
+      "statement": "Homem, 64 anos, hipertenso mal controlado, procura UPA com dor torácica súbita, intensa, irradiada para dorso, iniciada há uma hora. Relata náuseas e sudorese. • PA: 160 x 95 mmHg; • FC: 92 bpm; • FR: 20 irpm; • SatO₂: 98%; • ECG: supradesnivelamento de ST em DII, DIII e aVF, com infra em V1–V3; • Troponina inicial ainda indisponível. Sem sala de hemodinâmica no local, é iniciado trombolítico por suspeita de IAM com supra inferior. Após 20 minutos, paciente evolui com PA 70 x 40 mmHg; Confusão mental; Turgência jugular; Bulhas hipofonéticas; Pulso paradoxal. O diagnóstico mais provável para a deterioração clínica é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "choque cardiogênico por falha de reperfusão."
+        },
+        {
+          "letter": "B",
+          "text": "dissecção aguda de aorta tipo A complicada com hemopericárdio e tamponamento."
+        },
+        {
+          "letter": "C",
+          "text": "ruptura de músculo papilar com insuficiência mitral aguda."
+        },
+        {
+          "letter": "D",
+          "text": "embolia pulmonar maciça associada ao trombolítico."
+        },
+        {
+          "letter": "E",
+          "text": "reação anafilática ao fibrinolítico."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Cardiologia",
+      "subtheme": "Doenças da aorta e vasculares",
+      "topic": "Dissecção aguda de aorta tipo A — tamponamento após trombolítico",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "dissecção de aorta",
+        "tamponamento cardíaco",
+        "trombolítico"
+      ]
+    },
+    {
+      "number": 34,
+      "statement": "Homem, 67 anos, com insuficiência cardíaca com fração de ejeção reduzida (FEVE 28%), classe funcional NYHA III, em uso otimizado de carvedilol, espironolactona e furosemida. Estava previamente em enalapril 20 mg 2x/dia, suspenso há 48 horas para introdução de sacubitril/valsartana. Após 3 meses de tratamento com dose alvo do Inibidor do Receptor da Angiotensina + Inibidor da Neprilisina, apresenta PA 104 X 68 mmHg; Creatinina estável; Potássio 4,8 mEq/L; Melhora funcional (NYHA II). Laboratório: BNP: 380 pg/mL (aumentou em relação ao basal); NT- proBNP: reduziu de 2.100 para 820 pg/mL. Assinale a opção que melhor explica o padrão observado de biomarcadores e os efeitos fisiológicos renais do fármaco.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A valsartana bloqueia receptores AT2, reduzindo natriurese mediada por peptídeos natriuréticos e diminuindo níveis de NT-proBNP."
+        },
+        {
+          "letter": "B",
+          "text": "O Inibidor do Receptor da Angiotensina + Inibidor da Neprilisina reduz simultaneamente BNP e NT-proBNP; o aumento de cGMP promove vasoconstrição renal compensatória para manter a filtração."
+        },
+        {
+          "letter": "C",
+          "text": "A inibição da neprilisina reduz a degradação de BNP e NT- proBNP, elevando ambos; o bloqueio de AT1 reduz TFG por vasoconstrição da arteríola aferente."
+        },
+        {
+          "letter": "D",
+          "text": "O aumento do BNP ocorre porque o sacubitril aumenta sua produção; o NT-proBNP reduz por efeito direto da valsartana sobre sua clivagem hepática;"
+        },
+        {
+          "letter": "E",
+          "text": "A inibição da neprilisina reduz a degradação do BNP, mas não do NT-proBNP; o aumento de cGMP promove vasodilatação da arteríola aferente e redução da pressão intraglomerular por atenuação do tônus eferente mediado por angiotensina II."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Cardiologia",
+      "subtheme": "Insuficiência cardíaca",
+      "topic": "Sacubitril/valsartana — farmacologia de BNP e NT-proBNP",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "sacubitril/valsartana",
+        "BNP",
+        "NT-proBNP",
+        "neprilisina"
+      ]
+    },
+    {
+      "number": 35,
+      "statement": "Homem, 67 anos, fibrilação atrial permanente, CHA₂DS₂-VASc 4 (HAS, idade > 65, IC prévia), HAS-BLED 2. Em uso irregular de apixabana. Internado por hemorragia digestiva alta com Hb 6,9 g/dL; Instabilidade hemodinâmica inicial; Necessidade de três concentrados de hemácias. Endoscopia digestiva alta: úlcera duodenal Forrest IIa (vaso visível); Hemostasia endoscópica com clipe e adrenalina; Sem sangramento ativo após tratamento. Após 72 horas, estável hemodinamicamente; Hb estável; sem novo episódio de melena; creatinina 1,4 mg/dL; sem cirrose ou varizes. A estratégia mais apropriada de anticoagulação nesse momento é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar heparina não fracionada em dose terapêutica como ponte antes do anticoagulante oral."
+        },
+        {
+          "letter": "B",
+          "text": "postergar anticoagulação por pelo menos 30 dias e substituir temporariamente por AAS."
+        },
+        {
+          "letter": "C",
+          "text": "reiniciar apixabana em 24 h após hemostasia endoscópica, na mesma dose plena."
+        },
+        {
+          "letter": "D",
+          "text": "reiniciar a anticoagulação entre o terceiro e o sétimo dia após o controle do sangramento, preferencialmente com anticoagulante oral direto, sem utilização de terapia de ponte com heparina."
+        },
+        {
+          "letter": "E",
+          "text": "suspender definitivamente anticoagulação devido ao risco de ressangramento."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Anticoagulação após hemorragia digestiva — reinício entre o 3º e o 7º dia",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "fibrilação atrial",
+        "anticoagulante oral direto",
+        "hemorragia digestiva"
+      ]
+    },
+    {
+      "number": 36,
+      "statement": "Homem, 67 anos, ex-tabagista (60 maços-ano), diagnóstico de doença pulmonar obstrutiva crônica estágio muito grave, múltiplas internações prévias, uso domiciliar de oxigênio noturno e broncodilatadores de longa ação. Chega ao pronto-socorro com 48 horas de piora progressiva da dispneia, aumento do volume e purulência do escarro, sonolência intermitente e redução da tolerância ao esforço. • Frequência respiratória 32 irpm; • Frequência cardíaca 118 bpm; • Pressão arterial 138/84 mmHg; • Saturação periférica 82% em ar ambiente; • Uso intenso de musculatura acessória; • Tiragem intercostal; • Sibilos difusos e murmúrio vesicular globalmente diminuído; • Escala de Glasgow 14; • Gasometria arterial em ar ambiente: pH 7,27; Pressão parcial de dióxido de carbono 68 mmHg; Pressão parcial de oxigênio 48 mmHg; Bicarbonato 31 mEq/L; Lactato normal; • Radiografia de tórax sem consolidação lobar evidente. A conduta ventilatória inicial mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ventilação não invasiva com pressão positiva, titulando oxigênio para manter saturação entre 88% e 92%, associada a broncodilatadores inalatórios e corticoide sistêmico."
+        },
+        {
+          "letter": "B",
+          "text": "oxigênio em alto fluxo com fração inspirada elevada, visando saturação maior que 98%."
+        },
+        {
+          "letter": "C",
+          "text": "intubação orotraqueal imediata devido à presença de hipercapnia e acidose."
+        },
+        {
+          "letter": "D",
+          "text": "administração de bicarbonato intravenoso para correção da acidose respiratória antes de considerar suporte ventilatório."
+        },
+        {
+          "letter": "E",
+          "text": "evitar ventilação não invasiva devido ao risco aumentado de pneumotórax em doença pulmonar obstrutiva crônica avançada."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Pneumologia",
+      "subtheme": "DPOC",
+      "topic": "Exacerbação hipercápnica da DPOC — ventilação não invasiva",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "DPOC",
+        "ventilação não invasiva",
+        "hipercapnia"
+      ]
+    },
+    {
+      "number": 38,
+      "statement": "Homem, 32 anos, asmático grave persistente, múltiplas internações prévias e uma intubação há dois anos, chega ao pronto-socorro com crise iniciada há 12 horas, piora progressiva nas últimas três horas. • Na admissão: fala em palavras isoladas; agitação psicomotora alternando com sonolência; uso intenso de musculatura acessória; tiragem supraesternal; sudorese fria; “tórax silencioso” à ausculta. • Sinais vitais: frequência respiratória 36 irpm; frequência cardíaca 138 bpm; pressão arterial 150 X 90 mmHg; saturação 88% em ar ambiente. • Recebeu três nebulizações sequenciais com salbutamol + ipratrópio, metilprednisolona intravenosa, oxigênio suplementar (fração inspirada 0,28). • Gasometria arterial após tratamento inicial: pH 7,28; pressão parcial de dióxido de carbono 54 mmHg; pressão parcial de oxigênio 60 mmHg; bicarbonato 25 mEq/L; lactato discretamente elevado. Em relação à melhor interpretação e à conduta imediata para o caso, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A pressão parcial de dióxido de carbono está próxima do normal, indicando resposta parcial ao broncodilatador; manter tratamento clínico intensivo e observação."
+        },
+        {
+          "letter": "B",
+          "text": "Trata-se de exacerbação asmática grave com retenção de dióxido de carbono, indicando falência ventilatória iminente; preparar via aérea definitiva e suporte ventilatório avançado."
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar ventilação não invasiva como estratégia padrão inicial na asma grave hipercápnica."
+        },
+        {
+          "letter": "D",
+          "text": "Administrar morfina para reduzir sensação de dispneia e consumo de oxigênio."
+        },
+        {
+          "letter": "E",
+          "text": "Suspender broncodilatadores beta-agonistas devido à taquicardia e iniciar antibiótico de amplo espectro."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Pneumologia",
+      "subtheme": "Asma",
+      "topic": "Asma quase fatal — retenção de CO2 e falência ventilatória iminente",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "status asmático",
+        "hipercapnia",
+        "via aérea definitiva"
+      ]
+    },
+    {
+      "number": 39,
+      "statement": "Homem, 57 anos, cirrose alcoólica descompensada, Child-Pugh C, escore MELD 28, ascite refratária em uso crônico de espironolactona e furosemida. História de peritonite bacteriana espontânea há seis meses. Em lista para avaliação de transplante hepático. Internado por infecção urinária não complicada, tratada com antibiótico adequado, evolui, após cinco dias, com piora progressiva da função renal. • Creatinina sérica: basal: 0,9 mg/dL; 48h: 1,8 mg/dL; 72h: 2,6 mg/dL. Pressão arterial média: 63 mmHg. Sem uso de vasopressores. Sem choque atual. Lactato normal. Diurese < 0,5 mL/kg/h. • Exames complementares: urina tipo I: sem cilindros granulosos, sem hematúria significativa; proteinúria < 300 mg/dia; sódio urinário: 12 mEq/L; fração de excreção de ureia: 28%; ultrassonografia renal: rins de dimensões preservadas, sem obstrução. • Condutas já realizadas: suspensão de diuréticos; expansão com albumina 1 g/kg/dia por 2 dias; exclusão de choque séptico; ausência de exposição a anti-inflamatórios ou contraste. Sem melhora da creatinina após 48 horas. A conduta mais adequada nesse momento é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar dopamina em baixa dose para aumento do fluxo renal."
+        },
+        {
+          "letter": "B",
+          "text": "intensificar reposição volêmica com cristaloide para otimizar perfusão renal."
+        },
+        {
+          "letter": "C",
+          "text": "indicar hemodiálise imediata independentemente de outras intervenções."
+        },
+        {
+          "letter": "D",
+          "text": "reintroduzir diurético em infusão contínua para estimular diurese."
+        },
+        {
+          "letter": "E",
+          "text": "iniciar terlipressina associada à albumina, com monitorização hemodinâmica rigorosa."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Síndrome hepatorrenal — terlipressina e albumina",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome hepatorrenal",
+        "terlipressina",
+        "albumina"
+      ]
+    },
+    {
+      "number": 40,
+      "statement": "Paciente 70 anos, internado há 8 dias por pneumonia comunitária grave, em uso de ceftriaxona e azitromicina. Evolui com diarreia aquosa abundante (8 evacuações/dia); dor abdominal difusa; leucocitose 22.000; creatinina aumentou de 1,0 para 1,6 mg/dL; albumina baixa. Sem sangue visível nas fezes. Assinale a opção que apresenta a hipótese diagnóstica mais provável e o exame confirmatório mais apropriado segundo diretrizes atuais.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Diarreia viral hospitalar; coprocultura padrão."
+        },
+        {
+          "letter": "B",
+          "text": "Infecção por Clostridioides difficile; teste molecular para gene toxigênico associado à detecção de toxina."
+        },
+        {
+          "letter": "C",
+          "text": "Colite isquêmica; colonoscopia imediata como primeiro exame."
+        },
+        {
+          "letter": "D",
+          "text": "Supercrescimento bacteriano; teste respiratório com lactulose."
+        },
+        {
+          "letter": "E",
+          "text": "Efeito adverso direto da ceftriaxona; suspensão isolada do antibiótico."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Colite por Clostridioides difficile — teste molecular",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "Clostridioides difficile",
+        "teste molecular",
+        "diarreia hospitalar"
+      ]
+    },
+    {
+      "number": 41,
+      "statement": "Homem, 45 anos, previamente hígido, sem história de hepatopatia crônica conhecida, apresenta icterícia progressiva há seis dias, náuseas e mal-estar. Evolui nas últimas 24 horas com confusão mental e sonolência. Na admissão: encefalopatia hepática grau II; INR 4,2; bilirrubina total 19 mg/dL; AST 3.400 U/L; ALT 3.900 U/L; fator V reduzido; lactato 4,5 mmol/L (após reposição volêmica adequada); creatinina 1,9 mg/dL. Sorologias virais pendentes. Sem uso conhecido de paracetamol. Ultrassonografia: fígado de tamanho normal, sem sinais de cirrose ou hipertensão portal. Assinale a opção que apresenta o critério prognóstico mais validado para indicar transplante hepático urgente nesse contexto.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Escore MELD isoladamente maior que 30."
+        },
+        {
+          "letter": "B",
+          "text": "Escore Child-Pugh classe C."
+        },
+        {
+          "letter": "C",
+          "text": "Critérios de King’s College para insuficiência hepática aguda não relacionada ao paracetamol."
+        },
+        {
+          "letter": "D",
+          "text": "Bilirrubina total acima de 15 mg/dL associada a encefalopatia;"
+        },
+        {
+          "letter": "E",
+          "text": "Presença isolada de encefalopatia hepática grau II."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Insuficiência hepática aguda — critérios de King's College",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "insuficiência hepática aguda",
+        "King's College",
+        "transplante hepático urgente"
+      ]
+    },
+    {
+      "number": 42,
+      "statement": "Homem, 29 anos, diagnóstico de colite ulcerativa extensa há cinco anos. Em uso de infliximabe há 18 meses, com resposta inicial adequada. Última infusão há 6 semanas. Admissão hospitalar por 12 evacuações sanguinolentas/dia; febre 38,6 C; frequência cardíaca 115 bpm; dor abdominal difusa; hemoglobina 8,7 g/dL; albumina 2,3 g/dL; proteína C reativa 130 mg/L. Classifica-se como colite ulcerativa aguda grave (critérios de Truelove & Witts). Colonoscopia limitada: mucosa friável; úlceras profundas; exsudato mucopurulento. TC e USG de abdome sem sinais de perfuração do tubo gastrointestinal. Histopatologia: Inclusões citomegálicas compatíveis com citomegalovírus; Imuno-histoquímica positiva. PCR quantitativo para citomegalovírus no sangue detectável em baixa carga. Dosagem de infliximabe: nível terapêutico adequado; ausência de anticorpos antidroga. A conduta mais apropriada nesse momento é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar ganciclovir intravenoso e suspender temporariamente imunossupressão biológica."
+        },
+        {
+          "letter": "B",
+          "text": "substituir por vedolizumabe imediatamente."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar tofacitinibe oral."
+        },
+        {
+          "letter": "D",
+          "text": "indicar colectomia urgente imediata."
+        },
+        {
+          "letter": "E",
+          "text": "intensificar infliximabe para dose de resgate."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Doenças inflamatórias intestinais",
+      "topic": "Colite ulcerativa grave com reativação de CMV",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "colite ulcerativa",
+        "citomegalovírus",
+        "ganciclovir",
+        "infliximabe"
+      ]
+    },
+    {
+      "number": 43,
+      "statement": "Homem, 66 anos, internado em UTI por choque séptico secundário a perfuração intestinal, submetido a laparotomia de urgência. Evolui em ventilação mecânica controlada (volume corrente 6 mL/kg, frequência respiratória programada 22 irpm) e noradrenalina em baixa dose. Nas últimas 24 horas: uso repetido de furosemida por congestão pulmonar; aspiração gástrica contínua por íleo paralítico; infusão predominante de solução salina 0,9%; diurese aumentada; agitação e hiperventilação espontânea sobreposta ao ventilador Gasometria arterial: pH = 7,49; PaCO₂ = 23 mmHg; HCO₃⁻ = 17 mEq/L. Bioquímica: Na⁺ = 142 mEq/L; Cl⁻ = 110 mEq/L; K⁺ = 3,1 mEq/L; Albumina = 2,0 g/dL; Lactato = 6,0 mmol/L. A interpretação ácido-base mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "alcalose respiratória primária isolada."
+        },
+        {
+          "letter": "B",
+          "text": "acidose metabólica de ânion gap elevado com compensação respiratória adequada."
+        },
+        {
+          "letter": "C",
+          "text": "acidose metabólica hiperclorêmica isolada."
+        },
+        {
+          "letter": "D",
+          "text": "distúrbio misto: acidose metabólica de ânion gap elevado + alcalose metabólica + alcalose respiratória."
+        },
+        {
+          "letter": "E",
+          "text": "distúrbio misto: acidose metabólica de ânion gap elevado + acidose respiratória associada."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Distúrbios ácido-base",
+      "topic": "Distúrbio ácido-base misto em UTI",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "gasometria arterial",
+        "ânion gap",
+        "distúrbio ácido-base misto"
+      ]
+    },
+    {
+      "number": 44,
+      "statement": "Mulher, 72 anos, internada em UTI por choque séptico secundário a pneumonia comunitária grave. Encontra-se em ventilação mecânica (PEEP 12 cmH₂O) e noradrenalina em dose moderada. Nas últimas 48 horas evolui com: • Radiografia: congestão pulmonar bilateral. • Balanço hídrico acumulado: +4.500 mL. Exames: Creatinina: 1,1 → 4,9 mg/dL; Ureia: 178 mg/dL; Diurese < 200 mL/24h; Potássio: 6,9 mEq/L; pH arterial: 7,15; HCO₃⁻: 13 mEq/L; PaCO₂: 28 mmHg; Lactato: 5 mmol/L. A indicação mais formal e imediata para iniciar terapia renal substitutiva é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "creatinina superior a 4 mg/dL."
+        },
+        {
+          "letter": "B",
+          "text": "oligúria persistente isolada por mais de 24 horas."
+        },
+        {
+          "letter": "C",
+          "text": "ureia superior a 150 mg/dL e sobrecarga volêmica."
+        },
+        {
+          "letter": "D",
+          "text": "lesão renal aguda estágio 3 associada à sepse."
+        },
+        {
+          "letter": "E",
+          "text": "hipercalemia, acidose metabólica e sobrecarga de volume."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Nefrologia",
+      "subtheme": "Injúria renal aguda",
+      "topic": "Indicações de terapia renal substitutiva de urgência",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "terapia renal substitutiva",
+        "hipercalemia",
+        "acidose metabólica",
+        "sobrecarga de volume"
+      ]
+    },
+    {
+      "number": 45,
+      "statement": "Paciente do sexo feminino, 70 anos de idade, internada no Serviço de Ortopedia por infecção periprotética crônica complexa do quadril esquerdo, foi indicada a cirurgia de Girdlestone, que consiste na retirada das próteses do quadril, sem mais nenhuma ação. Foram coletados fragmentos do sítio da lesão, enviados para cultura com resultado mostrando crescimento dos seguintes germes: Providencia stuartii, Enterococcus faecalis, Klebsiella pneumoniae e Acinetobacter baumannii. Teste de sensibilidade a antimicrobianos foi utilizado pela CCIH para a escolha dos antibióticos, no momento em D12: linezolida + polimixina B + amicacina. Evoluiu com lesão renal aguda persistente (Cr 0,78 → 2,40 → 2,14 → 2,37 mg/dL) e distúrbios eletrolíticos marcantes, com último exame revelando: Mg 0,6 mg/dL, K 2,7 mEq/L, além de hipocloridemia (Cl 84). Sem instabilidade hemodinâmica ou choque no momento. Considerando o perfil de nefrotoxicidade mais típico de polimixina B e aminoglicosídeos (amicacina), o segmento/compartimento renal que é primariamente acometido por esses antimicrobianos, explicando tanto a IRA quanto as perdas eletrolíticas, é o(a)",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "glomérulo (lesão primária da membrana basal glomerular)."
+        },
+        {
+          "letter": "B",
+          "text": "alça ascendente espessa (TAL) – por ativação patológica do cotransportador NKCC2 (Na⁺–K⁺–2Cl⁻ Cotransporter 2 / padrão “tipo furosemida”)."
+        },
+        {
+          "letter": "C",
+          "text": "túbulo contorcido distal – lesão predominante com hipermagnesemia por bloqueio de TRPM6 (Transient Receptor Potential Melastatin 6)."
+        },
+        {
+          "letter": "D",
+          "text": "túbulo proximal, especialmente o segmento S3 (porção reta), com necrose/apoptose tubular e disfunção de reabsorção."
+        },
+        {
+          "letter": "E",
+          "text": "ducto coletor cortical – resistência à aldosterona com acidose tubular tipo 4 e hipercalemia."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Nefrotoxicidade de polimixina e aminoglicosídeo — túbulo proximal",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "nefrotoxicidade",
+        "polimixina B",
+        "aminoglicosídeo",
+        "túbulo proximal"
+      ]
+    },
+    {
+      "number": 46,
+      "statement": "Mulher, 42 anos, com diagnóstico prévio de doença de Graves há dois anos, interrompeu metimazol há três meses por conta própria. Realizou tomografia computadorizada contrastada há 10 dias. Procura emergência com febre 39,7 C; frequência cardíaca 152 bpm; pressão arterial 165 × 60 mmHg; agitação intensa alternando com confusão; náuseas, vômitos e diarreia; tremor fino; bócio difuso indolor. Laboratório: TSH < 0,01 mUI/L; T4 livre 5,8 ng/dL; T3 total marcadamente elevado; Leucocitose leve; Função hepática normal. Sem uso atual de antitireoidianos. Considerando o quadro clínico e a fisiopatologia envolvida, a conduta inicial mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "propiltiouracil + propranolol + hidrocortisona + iodeto após uma hora."
+        },
+        {
+          "letter": "B",
+          "text": "metimazol + propranolol + hidrocortisona."
+        },
+        {
+          "letter": "C",
+          "text": "iodeto imediatamente, seguido de 1 g de hidrocortisona."
+        },
+        {
+          "letter": "D",
+          "text": "corticoide isolado."
+        },
+        {
+          "letter": "E",
+          "text": "plasmaférese imediata."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da tireoide",
+      "topic": "Tempestade tireotóxica — tratamento inicial",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "tempestade tireotóxica",
+        "propiltiouracila",
+        "iodeto",
+        "hidrocortisona"
+      ]
+    },
+    {
+      "number": 47,
+      "statement": "Paciente masculino, 55 anos, com diagnóstico de vasculite sistêmica tratado com prednisona 20 mg/dia por oito meses. Suspendeu abruptamente a medicação há 10 dias por conta própria. Procura emergência com fraqueza intensa, náuseas, hipotensão (PA 88x56 mmHg) e hipoglicemia (48 mg/dL). Nega febre. Não apresenta hiperpigmentação cutânea. Laboratório (8h): cortisol sérico: 2,8 mcg/dL; ACTH: 4 pg/mL (baixo); sódio: 131 mEq/L; potássio: 4,1 mEq/L; renina: normal; aldosterona: normal. Teste de estímulo com ACTH (cosintropina 250 mcg EV): cortisol basal: 2,8 mcg/dL; 30 min: 5,2 mcg/dL; 60 min: 6,1 mcg/dL. O diagnóstico mais preciso para explicar o quadro atual é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "insuficiência adrenal primária autoimune."
+        },
+        {
+          "letter": "B",
+          "text": "insuficiência adrenal secundária por lesão hipofisária estrutural."
+        },
+        {
+          "letter": "C",
+          "text": "insuficiência adrenal terciária por retirada abrupta de glicocorticoide."
+        },
+        {
+          "letter": "D",
+          "text": "síndrome de Cushing endógena com supressão transitória do eixo."
+        },
+        {
+          "letter": "E",
+          "text": "resistência periférica ao cortisol."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da adrenal",
+      "topic": "Insuficiência adrenal terciária — retirada abrupta de glicocorticoide",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "insuficiência adrenal terciária",
+        "eixo hipotálamo-hipófise-adrenal",
+        "corticoide"
+      ]
+    },
+    {
+      "number": 48,
+      "statement": "Homem, 36 anos, refere cefaleia progressiva há oito meses, redução importante da libido e disfunção erétil. Evoluiu nas últimas semanas com dificuldade para dirigir à noite. • Ao exame: hemianopsia bitemporal; testículos de volume reduzido; sem galactorreia. • RM de sela túrcica: Lesão expansiva selar e suprasselar de 2,3 cm, heterogênea, com compressão do quiasma óptico e desvio do pedículo hipofisário. • Laboratório (8 h): Prolactina: 85 ng/mL (VN < 20); TSH: normal; T4 livre: normal; Cortisol basal: 17 mcg/dL; ACTH: normal; LH e FSH: baixos; Testosterona total: reduzida. • Nova dosagem de prolactina após diluição seriada: 92 ng/mL. O diagnóstico mais provável é o",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "macroprolactinoma."
+        },
+        {
+          "letter": "B",
+          "text": "macroadenoma não funcionante com hiperprolactinemia por efeito haste."
+        },
+        {
+          "letter": "C",
+          "text": "craniopharingioma com hiperprolactinemia secundária."
+        },
+        {
+          "letter": "D",
+          "text": "adenoma corticotrófico silencioso."
+        },
+        {
+          "letter": "E",
+          "text": "hipofisite linfocítica."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da hipófise",
+      "topic": "Macroadenoma hipofisário não funcionante — hiperprolactinemia por efeito haste",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "macroadenoma não funcionante",
+        "efeito haste",
+        "prolactina"
+      ]
+    },
+    {
+      "number": 49,
+      "statement": "Homem, 47 anos, previamente hígido, procura emergência por dispneia progressiva, hemoptise e oligúria há cinco dias. Refere artralgias migratórias há seis semanas, rinossinusite recorrente e perda ponderal de 5 kg. Houve suspeita de se tratar da síndrome pulmão-rim e doença anti-membrana basal glomerular. • Ao exame: PA 158/96 mmHg; FR (frequência respiratória) 28 irpm; SatO₂ (saturação periférica de oxigênio) 88% em ar ambiente; estertores difusos bilaterais; sem púrpura palpável. • Imagem: tomografia computadorizada de alta resolução: opacidades em vidro fosco difusas, compatíveis com hemorragia alveolar. • Laboratório: Hb (hemoglobina) 7,9 g/dL (queda rápida); Cr (creatinina sérica) 1,1 → 4,6 mg/dL em 6 dias; EAS (exame de urina tipo I): 3+ sangue, cilindros hemáticos; proteinúria 1,2 g/24h; C3 e C4 (frações do complemento): normais; PCR (proteína C reativa) 138 mg/L; ANCA (anticorpo anticitoplasma de neutrófilo) por ELISA (ensaio imunoenzimático); Anti-MPO (anticorpo contra mieloperoxidase) 98 U/mL (alto); Anti-PR3 (anticorpo contra proteinase 3) negativo; Anti-MBG (anticorpo anti-membrana basal glomerular) positivo (título alto); FAN (fator antinuclear) negativo; Anti-dsDNA (anticorpo anti-DNA dupla hélice) negativo. • Biópsia renal: GN (glomerulonefrite) necrosante com crescentes em 80% dos glomérulos; IF (imunofluorescência): padrão linear intenso de IgG (imunoglobulina G) ao longo da MBG (membrana basal glomerular); poucos depósitos granulares. A conduta inicial mais apropriada, para as próximas seis horas, é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "rituximabe (anticorpo monoclonal anti-CD20) + glicocorticoide em alta dose; evitar plasmaférese porque PEXIVAS (estudo Plasma Exchange and Glucocorticoids in Severe ANCA- Associated Vasculitis) não mostrou benefício em vasculite associada a ANCA."
+        },
+        {
+          "letter": "B",
+          "text": "glicocorticoide em alta dose + ciclofosfamida + plasmaférese diária, com monitorização seriada de anti-MBG até negativação."
+        },
+        {
+          "letter": "C",
+          "text": "metilprednisolona em pulsos + micofenolato mofetil; aguardar culturas para excluir infecção antes de imunossuprimir."
+        },
+        {
+          "letter": "D",
+          "text": "avacopan (inibidor do receptor de C5a do complemento) + rituximabe, poupando glicocorticoide, sem plasmaférese."
+        },
+        {
+          "letter": "E",
+          "text": "anticoagulação plena por provável síndrome antifosfolípide catastrófica."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Reumatologia",
+      "subtheme": "Vasculites",
+      "topic": "Síndrome pulmão-rim por doença anti-MBG — plasmaférese",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença anti-membrana basal glomerular",
+        "plasmaférese",
+        "ciclofosfamida"
+      ]
+    },
+    {
+      "number": 50,
+      "statement": "Mulher, 29 anos, três semanas pós-parto, chega com febre diária alta há 12 dias, odinofagia inicial, mialgias intensas e artralgias em punhos e joelhos. Evoluiu com rash evanescente “salmão” no tronco durante picos febris. Recebeu amoxicilina-clavulanato sem resposta. • Exame físico: temperatura 39,6°C; FC (frequência cardíaca) 128 bpm; linfonodos cervicais dolorosos; hepatoesplenomegalia discreta; sem rigidez de nuca; sem foco infeccioso claro. • Laboratório inicial: Leucócitos 15.800 (neutrófilos 88%); Hb (hemoglobina) 10,2 g/dL; Plaquetas 210.000/mm³; AST (aspartato aminotransferase) 82 U/L; ALT (alanina aminotransferase) 74 U/L; Ferritina 4.800 ng/mL; PCR (proteína C reativa) 180 mg/L; VHS (velocidade de hemossedimentação) 18 mm/h; FAN (fator antinuclear) negativo; FR (fator reumatoide) negativo; Triglicerídeos 180 mg/dL; Fibrinogênio 410 mg/dL; Complemento normal; Procalcitonina 0,6 ng/mL (limítrofe). • Evolução em 48 horas (piora): Confusão leve, hipotensão relativa, febre persistente; Plaquetas 210.000 → 62.000; Leucócitos 15.800 → 3.100; AST 82 → 620 U/L; Ferritina 4.800 → > 32.000 ng/mL; Triglicerídeos 180 → 480 mg/dL; Fibrinogênio 410 → 120 mg/dL; Dímero-D muito elevado; PCR 180 → 220 mg/L; VHS 18 → 4 mm/h. • Hemoculturas até o momento negativas; eco sem endocardite. Assinale a opção que apresenta a hipótese mais provável e identifica a intervenção imediata que muda o prognóstico.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Sepse bacteriana oculta; ampliar antibiótico e evitar imunossupressão."
+        },
+        {
+          "letter": "B",
+          "text": "Síndrome antifosfolípide catastrófica, corticoides em dose alta."
+        },
+        {
+          "letter": "C",
+          "text": "Lúpus eritematoso sistêmico com HLH (linfo-histiocitose hemofagocítica) secundária; usar anti-TNF."
+        },
+        {
+          "letter": "D",
+          "text": "Linfoma agressivo; iniciar quimioterapia empírica."
+        },
+        {
+          "letter": "E",
+          "text": "Doença de Still do adulto com síndrome de ativação macrofágica(MAS); iniciar pulsoterapia com metilprednisolona + bloqueio de interleucina-1 (anakinra)."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Reumatologia",
+      "subtheme": "Síndromes autoinflamatórias",
+      "topic": "Doença de Still do adulto com síndrome de ativação macrofágica",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença de Still do adulto",
+        "síndrome de ativação macrofágica",
+        "anakinra"
+      ]
+    },
+    {
+      "number": 51,
+      "statement": "Homem, 34 anos, pesando atualmente 55 kg, recém- diagnosticado com HIV após internação por perda ponderal e febre, queda do estado geral. • História: três meses de diarreia intermitente, candidíase oral recorrente, tosse seca. Ainda sem tratamento prévio para HIV. • Ao exame: emagrecido, placas esbranquiçadas orais, linfonodos cervicais pequenos. • TC de tórax: infiltrado intersticial difuso bilateral. • Lavado broncoalveolar: Pneumocystis jirovecii positivo por IF. • Laboratório (admissão): CD4: 38 células/µL; HIV RNA: 1.200.000 cópias/mL; Cr: 2 mg/dL (TFG estimada ~40.49 mL/min); AST/ALT: discretamente elevadas; HBsAg: positivo; anti-HBc total: positivo; HBV DNA: alto; HLA-B*57:01: negativo; Genótipo HIV (RT/PR/IN): pendente (sai em 7–10 dias). Já foi iniciado tratamento para pneumocistose: TMP-SMX EV + prednisona (hipoxemia moderada). Pergunta: Qual é a melhor conduta terapêutica antirretroviral (escolha e timing), minimizando risco de falha/resistência e cobrindo as comorbidades do caso? A melhor resposta é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar dolutegravir/lamivudina (DTG/3TC) imediatamente, pois é recomendado como primeira linha de tratamento com esquema de 2 drogas e reduz toxicidade renal."
+        },
+        {
+          "letter": "B",
+          "text": "iniciar bictegravir/entricitabina/tenofovir difumarato (BIC/FTC/TDF) imediatamente pela grande potência do bictegravir."
+        },
+        {
+          "letter": "C",
+          "text": "aguardar resultado do genótipo e iniciar doravirina/TDF/3TC após 10 dias, para evitar resistência em carga viral alta."
+        },
+        {
+          "letter": "D",
+          "text": "iniciar dolutegravir + tenofovir alafenamida + entricitabina (DTG/TAF/FTC) precocemente, em até duas semanas, em especial após imediata melhora clínica."
+        },
+        {
+          "letter": "E",
+          "text": "postergar ART por 4–6 semanas devido ao risco de IRIS, e então iniciar com os antirretrovirais mais recentes e potentes cabotegravir/rilpivirina injetável como primeira linha."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Início de TARV em pneumocistose com coinfecção por hepatite B",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "TARV",
+        "pneumocistose",
+        "hepatite B",
+        "tenofovir alafenamida"
+      ]
+    },
+    {
+      "number": 52,
+      "statement": "Mulher, 27 anos, previamente hígida, refere que adotou um filhote de gato há 6 semanas. Relatou pápula autolimitada em antebraço direito após arranhão. Evoluiu há 10 dias com febre baixa diária, mal-estar e linfonodo doloroso axilar direito. Há 4 dias relatou piora súbita da visão no olho direito e “mancha central”. Exame físico: Linfonodomegalia axilar direita 3 cm, dolorosa, sem flutuação evidente; Olho direito: acuidade visual reduzida; fundoscopia com edema de papila e exsudatos maculares em estrela; Sem meningismo. Exames laboratoriais: Hemograma: discreta leucocitose; PCR: moderadamente elevada; Sorologia Bartonella henselae: IgG 1:1024, IgM positivo; VDRL negativo; toxoplasmose IgM negativa; IGRA negativo, RM encéfalo/orbitas: sem lesões expansivas; realce do disco óptico compatível com neurorretinite. Assinale a opção que apresenta a melhor conduta antimicrobiana para maximizar recuperação visual e reduzir complicações.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Sem antibiótico; corticoide apenas, doença é autolimitada mesmo em neurorretinite."
+        },
+        {
+          "letter": "B",
+          "text": "Azitromicina por 5 dias apenas."
+        },
+        {
+          "letter": "C",
+          "text": "Doxiciclina + rifampicina por 4–6 semanas."
+        },
+        {
+          "letter": "D",
+          "text": "TMP-SMX 800/160mh 4/4h por 3 dias, eficaz e reduz inflamação."
+        },
+        {
+          "letter": "E",
+          "text": "Anfotericina B liposomal por duas semanas."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Doença da arranhadura do gato com neurorretinite",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença da arranhadura do gato",
+        "Bartonella henselae",
+        "neurorretinite"
+      ]
+    },
+    {
+      "number": 54,
+      "statement": "Homem, 52 anos, previamente hígido, refere dor intensa em coxa direita há 14 horas após pequeno trauma contuso. Evolui com piora progressiva da dor, febre e mal-estar intenso, sudorese fria, procurando atendimento no serviço de emergência. Na coxa observou-se edema tenso, eritema mal delimitado, áreas violáceas, hipoestesia em placa e crepitação discreta. Dor extrema à palpação, além do esperado para achado cutâneo. Na admissão: PA 84/48 mmHg (PAM 60); FC 138 bpm; FR 30 irpm; T 39,4C; Extremidades frias, tempo de enchimento capilar 5s. Laboratório: Leucócitos 28.400 (15% bastões); Plaquetas 82.000; Creatinina 2,3 mg/dL; Lactato 6,2 mmol/L; CK 3.900 U/L; PCR 420 mg/L. O paciente é levado imediatamente ao centro cirúrgico. Na exploração, há necrose fascial extensa com pouco pus e ausência de plano de clivagem. Exame (GRAM) de material colhido no sítio cirúrgico identificou cocos sugestivos de Streptococcus sp. Foi escolhido empiricamente um esquema antibiótico contendo betalactâmico associado à vancomicina e clindamicina. Após desbridamento, o residente questiona a necessidade de associar clindamicina à betalactâmico e vancomicina, já que o microrganismo deve ser potencialmente sensível aos dois potentes já escolhidos. Sabendo que a clindamicina se liga à subunidade 50S ribossomal bacteriana, a justificativa fisiopatológica mais correta para adicionar clindamicina nesse cenário é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ampliar espectro para gram-negativos resistentes."
+        },
+        {
+          "letter": "B",
+          "text": "aumentar atividade bactericida por sinergismo direto com betalactâmico."
+        },
+        {
+          "letter": "C",
+          "text": "reduzir risco de resistência emergente à penicilina."
+        },
+        {
+          "letter": "D",
+          "text": "melhorar penetração tecidual em áreas necróticas."
+        },
+        {
+          "letter": "E",
+          "text": "inibir síntese de exotoxinas e superantígenos estreptocócicos, reduzindo tempestade inflamatória."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Infecções de pele e partes moles",
+      "topic": "Fasceíte necrotizante estreptocócica — papel da clindamicina",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "fasceíte necrotizante",
+        "clindamicina",
+        "exotoxina estreptocócica"
+      ]
+    },
+    {
+      "number": 55,
+      "statement": "Homem, 38 anos, encontrado confuso após “beber algo da garagem”. Chega ao PS com vômitos, dor abdominal e taquipneia. Ao exame: PA 132/78 mmHg,; FC 118 bpm,; FR 32 irpm,; SatO₂ 97% AA,; T 36,4C. Confuso, sem focalidade; hálito “não alcoólico”; sem rigidez de nuca. Gasometria: pH 7,08 / PaCO₂ 18 / HCO₃ 5. Ânion gap: 33. Bioquímica: Na 140, Cl 102, K 5,2, ureia 48, creatinina 2,1 (prévia desconhecida), glicose 92. Lactato 2,0. Cetonas negativas. Osmolalidade medida: 340 mOsm/kg; calculada: 292 mOsm/kg e osmolar gap: 48. Urina: numerosos cristais em “envelope”; cálcio baixo-normal. Nível sérico de etilenoglicol: 320 mg/dL. Inicia-se fomepizol + bicarbonato EV e suporte. A conduta mais adequada quanto a indicar terapia extracorpórea (hemodiálise/ECTR) é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "indicar hemodiálise, pois o nível de etilenoglicol é compatível com critério de ECTR mesmo com fomepizol e há acidose grave; ajustar dose do antídoto durante ECTR."
+        },
+        {
+          "letter": "B",
+          "text": "indicar hemodiálise apenas se houver convulsões ou coma; caso contrário, observar ânion gap cair."
+        },
+        {
+          "letter": "C",
+          "text": "não indicar hemodiálise, pois fomepizol bloqueia metabolismo e o nível “não é tão alto”."
+        },
+        {
+          "letter": "D",
+          "text": "indicar diurese forçada com furosemida e evitar hemodiálise para não “remover fomepizol”."
+        },
+        {
+          "letter": "E",
+          "text": "trocar fomepizol por etanol e evitar hemodiálise, pois etanol é “equivalente” e mais barato."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Intoxicações exógenas",
+      "topic": "Intoxicação por etilenoglicol — indicação de hemodiálise",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "etilenoglicol",
+        "fomepizol",
+        "hemodiálise"
+      ]
+    },
+    {
+      "number": 56,
+      "statement": "Homem, 58 anos, DM2 em uso de metformina 2.000 mg/dia, internado por pneumonia grave. Evolui com hipotensão refratária e oligúria. Após 18 horas: PA 82/48 mmHg (noradrenalina 0,3 mcg/kg/min); FC 118 bpm; FR 28 irpm; SatO₂ 97% (VM, FiO₂ 40%); Temperatura 37,8C. Gasometria arterial: pH 7,06; PaCO₂ 22 mmHg; HCO₃⁻ 6 mEq/L; Lactato 14 mmol/L. Laboratório: Creatinina 4,2 mg/dL; Glicose 118 mg/dL; Cetonas negativas; Ânion gap 32; SvO₂ central 82%. O seguinte mecanismo fisiopatológico explica principalmente a hiperlactatemia nesse caso:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "hipoperfusão tecidual com glicólise anaeróbica pura (acidose tipo A clássica)."
+        },
+        {
+          "letter": "B",
+          "text": "ativação de piruvato desidrogenase pelo aumento do NAD⁺ mitocondrial."
+        },
+        {
+          "letter": "C",
+          "text": "bloqueio do Complexo IV da cadeia respiratória com incapacidade de utilização de oxigênio (mecanismo tipo cianeto)."
+        },
+        {
+          "letter": "D",
+          "text": "inibição do Complexo I da cadeia respiratória, aumento da razão NADH/NAD⁺ e desvio do piruvato para lactato."
+        },
+        {
+          "letter": "E",
+          "text": "desacoplamento oxidativo com aumento de consumo de O₂ e termogênese."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Distúrbios metabólicos",
+      "topic": "Acidose láctica associada à metformina",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "acidose láctica",
+        "metformina",
+        "complexo I mitocondrial"
+      ]
+    },
+    {
+      "number": 57,
+      "statement": "Homem, 62 anos, previamente hígido, apresenta 8 semanas de episódios breves (3–10 s), dezenas ao dia, descritos pela família como “contrações súbitas do braço direito com careta”, sem perda sustentada da consciência. Evolui com déficit subagudo de memória recente, irritabilidade e piora do desempenho executivo. Exame: orientado parcialmente, amnésia anterógrada, sem déficit focal. Eletrocardiograma normal. Sem febre. Exames: Na 123 mEq/L, osm sérica baixa; urina inapropriadamente concentrada (perfil compatível com SIADH). PCR baixa; hemograma normal. Punção lombar: 2 células/mm³, proteína 48 mg/dL, glicose normal, bandas oligoclonais negativas. Eletroencefalograma: descargas temporais esparsas, sem status epilepticus. RM encéfalo (FLAIR): hipersinal discreto em hipocampo bilateral, sem realce significativo. PET-FDG: hipermetabolismo mesial temporal bilateral. A melhor conduta imediata (diagnóstica + terapêutica), com maior impacto em prognóstico cognitivo, é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar imunoterapia de primeira linha imediatamente (metilprednisolona EV + IVIG ou plasmaférese), colher anticorpos séricos/CSF e rastrear neoplasia, pois o fenótipo é altamente sugestivo de encefalite por LGI1 (Leucine-Rich Glioma-Inactivated 1)."
+        },
+        {
+          "letter": "B",
+          "text": "solicitar anticorpos anti-LGI1 (Leucine-Rich Glioma-Inactivated 1) apenas no líquor e aguardar resultado para iniciar metilprednisolona."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar levetiracetam em alta dose e observar resposta por 2–4 semanas antes de imunoterapia."
+        },
+        {
+          "letter": "D",
+          "text": "tratar hiponatremia como causa primária do quadro neuropsiquiátrico; corrigir sódio e reavaliar em 72 h."
+        },
+        {
+          "letter": "E",
+          "text": "indicar biópsia cerebral do lobo temporal antes de imunoterapia para excluir linfoma primário do SNC."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Encefalite límbica autoimune anti-LGI1",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "encefalite límbica",
+        "anti-LGI1",
+        "imunoterapia"
+      ]
+    },
+    {
+      "number": 58,
+      "statement": "Mulher, 29 anos, 12 dias pós-parto, chega com cefaleia progressiva há cinco dias, pior ao deitar-se, associada a turvação visual transitória. Um episódio de crise focal motora curta em membro superior esquerdo na sala de espera. Sem febre. Exame: PA 130/80, papiledema bilateral, sem déficit motor. Exames: Hemograma normal, plaquetas 240 mil; D-dímero normal; TC sem contraste: pequena hemorragia cortical parasagital direita com edema adjacente; Angio-TC arterial: sem aneurisma/malformação; RM (T2/FLAIR) + SWI: sinais de infarto venoso hemorrágico parasagital; Venografia (MRV/CTV): falha de enchimento do seio sagital superior. A conduta correta na fase aguda é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "evitar anticoagulação devido à hemorragia; tratar apenas com antiepiléptico e controle de pressão intracraniana."
+        },
+        {
+          "letter": "B",
+          "text": "iniciar heparina (preferencialmente HBPM ou HNF) mesmo na presença de hemorragia venosa, com manejo de hipertensão intracraniana e anticonvulsivante se indicado."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar dupla antiagregação plaquetária por 21 dias, como em AVC menor."
+        },
+        {
+          "letter": "D",
+          "text": "fazer trombólise venosa sistêmica imediata, pois há déficit neurológico."
+        },
+        {
+          "letter": "E",
+          "text": "aguardar confirmação por arteriografia cerebral antes de qualquer terapia antitrombótica."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vasculares",
+      "topic": "Trombose venosa cerebral com infarto hemorrágico — anticoagulação",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "trombose venosa cerebral",
+        "anticoagulação",
+        "infarto hemorrágico"
+      ]
+    },
+    {
+      "number": 59,
+      "statement": "Mulher, 41 anos, com história de vômitos incoercíveis e soluços por seis dias há dois meses (resolvidos espontaneamente), agora apresenta dor cervicotorácica, seguida de paraparesia rapidamente progressiva (48 h), nível sensitivo em T6, retenção urinária e alodinia. Exame: paraparesia espástica, hiperreflexia, Babinski bilateral, nível sensitivo T6. Exames: RM medula: lesão T2 hiperintensa longitudinalmente extensa (C7–T7), com edema e realce central patchy; RM encéfalo: sem lesões típicas de Esclerose Múltipla; LCR: 12 células/mm³ (linfomononuclear), proteína 62 mg/dL, glicose normal, bandas oligoclonais negativas; Sorologia: AQP4-IgG positivo (Antiaquaporina-4 /célula-based assay); MOG-IgG negativo (Myelin Oligodendrocyte Glycoprotein); VDRL/HTLV negativos; B12 normal; cobre normal Assinale a opção que apresenta a melhor estratégia terapêutica aguda e o cuidado-chave para não piorar o curso da doença.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Metilprednisolona EV 1 g/d por 3–5 dias e considerar plasmaférese precoce se resposta incompleta; evitar terapias modificadoras de doença de Esclerose Múltipla (ex.: interferon-beta), pois podem piorar Neuromielite Óptica."
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar imediatamente interferon-beta, pois a mielite extensa é marcador de alta atividade inflamatória desmielinizante."
+        },
+        {
+          "letter": "C",
+          "text": "Tratar como isquemia medular: antiagregação e controle pressórico, sem imunoterapia, pois a progressão em 48 h é rápida demais para autoimune."
+        },
+        {
+          "letter": "D",
+          "text": "Anticoagular empiricamente por possível TVC medular (sic) e aguardar evolução."
+        },
+        {
+          "letter": "E",
+          "text": "Antibioticoterapia de amplo espectro por mielite infecciosa; corticosteroide apenas após culturas negativas."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes medulares e desmielinizantes",
+      "topic": "Neuromielite óptica — tratamento agudo e risco do interferon-beta",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "neuromielite óptica",
+        "AQP4",
+        "plasmaférese",
+        "interferon-beta"
+      ]
+    },
+    {
+      "number": 60,
+      "statement": "Mulher, 38 anos, previamente hígida, 10 dias pós-parto, apresenta cefaleia súbita explosiva (thunderclap), intensidade 10/10, com pico em segundos. Evolui com mais dois episódios semelhantes em 48 h. Nega febre. Refere uso recente de sumatriptana para enxaqueca. Exame: PA 150/95 mmHg, sem déficit focal persistente. Rigidez de nuca ausente. Exames iniciais: TC de crânio nas primeiras 3 h: sem hemorragia subaracnoide (HSA) evidente; Punção lombar (12 h após o evento): sem xantocromia, 2 hemácias/mm³; PCR e VHS normais; LCR: 1 célula/mm³, proteína 32 mg/dL; Angio-TC cerebral: múltiplos segmentos de estreitamentos e dilatações alternantes (“beading”) nas artérias cerebrais médias e posteriores; RM com DWI: pequenas áreas corticais de restrição puntiforme frontal direita; Repetição da angiografia em 6 semanas: resolução completa das irregularidades. Assinale a opção que apresenta o diagnóstico mais provável e a conduta inicial adequada.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Vasculite primária do SNC (PACNS); iniciar ciclofosfamida + metilprednisolona EV."
+        },
+        {
+          "letter": "B",
+          "text": "HSA aneurismática com falso-negativo na TC; indicar arteriografia urgente."
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome da vasoconstrição cerebral reversível (RCVS); suspender gatilhos vasoativos, controlar PA e considerar nimodipina."
+        },
+        {
+          "letter": "D",
+          "text": "Síndrome de encefalopatia posterior reversível (PRES) associada ao puerpério; iniciar controle pressórico rigoroso e sulfato de magnésio."
+        },
+        {
+          "letter": "E",
+          "text": "Dissecção intracraniana multifocal envolvendo ramos distais com vasoespasmo secundário; iniciar anticoagulação e repetir angiografia em 7 dias."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vasculares",
+      "topic": "Síndrome da vasoconstrição cerebral reversível",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "RCVS",
+        "cefaleia thunderclap",
+        "vasoconstrição cerebral reversível"
+      ]
+    }
+  ]
+}

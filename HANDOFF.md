@@ -68,9 +68,19 @@ importação), cabeçalho `#separator:tab / #html:true / #notetype:Cloze / #deck
 resumos já escritos em `data/resumos/<slug>.ts` (mesma fonte de verdade médica, sem inventar fatos
 novos), citando banca/ano/número real nas tags quando ligado a uma questão do corpus. Todo arquivo
 tem pelo menos 1 card de mnemônico (rotulado como consagrado ou como "recurso próprio", nunca
-apresentado como oficial se foi inventado). 13 diagramas SVG em `data/flashcards/media/` (algoritmos/
+apresentado como oficial se foi inventado). 11 diagramas SVG em `data/flashcards/media/` (algoritmos/
 fluxogramas esquemáticos, nunca imagens médicas "realistas" tipo ECG/radiografia/histologia — só 2
-chegam perto de ECG e são esquemáticos/rotulados, não traçados realistas). 779 cards no total.
+chegam perto de ECG e são esquemáticos/rotulados, não traçados realistas).
+
+**Reescrita completa nesta sessão (commit `682f42c`), depois de feedback do usuário**: a primeira
+versão (779 cards, commit `1610ee5`) foi rejeitada — "frases gigantes tiradas do resumo" em vez de
+"conteúdo nuclear", e itens de tabela/escala (ex. Child-Pugh) agrupados num card só em vez de
+item-por-item. Reescrita do zero seguindo o **princípio da informação mínima**: cada card testa um
+único fato atômico (média de ~9-13 palavras no campo Text, contra ~20-26 antes); todo
+contexto/mecanismo/pitfall foi movido para o Extra; toda escala/tabela/lista de critérios agora tem
+**um card por item** (nenhum card usa mais de um número de cloze distinto — confirmado
+programaticamente). Resultado: **1240 cards**. 2 imagens ficaram órfãs na reescrita e foram removidas
+(`doencas-da-tireoide-tempestade-sequencia.svg`, `doencas-neuromusculares-broca-wernicke.svg`).
 
 `escalas-e-tabelas.txt` cobre as 14 escalas/tabelas confirmadas relendo `statement`/`keywords` dos
 212 enunciados em `data/provas/*.json` (script Python ad-hoc, não commitado): **Forrest**,

@@ -15,23 +15,32 @@ Claude.
 Este projeto nasceu **vazio de propósito** — é a mesma base de código do
 [banco de questões da UERJ](../banco-questoes-uerj), mas sem o conteúdo daquele projeto, porque o
 ENARE cobra um corpus diferente e misturar os dois seria incorreto. `data/comentarios/`,
-`data/resumos/` e `data/taxonomy.ts` continuam vazios; `data/provas/` já tem duas provas:
+`data/resumos/` e `data/taxonomy.ts` continuam vazios; `data/provas/` já tem quatro provas:
 
-| Prova | Questões | Fácil | Média | Difícil |
-| --- | --- | --- | --- | --- |
-| 2025 | 77 | 47 | 17 | 13 |
-| 2026 | 77 | 41 | 30 | 6 |
-| **Total** | **154** | **88** | **47** | **19** |
+| Prova | Board | Questões | Fácil | Média | Difícil |
+| --- | --- | --- | --- | --- | --- |
+| ENARE 2025 | ENARE | 77 | 47 | 17 | 13 |
+| ENARE 2026 | ENARE | 77 | 41 | 30 | 6 |
+| EBSERH 2025 | EBSERH | 30 | — | 30 | — |
+| EBSERH 2026 | EBSERH | 28 | — | 28 | — |
+| **Total** | | **212** | | | |
 
-São 80 questões aplicadas em cada prova; **três anuladas por prova** ficaram de fora (2025: Q54,
-Q67, Q69; 2026: Q4, Q44, Q74), porque sem gabarito não há como corrigir a resposta. Fonte: caderno
-compilado MEDGRUPO (Concurso na Íntegra), com gabarito oficial e percentual de resposta por
-alternativa. Tema, assunto, tópico e palavras-chave de cada questão são classificação editorial,
-atribuída questão a questão a partir do enunciado.
+**ENARE** — 80 questões aplicadas em cada prova; **três anuladas por prova** ficaram de fora (2025:
+Q54, Q67, Q69; 2026: Q4, Q44, Q74), porque sem gabarito não há como corrigir a resposta. Fonte:
+caderno compilado MEDGRUPO (Concurso na Íntegra), com gabarito oficial e percentual de resposta por
+alternativa — a dificuldade acima vem desse percentual real.
 
-As duas provas do EBSERH que também foram enviadas (2025 e 2026, Grupo Clínica Médica) **ainda não
-entraram no banco** — o PDF recebido é só o caderno de questões, sem gabarito, e sem o gabarito
-oficial não há como saber qual alternativa é a correta.
+**EBSERH** — só as questões de **Conhecimentos Específicos** (31 a 60; Grupo Clínica Médica), a
+pedido — Conhecimentos Básicos ficou de fora. Fonte: caderno via pciconcursos.com.br + gabarito
+oficial FGV/EBSERH. Essa fonte não traz percentual de resposta por alternativa, então a dificuldade
+entra com o valor padrão `MEDIA` em vez de medida — ver `reference` de cada prova no JSON.
+Curiosidade de bastidor: os arquivos de caderno e de gabarito que chegaram rotulados "2025" e "2026"
+estavam com o pareamento trocado entre si (o caderno "26" era da prova aplicada em 2025, e
+vice-versa) — só ficou evidente ao cruzar uma amostra das respostas com literatura médica, já que o
+pareamento errado produzia gabarito tecnicamente incorreto em boa parte das questões verificadas.
+
+Em ambas as fontes, tema, assunto, tópico e palavras-chave de cada questão são classificação
+editorial, atribuída questão a questão a partir do enunciado.
 
 Para colocar uma prova nova, monte um JSON no formato de [`data/types.ts`](data/types.ts) — ver a
 seção [Importando uma prova](#importando-uma-prova) — e:

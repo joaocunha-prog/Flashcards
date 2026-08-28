@@ -109,13 +109,12 @@ de questões nasce vazio de propósito, e o conteúdo entra pelas provas no pass
 
 ### Passo 5 — Carregue suas provas
 
-`data/provas/` já tem duas provas (ENARE 2025 e 2026, 154 questões). Para carregá-las, ou para
-adicionar uma prova nova que você montar (ver [Parte 2](#parte-2--incluir-uma-prova-e-seu-gabarito)
-para o formato):
+`data/provas/` já tem quatro provas (ENARE 2025/2026 e EBSERH 2025/2026, 212 questões). Para
+carregá-las, ou para adicionar uma prova nova que você montar (ver
+[Parte 2](#parte-2--incluir-uma-prova-e-seu-gabarito) para o formato):
 
 ```bash
-npm run exam:import -- data/provas/enare-2025.json
-npm run exam:import -- data/provas/enare-2026.json
+for f in data/provas/*.json; do npm run exam:import -- "$f"; done
 ```
 
 Cada importação imprime quantas questões criou e recalcula o ranking.
@@ -170,8 +169,7 @@ npm install
 npm run db:push
 npm run db:seed
 
-npm run exam:import -- data/provas/enare-2025.json
-npm run exam:import -- data/provas/enare-2026.json
+for f in data/provas/*.json; do npm run exam:import -- "$f"; done
 
 npm run dev
 ```

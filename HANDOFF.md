@@ -439,11 +439,19 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 
 ## Pendências
 
-- **PRÓXIMA TAREFA (pedida pelo usuário nesta sessão): refazer TODOS os 46 resumos do 80/20 no
-  formato "capítulo por entidade" aprovado** — ver "Decisões Confirmadas" abaixo para o formato
-  exato e o exemplo de referência (`capitulo2.pdf`, entregue via `SendUserFile`, não commitado).
-  Ainda não iniciado além do capítulo de exemplo (HIV/AIDS + Neuroinfecção). Faltam os outros 9
-  assuntos de Infectologia/Neurologia do 80/20 e os 35 assuntos restantes dos outros temas.
+- **PRÓXIMA TAREFA (pedida pelo usuário nesta sessão, escopo ampliado no follow-up seguinte):
+  refazer TODOS os 46 resumos do 80/20 no formato "capítulo por entidade" aprovado, E de quebra
+  revisar o conteúdo de TODOS eles (não só os que mudam de formato), aprofundando com o que mais
+  pode cair na prova.** Pedido literal do usuário: "deixe na lista do próximo tb para revidar TUDO
+  e aprofundar mais com o que pode vir a cair tb." Ou seja, esta não é só uma tarefa de
+  reformatação — é uma revisão de conteúdo completa: mesmo o resumo que já está internamente
+  coerente (não precisa reorganizar por entidade) deve passar por uma segunda leitura garimpando
+  detalhes de manejo, limiares, "pegadinhas" e diferenciais que ainda não estão lá, no mesmo
+  espírito dos 2 exemplos do capítulo-piloto (ver "Decisões Confirmadas" — DAPT em AVC minor,
+  posologia do Bactrim por CD4). Ver "Decisões Confirmadas" abaixo para o formato exato e o exemplo
+  de referência (`capitulo2.pdf`, entregue via `SendUserFile`, não commitado). Ainda não iniciado
+  além do capítulo de exemplo (HIV/AIDS + Neuroinfecção). Faltam os outros 9 assuntos de
+  Infectologia/Neurologia do 80/20 e os 35 assuntos restantes dos outros temas.
 - **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão commitados** (commit `1610ee5`) — **ainda
   refletem o conteúdo dos resumos ANTES da reorganização por entidade**. Não sincronizar
   automaticamente — só se o usuário pedir depois que os resumos estiverem prontos.
@@ -456,15 +464,19 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 
 ## Próxima Ação
 
-**Refazer todos os 46 resumos do 80/20 no formato por entidade**, seguindo o padrão validado no
-capítulo de exemplo (ver "Decisões Confirmadas"). Ordem sugerida: primeiro os outros 9 assuntos de
-Infectologia/Neurologia (mesmo tema do exemplo aprovado — `doencas-tropicais-e-negligenciadas`,
+**Refazer todos os 46 resumos do 80/20 no formato por entidade E revisar/aprofundar o conteúdo de
+todos eles** (não só reorganizar estrutura — garimpar mais conteúdo de alto rendimento em cada um,
+mesmo nos que já eram coerentes por assunto), seguindo o padrão validado no capítulo de exemplo (ver
+"Decisões Confirmadas"). Ordem sugerida: primeiro os outros 9 assuntos de Infectologia/Neurologia
+(mesmo tema do exemplo aprovado — `doencas-tropicais-e-negligenciadas`,
 `infeccoes-relacionadas-a-assistencia`, `infeccoes-de-pele-e-partes-moles`,
 `infeccoes-do-trato-urinario`, `infeccoes-sexualmente-transmissiveis`, `tuberculose`,
 `disturbios-motores`, `doencas-neuromusculares`, `sindromes-vasculares`, `sindromes-vestibulares`),
-depois os 35 assuntos restantes. Entregar em PDF por lote para o usuário revisar antes de seguir
-para o próximo (mesmo padrão desta sessão: PDF primeiro, aplicar no código só depois de aprovado).
-Depois disso: sincronizar os flashcards Anki com o conteúdo reorganizado, se o usuário pedir.
+depois os 35 assuntos restantes — para os que não cruzam tema (maioria), o "capítulo" pode ser só o
+próprio assunto sozinho, sem precisar combinar com outro. Entregar em PDF por lote para o usuário
+revisar antes de seguir para o próximo (mesmo padrão desta sessão: PDF primeiro, aplicar no código
+só depois de aprovado). Depois disso: sincronizar os flashcards Anki com o conteúdo reorganizado, se
+o usuário pedir.
 
 ## Convenções e Restrições
 

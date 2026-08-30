@@ -1,13 +1,25 @@
 /**
  * Resumo — Nefrologia · Doença renal crônica.
  *
+ * Mantida a estrutura de seções por tipo (não por entidade): o assunto é
+ * fundamentalmente sobre UMA doença (DRC) explorada em profundidade —
+ * estadiamento, interpretação laboratorial, nefroproteção farmacológica,
+ * complicações sistêmicas — não uma lista de doenças distintas, então um
+ * split por entidade seria artificial aqui (ver critério no resumo de
+ * hiv-aids).
+ *
  * Cobre as entidades do assunto no corpus: correlação entre uremia e taxa
  * de filtração glomerular, limitações da dosagem de ureia na avaliação
  * renal, uso de finerenona na DRC diabética e vacinação contra VSR no
  * paciente com DRC. Também traz, como extrapolação de alto rendimento além
  * do que já foi cobrado, as complicações sistêmicas da DRC (CKD-MBD,
- * anemia, acidose), ajuste de fármacos e panorama de terapia renal
- * substitutiva.
+ * anemia, acidose), ajuste de fármacos, panorama de terapia renal
+ * substitutiva e as principais glomerulopatias/doenças hereditárias que
+ * evoluem para DRC.
+ *
+ * Nota de referências: DRC não é tema de PCDT nacional (diferente de
+ * HIV/TB/doenças tropicais) — a diretriz correta aqui é a internacional de
+ * sociedade especializada (KDIGO), não o Ministério da Saúde.
  */
 const content = `
 ## 🎯 Essencial
@@ -100,11 +112,15 @@ As duas principais causas de DRC (nefropatia diabética e nefrosclerose hiperten
 - **Doença renal policística autossômica dominante** é causa hereditária relevante de DRC, com rastreio de aneurismas cerebrais em casos selecionados e tolvaptana como opção para retardar progressão em fenótipos de risco.
 - **Nefrotoxicidade medicamentosa** é tema recorrente além do já cobrado: aminoglicosídeos e vancomicina exigem monitorização de níveis séricos e função renal; contrastes iodados exigem hidratação prévia em pacientes de risco; inibidores de calcineurina (ciclosporina, tacrolimo) em transplantados também são nefrotóxicos e exigem monitorização de nível sérico.
 - **Critérios de encaminhamento à diálise de urgência** (independentemente do valor de TFG) seguem o mnemônico "AEIOU": Acidose refratária, distúrbios Eletrolíticos graves (hipercalemia refratária), Intoxicação exógena dialisável, sobrecarga de volume (Overload) refratária e Uremia sintomática (pericardite, encefalopatia, sangramento urêmico).
+- **Alvo de hemoglobina no tratamento da anemia da DRC:** normalizar completamente a hemoglobina com agente estimulador da eritropoetina (alvo >13 g/dL) **aumenta** risco cardiovascular e de AVC sem benefício adicional (achado do trial TREAT) — o alvo recomendado é uma faixa intermediária (aproximadamente 10-11,5 g/dL), não a normalização.
+- **Elevação inicial de creatinina ao iniciar IECA/BRA** de até **30%** do basal é esperada (reflete queda da pressão de filtração intraglomerular) e **não** deve motivar suspensão da droga — só suspender se a elevação ultrapassar esse limiar ou vier acompanhada de hipercalemia significativa.
+- **Ligantes de potássio de nova geração** (patiromer, ciclossilicato de zircônio e sódio) permitem **manter** IECA/BRA/finerenona em dose otimizada mesmo diante de hipercalemia leve a moderada, controlando o potássio em vez de suspender o nefroprotetor — mudança de paradigma frente à conduta antiga de simplesmente reduzir/parar o RAASi.
+- **Meta de PTH no CKD-MBD** não é mais um valor numérico fixo — o KDIGO atual recomenda tratar a **tendência** (PTH persistentemente subindo ou muito acima/abaixo da normalidade), não perseguir um único número-alvo isolado.
 
 ## 📚 Referências essenciais
 
 - KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease.
-- PCDT de Doença Renal Crônica — Ministério da Saúde.
+- KDIGO Clinical Practice Guideline for the Management of Blood Pressure, Diabetes e CKD-MBD in Chronic Kidney Disease.
 - Sociedade Brasileira de Imunizações (SBIm) — Calendário de vacinação para pacientes com doença renal crônica.
 `;
 

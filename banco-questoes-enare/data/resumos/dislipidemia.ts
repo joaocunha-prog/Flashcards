@@ -28,6 +28,9 @@ const content = `
 - **Hipercolesterolemia familiar (HF)** deve ser suspeitada diante de LDL muito elevado (geralmente >190 mg/dL no adulto), xantoma tendíneo, arco corneano em paciente jovem e história familiar de evento coronariano precoce — os **critérios de Dutch Lipid Clinic Network** ajudam a firmar o diagnóstico clínico e justificam o rastreamento em cascata de familiares de primeiro grau.
 - Elevar HDL farmacologicamente (niacina, inibidores de CETP) **não reduziu eventos cardiovasculares** em grandes ensaios (AIM-HIGH, HPS2-THRIVE) — por isso HDL deixou de ser meta terapêutica, mesmo continuando marcador de risco.
 - **Estatina + fármacos que inibem CYP3A4** (claritromicina, itraconazol, alguns antirretrovirais, suco de toranja em grande quantidade) aumenta o risco de miopatia/rabdomiólise, sobretudo com sinvastatina e atorvastatina — atenção redobrada em polifarmácia.
+- **Sintomas musculares associados à estatina sem elevação de CK ("estatina intolerância" subjetiva) são frequentemente efeito nocebo**, não miopatia verdadeira — estudos com reexposição cega (paciente não sabe se está tomando estatina ou placebo) mostram que boa parte dos sintomas persiste mesmo com placebo; isso não significa ignorar a queixa, mas justifica tentar reintrodução antes de abandonar toda a classe.
+- **Icosapente etílico (EPA purificado, isolado — diferente do óleo de peixe genérico com EPA+DHA)** reduziu eventos cardiovasculares em paciente com triglicerídeos moderadamente elevados (135-499 mg/dL) já em estatina, no estudo REDUCE-IT — combinações genéricas de ômega-3 (EPA+DHA) não reproduziram esse benefício em outros ensaios, então a formulação importa na hora de escolher.
+- **Lipoproteína(a) elevada** é fator de risco cardiovascular geneticamente determinado, independente do LDL, cada vez mais dosado na estratificação de risco — hoje não existe terapia específica amplamente aprovada para reduzi-la isoladamente, mas seu achado justifica tratamento mais agressivo dos demais fatores modificáveis (LDL, pressão, tabagismo).
 
 ## ⚠️ Pitfalls
 
@@ -38,6 +41,7 @@ const content = `
 - **Usar a fórmula de Friedewald** para calcular LDL com triglicerídeos muito elevados — gera valor não confiável.
 - **Não suspeitar de hipercolesterolemia familiar** diante de LDL muito alto em paciente jovem com evento coronariano precoce na família — perde-se a chance de rastreio em cascata.
 - **Suspender estatina definitivamente ao primeiro relato de mialgia** sem investigar CK, causas alternativas de dor muscular e sem tentar reintrodução em dose menor ou troca de estatina antes de abandonar a classe.
+- **Confundir ômega-3 genérico (cápsula de farmácia, EPA+DHA) com icosapente etílico** ao interpretar um enunciado que cita redução de eventos cardiovasculares — o benefício comprovado em desfecho duro é da formulação isolada de EPA, não da suplementação genérica.
 
 ## 📝 Como a banca cobra
 

@@ -41,6 +41,8 @@ const content = `
 - **Derrame associado a embolia pulmonar** costuma ser pequeno, unilateral, exsudativo e frequentemente hemorrágico — deve ser lembrado no diagnóstico diferencial de exsudato sem etiologia infecciosa/neoplásica evidente, especialmente com dor pleurítica associada.
 - **Gradiente de albumina soro-líquido pleural (>1,2 g/dL sugere transudato)** é útil não só para corrigir "falso-exsudato" por diurético em ICC, mas em qualquer discordância entre os critérios de Light e o quadro clínico.
 - **Sinal da coluna vertebral (spine sign)** na radiografia de tórax em perfil — visualização nítida da coluna torácica caudalmente sugere ausência de derrame; sua perda (a coluna "desaparece" nas porções inferiores) sugere derrame retrocardíaco.
+- **NT-proBNP elevado no líquido pleural (>1500 pg/mL)** reforça origem cardíaca mesmo quando os critérios de Light classificam o derrame como exsudato (situação comum em ICC sob diurético) — ferramenta complementar ao gradiente de albumina na mesma armadilha diagnóstica.
+- **A técnica de coleta do pH pleural importa tanto quanto o resultado**: a amostra deve ser colhida em seringa heparinizada, sem contato com ar, e processada como gasometria — usar fita de pH ou deixar exposta ao ambiente por alguns minutos já invalida o valor.
 
 ## ⚠️ Pitfalls
 
@@ -55,6 +57,7 @@ const content = `
 - **Puncionar sem guia de imagem em derrame pequeno/septado** — aumenta o risco de punção seca ou de pneumotórax iatrogênico; a ultrassonografia à beira do leito reduz complicações e deve ser preferida sempre que disponível.
 - **Concluir causa maligna só por citologia negativa em uma única punção** — sensibilidade moderada; repetir a coleta ou avançar para biópsia pleural (guiada por imagem ou por toracoscopia) antes de descartar neoplasia com suspeita clínica alta.
 - **Descartar embolia pulmonar como causa só porque o derrame é pequeno e "não parece grave"** — o volume do derrame não se correlaciona com a gravidade do TEP subjacente; a suspeita clínica (dor pleurítica, fatores de risco para TEV) deve guiar a investigação, não o tamanho do derrame.
+- **Medir o pH do líquido pleural com fita/medidor de pH comum em vez de gasometria** — o pH pleural só é confiável quando processado anaerobicamente num analisador de gases (o mesmo usado para gasometria arterial); exposição ao ar ou uso de fita de pH gera leitura falsamente alta, podendo mascarar um derrame complicado que precisaria de drenagem.
 
 ## 📝 Como a banca cobra
 

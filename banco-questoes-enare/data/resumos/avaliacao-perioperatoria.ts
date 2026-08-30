@@ -40,6 +40,9 @@ const content = `
 - **Delirium pós-operatório** é mais comum em idosos, portadores de demência prévia, polifarmácia com drogas anticolinérgicas/benzodiazepínicos, e cirurgias de maior porte — triagem cognitiva pré-operatória (ex.: Mini-Cog) ajuda a identificar quem tem maior risco e orientar prevenção (evitar benzodiazepínico, mobilização precoce, controle de dor multimodal).
 - **Índice de fragilidade pré-operatório** (velocidade de marcha, força de preensão, perda de peso não intencional, exaustão referida) prediz complicações e mortalidade pós-operatória de forma independente da idade cronológica isolada — cada vez mais incorporado à avaliação pré-operatória do idoso cirúrgico.
 - **Apneia obstrutiva do sono não diagnosticada** é fator de risco para complicação respiratória e via aérea difícil no perioperatório — o questionário STOP-BANG é ferramenta de rastreio simples e amplamente usada na consulta pré-anestésica.
+- **AAS em prevenção secundária (doença cardiovascular estabelecida) geralmente é mantido no perioperatório**, exceto em cirurgias com risco de sangramento em espaço fechado (neurocirurgia intracraniana, alguns procedimentos de canal medular/câmara posterior do olho) — o estudo POISE-2 mostrou que suspender AAS de rotina não reduz sangramento o suficiente para compensar o risco trombótico na maioria das cirurgias não cardíacas.
+- **Não iniciar clonidina ou outro alfa-2-agonista no perioperatório "para proteção cardíaca"** — o mesmo estudo POISE-2 mostrou que essa estratégia aumenta hipotensão clinicamente significativa e parada cardíaca não fatal, sem reduzir infarto, o par exato do raciocínio já aplicado ao betabloqueador novo.
+- **Stent coronariano recente muda o cronograma da cirurgia eletiva, não só a medicação**: cirurgia eletiva deve ser adiada por pelo menos 30 dias após stent metálico convencional e por pelo menos 6 meses após stent farmacológico (idealmente aguardando o curso completo de dupla antiagregação) — suspender o antiagregante antes desse prazo para operar eleva o risco de trombose de stent, um evento com mortalidade muito alta.
 
 ## ⚠️ Pitfalls
 
@@ -56,6 +59,9 @@ const content = `
 - **Prescrever benzodiazepínico de rotina para ansiedade pré-operatória em idoso** — aumenta risco de delirium pós-operatório; medidas não farmacológicas e analgesia multimodal são preferíveis nesse grupo.
 - **Avaliar risco cirúrgico só pela idade cronológica** — fragilidade funcional (marcha, força, autonomia) prediz complicações melhor do que a idade isolada em muitos cenários.
 - **Ignorar rastreio de apneia obstrutiva do sono na consulta pré-anestésica** — aumenta risco de via aérea difícil e de complicação respiratória no pós-operatório imediato, especialmente com opioides.
+- **Suspender AAS de rotina em prevenção secundária antes de cirurgia não cardíaca de baixo risco hemorrágico** — na maioria dos cenários, mantê-lo é mais seguro do que suspender.
+- **Iniciar clonidina/alfa-2-agonista perioperatório pensando em reduzir risco cardíaco** — evidência de aumento de hipotensão/parada cardíaca sem benefício isquêmico.
+- **Operar cirurgia eletiva antes do prazo mínimo após colocação de stent coronariano**, ou suspender a dupla antiagregação antes desse prazo para viabilizar a cirurgia — risco de trombose de stent, evento com alta mortalidade.
 
 ## 📝 Como a banca cobra
 

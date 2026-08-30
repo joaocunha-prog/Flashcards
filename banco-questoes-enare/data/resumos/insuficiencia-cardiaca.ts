@@ -1,6 +1,12 @@
 /**
  * Resumo — Cardiologia · Insuficiência cardíaca.
  *
+ * Mantida a estrutura de seções por tipo (não por entidade): o assunto é
+ * fundamentalmente sobre UMA doença (insuficiência cardíaca) explorada em
+ * profundidade — classificação, farmacologia dirigida por mecanismo,
+ * perfis de choque — não uma lista de doenças distintas, então um split
+ * por entidade seria artificial aqui (ver critério no resumo de hiv-aids).
+ *
  * Cobre as entidades do assunto no corpus: classificação funcional NYHA,
  * espironolactona (benefício de sobrevida), choque cardiogênico
  * frio-úmido (inotrópico e vasopressor), sacubitril/valsartana
@@ -8,9 +14,12 @@
  * de ejeção preservada tratada com inibidor de SGLT2. Também traz, como
  * extrapolação de alto rendimento além do que já caiu em prova, a
  * classificação por fração de ejeção, os demais perfis hemodinâmicos do
- * choque cardiogênico, os demais pilares farmacológicos, o manejo da
- * congestão refratária e da deficiência de ferro, e as indicações de
- * dispositivo (CDI/TRC) que completam o manejo da IC crônica.
+ * choque cardiogênico (incluindo a escolha entre dobutamina e milrinona
+ * conforme uso crônico de betabloqueador), os demais pilares
+ * farmacológicos, o manejo da congestão refratária e da deficiência de
+ * ferro, a síndrome cardiorrenal, as miocardiopatias específicas
+ * (amiloidose AL vs. ATTR, periparto, induzida por taquicardia) e as
+ * indicações de dispositivo (CDI/TRC) que completam o manejo da IC crônica.
  */
 const content = `
 ## 🎯 Essencial
@@ -40,6 +49,12 @@ const content = `
 - **Resistência a diurético de alça** (congestão persistente apesar de dose otimizada) é manejada por bloqueio sequencial do néfron — associar tiazídico (ex.: metolazona/hidroclorotiazida) potencializa a natriurese ao bloquear o túbulo distal, compensando a reabsorção compensatória induzida pelo diurético de alça isolado.
 - **Digoxina** melhora sintomas e reduz hospitalização na HFrEF sintomática apesar de terapia otimizada, mas **não reduz mortalidade** — janela terapêutica estreita exige monitorização de níveis séricos, especialmente em disfunção renal.
 - **Deficiência de ferro** (mesmo sem anemia) é comum na IC e piora capacidade funcional — reposição de **ferro IV** (não oral, por má absorção/tolerância no contexto inflamatório da IC) melhora sintomas e reduz hospitalização em paciente com HFrEF e ferritina baixa ou saturação de transferrina reduzida.
+- No choque cardiogênico de paciente **em uso crônico de betabloqueador**, a dobutamina (agonista beta-adrenérgico) perde parte do efeito por bloqueio do receptor-alvo — **milrinona** (inibidor da fosfodiesterase-3, mecanismo independente do receptor beta) é a alternativa nesse cenário específico, embora exija mais cautela em disfunção renal (acúmulo) e tenha maior risco de hipotensão/arritmia.
+- **Amiloidose cardíaca** tem dois subtipos com conduta bem diferente: **AL** (cadeias leves de imunoglobulina — exige investigação hematológica urgente e quimioterapia, pois é rapidamente progressiva) e **ATTR** (transtirretina, forma selvagem/senil ou hereditária — tratada com **tafamidis**, estabilizador da transtirretina); a cintilografia com pirofosfato de tecnécio positiva **sem** gamopatia monoclonal associada já sugere fortemente ATTR, evitando biópsia na maioria dos casos.
+- **Síndrome cardiorrenal** é classificada em 5 tipos conforme o órgão que falha primeiro e a cronicidade (tipo 1: IC aguda causando lesão renal aguda; tipo 2: IC crônica causando DRC; tipo 3: lesão renal aguda causando IC aguda; tipo 4: DRC causando IC crônica; tipo 5: doença sistêmica lesando os dois simultaneamente) — a tipagem orienta qual órgão tratar primeiro.
+- **Cardiomiopatia periparto** deve ser lembrada em IC nova no último mês de gestação até 5 meses pós-parto sem outra causa identificada — bromocriptina (inibe prolactina, reduzindo um fragmento de prolactina implicado na fisiopatologia) é terapia adjuvante específica além do tratamento padrão de IC (com anticoagulação profilática, pelo estado de hipercoagulabilidade somado ao risco trombótico da FE muito reduzida).
+- **Cardiomiopatia de Takotsubo** ("coração partido") mimetiza IAM com supra de ST e disfunção ventricular aguda, tipicamente após estresse emocional/físico intenso, mas com **coronárias angiograficamente normais** e recuperação da função em semanas — diferencial importante de IC aguda nova em paciente sem fator de risco coronariano clássico.
+- Nível terapêutico-alvo de **digoxina** hoje é mais baixo do que se pensava (0,5-0,9 ng/mL) — níveis mais altos aumentam mortalidade sem benefício sintomático adicional; hipocalemia potencializa a toxicidade digitálica mesmo com nível sérico "normal".
 
 ## ⚠️ Pitfalls
 
@@ -54,6 +69,8 @@ const content = `
 - Escalonar apenas a dose do diurético de alça em paciente com congestão refratária, sem considerar bloqueio sequencial do néfron com tiazídico.
 - Repor ferro por via oral em paciente com IC e deficiência de ferro, esperando o mesmo benefício da via IV — a absorção oral é pouco confiável nesse contexto inflamatório.
 - Interpretar BNP/NT-proBNP isoladamente sem considerar fatores confundidores (obesidade reduz, disfunção renal e idade avançada elevam os níveis independentemente da congestão).
+- Manter dobutamina como inotrópico "padrão" em paciente sob betabloqueio crônico sem considerar milrinona — o bloqueio do receptor beta reduz a resposta esperada à dobutamina.
+- Investigar amiloidose cardíaca só por biópsia endomiocárdica de rotina, sem antes solicitar cintilografia com pirofosfato e rastrear gamopatia monoclonal — a combinação dos dois evita biópsia na maioria dos casos de ATTR.
 
 ## 📝 Como a banca cobra
 
@@ -108,6 +125,10 @@ A fisiopatologia da ICFEp difere da HFrEF: em vez de perda de força contrátil,
 - **Deficiência de ferro em HFrEF:** reposição de ferro IV (carboximaltose férrica) mesmo sem anemia associada, se ferritina baixa ou saturação de transferrina reduzida.
 - **Sintomas persistentes em HFrEF apesar de terapia otimizada:** digoxina como adjuvante para controle sintomático, sem expectativa de benefício de mortalidade.
 - **Edema agudo de pulmão:** diurético de alça IV em dose alta, vasodilatador (nitroglicerina) se pressão arterial permitir, suporte ventilatório não invasivo precoce (CPAP/BiPAP) para reduzir necessidade de intubação.
+- **Choque cardiogênico em uso crônico de betabloqueador:** milrinona em vez de (ou associada a) dobutamina, com monitorização mais rigorosa de função renal e pressão arterial.
+- **Amiloidose cardíaca:** tafamidis para ATTR (selvagem ou hereditária); quimioterapia dirigida (esquemas com daratumumabe) para AL, encaminhamento hematológico urgente.
+- **Cardiomiopatia periparto:** tratamento padrão de IC compatível com gestação/amamentação + bromocriptina + anticoagulação profilática enquanto a FE estiver muito reduzida.
+- **Síndrome cardiorrenal:** tratar o órgão que falhou primeiro conforme o tipo (1-5); otimizar volemia é o ponto comum, evitando tanto hipervolemia (piora cardíaca) quanto diurese excessiva (piora renal).
 
 ## 📚 Referências essenciais
 

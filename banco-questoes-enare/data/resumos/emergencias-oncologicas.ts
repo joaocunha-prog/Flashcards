@@ -1,6 +1,12 @@
 /**
  * Resumo — Oncologia · Emergências oncológicas.
  *
+ * Reorganizado por entidade clínica (cada emergência tem sua própria seção
+ * com quando suspeitar/quadro, diagnóstico, gravidade, tratamento, pearl e
+ * pitfall juntos) — antes esse conteúdo estava picado entre seções
+ * genéricas de tipo, misturando hipercalcemia, compressão medular, SVC e
+ * tiflite no mesmo bloco de "Tratamento" ou "Diagnóstico".
+ *
  * Cobre as entidades do assunto no corpus: hipercalcemia maligna,
  * compressão medular metastática, síndrome da veia cava superior,
  * enterocolite neutropênica (tiflite) e dor oncológica refratária com
@@ -12,98 +18,97 @@
 const content = `
 ## 🎯 Essencial
 
-- **Hipercalcemia da malignidade** é a causa mais comum de hipercalcemia em pacientes internados. Tratamento da forma grave/sintomática: **salina isotônica venosa + calcitonina (ação rápida) + bisfosfonato IV (ação sustentada, começa em 2-4 dias)**.
-- **Sinais de alarme em lombalgia que obrigam investigar compressão medular:** dor noturna, refratária, com febre e/ou perda ponderal inexplicada, associada a déficit neurológico progressivo — pedir **RM de urgência**.
-- **Compressão medular metastática confirmada:** **dexametasona imediata**, seguida de radioterapia (ou cirurgia descompressiva se instabilidade, déficit rapidamente progressivo ou diagnóstico histológico necessário).
-- **Síndrome da veia cava superior:** causa neoplásica mais comum é câncer de pulmão; causas benignas (trombose relacionada a cateter/dispositivo) estão em ascensão. Convulsão nesse contexto sugere **edema cerebral**, mais comum que metástase cerebral isolada.
-- **Enterocolite neutropênica (tiflite):** dor em quadrante inferior direito + febre + neutropenia grave, com espessamento de parede cecal e/ou pneumatose na TC — manejo clínico (antibiótico de amplo espectro, repouso intestinal), cirurgia reservada para perfuração/necrose.
-- **Dor oncológica refratária:** rotação de opioide (ex.: para fentanil transdérmico) quando há efeitos adversos ou resposta inadequada, associando bisfosfonato para dor óssea e ajustando dose conforme função renal.
-- **Ainda não cobrado no corpus, mas candidato natural: síndrome de lise tumoral** — tríade de hipercalemia + hiperfosfatemia + hiperuricemia, com hipocalcemia secundária (pela precipitação de fosfato de cálcio), tipicamente após início de quimioterapia em neoplasias de alta carga tumoral e proliferação rápida (linfomas de alto grau, leucemias agudas). Prevenção com hiper-hidratação e alopurinol (ou rasburicase em alto risco) antes do primeiro ciclo.
-- **Neutropenia febril isolada** (sem foco abdominal): febre ≥38,3°C com neutrófilos <500/mm³ é emergência que exige antibioticoterapia empírica de amplo espectro (cobertura antipseudomonas) em até 1 hora, mesmo sem foco definido.
-
-## 💎 Pearls
-
-- A hipercalcemia maligna tem **dois mecanismos principais**: mediada por PTHrp (tumores sólidos, mais comum) e por metástases osteolíticas diretas (mieloma, câncer de mama) — o padrão de PTH/PTHrp ajuda a diferenciar, mas não muda a urgência do tratamento.
-- **Hidratação isolada nunca é suficiente** na hipercalcemia grave — reduz mas não normaliza; sempre associar terapia específica (calcitonina + bisfosfonato).
-- Na compressão medular, o **corticoide é dado antes mesmo da confirmação por imagem** quando a suspeita clínica é forte — atraso piora desfecho neurológico irreversivelmente.
-- **Rotação de opioides exige recálculo de dose equianalgésica**, não é uma troca 1:1 entre fármacos diferentes.
-- Bisfosfonatos IV exigem **ajuste ou contraindicação relativa em insuficiência renal significativa** — ácido zoledrônico é mais nefrotóxico que pamidronato em infusão rápida; denosumabe é alternativa que não depende de função renal (mas exige monitorar hipocalcemia).
-- Na **síndrome de lise tumoral**, o escore de risco (Cairo-Bishop) orienta se a profilaxia é com alopurinol (baixo/médio risco) ou rasburicase (alto risco) — rasburicase é contraindicada em deficiência de G6PD (risco de hemólise).
-- **Tamponamento cardíaco neoplásico** (derrame pericárdico maligno) pode se apresentar de forma insidiosa — dispneia progressiva, turgência jugular, pulso paradoxal; ecocardiograma à beira do leito confirma, pericardiocentese de alívio é a conduta de emergência.
-- A febre pode estar **atenuada ou ausente** em neutropenia profunda mesmo com infecção grave estabelecida — qualquer sinal sistêmico sutil em paciente neutropênico deve ser valorizado.
-
-## ⚠️ Pitfalls
-
-- **Tratar hipercalcemia moderada a grave só com hidratação**, sem calcitonina/bisfosfonato — trata parcialmente e recidiva rápido.
-- **Aguardar confirmação radiológica completa antes de iniciar dexametasona** em suspeita forte de compressão medular — a demora piora o prognóstico neurológico.
-- **Tratar convulsão em síndrome de veia cava superior automaticamente como metástase cerebral** — edema cerebral é etiologia mais comum nesse cenário.
-- **Indicar cirurgia de rotina na enterocolite neutropênica** sem sinais de perfuração/necrose — a conduta inicial é clínica.
-- **Ignorar a função renal ao escolher/dosar bisfosfonato** — pode precipitar ou agravar lesão renal.
-- **Aguardar hemocultura positiva para iniciar antibiótico em neutropenia febril** — o início empírico não pode esperar confirmação microbiológica.
-- **Prescrever rasburicase sem rastrear deficiência de G6PD** — risco de hemólise grave.
-- **Hidratar agressivamente sem monitorar potássio/fósforo em risco de lise tumoral** — hiper-hidratação isolada não previne o distúrbio eletrolítico sem o alopurinol/rasburicase associado.
+- A banca cobra sistematicamente **reconhecimento do quadro + conduta imediata**, quase nunca só o diagnóstico isolado — cada entidade abaixo tem uma ação de emergência específica, não intercambiável.
+- **Hipercalcemia da malignidade** é a causa mais comum de hipercalcemia em pacientes internados; **compressão medular** e **SVC** são emergências estruturais tempo-dependentes; **tiflite** e **neutropenia febril** são emergências infecciosas ligadas à imunossupressão do tratamento oncológico.
+- A gravidade **sintomática**, não só o valor numérico de um exame, é o que define a urgência em quase todas as entidades deste assunto (hipercalcemia, síndrome de lise tumoral).
 
 ## 📝 Como a banca cobra
 
-**Terceiro assunto mais frequente do corpus (7 questões, 3,3%)**, todas do ENARE — nenhuma questão do EBSERH neste recorte. A banca cobra sistematicamente **reconhecimento do quadro + conduta imediata**, quase nunca só o diagnóstico isolado.
+**Terceiro assunto mais frequente do corpus (7 questões, 3,3%)**, todas do ENARE — nenhuma questão do EBSERH neste recorte.
 
 - **Hipercalcemia maligna** apareceu 2 vezes (ENARE 2025 Q5 e ENARE 2026 Q1), a segunda associada a provável mieloma múltiplo (lesões líticas, globulina alta) — vale já pensar em investigação de gamopatia monoclonal quando a hipercalcemia vem com esse pacote laboratorial.
-- **Compressão medular** apareceu 2 vezes: uma pelo ângulo dos **sinais de alarme** que motivam a investigação (ENARE 2025 Q4) e outra já com o diagnóstico fechado, testando a **conduta terapêutica** (ENARE 2026 Q11) — as duas se complementam.
-- **Enterocolite neutropênica** (ENARE 2025 Q48) e **dor refratária com hipercalcemia leve + insuficiência renal** (ENARE 2026 Q32) trazem a camada de ajuste terapêutico em paciente oncológico complexo, com múltiplas comorbidades simultâneas.
+- **Compressão medular** apareceu 2 vezes: pelo ângulo dos **sinais de alarme** que motivam a investigação (ENARE 2025 Q4) e já com o diagnóstico fechado, testando a **conduta terapêutica** (ENARE 2026 Q11).
+- **Enterocolite neutropênica** (ENARE 2025 Q48) e **dor refratária com hipercalcemia leve + insuficiência renal** (ENARE 2026 Q32) trazem a camada de ajuste terapêutico em paciente oncológico complexo com múltiplas comorbidades simultâneas.
 - **Síndrome da veia cava superior** (EBSERH 2025 Q32) testou especificamente a ascensão das causas benignas (trombose relacionada a dispositivo) — não assumir automaticamente etiologia neoplásica.
+- **Síndrome de lise tumoral e tamponamento cardíaco neoplásico ainda não foram cobrados no corpus** — são as extrapolações de maior probabilidade dentro deste assunto, dado o padrão histórico de cobrar emergências oncológicas pouco exploradas.
 
 ## 🧠 Conceito e fisiopatologia
 
-A hipercalcemia da malignidade ocorre por dois mecanismos principais: secreção tumoral de **PTHrp** (peptídeo relacionado ao PTH, que ativa o mesmo receptor e aumenta reabsorção óssea e renal de cálcio) — o mecanismo mais comum, típico de carcinomas escamosos — ou por **osteólise direta** mediada por citocinas locais liberadas por células tumorais metastáticas no osso (mieloma, câncer de mama). Em ambos, o excesso de cálcio circulante causa poliúria, desidratação e piora da função renal, criando um círculo vicioso que agrava a própria hipercalcemia.
+As emergências oncológicas compartilham um padrão: uma alteração local (compressão física, obstrução vascular, invasão intestinal) ou sistêmica (liberação humoral, lise celular maciça) rompe rapidamente um equilíbrio que o organismo não consegue compensar a tempo — daí a exigência de conduta imediata, muitas vezes antes de confirmação completa por imagem/laboratório. A hipercalcemia maligna ocorre por secreção de **PTHrp** (mecanismo humoral, mais comum, ativa o mesmo receptor do PTH) ou por **osteólise direta** mediada por citocinas de metástases ósseas; em ambos, o excesso de cálcio circulante causa poliúria e desidratação, criando um círculo vicioso que agrava a própria hipercalcemia. A compressão medular metastática comprime diretamente a medula por extensão epidural de metástase vertebral, com edema vasogênico que responde rapidamente a corticoide.
 
-A compressão medular metastática comprime diretamente a medula ou suas raízes por extensão epidural de uma metástase vertebral — o edema vasogênico secundário responde rapidamente a corticoide em altas doses, o que explica por que a dexametasona é dada antes mesmo da confirmação radiológica completa em suspeita clínica forte.
+## 🔹 Hipercalcemia maligna
 
-A **síndrome de lise tumoral** decorre da destruição maciça e súbita de células tumorais (espontânea ou, mais comumente, após quimioterapia), liberando conteúdo intracelular — potássio, fósforo e ácidos nucleicos (metabolizados a ácido úrico) — em volume que excede a capacidade de depuração renal, formando cristais que podem precipitar lesão renal aguda obstrutiva.
+- **Quando suspeitar:** confusão mental, constipação, poliúria, desidratação, letargia ("ossos, pedras, gemidos abdominais e grunhidos psíquicos") em paciente oncológico — cálcio elevado costuma ser achado incidental que precede o reconhecimento clínico.
+- **Mecanismo:** mediada por **PTHrp** (tumores sólidos, mais comum — carcinomas escamosos de pulmão/cabeça e pescoço) ou por **osteólise direta** (mieloma múltiplo, câncer de mama) — o padrão de PTH ajuda a diferenciar, mas não muda a urgência do tratamento.
+- **Gravidade:** leve (<12 mg/dL), moderada (12-14 mg/dL) e grave (>14 mg/dL ou sintomática, independentemente do valor absoluto).
+- **Diagnóstico:** cálcio total/iônico elevado, **PTH suprimido** (diferencia de hiperparatireoidismo primário, onde o PTH está elevado ou inapropriadamente normal); PTHrp elevado sugere mecanismo humoral. Cálcio + lesões líticas + anemia + insuficiência renal → investigar mieloma (eletroforese de proteínas, cadeias leves livres).
+- **Tratamento:** **salina isotônica venosa + calcitonina (ação rápida) + bisfosfonato IV (ação sustentada, começa em 2-4 dias)**; hidratação isolada nunca é suficiente — reduz mas não normaliza. Denosumabe é alternativa em insuficiência renal significativa, pois não depende de função renal (mas exige monitorar hipocalcemia, sobretudo se houver deficiência de vitamina D associada).
+- 💎 **Pearl:** ácido zoledrônico é mais nefrotóxico que pamidronato em infusão rápida — ajustar velocidade de infusão ou trocar o bisfosfonato conforme função renal, não simplesmente evitar a classe inteira.
+- ⚠️ **Pitfall:** tratar hipercalcemia moderada a grave só com hidratação, sem calcitonina/bisfosfonato — trata parcialmente e recidiva rápido.
+- 📝 **Como caiu:** ENARE 2025 Q5 · ENARE 2026 Q1 (associada a provável mieloma).
 
-## 🩺 Quadro clínico
+## 🔹 Compressão medular metastática
 
-- **Hipercalcemia:** confusão mental, constipação, poliúria, desidratação, letargia — "ossos, pedras, gemidos abdominais e grunhidos psíquicos".
-- **Compressão medular:** dor dorsal progressiva, pior à noite/decúbito, fraqueza em membros, alteração esfincteriana, nível sensitivo.
-- **Síndrome de veia cava superior:** edema de face/pescoço, turgência jugular, circulação colateral, dispneia, cefaleia.
-- **Enterocolite neutropênica:** dor em quadrante inferior direito, febre, diarreia, em paciente neutropênico grave pós-quimioterapia.
-- **Síndrome de lise tumoral:** arritmia (por hipercalemia), tetania/parestesias (por hipocalcemia), oligúria (por nefropatia úrica), geralmente 24-72h após início de quimioterapia citorredutora.
-- **Tamponamento cardíaco neoplásico:** dispneia progressiva, taquicardia, turgência jugular, hipotensão, pulso paradoxal — tríade de Beck pode estar incompleta.
+- **Quando suspeitar:** dor dorsal progressiva, pior à noite/decúbito, com sinais de alarme — dor noturna refratária, febre e/ou perda ponderal inexplicada, fraqueza em membros, alteração esfincteriana, nível sensitivo — que obrigam investigar com **RM de urgência**.
+- **Diagnóstico:** RM de **coluna total** (não só do nível suspeito — metástases costumam ser multifocais) é o exame de escolha; TC é alternativa se RM contraindicada.
+- **Tratamento:** **dexametasona imediata**, mesmo antes da confirmação radiológica completa em suspeita clínica forte, seguida de radioterapia (ou cirurgia descompressiva se instabilidade, déficit rapidamente progressivo ou necessidade de diagnóstico histológico).
+- 💎 **Pearl:** o corticoide é dado antes mesmo da confirmação por imagem quando a suspeita clínica é forte — atraso piora desfecho neurológico de forma irreversível; déficit motor progressivo ou instalado é emergência absoluta, quanto mais rápida a progressão, pior o prognóstico de recuperação funcional.
+- ⚠️ **Pitfall:** aguardar confirmação radiológica completa antes de iniciar dexametasona em suspeita forte — a demora piora o prognóstico neurológico.
+- 🔀 **Diferencial:** abscesso epidural cursa com dor dorsal + déficit progressivo semelhante, mas com febre alta e fatores de risco infecciosos (uso de drogas injetáveis, bacteriemia recente, procedimento espinhal) — exige drenagem além de antibiótico, não corticoide isolado.
+- 📝 **Como caiu:** ENARE 2025 Q4 (sinais de alarme) · ENARE 2026 Q11 (conduta terapêutica).
 
-## 🔎 Diagnóstico
+## 🔹 Síndrome da veia cava superior
 
-- **Hipercalcemia maligna:** cálcio total/iônico elevado, PTH suprimido (diferencia de hiperparatireoidismo primário, onde o PTH está elevado ou inapropriadamente normal); PTHrp elevado sugere mecanismo humoral; investigar proteinúria de Bence Jones/eletroforese de proteínas se houver suspeita de mieloma (lesões líticas, anemia, insuficiência renal associadas).
-- **Compressão medular:** RM de coluna total (não só do nível suspeito — metástases costumam ser multifocais) é o exame de escolha; TC é alternativa se RM contraindicada.
-- **Síndrome de veia cava superior:** TC de tórax com contraste define massa mediastinal, trombose associada a cateter e extensão da obstrução.
-- **Enterocolite neutropênica:** TC de abdome com espessamento de parede cecal/pneumatose intestinal, em paciente com neutropenia grave confirmada em hemograma.
-- **Síndrome de lise tumoral:** eletrólitos (potássio, fósforo, cálcio), ácido úrico e função renal seriados nas primeiras 48-72h após início de quimioterapia em tumores de alto risco.
+- **Quando suspeitar:** edema de face/pescoço, turgência jugular, circulação colateral, dispneia, cefaleia — causa neoplásica mais comum é câncer de pulmão, mas **causas benignas (trombose relacionada a cateter/dispositivo) estão em ascensão** com o uso disseminado de cateteres de longa permanência em pacientes oncológicos.
+- **Diagnóstico:** TC de tórax com contraste define massa mediastinal, trombose associada a cateter e extensão da obstrução.
+- **Tratamento:** da causa de base — radioterapia é opção, não é primeira escolha universal em todo tipo histológico; trombose por cateter trata-se com anticoagulação e considera remoção do dispositivo, não terapia direcionada ao tumor.
+- 💎 **Pearl:** convulsão nesse contexto sugere **edema cerebral** (mais comum que metástase cerebral isolada) — não assumir automaticamente disseminação intracraniana.
+- ⚠️ **Pitfall:** tratar convulsão em SVC automaticamente como metástase cerebral, ou assumir toda SVC como neoplásica sem considerar trombose por cateter.
+- 📝 **Como caiu:** EBSERH 2025 Q32 — causas benignas emergentes.
 
-## 🚨 Gravidade
+## 🔹 Enterocolite neutropênica (tiflite)
 
-- **Hipercalcemia:** classificada como leve (<12 mg/dL), moderada (12-14 mg/dL) e grave (>14 mg/dL ou sintomática) — a gravidade sintomática, não só o valor numérico, define a urgência terapêutica.
-- **Compressão medular:** déficit motor progressivo ou instalado é emergência cirúrgica/radioterápica absoluta — quanto mais rápida a progressão, pior o prognóstico de recuperação funcional.
-- **Síndrome de lise tumoral:** classificação de Cairo-Bishop distingue lise tumoral laboratorial (alterações bioquímicas sem repercussão clínica) de clínica (com lesão renal, arritmia ou convulsão) — a laboratorial já exige monitorização e correção ativa antes de progredir.
+- **Quando suspeitar:** dor em quadrante inferior direito + febre + neutropenia grave, geralmente pós-quimioterapia.
+- **Diagnóstico:** TC de abdome com espessamento de parede cecal e/ou pneumatose intestinal.
+- **Tratamento:** manejo **clínico** (antibiótico de amplo espectro, repouso intestinal); cirurgia reservada para perfuração/necrose.
+- 🔀 **Diferencial:** colite por *Clostridioides difficile* também cursa com dor abdominal e diarreia em paciente recém-exposto a quimioterapia/antibiótico — toxina nas fezes ajuda a diferenciar quando o quadro não é tipicamente localizado em ceco/quadrante inferior direito.
+- ⚠️ **Pitfall:** indicar cirurgia de rotina sem sinais de perfuração/necrose — a conduta inicial é clínica.
+- 📝 **Como caiu:** ENARE 2025 Q48.
 
-## 💊 Tratamento
+## 🔹 Dor oncológica refratária
 
-- **Hipercalcemia grave:** salina isotônica + calcitonina + bisfosfonato IV (ajustado à função renal); denosumabe como alternativa em insuficiência renal significativa.
-- **Compressão medular:** dexametasona imediata + radioterapia (ou descompressão cirúrgica conforme instabilidade/déficit).
-- **SVC:** tratamento da causa de base; radioterapia é opção, não é primeira escolha universal em todo tipo histológico; trombose por cateter trata-se com anticoagulação e considera remoção do dispositivo.
-- **Enterocolite neutropênica:** antibiótico de amplo espectro, suporte, cirurgia reservada para complicação.
-- **Dor refratária:** rotação de opioide com recálculo de dose equianalgésica + bisfosfonato para componente ósseo.
-- **Lise tumoral:** hiper-hidratação + alopurinol (profilaxia em risco baixo/médio) ou rasburicase (alto risco, exceto deficiência de G6PD); hemodiálise se hipercalemia grave ou lesão renal refratária.
-- **Neutropenia febril:** antibiótico empírico de amplo espectro com cobertura antipseudomonas em até 1 hora, independentemente de foco identificado.
+- **Conduta:** rotação de opioide (ex.: para fentanil transdérmico) quando há efeitos adversos ou resposta inadequada, com **recálculo de dose equianalgésica** — nunca troca 1:1 entre fármacos diferentes; associar bisfosfonato para dor de componente ósseo, ajustando dose conforme função renal.
+- **Contexto combinado:** quando surge junto com hipercalcemia leve e insuficiência renal, o ajuste de opioide (evitar acúmulo de metabólitos renais, sobretudo morfina) e a decisão sobre bisfosfonato (nefrotoxicidade) precisam ser resolvidos simultaneamente, não em sequência isolada.
+- ⚠️ **Pitfall:** ignorar a função renal ao escolher/dosar bisfosfonato ou opioide — pode precipitar ou agravar lesão renal e acúmulo tóxico de metabólitos.
+- 📝 **Como caiu:** ENARE 2026 Q32.
 
-## 🔀 Diferencial
+## 🔹 Síndrome de lise tumoral
 
-- **Hipercalcemia maligna vs. hiperparatireoidismo primário** — PTH suprimido na primeira, elevado/inapropriadamente normal na segunda; ambas podem coexistir em paciente oncológico, mas o padrão de PTH orienta a investigação inicial.
-- **Compressão medular metastática vs. abscesso epidural** — ambos cursam com dor dorsal + déficit neurológico progressivo; febre alta e fatores de risco infecciosos (uso de drogas injetáveis, bacteriemia recente, procedimento espinhal) apontam para abscesso, que exige drenagem além de antibiótico.
-- **Síndrome de veia cava superior neoplásica vs. trombose relacionada a cateter/dispositivo** — a etiologia benigna vem crescendo em frequência com o uso disseminado de cateteres venosos centrais de longa permanência em pacientes oncológicos, e muda o tratamento (anticoagulação ± remoção do dispositivo, em vez de terapia direcionada ao tumor).
-- **Enterocolite neutropênica vs. colite por Clostridioides difficile** — ambas cursam com dor abdominal e diarreia em paciente recém-exposto a quimioterapia/antibiótico; toxina para C. difficile nas fezes ajuda a diferenciar quando o quadro não é tipicamente localizado em ceco/quadrante inferior direito.
+- **Quando suspeitar:** 24-72h após início de quimioterapia citorredutora em neoplasia de alta carga tumoral e proliferação rápida (linfomas de alto grau, leucemias agudas), com arritmia (hipercalemia), tetania/parestesias (hipocalcemia) e oligúria (nefropatia úrica).
+- **Mecanismo:** destruição maciça de células tumorais libera potássio, fósforo e ácidos nucleicos (metabolizados a ácido úrico), excedendo a capacidade de depuração renal e precipitando cristais que causam lesão renal aguda obstrutiva; o fósforo liberado se liga ao cálcio circulante, causando hipocalcemia secundária.
+- **Gravidade:** classificação de **Cairo-Bishop** distingue lise tumoral **laboratorial** (alterações bioquímicas sem repercussão clínica, mas já exige monitorização e correção ativa) de **clínica** (com lesão renal, arritmia ou convulsão).
+- **Tratamento/prevenção:** hiper-hidratação + **alopurinol** (profilaxia em risco baixo/médio, segundo o escore de Cairo-Bishop) ou **rasburicase** (alto risco, **contraindicada em deficiência de G6PD** pelo risco de hemólise); hemodiálise se hipercalemia grave ou lesão renal refratária.
+- ⚠️ **Pitfall:** hidratar agressivamente sem monitorar potássio/fósforo, ou prescrever rasburicase sem rastrear G6PD — risco de hemólise grave.
+- 📝 **Como caiu:** ainda não cobrado no corpus — candidato natural de alto rendimento.
+
+## 🔹 Neutropenia febril
+
+- **Quando suspeitar:** febre ≥38,3°C (ou ≥38°C sustentada por 1h) com neutrófilos <500/mm³, mesmo **sem foco definido** — a febre pode estar atenuada ou ausente em neutropenia muito profunda apesar de infecção grave estabelecida.
+- **Tratamento:** antibioticoterapia empírica de amplo espectro com **cobertura antipseudomonas**, iniciada em até **1 hora**, independentemente de hemocultura ou foco identificados.
+- ⚠️ **Pitfall:** aguardar hemocultura positiva para iniciar antibiótico — o início empírico não pode esperar confirmação microbiológica.
+- 📝 **Como caiu:** ainda não cobrado no corpus isoladamente (a tiflite, ENARE 2025 Q48, é uma causa específica de neutropenia febril com foco abdominal).
+
+## 🔹 Tamponamento cardíaco neoplásico
+
+- **Quando suspeitar:** derrame pericárdico maligno de instalação insidiosa — dispneia progressiva, turgência jugular, taquicardia, hipotensão, pulso paradoxal; a tríade de Beck pode estar incompleta.
+- **Diagnóstico:** ecocardiograma à beira do leito confirma colapso diastólico de câmaras direitas.
+- **Tratamento:** pericardiocentese de alívio é a conduta de emergência; janela pericárdica cirúrgica em recidiva.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
 
 ## 🔤 Mnemônicos
 
 - **Hipercalcemia — "ossos, pedras, gemidos abdominais e grunhidos psíquicos":** dor óssea, litíase renal, sintomas gastrointestinais (constipação, náusea) e sintomas neuropsiquiátricos (confusão, letargia, depressão).
-- **Síndrome de lise tumoral — tétrade metabólica:** hiper**c**alemia + hiper**f**osfatemia + hiper**u**ricemia + hipo**c**alcemia secundária — os quatro distúrbios que se instalam juntos após a lise celular maciça (fósforo liberado se liga ao cálcio circulante, consumindo-o).
+- **Síndrome de lise tumoral — tétrade metabólica:** hiper**c**alemia + hiper**f**osfatemia + hiper**u**ricemia + hipo**c**alcemia secundária.
 
 ## 📚 Referências essenciais
 

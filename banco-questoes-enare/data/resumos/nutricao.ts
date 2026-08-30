@@ -37,6 +37,8 @@ const content = `
 - **Albumina e pré-albumina refletem inflamação sistêmica, não apenas estado nutricional** — caem em qualquer resposta de fase aguda, então não devem ser usadas isoladamente para diagnosticar desnutrição ou guiar terapia nutricional em paciente crítico.
 - **Critérios GLIM (Global Leadership Initiative on Malnutrition)** formalizam o diagnóstico de desnutrição combinando ao menos um critério fenotípico (perda de peso não intencional, baixo IMC, redução de massa muscular) com ao menos um critério etiológico (ingesta reduzida/má absorção, doença/inflamação de base) — substituem a impressão clínica isolada por critério padronizado, cada vez mais cobrado em prova.
 - **Otimização nutricional pré-operatória** (inclusive antes de cirurgia bariátrica ou colorretal eletiva) reduz complicações pós-operatórias — corrigir desnutrição/anemia antes da cirurgia sempre que o tempo cirúrgico permitir, em vez de operar e só depois se preocupar com o estado nutricional.
+- **Critérios NICE de risco para síndrome de realimentação** formalizam quem precisa de cautela extra: **alto risco** se IMC <16, perda de peso >15% em 3-6 meses, ingesta mínima/ausente por >10 dias, ou eletrólitos (K/Mg/P) já baixos antes de iniciar a dieta; **basta 1 critério maior ou 2 menores** para justificar início com calorias bem reduzidas (10-20 kcal/kg/dia inicialmente) e reposição eletrolítica proativa — memorizar o limiar evita subestimar o risco em paciente que "não parece" tão desnutrido.
+- **Nutrição trófica (volume mínimo, 10-20 mL/h) nas primeiras 48-72h do paciente crítico** é não inferior à meta calórica plena nesse período inicial (evidência do estudo EDEN, em SDRA) — hiperalimentação precoce não melhora desfecho e pode piorar intolerância gastrointestinal; a progressão para meta plena vem depois, não no primeiro dia.
 
 ## ⚠️ Pitfalls
 
@@ -49,6 +51,8 @@ const content = `
 - **Atribuir dor abdominal pós-bypass só a causa nutricional/dietética**, sem investigar hérnia interna ou úlcera marginal como diagnóstico diferencial cirúrgico.
 - **Usar albumina isolada como critério de indicação ou de resposta à terapia nutricional** em paciente com inflamação sistêmica ativa — o marcador está confundido pela fase aguda, não pelo estado nutricional real.
 - **Indicar cirurgia bariátrica sem avaliação multidisciplinar prévia** (nutricional, psicológica, endócrina) ou fora dos critérios de IMC estabelecidos — a seleção inadequada do candidato aumenta risco de complicação e insucesso a longo prazo.
+- **Iniciar nutrição enteral em meta calórica plena já no primeiro dia do paciente crítico** — a estratégia trófica inicial (volume mínimo) nas primeiras 48-72h é preferível, com progressão gradual depois.
+- **Aplicar os critérios de risco de síndrome de realimentação só pelo IMC**, ignorando o percentual de perda de peso recente e o tempo de baixa ingesta — qualquer um dos critérios isoladamente já pode classificar o paciente como alto risco.
 
 ## 📝 Como a banca cobra
 

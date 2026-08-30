@@ -13,10 +13,11 @@ const content = `
 
 - **DM2 tem forte componente poligênico/multifatorial** — herdabilidade alta e risco muito aumentado com história familiar de primeiro grau, com a expressão dependendo de fatores ambientais (obesidade, sedentarismo, dieta). Diferente do DM1, cuja associação genética principal é com o **HLA** e componente autoimune.
 - **Controle glicêmico intensivo (metas de HbA1c muito baixas) em idosos**, especialmente frágeis ou com comorbidades, **NÃO reduz mortalidade** e **aumenta o risco de hipoglicemia grave**.
-- **Metas de HbA1c devem ser individualizadas:** mais flexíveis (7,5-8,5%) em idosos frágeis/expectativa de vida limitada/alto risco de hipoglicemia; mais rígidas em pacientes jovens, sem comorbidades e com curta duração de doença.
+- **Metas de HbA1c devem ser individualizadas:** <7% é a meta padrão para a maioria dos adultos; considerar meta mais rígida (~6,5%) em diagnóstico recente, jovem, sem comorbidade significativa e sem risco relevante de hipoglicemia; meta mais flexível (7,5-8%) com comorbidade moderada/expectativa de vida intermediária; meta ainda mais flexível (8-8,5% ou individualizada, evitando sintomas de hiperglicemia) em idoso frágil/expectativa de vida limitada/alto risco de hipoglicemia.
 - **Hipoglicemia grave fora do hospital, com paciente inconsciente ou incapaz de deglutir:** **glucagon IM/SC (1 mg) ou intranasal (3 mg, spray — não exige preparo/reconstituição)** é a conduta indicada — nunca oferecer alimento/líquido por via oral nesse cenário, pelo risco de aspiração.
 - **Glucagon mobiliza glicogênio hepático** — pode ser ineficaz em depleção de glicogênio (etilismo crônico, desnutrição, hipoglicemia prolongada), situações em que a glicose IV é necessária assim que houver acesso venoso.
 - Hipoglicemia por **sulfonilureia** tem risco de recidiva prolongada pela meia-vida longa da droga — exige observação estendida, não apenas correção pontual.
+- **Inibidores de SGLT2 podem causar cetoacidose diabética euglicêmica** (glicemia <250 mg/dL, mas cetonemia e acidose presentes) — suspender antes de cirurgia eletiva, jejum prolongado ou dieta com baixíssimo carboidrato, e **manter alto índice de suspeita mesmo com glicemia normal** em paciente sintomático usando a droga.
 
 ## 💎 Pearls
 
@@ -28,6 +29,9 @@ const content = `
 - **LADA (diabetes autoimune latente do adulto)** deve ser suspeitado em adulto magro, sem síndrome metabólica, diagnosticado como "DM2" que evolui rapidamente para necessidade de insulina — pesquisar anti-GAD confirma o diagnóstico.
 - **MODY** (diabetes monogênico) é outra causa de diagnóstico "atípico": história familiar em múltiplas gerações (autossômica dominante), início antes dos 25 anos, sem obesidade nem autoanticorpos — parte dos subtipos responde bem a sulfonilureia em vez de insulina.
 - **Fenômeno do alvorecer (dawn)** — hiperglicemia matinal por pico fisiológico de hormônios contrarreguladores — deve ser diferenciado do **efeito Somogyi** (hiperglicemia de rebote após hipoglicemia noturna não percebida); a conduta é oposta em cada caso (ajustar dose noturna de insulina de formas diferentes).
+- **Agonistas de GLP-1** têm alerta de segurança para **carcinoma medular de tireoide/MEN2** (contraindicados em história pessoal/familiar dessas condições, por hiperplasia de células C observada em modelo animal) — checar essa história antes de prescrever, mesmo diante do forte apelo cardiovascular/renal da classe.
+- **Metformina deve ser suspensa antes de contraste iodado** em paciente com função renal reduzida (ou pelo menos reavaliada a função renal após o exame antes de reintroduzir) — risco de acidose láctica se acumular em vigência de lesão renal aguda induzida por contraste; contraindicada de forma geral com **TFG <30 mL/min/1,73m²**.
+- **DM1 pode ter "período de lua de mel"** logo após o diagnóstico — queda transitória e parcial da necessidade de insulina exógena por recuperação temporária de função residual de células beta — não deve ser confundido com remissão definitiva da doença.
 
 ## ⚠️ Pitfalls
 
@@ -38,6 +42,8 @@ const content = `
 - **Achar que uma única dose de glucagon resolve definitivamente** a hipoglicemia por sulfonilureia — a meia-vida longa da droga pode causar recidiva.
 - **Classificar todo diabetes de início na vida adulta como DM2** sem considerar LADA ou MODY diante de história atípica (magreza, ausência de síndrome metabólica, herança autossômica dominante).
 - **Confundir cetoacidose diabética com estado hiperosmolar hiperglicêmico** — CAD é mais comum no DM1 (cetose, acidose, glicemia geralmente <600-800), EHH é mais comum no DM2 (glicemia muito mais alta, sem cetose relevante, osmolaridade sérica muito elevada, maior mortalidade).
+- **Descartar CAD só porque a glicemia está normal/pouco elevada** em paciente usando iSGLT2 — a cetoacidose euglicêmica é justamente a exceção que engana quem procura glicemia muito alta como critério obrigatório.
+- **Manter metformina indefinidamente sem reavaliar função renal** antes de exame com contraste iodado ou diante de TFG em queda.
 
 ## 📝 Como a banca cobra
 

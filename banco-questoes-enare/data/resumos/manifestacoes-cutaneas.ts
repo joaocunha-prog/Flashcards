@@ -1,50 +1,29 @@
 /**
  * Resumo — Reumatologia · Manifestações cutâneas.
  *
+ * Reorganizado por entidade clínica (cada dermatose tem sua própria seção
+ * com quando suspeitar, diagnóstico, tratamento, pearl e pitfall juntos),
+ * em vez de picado entre seções genéricas de tipo.
+ *
  * Cobre as entidades do assunto no corpus: eritema nodoso associado a
  * contraceptivo oral, pitting ungueal e psoríase, pioderma gangrenoso e
- * hidradenite supurativa moderada a grave. Também traz diagnósticos
- * diferenciais, classificações de gravidade e opções terapêuticas que ainda
- * não caíram nas provas reais, mas são de alto rendimento para o tema.
+ * hidradenite supurativa moderada a grave. Inclui também extrapolações de
+ * alto rendimento (síndromes autoinflamatórias PAPA/PASH/PAPASH, artrite
+ * psoriásica pelos critérios CASPAR, complicações sistêmicas de cada
+ * dermatose) ainda não cobradas no corpus, mas plausíveis em provas
+ * futuras.
  */
 const content = `
 ## 🎯 Essencial
 
-- **Eritema nodoso** é uma paniculite septal por hipersensibilidade — nódulos eritematosos, dolorosos, quentes, tipicamente em **face anterior das pernas (pré-tibial)**. NUNCA ulcera ou necrosa — é autolimitado.
-- Causas clássicas de eritema nodoso: infecção estreptocócica, sarcoidose, doença inflamatória intestinal, gestação e **drogas — anticoncepcional oral e sulfonamidas são os fármacos mais cobrados**. Cerca de metade dos casos é idiopática.
-- **Pitting ungueal (unhas em dedal), onicólise e hiperceratose subungueal** são achados clássicos de **psoríase ungueal** — mesmo sem placa cutânea evidente, são pista para investigar **artrite psoriásica** em paciente com queixa articular.
-- **Pioderma gangrenoso:** úlcera necrótica de bordas violáceas e solapadas, associada a **doença inflamatória intestinal (principalmente retocolite ulcerativa), artrite reumatoide e neoplasias mieloproliferativas**. Diagnóstico de exclusão — não é infecção primária.
-- **Patergia** no pioderma gangrenoso: trauma/desbridamento cirúrgico agressivo PIORA a lesão — biópsia deve ser limitada e conservadora, e a lesão trata-se com imunossupressão sistêmica, não cirurgia extensa.
-- **Hidradenite supurativa:** doença inflamatória crônica do folículo piloso em áreas intertriginosas (axilas, virilha, região inframamária, perianal) — nódulos dolorosos, abscessos recorrentes, fístulas e cicatrizes em "corda".
-- **Hidradenite moderada a grave, refratária a tratamento tópico/oral:** indicação de **biológico anti-TNF (adalimumabe)** — primeira linha entre os biológicos para essa doença; secuquinumabe (anti-IL-17) é alternativa mais recente.
-- Nenhuma dessas quatro dermatoses é diagnosticada por biópsia isoladamente — o raciocínio clínico (morfologia + contexto sistêmico) sempre precede e orienta a confirmação histológica, quando ela é necessária.
-
-## 💎 Pearls
-
-- Ausência de ulceração/necrose no eritema nodoso é o que o diferencia de vasculites e de pioderma gangrenoso — presença desses achados deve redirecionar o raciocínio.
-- Identificar e suspender o agente causal (ACO, sulfa) é parte do tratamento do eritema nodoso induzido por droga, além de anti-inflamatório e repouso.
-- **Síndrome de Löfgren** é a apresentação aguda e mais benigna da sarcoidose: tríade de eritema nodoso + adenopatia hilar bilateral + artralgia (geralmente de tornozelos) — costuma resolver espontaneamente e não exige biópsia para confirmar sarcoidose.
-- A gravidade da hidradenite supurativa é estadiada pelo sistema de **Hurley (I a III)** — o estágio orienta a escolha entre tratamento tópico, oral, biológico ou cirúrgico; o **IHS4** é um escore dinâmico mais usado em ensaios clínicos para medir atividade.
-- Psoríase ungueal isolada é fator de risco independente para desenvolvimento de artrite psoriásica, mesmo em paciente sem placas cutâneas visíveis.
-- No pioderma gangrenoso, a biópsia serve para EXCLUIR outros diagnósticos (infecção, vasculite, neoplasia cutânea) — o diagnóstico definitivo continua sendo clínico e de exclusão, apoiado pelos critérios de Delphi (2018).
+- Nenhuma das dermatoses deste tema é diagnosticada por biópsia isoladamente — o raciocínio clínico (morfologia + contexto sistêmico) sempre precede e orienta a confirmação histológica, quando ela é necessária.
+- O padrão organizador do tema é sempre o mesmo: **associar a lesão de pele à doença sistêmica ou ao gatilho por trás dela**, não só reconhecer a morfologia isolada.
+- **Ulceração/necrose é o divisor mais discriminativo entre as dermatoses aqui reunidas:** eritema nodoso nunca ulcera; pioderma gangrenoso é definido pela úlcera necrótica — confundir os dois muda completamente a conduta (anti-inflamatório vs. imunossupressão sistêmica, nunca cirurgia agressiva).
 - Hidradenite supurativa, doença inflamatória intestinal e pioderma gangrenoso compartilham via inflamatória e podem coexistir no mesmo paciente — sempre rastrear sintomas gastrointestinais diante de qualquer uma dessas três.
-- Corticoide intralesional é uma ponte útil tanto no pioderma gangrenoso quanto na hidradenite localizada — controla lesões pontuais enquanto se decide/inicia a terapia sistêmica de manutenção.
-- Tabagismo é o fator de risco modificável mais fortemente associado à hidradenite supurativa — cessação melhora a resposta a qualquer tratamento instituído.
-
-## ⚠️ Pitfalls
-
-- **Indicar desbridamento cirúrgico amplo no pioderma gangrenoso** — a patergia piora a lesão; a base do tratamento é imunossupressão sistêmica.
-- **Tratar eritema nodoso como celulite bacteriana** e prescrever antibiótico empírico sem investigar a causa sistêmica ou medicamentosa.
-- **Ignorar pitting ungueal como achado "só estético"** — é marcador de psoríase e sinaliza risco de artrite psoriásica.
-- **Retardar indefinidamente o biológico na hidradenite moderada a grave**, insistindo apenas em tratamento tópico quando já há falha terapêutica documentada.
-- **Tratar pioderma gangrenoso com antibioticoterapia isolada** — a lesão é inflamatória (dermatose neutrofílica), não infecciosa primária.
-- **Confundir eritema nodoso com eritema indurado de Bazin** (vasculite nodular) — este último acomete face posterior das pernas, pode ulcerar e está classicamente ligado à tuberculose.
-- **Investigar hidradenite supurativa e pioderma gangrenoso sem pesquisar comorbidade metabólica e DII** — obesidade, tabagismo e doença de Crohn são companhias frequentes.
-- **Não rastrear síndrome metabólica e risco cardiovascular em psoríase moderada a grave** — a doença é um fator de risco independente para eventos cardiovasculares, não apenas um problema de pele.
 
 ## 📝 Como a banca cobra
 
-**Manifestações cutâneas aparece em 4 questões (1,89% do corpus)**, todas do ENARE (2025 e 2026) — o padrão é sempre associar a lesão de pele à **doença sistêmica ou ao gatilho por trás dela**, não só reconhecer a morfologia isolada.
+**Manifestações cutâneas aparece em 4 questões (1,89% do corpus)**, todas do ENARE (2025 e 2026) — o padrão é sempre associar a lesão de pele à doença sistêmica ou ao gatilho por trás dela, não só reconhecer a morfologia isolada.
 
 - **Eritema nodoso associado a contraceptivo oral** (ENARE 2025 Q35) testa o reconhecimento da droga como causa e a conduta de suspensão do agente.
 - **Pitting ungueal e psoríase** (ENARE 2026 Q22) cobra a associação entre achado ungueal e risco de artrite psoriásica.
@@ -53,44 +32,62 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O eritema nodoso resulta de uma reação de hipersensibilidade tipo IV, com deposição de imunocomplexos e ativação inflamatória no septo do tecido adiposo subcutâneo (paniculite septal), sem vasculite associada — por isso não ulcera. O pioderma gangrenoso é uma dermatose neutrofílica: neutrófilos se acumulam de forma estéril na derme, causando necrose tecidual progressiva; a mesma disfunção imune que favorece essa infiltração também explica por que o trauma cirúrgico (patergia) desencadeia mais inflamação em vez de cicatrização.
+O eritema nodoso resulta de reação de hipersensibilidade tipo IV, com deposição de imunocomplexos e ativação inflamatória no septo do tecido adiposo subcutâneo (paniculite septal), sem vasculite associada — por isso não ulcera. O pioderma gangrenoso é uma dermatose neutrofílica: neutrófilos se acumulam de forma estéril na derme, causando necrose progressiva; a mesma disfunção imune que favorece essa infiltração explica por que o trauma cirúrgico (patergia) desencadeia mais inflamação em vez de cicatrização. A hidradenite supurativa começa por oclusão folicular seguida de ruptura e resposta inflamatória exacerbada, com participação de **TNF-alfa e IL-17** — o que justifica a eficácia dos biológicos que bloqueiam essas vias. A psoríase é mediada pelo eixo **IL-23/Th17**, com hiperproliferação epidérmica acelerada — a mesma via-alvo dos biológicos anti-IL-17 e anti-IL-23 usados tanto na pele quanto na articulação.
 
-A hidradenite supurativa começa por oclusão folicular seguida de ruptura e resposta inflamatória exacerbada, com participação de **TNF-alfa e IL-17** — o que justifica a eficácia dos biológicos que bloqueiam essas vias em doença moderada a grave refratária. A psoríase, por sua vez, é mediada pelo eixo **IL-23/Th17**, com hiperproliferação epidérmica e renovação celular acelerada — a mesma via-alvo dos biológicos anti-IL-17 e anti-IL-23 usados tanto na pele quanto na articulação.
+## 🔹 Eritema nodoso
 
-## 🩺 Quadro clínico
+- **Quando suspeitar:** nódulos eritematosos, dolorosos, quentes, simétricos, em face anterior das pernas (pré-tibial) — **nunca ulcera ou necrosa**, resolve em 3-6 semanas evoluindo como equimose ("contusiforme"); pode vir com febre e artralgia.
+- **Causas clássicas:** infecção estreptocócica, sarcoidose, doença inflamatória intestinal, gestação e **drogas** — anticoncepcional oral e sulfonamidas são os fármacos mais cobrados. Cerca de metade dos casos é idiopática.
+- **Diagnóstico:** clínico; se sem causa evidente, investigar com radiografia de tórax (sarcoidose/TB), ASLO/cultura de orofaringe, PPD/IGRA, exame parasitológico e rastreio de DII conforme sintomas associados.
+- **Tratamento:** repouso, anti-inflamatório, **suspensão do agente causal** quando identificado (ACO, sulfa); tratar a doença de base se houver.
+- 💎 **Pearl:** **síndrome de Löfgren** é a apresentação aguda e mais benigna da sarcoidose — tríade de eritema nodoso + adenopatia hilar bilateral + artralgia (geralmente de tornozelos), costuma resolver espontaneamente e não exige biópsia para confirmar sarcoidose.
+- ⚠️ **Pitfall:** tratar eritema nodoso como celulite bacteriana e prescrever antibiótico empírico sem investigar causa sistêmica/medicamentosa; ou confundir com **eritema indurado de Bazin** (vasculite nodular associada a tuberculose, face posterior da perna, **pode** ulcerar — diferente do eritema nodoso).
+- 📝 **Como caiu:** ENARE 2025 Q35 — reconhecimento da droga como causa e suspensão do agente.
 
-- **Eritema nodoso:** nódulos eritematosos dolorosos, simétricos, em face anterior das pernas, sem ulceração; pode vir com febre e artralgia. Resolve em 3-6 semanas evoluindo como equimose ("contusiforme").
-- **Psoríase:** placas eritemato-descamativas em superfícies extensoras (cotovelo, joelho) e couro cabeludo na forma vulgar/em placas; forma gutata (gotas), invertida (áreas de dobra, sem escama), pustulosa e eritrodérmica (formas graves, potencialmente sistêmicas). Ungueal: pitting, onicólise, hiperceratose subungueal, manchas em óleo.
-- **Pioderma gangrenoso:** úlcera de crescimento rápido, bordas violáceas solapadas, dor desproporcional ao aspecto inicial. Variantes: ulcerativa clássica (membros inferiores), bolhosa/atípica (associada a neoplasia mieloide), pustulosa (surto de DII) e vegetante (superficial, mais indolente).
-- **Hidradenite supurativa:** nódulos/abscessos recorrentes em áreas intertriginosas, fístulas, cicatrizes em corda, odor.
+## 🔹 Psoríase ungueal e artrite psoriásica
 
-## 🔬 Diagnóstico diferencial
+- **Quando suspeitar:** **pitting ungueal (unhas em dedal), onicólise e hiperceratose subungueal** — mesmo sem placa cutânea evidente, são pista para investigar artrite psoriásica em paciente com queixa articular.
+- **Quadro cutâneo:** placas eritemato-descamativas em superfícies extensoras (cotovelo, joelho) e couro cabeludo na forma vulgar/em placas; formas gutata (gotas), invertida (dobras, sem escama), pustulosa e eritrodérmica são variantes mais graves e potencialmente sistêmicas.
+- **Diagnóstico:** aplicar critérios **CASPAR** para artrite psoriásica; radiografia de mãos/pés e provas inflamatórias quando há dúvida.
+- **Tratamento:** tópicos (corticoide, análogo de vitamina D) para doença leve; fototerapia e sistêmicos convencionais (metotrexato, acitretina, ciclosporina) para moderada; biológicos (anti-TNF, anti-IL-17, anti-IL-23) para grave ou com artrite associada.
+- 💎 **Pearl:** psoríase ungueal isolada é fator de risco **independente** para desenvolvimento de artrite psoriásica, mesmo sem placas cutâneas visíveis — e psoríase moderada a grave é fator de risco independente para eventos cardiovasculares e síndrome metabólica, não apenas um problema de pele.
+- ⚠️ **Pitfall:** ignorar pitting ungueal como achado "só estético"; ou não rastrear síndrome metabólica e risco cardiovascular em psoríase moderada a grave.
+- 📝 **Como caiu:** ENARE 2026 Q22.
 
-- **Eritema nodoso** × eritema indurado de Bazin (vasculite nodular, associada a TB, face posterior da perna, pode ulcerar) × eritema multiforme (lesões em alvo, mucosas envolvidas).
-- **Pioderma gangrenoso** × ectima gangrenoso (infeccioso, por *Pseudomonas*, geralmente em imunossuprimido) × vasculites cutâneas × calcifilaxia × necrobiose lipoídica ulcerada.
-- **Hidradenite supurativa** × furunculose recorrente × doença de Crohn perianal (fistulizante) — a distribuição típica em dobras e a cronicidade recidivante favorecem hidradenite.
-- Síndromes autoinflamatórias associando pioderma gangrenoso e hidradenite: **PAPA, PASH e PAPASH** — lembrar quando há múltiplas dermatoses neutrofílicas no mesmo paciente jovem com história familiar.
+## 🔹 Pioderma gangrenoso
 
-## 🔎 Investigação complementar sugerida
+- **Quando suspeitar:** úlcera de crescimento rápido, bordas violáceas e solapadas, dor desproporcional ao aspecto inicial — associada a **doença inflamatória intestinal (principalmente retocolite ulcerativa), artrite reumatoide e neoplasias mieloproliferativas**. Variantes: ulcerativa clássica (membros inferiores), bolhosa/atípica (associada a neoplasia mieloide), pustulosa (surto de DII) e vegetante (superficial, mais indolente).
+- **Diagnóstico:** de **exclusão** — biópsia de borda da lesão serve para **excluir** infecção, vasculite e neoplasia, apoiada pelos critérios de Delphi (2018); não confirma o diagnóstico por si só. Investigação adicional conforme suspeita: hemograma, colonoscopia se sintomas gastrointestinais, eletroforese de proteínas se suspeita de gamopatia associada.
+- **Tratamento:** corticoide sistêmico ou imunossupressor (ciclosporina) nos casos moderados/graves; corticoide tópico potente ou intralesional em lesões pequenas; **infliximabe** é a opção biológica com melhor evidência, sobretudo com DII associada; curativo **não agressivo**.
+- 💎 **Pearl:** **patergia** — trauma/desbridamento cirúrgico agressivo **piora** a lesão; a biópsia deve ser limitada e conservadora, e o tratamento é imunossupressão sistêmica, nunca cirurgia extensa. A cicatriz residual característica é atrófica, em "papel crepom"/cribriforme.
+- ⚠️ **Pitfall:** indicar desbridamento cirúrgico amplo (a patergia piora a lesão); ou tratar com antibioticoterapia isolada — a lesão é inflamatória (dermatose neutrofílica), não infecciosa primária.
+- 📝 **Como caiu:** ENARE 2026 Q26.
 
-- **Eritema nodoso sem causa evidente:** radiografia de tórax (sarcoidose/TB), ASLO/cultura de orofaringe, PPD/IGRA, exame parasitológico e rastreio de DII conforme sintomas associados.
-- **Psoríase com queixa articular:** aplicar critérios **CASPAR** para artrite psoriásica; solicitar radiografia de mãos/pés e provas inflamatórias quando houver dúvida.
-- **Pioderma gangrenoso:** biópsia de borda da lesão para excluir infecção/vasculite/neoplasia, hemograma, colonoscopia se sintomas gastrointestinais, eletroforese de proteínas se suspeita de gamopatia associada.
-- **Hidradenite supurativa:** classificação de Hurley na primeira consulta, ultrassonografia de partes moles para mapear trajetos fistulosos antes de decisão cirúrgica.
+## 🔹 Hidradenite supurativa
 
-## 💊 Tratamento
+- **Quando suspeitar:** doença inflamatória crônica do folículo piloso em áreas intertriginosas (axilas, virilha, região inframamária, perianal) — nódulos dolorosos, abscessos recorrentes, fístulas e cicatrizes em "corda", odor.
+- **Estadiamento:** sistema de **Hurley (I a III)** orienta a escolha entre tratamento tópico, oral, biológico ou cirúrgico; o **IHS4** é escore dinâmico mais usado em ensaios clínicos para medir atividade.
+- **Diagnóstico:** clínico; ultrassonografia de partes moles mapeia trajetos fistulosos antes de decisão cirúrgica.
+- **Tratamento escalonado:** Hurley I — tópico (clindamicina) e antisséptico; Hurley II — antibiótico oral (doxiciclina, ou clindamicina+rifampicina) associado a corticoide intralesional; **Hurley III/refratária — adalimumabe** (primeira linha entre os biológicos) **ou secuquinumabe** (anti-IL-17, alternativa mais recente); doença cicatricial avançada — exérese cirúrgica ampla ou deroofing das lesões localizadas.
+- 💎 **Pearl:** tabagismo é o fator de risco modificável mais fortemente associado à hidradenite — cessação melhora a resposta a qualquer tratamento instituído. Em fístulas de longa duração, risco raro de **carcinoma espinocelular** originado no trajeto fistuloso (síndrome de Marjolin).
+- ⚠️ **Pitfall:** retardar indefinidamente o biológico em doença moderada a grave, insistindo apenas em tratamento tópico quando já há falha terapêutica documentada.
+- 📝 **Como caiu:** ENARE 2026 Q67.
 
-- **Eritema nodoso:** repouso, anti-inflamatório, suspensão do agente causal quando identificado (ACO, sulfa); tratar a doença de base se houver; investigar sarcoidose/TB/infecção estreptocócica quando não há causa evidente.
-- **Psoríase/psoríase ungueal/artrite psoriásica:** tópicos (corticoide, análogo de vitamina D) para doença leve; fototerapia e sistêmicos convencionais (metotrexato, acitretina, ciclosporina) para moderada; biológicos (anti-TNF, anti-IL-17, anti-IL-23) para grave ou com artrite associada.
-- **Pioderma gangrenoso:** corticoide sistêmico ou imunossupressor (ciclosporina) para casos moderados/graves; corticoide tópico potente ou intralesional em lesões pequenas; infliximab é a opção biológica com melhor evidência, sobretudo quando há DII associada; tratamento da doença associada, curativo não agressivo.
-- **Hidradenite supurativa:** Hurley I — tópico (clindamicina) e antisséptico; Hurley II — antibiótico oral (doxiciclina, ou clindamicina+rifampicina) associado a corticoide intralesional; Hurley III/refratária — adalimumabe ou secuquinumabe; doença cicatricial avançada — exérese cirúrgica ampla ou deroofing das lesões localizadas.
+## 🔹 Síndromes autoinflamatórias que unem pioderma gangrenoso e hidradenite
 
-## 📈 Complicações relevantes
+- **PAPA, PASH e PAPASH:** lembrar quando há múltiplas dermatoses neutrofílicas (pioderma gangrenoso, acne, hidradenite) no mesmo paciente jovem com história familiar — reforça a ideia de espectro inflamatório compartilhado entre as duas doenças.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
 
-- **Hidradenite supurativa crônica:** fístulas complexas, linfedema regional, anemia de doença crônica, contraturas cicatriciais e, em fístulas de longa duração, risco raro de **carcinoma espinocelular** originado no trajeto fistuloso (síndrome de Marjolin).
-- **Psoríase moderada a grave:** associação independente com síndrome metabólica, doença cardiovascular aterosclerótica, esteato-hepatite não alcoólica e impacto significativo em qualidade de vida/saúde mental (maior prevalência de depressão e ansiedade).
-- **Pioderma gangrenoso:** infecção secundária da úlcera, cicatriz atrófica característica em "papel crepom"/cribriforme após a cicatrização.
-- **Eritema nodoso:** evolução benigna na maioria dos casos; recidiva é comum quando a causa de base (infecção, DII, droga) não é identificada e tratada.
+## 📋 Tabela
+
+**Diagnóstico diferencial das úlceras/nódulos de perna**
+
+| Entidade | Localização | Dor | Ulcera? |
+|---|---|---|---|
+| Eritema nodoso | Face anterior da perna | Sim | Nunca |
+| Eritema indurado de Bazin (associado a TB) | Face posterior da perna | Sim | Pode ulcerar |
+| Pioderma gangrenoso | Qualquer local, mais MMII | Desproporcional | Sim, sempre |
+| Ectima gangrenoso (infeccioso, *Pseudomonas*) | Qualquer local | Variável | Sim, em imunossuprimido |
 
 ## 📚 Referências essenciais
 

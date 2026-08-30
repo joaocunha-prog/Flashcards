@@ -1,50 +1,27 @@
 /**
  * Resumo — Infectologia · Infecções de pele e partes moles.
  *
+ * Reorganizado por entidade clínica (cada infecção tem sua própria seção
+ * com quando suspeitar, diagnóstico, tratamento, pearl e pitfall juntos),
+ * em vez de picado entre seções genéricas de tipo.
+ *
  * Cobre as entidades do assunto no corpus: fasceíte necrotizante
- * estreptocócica e o papel da clindamicina, osteomielite por
- * contiguidade a partir de lesão por pressão e abscesso odontogênico
- * cervical com risco de mediastinite. Também traz, como extrapolação de
- * alto rendimento além do que já foi cobrado, a classificação de
- * gravidade das SSTI, o algoritmo purulento vs. não purulento, o pé
- * diabético infectado, impetigo, piomiosite, celulite periorbitária vs.
- * orbitária e a classificação microbiológica da fasceíte necrotizante.
+ * estreptocócica e o papel da clindamicina, osteomielite por contiguidade
+ * a partir de lesão por pressão e abscesso odontogênico cervical com risco
+ * de mediastinite. Inclui também extrapolações de alto rendimento
+ * (algoritmo purulento vs. não purulento, erisipela/celulite, impetigo,
+ * piomiosite, pé diabético infectado, celulite periorbitária vs. orbitária,
+ * mionecrose clostridial, síndrome do choque tóxico estreptocócico,
+ * infecções por exposição a água/mordedura) ainda não cobradas no corpus,
+ * mas plausíveis em provas futuras.
  */
 const content = `
 ## 🎯 Essencial
 
-- **Fasceíte necrotizante** é emergência cirúrgica: dor desproporcional ao exame físico, edema tenso, bolhas hemorrágicas, toxicidade sistêmica de instalação rápida. O tratamento é **debridamento cirúrgico precoce e agressivo + antibiótico de amplo espectro** — nenhum antibiótico isolado substitui a cirurgia.
-- **Clindamicina** é adicionada ao esquema pelo seu **efeito antitoxina** (inibe a síntese proteica bacteriana, reduzindo a produção de exotoxinas do Streptococcus pyogenes) — ela é **associada** a um betalactâmico, não o substitui, porque betalactâmicos perdem eficácia em alto inóculo bacteriano com baixa atividade metabólica (efeito Eagle).
-- **Osteomielite por contiguidade** a partir de úlcera de pressão: suspeitar quando a lesão não cicatriza, expõe osso ou tem trajeto fistuloso até estrutura óssea. O diagnóstico definitivo é por **biópsia óssea com cultura**, que guia a antibioticoterapia dirigida — não pela cultura de swab superficial, que reflete colonização de pele.
-- **Abscesso odontogênico cervical** pode disseminar por contiguidade fascial até espaços cervicais profundos e daí para o **mediastino (mediastinite descendente)** — sinais de alarme: trismo, disfagia, dispneia e edema cervical extenso.
-- Diante de sinais de disseminação cervical profunda: **TC de pescoço/tórax com contraste + drenagem cirúrgica precoce + antibiótico de amplo espectro** cobrindo flora mista aeróbia e anaeróbia oral — tratamento oral ambulatorial isolado é insuficiente nesse cenário.
-- Nem toda infecção de pele é purulenta ou grave: a IDSA classifica as SSTI em **purulentas vs. não purulentas** e em graus de gravidade **leve/moderada/grave**, e essa classificação é o que guia a escolha entre tratamento ambulatorial oral e internação com antibiótico parenteral.
-- **Impetigo** (predominante na infância, altamente contagioso) tem duas formas: não bolhoso (crostas melicéricas, o mais comum, por S. pyogenes e/ou S. aureus) e bolhoso (bolhas flácidas, exclusivamente por S. aureus produtor de toxina esfoliativa) — casos localizados respondem bem a tratamento tópico.
-
-## 💎 Pearls
-
-- Escore **LRINEC** e achados de imagem (gás em partes moles) auxiliam na fasceíte necrotizante, mas **não devem atrasar** a decisão cirúrgica quando a suspeita clínica é alta.
-- A **dor desproporcional ao exame** é o sinal mais precoce e sensível de fasceíte necrotizante, muitas vezes presente antes de qualquer alteração cutânea visível.
-- A osteomielite por contiguidade tem fisiopatologia diferente da hematogênica: **não exige bacteremia**, a infecção se propaga diretamente do tecido mole/úlcera adjacente ao osso.
-- Swab superficial de úlcera cutânea **nunca** deve guiar antibioticoterapia de osteomielite — reflete colonização, não necessariamente o patógeno ósseo real.
-- **Angina de Ludwig** é celulite (não abscesso franco) bilateral do espaço submandibular, com risco de obstrução de via aérea por elevação do assoalho da boca/língua — o manejo de via aérea é prioridade junto ao antibiótico.
-- **Erisipela** (mais superficial, bordas bem demarcadas, envolvimento linfático, geralmente estreptocócica) e **celulite** (mais profunda, bordas mal definidas, mais associada a Staphylococcus aureus, incluindo cepas MRSA) são frequentemente confundidas — a distinção orienta a escolha empírica de antibiótico.
-- Fatores de risco que predispõem a episódios recorrentes de celulite/erisipela incluem **linfedema crônico, insuficiência venosa e tinha pedis interdigital** (porta de entrada frequentemente negligenciada) — tratar a porta de entrada reduz a recorrência tanto quanto o antibiótico do episódio agudo.
-- Lesões purulentas (abscesso, furúnculo, carbúnculo) devem ter cobertura empírica para **Staphylococcus aureus resistente à meticilina adquirido na comunidade (CA-MRSA)** quando há fatores de risco ou falha de resposta inicial — celulite não purulenta isolada geralmente não exige essa cobertura.
-- **Piomiosite** é infecção purulenta primária do músculo esquelético, mais comum em climas tropicais e em imunossuprimidos, geralmente por S. aureus — cursa com dor muscular localizada, febre e massa palpável, exigindo drenagem além do antibiótico.
-- **Infecção de sítio cirúrgico** costuma surgir entre o 5º e o 10º dia de pós-operatório, mas febre alta e toxicidade sistêmica já nas primeiras 24-72h levantam suspeita de patógeno mais agressivo (Streptococcus pyogenes ou Clostridium), exigindo reabordagem cirúrgica precoce.
-
-## ⚠️ Pitfalls
-
-- **Aguardar confirmação por imagem/laboratório** antes de indicar cirurgia em fasceíte necrotizante com alta suspeita clínica — o atraso aumenta a mortalidade de forma exponencial.
-- **Usar clindamicina como monoterapia** na fasceíte necrotizante estreptocócica — ela deve ser associada a um betalactâmico, não substituí-lo.
-- **Diagnosticar osteomielite por contiguidade com cultura de swab de úlcera** — gera tratamento inadequado, cobrindo colonizantes em vez do patógeno real.
-- **Tratar abscesso odontogênico cervical com sinais de alarme apenas com antibiótico oral ambulatorial** — esses sinais exigem internação, imagem e frequentemente drenagem cirúrgica.
-- **Menosprezar trismo/disfagia como "só dor de dente"** — são sinais de comprometimento de espaços cervicais profundos.
-- **Não investigar/tratar a porta de entrada** (tinha pedis, linfedema, insuficiência venosa) em celulite/erisipela recorrente — tratar só o episódio agudo sem abordar o fator predisponente leva a recidivas frequentes.
-- **Tratar toda celulite/abscesso empiricamente sem cobrir CA-MRSA** em cenário purulento com fator de risco — pode levar à falha terapêutica em área de alta prevalência de resistência.
-- **Ignorar o pé diabético infectado como categoria à parte** — a avaliação de gravidade (leve/moderada/grave, classificação IDSA/PEDIS) e a investigação de osteomielite subjacente mudam a conduta em relação a uma SSTI simples.
-- **Tratar celulite periorbitária (pré-septal) e celulite orbitária como a mesma entidade** — a orbitária (proptose, dor à movimentação ocular, oftalmoplegia) é emergência com risco de perda visual e extensão intracraniana, exigindo TC de órbita e frequentemente drenagem cirúrgica, ao contrário da forma pré-septal, mais benigna.
+- A primeira pergunta de qualquer SSTI é **purulenta ou não purulenta** — purulento pensa em *S. aureus* (incluindo CA-MRSA) e prioriza drenagem; não purulento pensa mais em *Streptococcus pyogenes* e prioriza antibiótico sistêmico.
+- A segunda pergunta é **superficial ou profunda/necrotizante** — dor desproporcional ao exame físico é o sinal mais precoce de infecção necrotizante e nunca deve esperar confirmação de imagem/laboratório para indicar cirurgia.
+- **Nenhuma infecção necrotizante de partes moles (fasceíte, mionecrose) é tratada só com antibiótico** — debridamento cirúrgico precoce e agressivo é sempre parte do tratamento, nunca opcional.
+- Diante de infecção que se propaga por planos profundos (cervical, óssea, mediastinal), **a via de disseminação por contiguidade explica a gravidade** — um foco aparentemente trivial (úlcera de pressão, dente) pode evoluir para osteomielite ou mediastinite em dias.
 
 ## 📝 Como a banca cobra
 
@@ -56,50 +33,82 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A fasceíte necrotizante é uma infecção fulminante da fáscia superficial com trombose de vasos perfurantes, levando a necrose tecidual rápida por isquemia associada à ação de toxinas bacterianas — as exotoxinas pirogênicas do S. pyogenes funcionam como superantígenos, amplificando de forma desproporcional a resposta inflamatória sistêmica. Por isso, bloquear a síntese dessas toxinas (clindamicina) é estratégia complementar essencial ao debridamento cirúrgico.
+As SSTI variam num espectro de profundidade — da epiderme (impetigo) à derme superficial/linfáticos (erisipela), à derme profunda/subcutâneo (celulite), à fáscia (fasceíte necrotizante) e ao músculo (piomiosite, mionecrose) — e essa profundidade determina tanto o quadro clínico quanto a urgência terapêutica. Nas infecções necrotizantes, o dano não é só isquêmico: exotoxinas pirogênicas do *S. pyogenes* funcionam como superantígenos, amplificando de forma desproporcional a resposta inflamatória sistêmica — por isso bloquear a síntese dessas toxinas (clindamicina) é estratégia complementar essencial ao debridamento. Infecções por contiguidade (osteomielite a partir de úlcera, mediastinite a partir de foco odontogênico) se espalham ao longo de planos teciduais/fasciais contínuos, sem depender de bacteremia — o que explica por que um foco superficial aparentemente controlado pode já ter alcançado estruturas profundas quando os sinais de alarme aparecem.
 
-A osteomielite por contiguidade ocorre pela extensão direta da infecção de tecidos moles adjacentes (úlceras de pressão, feridas cirúrgicas, focos odontogênicos) ao osso, formando biofilme bacteriano que dificulta a penetração antibiótica sem debridamento associado.
+## 🔹 Fasceíte necrotizante
 
-Infecções odontogênicas se disseminam ao longo de planos fasciais cervicais virtualmente contínuos até o mediastino — o que explica por que um foco dentário aparentemente trivial pode evoluir para mediastinite fatal em questão de horas a poucos dias, exigindo vigilância ativa para sinais de progressão.
+- **Quando suspeitar:** dor desproporcional ao exame físico (sinal mais precoce e sensível, muitas vezes antes de qualquer alteração cutânea visível), evoluindo em horas para edema tenso, bolhas hemorrágicas, crepitação (se houver gás tecidual), hipoestesia por destruição de nervos e toxicidade sistêmica rápida.
+- **Diagnóstico:** essencialmente clínico — a exploração cirúrgica é o padrão-ouro; escore **LRINEC** e achados de imagem (gás em partes moles) auxiliam, mas **nunca devem atrasar** a decisão cirúrgica diante de alta suspeita.
+- **Tratamento:** **debridamento cirúrgico precoce e agressivo** + antibiótico de amplo espectro, incluindo **clindamicina associada a um betalactâmico** (nunca clindamicina isolada) — a clindamicina age como **antitoxina** (inibe síntese proteica bacteriana, reduzindo exotoxinas), enquanto betalactâmicos perdem eficácia em alto inóculo com baixa atividade metabólica (efeito Eagle).
+- **Classificação microbiológica:** tipo I — polimicrobiana, mista aeróbia-anaeróbia, mais comum em diabéticos/imunossuprimidos e em região perineal (**gangrena de Fournier** é sua forma clássica); tipo II — monomicrobiana, geralmente *S. pyogenes*, pode acometer indivíduos hígidos; tipo III — *Vibrio* ou *Clostridium*, associada a exposição aquática ou trauma.
+- 💎 **Pearl:** pode complicar com **síndrome do choque tóxico estreptocócico** (hipotensão + disfunção de múltiplos órgãos + rash escarlatiniforme) — reforça a lógica de associar clindamicina ao esquema, além do suporte hemodinâmico intensivo.
+- ⚠️ **Pitfall:** usar clindamicina como monoterapia, ou aguardar confirmação por imagem/laboratório antes de indicar cirurgia com alta suspeita clínica — o atraso aumenta a mortalidade de forma exponencial.
+- 📝 **Como caiu:** EBSERH 2026 Q54 — papel da clindamicina.
 
-A distinção clínica entre erisipela e celulite reflete a profundidade da infecção na pele: a erisipela acomete derme superficial e vasos linfáticos (bordas nítidas, elevadas), enquanto a celulite acomete derme profunda e tecido subcutâneo (bordas mal definidas) — essa diferença de profundidade tem correlação com o patógeno mais provável e, por vezes, com a resposta terapêutica esperada.
+## 🔹 Mionecrose clostridial (gangrena gasosa) — diferencial da fasceíte
 
-## 🩺 Quadro clínico
+- **Quando suspeitar:** dor intensa e crepitação por gás tecidual, geralmente após trauma penetrante ou cirurgia contaminada.
+- **Tratamento:** o mesmo princípio da fasceíte — debridamento cirúrgico agressivo + antibiótico (penicilina + clindamicina) — reforçando que nenhuma infecção necrotizante se trata só com antibiótico.
+- 📝 **Como caiu:** ainda não cobrado no corpus — diferencial clássico de fasceíte necrotizante.
 
-- **Fasceíte necrotizante:** dor desproporcional ao exame nas primeiras horas, evoluindo para edema tenso, equimoses, bolhas hemorrágicas, crepitação (quando há gás tecidual) e hipoestesia por destruição de terminações nervosas — a progressão para toxicidade sistêmica costuma ser rápida, em horas.
-- **Osteomielite por contiguidade:** úlcera crônica que não cicatriza, com trajeto fistuloso, exposição óssea visível ou teste "probe-to-bone" positivo (sonda atinge osso ao explorar a lesão).
-- **Abscesso odontogênico cervical:** edema cervical progressivo, trismo, disfagia, sialorreia e voz abafada ("voz de batata quente") quando há comprometimento de espaços profundos.
-- **Impetigo:** lesões crostosas melicéricas (forma não bolhosa) ou bolhas flácidas que se rompem facilmente (forma bolhosa), predominando em face e extremidades expostas de crianças.
-- **Erisipela vs. celulite:** a erisipela tem bordas nítidas e elevadas, com limite bem demarcado entre pele afetada e sã; a celulite tem bordas mal definidas e progressão mais insidiosa, refletindo acometimento mais profundo.
+## 🔹 Osteomielite por contiguidade (lesão por pressão)
 
-## 🔎 Diagnóstico
+- **Quando suspeitar:** úlcera de pressão crônica que não cicatriza, com trajeto fistuloso, exposição óssea visível ou teste **"probe-to-bone"** positivo (sonda atinge osso ao explorar a lesão).
+- **Diagnóstico:** RM é o exame de imagem mais sensível; **biópsia óssea com cultura é o padrão-ouro microbiológico** — swab superficial de úlcera **nunca** deve guiar antibioticoterapia, pois reflete colonização de pele, não o patógeno ósseo real.
+- **Tratamento:** debridamento do tecido necrótico/úlcera + antibioticoterapia prolongada dirigida por biópsia óssea, tipicamente **6 semanas** quando não há amputação completa do foco.
+- 💎 **Pearl:** ao contrário da osteomielite hematogênica, a por contiguidade **não exige bacteremia** — a infecção se propaga diretamente do tecido mole/úlcera adjacente ao osso, formando biofilme que dificulta penetração antibiótica sem debridamento associado.
+- ⚠️ **Pitfall:** diagnosticar/tratar com cultura de swab de úlcera — gera cobertura de colonizantes, não do patógeno real, e leva a falha terapêutica.
+- 📝 **Como caiu:** ENARE 2025 Q7 e ENARE 2025 Q30 — mesmo tema em duas questões da mesma prova, reforçando a biópsia óssea.
 
-- **Fasceíte necrotizante:** essencialmente clínico (dor desproporcional, evolução rápida, toxicidade sistêmica); TC/RM e LRINEC auxiliam, mas a exploração cirúrgica é o padrão-ouro.
-- **Osteomielite por contiguidade:** RM é o exame de imagem mais sensível; biópsia óssea com cultura é o padrão-ouro microbiológico.
-- **Abscesso odontogênico cervical:** TC de pescoço/tórax com contraste para mapear extensão e avaliar comprometimento de via aérea/mediastino.
-- **SSTI em geral:** classificar como purulenta ou não purulenta e como leve, moderada ou grave — essa dupla classificação (IDSA) define via de administração do antibiótico e necessidade de internação.
-- **Piomiosite:** RM é o exame mais sensível para identificar a coleção intramuscular já na fase inicial, antes de haver flutuação clinicamente evidente.
+## 🔹 Abscesso odontogênico cervical e mediastinite descendente
 
-## 💊 Tratamento
+- **Quando suspeitar:** edema cervical progressivo a partir de foco dentário, com **trismo, disfagia, sialorreia, voz abafada** ("voz de batata quente") — sinais de comprometimento de espaços cervicais profundos, com risco de disseminação por contiguidade fascial até o **mediastino (mediastinite descendente)**.
+- **Diagnóstico:** TC de pescoço/tórax com contraste para mapear extensão e avaliar comprometimento de via aérea/mediastino.
+- **Tratamento:** drenagem cirúrgica + antibiótico cobrindo flora mista aeróbia e anaeróbia oral (ampicilina-sulbactam ou clindamicina), com **manejo precoce de via aérea** se houver sinais de comprometimento — tratamento oral ambulatorial isolado é insuficiente diante de sinais de alarme.
+- 💎 **Pearl:** **angina de Ludwig** é celulite (não abscesso franco) bilateral do espaço submandibular, com risco de obstrução de via aérea por elevação do assoalho da boca/língua — o manejo de via aérea é prioridade junto ao antibiótico, mesmo sem coleção drenável.
+- ⚠️ **Pitfall:** menosprezar trismo/disfagia como "só dor de dente", ou tratar com antibiótico oral ambulatorial isolado diante de sinais de alarme — ambos atrasam o reconhecimento de comprometimento de espaços profundos.
+- 📝 **Como caiu:** ENARE 2026 Q62.
 
-- **Fasceíte necrotizante:** debridamento cirúrgico precoce e amplo + antibiótico de amplo espectro, incluindo clindamicina associada a betalactâmico (penicilina, quando S. pyogenes confirmado).
-- **Osteomielite por contiguidade:** debridamento do tecido necrótico/úlcera + antibioticoterapia prolongada dirigida por biópsia óssea.
-- **Abscesso odontogênico cervical:** drenagem cirúrgica + antibiótico cobrindo flora mista oral (ex.: ampicilina-sulbactam ou clindamicina), com manejo precoce de via aérea se houver sinais de comprometimento.
-- **SSTI purulenta leve/moderada:** incisão e drenagem costuma ser suficiente, com antibiótico oral cobrindo CA-MRSA (sulfametoxazol-trimetoprima, clindamicina ou doxiciclina) se houver fator de risco.
-- **SSTI não purulenta (celulite/erisipela) leve/moderada:** antibiótico oral cobrindo estreptococo (e estafilococo sensível), sem necessidade rotineira de cobertura para CA-MRSA.
-- **Impetigo localizado:** mupirocina tópica é suficiente na maioria dos casos; formas extensas ou bolhosas disseminadas podem exigir antibiótico oral (cefalexina, ou sulfametoxazol-trimetoprima se houver suspeita de CA-MRSA).
+## 🔹 Erisipela e celulite
 
-## 🧭 Além do grounding: o que mais pode cair
+- **Quando suspeitar:** erisipela — bordas nítidas e elevadas, limite bem demarcado entre pele afetada e sã, acometimento de derme superficial e linfáticos, geralmente estreptocócica; celulite — bordas mal definidas, mais profunda (derme profunda/subcutâneo), mais associada a *S. aureus* (incluindo cepas MRSA).
+- **Fatores de risco para recorrência:** linfedema crônico, insuficiência venosa e **tinha pedis interdigital** (porta de entrada frequentemente negligenciada) — tratar a porta de entrada reduz recorrência tanto quanto o antibiótico do episódio agudo.
+- **Tratamento:** antibiótico oral cobrindo estreptococo (e estafilococo sensível) na forma não purulenta, sem necessidade rotineira de cobertura CA-MRSA; 5-7 dias na forma não complicada.
+- ⚠️ **Pitfall:** não investigar/tratar a porta de entrada em quadro recorrente, tratando só o episódio agudo repetidamente.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
 
-- **Classificação de gravidade das SSTI (IDSA):** leve (sem sinais sistêmicos, tratamento ambulatorial oral), moderada (sinais sistêmicos presentes, mas sem instabilidade, pode exigir antibiótico parenteral) e grave (sinais de sepse, falha de resposta, imunossupressão) — essa estratificação organiza toda a decisão terapêutica além do diagnóstico etiológico.
-- **Algoritmo purulento vs. não purulento** é a primeira bifurcação prática no manejo de SSTI: purulento pensa em S. aureus (incluindo CA-MRSA) e prioriza drenagem; não purulento pensa mais em Streptococcus pyogenes e prioriza antibiótico sistêmico sem necessidade de drenagem.
-- **Pé diabético infectado** merece classificação própria (IDSA/PEDIS), com avaliação obrigatória de doença arterial periférica e rastreio de osteomielite subjacente (teste "probe-to-bone" e imagem) sempre que a úlcera for profunda ou crônica.
-- **Duração da antibioticoterapia** costuma ser subestimada em prova: celulite/erisipela não complicada 5-7 dias; osteomielite por contiguidade tratada sem amputação completa do foco, tipicamente 6 semanas; fasceíte necrotizante, até resolução dos sinais sistêmicos e ausência de necessidade de novos debridamentos.
-- **Infecções por exposição a água ou animais**: Vibrio vulnificus (água salgada morna, pode causar fasceíte necrotizante fulminante em cirróticos) e Aeromonas (água doce) são causas menos comuns, mas classicamente cobradas quando a história menciona exposição aquática; mordeduras de animais (Pasteurella multocida) e humanas (flora mista, incluindo Eikenella) têm cobertura empírica padrão com amoxicilina-clavulanato.
-- **Mionecrose clostridial (gangrena gasosa)** é diagnóstico diferencial de fasceíte necrotizante, com crepitação por gás tecidual, geralmente após trauma penetrante ou cirurgia contaminada — o tratamento também é debridamento cirúrgico agressivo mais antibiótico (penicilina + clindamicina), reforçando o princípio de que nenhuma infecção necrotizante de partes moles é tratada só com antibiótico.
-- **Classificação da fasceíte necrotizante por tipo microbiológico:** tipo I (polimicrobiana, mista aeróbia-anaeróbia, mais comum em diabéticos/imunossuprimidos e em região perineal — gangrena de Fournier é sua forma clássica), tipo II (monomicrobiana, geralmente Streptococcus pyogenes, pode acometer indivíduos hígidos) e tipo III (Vibrio ou Clostridium, associada a exposição aquática ou trauma) — a classificação orienta a cobertura antibiótica empírica inicial.
-- **Síndrome do choque tóxico estreptocócico** pode complicar fasceíte necrotizante ou outra infecção invasiva por S. pyogenes: hipotensão + disfunção de múltiplos órgãos (renal, hepática, coagulopatia, rash escarlatiniforme) — reforça a lógica de associar clindamicina (antitoxina) ao esquema, além do suporte hemodinâmico intensivo.
-- Em toda SSTI internada, **reavaliar e descalonar o antibiótico empírico assim que a cultura e o antibiograma estiverem disponíveis** é conduta esperada — manter cobertura de amplo espectro indefinidamente após identificação do patógeno é erro de manejo, não só de diagnóstico.
+## 🔹 Infecções purulentas (abscesso, furúnculo, impetigo)
+
+- **Impetigo:** predominante na infância, altamente contagioso — não bolhoso (crostas melicéricas, mais comum, *S. pyogenes* e/ou *S. aureus*) e bolhoso (bolhas flácidas, exclusivamente por *S. aureus* produtor de toxina esfoliativa). Localizado responde a mupirocina tópica; formas extensas/bolhosas disseminadas podem exigir antibiótico oral.
+- **Abscesso/furúnculo:** incisão e drenagem costuma ser suficiente nos casos leves/moderados, com antibiótico oral cobrindo **CA-MRSA** (sulfametoxazol-trimetoprima, clindamicina ou doxiciclina) quando há fator de risco ou falha de resposta inicial.
+- **Piomiosite:** infecção purulenta primária do músculo esquelético, mais comum em climas tropicais e imunossuprimidos, geralmente por *S. aureus* — dor muscular localizada, febre e massa palpável; RM é o exame mais sensível, já na fase inicial antes de flutuação clinicamente evidente; exige drenagem além do antibiótico.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 🔹 Pé diabético infectado e celulite periorbitária vs. orbitária
+
+- **Pé diabético infectado:** classificação própria (IDSA/PEDIS) de gravidade, com avaliação obrigatória de doença arterial periférica e rastreio de osteomielite subjacente (teste "probe-to-bone" e imagem) sempre que a úlcera for profunda ou crônica — não tratar como SSTI simples.
+- **Celulite periorbitária (pré-septal):** infecção superficial às estruturas orbitárias, geralmente benigna, tratada com antibiótico oral.
+- **Celulite orbitária:** proptose, dor à movimentação ocular, oftalmoplegia — emergência com risco de perda visual e extensão intracraniana, exigindo TC de órbita e frequentemente drenagem cirúrgica.
+- ⚠️ **Pitfall:** tratar celulite periorbitária e orbitária como a mesma entidade — a distinção muda completamente a urgência e a via de tratamento.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 🔹 Infecções por exposição a água e mordeduras
+
+- ***Vibrio vulnificus*** (água salgada morna) pode causar fasceíte necrotizante fulminante, sobretudo em cirróticos; ***Aeromonas*** (água doce) é causa análoga menos comum — cobrado classicamente quando a história menciona exposição aquática.
+- **Mordeduras:** animal (*Pasteurella multocida*) e humana (flora mista, incluindo *Eikenella*) têm cobertura empírica padrão com amoxicilina-clavulanato.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 📋 Tabela
+
+**Classificação de gravidade das SSTI (IDSA) — organiza a decisão terapêutica além do diagnóstico etiológico**
+
+| Gravidade | Sinais | Conduta |
+|---|---|---|
+| Leve | Sem sinais sistêmicos | Ambulatorial, antibiótico oral |
+| Moderada | Sinais sistêmicos presentes, sem instabilidade | Pode exigir antibiótico parenteral |
+| Grave | Sepse, falha de resposta, imunossupressão | Internação, amplo espectro, reavaliação cirúrgica |
+
+Em toda SSTI internada, **reavaliar e descalonar o antibiótico empírico** assim que cultura/antibiograma estiverem disponíveis é conduta esperada — manter amplo espectro indefinidamente após identificação do patógeno é erro de manejo.
 
 ## 📚 Referências essenciais
 

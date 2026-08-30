@@ -1,47 +1,24 @@
 /**
  * Resumo — Gastroenterologia e Hepatologia · Motilidade intestinal.
  *
+ * Reorganizado por entidade clínica (cada quadro tem sua própria seção com
+ * quando suspeitar, diagnóstico, tratamento, pearl e pitfall juntos), em vez
+ * de picado entre seções genéricas de tipo.
+ *
  * Cobre as entidades do assunto no corpus: pseudo-obstrução colônica aguda
  * (síndrome de Ogilvie) em paciente oncológico, constipação crônica
  * refratária com impactação fecal, monitorização durante uso de neostigmina
- * e pseudo-obstrução intestinal por neuropatia autonômica diabética. Também
- * traz diagnósticos diferenciais, causas secundárias e opções terapêuticas
- * de alto rendimento que ainda não caíram nas provas reais.
+ * e pseudo-obstrução intestinal por neuropatia autonômica diabética. Inclui
+ * também extrapolações de alto rendimento (megacólon tóxico, volvo de
+ * sigmoide/ceco, pseudo-obstrução intestinal crônica) ainda não cobradas no
+ * corpus, mas plausíveis em provas futuras.
  */
 const content = `
 ## 🎯 Essencial
 
-- **Síndrome de Ogilvie (pseudo-obstrução colônica aguda):** dilatação maciça do cólon **sem obstrução mecânica**, típica de pacientes graves/hospitalizados — pós-operatório, sepse, trauma, câncer, distúrbio eletrolítico (hipopotassemia, hipomagnesemia, hipercalcemia), uso de opioides/anticolinérgicos, lesão medular e Parkinson.
-- **Manejo inicial é conservador:** jejum, correção de potássio e magnésio, suspensão de opioides/anticolinérgicos, sonda retal/nasogástrica e mobilização — antes de qualquer terapia farmacológica ou invasiva.
-- **Ceco >12 cm** e/ou ausência de resposta ao tratamento conservador em 24-48h define **indicação de neostigmina IV** — inibidor da acetilcolinesterase que reverte a atonia colônica por estímulo colinérgico.
-- **Neostigmina exige monitorização cardíaca contínua** durante a infusão, pelo risco de **bradicardia sintomática e assistolia** — atropina deve estar disponível à beira do leito.
-- Falha ou contraindicação à neostigmina: **colonoscopia descompressiva** (com ou sem sonda de descompressão); cirurgia (cecostomia/colectomia) reservada para **perfuração, isquemia ou peritonite**.
-- **Constipação crônica refratária/impactação fecal:** toque retal é etapa obrigatória da avaliação — desimpactação (manual ou enema) sempre antes de qualquer laxante oral.
-- **Pseudo-obstrução intestinal por neuropatia autonômica diabética** é manifestação visceral da disautonomia em diabetes de longa data e mau controle — dismotilidade pode acometer qualquer segmento do tubo digestivo (gastroparesia, constipação, pseudo-obstrução).
-- Antes de rotular qualquer dismotilidade como funcional/autonômica, **obstrução mecânica (tumor, aderência, volvo, hérnia encarcerada) precisa ser excluída por imagem** — é o primeiro passo em qualquer um dos quatro cenários deste tema.
-
-## 💎 Pearls
-
-- O corte de **ceco >12 cm** sinaliza risco aumentado de perfuração, mas a decisão terapêutica também pesa o **tempo de evolução (>3-4 dias)** e a resposta ao tratamento conservador — não é gatilho automático isolado.
-- Distúrbios eletrolíticos e opioides são **gatilhos e perpetuadores** comuns do Ogilvie em internados — corrigi-los pode resolver o quadro sem necessidade de neostigmina.
-- Contraindicações à neostigmina: obstrução mecânica não excluída, bradicardia de base, asma não controlada, gravidez e doença renal crônica grave — **excluir obstrução mecânica por imagem antes de indicar**.
-- O toque retal, isoladamente, já pode diagnosticar impactação fecal e até sugerir dissinergia do assoalho pélvico à beira do leito.
-- A disautonomia diabética costuma acompanhar outras manifestações de neuropatia periférica, mas pode se manifestar isoladamente no trato gastrointestinal antes delas.
-- **Megacólon tóxico** é o principal diagnóstico diferencial "que não pode passar batido": dilatação colônica associada a colite grave (retocolite ulcerativa, *C. difficile*), com sinais sistêmicos de toxemia (febre, taquicardia, leucocitose) — ao contrário do Ogilvie, tem indicação cirúrgica mais precoce e não deve receber neostigmina.
-- Metoclopramida como procinético para gastroparesia diabética tem uso limitado a curto prazo (≤12 semanas) pelo risco de **discinesia tardia** — checar sempre a duração de uso em provas.
-- Volvo de sigmoide e de ceco são causas mecânicas de dilatação colônica que mimetizam Ogilvie na apresentação, mas exigem descompressão endoscópica (sigmoide) ou cirurgia (ceco) — a imagem com ponto de transição em "grão de café" ajuda a diferenciar.
-- Constipação de início recente após os 50 anos, sem causa aparente, é sinal de alarme que obriga excluir neoplasia colorretal antes de rotular como funcional.
-
-## ⚠️ Pitfalls
-
-- **Indicar cirurgia de imediato na síndrome de Ogilvie** sem antes tentar medida conservadora e, se necessário, neostigmina — exceto diante de perfuração, isquemia ou peritonite.
-- **Administrar neostigmina sem monitorização cardíaca contínua** — risco de bradicardia grave/assistolia não reconhecida a tempo.
-- **Prescrever laxante estimulante isolado em fecaloma** sem desimpactação prévia — risco de cólica intensa e até perfuração.
-- **Tratar constipação crônica do idoso como funcional** sem excluir sinais de alarme (perda de peso, sangramento, anemia, início após os 50 anos) e causas secundárias (hipotireoidismo, hipercalcemia, drogas).
-- **Manter opioides em uso** durante quadro de pseudo-obstrução colônica aguda sem reavaliar a real necessidade da droga.
-- **Confundir Ogilvie com megacólon tóxico** e tratar colite fulminante apenas com medida conservadora, atrasando a indicação cirúrgica que esse quadro exige.
-- **Usar metoclopramida em altas doses por tempo prolongado** na gastroparesia diabética sem vigiar sinais extrapiramidais.
-- **Não excluir causa mecânica antes de rotular um quadro como pseudo-obstrução** — volvo, tumor obstrutivo e hérnia encarcerada mudam completamente a conduta.
+- Antes de rotular qualquer dismotilidade como funcional/autonômica, **obstrução mecânica (tumor, aderência, volvo, hérnia encarcerada) precisa ser excluída por imagem** — é o primeiro passo em qualquer um dos cenários deste tema.
+- O tema se organiza em dois eixos: **dilatação colônica aguda em paciente grave/hospitalizado** (Ogilvie, megacólon tóxico, volvo — todos com conduta escalonada e tempo-dependente) e **dismotilidade crônica** (impactação fecal, disautonomia diabética, CIPO — investigação estruturada, sem urgência cirúrgica imediata).
+- Nas dilatações agudas, o achado de imagem que mais muda a conduta é a **presença ou ausência de ponto de transição mecânico** — presente sugere volvo/obstrução verdadeira (cirurgia/endoscopia dirigida); ausente sugere Ogilvie (conservador → neostigmina → descompressão).
 
 ## 📝 Como a banca cobra
 
@@ -54,40 +31,66 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A síndrome de Ogilvie resulta de um desequilíbrio autonômico da inervação colônica — predomínio simpático sobre parassimpático leva à atonia da musculatura lisa do cólon sem qualquer obstáculo mecânico, causando dilatação progressiva. A neostigmina restaura o tônus colinérgico ao inibir a degradação da acetilcolina, reativando a peristalse colônica; por isso seu efeito colateral cardíaco mais temido (bradicardia) decorre do mesmo mecanismo colinérgico, agora atuando no nó sinusal.
+A síndrome de Ogilvie resulta de desequilíbrio autonômico da inervação colônica — predomínio simpático sobre parassimpático leva à atonia da musculatura lisa do cólon sem qualquer obstáculo mecânico, causando dilatação progressiva. A neostigmina restaura o tônus colinérgico ao inibir a degradação da acetilcolina, reativando a peristalse; por isso seu efeito colateral cardíaco mais temido (bradicardia) decorre do mesmo mecanismo colinérgico, agora atuando no nó sinusal. Na neuropatia autonômica diabética, a hiperglicemia crônica lesa fibras autonômicas do plexo mientérico, comprometendo a coordenação motora do tubo digestivo em qualquer segmento — daí a sobreposição entre gastroparesia, constipação crônica e pseudo-obstrução intestinal crônica no mesmo paciente diabético.
 
-Na neuropatia autonômica diabética, a hiperglicemia crônica lesa fibras autonômicas do plexo mientérico (sistema nervoso entérico), comprometendo a coordenação motora do tubo digestivo em qualquer segmento — daí a sobreposição entre gastroparesia, constipação crônica e pseudo-obstrução intestinal crônica no mesmo paciente diabético. Quando a dismotilidade crônica não é secundária a diabetes, ela recebe o nome de **pseudo-obstrução intestinal crônica (CIPO)**, que também pode ser primária (miopática ou neuropática, muitas vezes familiar) ou secundária a esclerodermia, amiloidose, doença de Parkinson, hipotireoidismo ou síndrome paraneoplásica (anti-Hu).
+## 🔹 Síndrome de Ogilvie (pseudo-obstrução colônica aguda)
 
-## 🔎 Diagnóstico
+- **Quando suspeitar:** dilatação maciça do cólon **sem obstrução mecânica**, típica de pacientes graves/hospitalizados — pós-operatório, sepse, trauma, câncer, distúrbio eletrolítico (hipopotassemia, hipomagnesemia, hipercalcemia), uso de opioides/anticolinérgicos, lesão medular e Parkinson.
+- **Diagnóstico:** radiografia ou TC de abdome com dilatação colônica difusa **sem ponto de transição mecânico** — obstrução mecânica deve ser sempre excluída antes de tratar; enema com contraste hidrossolúvel pode confirmar ausência de obstáculo quando a TC é inconclusiva.
+- **Tratamento escalonado:** **1) conservador** — jejum, correção de potássio e magnésio, suspensão de opioides/anticolinérgicos, sonda retal/nasogástrica, mobilização. **2) Neostigmina IV** — indicada se **ceco >12 cm** e/ou ausência de resposta ao conservador em 24-48h; exige **monitorização cardíaca contínua** (risco de bradicardia sintomática e assistolia, atropina disponível à beira do leito). **3) Falha/contraindicação** — colonoscopia descompressiva (com ou sem sonda). **4) Cirurgia** (cecostomia/colectomia) reservada para perfuração, isquemia ou peritonite.
+- 💎 **Pearl:** o corte de ceco >12 cm sinaliza risco aumentado de perfuração, mas a decisão também pesa o **tempo de evolução (>3-4 dias)** e a resposta ao conservador — não é gatilho automático isolado. Distúrbios eletrolíticos e opioides são **gatilhos e perpetuadores** comuns — corrigi-los pode resolver o quadro sem necessidade de neostigmina.
+- ⚠️ **Pitfall:** indicar cirurgia de imediato sem antes tentar conservador e, se necessário, neostigmina (exceto perfuração/isquemia/peritonite); ou administrar neostigmina sem monitorização cardíaca contínua.
+- 📝 **Como caiu:** ENARE 2025 Q11 (reconhecimento em paciente oncológico) e ENARE 2025 Q36 (monitorização durante neostigmina).
 
-- **Síndrome de Ogilvie:** radiografia ou TC de abdome com dilatação colônica difusa sem ponto de transição mecânico — obstrução mecânica deve ser sempre excluída antes de tratar. Enema com contraste hidrossolúvel pode confirmar ausência de obstáculo quando a TC é inconclusiva.
-- **Impactação fecal:** toque retal (achado direto); radiografia simples de abdome em caso de dúvida diagnóstica; investigação de constipação crônica refratária inclui teste de trânsito colônico com marcadores radiopacos, manometria anorretal e defecografia quando se suspeita de dissinergia do assoalho pélvico.
-- **Pseudo-obstrução diabética/gastroparesia:** história de diabetes de longa data mal controlado; cintilografia de esvaziamento gástrico é o padrão-ouro para gastroparesia; estudo de trânsito intestinal quando disponível, sempre excluindo causa mecânica.
-- **Megacólon tóxico (diferencial obrigatório):** dilatação colônica + toxemia sistêmica em paciente com colite de base — critérios clínicos e radiológicos combinados, não confundir com Ogilvie.
-- **Volvo de sigmoide/ceco (diferencial mecânico):** radiografia simples pode mostrar sinal do "grão de café"; TC com contraste confirma o ponto de torção e o grau de comprometimento vascular da alça.
+## 🔹 Constipação crônica refratária e impactação fecal
 
-## 📈 Complicações relevantes
+- **Quando suspeitar:** história de constipação crônica com falha a medidas habituais; **toque retal é etapa obrigatória** da avaliação — pode diagnosticar impactação fecal diretamente e até sugerir dissinergia do assoalho pélvico à beira do leito.
+- **Sinais de alarme que exigem excluir causa orgânica antes de rotular como funcional:** início após os 50 anos, perda de peso, sangramento, anemia — e causas secundárias (hipotireoidismo, hipercalcemia, drogas: opioide/anticolinérgico/bloqueador de canal de cálcio/ferro oral).
+- **Diagnóstico (constipação refratária sem sinal de alarme):** teste de trânsito colônico com marcadores radiopacos, manometria anorretal e defecografia quando se suspeita de dissinergia do assoalho pélvico.
+- **Tratamento:** **desimpactação (manual ou enema) sempre antes de qualquer laxante oral**; manutenção com laxante osmótico (polietilenoglicol); refratária a fibras/osmóticos pode escalonar para secretagogos (linaclotida, lubiprostona) ou agonista serotoninérgico (prucaloprida).
+- ⚠️ **Pitfall:** prescrever laxante estimulante isolado em fecaloma sem desimpactação prévia — risco de cólica intensa e até perfuração; ou tratar constipação crônica do idoso como funcional sem excluir sinais de alarme e causas secundárias.
+- 📝 **Como caiu:** ENARE 2025 Q22 (DIFÍCIL) — investigação estruturada além do manejo sintomático simples.
 
-- **Síndrome de Ogilvie não tratada:** isquemia de parede colônica, perfuração (especialmente com ceco >12 cm por tempo prolongado) e peritonite fecal — mortalidade sobe expressivamente quando ocorre perfuração.
-- **Impactação fecal crônica não tratada:** úlcera estercorácea, sangramento retal, retenção urinária por compressão vesical e, raramente, perfuração colônica.
-- **Pseudo-obstrução intestinal crônica (CIPO):** desnutrição, supercrescimento bacteriano do intestino delgado por estase, necessidade eventual de nutrição parenteral em casos refratários.
-- **Gastroparesia diabética:** desidratação, descontrole glicêmico por absorção alimentar imprevisível, formação de bezoar gástrico em casos graves.
+## 🔹 Pseudo-obstrução intestinal por neuropatia autonômica diabética
 
-## 💊 Tratamento
+- **Quando suspeitar:** manifestação visceral da disautonomia em diabetes de longa data e mau controle — dismotilidade pode acometer qualquer segmento do tubo digestivo (gastroparesia, constipação, pseudo-obstrução); a disautonomia diabética costuma acompanhar outras manifestações de neuropatia periférica, mas pode se manifestar isoladamente no trato gastrointestinal antes delas.
+- **Diagnóstico:** história de diabetes de longa data mal controlado; cintilografia de esvaziamento gástrico é padrão-ouro para gastroparesia; estudo de trânsito intestinal quando disponível, sempre excluindo causa mecânica primeiro.
+- **Tratamento:** otimização do controle glicêmico, dieta fracionada com baixo teor de gordura e fibra insolúvel, procinéticos (metoclopramida em curso curto, domperidona, eritromicina) conforme o segmento predominantemente afetado.
+- 💎 **Pearl:** metoclopramida como procinético tem uso limitado a **curto prazo (≤12 semanas)** pelo risco de **discinesia tardia** — checar sempre a duração de uso em provas.
+- ⚠️ **Pitfall:** usar metoclopramida em altas doses por tempo prolongado sem vigiar sinais extrapiramidais.
+- 📝 **Como caiu:** ENARE 2026 Q64.
 
-- **Ogilvie inicial:** jejum, correção eletrolítica, suspensão de opioides/anticolinérgicos, sonda retal, mobilização.
-- **Ogilvie refratário (ceco >12 cm ou sem melhora em 24-48h):** neostigmina IV com monitorização cardíaca contínua.
-- **Falha de neostigmina:** colonoscopia descompressiva; cirurgia reservada para perfuração/isquemia.
-- **Impactação fecal:** desimpactação manual/enema seguida de laxante osmótico de manutenção (polietilenoglicol); constipação crônica refratária a fibras/osmóticos pode escalonar para secretagogos (linaclotida, lubiprostona) ou agonista serotoninérgico (prucaloprida).
-- **Disautonomia diabética/gastroparesia:** otimização do controle glicêmico, dieta fracionada com baixo teor de gordura e fibra insolúvel, procinéticos (metoclopramida em curso curto, domperidona, eritromicina) conforme o segmento predominantemente afetado.
-- **Megacólon tóxico:** suporte intensivo, corticoide/antibiótico conforme etiologia, avaliação cirúrgica precoce se não houver resposta rápida.
-- **CIPO refratária:** suporte nutricional escalonado (dieta fracionada → suplementação enteral → nutrição parenteral em casos extremos), antibiótico cíclico se houver supercrescimento bacteriano associado.
+## 🔹 Megacólon tóxico (diferencial obrigatório de Ogilvie)
 
-## 🔬 Diagnóstico diferencial adicional
+- **Quando suspeitar:** dilatação colônica associada a **colite grave** (retocolite ulcerativa, *C. difficile*), com sinais sistêmicos de toxemia (febre, taquicardia, leucocitose) — ao contrário do Ogilvie, tem indicação cirúrgica mais precoce e **não deve receber neostigmina**.
+- **Diagnóstico:** critérios clínicos e radiológicos combinados — dilatação colônica + toxemia sistêmica em paciente com colite de base.
+- **Tratamento:** suporte intensivo, corticoide/antibiótico conforme etiologia, avaliação cirúrgica precoce se não houver resposta rápida.
+- ⚠️ **Pitfall:** confundir Ogilvie com megacólon tóxico e tratar colite fulminante apenas com medida conservadora, atrasando a cirurgia que esse quadro exige.
+- 📝 **Como caiu:** ainda não cobrado no corpus — o diferencial "que não pode passar batido" diante de qualquer dilatação colônica aguda.
 
-- **Distensão abdominal aguda em paciente grave:** sempre distinguir Ogilvie (sem obstáculo mecânico), volvo (obstáculo mecânico com torção) e megacólon tóxico (colite de base com toxemia) — a conduta inicial diverge de forma importante entre os três.
-- **Constipação crônica:** excluir causas secundárias (hipotireoidismo, hipercalcemia, uso de opioide/anticolinérgico/bloqueador de canal de cálcio/ferro oral) antes de rotular como funcional/dissinergia do assoalho pélvico.
-- **Dismotilidade crônica no diabético:** diferenciar disautonomia diabética de outras causas de pseudo-obstrução intestinal crônica (esclerodermia, amiloidose, paraneoplásica) quando a evolução for atípica para o tempo de doença.
+## 🔹 Volvo de sigmoide e de ceco (diferencial mecânico)
+
+- **Quando suspeitar:** dilatação colônica aguda que mimetiza Ogilvie na apresentação, mas com **obstáculo mecânico por torção**.
+- **Diagnóstico:** radiografia simples pode mostrar sinal do **"grão de café"**; TC com contraste confirma o ponto de torção e o grau de comprometimento vascular da alça.
+- **Tratamento:** descompressão endoscópica (sigmoide) ou cirurgia (ceco) — diferente do manejo conservador/neostigmina do Ogilvie.
+- ⚠️ **Pitfall:** não excluir causa mecânica antes de rotular um quadro como pseudo-obstrução — volvo muda completamente a conduta.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 🔹 Pseudo-obstrução intestinal crônica (CIPO) — quando não é diabetes
+
+- **Quando suspeitar:** dismotilidade crônica **não** secundária a diabetes — pode ser primária (miopática ou neuropática, muitas vezes familiar) ou secundária a esclerodermia, amiloidose, doença de Parkinson, hipotireoidismo ou síndrome paraneoplásica (anti-Hu).
+- **Tratamento:** suporte nutricional escalonado (dieta fracionada → suplementação enteral → nutrição parenteral em casos extremos), antibiótico cíclico se houver supercrescimento bacteriano associado.
+- 📝 **Como caiu:** ainda não cobrado no corpus — diferencial relevante quando a evolução for atípica para o tempo de diabetes do paciente.
+
+## 📋 Tabela
+
+**Distensão abdominal aguda em paciente grave — os três diagnósticos que não podem ser confundidos**
+
+| Entidade | Ponto de transição mecânico | Toxemia sistêmica | Conduta inicial |
+|---|---|---|---|
+| Síndrome de Ogilvie | Ausente | Ausente (geralmente) | Conservador → neostigmina |
+| Volvo (sigmoide/ceco) | Presente | Variável | Descompressão endoscópica/cirurgia |
+| Megacólon tóxico | Ausente | Presente (colite de base) | Suporte + avaliação cirúrgica precoce |
 
 ## 📚 Referências essenciais
 

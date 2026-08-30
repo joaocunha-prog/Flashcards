@@ -89,7 +89,7 @@ export function ResumoSections({ sections }: { sections: ResumoSection[] }) {
             )}
           >
             <span aria-hidden>{section.emoji}</span>
-            {RESUMO_SECTION_LABEL[section.kind] ?? section.title}
+            {section.kind === 'outra' ? section.title : RESUMO_SECTION_LABEL[section.kind]}
           </a>
         ))}
       </nav>

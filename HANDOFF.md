@@ -346,13 +346,40 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   README (feito, commit `e8f2d58`), sem deixar Postgres nem app rodando.
 - **Resumos seguem o padrão UERJ**, adaptado por questão real do corpus ENARE/EBSERH — não é
   conteúdo genérico de livro-texto, tem que citar a vinheta/ano/número reais.
+- **Reorganização + extrapolação dos 46 resumos (rodada mais recente)** — usuário reportou que
+  alguns resumos aglutinavam entidades clinicamente não relacionadas (exemplo citado:
+  `neuroinfeccao-e-emergencias-neurologicas` misturava infecção de SNC com emergências
+  vasculares/metabólicas/estruturais) e pediu para (1) reorganizar via sub-rótulos em negrito
+  dentro do próprio arquivo — **não criar novos slugs**, pois slugs precisam bater com
+  `Subtheme` reais no banco — e (2) expandir todo resumo com conteúdo clínico extrapolado
+  (fisiopatologia, diferenciais, quadro clínico, tabelas) além do que foi literalmente cobrado no
+  corpus real, pensando em como o tema PODE ser cobrado no futuro. Regra inegociável: a seção
+  "📝 Como a banca cobra" só pode citar banca/ano/número reais do Grounding — nunca inventar que
+  algo caiu em prova. Conteúdo extrapolado vai em outras seções, sem atribuição a questão
+  específica. Arquivos reorganizados com sub-rótulo explícito: `hepatopatias-nao-virais`
+  ("Fora do eixo hepático... gastrite atrófica autoimune"), `doencas-neuromusculares` ("Fora do
+  eixo neuromuscular... afasias corticais"), `neuroinfeccao-e-emergencias-neurologicas`
+  (infecções/inflamações do SNC vs. emergências vasculares/metabólicas/estruturais). Os outros 43
+  resumos já eram internamente coerentes por assunto — só precisaram de expansão de conteúdo, sem
+  reorganização estrutural. Durante essa rodada, um dos agentes removeu por engano a referência do
+  Ministério da Saúde de `doencas-tropicais-e-negligenciadas` (achando que só
+  `infeccoes-relacionadas-a-assistencia` deveria citar MS/ANVISA) — corrigido manualmente,
+  restaurando a referência MS (Chagas, leishmanioses, esquistossomose, hanseníase e febre
+  maculosa são doenças de notificação compulsória/PCDT nacional, dentro da mesma regra de
+  referência BR já documentada acima). Todos os 46 arquivos passaram por `npx tsc --noEmit` sem
+  erros e foram commitados em 4 commits por batch (A+D+E+F, B, C, G) na branch atual. PDF
+  consolidado com os 46 resumos regenerado (216 páginas) via
+  `/tmp/.../scratchpad/build_pdf.py` (script fora do repo, específico da sessão) e entregue ao
+  usuário.
 
 ## Pendências
 
-- **Os 46 resumos do 80/20 estão prontos e registrados** — nada pendente nessa frente.
+- **Os 46 resumos do 80/20 estão prontos, reorganizados, expandidos e registrados** — nada
+  pendente nessa frente.
 - **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão prontos, validados e commitados**
-  (commit `1610ee5`) — nada pendente nessa frente também. Ver "Estado Atual" acima para detalhes de
-  formato/decisões.
+  (commit `1610ee5`) — **ainda refletem o conteúdo dos resumos ANTES da reorganização/expansão
+  mais recente**. Se o usuário pedir para sincronizar os flashcards com o novo conteúdo expandido,
+  isso ainda não foi feito nesta rodada (o pedido do usuário foi só sobre os resumos).
 - **Não testado**: importação real num app Anki (ambiente desta sessão não tem Anki instalado) — só
   validação estrutural do texto (header, 3 campos por linha, cloze presente, imagens existem). Se o
   usuário reportar problema de importação, provavelmente é algo sutil do parser real do Anki que a
@@ -362,8 +389,10 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 
 ## Próxima Ação
 
-Nenhuma ação pendente definida — as duas tarefas do usuário (resumos 80/20 e flashcards Anki +
-escalas) estão concluídas e pushadas. Aguardar próximo pedido.
+Nenhuma ação pendente definida — resumos 80/20 (escritos, reorganizados e expandidos), flashcards
+Anki + escalas, e PDF consolidado com os 46 resumos estão concluídos, pushados e entregues.
+Aguardar próximo pedido (possível próximo passo: sincronizar os flashcards com o conteúdo expandido
+dos resumos, se o usuário pedir).
 
 ## Convenções e Restrições
 

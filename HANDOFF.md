@@ -391,29 +391,80 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   páginas (`build_scores_pdf.py` + `scores_data.py`, ambos fora do repo, em
   `/tmp/.../scratchpad/`) — entregue ao usuário via SendUserFile. Este PDF não foi commitado no
   repo (segue o mesmo padrão do PDF de resumos: só entregue como arquivo, não versionado).
+- **NOVO FORMATO DE RESUMO — reorganização por entidade clínica, aprovada pelo usuário (sessão
+  seguinte).** O usuário reportou que a reorganização por sub-rótulo em negrito (item acima) ainda
+  não bastava: dentro de cada cluster, o conteúdo de uma mesma doença continuava picado entre as
+  seções por tipo (um pedaço em Pearls, outro em Diagnóstico, outro em Diferencial). Pedido
+  explícito, usando `hiv-aids` como exemplo: "o resumo de infecção e Neuro, você mistura tudo
+  junto" — reorganizar para que cada entidade (ex.: **Neurotoxoplasmose**, **Linfoma primário de
+  SNC**) tenha **uma seção própria com tudo junto** (quando suspeitar/quadro clínico, diagnóstico,
+  tratamento, pearl, pitfall, grounding real se houver). Fiz um capítulo de exemplo (`capitulo2` =
+  `hiv-aids` + `neuroinfeccao-e-emergencias-neurologicas` combinados, por serem os dois assuntos
+  onde Infecto e Neuro mais se cruzam — 18 questões do corpus) e entreguei em PDF via
+  `SendUserFile` (script `weasyprint`, HTML com CSS, em `/tmp/.../scratchpad/capitulo2.html` +
+  `.pdf` — fora do repo, específico da sessão, **não commitado**). **Usuário aprovou o formato**
+  ("Ok gostei assim").
+
+  **Estrutura do capítulo de exemplo** (replicar nos próximos): capa, sumário, e o conteúdo
+  dividido em Partes temáticas (ex. Parte A = manejo geral do assunto principal; Parte B =
+  entidades que cruzam com outro tema, aqui complicações neuroinfecciosas; Parte C = o que não é
+  infeccioso mas pertence ao mesmo assunto de origem, aqui emergências vasculares/metabólicas). Uma
+  tabela comparativa entre as entidades mais confundidas entre si (aqui: diferencial de lesão
+  expansiva cerebral no HIV — Neurotoxo vs. Linfoma de SNC vs. LEMP vs. Meningite criptocócica) some
+  no fim do bloco. Ainda vale a regra inegociável já documentada: grounding real (banca/ano/número)
+  só onde existe no corpus — quando a entidade não caiu em prova, o card diz explicitamente "ainda
+  não cobrado no corpus" em vez de fabricar ou omitir a informação de procedência.
+
+  **Diretriz nova, pedida explicitamente pelo usuário e que vale para TODOS os resumos daqui pra
+  frente, não só neste capítulo: "seja mais inteligente e específico quando couber" e "extrapole
+  mais os temas".** Isso é mais forte do que a extrapolação já feita na rodada anterior — não basta
+  cobrir bem o que está nos livros-texto/diretrizes de forma genérica; é preciso incluir os
+  detalhes finos e as pegadinhas de manejo que uma prova de residência realmente cobra, mesmo que
+  não estejam na explicação-padrão do tema. O usuário apontou 2 lacunas concretas no capítulo de
+  exemplo (já corrigidas no PDF entregue, servem de calibração do nível de detalhe esperado):
+  1. **AVC isquêmico (`neuroinfeccao-e-emergencias-neurologicas`):** faltava mencionar que AVC
+     minor (déficit leve, NIHSS baixo — os trials CHANCE/POINT usam ≤3) ou AIT de alto risco
+     (ABCD2 ≥4) sem indicação de trombólise entra em **dupla antiagregação (AAS + clopidogrel)**
+     por 21-90 dias, iniciada nas primeiras 12-24h — reduz recorrência precoce sem aumentar muito o
+     risco hemorrágico nesse intervalo curto. Isso não compete com a trombólise (é pra quem NÃO é
+     elegível a rtPA), e não estava em lugar nenhum do resumo original.
+  2. **Profilaxia de toxoplasmose no HIV (`hiv-aids`):** faltava a nuance de que a posologia do
+     sulfametoxazol-trimetoprima não é fixa em CD4 <200 — 3x/semana cobre só pneumocistose; ao
+     cruzar CD4 <100 num paciente IgG anti-*Toxoplasma* positivo, a dose precisa subir para
+     **diária**, que é a única que também cobre toxoplasmose.
+  Ao escrever/reescrever qualquer resumo a partir de agora, buscar ativamente esse tipo de detalhe
+  (ajuste fino de posologia por limiar, decisão que muda conforme um segundo critério, "pegadinha"
+  clássica de prova) em vez de só reorganizar o conteúdo já existente — mesma regra de não fabricar
+  já documentada (extrapolação é conhecimento médico padrão, sem atribuição de banca/ano/número).
 
 ## Pendências
 
-- **Os 46 resumos do 80/20 estão prontos, reorganizados, expandidos e registrados** — nada
-  pendente nessa frente.
-- **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão prontos, validados e commitados**
-  (commit `1610ee5`) — **ainda refletem o conteúdo dos resumos ANTES da reorganização/expansão
-  mais recente**. Se o usuário pedir para sincronizar os flashcards com o novo conteúdo expandido,
-  isso ainda não foi feito nesta rodada (o pedido do usuário foi só sobre os resumos).
+- **PRÓXIMA TAREFA (pedida pelo usuário nesta sessão): refazer TODOS os 46 resumos do 80/20 no
+  formato "capítulo por entidade" aprovado** — ver "Decisões Confirmadas" abaixo para o formato
+  exato e o exemplo de referência (`capitulo2.pdf`, entregue via `SendUserFile`, não commitado).
+  Ainda não iniciado além do capítulo de exemplo (HIV/AIDS + Neuroinfecção). Faltam os outros 9
+  assuntos de Infectologia/Neurologia do 80/20 e os 35 assuntos restantes dos outros temas.
+- **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão commitados** (commit `1610ee5`) — **ainda
+  refletem o conteúdo dos resumos ANTES da reorganização por entidade**. Não sincronizar
+  automaticamente — só se o usuário pedir depois que os resumos estiverem prontos.
 - **Não testado**: importação real num app Anki (ambiente desta sessão não tem Anki instalado) — só
   validação estrutural do texto (header, 3 campos por linha, cloze presente, imagens existem). Se o
   usuário reportar problema de importação, provavelmente é algo sutil do parser real do Anki que a
   validação estrutural não pegou.
-- Nenhuma tarefa nova pendente no momento — aguardar próximo pedido do usuário. Nenhum PR novo a
-  abrir sem pedido explícito — já existe o #2, é só continuar empurrando pra mesma branch.
+- Nenhum PR novo a abrir sem pedido explícito — já existe o #2, é só continuar empurrando pra mesma
+  branch.
 
 ## Próxima Ação
 
-Nenhuma ação pendente definida — resumos 80/20 (escritos, reorganizados e expandidos), flashcards
-Anki + escalas, PDF consolidado com os 46 resumos, e PDF de scores/tabelas (94 escalas completas)
-estão concluídos e entregues. Aguardar próximo pedido (possíveis próximos passos: sincronizar os
-flashcards com o conteúdo expandido dos resumos; ou completar as escalas do apêndice do PDF de
-scores, se o usuário pedir).
+**Refazer todos os 46 resumos do 80/20 no formato por entidade**, seguindo o padrão validado no
+capítulo de exemplo (ver "Decisões Confirmadas"). Ordem sugerida: primeiro os outros 9 assuntos de
+Infectologia/Neurologia (mesmo tema do exemplo aprovado — `doencas-tropicais-e-negligenciadas`,
+`infeccoes-relacionadas-a-assistencia`, `infeccoes-de-pele-e-partes-moles`,
+`infeccoes-do-trato-urinario`, `infeccoes-sexualmente-transmissiveis`, `tuberculose`,
+`disturbios-motores`, `doencas-neuromusculares`, `sindromes-vasculares`, `sindromes-vestibulares`),
+depois os 35 assuntos restantes. Entregar em PDF por lote para o usuário revisar antes de seguir
+para o próximo (mesmo padrão desta sessão: PDF primeiro, aplicar no código só depois de aprovado).
+Depois disso: sincronizar os flashcards Anki com o conteúdo reorganizado, se o usuário pedir.
 
 ## Convenções e Restrições
 

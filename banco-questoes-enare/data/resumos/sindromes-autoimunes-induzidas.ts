@@ -37,6 +37,8 @@ const content = `
 - **Autoanticorpos podem estar presentes sem doença autoimune de órgão franca** em ASIA (ex.: FAN em baixo título isolado) — não devem, isoladamente, ser interpretados como diagnóstico de lúpus ou outra colagenose sem correlação clínica.
 - **Preenchedores faciais e biopolímeros (PMMA, outras substâncias de "bumbum injetável")** compartilham o mesmo mecanismo fisiopatológico das substâncias oleosas de modelação — o termo genérico usado na literatura é "doença dos adjuvantes"/"siliconose" quando o agente é à base de silicone, mas o espectro clínico é o mesmo independentemente do material específico.
 - **Sexo feminino é predominante** entre os casos descritos de ASIA por implante mamário/preenchedor estético, refletindo o próprio perfil de exposição aos procedimentos, não uma predisposição biológica específica descrita de forma consistente.
+- **Ainda não cobrado, mas plausível:** diante de suspeita de ASIA por substância de modelação clandestina, a banca pode explorar **complicações locais graves específicas** — necrose cutânea por embolização do material, migração do produto para outros planos teciduais e infecção secundária por microrganismos atípicos (micobactérias não tuberculosas), que exigem avaliação e manejo cirúrgico/infectológico independentes da síndrome sistêmica.
+- **Diferencial com doença de depósito de material estranho sem componente autoimune** (granuloma de corpo estranho puro, sem sintomas sistêmicos constitucionais) — reforça que o diagnóstico de ASIA exige a combinação de exposição + manifestações sistêmicas, não apenas achado local ao exame de imagem ou biópsia.
 
 ## ⚠️ Pitfalls
 
@@ -49,6 +51,7 @@ const content = `
 - **Descartar ASIA apenas por autoanticorpos negativos** — a ausência de FAN ou outros autoanticorpos não exclui o diagnóstico, que continua sendo primariamente clínico-epidemiológico.
 - **Atribuir toda queixa musculoesquelética pós-implante a causa mecânica/local**, sem considerar o componente sistêmico quando há sintomas constitucionais associados.
 - **Confundir infecção/reação local aguda periimplante com ASIA** — a distinção pelo curso temporal (agudo/circunscrito vs. crônico/sistêmico) evita tratamento antimicrobiano desnecessário ou, ao contrário, atraso no diagnóstico de infecção real.
+- **Não avaliar complicações locais graves da modelação clandestina** (necrose cutânea, migração de material, infecção por micobactéria atípica) por focar só no quadro sistêmico de ASIA — essas complicações têm manejo próprio e urgente, independente do diagnóstico sistêmico.
 
 ## 📝 Como a banca cobra
 

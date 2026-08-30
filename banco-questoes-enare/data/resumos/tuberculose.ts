@@ -37,6 +37,8 @@ const content = `
 - **Excluir infecção oportunista associada durante reação paradoxal** (ex.: outra micobacteriose, citomegalovirose, criptococose) antes de atribuir toda a piora clínica ao fenômeno imunológico, especialmente em PVHIV com imunossupressão avançada.
 - **Critérios de notificação compulsória (PNCT):** notificar todo caso confirmado ou com **forte suspeita clínica/radiológica**, mesmo antes do resultado de exame confirmatório; a notificação também é obrigatória em caso de **mudança de esquema, transferência, reingresso após abandono ou óbito por TB** — o SINAN é o sistema de registro.
 - **Busca ativa de sintomáticos respiratórios** (tosse por 3 semanas ou mais) é estratégia de rastreio ativo do PNCT em populações prioritárias (privados de liberdade, população em situação de rua, PVHIV, contatos de casos index, profissionais de saúde) — a baciloscopia/TRM-TB deve ser oferecida a todo sintomático respiratório identificado.
+- **Ainda não cobrado no corpus, mas de alto rendimento:** o esquema RIPE em criança (<10 anos) **não inclui etambutol** — usa-se apenas rifampicina + isoniazida + pirazinamida nos 2 meses iniciais, pela dificuldade de monitorar toxicidade visual (neurite óptica) nessa faixa etária, seguido de rifampicina + isoniazida por 4 meses.
+- **Cuidado com corte numérico específico do PCDT brasileiro:** para o momento de início da TARV na coinfecção TB-HIV, o PCDT-HIV do Ministério da Saúde usa o corte **CD4 <200 vs. ≥200** (TARV em até 2 semanas vs. em 8 semanas), não o corte de CD4 <50 usado por algumas diretrizes internacionais para essa mesma decisão — ver o resumo de HIV/AIDS para o detalhamento completo dessa decisão.
 
 ## ⚠️ Pitfalls
 
@@ -50,6 +52,8 @@ const content = `
 - **Não suplementar piridoxina em populações de risco para neuropatia por isoniazida** (gestantes, etilistas, desnutridos, diabéticos, PVHIV).
 - **Não solicitar avaliação oftalmológica basal antes de iniciar etambutol** em paciente que fará uso prolongado, perdendo a chance de detectar precocemente neurite óptica.
 - **Não considerar TB miliar/disseminada em imunossuprimido com febre de origem indeterminada**, atrasando o diagnóstico por esperar apresentação pulmonar clássica.
+- **Prescrever etambutol para criança pequena no esquema padrão de adulto** — o esquema pediátrico (<10 anos) dispensa etambutol pela dificuldade de monitorar toxicidade visual nessa faixa etária; usar RIP sem o E.
+- **Aplicar corte de CD4 de diretriz internacional (<50) em vez do corte do PCDT brasileiro (<200)** para decidir o momento de início da TARV na coinfecção TB-HIV — os dois divergem, e a prova brasileira cobra o corte nacional.
 
 ## 🩺 Quadro clínico
 

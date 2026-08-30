@@ -37,6 +37,9 @@ const content = `
 - **Feocromocitoma** classicamente cursa com a tríade cefaleia + sudorese + palpitações em crises paroxísticas de hipertensão — rastreio com metanefrinas plasmáticas ou urinárias fracionadas.
 - **Síndrome de Cushing** como causa secundária: hipertensão associada a ganho de peso central, estrias violáceas, fácies em lua cheia e hiperglicemia — cortisol salivar noturno ou teste de supressão com dexametasona para rastreio.
 - **Coarctação de aorta** deve ser lembrada em hipertensão de início jovem com diferença de pulsos/PA entre membros superiores e inferiores.
+- **Ainda não cobrado, mas de alto rendimento:** a **meta pressórica varia por perfil de risco**, não é única para todo hipertenso — idosos frágeis/muito idosos (≥80 anos) toleram metas menos rigorosas (evitar hipotensão ortostática e quedas), enquanto diabéticos e nefropatas costumam ter meta mais estrita quando toleram bem, refletindo o balanço risco-benefício individualizado das diretrizes mais recentes.
+- **Betabloqueador não é mais primeira linha isolada para HAS não complicada** nas diretrizes atuais (SBC/ESC/ESH) — reservado para indicações específicas (doença coronariana, insuficiência cardíaca, arritmia, gestante), diferente de IECA/BRA, bloqueador de canal de cálcio e tiazídico, que seguem como as quatro classes de primeira linha.
+- **Combinação de IECA/BRA com inibidor direto da renina (alisquireno) é contraindicada** — risco aumentado de hipercalemia e lesão renal aguda sem benefício adicional de controle pressórico, achado de estudo que mudou a prática.
 
 ## ⚠️ Pitfalls
 
@@ -49,6 +52,8 @@ const content = `
 - **Prescrever IECA/BRA sem rastrear gestação ou sem considerar estenose bilateral de artéria renal**, expondo a paciente a teratogenicidade ou a piora aguda da função renal.
 - **Não pesquisar lesão de órgão-alvo na primeira avaliação** do hipertenso recém-diagnosticado, perdendo a chance de estratificar risco cardiovascular adequadamente.
 - **Confundir pré-eclâmpsia com hipertensão crônica agravada na gestação** sem avaliar proteinúria/disfunção orgânica, ou prescrever IECA/BRA para gestante hipertensa.
+- **Associar IECA/BRA com inibidor direto da renina** achando que é só "mais um bloqueio do SRAA aditivo" — combinação contraindicada pelo risco de hipercalemia e IRA.
+- **Aplicar a mesma meta pressórica rígida a todo paciente independentemente da idade/fragilidade** — hipotensão iatrogênica em idoso frágil aumenta risco de queda e fratura, sem benefício cardiovascular adicional proporcional.
 
 ## 📝 Como a banca cobra
 

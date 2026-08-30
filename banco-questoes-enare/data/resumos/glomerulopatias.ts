@@ -1,92 +1,105 @@
 /**
  * Resumo — Nefrologia · Glomerulopatias.
  *
+ * Reorganizado por entidade clínica (cada glomerulopatia tem sua própria
+ * seção com quadro clínico, diagnóstico, tratamento, pearl e pitfall
+ * juntos), em vez de picado entre seções genéricas de tipo — o assunto
+ * reúne várias doenças glomerulares distintas, e o eixo nefrótico/nefrítico
+ * que as organiza é tratado numa seção de conceito unificadora, não
+ * repetido em cada entidade.
+ *
  * Cobre as entidades do assunto no corpus: nefropatia membranosa idiopática
  * (anti-PLA2R) e investigação etiológica de síndrome nefrótica em paciente
- * vivendo com HIV e diabético. Inclui também extrapolações de alto
- * rendimento (classificação nefrótica/nefrítica, outras glomerulopatias
- * primárias, estratificação de risco KDIGO, complicações trombóticas da
- * síndrome nefrótica) ainda não cobradas no corpus, mas plausíveis em
- * provas futuras.
+ * vivendo com HIV e diabético (HIVAN e nefropatia diabética). Inclui também
+ * extrapolações de alto rendimento (doença de lesões mínimas, GESF, IgA
+ * nephropathy, GN pós-estreptocócica, GNMP, amiloidose renal, GN
+ * rapidamente progressiva/vasculite ANCA) ainda não cobradas no corpus, mas
+ * plausíveis em provas futuras.
  */
 const content = `
 ## 🎯 Essencial
 
-- **Síndrome nefrótica em adulto sem causa secundária óbvia** → pensar primeiro em **nefropatia membranosa** (causa mais comum de síndrome nefrótica primária no adulto branco/idoso; a **doença de lesões mínimas** predomina em crianças e a **glomeruloesclerose segmentar e focal (GESF)** é a mais comum em adultos afrodescendentes e a principal causa nefrótica associada ao HIV).
-- **Anti-PLA2R positivo confirma nefropatia membranosa primária** em cerca de 70-80% dos casos — evita biópsia em muitos cenários e serve também como marcador de atividade/resposta ao tratamento. O antígeno **THSD7A** explica outra fatia menor dos casos PLA2R-negativos.
+- **O eixo organizador de toda a nefrologia clínica de prova é distinguir síndrome nefrótica de nefrítica**: nefrótica = proteinúria >3,5 g/24h + hipoalbuminemia + edema + hiperlipidemia, sem hematúria/HAS proeminentes; nefrítica = hematúria dismórfica + cilindros hemáticos + HAS + edema + graus variáveis de queda de TFG, proteinúria subnefrótica.
+- **Síndrome nefrótica em adulto sem causa secundária óbvia** → pensar primeiro em **nefropatia membranosa** (causa mais comum de síndrome nefrótica primária no adulto branco/idoso); a **doença de lesões mínimas** predomina em crianças e a **GESF** é a mais comum em adultos afrodescendentes e a principal causa nefrótica associada ao HIV.
 - **Síndrome nefrótica em paciente com fatores de risco (HIV, diabetes de longa data, hepatite B/C, lúpus, neoplasia)** exige **excluir causas secundárias antes de rotular como primária** — a etiologia muda completamente a conduta.
-- **HIV pode causar glomerulopatia colapsante (HIVAN)** — proteinúria maciça, evolução rápida para perda de função renal, mais comum em pacientes de ascendência africana com carga viral não controlada.
-- **Diabetes de longa data com proteinúria progressiva e retinopatia associada** sugere **nefropatia diabética** — a presença de retinopatia reforça a etiologia diabética sem precisar de biópsia na maioria dos casos.
 - **Biópsia renal é indicada quando o quadro não se encaixa no padrão esperado** (ausência de retinopatia em diabético com síndrome nefrótica, evolução muito rápida, achados atípicos) — não é exame de rotina para todo nefrótico.
-- **Tratamento da nefropatia membranosa depende do risco de progressão** (proteinúria, função renal, anti-PLA2R) — nem todo paciente precisa de imunossupressão imediata.
-- **Ainda não cobrado no corpus, mas candidato natural:** diferenciar **síndrome nefrótica** (proteinúria >3,5 g/24h + hipoalbuminemia + edema + hiperlipidemia, sem hematúria/HAS proeminentes) de **síndrome nefrítica** (hematúria dismórfica + cilindros hemáticos + HAS + edema + graus variáveis de queda de TFG, proteinúria subnefrótica) — o eixo organizador de toda a nefrologia clínica de prova.
-- **Doença de lesões mínimas (LM)** é a causa mais comum de síndrome nefrótica em crianças — responde tipicamente de forma dramática a corticoide, e biópsia sem resposta ao corticoide costuma revelar GESF subjacente.
-- **Glomerulonefrite membranoproliferativa (GNMP/MPGN)** cursa com padrão misto nefrótico-nefrítico e hipocomplementenemia persistente — associada a crioglobulinemia (hepatite C), lúpus ou gamopatias monoclonais.
-- **Amiloidose renal (AL ou AA)** deve entrar no diferencial de síndrome nefrótica em idoso com doença inflamatória crônica ou discrasia de plasmócitos de base — biópsia com Vermelho Congo é confirmatória.
-
-## 💎 Pearls
-
-- **Nefropatia membranosa secundária** (lúpus, neoplasia sólida, hepatite B, fármacos como AINEs/sais de ouro/penicilamina) deve sempre ser considerada antes de fechar como idiopática, especialmente em pacientes com fatores de risco associados.
-- O **anti-PLA2R** também serve para monitorar resposta terapêutica: sua queda precede a remissão clínica e sua elevação pode antecipar recidiva.
-- Em **PVHIV com síndrome nefrótica**, controlar a carga viral com TARV é parte essencial do tratamento da HIVAN, além do bloqueio do sistema renina-angiotensina.
-- **Proteinúria nefrótica sem retinopatia em diabético de longa data** é sinal de alerta para etiologia não diabética sobreposta — não assumir automaticamente nefropatia diabética.
-- Casos de **síndrome nefrótica com múltiplos fatores de risco simultâneos** (HIV + diabetes, por exemplo) exigem investigação dirigida (sorologias, biópsia) em vez de atribuir a uma única causa por conveniência.
-- **Ainda não cobrado no corpus:** a **estratificação de risco KDIGO na nefropatia membranosa** (baixo/médio/alto/muito alto risco) combina proteinúria, TFG e trajetória do anti-PLA2R ao longo de 6 meses para decidir quem precisa de imunossupressão — proteinúria persistente >8 g/dia com anti-PLA2R em ascensão é o cenário de maior risco de progressão para doença renal terminal.
-- **Ainda não cobrado, mas de alto rendimento:** a síndrome nefrótica é estado **pró-trombótico** — perda urinária de antitrombina III e proteínas C/S, associada a hemoconcentração e hiperfibrinogenemia — e a **nefropatia membranosa é a glomerulopatia com maior risco de trombose venosa renal e tromboembolismo pulmonar** entre todas as causas de síndrome nefrótica, especialmente com albumina sérica <2,0-2,5 g/dL.
-- **IgA nephropathy (doença de Berger)** é a **glomerulopatia primária mais comum do mundo** — hematúria macroscópica recorrente 24-72h após infecção de vias aéreas superiores ("synpharyngitic hematuria"), diferente da glomerulonefrite pós-estrepocócica clássica (latência de 1-3 semanas).
-- A **glomerulonefrite pós-estreptocócica** é o protótipo de síndrome nefrítica em crianças — C3 baixo transitório (normaliza em 6-8 semanas), edema periorbitário, hematúria "cor de coca-cola", geralmente autolimitada.
-- **Vasculites ANCA-associadas (poliangiite microscópica, granulomatose com poliangiite)** causam glomerulonefrite rapidamente progressiva (crescêntica) — suspeitar diante de síndrome nefrítica com queda rápida e importante da função renal, sobretudo com sintomas sistêmicos (pulmão, seios da face, pele).
-
-## ⚠️ Pitfalls
-
-- **Fechar diagnóstico de nefropatia membranosa idiopática sem pesquisar causas secundárias** em paciente com fatores de risco evidentes.
-- **Indicar biópsia renal de rotina** em todo paciente diabético com proteinúria e retinopatia concomitante — quando o quadro é típico, a biópsia é dispensável.
-- **Ignorar a etiologia infecciosa (HIV) diante de síndrome nefrótica**, tratando apenas como "síndrome nefrótica idiopática" sem rastrear a causa de base.
-- **Não repetir/monitorar anti-PLA2R** durante o seguimento — perder a chance de detectar recidiva precocemente.
-- **Iniciar imunossupressão agressiva de imediato** em nefropatia membranosa de baixo risco, sem antes tentar terapia conservadora otimizada (bloqueio do SRAA, controle de pressão e proteinúria).
-- **Esquecer profilaxia antitrombótica** em síndrome nefrótica com albumina muito baixa (especialmente na nefropatia membranosa), deixando de reconhecer trombose venosa renal/TEP como complicação a vigiar.
-- **Não rastrear neoplasia oculta** em idoso com nefropatia membranosa nova — a associação paraneoplásica é clássica nessa faixa etária.
-- **Não considerar glomerulonefrite rapidamente progressiva (crescêntica)** diante de queda abrupta e importante de função renal com hematúria — atraso no diagnóstico/biópsia nesse cenário pode custar a função renal de forma irreversível.
-- **Confundir hipocomplementenemia persistente (GNMP, lúpus) com transitória (pós-estreptocócica)** — o tempo de normalização do complemento é dado relevante para o diagnóstico diferencial.
 
 ## 📝 Como a banca cobra
 
-**Glomerulopatias aparece em 2 questões (0,94% do corpus)**, ambas do ENARE, testando o raciocínio de **etiologia** mais do que tratamento detalhado.
+**Glomerulopatias aparece em 2 questões (0,94% do corpus)**, ambas do ENARE, testando o raciocínio de **etiologia** mais do que tratamento detalhado. Nenhuma questão do corpus até agora cobrou as glomerulopatias primárias mais didáticas (lesões mínimas, GESF isolada, IgA, pós-estreptocócica, GNMP, GN rapidamente progressiva) nem amiloidose renal — são as extrapolações de maior potencial de cobrança deste resumo.
 
 - **ENARE 2025 Q9** cobrou a **nefropatia membranosa idiopática** associada ao **anti-PLA2R**, testando se o candidato reconhece esse anticorpo como marcador diagnóstico específico da forma primária.
 - **ENARE 2026 Q13** trouxe uma **síndrome nefrótica em paciente vivendo com HIV e diabético**, exigindo que o candidato não atribuísse automaticamente o quadro à nefropatia diabética e considerasse a **investigação etiológica ampliada** (incluindo causas relacionadas ao HIV).
 
 ## 🧠 Conceito e fisiopatologia
 
-A **nefropatia membranosa** é definida histologicamente por depósitos imunes subepiteliais ao longo da membrana basal glomerular, causando espessamento da parede capilar sem proliferação celular importante. Na forma primária, o alvo antigênico mais comum é o **receptor de fosfolipase A2 (PLA2R)**, expresso nos podócitos — anticorpos circulantes contra essa proteína se depositam in situ, ativam complemento e lesam a barreira de filtração, gerando proteinúria maciça. Histologicamente a doença evolui em estágios (Ehrenreich-Churg I a IV), do depósito subepitelial inicial até a esclerose glomerular avançada, mas a classificação em estágios tem menos peso prático que a estratificação de risco clínico-sorológica.
+Toda glomerulopatia resulta de lesão da barreira de filtração glomerular (podócitos, membrana basal, endotélio fenestrado), mas o **local e o mecanismo do dano determinam o fenótipo clínico**: depósito imune subepitelial (nefropatia membranosa) causa proteinúria maciça sem proliferação celular — puro padrão nefrótico; proliferação endocapilar com influxo de neutrófilos e ruptura da parede capilar (pós-estreptocócica, ANCA) causa hematúria e queda de TFG — padrão nefrítico; e mecanismos mistos (GNMP) ou puramente podocitários sem depósito imune (lesões mínimas, GESF) explicam as demais combinações. Reconhecer esse eixo nefrótico/nefrítico antes de qualquer sorologia já reduz drasticamente o diferencial.
 
-Em contextos de fatores de risco múltiplos (HIV, diabetes), a síndrome nefrótica pode ter origem em mecanismos completamente diferentes — do dano podocitário direto mediado pelo próprio HIV (colapso capilar, esclerose segmentar e focal variante colapsante) até o espessamento da membrana basal e expansão mesangial da nefropatia diabética. Diferenciar essas causas é essencial porque o tratamento (controle virológico, imunossupressão, bloqueio do SRAA) diverge conforme o mecanismo predominante.
+## 🔹 Nefropatia membranosa
 
-## 🩺 Quadro clínico
+- **Quando suspeitar:** síndrome nefrótica em adulto sem causa secundária óbvia — é a causa mais comum de síndrome nefrótica primária no adulto branco/idoso.
+- **Diagnóstico:** **anti-PLA2R positivo** confirma a forma primária em cerca de 70-80% dos casos, evitando biópsia em muitos cenários e servindo como marcador de atividade/resposta — sua queda precede a remissão clínica e sua elevação pode antecipar recidiva. O antígeno **THSD7A** explica outra fatia menor dos casos PLA2R-negativos. Histologicamente, depósitos imunes subepiteliais evoluem em estágios (Ehrenreich-Churg I a IV), mas essa classificação tem menos peso prático que a estratificação de risco clínico-sorológica.
+- **Nefropatia membranosa secundária** (lúpus, neoplasia sólida — sobretudo em idosos, hepatite B, fármacos como AINEs/sais de ouro/penicilamina) deve sempre ser considerada antes de fechar como idiopática.
+- **Tratamento:** estratificado por risco (proteinúria, TFG, trajetória do anti-PLA2R ao longo de 6 meses) — baixo risco recebe terapia conservadora (bloqueio do SRAA, controle pressórico, seguimento com anti-PLA2R); alto risco/progressiva recebe imunossupressão (rituximabe ou esquema de Ponticelli — corticoide alternado com ciclofosfamida). Proteinúria persistente >8 g/dia com anti-PLA2R em ascensão é o cenário de maior risco de progressão para doença renal terminal.
+- 💎 **Pearl:** é a glomerulopatia com **maior risco de trombose venosa renal e tromboembolismo pulmonar** entre todas as causas de síndrome nefrótica, especialmente com albumina sérica <2,0-2,5 g/dL — considerar anticoagulação profilática nesse cenário.
+- ⚠️ **Pitfall:** fechar diagnóstico de nefropatia membranosa idiopática sem pesquisar causas secundárias em paciente com fatores de risco evidentes, ou não rastrear neoplasia oculta em idoso com nefropatia membranosa nova.
+- 📝 **Como caiu:** ENARE 2025 Q9.
 
-- **Síndrome nefrótica (padrão comum às causas deste assunto):** edema (periorbitário matinal, progredindo para anasarca), espuma nas urinas (proteinúria), ganho de peso por retenção hídrica.
-- **HIVAN:** costuma apresentar-se com síndrome nefrótica maciça e rins de tamanho normal/aumentado à ultrassonografia, mesmo com função renal já bastante reduzida — discrepância que chama atenção na vinheta.
-- **Nefropatia diabética:** história de longa duração de diabetes, microalbuminúria progredindo para proteinúria franca ao longo de anos, retinopatia e por vezes neuropatia associadas.
-- **Sinais de alarme que sugerem causa secundária/atípica (extrapolação):** hematúria proeminente, hipocomplementenemia, manifestações extrarrenais (rash, artralgia, serosite no lúpus; hemoptise/sinusite nas vasculites), perda ponderal e outros sinais de neoplasia oculta.
+## 🔹 Glomerulopatia associada ao HIV (HIVAN) e nefropatia diabética
 
-## 🔎 Diagnóstico
+- **Quando suspeitar (HIVAN):** síndrome nefrótica maciça com carga viral de HIV não controlada, mais comum em pacientes de ascendência africana; costuma apresentar-se com **rins de tamanho normal/aumentado à ultrassonografia**, mesmo com função renal já bastante reduzida — discrepância que chama atenção na vinheta.
+- **Quando suspeitar (nefropatia diabética):** diabetes de longa duração, microalbuminúria progredindo para proteinúria franca ao longo de anos, **retinopatia diabética associada** (reforça a etiologia diabética sem precisar de biópsia na maioria dos casos) e por vezes neuropatia.
+- **Diagnóstico:** HIVAN — proteinúria maciça + carga viral não controlada + achados histológicos de glomeruloesclerose colapsante à biópsia; nefropatia diabética — proteinúria progressiva associada a retinopatia, biópsia reservada para quadros atípicos.
+- **Tratamento:** HIVAN — início/otimização da TARV para supressão viral, associado a bloqueio do SRAA; nefropatia diabética — controle glicêmico e pressórico rigoroso, bloqueio do SRAA, inibidores de SGLT2 quando indicados.
+- 💎 **Pearl:** casos de síndrome nefrótica com **múltiplos fatores de risco simultâneos** (HIV + diabetes, por exemplo) exigem investigação dirigida (sorologias, biópsia) em vez de atribuir a uma única causa por conveniência — proteinúria nefrótica **sem retinopatia** em diabético de longa data é sinal de alerta para etiologia não diabética sobreposta.
+- ⚠️ **Pitfall:** indicar biópsia renal de rotina em todo paciente diabético com proteinúria e retinopatia concomitante (quando o quadro é típico, é dispensável), ou ignorar a etiologia infecciosa (HIV) diante de síndrome nefrótica, tratando apenas como "idiopática" sem rastrear a causa de base.
+- 📝 **Como caiu:** ENARE 2026 Q13.
 
-- **Nefropatia membranosa idiopática:** síndrome nefrótica + anti-PLA2R positivo no soro; biópsia confirma o padrão histológico quando o anticorpo é negativo ou o quadro é atípico.
-- **Causas secundárias a investigar:** sorologias para hepatite B/C, FAN/anti-dsDNA (lúpus), rastreio oncológico em idosos, revisão de fármacos.
-- **HIVAN:** proteinúria maciça + carga viral de HIV não controlada + achados histológicos de glomeruloesclerose colapsante à biópsia.
-- **Nefropatia diabética:** proteinúria progressiva associada a retinopatia diabética em paciente com longa duração de doença — biópsia reservada para quadros atípicos.
-- **Investigação geral de síndrome nefrótica** (ainda não cobrada, mas rotineira): relação proteína/creatinina urinária ou proteinúria de 24h, albumina sérica, perfil lipídico, C3/C4 (baixos sugerem lúpus, GN membranoproliferativa ou pós-infecciosa), eletroforese de proteínas séricas/urinárias em idosos (mieloma/amiloidose).
-- **ANCA (c-ANCA/p-ANCA) e anti-MBG** completam o painel sorológico quando há suspeita de síndrome nefrítica rapidamente progressiva, ao lado de FAN/anti-dsDNA e complemento.
+## 🔹 Doença de lesões mínimas e GESF
 
-## 💊 Tratamento
+- **Quando suspeitar:** doença de lesões mínimas é a causa mais comum de síndrome nefrótica em **crianças**; GESF é a mais comum em **adultos afrodescendentes** e a principal causa nefrótica associada ao HIV (colapsante) ou a obesidade/perda néfrons (variante secundária adaptativa).
+- **Diagnóstico:** microscopia óptica normal (lesões mínimas) ou esclerose segmentar e focal (GESF) — a distinção final é histológica, mas na prática **a resposta ao corticoide é o teste diagnóstico funcional**: lesões mínimas respondem de forma dramática; ausência de resposta ao corticoide em criança com síndrome nefrótica costuma revelar GESF subjacente à biópsia.
+- **Tratamento:** corticoide em dose plena induz remissão completa na maioria dos casos de lesões mínimas; recidivas frequentes/corticodependência levam à consideração de poupadores de corticoide (ciclofosfamida, inibidor de calcineurina, rituximabe). GESF costuma ser mais refratária ao corticoide isolado.
+- 💎 **Pearl:** criança com síndrome nefrótica que não responde ao corticoide em 4-8 semanas deixa de ser tratada como "presumivelmente lesões mínimas" e passa a exigir biópsia — a resposta terapêutica é, na prática pediátrica, mais discriminativa do que a suspeita inicial.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
 
-- **Nefropatia membranosa de baixo risco:** terapia conservadora — bloqueio do sistema renina-angiotensina, controle pressórico e de proteinúria, seguimento com anti-PLA2R.
-- **Nefropatia membranosa de alto risco/progressiva:** imunossupressão (ex.: rituximabe ou esquema de Ponticelli — corticoide alternado com ciclofosfamida).
-- **HIVAN:** início/otimização da TARV para supressão viral, associado a bloqueio do SRAA.
-- **Nefropatia diabética:** controle glicêmico e pressórico rigoroso, bloqueio do SRAA, inibidores de SGLT2 quando indicados.
-- **Complicações da síndrome nefrótica** (extrapolação): estatina para hiperlipidemia persistente; considerar anticoagulação profilática quando albumina muito baixa (<2,0-2,5 g/dL), especialmente na nefropatia membranosa.
-- **GN rapidamente progressiva/vasculite ANCA-associada** (extrapolação): pulsoterapia com corticoide em altas doses associada a ciclofosfamida ou rituximabe, plasmaférese em casos com hemorragia alveolar ou dependência dialítica na apresentação.
-- **Doença de lesões mínimas** (extrapolação): corticoide em dose plena costuma induzir remissão completa; recidivas frequentes/corticodependência levam à consideração de poupadores de corticoide (ciclofosfamida, inibidor de calcineurina, rituximabe).
+## 🔹 Nefropatia por IgA (doença de Berger) e GN pós-estreptocócica
+
+- **Quando suspeitar (IgA):** é a **glomerulopatia primária mais comum do mundo** — hematúria macroscópica recorrente **24-72h após infecção de vias aéreas superiores** ("synpharyngitic hematuria"), diferente da GN pós-estreptocócica clássica.
+- **Quando suspeitar (pós-estreptocócica):** protótipo de síndrome nefrítica em **crianças**, com **latência de 1-3 semanas** após infecção estreptocócica (faringite ou piodermite) — edema periorbitário, hematúria "cor de coca-cola", C3 baixo **transitório** (normaliza em 6-8 semanas), geralmente autolimitada.
+- **Diagnóstico:** IgA — biópsia com depósitos mesangiais de IgA (padrão-ouro), complemento tipicamente normal; pós-estreptocócica — quadro clínico + C3 baixo transitório + ASLO/anti-DNAse B positivos, biópsia reservada a casos atípicos ou sem melhora esperada.
+- **Tratamento:** IgA — bloqueio do SRAA como base para todos; imunossupressão reservada a proteinúria persistente apesar de terapia conservadora otimizada ou perda progressiva de função; pós-estreptocócica — suporte (controle de volume e PA), geralmente autolimitada, sem imunossupressão específica.
+- 💎 **Pearl:** o **tempo de latência entre a infecção e a hematúria** é o principal discriminador clínico entre as duas: hematúria concomitante ou logo após o quadro infeccioso favorece IgA; latência de 1-3 semanas favorece pós-estreptocócica.
+- ⚠️ **Pitfall:** confundir hipocomplementenemia persistente (GNMP, lúpus) com transitória (pós-estreptocócica) — o tempo de normalização do complemento é dado relevante para o diagnóstico diferencial.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 🔹 Glomerulonefrite membranoproliferativa e amiloidose renal
+
+- **Quando suspeitar (GNMP):** padrão **misto nefrótico-nefrítico** com **hipocomplementenemia persistente** — associada a crioglobulinemia (hepatite C), lúpus ou gamopatias monoclonais.
+- **Quando suspeitar (amiloidose):** síndrome nefrótica em **idoso com doença inflamatória crônica** (amiloidose AA — artrite reumatoide, doenças autoinflamatórias) ou **discrasia de plasmócitos de base** (amiloidose AL — associada a mieloma múltiplo/gamopatia monoclonal).
+- **Diagnóstico:** GNMP — biópsia com padrão membranoproliferativo + investigação da causa de base (sorologia de hepatite C, eletroforese de proteínas, FAN); amiloidose — biópsia com coloração **Vermelho Congo** confirmatória (birrefringência verde-maçã sob luz polarizada), tipagem por imuno-histoquímica ou espectrometria de massa para diferenciar AA de AL.
+- **Tratamento:** GNMP — tratar a causa de base (antiviral na hepatite C, imunossupressão no lúpus); amiloidose AA — controle da doença inflamatória de base; amiloidose AL — quimioterapia dirigida ao clone de plasmócitos.
+- 📝 **Como caiu:** ainda não cobrado no corpus.
+
+## 🔹 Glomerulonefrite rapidamente progressiva (vasculite ANCA-associada)
+
+- **Quando suspeitar:** síndrome nefrítica com **queda rápida e importante da função renal** (dias a semanas), sobretudo com sintomas sistêmicos associados (pulmão — hemoptise, seios da face, pele) sugerindo poliangiite microscópica ou granulomatose com poliangiite.
+- **Diagnóstico:** ANCA (c-ANCA/p-ANCA) positivo na maioria dos casos; biópsia renal com padrão **crescêntico** (proliferação extracapilar em crescente) confirma e orienta prognóstico pela proporção de glomérulos acometidos.
+- **Tratamento:** pulsoterapia com corticoide em altas doses associada a ciclofosfamida ou rituximabe; **plasmaférese** em casos com hemorragia alveolar ou dependência dialítica já na apresentação.
+- ⚠️ **Pitfall:** não considerar GN rapidamente progressiva diante de queda abrupta e importante de função renal com hematúria — atraso no diagnóstico/biópsia nesse cenário pode custar a função renal de forma irreversível, já que o tratamento precisa começar em dias, não semanas.
+- 📝 **Como caiu:** ainda não cobrado no corpus — mas é a glomerulopatia de maior urgência terapêutica do assunto.
+
+## 📋 Tabela
+
+**Eixo nefrótico/nefrítico e principais glomerulopatias**
+
+| Padrão | Achado central | Entidades típicas |
+|---|---|---|
+| Nefrótico puro | Proteinúria maciça, sem hematúria/HAS proeminentes | Nefropatia membranosa, lesões mínimas, GESF |
+| Nefrítico | Hematúria dismórfica, cilindros hemáticos, HAS | Pós-estreptocócica, IgA, GN rapidamente progressiva |
+| Misto nefrótico-nefrítico | Combinação dos dois, hipocomplementenemia frequente | GNMP, lúpus |
+| Complemento baixo transitório | Normaliza em 6-8 semanas | GN pós-estreptocócica |
+| Complemento baixo persistente | Não normaliza | GNMP, lúpus |
 
 ## 📚 Referências essenciais
 

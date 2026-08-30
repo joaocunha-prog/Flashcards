@@ -47,6 +47,9 @@ const content = `
 - **TINU (nefrite tubulointersticial + uveíte)** é forma rara, mas didática, de NIA autoimune/idiopática em jovens, útil como diagnóstico diferencial de NIA sem exposição medicamentosa clara.
 - **Dose de fármacos em IRA:** vários antimicrobianos e outros medicamentos de uso comum exigem ajuste de dose/intervalo conforme a função renal estimada — reavaliar continuamente à medida que a função renal muda durante a internação.
 - **Pericardite urêmica** é indicação de diálise por si só, e nesse contexto específico a anticoagulação sistêmica plena durante a diálise deve ser evitada/minimizada pelo risco de tamponamento hemorrágico.
+- **Ainda não cobrado, mas de alto rendimento:** IECA/BRA em paciente hipovolêmico ou com estenose bilateral de artéria renal causam lesão pré-renal pelo **mesmo mecanismo hemodinâmico do AINE, mas pela via oposta** — dilatam a arteríola eferente (em vez de deixar de dilatar a aferente), reduzindo a pressão de filtração glomerular quando a perfusão já está comprometida; a associação IECA/BRA + AINE + diurético ("tríade tripla ameaça") potencializa esse risco de forma sinérgica e é combinação clássica de prova para IRA pré-renal iatrogênica.
+- **NIA por inibidor de bomba de prótons** costuma ter apresentação insidiosa (semanas a meses de uso, sem o padrão temporal mais definido do AINE) — deve entrar na revisão de medicações de qualquer IRA de causa não esclarecida, mesmo sem prescrição recente.
+- **Síndrome hepatorrenal** é diagnóstico de exclusão de IRA em cirrótico com ascite — vasoconstrição renal funcional sem lesão estrutural, que não responde a volume isoladamente; terlipressina (ou noradrenalina) associada a albumina é o tratamento específico, diferente do manejo de outras causas pré-renais.
 
 ## ⚠️ Pitfalls
 
@@ -59,6 +62,8 @@ const content = `
 - **Ajustar dose de fármacos renalmente excretados de forma incorreta** (ou esquecer de ajustar) durante episódio de IRA, expondo o paciente a toxicidade adicional.
 - **Anticoagular plenamente durante diálise em paciente com pericardite urêmica** — risco de tamponamento hemorrágico; usar heparinização mínima/regional nesse cenário específico.
 - **Não hidratar adequadamente antes de exame com contraste iodado** em paciente de risco, perdendo a principal medida preventiva de nefropatia induzida por contraste.
+- **Associar IECA/BRA + AINE + diurético sem perceber o efeito sinérgico sobre a perfusão renal** — cada fármaco isoladamente já é fator de risco; juntos, multiplicam o risco de IRA pré-renal, sobretudo em idosos desidratados.
+- **Tratar síndrome hepatorrenal apenas com expansão volêmica isolada**, sem associar vasoconstritor (terlipressina/noradrenalina) — a fisiopatologia é vasodilatação esplâncnica com vasoconstrição renal funcional, não hipovolemia pura.
 
 ## 📝 Como a banca cobra
 
@@ -89,6 +94,7 @@ A **necrose tubular aguda (NTA)**, forma mais comum de IRA intrínseca, decorre 
 - **Lesão pré-renal por AINE:** suspender o fármaco e otimizar volemia/perfusão renal.
 - **Escolha da modalidade de TRS** (extrapolação): hemodiálise intermitente para pacientes hemodinamicamente estáveis; **terapia renal substitutiva contínua (CRRT)** preferida em instabilidade hemodinâmica/UTI, por permitir remoção de volume e solutos de forma mais gradual.
 - **Rabdomiólise:** hidratação venosa vigorosa precoce como principal medida para prevenir/atenuar a IRA associada.
+- **Síndrome hepatorrenal** (extrapolação): terlipressina (ou noradrenalina, conforme disponibilidade) associada a albumina intravenosa — vasoconstritor sistêmico que corrige a vasodilatação esplâncnica subjacente; expansão volêmica isolada não é suficiente.
 
 ## 📚 Referências essenciais
 

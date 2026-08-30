@@ -38,6 +38,9 @@ const content = `
 - **Pioderma gangrenoso** costuma acompanhar surtos graves e responde a imunossupressão sistêmica (corticoide, biológico) — desbridamento cirúrgico da lesão é contraindicado, pode piorar a lesão pelo fenômeno de patergia.
 - **Deficiência de ferro e anemia de doença crônica são frequentes em DII**, mesmo sem sangramento evidente — ferro intravenoso é preferido ao oral em doença ativa (má absorção, intolerância, e o ferro oral pode piorar a inflamação da mucosa).
 - **Risco de trombose venosa é maior em DII em atividade** do que na população geral — profilaxia farmacológica de TEV está indicada em internação por surto, mesmo com sangramento retal presente.
+- **Ainda não cobrado, mas de alto rendimento:** diante de colite ulcerativa grave que não responde a corticoide em 3-5 dias, além de investigar CMV, deve-se considerar **Clostridioides difficile** como infecção sobreposta (toxina fecal/PCR) — coinfecção por *C. difficile* piora significativamente o desfecho de um surto de DII e é frequentemente esquecida em favor de investigar só CMV.
+- **Diferença de resposta a 5-ASA entre as duas doenças:** eficaz na indução e manutenção de remissão da colite ulcerativa leve a moderada, mas com eficácia bem mais limitada na doença de Crohn (sobretudo ileal isolada) — não escalar dose de 5-ASA indefinidamente em Crohn ativo esperando resposta que raramente vem.
+- **Gravidez em DII:** a maioria dos imunobiológicos (anti-TNF) e a azatioprina são considerados compatíveis com a gestação e amamentação, enquanto metotrexato é formalmente contraindicado (teratogênico) — manter a doença em remissão durante a gestação reduz risco de desfecho obstétrico adverso mais do que o risco teórico da medicação em si.
 
 ## ⚠️ Pitfalls
 
@@ -50,6 +53,9 @@ const content = `
 - **Esquecer vigilância colonoscópica de longo prazo** em colite ulcerativa extensa de longa duração — o risco de câncer colorretal é maior que na população geral e cresce com o tempo de doença.
 - **Não profilaxiar TEV em paciente internado por surto de DII só porque há sangramento retal** — o estado pró-trombótico da inflamação ativa supera o risco de sangramento na maioria dos casos.
 - **Indicar colonoscopia diante de suspeita de megacólon tóxico** — risco de perfuração; a avaliação inicial deve ser clínica e radiológica (raio-x simples de abdome).
+- **Investigar só CMV e não pensar em *C. difficile*** diante de colite ulcerativa grave refratária ao corticoide — as duas infecções sobrepostas podem coexistir e ambas mudam a conduta imediata.
+- **Escalar 5-ASA indefinidamente em Crohn ativo** esperando resposta terapêutica que a evidência não sustenta para essa doença.
+- **Prescrever metotrexato (ou mantê-lo) em gestante com DII**, ou suspender toda a medicação de manutenção só pela gravidez — a doença ativa não controlada é geralmente mais arriscada para o desfecho gestacional do que a maioria dos imunobiológicos/imunossupressores compatíveis.
 
 ## 📝 Como a banca cobra
 
@@ -78,6 +84,7 @@ As manifestações extraintestinais ocorrem porque ambas as doenças são proces
 - **CMV em colite ulcerativa:** colonoscopia com biópsia de úlceras profundas, pesquisa de corpos de inclusão e imuno-histoquímica para CMV — sorologia e PCR sérico isolados não confirmam doença de órgão-alvo.
 - **Classificação de Montreal** descreve fenótipo de Crohn (idade ao diagnóstico, localização, comportamento — inflamatório, estenosante, fistulizante) e extensão da colite ulcerativa (proctite, colite esquerda, pancolite) — usada para estratificar prognóstico e conduta.
 - **Escore endoscópico de Mayo** quantifica atividade endoscópica da colite ulcerativa, complementando os critérios clínicos de Truelove-Witts.
+- **Colite refratária ao corticoide** (extrapolação): investigar CMV **e** toxina/PCR para *Clostridioides difficile* em paralelo — coinfecção é comum e ambas mudam a conduta antes de escalar imunossupressão.
 
 ## 💊 Tratamento
 

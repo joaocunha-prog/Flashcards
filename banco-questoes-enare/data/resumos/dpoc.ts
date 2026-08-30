@@ -39,6 +39,9 @@ const content = `
 - **Farmacoterapia para cessação do tabagismo (vareniclina, bupropiona, terapia de reposição de nicotina)** aumenta significativamente a taxa de sucesso comparada ao aconselhamento isolado — vareniclina costuma ser a mais eficaz entre as opções.
 - **Cirurgia redutora de volume pulmonar** beneficia um subgrupo específico (enfisema de predomínio em lobos superiores, baixa capacidade de exercício após reabilitação) — fora desse perfil, o risco cirúrgico pode superar o benefício.
 - **Comorbidades frequentemente subdiagnosticadas na DPOC:** osteoporose (uso crônico de corticoide, sedentarismo), ansiedade/depressão (relacionadas à dispneia crônica) e sarcopenia — rastreio ativo melhora desfecho funcional global, não só respiratório.
+- **Ainda não cobrado, mas alta probabilidade:** o critério gasométrico completo que define **acidose respiratória compensada vs. descompensada** — pH normal com PaCO2 elevada e bicarbonato compensatoriamente alto indica retenção crônica já compensada (não é indicação isolada de VNI); é a queda do pH (acidose não compensada) que define gravidade aguda e indicação de suporte ventilatório, não o valor absoluto de PaCO2 isoladamente.
+- **Pneumotórax espontâneo secundário** é complicação a considerar em piora súbita e assimétrica da dispneia em DPOC grave (bolhas enfisematosas rotas) — descompensação que pode ser confundida com exacerbação simples se a radiografia não for solicitada.
+- **A relação entre eosinofilia sanguínea e resposta ao corticoide inalatório não é linear**: valores muito baixos (<100 células/µL) predizem baixa resposta e maior risco de pneumonia associada ao CI, enquanto valores altos (≥300) favorecem fortemente seu uso — a contagem de eosinófilos funciona como biomarcador bidirecional de decisão, não apenas de indicação.
 
 ## ⚠️ Pitfalls
 
@@ -52,6 +55,8 @@ const content = `
 - **Iniciar corticoide inalatório isoladamente (sem broncodilatador de longa ação associado) como manutenção de rotina** — o corticoide inalatório em DPOC é sempre associado a LABA/LAMA e reservado a fenótipos com exacerbações frequentes e/ou eosinofilia, pelo risco aumentado de pneumonia.
 - **Focar só no VEF1 para estimar prognóstico** — índices compostos (BODE) e o histórico de exacerbações têm maior valor preditivo de mortalidade do que a função pulmonar isolada.
 - **Negligenciar rastreio cardiovascular por atribuir toda dispneia à DPOC** — doença cardiovascular coexistente é comum e é a principal causa de morte nesses pacientes, podendo mimetizar/agravar a dispneia de causa respiratória.
+- **Atribuir toda piora aguda e assimétrica da dispneia a "mais uma exacerbação" sem radiografar** — perde o diagnóstico de pneumotórax espontâneo secundário, que exige conduta distinta (drenagem) e não broncodilatador/corticoide isolados.
+- **Iniciar corticoide inalatório em paciente com eosinófilos muito baixos (<100)** — além de improvável benefício, aumenta o risco de pneumonia associada sem ganho esperado em redução de exacerbações.
 
 ## 📝 Como a banca cobra
 

@@ -371,6 +371,26 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   consolidado com os 46 resumos regenerado (216 páginas) via
   `/tmp/.../scratchpad/build_pdf.py` (script fora do repo, específico da sessão) e entregue ao
   usuário.
+- **PDF de "scores e tabelas importantes" (novo pedido, mesma sessão)** — usuário pediu um PDF só
+  com as escalas/tabelas/critérios clínicos, "completos com os elementos um a um" (cada elemento
+  listado individualmente, não resumido em frase corrida). Processo: 4 agentes em background leram
+  os 46 resumos inteiros e extraíram literalmente toda escala/score/classificação encontrada (sem
+  pesquisar nada externo); o resultado (92 blocos) foi combinado com as 14 escalas já presentes em
+  `data/flashcards/escalas-e-tabelas.txt` (Glasgow, Forrest, CHA₂DS₂-VASc, HAS-BLED, NYHA,
+  Child-Pugh etc. — já verificadas em rodada anterior). Onde o resumo citava a escala de forma
+  parcial ou só pelo nome (ex.: pontuação numérica do Child-Pugh, grade G1-G5/A1-A3 do KDIGO,
+  estágios II/III de Scadding, ASA II-V, cutoffs de Cairo-Bishop/Truelove-Witts/FIB-4/NAFLD
+  Fibrosis Score), completei com o padrão clássico/oficial da própria ferramenta — cada card do
+  PDF tem uma "Nota" de rodapé sinalizando isso, para diferenciar o que veio do corpus do que foi
+  completado com referência padrão. Regra aplicada: essa completude usa conhecimento médico padrão
+  não controverso (não é o mesmo tipo de restrição da regra "não fabricar o que caiu na prova" —
+  aqui não há atribuição de banca/ano/número nenhuma, é documento de referência de conteúdo).
+  Ferramentas longas demais para reproduzir item a item com confiança (Caprini ~40 itens, PSI/PORT
+  ~20 variáveis, Beers/STOPP-START, RUCAM, UPDRS) foram deixadas num apêndice, citadas mas não
+  fabricadas. Resultado: 94 escalas/tabelas completas, organizadas em 12 especialidades, PDF de 35
+  páginas (`build_scores_pdf.py` + `scores_data.py`, ambos fora do repo, em
+  `/tmp/.../scratchpad/`) — entregue ao usuário via SendUserFile. Este PDF não foi commitado no
+  repo (segue o mesmo padrão do PDF de resumos: só entregue como arquivo, não versionado).
 
 ## Pendências
 
@@ -390,9 +410,10 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 ## Próxima Ação
 
 Nenhuma ação pendente definida — resumos 80/20 (escritos, reorganizados e expandidos), flashcards
-Anki + escalas, e PDF consolidado com os 46 resumos estão concluídos, pushados e entregues.
-Aguardar próximo pedido (possível próximo passo: sincronizar os flashcards com o conteúdo expandido
-dos resumos, se o usuário pedir).
+Anki + escalas, PDF consolidado com os 46 resumos, e PDF de scores/tabelas (94 escalas completas)
+estão concluídos e entregues. Aguardar próximo pedido (possíveis próximos passos: sincronizar os
+flashcards com o conteúdo expandido dos resumos; ou completar as escalas do apêndice do PDF de
+scores, se o usuário pedir).
 
 ## Convenções e Restrições
 

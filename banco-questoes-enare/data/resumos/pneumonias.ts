@@ -36,6 +36,9 @@ const content = `
 - **Pneumocystis jirovecii** deve entrar no diferencial de pneumonia em paciente imunocomprometido (HIV com CD4 baixo, uso crônico de corticoide) com infiltrado intersticial bilateral e hipoxemia desproporcional ao achado radiográfico.
 - **Procalcitonina** auxilia a diferenciar infecção bacteriana de viral/inflamatória e pode orientar duração/suspensão de antibiótico em alguns protocolos, mas não deve atrasar o início empírico em paciente grave — é ferramenta complementar, não substituta do julgamento clínico inicial.
 - **Falha terapêutica em 48-72h** (persistência de febre, piora clínica ou radiográfica) deve motivar reavaliação ampla: agente resistente, foco não coberto pelo esquema (atípico, fúngico), complicação local (derrame/empiema/abscesso) ou diagnóstico alternativo (embolia pulmonar, insuficiência cardíaca, neoplasia).
+- **O antígeno urinário para Legionella só detecta o sorogrupo 1** (responsável por ~70-80% dos casos) — um resultado negativo não exclui infecção por outros sorogrupos, então a suspeita clínica forte (quadro atípico grave, hiponatremia, elevação de transaminases, diarreia) justifica manter cobertura empírica mesmo com antígeno negativo.
+- **Duração do tratamento em PAC não complicada pode ser encurtada para 5 dias** (em vez dos clássicos 7-10) se o paciente estiver afebril e clinicamente estável por 48-72h — critério de estabilidade clínica, não um número fixo de dias contado do início do antibiótico.
+- **Esquema vacinal pneumocócico em adulto (imunocompetente com indicação, ou imunocomprometido)** segue sequência específica: **vacina conjugada primeiro** (PCV15 ou PCV20), seguida de VPP23 quando aplicável — a ordem inversa reduz a resposta imunológica à conjugada.
 
 ## ⚠️ Pitfalls
 
@@ -49,6 +52,8 @@ const content = `
 - **Não pensar em pneumonia aspirativa/abscesso pulmonar** em paciente com fator de risco para aspiração (disfagia, rebaixamento, etilismo) e evolução arrastada com febre persistente.
 - **Manter o mesmo esquema empírico indefinidamente diante de falha terapêutica em 48-72h**, sem reinvestigar agente resistente, foco não coberto, complicação local ou diagnóstico alternativo.
 - **Restringir a cobertura empírica em imunocomprometido ao mesmo espectro do imunocompetente**, sem considerar agentes oportunistas (Pneumocystis, fungos) quando o contexto clínico sugere.
+- **Excluir Legionella só por antígeno urinário negativo** — o teste cobre apenas o sorogrupo 1; suspeita clínica forte não deve ser descartada por esse motivo isolado.
+- **Prolongar antibiótico rotineiramente por 7-10 dias em PAC não complicada** já estável clinicamente em 48-72h — a duração pode e deve ser encurtada para 5 dias nesse cenário, reduzindo pressão seletiva de resistência sem prejudicar o desfecho.
 
 ## 📝 Como a banca cobra
 

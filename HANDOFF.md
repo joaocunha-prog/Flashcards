@@ -543,6 +543,23 @@ completos). Aguardando o usuário revisar e responder duas coisas em aberto (ver
 confirmar a numeração de capítulo por rank, e dizer quando quer que os flashcards Anki sejam
 sincronizados com o conteúdo novo (explicitamente NÃO fazer isso ainda por conta própria).
 
+**Nota de continuidade — os PDFs entregues não sobrevivem entre sessões.** Os PDFs de revisão
+(`capitulos_1_a_3.pdf`, `resumos_completo.pdf`) foram gerados em `/tmp/.../scratchpad/`, fora do
+repo, por design (mesmo padrão de todos os PDFs de entrega documentados aqui) — mas cada sessão
+roda num container efêmero novo, então esses arquivos **não existem mais** já na sessão seguinte,
+mesmo estando documentados aqui. Se o usuário pedir o PDF de novo, ele precisa ser regenerado do
+zero a partir de `data/resumos/*.ts` (fonte de verdade real). Script usado nesta regeneração
+(sessão que corrigiu o corte de TARV na coinfecção TB-HIV, ver "Decisões Confirmadas"):
+`build_pdf.py`, também fora do repo, em `/tmp/.../scratchpad/pdf/` — usa `tsx` (já é devDependency
+do projeto, só faltava `npm install`) pra resolver `content.ts`/`slugs.ts` de verdade e despejar o
+markdown real de cada resumo em JSON, depois `pip install weasyprint markdown` pra renderizar.
+Detalhe não óbvio: a fonte usada (DejaVu Sans) não tem glyphs de emoji, e o fallback colorido (Noto
+Color Emoji, que já vem instalado no ambiente) renderiza fora de linha nessa versão do weasyprint
+(69) — por isso o script remove os emoji do markdown antes de converter (função `strip_emoji`,
+cuidado pra não pegar `→`/`≥`/`≤` no range da regex) e usa cor/borda em CSS pra manter a distinção
+visual dos blocos de entidade e dos rótulos Pearl/Pitfall/Como caiu. Resultado desta rodada: 215
+páginas, ~1,6 MB, entregue via `SendUserFile`.
+
 ## Convenções e Restrições
 
 - **Nunca expor `answerKey` antes da resposta.** Verificar com

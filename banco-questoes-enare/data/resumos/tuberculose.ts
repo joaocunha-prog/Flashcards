@@ -38,7 +38,7 @@ const content = `
 - **Critérios de notificação compulsória (PNCT):** notificar todo caso confirmado ou com **forte suspeita clínica/radiológica**, mesmo antes do resultado de exame confirmatório; a notificação também é obrigatória em caso de **mudança de esquema, transferência, reingresso após abandono ou óbito por TB** — o SINAN é o sistema de registro.
 - **Busca ativa de sintomáticos respiratórios** (tosse por 3 semanas ou mais) é estratégia de rastreio ativo do PNCT em populações prioritárias (privados de liberdade, população em situação de rua, PVHIV, contatos de casos index, profissionais de saúde) — a baciloscopia/TRM-TB deve ser oferecida a todo sintomático respiratório identificado.
 - **Ainda não cobrado no corpus, mas de alto rendimento:** o esquema RIPE em criança (<10 anos) **não inclui etambutol** — usa-se apenas rifampicina + isoniazida + pirazinamida nos 2 meses iniciais, pela dificuldade de monitorar toxicidade visual (neurite óptica) nessa faixa etária, seguido de rifampicina + isoniazida por 4 meses.
-- **Cuidado com corte numérico específico do PCDT brasileiro:** para o momento de início da TARV na coinfecção TB-HIV, o PCDT-HIV do Ministério da Saúde usa o corte **CD4 <200 vs. ≥200** (TARV em até 2 semanas vs. em 8 semanas), não o corte de CD4 <50 usado por algumas diretrizes internacionais para essa mesma decisão — ver o resumo de HIV/AIDS para o detalhamento completo dessa decisão.
+- **Cuidado com a regra vigente do PCDT brasileiro para o momento de início da TARV na coinfecção TB-HIV:** a atualização atual do PCDT-HIV do Ministério da Saúde recomenda **TARV em até 7 dias do início do RIPE, independentemente do CD4** — não mais o corte escalonado por CD4 (2 semanas se <200/8 semanas se ≥200) de versões anteriores, nem o corte de CD4 <50/≥50 usado por diretrizes internacionais mais antigas. A única exceção que continua CD4-independente por prazo é a **meningite tuberculosa** (TARV entre a 4ª-6ª semana) — ver o resumo de HIV/AIDS para o detalhamento completo dessa decisão.
 
 ## ⚠️ Pitfalls
 
@@ -53,7 +53,7 @@ const content = `
 - **Não solicitar avaliação oftalmológica basal antes de iniciar etambutol** em paciente que fará uso prolongado, perdendo a chance de detectar precocemente neurite óptica.
 - **Não considerar TB miliar/disseminada em imunossuprimido com febre de origem indeterminada**, atrasando o diagnóstico por esperar apresentação pulmonar clássica.
 - **Prescrever etambutol para criança pequena no esquema padrão de adulto** — o esquema pediátrico (<10 anos) dispensa etambutol pela dificuldade de monitorar toxicidade visual nessa faixa etária; usar RIP sem o E.
-- **Aplicar corte de CD4 de diretriz internacional (<50) em vez do corte do PCDT brasileiro (<200)** para decidir o momento de início da TARV na coinfecção TB-HIV — os dois divergem, e a prova brasileira cobra o corte nacional.
+- **Aplicar corte de CD4 (internacional <50 ou do PCDT brasileiro mais antigo <200) para decidir o momento de início da TARV na coinfecção TB-HIV** — a regra vigente do PCDT dispensa o corte por CD4 na TB não-meníngea (TARV em até 7 dias, sempre); só a meningite tuberculosa mantém prazo fixo (4ª-6ª semana) independentemente do CD4.
 
 ## 🩺 Quadro clínico
 
@@ -91,7 +91,7 @@ O **PNCT** organiza a resposta nacional à doença em três eixos que se conecta
 - **Hepatotoxicidade leve/assintomática:** manter esquema com monitorização laboratorial mais frequente.
 - **Hepatotoxicidade significativa/sintomática:** suspender todos os fármacos hepatotóxicos, aguardar normalização, reintroduzir de forma escalonada (fármaco a fármaco) com monitorização, geralmente reintroduzindo primeiro o(s) menos hepatotóxico(s).
 - **Infecção latente (ILTB)** (extrapolação/PNCT): isoniazida 6-9 meses, rifampicina 4 meses ou esquema combinado isoniazida+rifapentina semanal por 12 semanas, conforme disponibilidade e perfil de adesão/toxicidade do paciente.
-- **Coinfecção TB-HIV** (extrapolação): sempre tratar a TB primeiro (RIPE), com início escalonado da TARV conforme CD4; meningite tuberculosa posterga a TARV independentemente do CD4, pelo maior risco de IRIS no SNC.
+- **Coinfecção TB-HIV** (extrapolação): sempre tratar a TB primeiro (RIPE), com TARV em até 7 dias independentemente do CD4; meningite tuberculosa é a exceção, com TARV postergada para a 4ª-6ª semana independentemente do CD4, pelo maior risco de IRIS no SNC.
 - **TB multidrogarresistente (MDR-TB)** (extrapolação): esquemas alternativos mais longos com fármacos de segunda linha, conduzidos por serviço de referência, diante de resistência confirmada à rifampicina (± isoniazida) no TRM-TB/teste de sensibilidade.
 
 ## 📚 Referências essenciais

@@ -346,6 +346,25 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   README (feito, commit `e8f2d58`), sem deixar Postgres nem app rodando.
 - **Resumos seguem o padrão UERJ**, adaptado por questão real do corpus ENARE/EBSERH — não é
   conteúdo genérico de livro-texto, tem que citar a vinheta/ano/número reais.
+- **Correção adicional do corte de TARV na coinfecção TB-HIV (pente fino pedido pelo usuário,
+  sessão seguinte à reorganização por entidade):** o usuário colou de volta o texto exato que já
+  estava em `hiv-aids.ts` (CD4 <200 → 2 semanas / CD4 ≥200 → 8 semanas, exceção meningite "só após
+  a 4ª semana") e apontou que **isso ainda não condiz com o PCDT do Brasil** — mesmo já sendo uma
+  correção de uma rodada anterior (que trocou o corte de CD4 <50/≥50 da OMS por <200/≥200). A
+  checagem definitiva veio do próprio corpus grounded: **ENARE 2025 Q2 e ENARE 2026 Q38** (as duas
+  questões citadas na seção "Como a banca cobra" deste tópico) citam explicitamente "PCDT HIV 2024"
+  no enunciado, e o **gabarito oficial das duas (`answerKey: "D"`) inicia a TARV em até 1 semana
+  (7 dias) do início do RIPE, INDEPENDENTEMENTE DO CD4** — os distratores que condicionam o início
+  ao CD4 (2, 6 ou 8 semanas) ou que mandam aguardar o CD4 estão errados nas duas provas. Ou seja: a
+  atualização vigente do PCDT-HIV aboliu o corte por CD4 para TB não-meníngea (alinhando à regra
+  geral de TARV universal e imediata); só a **meningite/meningoencefalite tuberculosa** continua
+  com prazo CD4-independente (TARV entre a 4ª-6ª semana, não "só após a 4ª"). Corrigido em
+  `hiv-aids.ts` (seção "🔹 Coinfecção tuberculose-HIV", pearls, pitfalls e "Como caiu") e em
+  `tuberculose.ts` (mesma informação citada em 3 pontos do arquivo). **Lição de processo:** quando
+  o corpus já tem a questão grounded com o enunciado citando a fonte oficial (aqui, "PCDT HIV
+  2024" no próprio enunciado) e o gabarito, isso é uma fonte de verdade mais forte que busca na
+  web — vale checar o JSON de `data/provas/` antes de sair buscando na internet da próxima vez que
+  um corte numérico de PCDT for questionado.
 - **Reorganização + extrapolação dos 46 resumos (rodada mais recente)** — usuário reportou que
   alguns resumos aglutinavam entidades clinicamente não relacionadas (exemplo citado:
   `neuroinfeccao-e-emergencias-neurologicas` misturava infecção de SNC com emergências
@@ -533,9 +552,8 @@ sincronizados com o conteúdo novo (explicitamente NÃO fazer isso ainda por con
   NACIONAL/PCDT próprio do MS — não em clínica geral sem protocolo nacional específico.** O usuário
   restringiu o escopo explicitamente: isso vale para **HIV, tuberculose, IST, doenças tropicais/de
   notificação compulsória (dengue, febre maculosa, esquistossomose, hanseníase etc.)** — onde o MS
-  publica PCDT/programa próprio e o corte numérico pode DIFERIR de diretriz internacional (ex.: TARV
-  na coinfecção TB-HIV é por CD4 <200/≥200 no PCDT-HIV Módulo 2 2023-2024, não <50/≥50 como em fontes
-  americanas — corrigido em `hiv-aids` após o usuário flagar). **NÃO se aplica** a clínica geral sem
+  publica PCDT/programa próprio e o corte numérico pode DIFERIR de diretriz internacional. **NÃO se
+  aplica** a clínica geral sem
   programa nacional (hemostasia/ISTH-ASH, AKI/KDIGO, cirrose/AASLD-EASL-Baveno, emergências
   oncológicas/NCCN-ESMO-ASCO etc.) — aí a diretriz internacional de sociedade especializada É a
   referência correta mesmo, revisado e confirmado pelo usuário para os 8 resumos restantes do

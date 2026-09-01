@@ -34,7 +34,7 @@ const content = `
 
 **HIV/AIDS é o assunto mais frequente do corpus (11 questões, 5,2%)** — 10 questões do ENARE (2025 e 2026) e 1 do EBSERH, com foco quase todo em **decisões terapêuticas** (qual esquema, quando iniciar, o que trocar), raramente em "reconheça que é HIV".
 
-- **Coinfecção TB-HIV** apareceu 2 vezes (ENARE 2025 Q2, ENARE 2026 Q38), sempre testando o **momento exato de início da TARV conforme CD4**.
+- **Coinfecção TB-HIV** apareceu 2 vezes (ENARE 2025 Q2, ENARE 2026 Q38), ambas testando exatamente a mesma pegadinha: **a resposta certa inicia a TARV em até 1 semana, independentemente do CD4** — os distratores que condicionam o início ao CD4 (2 semanas, 6 semanas, 8 semanas/fim da fase intensiva) ou que mandam aguardar o resultado do CD4 estão errados nas duas provas.
 - **PrEP** (ENARE 2026 Q3) cobrou o esquema exato (tenofovir/entricitabina, 1x/dia) — cuidado para não confundir com PEP nem com os outros esquemas listados como distratores.
 - **Biterapia em paciente estável** (ENARE 2026 Q46) e **controlador de elite** (ENARE 2026 Q77) testam conceitos finos de manejo crônico, não emergência.
 - **Colite por CMV** (ENARE 2025 Q20) e **IRIS** (ENARE 2025 Q73) seguem o padrão histórico do assunto: exigem biópsia/reconhecimento fisiopatológico, não só "lembrar o nome".
@@ -50,11 +50,12 @@ O HIV infecta linfócitos T CD4+ via correceptor (CCR5 ou CXCR4) e integra seu m
 
 ## 🔹 Coinfecção tuberculose-HIV
 
-- **Conduta:** RIPE sempre primeiro. Início da TARV depende do CD4 — **CD4 <200 → em até 2 semanas**; **CD4 ≥200 → em 8 semanas** (fim da fase intensiva do RIPE). **Exceção: meningite tuberculosa** — TARV só após a 4ª semana, independentemente do CD4, pelo maior risco de IRIS no SNC (introdução mais precoce só em serviço especializado com monitorização, sobretudo se CD4 <50).
-- **Interação medicamentosa:** rifampicina induz o metabolismo do dolutegravir — dobra-se a dose (2x/dia) durante o uso concomitante, em vez de trocar de classe.
+- **Conduta:** RIPE sempre primeiro. **TARV em até 7 dias do início do RIPE, independentemente do CD4** — a recomendação escalonada por CD4 de versões anteriores do PCDT (2 semanas se <200 / 8 semanas se ≥200, que por sua vez já havia substituído o corte ainda mais antigo da OMS de CD4 <50/≥50) foi superada: a atualização vigente do PCDT-HIV alinhou a coinfecção TB não-meníngea à regra geral de início imediato e universal de TARV. **Exceção: meningite/meningoencefalite tuberculosa** — TARV preferencialmente **entre a 4ª e a 6ª semana**, independentemente do CD4, pelo maior risco de IRIS no SNC; início mais precoce (a partir da 2ª semana) só é considerado em serviço especializado com monitorização frequente de eventos adversos, sobretudo em **CD4 ≤50**.
+- **Interação medicamentosa:** rifampicina é **contraindicada com esquemas baseados em inibidor de protease potencializado por ritonavir (IP/r)** — nesse caso, troca-se o terceiro agente. Com dolutegravir, a rifampicina reduz seus níveis séricos por indução enzimática — dobra-se a dose (2x/dia) durante o uso concomitante, em vez de trocar de classe.
 - 💎 **Pearl:** Gene-Xpert positivo já define o início do RIPE, sem esperar cultura.
 - ⚠️ **Pitfall:** iniciar TARV e RIPE no mesmo dia eleva muito o risco de IRIS grave.
-- 📝 **Como caiu:** ENARE 2025 Q2 · ENARE 2026 Q38 — momento exato de início da TARV conforme o CD4.
+- ⚠️ **Pitfall:** escolher uma alternativa que condiciona o início da TARV ao valor do CD4 (ou que manda aguardar o resultado do CD4) fora do contexto de meningite tuberculosa — é a pegadinha mais repetida do assunto no corpus; na TB não-meníngea, o CD4 não muda o prazo de 7 dias.
+- 📝 **Como caiu:** ENARE 2025 Q2 · ENARE 2026 Q38 — nas duas, a alternativa correta inicia a TARV em até 1 semana **independentemente do CD4**; os distratores testam justamente quem ainda decora o corte por CD4 de versões antigas do PCDT (2, 6 ou 8 semanas) ou quem espera o resultado do CD4 antes de decidir.
 
 ## 🔹 IRIS — síndrome inflamatória da reconstituição imune
 

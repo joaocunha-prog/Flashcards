@@ -436,6 +436,36 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   (ajuste fino de posologia por limiar, decisão que muda conforme um segundo critério, "pegadinha"
   clássica de prova) em vez de só reorganizar o conteúdo já existente — mesma regra de não fabricar
   já documentada (extrapolação é conhecimento médico padrão, sem atribuição de banca/ano/número).
+- **"Capítulos" — conceito só de PDF de revisão, não existe no código.** O usuário pediu para ver o
+  trabalho em PDF antes de aprovar, dividido em "capítulos". Isso **não é uma estrutura do banco**
+  (não há tabela, campo nem conceito de "capítulo" em lugar nenhum do schema/código) — é só a forma
+  como eu organizei os PDFs de entrega. Perguntado explicitamente, o usuário confirmou: **"Os
+  capítulos são em ordem... não é por macroespecialidade, mas sim por ordem do subtema que cai"** —
+  ou seja, capítulo = 1 assunto do ranking 80/20, na ordem do rank (1, 2, 3...), nunca agrupado por
+  tema/especialidade. **Isso diverge do capítulo-piloto anterior** (`capitulo2.pdf`, que combinava
+  `hiv-aids` rank 1 + `neuroinfeccao-e-emergencias-neurologicas` rank 4 como "Capítulo 2") — com a
+  regra "1 assunto = 1 capítulo, em ordem de rank", o correto seria Capítulo 1 = `hiv-aids`,
+  Capítulo 2 = `disturbios-da-hemostasia` (rank 2), Capítulo 3 = `emergencias-oncologicas` (rank 3).
+  **Ainda não confirmado pelo usuário se ele quer essa renumeração como definitiva** ou se prefere
+  manter o capítulo-piloto combinado — perguntei explicitamente ao entregar o PDF completo (ver
+  abaixo) e não recebi resposta ainda nesta sessão. Não é urgente resolver: os "capítulos" só
+  existem nos PDFs de entrega, não afetam `data/resumos/*.ts` nem a UI (lá a organização é por
+  slug/assunto, sem nenhuma numeração de capítulo).
+- **Dois PDFs gerados e entregues via `SendUserFile` depois da reorganização completa dos 46
+  resumos** (nenhum dos dois commitado — mesmo padrão dos PDFs anteriores, entregues só como
+  arquivo):
+  1. `capitulos_1_a_3.pdf` (23 páginas) — prévia de 3 capítulos (`hiv-aids`,
+     `disturbios-da-hemostasia`, `emergencias-oncologicas`) pedida pelo usuário antes do PDF
+     completo, para validar a numeração por rank.
+  2. `resumos_completo.pdf` (287 páginas) — os 46 capítulos completos, na ordem do ranking 80/20.
+     Gerado direto de `data/resumos/*.ts` via `content.ts`/`slugs.ts` (não de arquivos soltos), com
+     checagem prévia de integridade (`parseResumoSections()` nos 46 sem erro, 527 seções totais,
+     245 blocos de entidade, `tsc --noEmit` limpo) antes de renderizar.
+  Scripts de geração: `build_chapters_pdf.py`/`build_full_pdf.py` + `rank_meta.py`, todos em
+  `/tmp/.../scratchpad/`, fora do repo (mesmo padrão dos PDFs de sessões anteriores — script
+  ad-hoc, não versionado). Renderização via `weasyprint` + `markdown` (Python; instalados via `pip
+  install` nesta sessão, não estão no `requirements.txt` do projeto porque não são dependência da
+  aplicação, só da geração pontual do PDF).
 
 ## Pendências
 
@@ -469,29 +499,30 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   `git merge -X ours` (sem force-push) em vez de reescrever histórico. Resultado final validado
   (build + tsc + checagem de grounding) depois da mesclagem, não antes — não há risco de conteúdo
   perdido ter passado despercebido.
-- **Os 46 flashcards Anki + `escalas-e-tabelas.txt` estão commitados** (commit `1610ee5`) — **ainda
-  refletem o conteúdo dos resumos ANTES da reorganização por entidade**. Não sincronizar
-  automaticamente — só se o usuário pedir depois que os resumos estiverem prontos.
+- **Flashcards Anki — EXPLICITAMENTE PAUSADO PELO USUÁRIO nesta sessão** ("não faça o anki ainda
+  não"). Os 46 arquivos `data/flashcards/*.txt` + `escalas-e-tabelas.txt` estão commitados (commit
+  `1610ee5`) mas **ainda refletem o conteúdo dos resumos ANTES da reorganização por entidade**. **Só
+  sincronizar quando o usuário pedir explicitamente** — não é uma tarefa "próxima" implícita, foi
+  pausada de propósito até ele terminar de revisar os resumos.
 - **Não testado**: importação real num app Anki (ambiente desta sessão não tem Anki instalado) — só
   validação estrutural do texto (header, 3 campos por linha, cloze presente, imagens existem). Se o
   usuário reportar problema de importação, provavelmente é algo sutil do parser real do Anki que a
   validação estrutural não pegou.
+- **Numeração dos "capítulos" nos PDFs de revisão** — ver "Decisões Confirmadas" acima. Perguntei se
+  a renumeração estrita por rank (1 assunto = 1 capítulo) é definitiva ou se ele quer manter o
+  capítulo-piloto combinado (HIV+Neuro); sem resposta ainda. Não bloqueia nada no código — só
+  importa se ele pedir mais PDFs numerados.
 - Nenhum PR novo a abrir sem pedido explícito — já existe o #2, é só continuar empurrando pra mesma
   branch.
 
 ## Próxima Ação
 
-**Nenhuma ação pendente aplicada ao código.** Os 46 resumos estão reorganizados, aprofundados,
-validados e pushados (ver "Pendências" para o relato completo). Possíveis próximos passos, todos a
-confirmar com o usuário antes de executar:
-
-- **Sincronizar os flashcards Anki (`data/flashcards/*.txt`) com o conteúdo novo dos resumos** —
-  hoje ainda refletem a versão anterior à reorganização por entidade.
-- O usuário pediu para revisar em PDF antes de aplicar no código na rodada anterior (capítulo
-  HIV/AIDS + Neuroinfecção) — nesta rodada dos 44 assuntos restantes, dado o volume (44 arquivos),
-  a reorganização foi direto para o código, já seguindo o padrão que ele tinha aprovado no PDF. Se
-  o usuário quiser revisar o resultado antes de considerar "fechado", provavelmente vai pedir para
-  ver os resumos na aplicação (subir localmente, ver comandos abaixo) em vez de gerar mais um PDF.
+**Nenhuma ação pendente aplicada ao código — tudo commitado e pushado, árvore de trabalho limpa.**
+Os 46 resumos estão reorganizados por entidade, aprofundados, validados (parsing, `tsc`, build,
+checagem de zero fabricação de grounding) e entregues em PDF (prévia de 3 capítulos + os 46
+completos). Aguardando o usuário revisar e responder duas coisas em aberto (ver "Pendências"):
+confirmar a numeração de capítulo por rank, e dizer quando quer que os flashcards Anki sejam
+sincronizados com o conteúdo novo (explicitamente NÃO fazer isso ainda por conta própria).
 
 ## Convenções e Restrições
 
@@ -516,7 +547,9 @@ confirmar com o usuário antes de executar:
   em vez de generalizar de memória a partir de diretriz internacional.
 - Português do Brasil em todo o código, comentários, commits e interface.
 - Commits terminam com `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>` +
-  `Claude-Session: https://claude.ai/code/session_01XzWDfzp18KGc6AHD4UoSJM`.
+  `Claude-Session: https://claude.ai/code/session_019oFCYL3Fj79Jx1nhU8Eeo6` (o trailer exato muda a
+  cada sessão — usar o que a própria sessão atual receber via system reminder, não copiar este
+  valor às cegas).
 - Não abrir PR novo sem pedido explícito — já existe o #2 para esta branch.
 - **Antes de qualquer teste local, checar se o container é o mesmo desta sessão** (ver Comandos
   Úteis) — se for um container novo, `/tmp/pgdata-enare` não existe e precisa `initdb` do zero.

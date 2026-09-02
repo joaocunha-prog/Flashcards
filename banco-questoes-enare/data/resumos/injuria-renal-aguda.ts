@@ -74,11 +74,15 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A IRA representa uma queda aguda da taxa de filtração glomerular, com acúmulo de escórias nitrogenadas e desequilíbrio hidroeletrolítico e ácido-base. Quando essas alterações ultrapassam a capacidade de compensação clínica — hipercalemia com risco arrítmico, acidose metabólica grave, sobrecarga volêmica refratária a diurético ou sinais de uremia em órgãos-alvo (pericárdio, sistema nervoso, coagulação) — a diálise deixa de ser opcional e passa a ser medida de suporte vital, independentemente do número absoluto de creatinina.
+- IRA = queda aguda da taxa de filtração glomerular, com acúmulo de escórias nitrogenadas e desequilíbrio hidroeletrolítico/ácido-base
+- Quando essas alterações ultrapassam a capacidade de compensação clínica — hipercalemia com risco arrítmico, acidose metabólica grave, sobrecarga volêmica refratária a diurético, ou sinais de uremia em órgãos-alvo (pericárdio, sistema nervoso, coagulação) — a diálise deixa de ser opcional e vira medida de suporte vital, independentemente do número absoluto de creatinina
+- **Nefrite intersticial aguda (NIA):** reação de hipersensibilidade tipo tardia (mediada por células T) ao fármaco → infiltrado inflamatório no interstício renal com edema e disfunção tubular → leucocitúria estéril e, por vezes, eosinofilúria
+- **Lesão pré-renal por AINE:** mecanismo diferente — inibição das prostaglandinas vasodilatadoras que mantêm a perfusão glomerular em estados de menor volume efetivo (idosos, desidratados, uso concomitante de IECA/diurético)
+- É mecanismo puramente hemodinâmico, sem componente imunológico — reversível com interrupção do fármaco e reposição volêmica
+- **Necrose tubular aguda (NTA)**, forma mais comum de IRA intrínseca: isquemia prolongada ou lesão tóxica direta às células tubulares → perda da capacidade de reabsorção de sódio
+- Isso explica a FeNa elevada na NTA, em contraste com o estado pré-renal (túbulos ainda reabsorvem sódio ativamente em resposta à hipoperfusão)
 
-A **nefrite intersticial aguda** é uma reação de hipersensibilidade tipo tardia (mediada por células T) ao fármaco, gerando infiltrado inflamatório no interstício renal com edema e disfunção tubular — daí a leucocitúria estéril e, por vezes, eosinofilúria. Já a lesão pré-renal por AINE decorre da inibição das prostaglandinas vasodilatadoras que mantêm a perfusão glomerular em estados de menor volume efetivo (idosos, desidratados, uso concomitante de IECA/diurético) — mecanismo puramente hemodinâmico, reversível com a interrupção do fármaco e reposição volêmica, sem componente imunológico.
-
-A **necrose tubular aguda (NTA)**, forma mais comum de IRA intrínseca, decorre de isquemia prolongada ou lesão tóxica direta às células tubulares — perda da capacidade de reabsorção de sódio, o que explica a FeNa elevada em contraste com o estado pré-renal, no qual os túbulos ainda reabsorvem sódio ativamente em resposta à hipoperfusão.
+💡 Pensa assim: NIA e AINE pré-renal usam o mesmo fármaco por duas portas diferentes — uma é "alergia" ao remédio no interstício (imunológica), a outra é só "falta de rega" na perfusão (hemodinâmica).
 
 ## 🔎 Diagnóstico
 

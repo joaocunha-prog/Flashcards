@@ -72,11 +72,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A tuberculose é controlada pela formação de **granulomas**, estruturas organizadas por macrófagos ativados, células epitelioides e linfócitos T que contêm o Mycobacterium tuberculosis. O **TNF-alfa** é citocina essencial para a formação e manutenção da integridade do granuloma — por isso o bloqueio farmacológico dessa via (anti-TNF) predispõe tanto à reativação de infecção latente quanto a alterações na resposta inflamatória durante o tratamento ativo, favorecendo a **reação paradoxal**: uma resposta imune exacerbada contra antígenos micobacterianos residuais (vivos ou não) que se manifesta como piora clínica/radiológica transitória, apesar de tratamento microbiologicamente eficaz.
+- Tuberculose é controlada pela formação de **granulomas** — estruturas organizadas por macrófagos ativados, células epitelioides e linfócitos T que contêm o Mycobacterium tuberculosis
+- **TNF-alfa** é citocina essencial para a formação e manutenção da integridade do granuloma
+- Por isso o bloqueio farmacológico dessa via (anti-TNF) predispõe tanto à reativação de infecção latente quanto a alterações na resposta inflamatória durante o tratamento ativo
+- Isso favorece a **reação paradoxal**: resposta imune exacerbada contra antígenos micobacterianos residuais (vivos ou não) → piora clínica/radiológica transitória, apesar de tratamento microbiologicamente eficaz
+- **Hepatotoxicidade** dos tuberculostáticos tem mecanismo distinto por fármaco: isoniazida gera metabólitos hepatotóxicos via acetilação
+- Rifampicina interfere na captação e excreção biliar (pode causar só hiperbilirrubinemia sem lesão hepatocelular real) e potencializa a toxicidade da isoniazida por indução enzimática
+- Pirazinamida tem hepatotoxicidade dose-dependente direta
+- A combinação dos três no esquema RIPE aumenta o risco cumulativo — daí a monitorização laboratorial sistemática
+- **PNCT** organiza a resposta nacional em três eixos ligados à fisiopatologia: diagnóstico rápido (TRM-TB — antecipa o início do tratamento e reduz o tempo de transmissibilidade comunitária), adesão garantida (TDO — reduz o risco de seleção de cepas resistentes por tratamento irregular) e vigilância epidemiológica (notificação compulsória — permite busca de contatos e controle de surtos)
 
-A **hepatotoxicidade** dos tuberculostáticos decorre de mecanismos distintos por fármaco: a isoniazida gera metabólitos hepatotóxicos via acetilação; a rifampicina interfere na captação e excreção biliar (podendo causar apenas hiperbilirrubinemia sem lesão hepatocelular real) além de potencializar a toxicidade da isoniazida por indução enzimática; a pirazinamida tem hepatotoxicidade dose-dependente direta. A combinação dos três no esquema RIPE aumenta o risco cumulativo, justificando a monitorização laboratorial sistemática.
-
-O **PNCT** organiza a resposta nacional à doença em três eixos que se conectam à fisiopatologia: diagnóstico rápido (TRM-TB, que reduz o tempo de transmissibilidade comunitária ao antecipar o início do tratamento), adesão garantida (TDO, que reduz o risco de seleção de cepas resistentes por tratamento irregular) e vigilância epidemiológica (notificação compulsória, que permite busca de contatos e controle de surtos).
+💡 Pensa assim: o granuloma é a "prisão" que o corpo constrói ao redor do bacilo, e o TNF-alfa é o muro dessa prisão — tirar o TNF (anti-TNF) é como derrubar o muro: o bacilo pode escapar (reativação), ou a "revolta" na demolição vira reação paradoxal.
 
 ## 🔎 Diagnóstico
 

@@ -66,11 +66,18 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A doença de Crohn é uma inflamação **transmural** (acomete todas as camadas da parede intestinal) e **salteada** (segmentos doentes intercalados com mucosa normal), podendo afetar qualquer ponto do tubo digestivo — essa transmuralidade é a razão fisiopatológica direta das suas complicações características: a inflamação que atravessa a parede pode evoluir para fibrose cicatricial (estenose) ou perfurar/penetrar estruturas vizinhas (fístulas entero-entéricas, entero-vesicais, entero-cutâneas, perianais, ou formar abscessos).
+- Doença de Crohn: inflamação **transmural** (acomete todas as camadas da parede intestinal) e **salteada** (segmentos doentes intercalados com mucosa normal), podendo afetar qualquer ponto do tubo digestivo
+- Essa transmuralidade é a razão fisiopatológica direta das complicações características do Crohn
+- Inflamação que atravessa a parede → fibrose cicatricial (estenose) OU perfuração/penetração de estruturas vizinhas (fístulas entero-entéricas, entero-vesicais, entero-cutâneas, perianais, ou abscessos)
+- Colite ulcerativa, em contraste, é restrita à **mucosa e submucosa do cólon**, de forma **contínua** a partir do reto
+- Sem essa penetração transmural, as complicações típicas mudam: sangramento, megacólon tóxico (por paralisia da musculatura lisa inflamada), risco neoplásico de longo prazo
+- Em surtos graves sob imunossupressão intensa, a mucosa colônica lesada + o estado imunossuprimido criam terreno para **reativação do CMV latente**
+- O CMV reativado perpetua a inflamação e explica a refratariedade ao corticoide — ciclo que só se rompe tratando a infecção viral, não aumentando ainda mais a imunossupressão
+- Manifestações extraintestinais ocorrem porque ambas as doenças são processos imunomediados sistêmicos, não puramente locais
+- Antígenos compartilhados entre a mucosa intestinal inflamada e outros tecidos (articulações, pele, olhos, vias biliares) explicam por que o sistema imune "erra o alvo" fora do intestino
+- Algumas manifestações acompanham a atividade da doença de base (artrite periférica, eritema nodoso); outras seguem curso próprio e independente (espondilite, CEP)
 
-A colite ulcerativa, em contraste, é restrita à **mucosa e submucosa do cólon**, de forma **contínua** a partir do reto — sem essa penetração transmural, suas complicações típicas são diferentes (sangramento, megacólon tóxico por paralisia da musculatura lisa inflamada, e risco neoplásico de longo prazo). Em surtos graves sob imunossupressão intensa, a mucosa colônica lesada e o estado imunossuprimido criam terreno para **reativação do CMV latente**, que por si só perpetua a inflamação e explica a refratariedade ao corticoide — um ciclo que só se rompe tratando a infecção viral, não aumentando ainda mais a imunossupressão.
-
-As manifestações extraintestinais ocorrem porque ambas as doenças são processos imunomediados sistêmicos, não puramente locais: antígenos compartilhados entre a mucosa intestinal inflamada e outros tecidos (articulações, pele, olhos, vias biliares) explicam por que o sistema imune "erra o alvo" fora do intestino, com algumas manifestações acompanhando a atividade da doença de base e outras (como espondilite e CEP) seguindo curso próprio e independente.
+💡 Pensa assim: Crohn "fura a parede" (transmural) → por isso fistuliza e forma abscesso; colite ulcerativa "só arranha a superfície" (mucosa) → por isso sangra e dilata, mas não perfura.
 
 ## 🩺 Quadro clínico
 

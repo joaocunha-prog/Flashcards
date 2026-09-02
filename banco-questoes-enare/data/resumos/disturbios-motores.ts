@@ -36,7 +36,14 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A doença de Parkinson resulta da degeneração de neurônios dopaminérgicos da substância negra pars compacta, com acúmulo de corpos de Lewy — o acometimento alcança também o sistema nervoso autônomo periférico, explicando a disautonomia por falência do reflexo barorreflexo eferente simpático. A doença de Parkinson integra o espectro das **sinucleinopatias**, junto da atrofia de múltiplos sistemas e da demência com corpos de Lewy. A síndrome das pernas inquietas tem hipótese fisiopatológica ligada a disfunção dopaminérgica central, com o ferro atuando como cofator da tirosina-hidroxilase (enzima limitante da síntese de dopamina). No tremor essencial, o mecanismo envolve um circuito olivo-cerebelo-tálamo-cortical hiperativo, modulado por vias GABAérgicas. A coreia decorre classicamente de hiperatividade da via indireta estriatopalidal (excesso relativo de atividade dopaminérgica/perda de neurônios GABAérgicos estriatais, como na doença de Huntington) — mecanismo praticamente oposto ao do parkinsonismo.
+- **Doença de Parkinson:** degeneração de neurônios dopaminérgicos da substância negra pars compacta, com acúmulo de corpos de Lewy
+- O acometimento alcança também o sistema nervoso autônomo periférico → explica a disautonomia por falência do reflexo barorreflexo eferente simpático
+- Integra o espectro das **sinucleinopatias**, junto da atrofia de múltiplos sistemas e da demência com corpos de Lewy
+- **Síndrome das pernas inquietas:** hipótese ligada a disfunção dopaminérgica central, com o ferro atuando como cofator da tirosina-hidroxilase (enzima limitante da síntese de dopamina)
+- **Tremor essencial:** circuito olivo-cerebelo-tálamo-cortical hiperativo, modulado por vias GABAérgicas
+- **Coreia:** hiperatividade da via indireta estriatopalidal (excesso relativo de atividade dopaminérgica/perda de neurônios GABAérgicos estriatais, como na doença de Huntington) — mecanismo praticamente **oposto** ao do parkinsonismo
+
+💡 Pensa assim: Parkinson é "faltou dopamina, sobrou rigidez"; coreia é praticamente o espelho — via indireta hipoativa, movimento sobra em vez de faltar. Dois distúrbios do mesmo circuito de gânglios da base, puxando para lados opostos.
 
 ## 🔹 Doença de Parkinson
 

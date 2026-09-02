@@ -40,7 +40,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A hipertensão portal aumenta a pressão hidrostática nos sinusoides hepáticos e no leito esplâncnico, favorecendo extravasamento de líquido pobre em proteína (sinusoides cirróticos já lesados filtram menos proteína) para a cavidade peritoneal — daí GASA alto e proteína tipicamente baixa; quando a congestão é pós-sinusoidal de origem cardíaca, a proteína do líquido é maior porque o sinusoide ainda não está cronicamente danificado. A vasodilatação esplâncnica extrema (mediada por óxido nítrico) que caracteriza a cirrose avançada ativa o sistema renina-angiotensina-aldosterona e o simpático, gerando vasoconstrição renal (síndrome hepatorrenal) e desviando amônia da circulação porta-hepática para a sistêmica via colaterais portossistêmicas (encefalopatia hepática) — a mesma vasodilatação esplâncnica é o fio condutor por trás de várias complicações aparentemente distintas.
+- Hipertensão portal aumenta a pressão hidrostática nos sinusoides hepáticos e no leito esplâncnico → favorece extravasamento de líquido pobre em proteína (sinusoides cirróticos já lesados filtram menos proteína) para a cavidade peritoneal → daí GASA alto e proteína tipicamente baixa
+- Quando a congestão é pós-sinusoidal de origem cardíaca, a proteína do líquido é maior, porque o sinusoide ainda não está cronicamente danificado
+- Vasodilatação esplâncnica extrema (mediada por óxido nítrico), que caracteriza a cirrose avançada, ativa o sistema renina-angiotensina-aldosterona e o simpático
+- Isso gera vasoconstrição renal (**síndrome hepatorrenal**) e desvia amônia da circulação porta-hepática para a sistêmica via colaterais portossistêmicas (**encefalopatia hepática**)
+- A mesma vasodilatação esplâncnica é o fio condutor por trás de várias complicações aparentemente distintas
+
+💡 Pensa assim: o sangue "foge" pelas colaterais e os vasos esplâncnicos se dilatam tanto que o corpo inteiro entra em modo de compensação — rim aperta (SHR), cérebro recebe toxina que deveria ter sido filtrada pelo fígado (encefalopatia). Uma única causa raiz, várias complicações "satélite".
 
 ## 🔹 Ascite por cirrose hepática
 

@@ -59,9 +59,19 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Na asma T2-alta, alérgenos ou outros gatilhos ativam linfócitos Th2 e ILC2 na mucosa brônquica, liberando IL-4, IL-5 e IL-13. IL-4 e IL-13 atuam sobre linfócitos B (troca de classe para IgE) e sobre células epiteliais/musculares lisas (hiper-responsividade, hipersecreção de muco); IL-5 é o principal fator de sobrevida e recrutamento de eosinófilos, cujos produtos citotóxicos danificam o epitélio brônquico e perpetuam a inflamação — por isso os biológicos direcionados a essas vias reduzem exacerbações em pacientes com o fenótipo correspondente. A **TSLP** (linfopoietina estromal tímica), liberada pelo epitélio lesado logo no início da cascata, atua a montante de toda essa resposta — por isso bloqueá-la (tezepelumabe) funciona mesmo em fenótipos não puramente T2.
+- Na asma T2-alta, alérgenos ou outros gatilhos ativam linfócitos Th2 e ILC2 na mucosa brônquica, liberando **IL-4, IL-5 e IL-13**
+- IL-4 e IL-13 atuam sobre linfócitos B (troca de classe para IgE) e sobre células epiteliais/musculares lisas (hiper-responsividade, hipersecreção de muco)
+- IL-5 é o principal fator de sobrevida e recrutamento de eosinófilos, cujos produtos citotóxicos danificam o epitélio brônquico e perpetuam a inflamação
+- Por isso os biológicos direcionados a essas vias reduzem exacerbações em pacientes com o fenótipo correspondente
+- A **TSLP** (linfopoietina estromal tímica), liberada pelo epitélio lesado logo no início da cascata, atua **a montante** de toda essa resposta → por isso bloqueá-la (tezepelumabe) funciona mesmo em fenótipos não puramente T2
 
-Na crise quase fatal, a obstrução das vias aéreas é tão intensa que o fluxo turbulento necessário para gerar sibilos deixa de existir (tórax silencioso), e a fadiga da musculatura respiratória leva à hipoventilação alveolar — revertendo o padrão esperado de hiperventilação e fazendo a PCO2 subir, sinal de insuficiência respiratória iminente que precede a parada respiratória.
+💡 Mnemônico: pensa em "**4** e **13** fazem **IgE**" (IL-4/IL-13 → troca de classe para IgE) e "**5** recruta o time" (IL-5 → eosinófilo, que tem 5 lobos no núcleo) — cada citocina com seu efeito isolado é o que a prova cobra.
+
+- Na crise quase fatal, a obstrução das vias aéreas é tão intensa que o fluxo turbulento necessário para gerar sibilos deixa de existir (**tórax silencioso**)
+- A fadiga da musculatura respiratória leva à hipoventilação alveolar
+- Isso reverte o padrão esperado de hiperventilação e faz a PCO2 **subir** — sinal de insuficiência respiratória iminente que precede a parada respiratória
+
+💡 Pensa assim: no início da crise o paciente "rema com tudo" (hiperventila, PCO2 baixo); quando ele já não aguenta mais remar, a PCO2 sobe — um PCO2 "normal" numa crise grave não é alívio, é o paciente afundando.
 
 ## 🔎 Diagnóstico e diferencial
 

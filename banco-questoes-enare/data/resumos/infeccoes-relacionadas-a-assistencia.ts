@@ -39,7 +39,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A transmissão cruzada de patógenos hospitalares ocorre predominantemente pelas mãos da equipe assistencial — por isso a higienização nos momentos certos interrompe a cadeia de transmissão antes mesmo de qualquer outra barreira. *C. difficile* causa colite por produção de **toxinas A e B**, que danificam o citoesqueleto de actina das células epiteliais do cólon; o uso prévio de antibióticos de amplo espectro rompe a microbiota protetora do cólon, permitindo a proliferação da bactéria e a expressão de sua toxina. Bacteremia relacionada a cateter ocorre por colonização do **biofilme** na superfície do dispositivo — *S. aureus* é particularmente virulento e tem tropismo por endocárdio e material protético, justificando investigação sistemática de disseminação hematogênica.
+- Transmissão cruzada de patógenos hospitalares ocorre predominantemente pelas **mãos da equipe assistencial** → higienização nos momentos certos interrompe a cadeia de transmissão antes mesmo de qualquer outra barreira
+- *C. difficile* causa colite por produção de **toxinas A e B**, que danificam o citoesqueleto de actina das células epiteliais do cólon
+- Uso prévio de antibióticos de amplo espectro rompe a microbiota protetora do cólon → permite a proliferação da bactéria e a expressão de sua toxina
+- Bacteremia relacionada a cateter ocorre por colonização do **biofilme** na superfície do dispositivo
+- *S. aureus* é particularmente virulento e tem tropismo por endocárdio e material protético → justifica investigação sistemática de disseminação hematogênica
+
+💡 Pensa assim: mão limpa quebra a cadeia de transmissão antes dela começar; antibiótico de amplo espectro "limpa o mato" da microbiota protetora e deixa o terreno livre para o *C. difficile* crescer.
 
 ## 🔹 Colite por Clostridioides difficile
 

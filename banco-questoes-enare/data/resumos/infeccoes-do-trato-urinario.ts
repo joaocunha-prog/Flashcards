@@ -34,7 +34,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A ITU ocorre por ascensão de flora fecal/perineal (predominantemente *Escherichia coli* uropatogênica) pela uretra até a bexiga (cistite) e, por via ascendente adicional, até o parênquima renal (pielonefrite). A obstrução mecânica (cálculo, tumor, hiperplasia prostática, retenção) impede que o antibiótico, mesmo adequado, esterilize a urina retida — o reservatório bacteriano se mantém e alimenta a infecção mesmo sob antibioticoterapia correta, explicando por que a desobstrução é tão importante quanto a escolha do fármaco. Em cateteres vesicais de demora, um biofilme bacteriano se forma na superfície do dispositivo em poucos dias, tornando a erradicação da bacteriúria praticamente impossível sem remoção — por isso o foco do manejo é evitar tratar colonização e remover/trocar o dispositivo quando há infecção sintomática real.
+- ITU ocorre por ascensão de flora fecal/perineal (predominantemente *Escherichia coli* uropatogênica) pela uretra até a bexiga (cistite) e, por via ascendente adicional, até o parênquima renal (pielonefrite)
+- Obstrução mecânica (cálculo, tumor, hiperplasia prostática, retenção) impede que o antibiótico, mesmo adequado, esterilize a urina retida
+  - O reservatório bacteriano se mantém e alimenta a infecção mesmo sob antibioticoterapia correta → por isso a desobstrução é tão importante quanto a escolha do fármaco
+- Em cateteres vesicais de demora, um **biofilme** bacteriano se forma na superfície do dispositivo em poucos dias, tornando a erradicação da bacteriúria praticamente impossível sem remoção
+  - Por isso o foco do manejo é evitar tratar colonização e remover/trocar o dispositivo quando há infecção sintomática real
+
+💡 Pensa assim: antibiótico sem desobstrução é "torneira aberta com o ralo entupido" — a água (bactéria) volta a acumular não importa quanto você limpe rio abaixo; e um biofilme em cateter é uma "casa que a bactéria constrói" — o antibiótico não derruba a casa, só remover o cateter derruba.
 
 ## 🔹 Cistite não complicada
 

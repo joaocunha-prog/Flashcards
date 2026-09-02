@@ -40,7 +40,12 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Helmintos como *Ascaris* e *Strongyloides* têm ciclo de vida com passagem obrigatória pelos pulmões (síndrome de Löffler); *Onchocerca volvulus* depende de uma bactéria endossimbionte obrigatória (*Wolbachia*) para sobrevivência e fertilidade, o que torna a doxiciclina prolongada uma terapia indireta eficaz contra o verme adulto. Nas leishmanioses, o parasita intracelular obrigatório infecta macrófagos: na forma visceral, dissemina-se para baço, fígado e medula óssea; na forma tegumentar, a resposta imune celular exagerada contra o parasita na pele/mucosa é responsável pela destruição tecidual. HTLV-1 integra seu genoma em linfócitos T, podendo levar à transformação maligna (ATLL) décadas depois ou a resposta inflamatória crônica contra a medula espinhal (HAM-TSP).
+- Helmintos como *Ascaris* e *Strongyloides* têm ciclo de vida com passagem obrigatória pelos pulmões (síndrome de Löffler)
+- *Onchocerca volvulus* depende de uma bactéria endossimbionte obrigatória (*Wolbachia*) para sobrevivência e fertilidade → é por isso que a doxiciclina prolongada é terapia indireta eficaz contra o verme adulto
+- Nas leishmanioses, o parasita intracelular obrigatório infecta macrófagos: na forma **visceral**, dissemina-se para baço, fígado e medula óssea; na forma **tegumentar**, a resposta imune celular exagerada contra o parasita na pele/mucosa é responsável pela destruição tecidual
+- HTLV-1 integra seu genoma em linfócitos T, podendo levar à transformação maligna (**ATLL**) décadas depois ou a resposta inflamatória crônica contra a medula espinhal (**HAM-TSP**)
+
+💡 Pensa assim: mata a bactéria, mata o verme — doxiciclina não tem ação antiparasitária direta na oncocercose, ela mata a *Wolbachia* de quem o verme adulto depende para viver, um "ataque ao fornecedor".
 
 ## 🔹 Síndrome de Löffler
 

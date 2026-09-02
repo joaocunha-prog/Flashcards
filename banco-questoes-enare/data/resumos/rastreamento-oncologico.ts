@@ -36,9 +36,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O rastreamento de câncer colorretal se baseia na sequência adenoma-carcinoma: a maioria dos adenocarcinomas colorretais se origina de pólipos adenomatosos que evoluem por acúmulo de mutações (via APC/beta-catenina na maioria dos casos, via instabilidade de microssatélites em tumores associados a Lynch) ao longo de anos — a remoção do pólipo antes da transformação maligna é o mecanismo pelo qual a colonoscopia reduz incidência e mortalidade, não apenas detecta a doença precocemente.
+- O rastreamento de câncer colorretal se baseia na sequência adenoma-carcinoma
+- A maioria dos adenocarcinomas colorretais se origina de pólipos adenomatosos que evoluem por acúmulo de mutações (via APC/beta-catenina na maioria dos casos, via instabilidade de microssatélites em tumores associados a Lynch) ao longo de anos
+- A remoção do pólipo antes da transformação maligna é o mecanismo pelo qual a colonoscopia reduz incidência e mortalidade, não apenas detecta a doença precocemente
 
-De forma geral, todo programa de rastreamento populacional equilibra dois riscos opostos: começar cedo/testar com muita frequência aumenta a detecção de doença real, mas também aumenta falso-positivos, procedimentos invasivos desnecessários e sobrediagnóstico de tumores indolentes; começar tarde/testar com pouca frequência reduz esses danos, mas pode perder a janela de detecção precoce que de fato muda desfecho. As diferenças de faixa etária entre USPSTF e INCA refletem exatamente esse balanço, calculado sobre populações com prevalência, acesso ao sistema de saúde e expectativa de vida distintas — por isso a mesma lógica epidemiológica gera recomendações numericamente diferentes em cada país.
+- Todo programa de rastreamento populacional equilibra dois riscos opostos
+- Começar cedo/testar com muita frequência aumenta a detecção de doença real, mas também aumenta falso-positivos, procedimentos invasivos desnecessários e sobrediagnóstico de tumores indolentes
+- Começar tarde/testar com pouca frequência reduz esses danos, mas pode perder a janela de detecção precoce que de fato muda desfecho
+- As diferenças de faixa etária entre USPSTF e INCA refletem exatamente esse balanço, calculado sobre populações com prevalência, acesso ao sistema de saúde e expectativa de vida distintas
+- Por isso a mesma lógica epidemiológica gera recomendações numericamente diferentes em cada país
+
+💡 Pensa assim: rastrear é um gangorra entre "achar cedo demais coisa que nunca ia doer" e "achar tarde demais coisa que já não tem mais volta" — cada diretriz escolhe um ponto diferente dessa gangorra conforme a população que atende.
 
 ## 🔹 Câncer colorretal
 

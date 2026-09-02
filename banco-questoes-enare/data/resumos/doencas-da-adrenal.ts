@@ -35,9 +35,19 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O córtex adrenal se organiza em três zonas com regulação distinta: a zona glomerulosa (aldosterona, regulada principalmente pelo sistema renina-angiotensina, pouco pelo ACTH), a zona fasciculada (cortisol, regulada pelo ACTH) e a zona reticular (andrógenos, regulada pelo ACTH). Essa separação de eixos regulatórios explica por que a insuficiência adrenal terciária (que suprime só o eixo ACTH-dependente) poupa a função mineralocorticoide, enquanto a insuficiência adrenal primária (que destrói a glândula inteira) compromete as três zonas simultaneamente — o mesmo raciocínio anatômico organiza todo o diferencial de insuficiência adrenal deste assunto.
+- O córtex adrenal se organiza em três zonas com regulação distinta:
+- Zona glomerulosa → aldosterona, regulada principalmente pelo sistema renina-angiotensina, pouco pelo ACTH
+- Zona fasciculada → cortisol, regulada pelo ACTH
+- Zona reticular → andrógenos, regulada pelo ACTH
+- Essa separação de eixos regulatórios explica por que a insuficiência adrenal terciária (que suprime só o eixo ACTH-dependente) poupa a função mineralocorticoide
+- Enquanto a insuficiência adrenal primária (que destrói a glândula inteira) compromete as três zonas simultaneamente — o mesmo raciocínio anatômico organiza todo o diferencial de insuficiência adrenal deste assunto
 
-No polo do excesso hormonal, cada tumor/hiperfunção reflete a zona de origem: hiperaldosteronismo primário é excesso autônomo da zona glomerulosa (renina suprimida por feedback negativo), Cushing endógeno é excesso da zona fasciculada (hipofisário, adrenal ou ectópico), e o feocromocitoma foge dessa lógica cortical — origina-se na **medula** adrenal (tecido cromafim, embriologicamente neuroectodérmico, não do córtex), produzindo catecolaminas em vez de esteroides.
+💡 Mnemônico clássico das zonas (de fora para dentro) — "sal, açúcar, sexo" (GFR: Glomerulosa-Fasciculada-Reticular → mineralocorticoide-glicocorticoide-andrógeno): quanto mais fundo na glândula, mais "íntimo" o hormônio produzido.
+
+- No polo do excesso hormonal, cada tumor/hiperfunção reflete a zona de origem
+- Hiperaldosteronismo primário é excesso autônomo da zona glomerulosa (renina suprimida por feedback negativo)
+- Cushing endógeno é excesso da zona fasciculada (hipofisário, adrenal ou ectópico)
+- O feocromocitoma foge dessa lógica cortical — origina-se na **medula** adrenal (tecido cromafim, embriologicamente neuroectodérmico, não do córtex), produzindo catecolaminas em vez de esteroides
 
 ## 🔹 Hiperaldosteronismo primário
 

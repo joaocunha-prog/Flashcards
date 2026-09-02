@@ -64,11 +64,16 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Na hipertensão resistente verdadeira, a persistência de PA elevada apesar de múltiplas classes farmacológicas geralmente reflete **expansão de volume não controlada** (excesso relativo de sódio/aldosterona) somada a fatores não farmacológicos (adesão, dose subótima, apneia do sono, ingestão excessiva de sódio). Isso explica por que um **antagonista da aldosterona** é particularmente eficaz nesse degrau: mesmo sem hiperaldosteronismo primário franco, muitos hipertensos resistentes têm um componente de aldosterona relativamente elevada para o estado de volume, mantendo retenção de sódio e água.
+- Na hipertensão resistente verdadeira, a persistência de PA elevada apesar de múltiplas classes farmacológicas geralmente reflete **expansão de volume não controlada** (excesso relativo de sódio/aldosterona)
+- Soma-se a fatores não farmacológicos: má adesão, dose subótima, apneia do sono, ingestão excessiva de sódio
+- Por isso um **antagonista da aldosterona** é particularmente eficaz nesse degrau
+- Mesmo sem hiperaldosteronismo primário franco, muitos hipertensos resistentes têm aldosterona relativamente elevada para o estado de volume → mantém retenção de sódio e água
+- **Efeito do jaleco branco:** resposta simpática transitória ao ambiente/situação de consulta médica, elevando a PA de forma reprodutível só nesse contexto
+- Por isso métodos de medida fora do consultório são indispensáveis — MAPA (registra a PA ao longo de 24h, incluindo sono) ou MRPA (medidas domiciliares seriadas) — evitam superestimar a carga pressórica real e tratamento excessivo
+- **Emergência hipertensiva:** a elevação abrupta da PA supera a capacidade de autorregulação vascular de órgãos-alvo → lesão endotelial aguda (necrose fibrinoide arteriolar)
+- Por isso a redução deve ser controlada, não excessivamente rápida — reduzir rápido demais pode converter isquemia relativa por hipoperfusão em órgãos já cronicamente adaptados a uma PA mais alta
 
-O **efeito do jaleco branco** decorre de resposta simpática transitória ao ambiente/situação de consulta médica, elevando a PA de forma reprodutível apenas nesse contexto — por isso métodos de medida fora do consultório (MAPA, que registra a PA ao longo de 24h incluindo sono, ou MRPA, medidas domiciliares seriadas) são indispensáveis para não superestimar a real carga pressórica do paciente e evitar tratamento excessivo.
-
-Na **emergência hipertensiva**, a elevação abrupta da PA supera a capacidade de autorregulação vascular de órgãos-alvo, causando lesão endotelial aguda (necrose fibrinoide arteriolar) — daí a necessidade de redução controlada e não excessivamente rápida, para não converter isquemia relativa por hipoperfusão em órgãos já cronicamente adaptados a PA mais alta.
+💡 Pensa assim: o corpo hipertenso crônico "recalibrou" sua autorregulação para um patamar mais alto de PA — baixar rápido demais é puxar o tapete: o órgão acostumado ao "chão mais alto" sofre isquemia relativa.
 
 ## 🩺 Quadro clínico
 

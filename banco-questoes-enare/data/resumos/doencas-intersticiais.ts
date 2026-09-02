@@ -34,7 +34,15 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-As doenças pulmonares intersticiais compartilham a via final comum de acometer o interstício alveolar, mas por mecanismos radicalmente diferentes: a **sarcoidose** é inflamação granulomatosa (potencialmente reversível), a **fibrose pulmonar idiopática** é cicatrização aberrante irreversível sem componente inflamatório dominante, a **pneumonite de hipersensibilidade** é reação de hipersensibilidade a antígeno orgânico inalado (reversível se a exposição cessar precocemente), e as **pneumoconioses** são resposta fibrótica a partícula mineral inalada e retida permanentemente no parênquima. Reconhecer qual mecanismo está em jogo é o que orienta a escolha entre imunossupressão, afastamento de exposição ou antifibrótico — usar a ferramenta errada (ex.: corticoide isolado na FPI) não só não ajuda como expõe a efeitos adversos desnecessários.
+- Todas as DPI compartilham a via final comum de acometer o interstício alveolar — mas por mecanismos radicalmente diferentes
+- **Sarcoidose:** inflamação granulomatosa, potencialmente reversível
+- **Fibrose pulmonar idiopática (FPI):** cicatrização aberrante irreversível, sem componente inflamatório dominante
+- **Pneumonite de hipersensibilidade:** reação de hipersensibilidade a antígeno orgânico inalado — reversível se a exposição cessar precocemente
+- **Pneumoconioses:** resposta fibrótica a partícula mineral inalada e retida permanentemente no parênquima
+- Reconhecer qual mecanismo está em jogo é o que orienta a escolha entre imunossupressão, afastamento de exposição ou antifibrótico
+- Usar a ferramenta errada (ex.: corticoide isolado na FPI) não ajuda e ainda expõe a efeitos adversos desnecessários
+
+💡 Pensa assim: pergunte "é inflamação (reversível) ou já é cicatriz (irreversível)?" — inflamação trata-se com imunossupressão; cicatriz formada não volta atrás, só se desacelera com antifibrótico.
 
 ## 🔹 Sarcoidose (pulmonar e diferencial com linfoma)
 

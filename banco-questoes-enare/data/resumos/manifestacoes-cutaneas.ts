@@ -32,7 +32,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O eritema nodoso resulta de reação de hipersensibilidade tipo IV, com deposição de imunocomplexos e ativação inflamatória no septo do tecido adiposo subcutâneo (paniculite septal), sem vasculite associada — por isso não ulcera. O pioderma gangrenoso é uma dermatose neutrofílica: neutrófilos se acumulam de forma estéril na derme, causando necrose progressiva; a mesma disfunção imune que favorece essa infiltração explica por que o trauma cirúrgico (patergia) desencadeia mais inflamação em vez de cicatrização. A hidradenite supurativa começa por oclusão folicular seguida de ruptura e resposta inflamatória exacerbada, com participação de **TNF-alfa e IL-17** — o que justifica a eficácia dos biológicos que bloqueiam essas vias. A psoríase é mediada pelo eixo **IL-23/Th17**, com hiperproliferação epidérmica acelerada — a mesma via-alvo dos biológicos anti-IL-17 e anti-IL-23 usados tanto na pele quanto na articulação.
+- **Eritema nodoso:** reação de hipersensibilidade tipo IV, com deposição de imunocomplexos e ativação inflamatória no septo do tecido adiposo subcutâneo (paniculite septal), sem vasculite associada → por isso não ulcera
+- **Pioderma gangrenoso:** dermatose neutrofílica — neutrófilos se acumulam de forma estéril na derme, causando necrose progressiva
+  - A mesma disfunção imune que favorece essa infiltração explica por que o trauma cirúrgico (patergia) desencadeia mais inflamação em vez de cicatrização
+- **Hidradenite supurativa:** começa por oclusão folicular seguida de ruptura e resposta inflamatória exacerbada, com participação de **TNF-alfa e IL-17** → justifica a eficácia dos biológicos que bloqueiam essas vias
+- **Psoríase:** mediada pelo eixo **IL-23/Th17**, com hiperproliferação epidérmica acelerada — a mesma via-alvo dos biológicos anti-IL-17 e anti-IL-23 usados tanto na pele quanto na articulação
+
+💡 Pensa assim: eritema nodoso é inflamação "presa" no septo de gordura (por isso nunca rompe a pele); pioderma gangrenoso é neutrófilo "descontrolado" na derme (por isso qualquer corte novo — patergia — vira mais úlcera, não cicatriz).
 
 ## 🔹 Eritema nodoso
 

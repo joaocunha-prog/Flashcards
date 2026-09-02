@@ -33,7 +33,14 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Toda glomerulopatia resulta de lesão da barreira de filtração glomerular (podócitos, membrana basal, endotélio fenestrado), mas o **local e o mecanismo do dano determinam o fenótipo clínico**: depósito imune subepitelial (nefropatia membranosa) causa proteinúria maciça sem proliferação celular — puro padrão nefrótico; proliferação endocapilar com influxo de neutrófilos e ruptura da parede capilar (pós-estreptocócica, ANCA) causa hematúria e queda de TFG — padrão nefrítico; e mecanismos mistos (GNMP) ou puramente podocitários sem depósito imune (lesões mínimas, GESF) explicam as demais combinações. Reconhecer esse eixo nefrótico/nefrítico antes de qualquer sorologia já reduz drasticamente o diferencial.
+- Toda glomerulopatia resulta de lesão da barreira de filtração glomerular (podócitos, membrana basal, endotélio fenestrado)
+- O **local e o mecanismo do dano** determinam o fenótipo clínico
+- Depósito imune subepitelial (nefropatia membranosa) → proteinúria maciça sem proliferação celular → padrão nefrótico puro
+- Proliferação endocapilar com influxo de neutrófilos e ruptura da parede capilar (pós-estreptocócica, ANCA) → hematúria e queda de TFG → padrão nefrítico
+- Mecanismos mistos (GNMP) ou puramente podocitários sem depósito imune (lesões mínimas, GESF) → explicam as demais combinações
+- Reconhecer esse eixo nefrótico/nefrítico antes de qualquer sorologia já reduz drasticamente o diferencial
+
+💡 Pensa assim: o glomérulo é um filtro de café — se o papel do filtro só entope sem rasgar, vaza proteína (nefrótico); se o filtro rasga e inflama, passa sangue e entope o fluxo (nefrítico).
 
 ## 🔹 Nefropatia membranosa
 

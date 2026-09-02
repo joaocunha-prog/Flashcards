@@ -35,11 +35,23 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O sódio sérico reflete a relação entre sódio corporal total e água corporal total, regulada principalmente por ADH. Em hipovolemia, a queda de volume circulante efetivo estimula ADH por via não-osmótica (barorreceptores), retendo água livre e diluindo o sódio mesmo com sódio corporal total reduzido. No SIADH, o ADH é secretado de forma inapropriada — independente da osmolaridade e da volemia —, e no cerebral salt wasting a lesão do SNC libera peptídeos natriuréticos que causam perda renal primária de sódio: dois mecanismos opostos que geram um quadro laboratorial parecido, daí a importância de examinar a volemia antes de tratar.
+- O sódio sérico reflete a relação entre sódio corporal total e água corporal total, regulada principalmente por ADH
+- Em hipovolemia, a queda de volume circulante efetivo estimula ADH por via não-osmótica (barorreceptores) → retém água livre e dilui o sódio, mesmo com sódio corporal total reduzido
+- No SIADH, o ADH é secretado de forma inapropriada — independente da osmolaridade e da volemia
+- No cerebral salt wasting, a lesão do SNC libera peptídeos natriuréticos que causam perda renal primária de sódio
+- SIADH e CSW são dois mecanismos opostos que geram um quadro laboratorial parecido → daí a importância de examinar a volemia antes de tratar
 
-Na correção rápida da hiponatremia crônica, o cérebro adaptado (que perdeu osmólitos idiogênicos para equilibrar com o meio hiposmolar) não consegue reacumulá-los na mesma velocidade, e a subida abrupta da osmolaridade extracelular desidrata e desmieliniza oligodendrócitos, sobretudo na ponte. O raciocínio se inverte na hipernatremia: o déficit de água livre desidrata as células cerebrais, que se adaptam gerando osmólitos idiogênicos — por isso a correção também deve ser lenta, sob pena de edema cerebral por entrada rápida de água nas células já adaptadas.
+- Na correção rápida da hiponatremia crônica, o cérebro adaptado (que perdeu osmólitos idiogênicos para equilibrar com o meio hiposmolar) não consegue reacumulá-los na mesma velocidade
+- A subida abrupta da osmolaridade extracelular desidrata e desmieliniza oligodendrócitos, sobretudo na ponte
+- Na hipernatremia o raciocínio se inverte: o déficit de água livre desidrata as células cerebrais, que se adaptam gerando osmólitos idiogênicos
+- Por isso a correção também deve ser lenta, sob pena de edema cerebral por entrada rápida de água nas células já adaptadas
 
-A hipercalemia altera o potencial de repouso de membrana dos cardiomiócitos, retardando a despolarização — daí a sequência previsível de alterações no ECG conforme o potássio sobe. A hipocalemia faz o caminho oposto: hiperpolariza a membrana, retardando a repolarização e predispondo a arritmias, sobretudo em quem já usa digitálico. Já os distúrbios de cálcio afetam diretamente o limiar de excitabilidade neuromuscular (hipocalcemia excita, hipercalcemia deprime), o que explica por que a tetania é do cálcio baixo e a fraqueza/constipação/confusão é do cálcio alto — padrão oposto ao intuitivo para quem confunde os dois eletrólitos.
+💡 Pensa assim: o cérebro "se ajusta" ao sal (ou à falta dele) igual quem se aclimata a uma pressão diferente — tirar ou devolver rápido demais é o que machuca, não o nível em si.
+
+- A hipercalemia altera o potencial de repouso de membrana dos cardiomiócitos, retardando a despolarização → daí a sequência previsível de alterações no ECG conforme o potássio sobe
+- A hipocalemia faz o caminho oposto: hiperpolariza a membrana, retardando a repolarização e predispondo a arritmias, sobretudo em quem já usa digitálico
+- Os distúrbios de cálcio afetam diretamente o limiar de excitabilidade neuromuscular: hipocalcemia excita, hipercalcemia deprime
+- Isso explica por que a tetania é do cálcio baixo e a fraqueza/constipação/confusão é do cálcio alto — padrão oposto ao intuitivo para quem confunde os dois eletrólitos
 
 ## 🔹 Hiponatremia hipovolêmica
 

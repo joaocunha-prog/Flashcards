@@ -29,7 +29,19 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O ferro é indispensável à síntese do grupo heme; sua carência reduz a produção de hemoglobina e gera hemácias pequenas e pálidas — mas a causa da ferropenia em adultos quase sempre é perda sanguínea crônica, não apenas baixa ingestão. A vitamina B12 atua como cofator em duas vias essenciais: conversão de homocisteína em metionina (síntese de DNA, cuja falha gera megaloblastose) e conversão de metilmalonil-CoA em succinil-CoA (metabolismo de ácidos graxos de cadeia ímpar, cuja falha compromete a síntese de mielina) — por isso a deficiência de B12, ao contrário da de folato, causa dano neurológico. A pancitopenia reflete falência simultânea de hemácias, leucócitos e plaquetas, por mecanismos centrais (aplasia medular, infiltração neoplásica, mielodisplasia, deficiência de B12/folato) ou periféricos (hiperesplenismo, destruição imune, sequestro) — diferenciar os dois grupos é o primeiro passo racional da investigação.
+- Ferro é indispensável à síntese do grupo heme
+  - Sua carência reduz a produção de hemoglobina e gera hemácias pequenas e pálidas
+  - Mas a causa da ferropenia em adultos quase sempre é **perda sanguínea crônica**, não apenas baixa ingestão
+- Vitamina B12 atua como cofator em duas vias essenciais:
+  - Conversão de homocisteína em metionina (síntese de DNA, cuja falha gera megaloblastose)
+  - Conversão de metilmalonil-CoA em succinil-CoA (metabolismo de ácidos graxos de cadeia ímpar, cuja falha compromete a síntese de mielina)
+  - Por isso a deficiência de B12, ao contrário da de folato, causa **dano neurológico**
+- Pancitopenia reflete falência simultânea de hemácias, leucócitos e plaquetas, por:
+  - Mecanismos **centrais** (aplasia medular, infiltração neoplásica, mielodisplasia, deficiência de B12/folato)
+  - Mecanismos **periféricos** (hiperesplenismo, destruição imune, sequestro)
+  - Diferenciar os dois grupos é o primeiro passo racional da investigação
+
+💡 Pensa assim: B12 tem "dois empregos" (fábrica de DNA e fábrica de mielina) — o folato só cobre o primeiro, por isso só a falta de B12 lesa nervo.
 
 ## 🔹 Anemia ferropriva
 

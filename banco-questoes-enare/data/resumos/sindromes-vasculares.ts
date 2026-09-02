@@ -34,7 +34,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-As síndromes vasculares deste assunto se organizam em três mecanismos distintos: **oclusão venosa** (TVC — a lesão parenquimatosa decorre de estase e congestão retrógrada, não de ruptura arterial primária, por isso remover a causa com anticoagulação interrompe a progressão em vez de agravá-la); **disfunção funcional/reversível do tônus vascular** (SVCR e PRES — vasoconstrição ou vasodilatação transitória por disautorregulação, sem inflamação verdadeira da parede vascular, revertendo espontaneamente em semanas); e **inflamação ou lesão estrutural da parede arterial** (vasculite primária do SNC — inflamação verdadeira, não reversível espontaneamente; dissecção — laceração da íntima com formação de falso lúmen, mecânica, não inflamatória). Confundir esses três mecanismos leva a condutas terapêuticas opostas — corticoide ajuda na vasculite, mas pode piorar a SVCR; anticoagulação é mandatória na TVC, mas pode ser contraindicada num AVC arterial hemorrágico extenso.
+- As síndromes vasculares deste assunto se organizam em três mecanismos distintos
+- **Oclusão venosa** (TVC): a lesão parenquimatosa decorre de estase e congestão retrógrada, não de ruptura arterial primária → por isso remover a causa com anticoagulação interrompe a progressão em vez de agravá-la
+- **Disfunção funcional/reversível do tônus vascular** (SVCR e PRES): vasoconstrição ou vasodilatação transitória por disautorregulação, sem inflamação verdadeira da parede vascular → reverte espontaneamente em semanas
+- **Inflamação ou lesão estrutural da parede arterial:** vasculite primária do SNC (inflamação verdadeira, não reversível espontaneamente) e dissecção (laceração da íntima com formação de falso lúmen — mecânica, não inflamatória)
+- Confundir esses três mecanismos leva a condutas terapêuticas opostas: corticoide ajuda na vasculite, mas pode piorar a SVCR; anticoagulação é mandatória na TVC, mas pode ser contraindicada num AVC arterial hemorrágico extenso
+
+💡 Pensa assim: pergunte "é entupimento de veia, é espasmo temporário, ou é a própria parede do vaso doente?" — cada resposta aponta para um tratamento oposto (anticoagular, esperar/controlar o gatilho, ou imunossuprimir).
 
 ## 🔹 Trombose venosa cerebral
 

@@ -35,9 +35,19 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A gota resulta da supersaturação de urato no líquido extracelular, levando à precipitação de cristais de urato monossódico em articulações e tecidos periarticulares — o urato é o produto final do metabolismo de purinas em humanos (que perderam a enzima uricase ao longo da evolução). Os cristais depositados são fagocitados por neutrófilos, que ativam o inflamassoma NLRP3, liberando IL-1β e desencadeando a resposta inflamatória aguda intensa característica da crise.
+- A gota resulta da supersaturação de urato no líquido extracelular, levando à precipitação de cristais de urato monossódico em articulações e tecidos periarticulares
+- O urato é o produto final do metabolismo de purinas em humanos (que perderam a enzima uricase ao longo da evolução)
+- Os cristais depositados são fagocitados por neutrófilos, que ativam o inflamassoma NLRP3, liberando IL-1β
+- Isso desencadeia a resposta inflamatória aguda intensa característica da crise
 
-Na doença por pirofosfato de cálcio, o mecanismo de formação de cristais é menos compreendido, mas envolve alteração do metabolismo de pirofosfato inorgânico na cartilagem, favorecida por envelhecimento, hemocromatose, hiperparatireoidismo e hipomagnesemia — por isso um episódio de pseudogota em paciente jovem deve motivar rastreio dessas causas secundárias. Na doença por hidroxiapatita, cristais de fosfato de cálcio básico se depositam preferencialmente em tendões e cápsulas articulares (não no espaço intra-articular como as outras duas), explicando por que o quadro típico é periarticular (tendinite calcária), não sinovite franca.
+- Na doença por pirofosfato de cálcio, o mecanismo de formação de cristais é menos compreendido
+- Envolve alteração do metabolismo de pirofosfato inorgânico na cartilagem, favorecida por envelhecimento, hemocromatose, hiperparatireoidismo e hipomagnesemia
+- Por isso um episódio de pseudogota em paciente jovem deve motivar rastreio dessas causas secundárias
+
+- Na doença por hidroxiapatita, cristais de fosfato de cálcio básico se depositam preferencialmente em tendões e cápsulas articulares — não no espaço intra-articular como as outras duas
+- Isso explica por que o quadro típico é periarticular (tendinite calcária), não sinovite franca
+
+💡 Pensa assim: as três "moram" em lugares diferentes do mesmo bairro articular — urato dentro da articulação, pirofosfato na cartilagem, hidroxiapatita no tendão vizinho — por isso o quadro clínico se parece, mas o endereço exato do depósito muda a apresentação.
 
 ## 🔹 Gota
 

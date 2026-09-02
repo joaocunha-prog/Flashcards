@@ -41,7 +41,12 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Toda má absorção pode ser dividida em falha de **digestão** (insuficiência pancreática exócrina, deficiência de sais biliares — a gordura não é quebrada em ácidos graxos absorvíveis) versus falha de **absorção** propriamente dita (doença celíaca, ressecção intestinal extensa, SIBO consumindo nutrientes) — essa distinção orienta o teste inicial (elastase fecal para causa pancreática vs. sorologia/biópsia para causa da mucosa). A doença celíaca é enteropatia autoimune desencadeada pela gliadina em indivíduos com HLA-DQ2/DQ8: a gliadina deaminada pela transglutaminase tecidual ativa linfócitos T CD4+ na lâmina própria, destruindo vilosidades e reduzindo a superfície de absorção. Na abetalipoproteinemia, a ausência de MTP impede a montagem de quilomícrons e VLDL no enterócito, bloqueando a exportação de lipídeos absorvidos.
+- Toda má absorção pode ser dividida em falha de **digestão** (insuficiência pancreática exócrina, deficiência de sais biliares — a gordura não é quebrada em ácidos graxos absorvíveis) versus falha de **absorção** propriamente dita (doença celíaca, ressecção intestinal extensa, SIBO consumindo nutrientes)
+- Essa distinção orienta o teste inicial: elastase fecal para causa pancreática vs. sorologia/biópsia para causa da mucosa
+- **Doença celíaca:** enteropatia autoimune desencadeada pela gliadina em indivíduos com HLA-DQ2/DQ8 → a gliadina deaminada pela transglutaminase tecidual ativa linfócitos T CD4+ na lâmina própria, destruindo vilosidades e reduzindo a superfície de absorção
+- **Abetalipoproteinemia:** a ausência de MTP impede a montagem de quilomícrons e VLDL no enterócito, bloqueando a exportação de lipídeos absorvidos
+
+💡 Pensa assim: se o problema é "quebrar a comida" (enzima/sal biliar faltando), é digestão; se o problema é "a parede intestinal não pega o que já foi quebrado", é absorção — o teste que você pede muda conforme o lado do problema.
 
 ## 🔹 Doença celíaca
 

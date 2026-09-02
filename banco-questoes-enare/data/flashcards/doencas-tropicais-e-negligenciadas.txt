@@ -1,0 +1,32 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Infectologia::Doenças tropicais e negligenciadas
+Síndrome de Löffler é causada pela passagem de larvas de helmintos pelos {{c1::pulmões}}.	Ascaris lumbricoides, Strongyloides stercoralis, Ancylostoma/Necator.	Assunto::doencas-tropicais-e-negligenciadas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Achados clássicos da síndrome de Löffler: {{c1::tosse seca}}, {{c2::dispneia}} e {{c3::infiltrado pulmonar migratório}}.	Com eosinofilia associada.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+A eosinofilia na síndrome de Löffler é maior na fase {{c1::de migração larvária pulmonar}} do que na intestinal.	—	Assunto::doencas-tropicais-e-negligenciadas Conceito
+A síndrome de Löffler é um quadro {{c1::autolimitado}}.	Não deve ser tratada como pneumonia bacteriana.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Estrongiloidíase disseminada (síndrome de hiperinfecção) ocorre tipicamente em pacientes {{c1::imunossuprimidos}}.	Sobretudo em uso de corticoide, mesmo dose baixa ou curta.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na hiperinfecção por Strongyloides, larvas carreiam {{c1::bactérias entéricas}} para múltiplos órgãos.	Causando sepse/meningite por gram-negativos.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Antes de imunossuprimir paciente de área endêmica, deve-se rastrear e tratar {{c1::estrongiloidíase}}.	Risco de síndrome de hiperinfecção fatal.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+O corticoide suprime a resposta {{c1::Th2}}, permitindo autoinfecção descontrolada por Strongyloides.	Larvas rabditoides se transformam em filarioides ainda no hospedeiro.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Tratamento da estrongiloidíase disseminada: {{c1::ivermectina}} em curso prolongado.	Associada a antibioticoterapia para a bacteremia secundária.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Doença da arranhadura do gato é causada por {{c1::Bartonella henselae}}.	Transmitida por arranhadura/mordida de gato.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Manifestação atípica da doença da arranhadura do gato: {{c1::neurorretinite}} com estrela macular.	Edema de disco óptico + exsudatos maculares em padrão estrelado.	Assunto::doencas-tropicais-e-negligenciadas Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+O diagnóstico da neurorretinite por bartonelose é predominantemente {{c1::clínico}}, apoiado por sorologia.	Biópsia raramente necessária.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Tratamento da doença da arranhadura do gato com indicação terapêutica: {{c1::azitromicina}}.	Formas oculares podem exigir associação com corticoide.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Na oncocercose, a ivermectina mata as {{c1::microfilárias}}, mas não os vermes adultos.	Controla sintomas, mas não é curativa isoladamente.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Para eliminar os vermes adultos na oncocercose, usa-se {{c1::doxiciclina prolongada}}.	Age indiretamente, eliminando a bactéria simbionte Wolbachia.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+A bactéria simbionte essencial à sobrevivência do verme adulto de Onchocerca volvulus é a {{c1::Wolbachia}}.	Eliminá-la esteriliza e eventualmente mata o verme adulto.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Principal causa infecciosa evitável de cegueira em áreas endêmicas de oncocercose: lesões {{c1::oculares (ceratite)}}.	Além de nódulos subcutâneos (oncocercomas) e prurido intenso.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Esquema completo para oncocercose: ivermectina periódica + {{c1::doxiciclina prolongada}}.	Microfilaricida + eliminação do verme adulto via Wolbachia.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Agente da febre maculosa brasileira: {{c1::Rickettsia rickettsii}}.	Transmitida pelo carrapato-estrela (Amblyomma sculptum/cajennense).	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Principal hospedeiro amplificador da febre maculosa brasileira: {{c1::capivara}}.	Mantém populações de carrapatos infectados em áreas de risco.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Exantema da febre maculosa evolui de maculopapular centrípeto para {{c1::petéquias}}.	Associado a febre alta, cefaleia e mialgia.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Diante de suspeita de febre maculosa, iniciar {{c1::doxiciclina empírica imediata}}.	Sem aguardar confirmação laboratorial.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+HTLV-1 está associado a leucemia/linfoma de células T do adulto, chamada de {{c1::ATLL}}.	Mediada pela proteína viral Tax, décadas após a infecção.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+HTLV-1 também causa mielopatia conhecida como {{c1::HAM-TSP}} (paraparesia espástica tropical).	Resposta imune inflamatória crônica contra a medula espinhal.	Assunto::doencas-tropicais-e-negligenciadas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Principal via de transmissão do HTLV-1: {{c1::amamentação prolongada}}.	Também relação sexual, transfusão e compartilhamento de agulhas.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+A maioria das infecções por HTLV-1 permanece {{c1::assintomática}} ao longo da vida.	Apenas uma minoria evolui para ATLL ou HAM-TSP.	Assunto::doencas-tropicais-e-negligenciadas Conceito
+Não há tratamento antirretroviral eficaz específico para {{c1::HTLV-1}}.	Manejo de suporte e tratamento das complicações (quimioterapia na ATLL).	Assunto::doencas-tropicais-e-negligenciadas Conceito
+🔤 Mnemônico: na oncocercose, "{{c1::ivermectina mata a cria, doxiciclina mata o pai}}" (microfilária x verme adulto via Wolbachia).	Recurso próprio, não é mnemônico oficial.	Assunto::doencas-tropicais-e-negligenciadas Mnemonico

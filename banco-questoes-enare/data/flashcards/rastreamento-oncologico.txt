@@ -1,0 +1,22 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Oncologia::Rastreamento oncológico
+USPSTF, rastreamento colorretal em risco médio: inicia-se aos {{c1::45 anos}}, vai até os {{c2::75 anos}}; entre {{c3::76-85 anos}} a decisão é individualizada.	Idade de início reduzida da recomendação anterior de 50 anos.	Assunto::rastreamento-oncologico Conceito
+Métodos de rastreamento colorretal: {{c1::colonoscopia a cada 10 anos}}, {{c2::FIT/sangue oculto anual}}, {{c3::sigmoidoscopia flexível a cada 5 anos}} (± FIT) e {{c4::colonografia por TC a cada 5 anos}}.	—	Assunto::rastreamento-oncologico Conceito
+Exame de rastreamento colorretal positivo (FIT) sempre exige {{c1::colonoscopia diagnóstica completa}}.	Não se repete o mesmo teste nem se troca por outro método.	Assunto::rastreamento-oncologico Conceito
+Pólipo colorretal de baixo risco: 1-2 adenomas tubulares {{c1::<10mm}}, sem displasia de alto grau.	—	Assunto::rastreamento-oncologico Conceito
+Após polipectomia de pólipo de baixo risco, repetir colonoscopia em {{c1::7-10 anos}}.	—	Assunto::rastreamento-oncologico Conceito
+Pólipo de alto risco: {{c1::≥3 adenomas}}, adenoma {{c2::≥10mm}}, componente {{c3::viloso}}, {{c4::displasia de alto grau}} ou adenoma serrilhado séssil {{c5::grande}}.	Exige vigilância mais precoce, em geral em 3 anos.	Assunto::rastreamento-oncologico Conceito
+Pólipos de alto risco exigem vigilância em geral em {{c1::3 anos}}.	Pitfall: aplicar esse intervalo curto a um pólipo de baixo risco.	Assunto::rastreamento-oncologico Conceito
+História familiar de câncer colorretal ou síndrome hereditária {{c1::muda a idade e o intervalo}} de rastreamento.	Os intervalos padrão da USPSTF valem só para risco médio.	Assunto::rastreamento-oncologico Conceito
+Escore de Gleason soma o padrão histológico {{c1::primário + secundário}}.	O mais comum + o segundo mais comum na amostra.	Assunto::rastreamento-oncologico Conceito
+Faixa do escore de Gleason na prática clínica atual: {{c1::6 a 10}}.	Quanto maior, pior a diferenciação glandular e o prognóstico.	Assunto::rastreamento-oncologico Conceito
+Grupo de Grau do Gleason vai de {{c1::1 a 5}}.	Simplifica a comunicação prognóstica.	Assunto::rastreamento-oncologico Conceito
+Gleason Grupo 1 corresponde a escore {{c1::≤6}} (bom prognóstico).	—	Assunto::rastreamento-oncologico Conceito
+Gleason Grupo 5 corresponde a escore {{c1::9-10}} (pior prognóstico).	—	Assunto::rastreamento-oncologico Conceito
+Gleason 4+3=7 é mais agressivo que 3+4=7 porque o padrão {{c1::predominante}} é o de maior grau.	O primeiro número reflete o padrão predominante na amostra.	Assunto::rastreamento-oncologico Conceito
+EBSERH 2025 Q40: USPSTF recomenda rastreamento colorretal dos {{c1::45 aos 75 anos}}.	Atenção à mudança de idade de início (45, não mais 50).	Assunto::rastreamento-oncologico Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+ENARE 2026 Q6: pólipo colorretal de baixo risco exige vigilância em {{c1::7-10 anos}}, não 3.	Erro típico: tratar pólipo de baixo risco como se fosse de alto risco.	Assunto::rastreamento-oncologico Banca::ENARE Ano::2026 Dificuldade::MEDIA
+ENARE 2026 Q43: cálculo do escore de Gleason a partir de {{c1::biópsia de próstata}}.	Somar os dois padrões mais representativos, respeitando a ordem.	Assunto::rastreamento-oncologico Banca::ENARE Ano::2026 Dificuldade::MEDIA
+🔤 Mnemônico rastreamento colorretal USPSTF: {{c1::45 começa, 75 pode parar, 76-85 individualiza}}.	Fixa os três limites etários da recomendação em risco médio.	Assunto::rastreamento-oncologico Mnemonico

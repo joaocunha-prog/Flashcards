@@ -1,0 +1,24 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Emergências e Terapia Intensiva::Avaliação perioperatória
+Estatina crônica no perioperatório: a conduta é {{c1::manter}}, sem suspender.	Vale mesmo no dia da cirurgia; reduz eventos cardiovasculares perioperatórios.	Assunto::avaliacao-perioperatoria Banca::ENARE Ano::2025 Dificuldade::FACIL
+Manter a estatina no perioperatório funciona por efeito {{c1::pleiotrópico}}, independente do LDL.	Estabilização da placa aterosclerótica; efeito rápido, não depende de baixar o colesterol.	Assunto::avaliacao-perioperatoria Conceito
+Suspender a estatina no perioperatório gera efeito {{c1::rebote pró-inflamatório}} na placa.	Por isso suspender "para operar com segurança" é conduta errada.	Assunto::avaliacao-perioperatoria Banca::ENARE Ano::2025 Dificuldade::FACIL
+Estatina iniciada poucos dias antes da cirurgia também deve ser {{c1::mantida}}.	Início recente não é motivo isolado para suspensão.	Assunto::avaliacao-perioperatoria Conceito
+No perioperatório, {{c1::IECA/BRA}} costumam ser suspensos no dia da cirurgia.	Ao contrário da estatina — a conduta é droga-específica, não "manter tudo".	Assunto::avaliacao-perioperatoria Conceito
+IECA/BRA são suspensos no dia da cirurgia pelo risco de {{c1::hipotensão intraoperatória refratária}}.	—	Assunto::avaliacao-perioperatoria Conceito
+Betabloqueador {{c1::não deve}} ser iniciado de novo no perioperatório imediato só pela cirurgia.	Risco de bradicardia, hipotensão e até AVC supera o benefício de "proteção cardíaca".	Assunto::avaliacao-perioperatoria Conceito
+Betabloqueador de uso crônico deve ser {{c1::mantido}} no perioperatório.	—	Assunto::avaliacao-perioperatoria Conceito
+No algoritmo de risco cardiovascular pré-operatório, a 1ª pergunta é se a cirurgia é de {{c1::emergência}}.	Se for emergência, não se espera avaliação cardiológica extensa.	Assunto::avaliacao-perioperatoria Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Em cirurgia de emergência, {{c1::opera-se}} com o suporte possível, sem aguardar otimização cardiológica completa.	Adiar cirurgia de emergência para "otimização completa" é pitfall.	Assunto::avaliacao-perioperatoria Conceito
+Depois da urgência cirúrgica, o algoritmo avalia presença de {{c1::doença cardíaca ativa/instável}}.	<img src="avaliacao-perioperatoria-algoritmo.svg" style="max-width:100%">	Assunto::avaliacao-perioperatoria Conceito
+Capacidade funcional ≥ {{c1::4 METs}} dispensa investigação cardíaca adicional na maioria dos casos.	Vale mesmo em paciente com fatores de risco presentes.	Assunto::avaliacao-perioperatoria Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Capacidade funcional de 4 METs corresponde a {{c1::subir 2 lances de escada}} sem sintomas.	—	Assunto::avaliacao-perioperatoria Conceito
+Incapacidade de subir 1 lance de escada indica capacidade funcional {{c1::baixa}} (menor que 4 METs).	Reforça indicação de investigação adicional antes de cirurgia de alto risco.	Assunto::avaliacao-perioperatoria Conceito
+RCRI (índice de Lee), 6 fatores (1 ponto cada): {{c1::cirurgia de alto risco}}; {{c2::doença arterial coronariana}}; {{c3::insuficiência cardíaca congestiva}}; {{c4::doença cerebrovascular}}; {{c5::diabetes insulino-dependente}}; {{c6::creatinina &gt; 2 mg/dL}}.	Escore de 0 a 6 pontos, somando 1 ponto por fator presente.	Assunto::avaliacao-perioperatoria Conceito
+RCRI ≥ {{c1::2 pontos}} eleva o risco de evento cardíaco maior perioperatório.	—	Assunto::avaliacao-perioperatoria Conceito
+Condições cardíacas ativas que adiam cirurgia eletiva (4): {{c1::síndrome coronariana aguda nos últimos 60 dias}}; {{c2::ICC descompensada}}; {{c3::arritmia significativa}}; {{c4::doença valvar grave sintomática}}.	Independem do RCRI — precisam ser tratadas antes de qualquer outra etapa do algoritmo.	Assunto::avaliacao-perioperatoria Conceito
+Exame complementar cardíaco pré-operatório só deve ser pedido se {{c1::for mudar a conduta}}.	Pedir ecocardiograma/teste ergométrico de rotina é conduta ultrapassada.	Assunto::avaliacao-perioperatoria Conceito
+{{c1::BNP e troponina}} pré-operatórios têm papel crescente em cirurgia de alto risco com RCRI elevado.	Não substituem a avaliação clínica funcional (METs).	Assunto::avaliacao-perioperatoria Conceito
+🔤 Mnemônico dos 6 fatores do RCRI (índice de Lee): {{c1::CDICDC}}.	Cirurgia de alto risco, DAC, ICC, Cerebrovascular, Diabetes insulino-dependente, Creatinina &gt;2. Recurso próprio, não é mnemônico oficial.	Assunto::avaliacao-perioperatoria Mnemonico

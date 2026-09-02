@@ -1,0 +1,20 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Endocrinologia::Doenças da tireoide
+Tempestade tireotóxica é hipertireoidismo grave associado a {{c1::disfunção sistêmica}} (febre, taquiarritmia, alteração de consciência).	Emergência endócrina.	Assunto::doencas-da-tireoide Conceito
+O diagnóstico da tempestade tireotóxica é apoiado pelo escore de {{c1::Burch-Wartofsky}}.	O escore não deve atrasar o início do tratamento.	Assunto::doencas-da-tireoide Conceito
+Sequência de tratamento da tempestade tireotóxica: 1º {{c1::betabloqueador (propranolol)}}; 2º {{c2::tionamida (propiltiouracila/PTU)}}; 3º {{c3::iodo (Lugol), pelo menos 1 hora após a tionamida}}; 4º {{c4::corticoide (hidrocortisona)}}.	Ordem importa: iodo sempre depois da tionamida, nunca antes (evita piora por efeito Wolff-Chaikoff seguido de escape).	Assunto::doencas-da-tireoide Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+PTU também inibe a {{c1::conversão periférica de T4 em T3}}.	Efeito que o metimazol não tem — por isso PTU é preferido na fase aguda.	Assunto::doencas-da-tireoide Conceito
+Tireoidite subaguda de De Quervain cursa com dor cervical anterior, geralmente {{c1::pós-viral}}.	Processo inflamatório que rompe folículos tireoidianos.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na tireoidite de De Quervain, a fase tireotóxica é seguida de {{c1::hipotireoidismo transitório}} e depois eutireoidismo.	Padrão trifásico clássico.	Assunto::doencas-da-tireoide Conceito
+Na tireoidite de De Quervain, VHS e PCR estão {{c1::muito elevados}}.	Marcadores inflamatórios característicos.	Assunto::doencas-da-tireoide Conceito
+Na tireoidite de De Quervain, a captação de iodo radioativo é {{c1::baixa}}.	Diferencia de doença de Graves, em que a captação está aumentada.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2025 Dificuldade::FACIL
+A tireotoxicose da De Quervain decorre de {{c1::destruição folicular}}, não de hiperfunção.	Libera hormônio pré-formado — por isso tionamida não tem papel aqui.	Assunto::doencas-da-tireoide Conceito
+A avaliação inicial de nódulo tireoidiano é TSH + ultrassonografia com estratificação {{c1::TI-RADS}}.	Sistema de imagem que estima risco de malignidade antes de qualquer procedimento invasivo.	Assunto::doencas-da-tireoide Conceito
+No TI-RADS, quanto maior a suspeita ecográfica, {{c1::menor}} o corte de tamanho que já indica PAAF.	Nódulo TI-RADS 4 já indica PAAF a partir de ~1,5 cm.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2026 Dificuldade::FACIL
+Bethesda classifica o risco de malignidade a partir da {{c1::citologia (PAAF)}}, diferente do TI-RADS (imagem).	Etapas complementares e sequenciais da investigação.	Assunto::doencas-da-tireoide Conceito
+Bethesda III corresponde a {{c1::atipia de significado indeterminado (AUS/FLUS)}}.	Risco de malignidade intermediário.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2026 Dificuldade::MEDIA
+A conduta diante de Bethesda III é {{c1::repetir a PAAF}} (± teste molecular).	Não indicar cirurgia direta nem apenas observar.	Assunto::doencas-da-tireoide Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Bethesda III reflete a limitação da citologia em distinguir adenoma folicular de {{c1::carcinoma folicular}}.	Essa diferenciação depende de invasão capsular/vascular, visível só na histologia.	Assunto::doencas-da-tireoide Conceito
+🔤 Sequência da tempestade tireotóxica: {{c1::Beta, Tionamida, Iodo, Corticoide}} (BTIC).	Ordem importa — iodo sempre depois da tionamida, nunca antes.	Assunto::doencas-da-tireoide Mnemonico

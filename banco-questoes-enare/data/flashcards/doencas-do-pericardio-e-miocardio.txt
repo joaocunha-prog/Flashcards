@@ -1,0 +1,27 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Cardiologia::Doenças do pericárdio e miocárdio
+Suspeitar de sarcoidose cardíaca em paciente jovem com {{c1::BAV inexplicado}}.	Bandeira vermelha clássica antes de rotular como idiopático.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Indicações de CDI na sarcoidose cardíaca de alto risco (3 critérios): {{c1::FEVE reduzida significativamente}}; {{c2::TV sustentada ou parada cardíaca prévia}}; {{c3::indicação de marca-passo definitivo}} em paciente jovem.	A indicação decorre do substrato de risco arrítmico, não da intensidade da inflamação ativa.	Assunto::doencas-do-pericardio-e-miocardio Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Na sarcoidose cardíaca, o CDI é indicado pelo {{c1::substrato de risco arrítmico}}, não pela intensidade da inflamação.	Tratar só com imunossupressão e ignorar o risco arrítmico é pitfall.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Mesmo após controlar a inflamação, o risco de morte súbita persiste pela {{c1::fibrose residual}}.	Granulomas substituídos por cicatriz mantêm zonas de condução lenta e reentrada.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+{{c1::PET-CT com FDG}} identifica inflamação ativa na sarcoidose cardíaca.	Orienta a decisão entre imunossupressão e dispositivo.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+{{c1::RM cardíaca}} mostra fibrose já estabelecida (realce tardio) na sarcoidose cardíaca.	Também diferencia sarcoidose de miocardite (ausência de realce transmural).	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Na RM, a sarcoidose cardíaca tem realce tardio em padrão {{c1::mesocárdico/epicárdico}} (não isquêmico).	—	Assunto::doencas-do-pericardio-e-miocardio Conceito
+O infarto tem realce tardio em padrão {{c1::subendocárdico/transmural}}, diferente da sarcoidose.	Confundir os dois padrões na RM é pitfall central.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Biópsia endomiocárdica tem {{c1::baixa sensibilidade}} na sarcoidose cardíaca.	Acometimento em placas, não homogêneo.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Tratamento da inflamação ativa na sarcoidose cardíaca: {{c1::corticoide/imunossupressor}}.	Marca-passo definitivo se BAV significativo associado.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+A cardiomiopatia de Takotsubo cursa com {{c1::abaulamento apical (ballooning)}} transitório do VE.	Disfunção sistólica reversível, dá nome à doença (armadilha japonesa para polvos).	Assunto::doencas-do-pericardio-e-miocardio Banca::ENARE Ano::2025 Dificuldade::FACIL
+O Takotsubo é desencadeado por {{c1::estresse emocional ou físico intenso}}.	—	Assunto::doencas-do-pericardio-e-miocardio Banca::ENARE Ano::2025 Dificuldade::FACIL
+O Takotsubo predomina em {{c1::mulheres na pós-menopausa}}.	—	Assunto::doencas-do-pericardio-e-miocardio Conceito
+O Takotsubo mimetiza {{c1::síndrome coronariana aguda}} (dor torácica, supra de ST, troponina elevada).	—	Assunto::doencas-do-pericardio-e-miocardio Banca::ENARE Ano::2025 Dificuldade::FACIL
+No Takotsubo, as coronárias são {{c1::angiograficamente normais}}.	Diagnóstico de exclusão, feito após o cateterismo.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+O diagnóstico de Takotsubo exige {{c1::cateterismo}} para excluir doença coronariana obstrutiva.	Diagnosticar Takotsubo sem excluir doença coronariana é pitfall.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Gatilhos físicos do Takotsubo incluem {{c1::cirurgia, sepse, AVC ou crise asmática grave}}.	Não restringir a suspeita a gatilhos emocionais como luto ou susto.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+O Takotsubo é atribuído a uma {{c1::descarga catecolaminérgica}} intensa e súbita.	Causa toxicidade miocárdica direta e/ou vasoespasmo microvascular.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+O abaulamento apical do Takotsubo ocorre porque o ápice é mais rico em receptores {{c1::beta-adrenérgicos}}.	Explica a hipercinesia basal compensatória associada.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+A recuperação da função ventricular no Takotsubo costuma ocorrer em {{c1::dias a semanas}}.	Não significa que a fase aguda seja isenta de risco.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+A fase aguda do Takotsubo pode cursar com {{c1::choque cardiogênico}}.	Exige internação com suporte hemodinâmico, não só observação.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+Na obstrução dinâmica da via de saída do VE no Takotsubo, deve-se {{c1::evitar inotrópicos beta-agonistas}}.	Priorizar suporte hemodinâmico e tratar o gatilho desencadeante.	Assunto::doencas-do-pericardio-e-miocardio Conceito
+🔤 Mnemônico das indicações de CDI na sarcoidose cardíaca de alto risco: {{c1::FTM}}.	FEVE reduzida, TV sustentada/parada cardíaca prévia, Marca-passo indicado em jovem. Recurso próprio.	Assunto::doencas-do-pericardio-e-miocardio Mnemonico

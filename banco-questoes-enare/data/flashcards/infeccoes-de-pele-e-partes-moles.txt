@@ -1,0 +1,23 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Infectologia::Infecções de pele e partes moles
+O sinal mais precoce e sensível de fasceíte necrotizante é {{c1::dor desproporcional ao exame físico}}.	Pode estar presente antes de qualquer alteração cutânea visível.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+O tratamento definitivo da fasceíte necrotizante é {{c1::debridamento cirúrgico precoce e agressivo}}.	Nenhum antibiótico isolado substitui a cirurgia.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Na fasceíte necrotizante, a exploração cirúrgica {{c1::não deve ser adiada}} por imagem/laboratório.	O atraso aumenta a mortalidade de forma exponencial.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+O escore que auxilia (mas não decide sozinho) o diagnóstico de fasceíte necrotizante é o {{c1::LRINEC}}.	Não deve atrasar a decisão cirúrgica quando a suspeita clínica é alta.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Clindamicina é adicionada à fasceíte necrotizante estreptocócica pelo seu efeito {{c1::antitoxina}}.	Inibe a síntese proteica bacteriana, reduzindo a produção de exotoxinas do S. pyogenes.	Assunto::infeccoes-de-pele-e-partes-moles Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Na fasceíte necrotizante, clindamicina deve ser {{c1::associada a um betalactâmico}}, nunca usada isolada.	Betalactâmicos perdem eficácia em alto inóculo bacteriano (efeito Eagle).	Assunto::infeccoes-de-pele-e-partes-moles Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+As exotoxinas do S. pyogenes na fasceíte necrotizante agem como {{c1::superantígenos}}.	Amplificam de forma desproporcional a resposta inflamatória sistêmica.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Osteomielite por contiguidade deve ser suspeitada quando úlcera de pressão {{c1::não cicatriza ou expõe osso}}.	Ou apresenta trajeto fistuloso até estrutura óssea.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+O diagnóstico definitivo de osteomielite por contiguidade é {{c1::biópsia óssea com cultura}}.	Guia a antibioticoterapia dirigida.	Assunto::infeccoes-de-pele-e-partes-moles Banca::ENARE Ano::2025 Dificuldade::FACIL
+Cultura de {{c1::swab superficial}} da úlcera nunca deve guiar o antibiótico da osteomielite.	Reflete colonização de pele, não o patógeno ósseo real.	Assunto::infeccoes-de-pele-e-partes-moles Banca::ENARE Ano::2025 Dificuldade::FACIL
+O exame de imagem mais sensível para osteomielite por contiguidade é a {{c1::ressonância magnética}}.	Complementa a biópsia óssea, que é o padrão-ouro microbiológico.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+A osteomielite por contiguidade não exige {{c1::bacteremia}}.	A infecção se propaga diretamente do tecido mole/úlcera adjacente ao osso.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Abscesso odontogênico cervical pode disseminar por contiguidade fascial até o {{c1::mediastino}} (mediastinite descendente).	Um foco dentário trivial pode evoluir para mediastinite fatal em horas a dias.	Assunto::infeccoes-de-pele-e-partes-moles Banca::ENARE Ano::2026 Dificuldade::FACIL
+Sinais de alarme de disseminação cervical profunda no abscesso odontogênico: {{c1::trismo, disfagia, dispneia}}.	Junto de edema cervical extenso.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Diante de sinais de disseminação cervical profunda, o exame de escolha é {{c1::TC de pescoço/tórax com contraste}}.	Mapeia extensão e avalia comprometimento de via aérea/mediastino.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Abscesso odontogênico cervical com sinais de alarme exige {{c1::internação e drenagem cirúrgica}}, não só antibiótico oral.	Tratamento ambulatorial isolado é insuficiente nesse cenário.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Angina de Ludwig é celulite {{c1::bilateral do espaço submandibular}}, sem abscesso franco.	Risco de obstrução de via aérea por elevação do assoalho da boca/língua.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+Na angina de Ludwig, a prioridade de manejo é a {{c1::via aérea}}, junto ao antibiótico.	Risco de obstrução por elevação do assoalho da boca/língua.	Assunto::infeccoes-de-pele-e-partes-moles Conceito
+🔤 Mnemônico da fasceíte necrotizante: "{{c1::dor que não bate com a pele}}".	Sinal precoce, antes de qualquer lesão cutânea visível — o exame pode parecer benigno no início.	Assunto::infeccoes-de-pele-e-partes-moles Mnemonico

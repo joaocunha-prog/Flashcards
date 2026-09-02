@@ -1,0 +1,22 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Pneumologia::DPOC
+Na exacerbação da DPOC, o alvo de oxigenoterapia é SpO2 {{c1::88-92%}}.	<img src="dpoc-vni-fluxograma.svg" style="max-width:100%">	Assunto::dpoc Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Saturação acima do alvo de 88-92% pode precipitar ou agravar a {{c1::hipercapnia}}.	Ofertar O2 em alto fluxo "para normalizar" a saturação é pitfall.	Assunto::dpoc Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O excesso de O2 piora a hipercapnia principalmente por piorar a relação {{c1::ventilação-perfusão}}.	Mecanismo dominante entre os três envolvidos.	Assunto::dpoc Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O excesso de O2 abole a {{c1::vasoconstrição pulmonar hipóxica}} compensatória.	Sem ela, o sangue passa por alvéolos mal ventilados sem trocar CO2 adequadamente.	Assunto::dpoc Conceito
+Efeito {{c1::Haldane}}: hemoglobina mais saturada de O2 carreia menos CO2.	Mecanismo acessório da hipercapnia induzida por oxigênio em excesso.	Assunto::dpoc Conceito
+Terceiro mecanismo, de menor peso, da hipercapnia por O2 em excesso: redução do {{c1::drive respiratório hipóxico}}.	Não é o mecanismo dominante — o desequilíbrio V/Q é o principal.	Assunto::dpoc Conceito
+Para titular O2 na DPOC exacerbada, prefere-se {{c1::cateter nasal de baixo fluxo ou máscara de Venturi}}.	Permitem a titulação fina necessária para o alvo de saturação.	Assunto::dpoc Conceito
+Evitar {{c1::máscaras não reinalantes de alto fluxo}} na exacerbação da DPOC.	Dificultam manter o alvo de SpO2 88-92%.	Assunto::dpoc Conceito
+Na exacerbação da DPOC, a VNI é 1ª escolha diante de {{c1::acidose respiratória}}.	Definida por pH &lt; 7,35 com PaCO2 elevada, associada a desconforto respiratório.	Assunto::dpoc Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+A VNI reduz necessidade de {{c1::intubação}}, tempo de internação e mortalidade na exacerbação da DPOC.	—	Assunto::dpoc Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+A VNI melhora a ventilação alveolar ao contrapor o {{c1::auto-PEEP}} gerado pelo aprisionamento aéreo.	Atua também com pressão de suporte inspiratória, reduzindo o trabalho muscular.	Assunto::dpoc Conceito
+Hipercapnia leve/moderada com rebaixamento leve, revertido rapidamente pela VNI, {{c1::não contraindica}} a VNI.	Contraindicar VNI só por isso é pitfall que priva o paciente do tratamento de escolha.	Assunto::dpoc Conceito
+Contraindicações reais à VNI (4): {{c1::incapacidade de proteger via aérea}} (coma verdadeiro); {{c2::instabilidade hemodinâmica}}; {{c3::vômitos incoercíveis}}; {{c4::trauma/cirurgia facial recente}}.	Hipercapnia leve/moderada com rebaixamento leve, revertido rapidamente pela VNI, não entra nessa lista — não contraindica o uso.	Assunto::dpoc Conceito
+Tríade terapêutica da exacerbação da DPOC: {{c1::broncodilatador de curta ação}} (beta-2 + anticolinérgico); {{c2::corticoide sistêmico}}; {{c3::antibiótico}}, se critérios de Anthonisen presentes.	Prescrever antibiótico para toda exacerbação, sem critérios, é uso indiscriminado.	Assunto::dpoc Conceito
+Corticoide sistêmico na exacerbação da DPOC: curso curto de cerca de {{c1::5 dias}}.	Cursos prolongados não trazem benefício adicional e aumentam efeitos adversos.	Assunto::dpoc Conceito
+Critérios de {{c1::Anthonisen}} para exacerbação da DPOC (indicação de antibiótico): {{c2::piora da dispneia}}; {{c3::aumento do volume do escarro}}; {{c4::purulência do escarro}}.	Classicamente, ≥2 dos 3 critérios (idealmente incluindo a purulência) indicam benefício de antibioticoterapia.	Assunto::dpoc Conceito
+Ausência de melhora clínica/gasométrica após {{c1::1-2 horas}} de VNI bem ajustada: sinal de alarme para intubação.	Não se deve insistir indefinidamente na VNI diante de piora.	Assunto::dpoc Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+🔤 Mnemônico da tríade terapêutica da exacerbação da DPOC: {{c1::BCA}}.	Broncodilatador + Corticoide + Antibiótico (se Anthonisen). Recurso próprio, não é mnemônico oficial.	Assunto::dpoc Mnemonico

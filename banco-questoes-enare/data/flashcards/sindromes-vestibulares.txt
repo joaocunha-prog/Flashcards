@@ -1,0 +1,21 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Neurologia::Síndromes vestibulares
+Tríade clássica da doença de Ménière: vertigem episódica + {{c1::hipoacusia neurossensorial flutuante}} + zumbido.	Geralmente unilateral, com plenitude aural associada.	Assunto::sindromes-vestibulares Banca::ENARE Ano::2026 Dificuldade::FACIL
+Fisiopatologia da doença de Ménière: {{c1::hidropisia endolinfática}}.	Acúmulo excessivo de endolinfa no labirinto membranoso.	Assunto::sindromes-vestibulares Conceito
+Episódios de vertigem na Ménière duram de {{c1::20 minutos a algumas horas}}.	<img src="sindromes-vestibulares-duracao.svg" style="max-width:100%">	Assunto::sindromes-vestibulares Conceito
+Na Ménière, a duração do episódio distingue do VPPB, que dura {{c1::segundos}}.	—	Assunto::sindromes-vestibulares Conceito
+Na Ménière, a duração do episódio distingue da neurite vestibular, que dura {{c1::dias}}.	—	Assunto::sindromes-vestibulares Conceito
+Orientação dietética de primeira linha na Ménière: {{c1::restrição de sódio}}.	Reduz a retenção de líquido no compartimento endolinfático.	Assunto::sindromes-vestibulares Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Além do sódio, também se recomenda reduzir {{c1::cafeína e álcool}} na Ménière.	—	Assunto::sindromes-vestibulares Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Diurético usado como manutenção na Ménière quando a dieta não basta: {{c1::hidroclorotiazida}}.	—	Assunto::sindromes-vestibulares Conceito
+O diagnóstico da doença de Ménière é {{c1::clínico}}.	—	Assunto::sindromes-vestibulares Conceito
+Exame de imagem na Ménière serve para excluir {{c1::schwannoma vestibular}}, não para confirmar o diagnóstico.	—	Assunto::sindromes-vestibulares Conceito
+Sensação de {{c1::plenitude aural}} costuma preceder ou acompanhar a crise de Ménière.	—	Assunto::sindromes-vestibulares Conceito
+A manobra de {{c1::Epley}} é tratamento do VPPB, não da Ménière.	—	Assunto::sindromes-vestibulares Conceito
+Marca da Ménière nas fases iniciais: {{c1::flutuação}} da audição.	—	Assunto::sindromes-vestibulares Conceito
+Com a progressão da Ménière, a perda auditiva tende a se tornar {{c1::permanente}}.	—	Assunto::sindromes-vestibulares Conceito
+Com a progressão, os episódios vertiginosos podem se tornar {{c1::menos frequentes}}, com desequilíbrio crônico residual.	—	Assunto::sindromes-vestibulares Conceito
+Opção de segunda linha refratária na Ménière: injeção intratimpânica de {{c1::gentamicina ou corticoide}}.	—	Assunto::sindromes-vestibulares Conceito
+🔤 Mnemônico SMD: S = {{c1::Segundos}} = VPPB; M = {{c2::Minutos a horas}} = Ménière; D = {{c3::Dias}} = neurite vestibular/labirintite.	<img src="sindromes-vestibulares-duracao.svg" style="max-width:100%">	Assunto::sindromes-vestibulares Mnemonico

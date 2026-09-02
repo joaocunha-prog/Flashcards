@@ -1,0 +1,19 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Reumatologia::Síndromes autoimunes induzidas
+Síndrome ASIA é desencadeada por exposição a {{c1::adjuvantes}}.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Adjuvantes são substâncias que estimulam a resposta imune de forma {{c1::inespecífica}}.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Elemento-chave para o diagnóstico de ASIA: {{c1::história de exposição prévia a adjuvante}}.	Sem esse dado o quadro clínico é inespecífico.	Assunto::sindromes-autoimunes-induzidas Conceito
+Manifestações típicas de ASIA: {{c1::mialgia}}, {{c2::artralgia}}, {{c3::fadiga crônica}}.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Sintoma neurocognitivo típico de ASIA: {{c1::"brain fog"}}.	Dificuldade de concentração e memória.	Assunto::sindromes-autoimunes-induzidas Conceito
+Gatilho de ASIA por modelação estética clandestina: {{c1::substância oleosa injetável}}.	—	Assunto::sindromes-autoimunes-induzidas Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Gatilho clássico e bem estudado de ASIA: {{c1::implante de silicone}}.	—	Assunto::sindromes-autoimunes-induzidas Banca::ENARE Ano::2026 Dificuldade::FACIL
+O quadro de ASIA por silicone pode surgir {{c1::anos}} após a colocação do implante.	Intervalo variável, de dias a anos.	Assunto::sindromes-autoimunes-induzidas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Medida terapêutica mais associada à melhora em ASIA: {{c1::remoção do adjuvante}}.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+O diagnóstico de ASIA é essencialmente {{c1::clínico e de exclusão}}.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Não existe {{c1::biomarcador único e específico}} para ASIA.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Pacientes com ASIA costumam ter {{c1::predisposição genética/autoimune de base}}.	O adjuvante atua como gatilho, não causa isolada.	Assunto::sindromes-autoimunes-induzidas Conceito
+Mecanismo de ASIA envolve produção contínua de {{c1::citocinas pró-inflamatórias}} ao redor do material implantado.	—	Assunto::sindromes-autoimunes-induzidas Conceito
+Imunossupressão específica em ASIA é reservada a {{c1::manifestações autoimunes de órgão bem definidas}}.	Não é conduta inicial de rotina.	Assunto::sindromes-autoimunes-induzidas Conceito
+🔤 Mnemônico ASIA: A = {{c1::Adjuvante como gatilho}} (silicone, óleo injetável, vacina); S = {{c2::Sintomas inespecíficos}} (mialgia, artralgia, fadiga, brain fog); I = {{c3::Investigar}} ativamente história de implante/injeção estética; A = {{c4::Afastar}} o material = melhora clínica.	Recurso próprio, não é mnemônico oficial.	Assunto::sindromes-autoimunes-induzidas Mnemonico

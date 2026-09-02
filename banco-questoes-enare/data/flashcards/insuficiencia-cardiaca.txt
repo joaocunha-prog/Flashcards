@@ -1,0 +1,26 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Cardiologia::Insuficiência cardíaca
+NYHA: classe I = {{c1::sem limitação a esforços habituais}}; classe II = {{c2::limitação leve, sintomas aos esforços habituais}}; classe III = {{c3::limitação importante, sintomas aos mínimos esforços}}; classe IV = {{c4::sintomas em repouso}}.	—	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+NYHA guia terapia e prognóstico, mas não corresponde diretamente à {{c1::fração de ejeção}}.	—	Assunto::insuficiencia-cardiaca Conceito
+A classificação NYHA é {{c1::dinâmica}} (pode mudar com tratamento ou descompensação).	Diferente do estadiamento ACC/AHA (A-D), que não regride.	Assunto::insuficiencia-cardiaca Conceito
+O estadiamento ACC/AHA (A-D) é {{c1::progressivo e não regride}}.	Não confundir com a classificação NYHA, que é dinâmica.	Assunto::insuficiencia-cardiaca Conceito
+Espironolactona tem benefício comprovado de {{c1::redução de mortalidade}} na IC com fração reduzida.	Classicamente demonstrado em pacientes NYHA III-IV.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Os quatro pilares da IC com fração reduzida: {{c1::IECA/BRA ou ARNI}}, {{c2::betabloqueador}}, {{c3::antagonista de mineralocorticoide}} e {{c4::inibidor de SGLT2}}.	—	Assunto::insuficiencia-cardiaca Conceito
+Principal risco a monitorizar com espironolactona: {{c1::hipercalemia}}.	Especialmente associada a IECA/BRA/ARNI.	Assunto::insuficiencia-cardiaca Conceito
+Choque cardiogênico "frio-úmido" combina baixo débito com {{c1::congestão}}.	Perfil hemodinâmico orienta diretamente a terapia.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Inotrópico de escolha no choque cardiogênico frio-úmido: {{c1::dobutamina}}.	Melhora o débito cardíaco.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Se houver hipotensão significativa no choque frio-úmido, associar vasopressor: {{c1::noradrenalina}}.	Mantém a pressão de perfusão.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Dobutamina isolada pode causar ou agravar {{c1::hipotensão}} por efeito vasodilatador beta-2.	Daí associar vasopressor quando a PA já está criticamente baixa.	Assunto::insuficiencia-cardiaca Conceito
+Usar apenas vasopressor no choque frio-úmido, sem inotrópico, {{c1::não resolve}} o baixo débito.	Componente principal do choque permanece sem tratamento.	Assunto::insuficiencia-cardiaca Conceito
+No perfil hemodinâmico do choque cardiogênico, "úmido" indica presença de {{c1::congestão}}.	"Frio" indica perfusão inadequada.	Assunto::insuficiencia-cardiaca Conceito
+Sacubitril/valsartana (ARNI) inibe a {{c1::neprilisina}}.	Enzima que degrada o BNP.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Em uso de ARNI, os níveis de {{c1::BNP}} sobem artificialmente e perdem valor para monitorização.	Pois a neprilisina, inibida, deixa de degradar o BNP.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Em paciente com ARNI, o marcador que permanece confiável para congestão é o {{c1::NT-proBNP}}.	Por não ser substrato da neprilisina.	Assunto::insuficiencia-cardiaca Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Paciente em ARNI com dispneia aguda deve ter dosado o {{c1::NT-proBNP}}, não o BNP.	Evita interpretação equivocada de piora clínica.	Assunto::insuficiencia-cardiaca Conceito
+Inibidores de SGLT2 reduzem mortalidade cardiovascular e hospitalização por IC em {{c1::toda a faixa de fração de ejeção}}.	Incluindo a ICFEp.	Assunto::insuficiencia-cardiaca Banca::ENARE Ano::2025 Dificuldade::FACIL
+O benefício do inibidor de SGLT2 na IC é {{c1::independente da presença de diabetes}}.	Ocorre mesmo em pacientes não diabéticos.	Assunto::insuficiencia-cardiaca Banca::ENARE Ano::2025 Dificuldade::FACIL
+Achar que inibidor de SGLT2 só tem indicação em IC com fração reduzida é {{c1::incorreto}}.	Hoje é recomendado também na ICFEp.	Assunto::insuficiencia-cardiaca Conceito
+Exemplos de inibidores de SGLT2 usados na IC: {{c1::dapagliflozina e empagliflozina}}.	—	Assunto::insuficiencia-cardiaca Conceito
+🔤 Mnemônico: "{{c1::N}}T-proBNP Não muda com Neprilisina" — só o BNP sobe artificialmente com ARNI.	Recurso próprio, não é mnemônico oficial.	Assunto::insuficiencia-cardiaca Mnemonico

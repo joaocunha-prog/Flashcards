@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 760" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="860" height="760" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <text x="430" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Exacerbação da DPOC: oxigênio e VNI</text>
+
+  <!-- Box 1 -->
+  <rect x="230" y="48" width="400" height="55" rx="8" fill="#eef6ee" stroke="#3f7a4f" stroke-width="2"/>
+  <text x="430" y="72" text-anchor="middle" font-size="14.5" fill="#204a29">Exacerbação da DPOC</text>
+  <text x="430" y="91" text-anchor="middle" font-size="12.5" fill="#204a29">→ gasometria arterial imediata</text>
+
+  <line x1="430" y1="103" x2="430" y2="140" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+
+  <!-- Box 2: O2 target -->
+  <rect x="170" y="140" width="520" height="80" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="430" y="163" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#14324a">Oxigenoterapia CONTROLADA</text>
+  <text x="430" y="184" text-anchor="middle" font-size="13" fill="#14324a">Alvo: SpO2 88-92% (cateter nasal baixo fluxo</text>
+  <text x="430" y="202" text-anchor="middle" font-size="13" fill="#14324a">ou máscara de Venturi com FiO2 titulada)</text>
+
+  <line x1="430" y1="220" x2="430" y2="258" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+
+  <!-- Box 3: acidose respiratória? -->
+  <rect x="200" y="258" width="460" height="80" rx="8" fill="#fff6e6" stroke="#b8860b" stroke-width="2"/>
+  <text x="430" y="281" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#5c4308">Acidose respiratória?</text>
+  <text x="430" y="301" text-anchor="middle" font-size="13" fill="#5c4308">pH &lt; 7,35 com PaCO2 elevada</text>
+  <text x="430" y="320" text-anchor="middle" font-size="12" font-style="italic" fill="#5c4308">+ desconforto respiratório</text>
+
+  <line x1="215" y1="298" x2="90" y2="298" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+  <text x="150" y="290" text-anchor="middle" font-size="12" fill="#333">Não</text>
+
+  <rect x="10" y="270" width="180" height="95" rx="8" fill="#eafbea" stroke="#2f8a4a" stroke-width="2"/>
+  <text x="100" y="292" text-anchor="middle" font-size="12.5" fill="#1e5c30">Broncodilatador +</text>
+  <text x="100" y="309" text-anchor="middle" font-size="12.5" fill="#1e5c30">corticoide sistêmico</text>
+  <text x="100" y="326" text-anchor="middle" font-size="12.5" fill="#1e5c30">± antibiótico (Anthonisen)</text>
+  <text x="100" y="345" text-anchor="middle" font-size="12" font-style="italic" fill="#1e5c30">monitorar evolução</text>
+
+  <line x1="430" y1="338" x2="430" y2="376" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+  <text x="450" y="362" text-anchor="start" font-size="12" fill="#333">Sim</text>
+
+  <!-- Box 4: VNI -->
+  <rect x="170" y="376" width="520" height="90" rx="8" fill="#fdecec" stroke="#b23b3b" stroke-width="2"/>
+  <text x="430" y="400" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#7a2323">Iniciar VNI (BiPAP)</text>
+  <text x="430" y="420" text-anchor="middle" font-size="12.5" fill="#7a2323">1ª escolha — reduz IOT, tempo de internação</text>
+  <text x="430" y="438" text-anchor="middle" font-size="12.5" fill="#7a2323">e mortalidade — junto à tríade terapêutica</text>
+  <text x="430" y="456" text-anchor="middle" font-size="11.5" font-style="italic" fill="#7a2323">(sem contraindicação: instabilidade, vômito incoercível, coma)</text>
+
+  <line x1="430" y1="466" x2="430" y2="504" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+
+  <!-- Box 5: reavaliação -->
+  <rect x="200" y="504" width="460" height="65" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="430" y="528" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#14324a">Reavaliar gasometria em 1-2h</text>
+  <text x="430" y="548" text-anchor="middle" font-size="12.5" fill="#14324a">de VNI bem ajustada</text>
+
+  <line x1="330" y1="569" x2="200" y2="620" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+  <text x="215" y="590" text-anchor="middle" font-size="12" fill="#333">Melhora</text>
+
+  <line x1="530" y1="569" x2="660" y2="620" stroke="#333" stroke-width="1.6" marker-end="url(#arrow2)"/>
+  <text x="655" y="590" text-anchor="middle" font-size="12" fill="#333">Sem melhora</text>
+
+  <rect x="60" y="620" width="280" height="65" rx="8" fill="#eafbea" stroke="#2f8a4a" stroke-width="2"/>
+  <text x="200" y="645" text-anchor="middle" font-size="13" fill="#1e5c30">Manter VNI</text>
+  <text x="200" y="664" text-anchor="middle" font-size="13" fill="#1e5c30">desmame progressivo</text>
+
+  <rect x="520" y="620" width="280" height="65" rx="8" fill="#fdecec" stroke="#b23b3b" stroke-width="2"/>
+  <text x="660" y="645" text-anchor="middle" font-size="13" fill="#7a2323">Intubação orotraqueal</text>
+  <text x="660" y="664" text-anchor="middle" font-size="13" fill="#7a2323">(não insistir na VNI)</text>
+
+  <text x="430" y="720" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Hipercapnia leve/moderada isolada NÃO contraindica VNI — só incapacidade de proteger via aérea/coma.</text>
+</svg>

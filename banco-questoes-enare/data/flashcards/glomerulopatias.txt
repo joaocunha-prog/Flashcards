@@ -1,0 +1,24 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Nefrologia::Glomerulopatias
+Causa mais comum de síndrome nefrótica primária no adulto: {{c1::nefropatia membranosa}}.	Depósitos imunes subepiteliais na membrana basal glomerular.	Assunto::glomerulopatias Conceito
+Alvo antigênico da nefropatia membranosa primária: receptor de {{c1::fosfolipase A2 (PLA2R)}} nos podócitos.	Anticorpos anti-PLA2R se depositam in situ e ativam complemento.	Assunto::glomerulopatias Banca::ENARE Ano::2025 Dificuldade::FACIL
+Anti-PLA2R positivo confirma nefropatia membranosa primária em cerca de {{c1::70-80%}} dos casos.	Pode evitar biópsia renal em muitos cenários.	Assunto::glomerulopatias Banca::ENARE Ano::2025 Dificuldade::FACIL
+Anti-PLA2R negativo ou quadro atípico ainda exige {{c1::biópsia renal}}.	—	Assunto::glomerulopatias Conceito
+Na nefropatia membranosa, os depósitos imunes se localizam na posição {{c1::subepitelial}} da membrana basal.	Espessa a parede capilar sem proliferação celular importante.	Assunto::glomerulopatias Conceito
+No seguimento da nefropatia membranosa, a queda do anti-PLA2R precede a {{c1::remissão clínica}}.	—	Assunto::glomerulopatias Conceito
+No seguimento, a elevação do anti-PLA2R pode antecipar {{c1::recidiva}}.	Não repetir o anti-PLA2R no seguimento é pitfall.	Assunto::glomerulopatias Conceito
+Causas secundárias de nefropatia membranosa a excluir: {{c1::lúpus}}; {{c2::hepatite B ou C}}; {{c3::neoplasia sólida}}.	Rastreio oncológico indicado em idosos com nefropatia membranosa.	Assunto::glomerulopatias Conceito
+Fármaco associado à nefropatia membranosa secundária: {{c1::AINEs}}.	—	Assunto::glomerulopatias Conceito
+Em PVHIV com síndrome nefrótica, pensar em glomerulopatia {{c1::colapsante (HIVAN)}}.	Proteinúria maciça com evolução rápida para perda de função renal.	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+HIVAN é mais comum em pacientes de ascendência {{c1::africana}} com carga viral não controlada.	—	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Histologicamente, a HIVAN é uma variante colapsante de {{c1::esclerose segmentar e focal}}.	—	Assunto::glomerulopatias Conceito
+Em diabético de longa data com síndrome nefrótica, presença de {{c1::retinopatia diabética}} reforça a etiologia diabética.	Dispensa biópsia na maioria dos casos.	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Ausência de retinopatia em diabético nefrótico é sinal de alerta para {{c1::etiologia não diabética sobreposta}}.	—	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Biópsia renal na síndrome nefrótica é indicada quando o quadro {{c1::não se encaixa no padrão esperado}}.	Não é exame de rotina para todo nefrótico.	Assunto::glomerulopatias Conceito
+Tratamento da nefropatia membranosa de baixo risco: {{c1::terapia conservadora}} (bloqueio do SRAA).	Inclui controle de PA e proteinúria.	Assunto::glomerulopatias Conceito
+Tratamento da nefropatia membranosa de alto risco: imunossupressão com {{c1::rituximabe}}.	—	Assunto::glomerulopatias Conceito
+Alternativa de imunossupressão na nefropatia membranosa de alto risco: {{c1::ciclofosfamida + corticoide}}.	—	Assunto::glomerulopatias Conceito
+Tratamento da HIVAN inclui otimização da {{c1::TARV}} para supressão da carga viral.	Associado a bloqueio do sistema renina-angiotensina.	Assunto::glomerulopatias Banca::ENARE Ano::2026 Dificuldade::MEDIA
+🔤 Mnemônico PHD para síndrome nefrótica: P = {{c1::PLA2R}} (nefropatia membranosa); H = {{c2::HIV}} (HIVAN colapsante); D = {{c3::Diabetes}} (nefropatia diabética, se houver retinopatia).	Recurso próprio, não é mnemônico oficial.	Assunto::glomerulopatias Mnemonico

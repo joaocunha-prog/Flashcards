@@ -1,0 +1,53 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Infectologia::HIV/AIDS
+TARV deve ser iniciada {{c1::em todo paciente diagnosticado com HIV}}, independente do CD4.	Esperar queda do CD4 para iniciar é conduta ultrapassada — trata-se todo mundo assim que diagnosticado.	Assunto::hiv-aids Conceito
+O esquema antirretroviral preferencial de início é {{c1::tenofovir + lamivudina + dolutegravir}}.	TDF/3TC/DTG — backbone padrão para início de TARV.	Assunto::hiv-aids Conceito
+Dolutegravir tem alta barreira genética à {{c1::resistência}}.	Por isso é a âncora preferencial do esquema inicial.	Assunto::hiv-aids Conceito
+Com função renal reduzida, troca-se tenofovir disoproxila por {{c1::tenofovir alafenamida}}.	Mesma cobertura antiviral, menor nefrotoxicidade.	Assunto::hiv-aids Conceito
+O HIV infecta linfócitos {{c1::T CD4+}}.	A depleção progressiva de CD4+ define o grau de imunossupressão e o espectro de infecções oportunistas.	Assunto::hiv-aids Conceito
+Para entrar na célula, o HIV usa um correceptor: {{c1::CCR5 ou CXCR4}}.	—	Assunto::hiv-aids Conceito
+Além de transcriptase reversa e integrase, a TARV também mira a {{c1::protease}} viral.	Os alvos terapêuticos são sempre enzimas virais do HIV.	Assunto::hiv-aids Conceito
+A diretriz brasileira de referência para HIV em adultos é o {{c1::PCDT de Manejo da Infecção pelo HIV em Adultos}}.	Ministério da Saúde. Quase toda questão brasileira segue de perto esse documento.	Assunto::hiv-aids Conceito
+Um Gene-Xpert positivo para tuberculose já autoriza {{c1::iniciar o RIPE}}, sem esperar cultura.	Agilidade diagnóstica é essencial na coinfecção TB-HIV, onde atraso terapêutico piora o prognóstico.	Assunto::hiv-aids Conceito
+Durante o uso de rifampicina, a dose de dolutegravir deve ser {{c1::dobrada (2x ao dia)}}.	Rifampicina é indutora enzimática e reduz os níveis séricos de dolutegravir — ajusta-se a dose, não se troca de classe.	Assunto::hiv-aids Conceito
+Na coinfecção TB-HIV, o {{c1::RIPE}} deve ser iniciado antes da TARV.	A TARV é iniciada depois, em momento escalonado conforme o CD4.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+Iniciar TARV e RIPE no mesmo dia aumenta muito o risco de {{c1::IRIS grave}}.	Pitfall clássico de prova em coinfecção TB-HIV.	Assunto::hiv-aids Conceito
+Coinfecção TB-HIV (não meníngea), momento de iniciar a TARV após o RIPE: CD4 <200 céls/mm³ = {{c1::até 2 semanas}}; CD4 ≥200 céls/mm³ = {{c2::8 semanas (fim da fase intensiva)}}.	<img src="hiv-aids-tb-tarv-timing.svg">Ver fluxograma. PCDT-HIV (Ministério da Saúde) — corte em CD4 200, não 50. A banca testa o intervalo exato conforme o CD4, não só "esperar" de forma genérica.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Coinfecção por meningite tuberculosa: TARV só após a {{c1::4ª semana}}, independente do CD4.	Risco maior de IRIS no SNC. Introdução mais precoce só em serviço especializado com monitorização, sobretudo se CD4 <50.	Assunto::hiv-aids Conceito
+Adiar a TARV na coinfecção TB-HIV reduz o risco de IRIS, principalmente em TB do {{c1::sistema nervoso central}}.	A resposta inflamatória exacerbada num espaço fechado (SNC) pode causar dano neurológico grave.	Assunto::hiv-aids Conceito
+A profilaxia pré-exposição (PrEP) oral ao HIV é feita com {{c1::tenofovir + entricitabina}}.	Não confundir com PEP (pós-exposição) nem com o esquema de tratamento, que inclui dolutegravir.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::FACIL
+A posologia da PrEP oral é de {{c1::1 comprimido diário}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::FACIL
+A PrEP é usada de forma {{c1::contínua}}, enquanto durar a exposição de risco.	Diferente da PEP, que é pontual, logo após uma exposição de risco.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::FACIL
+Diferente da PrEP, a PEP é usada {{c1::logo após uma exposição de risco pontual}}.	PrEP antecipa exposições futuras; PEP responde a uma exposição já ocorrida.	Assunto::hiv-aids Conceito
+Paciente HIV estável, com supressão virológica prolongada, pode simplificar o esquema para biterapia com {{c1::dolutegravir + lamivudina}}.	Ensaios mostraram não inferioridade frente a esquemas de três drogas.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::MEDIA
+A biterapia com dolutegravir + lamivudina exige {{c1::ausência de falha terapêutica prévia}}.	Não é estratégia de início de tratamento, é estratégia de simplificação em paciente já controlado.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::MEDIA
+A biterapia reduz a {{c1::toxicidade cumulativa}} da TARV sem perder eficácia virológica.	—	Assunto::hiv-aids Conceito
+O "controlador de elite" do HIV mantém carga viral indetectável e CD4 normal {{c1::sem nunca ter usado TARV}}.	Não confundir com boa resposta terapêutica — o controlador de elite nunca tratou.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::FACIL
+Paciente em TARV com carga viral indetectável está em {{c1::supressão virológica induzida por tratamento}}, não em controle de elite.	A distinção-chave: controlador de elite nunca tratou; paciente em supressão está sob TARV.	Assunto::hiv-aids Banca::ENARE Ano::2026 Dificuldade::FACIL
+Antes de prescrever abacavir, é obrigatório rastrear {{c1::HLA-B*57:01}}.	Risco de síndrome de hipersensibilidade potencialmente fatal.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+HLA-B*57:01 positivo {{c1::contraindica}} o uso de abacavir.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+Reação de hipersensibilidade ao abacavir cursa com febre, rash e sintomas {{c1::gastrointestinais/respiratórios}} nas primeiras semanas.	Os sintomas somem com a suspensão, mas a reexposição pode ser fatal.	Assunto::hiv-aids Conceito
+Após reação de hipersensibilidade ao abacavir, a suspensão deve ser {{c1::definitiva}}, nunca reexpor o paciente.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+A síndrome inflamatória da reconstituição imune (IRIS) é uma resposta inflamatória contra {{c1::antígenos residuais de um patógeno oportunista}}.	É mais grave quanto menor o CD4 e mais precoce a TARV em relação ao tratamento da infecção oportunista.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+A IRIS é desencadeada pela recuperação da imunidade após início da {{c1::TARV}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::FACIL
+A IRIS em TB do sistema nervoso central é especialmente perigosa por causar {{c1::dano neurológico grave}} num espaço fechado.	—	Assunto::hiv-aids Conceito
+A leucoplasia pilosa oral é causada por reativação do {{c1::vírus Epstein-Barr}}.	Forma placas esbranquiçadas nas bordas da língua — marcador de imunossupressão.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+A leucoplasia pilosa oral forma placas esbranquiçadas nas bordas da {{c1::língua}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Diferente da candidíase oral, a leucoplasia pilosa oral {{c1::não é removível à espátula}}.	Esse detalhe semiológico é o principal diferencial cobrado em prova entre as duas lesões orais.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+A leucoplasia pilosa oral geralmente é {{c1::assintomática}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+A leucoplasia pilosa oral é marcador de imunossupressão, {{c1::não uma lesão pré-maligna}}.	—	Assunto::hiv-aids Conceito
+O sarcoma de Kaposi é causado pelo {{c1::herpesvírus humano 8 (HHV-8)}}.	Neoplasia vascular com lesões cutâneo-mucosas violáceas indolores.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::MEDIA
+As lesões do sarcoma de Kaposi são cutâneo-mucosas, violáceas e {{c1::indolores}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Além de pele e mucosas, o sarcoma de Kaposi pode acometer o {{c1::trato gastrointestinal}}.	Lembrar que é doença sistêmica em imunossupressão avançada, não só cutânea.	Assunto::hiv-aids Conceito
+Em doença limitada, o sarcoma de Kaposi regride parcialmente com {{c1::reconstituição imune via TARV eficaz}}.	—	Assunto::hiv-aids Conceito
+O diagnóstico de colite por CMV em HIV avançado exige {{c1::biópsia colônica com inclusões virais}}.	Sem biópsia, PCR ou antigenemia positivos confirmam apenas viremia, não doença de órgão-alvo.	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::MEDIA
+PCR sérico ou antigenemia de CMV isolados mostram apenas {{c1::viremia}}, não doença de órgão-alvo.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::MEDIA
+A colite por CMV em HIV avançado ocorre tipicamente com CD4 {{c1::muito baixo (<50-100 células/mm³)}}.	—	Assunto::hiv-aids Banca::ENARE Ano::2025 Dificuldade::MEDIA
+A colite por CMV cursa com febre, dor abdominal e {{c1::diarreia sanguinolenta}}.	—	Assunto::hiv-aids Conceito
+O tratamento da colite por CMV é {{c1::ganciclovir intravenoso}}.	—	Assunto::hiv-aids Conceito
+Em paciente HIV com HBsAg positivo, o esquema deve {{c1::manter tenofovir}}.	Atividade dupla anti-HIV e anti-HBV.	Assunto::hiv-aids Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Suspender tenofovir em paciente HBsAg+ sem substituir a cobertura anti-HBV pode causar {{c1::flare hepático agudo}}.	Reforça por que tenofovir é mantido, e não trocado, nesse cenário de coinfecção.	Assunto::hiv-aids Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Em pneumocistose com coinfecção por hepatite B, a pneumocistose é tratada com {{c1::sulfametoxazol-trimetoprima}}, mantendo tenofovir no backbone.	A questão combina duas decisões simultâneas: escolha antirretroviral com cobertura anti-HBV + tratamento específico da pneumocistose.	Assunto::hiv-aids Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+🔤 Progressão de risco por CD4 (céls/mm³): <200 = {{c1::pneumocistose/candidíase esofágica}}; <100 = {{c2::toxoplasmose cerebral}}; <50 = {{c3::retinite/colite por CMV e complexo Mycobacterium avium}}.	Recurso próprio — valores aproximados, não limiares absolutos oficiais.	Assunto::hiv-aids Conceito Mnemonico

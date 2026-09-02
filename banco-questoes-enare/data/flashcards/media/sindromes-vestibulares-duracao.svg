@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="640" height="260" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Duração do episódio de vertigem</text>
+
+  <!-- axis line -->
+  <line x1="60" y1="150" x2="580" y2="150" stroke="#333333" stroke-width="3"/>
+  <polygon points="580,150 568,144 568,156" fill="#333333"/>
+  <text x="580" y="172" text-anchor="end" font-size="12" fill="#333333">duração crescente</text>
+
+  <!-- VPPB -->
+  <circle cx="120" cy="150" r="9" fill="#1f77b4"/>
+  <rect x="55" y="60" width="130" height="70" rx="8" fill="#e8f1fb" stroke="#1f77b4" stroke-width="2"/>
+  <text x="120" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f4e79">VPPB</text>
+  <text x="120" y="102" text-anchor="middle" font-size="13" fill="#1f4e79">Segundos</text>
+  <text x="120" y="120" text-anchor="middle" font-size="11" fill="#1f4e79">(Epley resolve)</text>
+  <line x1="120" y1="130" x2="120" y2="141" stroke="#1f77b4" stroke-width="2"/>
+
+  <!-- Meniere -->
+  <circle cx="320" cy="150" r="9" fill="#c0392b"/>
+  <rect x="245" y="60" width="150" height="70" rx="8" fill="#fbe9e7" stroke="#c0392b" stroke-width="2"/>
+  <text x="320" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#8e2415">Ménière</text>
+  <text x="320" y="102" text-anchor="middle" font-size="13" fill="#8e2415">20 min – horas</text>
+  <text x="320" y="120" text-anchor="middle" font-size="11" fill="#8e2415">+ hipoacusia/zumbido</text>
+  <line x1="320" y1="130" x2="320" y2="141" stroke="#c0392b" stroke-width="2"/>
+
+  <!-- Neurite -->
+  <circle cx="510" cy="150" r="9" fill="#2e7d32"/>
+  <rect x="440" y="60" width="140" height="70" rx="8" fill="#eaf5ea" stroke="#2e7d32" stroke-width="2"/>
+  <text x="510" y="82" text-anchor="middle" font-size="14" font-weight="bold" fill="#1b5e20">Neurite vestibular</text>
+  <text x="510" y="102" text-anchor="middle" font-size="13" fill="#1b5e20">Dias</text>
+  <text x="510" y="120" text-anchor="middle" font-size="11" fill="#1b5e20">(vertigem contínua)</text>
+  <line x1="510" y1="130" x2="510" y2="141" stroke="#2e7d32" stroke-width="2"/>
+
+  <text x="320" y="205" text-anchor="middle" font-size="12" fill="#444444">Mnemônico SMD: Segundos (VPPB) · Minutos-horas (Ménière) · Dias (neurite)</text>
+  <text x="320" y="228" text-anchor="middle" font-size="11" fill="#666666">A duração do episódio é o principal diferencial clínico entre as síndromes vestibulares periféricas.</text>
+</svg>

@@ -1,0 +1,17 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Pneumologia::Asma
+O endótipo de inflamação tipo 2 na asma é mediado por IL-4, IL-5 e {{c1::IL-13}}.	Produzidas por Th2 e ILC2.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Na inflamação tipo 2 da asma: IL-4 promove {{c1::troca de classe para IgE}}; IL-13 aumenta {{c2::hiper-responsividade brônquica}}; IL-5 recruta e mantém vivos os {{c3::eosinófilos}}.	IL-4 e IL-13 atuam sobre epitélio/músculo liso e troca de imunoglobulina; IL-5 age especificamente sobre a linhagem eosinofílica. Vinheta EBSERH 2025 Q35.	Assunto::asma Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Biomarcadores de inflamação T2 na asma: {{c1::eosinofilia}} no sangue/escarro; {{c2::IgE}} elevada; {{c3::FeNO}} (óxido nítrico exalado) elevado.	Juntos orientam elegibilidade a terapia biológica; podem ser mascarados pelo uso de corticoide sistêmico.	Assunto::asma Conceito
+A eosinofilia periférica pode estar mascarada pelo uso de {{c1::corticoide sistêmico}}.	Dosar biomarcadores antes de escalonar corticoide, se possível.	Assunto::asma Conceito
+Biológico na asma exige falha apesar de {{c1::corticoide inalatório em dose alta + LABA}}.	Com adesão e técnica inalatória confirmadas antes de escalonar para biológico.	Assunto::asma Conceito
+No fenótipo alérgico de asma, o biológico preferencial é {{c1::omalizumabe}} (anti-IgE).	Vinheta ENARE 2026 Q20 (fenótipo alérgico e terapia biológica).	Assunto::asma Banca::ENARE Ano::2026 Dificuldade::FACIL
+No fenótipo eosinofílico de asma, os biológicos usados são anti-IL5/IL5R: {{c1::mepolizumabe/benralizumabe}}.	—	Assunto::asma Conceito
+Nem toda asma grave é T2-alta — o fenótipo {{c1::neutrofílico}} responde mal a biológicos anti-T2.	Associado a obesidade ou tabagismo.	Assunto::asma Conceito
+Sinais de falência ventilatória iminente na crise asmática grave: {{c1::PCO2 normal ou elevado}} (não baixo, como esperado pela taquipneia); {{c2::tórax silencioso}} (fluxo aéreo criticamente reduzido); {{c3::rebaixamento de consciência}}; {{c4::bradicardia/hipotensão}}.	Qualquer um desses achados indica gravidade extrema e necessidade de intervenção imediata, não melhora clínica.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Um PCO2 normalizando em crise asmática grave indica {{c1::exaustão da musculatura respiratória}}.	Sinaliza ventilação mecânica iminente, não melhora clínica.	Assunto::asma Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Betabloqueador na asma deve ser usado com cautela mesmo se {{c1::cardiosseletivo}}.	Pode desencadear broncoespasmo.	Assunto::asma Conceito
+Dose alta de corticoide inalatório isolada NÃO define, por si só, {{c1::asma grave}}.	Antes de biológico é preciso confirmar adesão e técnica inalatória.	Assunto::asma Conceito
+🔤 Mnemônico das citocinas T2 e seus papéis: {{c1::4-13 fazem IgE, 5 recruta eosinófilo}}.	IL-4 e IL-13: troca de classe para IgE + hiper-responsividade. IL-5: sobrevida/recrutamento de eosinófilos. Recurso próprio.	Assunto::asma Mnemonico

@@ -426,3 +426,25 @@ model QuizItem {
   @@index([quizId])
   @@map("quiz_items")
 }
+
+// ---------------------------------------------------------------------------
+// Resumos
+// ---------------------------------------------------------------------------
+
+/// Marca um assunto (subtema) como resumo "Selecionado" — a segunda vitrine
+/// da aba Resumos, ao lado da lista 80/20 (que é `SubthemeStat.isPareto`,
+/// calculada ao vivo a partir da incidência). "Selecionado" é decisão
+/// editorial, não estatística: cobre assunto relevante fora do corte de 80%,
+/// ou um destaque à parte. Global — não é por usuário — porque é curadoria
+/// do conteúdo do banco, do mesmo jeito que o texto do resumo em si.
+///
+/// Presença de linha = selecionado. `subjectSlug` é o slug do Subtheme; não
+/// há relação declarada porque o resumo (`data/resumos/`) já pode existir
+/// antes de o assunto ter qualquer questão importada — e portanto antes de o
+/// Subtheme existir no banco.
+model ResumoSelection {
+  subjectSlug String   @id
+  createdAt   DateTime @default(now())
+
+  @@map("resumo_selections")
+}

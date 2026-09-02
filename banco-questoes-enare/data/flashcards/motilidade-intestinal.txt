@@ -1,0 +1,25 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Motilidade intestinal
+Síndrome de Ogilvie é uma pseudo-obstrução colônica {{c1::sem obstrução mecânica}}.	Dilatação maciça do cólon, típica de pacientes graves/hospitalizados.<br><img src="motilidade-intestinal-ogilvie-fluxo.svg">	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Ogilvie é típica de pacientes {{c1::graves/hospitalizados}}.	Pós-operatório, sepse, trauma, câncer, distúrbio eletrolítico, opioides/anticolinérgicos.	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::MEDIA
+O manejo inicial da síndrome de Ogilvie é {{c1::conservador}}.	Jejum, correção de K+/Mg2+, suspender opioides/anticolinérgicos, sonda retal, mobilização.	Assunto::motilidade-intestinal Conceito
+Antes de tratar Ogilvie, é obrigatório excluir {{c1::obstrução mecânica}} por imagem.	Radiografia ou TC de abdome sem ponto de transição mecânico.	Assunto::motilidade-intestinal Conceito
+No Ogilvie, ceco maior que {{c1::12 cm}} é limiar de indicação de neostigmina.	Também indicada se sem resposta ao conservador em 24-48h.	Assunto::motilidade-intestinal Conceito
+Além do ceco >12 cm, a neostigmina também é indicada por falta de resposta ao conservador em {{c1::24-48h}}.	—	Assunto::motilidade-intestinal Conceito
+A neostigmina reverte a atonia colônica por estímulo {{c1::colinérgico}}.	Inibidor da acetilcolinesterase — restaura o tônus colinérgico do cólon.	Assunto::motilidade-intestinal Conceito
+Durante infusão de neostigmina é obrigatória {{c1::monitorização cardíaca contínua}}.	Foi o ponto central da vinheta ENARE 2025 Q36.	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::FACIL
+O risco cardíaco temido da neostigmina é {{c1::bradicardia/assistolia}}.	Atropina deve estar disponível à beira do leito.	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::FACIL
+Contraindicação cardíaca à neostigmina: {{c1::bradicardia de base}}.	Outras: obstrução mecânica não excluída, asma não controlada, gravidez, DRC grave.	Assunto::motilidade-intestinal Conceito
+Se a neostigmina falhar no Ogilvie, a próxima etapa é {{c1::colonoscopia descompressiva}}.	Antes de considerar cirurgia.	Assunto::motilidade-intestinal Conceito
+Cirurgia no Ogilvie é reservada para {{c1::perfuração, isquemia ou peritonite}}.	Não é a primeira conduta — vem depois de conservador e neostigmina.	Assunto::motilidade-intestinal Conceito
+Na avaliação de impactação fecal, a etapa obrigatória inicial é o {{c1::toque retal}}.	Pode já diagnosticar a impactação e sugerir dissinergia do assoalho pélvico.	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Diante de fecaloma, a desimpactação deve vir {{c1::antes}} de qualquer laxante oral.	Manual ou por enema, evitando cólica intensa e risco de perfuração.	Assunto::motilidade-intestinal Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+NÃO usar {{c1::laxante estimulante isolado}} em fecaloma sem desimpactação prévia.	Risco de cólica intensa e até perfuração.	Assunto::motilidade-intestinal Conceito
+Constipação crônica após os {{c1::50 anos}} de início exige excluir sinais de alarme.	Perda de peso, sangramento, anemia — não tratar direto como funcional.	Assunto::motilidade-intestinal Conceito
+Pseudo-obstrução intestinal por neuropatia autonômica diabética ocorre em diabetes de {{c1::longa data e mal controlado}}.	Manifestação visceral da disautonomia diabética.	Assunto::motilidade-intestinal Banca::ENARE Ano::2026 Dificuldade::FACIL
+Na disautonomia diabética, a dismotilidade pode acometer {{c1::qualquer segmento}} do tubo digestivo.	Gastroparesia, constipação e pseudo-obstrução podem coexistir no mesmo paciente.	Assunto::motilidade-intestinal Banca::ENARE Ano::2026 Dificuldade::FACIL
+Na neuropatia autonômica diabética, a hiperglicemia crônica lesa o plexo {{c1::mientérico}}.	Compromete a coordenação motora do sistema nervoso entérico.	Assunto::motilidade-intestinal Conceito
+O tratamento da disautonomia diabética inclui otimizar o controle glicêmico e usar {{c1::procinéticos}}.	Conforme o segmento predominantemente afetado.	Assunto::motilidade-intestinal Conceito
+🔤 Mnemônico da conduta escalonada no Ogilvie: {{c1::CNCC}}.	Conservador → Neostigmina → Colonoscopia descompressiva → Cirurgia. Recurso próprio, não é mnemônico oficial.	Assunto::motilidade-intestinal Mnemonico

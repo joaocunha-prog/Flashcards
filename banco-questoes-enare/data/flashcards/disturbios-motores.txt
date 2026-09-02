@@ -1,0 +1,27 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Neurologia::Distúrbios motores
+Parkinson — tétrade motora: tremor de repouso, rigidez, {{c1::bradicinesia}} e instabilidade postural.	4 achados cardinais; início tipicamente assimétrico.	Assunto::disturbios-motores Conceito
+Na doença de Parkinson, o início dos sintomas motores é tipicamente {{c1::assimétrico}}.	Assimetria persistente ajuda a distinguir de parkinsonismos atípicos/simétricos.	Assunto::disturbios-motores Conceito
+Boa resposta a levodopa é quase um critério {{c1::de exclusão}} de outros parkinsonismos.	Resposta pobre à levodopa sugere parkinsonismo atípico, não Parkinson idiopático.	Assunto::disturbios-motores Conceito
+Hipotensão ortostática neurogênica no Parkinson ocorre {{c1::sem taquicardia compensatória}}.	Distingue de hipotensão por hipovolemia, em que a FC sobe como resposta reflexa.	Assunto::disturbios-motores Banca::ENARE Ano::2025 Dificuldade::FACIL
+A ausência de taquicardia reflexa na hipotensão ortostática neurogênica indica falência do {{c1::barorreflexo simpático eferente}}.	O acometimento do Parkinson não fica restrito ao SNC, atinge também o SNA periférico.	Assunto::disturbios-motores Conceito
+Critério de hipotensão ortostática (em até 3 minutos de ortostatismo): queda ≥{{c1::20 mmHg}} na PAS ou queda ≥{{c2::10 mmHg}} na PAD.	Basta atender um dos dois critérios para caracterizar hipotensão ortostática.	Assunto::disturbios-motores Conceito
+Manejo inicial da hipotensão ortostática neurogênica: medidas {{c1::não farmacológicas}} (hidratação, meias de compressão, elevar cabeceira).	Fludrocortisona ou midodrina ficam reservadas a casos refratários.	Assunto::disturbios-motores Conceito
+Se refratária a medidas posturais, a hipotensão ortostática neurogênica pode ser tratada com {{c1::fludrocortisona ou midodrina}}.	Nunca tratar suspendendo só os anti-hipertensivos, sem medidas específicas.	Assunto::disturbios-motores Conceito
+Piridoxina (B6) em altas doses, isolada, {{c1::reduz o efeito}} da levodopa.	Acelera a descarboxilação periférica da levodopa em dopamina, antes de cruzar a barreira hematoencefálica.	Assunto::disturbios-motores Banca::ENARE Ano::2025 Dificuldade::MEDIA
+O inibidor periférico da dopa-descarboxilase associado à levodopa é a {{c1::carbidopa}}.	Benserazida é a alternativa. Neutraliza o efeito da piridoxina isolada sobre a levodopa.	Assunto::disturbios-motores Conceito
+Síndrome das pernas inquietas: urgência de mover as pernas que piora ao {{c1::repouso/à noite}}.	Alivia com o movimento — padrão circadiano típico.	Assunto::disturbios-motores Conceito
+A síndrome das pernas inquietas está fortemente ligada a deficiência de {{c1::ferro}}.	Associação presente mesmo quando a ferritina está "normal" para a população geral.	Assunto::disturbios-motores Conceito
+Na síndrome das pernas inquietas, repor ferro se ferritina <{{c1::75 ng/mL}}.	Limiar mais alto que o usual (populacional é <15 ng/mL) — pitfall clássico de prova.	Assunto::disturbios-motores Banca::ENARE Ano::2025 Dificuldade::FACIL
+A síndrome das pernas inquietas pode ser secundária a uremia, gestação ou {{c1::deficiência de ferro}}.	Sempre excluir essas causas antes de rotular como idiopática/familiar.	Assunto::disturbios-motores Conceito
+Sem deficiência de ferro, o tratamento da síndrome das pernas inquietas é agonista dopaminérgico ou {{c1::gabapentinoide}}.	Agonistas: pramipexol ou ropinirol. Gabapentinoides: gabapentina/pregabalina.	Assunto::disturbios-motores Conceito
+O ferro é cofator essencial da {{c1::tirosina-hidroxilase}}, enzima limitante da síntese de dopamina.	Explica a ligação, muitas vezes causal, entre deficiência de ferro e síndrome das pernas inquietas.	Assunto::disturbios-motores Conceito
+Tremor essencial é um tremor de {{c1::ação/postural}}, diferente do tremor de repouso do Parkinson.	Distinguir os dois tremores é o eixo central cobrado neste assunto.	Assunto::disturbios-motores Conceito
+O tremor essencial é tipicamente {{c1::bilateral}}, acometendo mãos e, às vezes, cabeça/voz.	Sem outros sinais parkinsonianos associados.	Assunto::disturbios-motores Conceito
+O tremor essencial tipicamente melhora com {{c1::álcool}}.	Melhora transitória — não é recomendação terapêutica.	Assunto::disturbios-motores Conceito
+Tratamento de primeira linha do tremor essencial: {{c1::propranolol}}.	Betabloqueador — classe terapêutica cobrada na prova.	Assunto::disturbios-motores Banca::ENARE Ano::2025 Dificuldade::FACIL
+Se houver contraindicação a betabloqueador no tremor essencial (ex.: asma grave), a alternativa de primeira linha é {{c1::primidona}}.	Propranolol é contraindicado em asma/DPOC grave e bradiarritmias.	Assunto::disturbios-motores Conceito
+O tremor essencial costuma ter herança {{c1::autossômica dominante}}, com história familiar positiva.	Dado que costuma aparecer na vinheta da prova.	Assunto::disturbios-motores Conceito
+🔤 No tremor essencial, o circuito hiperativo envolve olivo-cerebelo-{{c1::tálamo-cortical}}.	Modulação por vias GABAérgicas explica a resposta a betabloqueador e primidona.	Assunto::disturbios-motores Mnemonico

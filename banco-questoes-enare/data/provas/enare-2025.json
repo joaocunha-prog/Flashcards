@@ -1,0 +1,2797 @@
+{
+  "slug": "enare-2025",
+  "year": 2025,
+  "board": "ENARE",
+  "title": "ENARE 2025",
+  "source": "PROVA_OFICIAL",
+  "reference": "Caderno compilado MEDGRUPO (Concurso na Íntegra), com gabarito oficial e percentual de resposta por alternativa — ENARE 2025",
+  "questions": [
+    {
+      "number": 1,
+      "statement": "Um paciente foi internado na enfermaria de clínica médica por estado de sonolência após episódios frequentes e abundantes de diarreia e vômitos por 3 dias. A pressão arterial estava reduzida e os pulsos, finos. Quando despertava, referia sede. Suas mucosas encontravam-se secas. O exame laboratorial revelou sódio de 121 mEq/L. Diante do quadro de hiponatremia, procedeu-se a dosagem de sódio urinário e a terapia. O sódio urinário mais provável e a terapia mais recomendada no momento são, respectivamente:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "sódio urinário de 10 mEq/L e infusão de 100 ml a 300 ml de solução salina 3% com reavaliação laboratorial em 4 horas"
+        },
+        {
+          "letter": "B",
+          "text": "sódio urinário de 30 mEq/L e infusão de solução salina 0,9% 3000 ml em 24h"
+        },
+        {
+          "letter": "C",
+          "text": "sódio urinário de 15 mEq/L e infusão de soro fisiológico 0,9% conforme melhora clínica"
+        },
+        {
+          "letter": "D",
+          "text": "sódio urinário de 20 mEq/L e administração de cápsula de sal 4 vezes ao dia por via enteral e posteriormente por via oral"
+        },
+        {
+          "letter": "E",
+          "text": "sódio urinário de 20 mEq/L e administração de 700 ml de salina hipertônica a 3% em 24 horas conforme cálculo do déficit de sódio."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Distúrbios hidroeletrolíticos",
+      "topic": "Hiponatremia hipovolêmica sintomática grave",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hiponatremia",
+        "sódio urinário",
+        "salina hipertônica"
+      ]
+    },
+    {
+      "number": 2,
+      "statement": "Uma mulher de 30 anos internou-se com perda ponderal de 20 kg (peso atual: 56 kg; peso usual: 76 kg), candidíase, diarreia crônica, baixo índice de Karnofsky, anemia e contagem de linfócitos totais iguais a 800 cél/dl. O diagnóstico de tuberculose pulmonar cavitária, concomitante a padrão miliar, levou a residente de clínica médica a investigar a infecção pelo HIV. O diagnóstico firmado de infecção pelo HIV, no dia seguinte, foi seguido de orientação e condução clínica. Considerando R - rifampicina, H - isonoazida, Z - pirazinamina, E - etambutol, a terapia recomendada para a coinfecção HIV - tuberculose, segundo o último PCDT HIV 2024, é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar terapia antirretroviral após 8 semanas do início do esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275)"
+        },
+        {
+          "letter": "B",
+          "text": "aguardar contagem de linfócitos CD4 para iniciar a terapia antirretroviral e o esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275)"
+        },
+        {
+          "letter": "C",
+          "text": "iniciar a terapia antirretroviral enquanto se investiga se há disseminação da micobactéria tuberculose, pois esse achado mudaria o tempo de tratamento para tuberculose"
+        },
+        {
+          "letter": "D",
+          "text": "iniciar prontamente o esquema com 4 comprimidos de RHZE (150/75/400/275) e em até uma semana iniciar tratamento antirretroviral, independente da contagem de linfócitos CD4"
+        },
+        {
+          "letter": "E",
+          "text": "iniciar prontamente o esquema com 3 comprimidos de RHZE (150/75/400/275) e, caso a contagem de linfócitos CD4 esteja menor que 50 células/mm3, prosseguir com a terapia antirretroviral em torno da 6ª semana."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Coinfecção tuberculose-HIV — início da TARV",
+      "difficulty": "FACIL",
+      "keywords": [
+        "coinfecção TB-HIV",
+        "RIPE",
+        "início da TARV"
+      ],
+      "reference": "PCDT de Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde 2024"
+    },
+    {
+      "number": 3,
+      "statement": "Um paciente de 55 anos, portador de doença de Crohn há mais de 10 anos em remissão com adalimumabe (anti-TNFalfa), foi internado na enfermaria de clínica médica para investigar síndrome consumptiva. O grupo de residentes notou linfadenomegalias cervicais sem sinais inflamatórios, presença de hepatoesplenomegalia e estertores crepitantes em ambos os hemitórax. Foi feito diagnóstico de tuberculose a partir de teste rápido molecular do lavado broncoalveolar, cujo material foi positivo para micobactéria tuberculosa (sensível à rifampicina). Mesmo durante o tratamento padrão com rifampicina, isoniazida, pirazinamida e etambutol, o paciente apresentava febre vespertina frequente de aproximadamente 38 graus. Logo no diagnóstico, fora suspenso o adalimumabe. A despeito de a investigação para outros agentes infecciosos ter sido negativa e de não haver resistência da micobactéria, a febre ficou mais frequente e houve piora clínica com derrame pleural e hipoxemia, além de piora laboratorial com aumento de aminotransferases (em torno de 3 vezes o limite superior da normalidade) após 1 mês do início do tratamento contra micobactéria. O manuseio adequado do quadro é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "manter o esquema para tuberculose e iniciar corticoide"
+        },
+        {
+          "letter": "B",
+          "text": "suspender o esquema da tuberculose e realizar biópsia de linfonodo"
+        },
+        {
+          "letter": "C",
+          "text": "iniciar tratamento para linfoma, pois se trata de uma complicação do adalimumabe"
+        },
+        {
+          "letter": "D",
+          "text": "trocar esquema contra tuberculose para amicacina, ofloxacina e etambutol"
+        },
+        {
+          "letter": "E",
+          "text": "suspender a terapia para tuberculose e reintroduzi-la gradualmente após 2 semanas de normalização das amitransferases, iniciando com a rifampicina e etambutol"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Infectologia",
+      "subtheme": "Tuberculose",
+      "topic": "Reação paradoxal (IRIS) no tratamento da tuberculose em uso de anti-TNF",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "IRIS paradoxal",
+        "tuberculose",
+        "anti-TNF",
+        "adalimumabe"
+      ]
+    },
+    {
+      "number": 4,
+      "statement": "Um homem de meia-idade retornou ao ambulatório de clínica médica em cadeira de rodas, trazido pela esposa, relatando estar a maior parte do tempo acamado. O início das dores lombares foi há 4 meses. A dor situa-se principalmente na transição toracolombar, permanece durante a noite e já está refratária a uso de opioides fracos. A constipação piorou (última evacuação há 5 dias) e o paciente não urina com tanta frequência. Quando sente vontade de urinar, não consegue segurar completamente. A esposa relata que o marido perdeu pelo menos uns 8 kg nos 4 meses desde o início do quadro, havendo febre vespertina ocasional não aferida. A esposa também atualiza o quadro dizendo que a dor parece já estar presente há mais tempo (uns 6 meses). Há aproximadamente 1 mês, ele havia sentido uma fraqueza mais proeminente nas pernas, que o levou a cair sentado. Desde então, não conseguiu se levantar. Exame físico: paraplegia espática e hiperreflexia de membros inferiores, com redução de sensibilidade para tato,.temperatura e pressão e dor com nível sensitivo na altura dos mamilos. Havia redução da sensibilidade profunda caracterizada por perda completa da propriocepção e sensibilidade vibratório. O restante do exame físico revela paciente hipocorado, pouco desidratado, com distensão abdominal e redução dos ruídos instestinais. Massa palpável em hipogástrio, indolor, sugerindo bexigoma. Nos exames solicitados, revelaram-se anemia normocítica, normocrônimica, VHS 88 mmHg, PCR: 95 (N: até 10 mh/L), creatinina: 1,6 mg/dl; outros exames estavam normais, incluindo hepatograma, Na, K, Ureia, PSA. Na radiografia de coluna lombar, não se evidenciou fratura, mas havia alterações degenerativas comuns para a idade em região sacroilíaca e acetabular. O radiolista sugeriu redução de densidade óssea, mas não havia lesões liticas ou blásticas. Havia achados de fecalitos em região retossogmodeeana e provável bexigoma pela análise da radiografia. O medico decidiu interná-lo imediatamente para investigação e tratamento. Em relação a esse caso é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a principal hipótese e de mielite transversa, e os exames complementares mais importantes a serem realizados, nesse caso são ressonância de coluna lombar e punção lombar;"
+        },
+        {
+          "letter": "B",
+          "text": "dado a probabilidade de osteomíelite e abscesso epidural é baixa, como é possível concluir pela radiografia de coluna, pode-se iniciar corticoide 1 mg/kg para síndrome de compressão medular;"
+        },
+        {
+          "letter": "C",
+          "text": "como a fosfatase alcalina, gama glutamiltransferase (GGT) e transaminase estão normais, não é necessário investigar os níveis séricos de cálcio e fosforo."
+        },
+        {
+          "letter": "D",
+          "text": "as alterações degenerativas e provável osteopenia na radiografia de coluna lombar, somadas ao quadro de claudicação neurogênica, sugerem fratura osteoporótica compressiva, Nesse caso, o médico deve optar pela realização de tomografia de coluna lombar para visualização da fratura e rápido encaminhamento ao serviço de neurocirurgia ou ortopedia;"
+        },
+        {
+          "letter": "E",
+          "text": "o paciente possui vários sinais de alarma: febre, perda ponderal inexplicada, dor noturna e refratária e manisfestações neurológicas graves. Essas últimas motivam a realização de ressonância de coluna torácica e lombar de urgência para investigação de síndrome de compressão medular."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Compressão medular — sinais de alarme em lombalgia",
+      "difficulty": "FACIL",
+      "keywords": [
+        "sinais de alarme",
+        "compressão medular",
+        "dor noturna",
+        "bexigoma"
+      ]
+    },
+    {
+      "number": 5,
+      "statement": "Ao atender uma paciente pós-menopausa com câncer de mama já em estado de disseminação para fígado e osso, a médica residente teve acesso aos exames laboratoriais: hemoglobina: 8,0 mg/dl; hematócrito: 24 mg/dl; ferritina: 200 mg/dl; albumina: 3,5 mg/dl (normal: 3 a 5); globulina: 6,0 mg/dl (normal: 2 a 4 mg/dl); creatinina: 2,0 mg/dl; cálcio: 14,5 mg/dl (normal: 8 a 10 mg/dl); fósforo: 3,5 mg/dl; 25 OH vitamina D: 25 mg/dl (normal: 30 a 50); PTH: 20 pg/ml (normal: 30 a 65); e PCR: 115 mg/L (normal: até 10 mg/L). A queixa da paciente era dor, mas pela confusão mental optou-se por olhar os exames antes de completar a anamnese. Sobre a investigação do quadro da paciente, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "nas hipercalcemias moderadas a graves, não precisamos confirmar ou corrigir pela albumina, pois o valor é muito alto para haver um erro analítico;"
+        },
+        {
+          "letter": "B",
+          "text": "o nível de cálcio sérico não tem correspondência com os sintomas e a velocidade de instalação;"
+        },
+        {
+          "letter": "C",
+          "text": "a equipe médica pensou em hipercalcemia não mediada pelo PTH e solicitou, corretamente, peptídeo relacionado ao PTH (PTHrp) e 1,25 dihidroxivitamina D;"
+        },
+        {
+          "letter": "D",
+          "text": "a paciente, pós-menopausa, ambulatorial, com hipercalcemia moderada a grave, deve ter hiperparatireoidismo primário;"
+        },
+        {
+          "letter": "E",
+          "text": "como a maioria dos casos de hipercalcemia estão relacionados a hiperparatireoidismo e malignidade, não há necessidade de revisão da anamnese em busca de medicações, suplementos e produtos herbários."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Hipercalcemia maligna — investigação não mediada por PTH",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hipercalcemia da malignidade",
+        "PTHrp",
+        "1,25-dihidroxivitamina D"
+      ]
+    },
+    {
+      "number": 6,
+      "statement": "Um paciente sem doença hepática prévia, e em tratamento para tuberculose pulmonar com rifampicina, isoniazida, pirazinamida e etambutol, inicia quadro de sintomas dispépticos e elevação de transaminases (TGO e TGP). A conduta acertada em relação a esse caso clínico é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "suspender imediatamente todas as medicações e reintroduzi-las quando as transaminases estiverem normalizadas;"
+        },
+        {
+          "letter": "B",
+          "text": "manter as medicações para tuberculose tolerando até 5 vezes o limite superior da normalidade;"
+        },
+        {
+          "letter": "C",
+          "text": "trocar imediatamente para capreomicina, etambutol e levofloxacina (esquema para hepatotoxicidade) e prolongar a terapia por 12 meses;"
+        },
+        {
+          "letter": "D",
+          "text": "suspender imediatamente todas as medicações quando as transaminases ultrapassarem 3 vezes o limite superior da normalidade e monitorar a função hepática a cada 3 a 7 dias até a normalização;"
+        },
+        {
+          "letter": "E",
+          "text": "suspender apenas a isoniazida e a pirazinamida, pois deve-se iniciar a recontagem a partir da rifampicina e etambutol, e monitorar a função hepática a cada 3 a 7 dias para reintrodução ordenada dos outros dois medicamentos."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Tuberculose",
+      "topic": "Hepatotoxicidade por tuberculostáticos",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hepatotoxicidade",
+        "RIPE",
+        "transaminases"
+      ]
+    },
+    {
+      "number": 7,
+      "statement": "Em uma investigação de quadro de osteomielite, surgiram dúvidas no caso concreto. O paciente de 68 anos era paraplégico e já apresentava uma lesão por pressão crônica em região sacral. No entanto, relatou saída de secreção nos últimos meses e aprofundamento da úlcera, com exposição óssea. O local no entorno da úlcera não demonstrava sinais flogísticos ou necrose. Não havia febre ou sinais sistêmicos de gravidade, e exames laboratoriais também não tinham alterações significativas como leucocitose e marcadores inflamatórios em elevação. Diante da estabilidade do quadro, foram feitas algumas considerações. É correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o diagnóstico pode ser sugerido pela ressonância nuclear magnética da região sacral, mas pode considerar também a biópsia óssea aberta para confirmar o diagnóstico de osteomielite;"
+        },
+        {
+          "letter": "B",
+          "text": "está indicada a realização de ressonância nuclear magnética ou cintilografia, bem como coleta da secreção para análise de Gram e cultura guiando a terapia antibiótica empírica até os resultados;;"
+        },
+        {
+          "letter": "C",
+          "text": "está indicado o início de terapia antimicrobiana com cobertura para germes aeróbios e anaeróbios por 2 semanas, pela via parenteral; caso se confirme lesão cortical óssea com edema, deve-se prolongar a terapia por 6 semanas;"
+        },
+        {
+          "letter": "D",
+          "text": "o início do antibiótico não atrapalha a cultura de material ósseo retirado por agulha grossa da ferida, desde que tenha sido suspenso 24 horas antes do procedimento;"
+        },
+        {
+          "letter": "E",
+          "text": "apesar de medidas de fisioterapia, nutrição e cuidados para com a cicatrização da ferida, somente a descolonização de tecidos moles e pele com antibióticos locais e sistêmicos pode ajudar o paciente do quadro descrito."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Infectologia",
+      "subtheme": "Infecções de pele e partes moles",
+      "topic": "Osteomielite por contiguidade em lesão por pressão",
+      "difficulty": "FACIL",
+      "keywords": [
+        "osteomielite",
+        "lesão por pressão",
+        "biópsia óssea"
+      ]
+    },
+    {
+      "number": 8,
+      "statement": "Na investigação de ascite, a paracentese diagnóstica foi realizada. O gradiente soro ascite de albumina foi calculado com valor de 1,5 g/dl. No entanto, o paciente apresentou proteína do líquido ascítico em valores baixos (1,8 g/dl), ou seja, menores que 2,5 g/dl. Uma causa para essa ascite é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "cirrose hepática;"
+        },
+        {
+          "letter": "B",
+          "text": "insuficiência cardíaca congestiva;"
+        },
+        {
+          "letter": "C",
+          "text": "pancreatite aguda;"
+        },
+        {
+          "letter": "D",
+          "text": "síndrome nefrótica;"
+        },
+        {
+          "letter": "E",
+          "text": "trombose de veía porta."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Ascite por cirrose hepática — GASA e proteína do líquido",
+      "difficulty": "FACIL",
+      "keywords": [
+        "GASA",
+        "cirrose",
+        "ascite"
+      ]
+    },
+    {
+      "number": 9,
+      "statement": "Pacientes com sindrome nefrótica apresentam edema, proteinúria acima de 3,5 g em 24 horas e predisposição a trombose. A forma membranosa, presente em aproximadamente 30% das formas idiopáticas em adultos, pode ser diagnosticada por positividade de um anticorpo. O anticorpo associado à forma membranosa idiopática de sindrome nefrótica em adultos é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "anticorpo contra a fosfolipase A2 do tipo M;"
+        },
+        {
+          "letter": "B",
+          "text": "anticorpo anticitosol fígado e rim;"
+        },
+        {
+          "letter": "C",
+          "text": "anticorpo antimúsculo liso;"
+        },
+        {
+          "letter": "D",
+          "text": "fator antinuclear;"
+        },
+        {
+          "letter": "E",
+          "text": "anti-Jo-1."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Glomerulopatias",
+      "topic": "Nefropatia membranosa idiopática — anti-PLA2R",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome nefrótica",
+        "nefropatia membranosa",
+        "anti-PLA2R"
+      ]
+    },
+    {
+      "number": 10,
+      "statement": "Uma paciente de 70 anos foi internada por sintomas de astenia, hiporexia, náuseas e redução do débito urinário. Estava lúcida, mas um pouco lentificada. O exame clínico demonstrou flapping e hiperreflexia difusa. Estava estável hemodinamicamente, com membros aquecidos, porém com cianose bilateral na planta dos pés. O exame laboratorial revelava disfunção renal aguda com leucocitose sem desvio à esquerda. Eosinófilos: 990 células/mm³. A urina apresentava coloração avermelhada, sugerindo hematúria franca justificada pelo uso de anticoagulante profilático devido a alto risco trombótico. A paciente era portadora de câncer de estômago em atividade, ficando acamada a maior parte do tempo, com investigação para carcinomatose peritoneal. Sobre o quadro descrito, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o diagnóstico pode ser sugerido com fissuras preenchidas por colesterol em arteríolas da biópsia de pele;"
+        },
+        {
+          "letter": "B",
+          "text": "biópsia renal deve ser feita mesmo sem proteinúria significativa, preferencialmente antes da introdução de terapia substitutiva renal;"
+        },
+        {
+          "letter": "C",
+          "text": "eosinofilia com tumor pode sugerir doença metastática avançada, motivando a pesquisa de trombose de veia renal bilateral (principal hipótese);"
+        },
+        {
+          "letter": "D",
+          "text": "a nefrite intersticial aguda pelo uso do anticoagulante pode ser diagnosticada com a presença de hematúria, proteinúria franca (acima de 1 g/dia) e eosinofilúria;"
+        },
+        {
+          "letter": "E",
+          "text": "o uso do corticoide é indicado por mitigar os sintomas e dar tempo para a investigação do quadro atual e da carcinomatose peritoneal."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Doença ateroembólica de colesterol",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "embolia de colesterol",
+        "eosinofilia",
+        "livedo reticular",
+        "anticoagulante"
+      ]
+    },
+    {
+      "number": 11,
+      "statement": "Uma paciente de 58 anos foi internada por confusão mental e dor em ombro direito. É portadora de neoplasia de mama em estágio avançado com metástases ósseas. Havia relato, pela anamnese dirigida, de constipação e distensão abdominal. O marido confirmou que, nos últimos dias, ela já não conseguia levantar-se e tomar adequadamente seus medicamentos. Durante a internação confirmou-se a fratura patológica de cabeça do úmero e hipercalcemia da malignidade (PTH suprimido). Houve redução dos níveis séricos de cálcio (Ca: 15 mg/dl para 12 mg/dl em 2 dias), e a creatinina sérica, que na entrada era de 3,8 mg/dl, caiu para 2,0 mg/dl em 48 horas. Os medicamentos reintroduzidos com a melhora clínica da paciente após 3 dias de hidratação e pamidronato foram: metadona, amitriptilina, duloxetina e gabapentina - os últimos por dor radicular. Infelizmente, os sintomas de distensão abdominal, náuseas, vômitos e constipação se evidenciaram, levando à realização de exame tomográfico do abdômen e pelve. Observou-se distensão de ceco (9,0 cm em maior diâmetro), cólon ascendente, transverso e cólon descendente com presença de fecaloma em sigmoide. Diante da principal hipótese diagnóstica, a melhor conduta imediata é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "fazer extração manual do fecaloma associada a administração de clister em gravidade com lactulona e óleo mineral por via oral"
+        },
+        {
+          "letter": "B",
+          "text": "chamar a cirurgia geral para avaliação pelo risco de rotura de cólon e ceco"
+        },
+        {
+          "letter": "C",
+          "text": "realizar colonoscopia de urgência para retirada de fecaloma e descompressão gasosa"
+        },
+        {
+          "letter": "D",
+          "text": "prescrever eritromicina, ondansetrona, lactulona, óleo mineral e passar sonda nasogástrica em sifonagem;"
+        },
+        {
+          "letter": "E",
+          "text": "suspender dieta, antidepressivos e opioides; continuar correção de cálcio sérico e avaliar administração de neostigmina."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Motilidade intestinal",
+      "topic": "Pseudo-obstrução colônica aguda (síndrome de Ogilvie) em paciente oncológico",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome de Ogilvie",
+        "pseudo-obstrução colônica",
+        "opioide",
+        "neostigmina"
+      ]
+    },
+    {
+      "number": 12,
+      "statement": "Em segunda quimioterapia para linfoma não Hodgkin (15 dias após a 1ª quimioterapia), uma paciente jovem apresentou cefaleia, rinite, tosse e febre oito horas após a infusão do medicamento, já no domicílio. Foi internada devido ao risco de infecção secundária à imunossupressão. Seu esquema era o R-CHOP, a saber: rituximabe, ciclofosfamida, doxorrobucina, vincristina e prednisona. Apesar de coleta de hemocultura, início de antibiótico empírico e oseltamivir, não houve qualquer outro sintoma na sequência de sua internação em 24 horas. Exames laboratoriais e de imagem foram normais. O trabalho de investigação levou à possibilidade mais confiável nesse caso por:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "infusão rápida de rituximabe (450 mg/hora) sem a administração de paracetamol e anti-histamínico 30 minutos antes da medicação;"
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de hiperestimulação ovariana por possível tentativa de evitar insuficiência ovariana pela ciclofosfamida;"
+        },
+        {
+          "letter": "C",
+          "text": "pneumocistose, cujo tratamento não fora contemplado no esquema da enfermaria e não realizada profilaxia com bactrim;"
+        },
+        {
+          "letter": "D",
+          "text": "reação de hipersensibilidade aguda à vincristina;"
+        },
+        {
+          "letter": "E",
+          "text": "sepse por bacilo Gram negativo em nadir de quimioterapia."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Oncologia",
+      "subtheme": "Toxicidade de quimioterápicos",
+      "topic": "Reação relacionada à infusão de rituximabe",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "rituximabe",
+        "reação relacionada à infusão",
+        "R-CHOP"
+      ]
+    },
+    {
+      "number": 13,
+      "statement": "Uma paciente de 54 anos foi internada por tosse, desconforto respiratório e aumento do volume abdominal. Está em acompanhamento conjunto com a equipe de cuidados paliativos realizando paracentese de alívio devido à ascite. É portadora de câncer de ovário com metástases para peritônio. Após a realização de tomografia de tórax e abdômen com contraste para avaliar trombose de veias abdominais, observou-se trombo em tronco da artéria pulmonar esquerda de aspecto recente. A equipe médica não teve dúvida quanto à melhor condução do caso, após a análise do exame laboratorial: anemia: Hb 8,5 g/dl, leucócitos e coagulograma normais, plaquetas: 85 mil e função renal normal. A paciente estava estável e era eutrófica, não havendo histórico de sangramento recente. Prontamente, a equipe realizou:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aplicação de heparina de baixo peso molecular (enoxaparina) 1 mg/kg de 12/12h por 5 dias e, posteriormente, início de warfarina;"
+        },
+        {
+          "letter": "B",
+          "text": "parecer à cirurgia vascular para colocação de filtro de veia cava;"
+        },
+        {
+          "letter": "C",
+          "text": "início de apixabana 10 mg (2 vezes ao dia) durante 7 dias seguido de 5 mg (2 vezes ao dia) enquanto atividade de neoplasia ou até aumento do risco de sangramento;"
+        },
+        {
+          "letter": "D",
+          "text": "dabigatrana 150 mg (2 vezes ao dia) indefinidamente devido à neoplasia metastática em atividade;"
+        },
+        {
+          "letter": "E",
+          "text": "enoxaparina 1 mg/kg de peso (1 vez ao dia) corrigido pela plaquetopenia por 5 dias. O tratamento seguirá ambulatorialmente com rivaroxabana 20 mg por dia nas três primeiras semanas; posteriormente, rivaroxaban 15 mg (1 vez ao dia) por pelo menos 6 meses ou até cessar fator provocador da trombose."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Tromboembolismo venoso associado a câncer",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "TEP",
+        "câncer",
+        "apixabana",
+        "anticoagulação"
+      ]
+    },
+    {
+      "number": 14,
+      "statement": "Uma jovem de 24 anos apresentou odinofagia associada a fadiga e uma cervicalgia mais pronunciada à esquerda, identificando ser um caroço de aproximadamente 1 cm. O quadro progrediu durante os três dias com piora dos sintomas, além de febrícula - de até 37,8 ℃ - constante. A seguir, ocorreu dor em hipocôndrio direito. No quinto dia de sintomas, foram prescritos amoxicilina e anti-inflamatório não esteroidal devido a hiperemia de orofaringe com placas brancacentas - a paciente teve diagnóstico de amigdalite bacteriana, apresentando náuseas e anorexia. Com aproximadamente 1 semana de sintomas e 3 dias do uso do antibiótico, a jovem decidiu procurar novo atendimento médico, que revelou: sinais vitais estáveis, porém com taquicardia (FC 110 bpm), eutrófica, sem evidência de emagrecimento, eupneica. Rash eritematoso maculopaular difuso estava visível em tronco, abdômen e porção próxima de membros superiores e inferiores. Havia presença de edema periorbitário bilateral. Linfonodos posteriores aos músculos esternocleidomastoideos estavam aumentados e pouco dolorosos (1,5 e 1,2 cm), fibroelásticos, móveis. Havia também micropoliadenopatia em outras cadeias cervicais superficiais. Orofaringe apresentava hipertrofia amigdaliana, petéquias em palato e exsudato membranoso. Ao exame ginecológico com ectopia em colo uterino, foi detectado corrimento fisiológico, sem presença de outras alterações como úlceras. O abdômen era doloroso em andar superior à palpação profunda com hepatimetria de 14 cm e borda romba e dolorosa e espaço de Traube ocupado. Spbre as hipóteses diagnósticas e complementação da investigação, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "resultado negativo para vírus Epstein-Barr elimina a necessidade de repetição do exame, pois se trata de teste muito sensível e específico. Deve-se prosseguir na investigação de outros quadros com a biópsia excisional de linfonodo cervical;"
+        },
+        {
+          "letter": "B",
+          "text": "anticorpos IgC para antígeno antiviral do capsídeo (VCA) e antígeno nuclear de Epstein-Barr (EBNA) estão presentes por toda a vida em pacientes com exposição prévia ao vírus Epstein-Barr (EBV) e não são marcadores de um processo ativo sugerindo verdadeira infecção;"
+        },
+        {
+          "letter": "C",
+          "text": "a síndrome descirta pode ser decorrente de processos neoplásticos, infecciosos ou autoimunes. A investigação deve começar pela punção aspirativa do linfonodo maior e sorologias para os seguintes vírus: Epstein-Barr, citomegalovírus, herpes vírus, sífilis e HIV;"
+        },
+        {
+          "letter": "D",
+          "text": "a presença de linfocitose com linfócitos atípicos associada a hipogamaglobilinemia reforça os diagnósticos de lúpus eritematoso sistêmico ou linfomas;"
+        },
+        {
+          "letter": "E",
+          "text": "amigdalite resistente a antibiótico associada a petéquias em palato pode sugerir a doença de Lemierre causada pelo Fusobacterium Necrophorum, motivando a troca do esquema antibiótico para ceftriaxona no caso clínico descrito."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Doenças virais",
+      "topic": "Mononucleose infecciosa — sorologia para EBV",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "mononucleose",
+        "Epstein-Barr",
+        "VCA",
+        "EBNA"
+      ]
+    },
+    {
+      "number": 15,
+      "statement": "Uma mulher de 39 anos foi internada na clínica médica, a pedido da dermatologia, apresentando lesões ulceradas e infectadas em glúteos e região interna das coxas. Há 10 anos, a paciente, previamente hígida, infundira substância oleosa de uso veterinário em glúteos e coxas. Segundo relato, com o passar dos anos, diversas infecções foram acontecendo, motivando internações e uso de antibióticos sistêmicos. Na primeira internação, meses após a infusão do óleo, foi submetida a debridamento do material da coxa, mas isso não evitou a reação com surgimentos de úlceras infectadas e fístulas. Ainda segundo a descrição da paciente, a pele apresentava escurecimento e endurecimento estendendo-se além dos locais de infiltração. Três anos antes da internação, foi feito diagnóstico de doença reumatológica devido a fator reumatoide positivo e artrite de mãos, punhos, tornozelos e pés - artrite reumatoide (sic) - iniciando uso de corticoide oral. Na ocasião descrevem síndrome de fadiga crônica, poliartralgias com rigidez matinal, mialgia, transtornos do sono, depressão, ressecamento de mucosas, febre e linfonodomegalia inguinal. Na investigação hospitalar atual, além de bom estado geral e aparência lenhosa da pele ao redor das úlceras, confirma-se fator reumatoide em altos títulos, velocidade de hemossedimentação de 60 mm, proteína C reativa 43 mg/L (normal: até 10 mg/L), leucocitose com desvio à esquerda e anemia normocítica e normocrômica (Hb 10,2 g/dl). Sobre a investigação e propedêutica do caso descrito, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a tomografia sugerindo extensão de material oleoso infundido há 10 anos em pele e subcutâneo e linfonodos aumentados em 'cadeias inguinais e ilíacas com conteúdo hipodenso sugerindo óleo reforça o diagnóstico de síndrome de autoimunidade e inflamação por adjuvantes;"
+        },
+        {
+          "letter": "B",
+          "text": "o uso de antibióticos de amplo espectro com meropeném e vancomicina, por 14 dias, é necessário, pois trata-se de celulite em paciente imunossuprimida;"
+        },
+        {
+          "letter": "C",
+          "text": "a paciente tem síndrome de sobreposição de artrite reumatoide e síndrome de Sjögren, devendo realizar pesquisa de autoanticorpos como FAN, anti-SSa, anti-SSb, bem como, iniciar corticoide sistêmico 1 mg/kg em conjunto com tratamento antimicrobiano das lesões ulceradas;"
+        },
+        {
+          "letter": "D",
+          "text": "a história de fistulas, aspecto endurecido e hipercromia da pele necessita de investigação com biopsia da pele e do tecido subcutâneo. O diagnóstico de microbactéria - pela exposição cirúrgica anos antes seria confirmado pela descrição de inflamação granulomatosa crônica com histiocitos espumosos na biopsia;"
+        },
+        {
+          "letter": "E",
+          "text": "a tetracilina com corticoide oral por 14 dias prescinde do uso em longo prazo da colchicina ou outro imunossupressor."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Reumatologia",
+      "subtheme": "Síndromes autoimunes induzidas",
+      "topic": "Síndrome ASIA por substância oleosa injetável",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome ASIA",
+        "óleo mineral",
+        "adjuvante",
+        "siliconoma"
+      ]
+    },
+    {
+      "number": 16,
+      "statement": "O residente de clínica médica foi chamado para responder um pedido de parecer da equipe cirúrgica referente a uma senhora de 70 anos com novo episódio de diarreia há 7 dias. Ela foi internada com diverticulite aguda complicada por abscesso, o qual não respondeu ao primeiro ciclo de antibiótico (ciprofloxacina e metronidazol) e ao segundo ciclo (piperacilina com tazobactam), ambos por 14 dias. Apresentou nova infecção peritoneal com deiscência da anastomose primária, sendo necessária abordagem cirúrgica para drenagem do abscesso. A paciente apresentou o segundo episódio de diarreia na internação (60 dias) intervalado com 7 dias de constipação. A idosa se queixou de cólicas, distensão abdominal e tenesmo há pelo menos 2 semanas. Estava febril (38,0 ℃), mas estável hemodinamicamente. As morbidades eram apenas uma doença renal crônica (Cr 1,5 mg/dl). Os episódios eram frequentes (em torno de 5 por dia) e mais aquosos. A calprotectina fecal era de 1500 mg/kg, mas os exames parasitológicos de fezes, colhidos dessa vez e no outro episódio, foram negativos. O residente pensou na possibilidade de infecção por Clostridioides difficile. Para confirmação do quadro em ambiente hospitalar e proposição de um tratamento ideal, o residente deve:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar um novo tratamento com metronidazol oral 500 mg de 8/8h por 14 dias, enquanto se aguarda o resultado da pesquisa nas fezes de toxinas A e B para clostridioides;"
+        },
+        {
+          "letter": "B",
+          "text": "iniciar o tratamento com fidaxomicina 200 mg duas vezes ao dia por 10 dias sem a necessidade de coleta de exames para diagnóstico, uma vez que as fezes são líquidas e reduzem o valor preditivo positivo dos testes;"
+        },
+        {
+          "letter": "C",
+          "text": "prescrever probióticos, rifaximina por 14 dias para Clostridium; não há necessidade de colocar a paciente em precaução de contato"
+        },
+        {
+          "letter": "D",
+          "text": "realizar teste de antígeno glutamato desidrogenase (GDH) em conjunto com a pesquisa das toxinas A e B para Clostridium, ambos nas fezes. Devido à gravidade e fatores de risco, pode ser iniciado tratamento com vancomicina oral;"
+        },
+        {
+          "letter": "E",
+          "text": "pesquisar no sangue, conforme disponibilidade, o teste de antígeno glutamato desidrogenase (GDH) ou o teste de amplificação de ácido nuclêico (PCR), associado a pesquisa nas fezes das toxinas A e B de Clostridium. Devido ao quadro moderado a grave, realizar o tratamento com vancomicina oral 125 mg, 4 vezes por dia, por 10 dias."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Colite por Clostridioides difficile recorrente/refratária",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "Clostridioides difficile",
+        "GDH",
+        "vancomicina oral"
+      ],
+      "reference": "Diretriz IDSA/SHEA para Clostridioides difficile"
+    },
+    {
+      "number": 17,
+      "statement": "Após internação prolongada por sepse, um rapaz da enfermaria de clínica médica, tratado para tumor de células germinativas, persistia em neutropenia grave e prolongada. Já havia feito amoxicilina com clavulanato e estava atualmente com piperacilina com tazobactam. Seu quadro iniciou-se com febre, dor torácica tipo pleurítica, dispneia e tosse com hemoptoico. Ele estava piorando clinicamente ao longo dos últimos 3 dias, agravando com hipoxemia. Prontamente, foi realizada tomografia de tórax, com os seguintes achados: múltiplos nódulos, alguns com cavitação, consolidação irregular em segmento do lobo inferior esquerdo e infiltrados peribrônquicos com padrões de árvore em brotamento predominantemente em lobo inferior direito. A equipe de clínica médica levantou a possibilidade de aspergilose pulmonar invasiva. Diante dessa possibilidade, e considerando o agravo do paciente descrito, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o exame de imunoensaio da galactomanana tem ótimo valor preditivo positivo e negativo nesse caso;"
+        },
+        {
+          "letter": "B",
+          "text": "no caso descrito, a melhor opção para o diagnóstico é a realização de broncoscopia com biópsia pulmonar;"
+        },
+        {
+          "letter": "C",
+          "text": "o fungo Aspergillus tem crescimento lento, e a cultura tem sensibilidade alta para os quadros agudos e invasivos;"
+        },
+        {
+          "letter": "D",
+          "text": "uma possibilidade é analisar os níveis séricos de galactomanana dos últimos meses nesse paciente neutropênico, pois isso ajuda na decisão quanto à terapia empírica;"
+        },
+        {
+          "letter": "E",
+          "text": "em exame direto para pesquisa de aspergilose e outros fungos, utilizam-se corantes à base de prata. Sua positividade para Aspergillus não autorizaria a terapia, devendo-se aguardar a cultura ou a galactomanana no caso descrito acima."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Micoses sistêmicas",
+      "topic": "Aspergilose pulmonar invasiva em neutropênico",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "aspergilose pulmonar invasiva",
+        "galactomanana",
+        "neutropenia febril"
+      ]
+    },
+    {
+      "number": 18,
+      "statement": "Um paciente idoso atendido em consulta ambulatorial com perda ponderal significativa não intencional poderia ser classificado com síndrome consumptiva na dependência de outros sinais e sintomas. As principais possibilidades para síndrome consumptiva em idosos ambulatoriais são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "doença do refluxo gastroesofageo, úlcera péptica e tumores do estômago;"
+        },
+        {
+          "letter": "B",
+          "text": "transtorno depressivo, alterações benignas do trato digestivo e doenças malignas;"
+        },
+        {
+          "letter": "C",
+          "text": "tuberculose pulmonar, insuficiência cardíaca e doença pulmonar obstrutiva crônica"
+        },
+        {
+          "letter": "D",
+          "text": "anorexia nervosa, doenças degenerativas neurológicas e medicamentos;"
+        },
+        {
+          "letter": "E",
+          "text": "doença de Parkinson, doença de Alzheimer e efeitos medicamentosos adversos."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Geriatria",
+      "subtheme": "Avaliação geriátrica ampla",
+      "topic": "Síndrome consumptiva no idoso — principais causas",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome consumptiva",
+        "perda ponderal",
+        "idoso"
+      ]
+    },
+    {
+      "number": 19,
+      "statement": "O professor de semiologia pediu ao residente de clínica médica para ajudar o aluno de medicina. Estavam diante de um paciente de 25 anos com síndrome consumptiva associada a síndrome respiratória de início há 1 mês. O quadro completo abarcava perda ponderal de 5% do peso usual em um mês, tosse inicialmente seca e depois com secreção mucoide, dispneia aos médios esforços e febre vespertina ao final do dia. O residente descreveu o exame físico do tórax para o aluno: tórax sem massas, cicatrizes ou retrações à inspeção estática. Na inspeção dinâmica, a frequência respiratória foi de incursões por minuto, com uso de musculatura acessória como intercostais e esternocleidomastoideo. Respiração de predomínio abdominal sem retração intercostal em setor toracolombar à direita. À palpação foi percebida redução da expansibilidade anteroposterior e laterolateral, sobretudo à direita. Percussão com macicez em base de hemitórax direito, terço médio e região axilar do mesmo lado. Restante com som claro atimpânico. Não foi realizado frêmito toracovocal por inexperiência na manobra. A ausculta estava reduzida em terço médio do hemitórax direito e abolida em base e região axilar direita. Murmúrios audíveis com sons traqueais e sons brônquicos sem alterações e murmúrios em vias aéreas distais normais em hemitórax esquerdo. Diante da descrição, o professor pediu para que voltassem ao leito a fim de levantar a síndrome clínica do paciente. O restante da descrição completa e suas possibilidades, retornadas pelo residente e pelo aluno, são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "pectoriloquia fônica e egofonia em limites do terço superior com o terço médio do hemitórax direito, associada a ressonância vocal reduzida em axila superior e abolida em base de hemitórax direito, configurando síndrome de derrame pleural à direita;"
+        },
+        {
+          "letter": "B",
+          "text": "pectoriloquia fônica e afônica com ressonância vocal aumentada em base e terço médio do hemitórax direito associada a estertoração crepitante na base direita, configurando síndrome de atelectasia de lobo inferior direito;"
+        },
+        {
+          "letter": "C",
+          "text": "sopro tubário com ressonância vocal aumentada em terço médio do hemitórax direito associado a murmúrio vesicular abolido na base do mesmo lado configurando síndrome de consolidação de lobo médio e inferior;"
+        },
+        {
+          "letter": "D",
+          "text": "estertores bolhosos e subcrepitantes em terço médio do hemitórax direito e estertores crepitantes em base de hemitórax direito, conjugados a murmúrios respectivamente reduzidos e abolidos, no hemitórax direito configuram síndrome de derrame pleural à direita;"
+        },
+        {
+          "letter": "E",
+          "text": "sinal de Pitres em terço médio de hemitórax direito associado a ressonância vocal aumentada na mesma altura estabelece a síndrome de pneumotórax à direita."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Pneumologia",
+      "subtheme": "Derrame pleural",
+      "topic": "Semiologia do derrame pleural",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "derrame pleural",
+        "macicez",
+        "egofonia",
+        "pectorilóquia fônica"
+      ]
+    },
+    {
+      "number": 20,
+      "statement": "Um paciente de 35 anos, em estado de imunossupressão grave por não adesão medicamentosa contra o HIV (CD4: 85 células), apresentou quadro de diarreia crônica, síndrome consumptiva e odinofagia. Em avaliação endoscópica, havia a presença de exulcerações e ulcerações longitudinais em esôfago e reto, sugerindo invasão por citomegalovírus (CMV). O paciente estava com pancitopenia em investigação e com neutrófilos totais em 600 células/mm³. A maneira custo-efetiva de tentar o diagnóstico e iniciar o tratamento é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dosagem de sorologias para CMV IgM e lgG, considerando a positividade ao menos da IgM;"
+        },
+        {
+          "letter": "B",
+          "text": "cultura viral convencional pareando os espécimes e unidades no sangue e nas fezes;"
+        },
+        {
+          "letter": "C",
+          "text": "antigenemia (pp65) em sangue total negativa, que excluiria a citomegalovirose;"
+        },
+        {
+          "letter": "D",
+          "text": "PCR qualitativo negativo no plasma, que excluiria doença invasiva por CMV;"
+        },
+        {
+          "letter": "E",
+          "text": "histopatologia com corpos de inclusão intranucleares basofílicos, que sugere doença ativa por CMV."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Colite por citomegalovírus em HIV avançado",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "colite por CMV",
+        "HIV",
+        "corpos de inclusão"
+      ]
+    },
+    {
+      "number": 21,
+      "statement": "Um paciente foi internado para investigação de quadro diarreico e dispéptico há 2 semanas. Teve que interromper o tratamento para mieloma múltiplo iniciado há 5 meses com bortezomibe, ciclofosfamida e dexametasona. Mantinha uso regular de corticoide, metadona e bisfosfonatos devido a lesões líticas difusas e dores ósseas. Fazia profilaxia com cotrimoxazol (sulfametoxazol e trimetoprima) e aciclovir conforme recomendação do hematologista. Durante a internação, foram evidenciadas lesões urticariformes e estrias elevadas, rosadas, pruriginosas e evanescentes ao longo da parte inferior do tronco, coxas e nádegas. Um dado interessante é que essas lesões desbotavam ao longo de 2 ou 3 dias, desaparecendo. No entanto, o paciente começou a apresentar dispneia, broncoespasmo, dor torácica e febre, sendo confirmado infiltrado difuso e bilateral sugestivo de consolidação pulmonar e atenuação em vidro fosco em tomografia de tórax. Os sintomas diarreicos recrudesceram, apresentando sangramento vivo nas fezes com tenesmo e irritação retal. O laboratório demonstrava leucócitos normais com predomínio de neutrófilos e desvio à esquerda. Eosinófilos = 895/mm³; hiponatremia, PCR = 5 vezes o valor de base do paciente. Diante do quadro, o planejamento mais acertado em relação à hipótese diagnóstica e gravidade é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Colher hemoculturas e iniciar cefepima parenteral."
+        },
+        {
+          "letter": "B",
+          "text": "Colocar em dose terapêutica o cotrimoxazol pela possibilidade de pneumocistose disseminada."
+        },
+        {
+          "letter": "C",
+          "text": "Colher culturas e iniciar tratamento para pneumonia comunitária grave com levofloxacina ou piperacilina e tazobactam."
+        },
+        {
+          "letter": "D",
+          "text": "Pesquisar parasitoses intestinais e iniciar nitazoxanida oral por 10 a 14 dias, devido à possibilidade de criptosporídios e microsporídios associando albendazol oral por 5 dias para cobertura contra giardíase e amebíase."
+        },
+        {
+          "letter": "E",
+          "text": "Colher hemocultura para germes aeróbicos e anaeróbios, colher sorologia para Strongyloides e iniciar, concomitantemente, antibiótico para cobertura de bactérias Gram negativas, sobretudo entéricas, associado a ivermectina oral por 2 semanas."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Estrongiloidíase disseminada (síndrome de hiperinfecção)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "Strongyloides",
+        "hiperinfecção",
+        "eosinofilia",
+        "ivermectina"
+      ]
+    },
+    {
+      "number": 22,
+      "statement": "Uma senhora de 65 anos, após anos de acompanhamento na clínica médica por diabetes e hipertensão, retornou com queixa de distensão abdominal e parada de eliminação de gases e fezes há uma semana. Há histórico de constipação crônica por volta dos 30 anos, incluindo atendimentos de emergência para clister glicerinado e extração manual das fezes. Só consegue evacuar com medicações laxativas como polietilenoglicol e laxativos salinos de uso regular. O exame físico e ultrassom à beira leito evidenciaram muita distensão abdominal e dor à palpação profunda. Ao toque retal, há hemorroidas, dor e espasmo da ampola retal - apesar de toque gentil - e sangramento discreto em luva devido ao uso de clister glicerinado nos últimos 3 dias. Optou-se por internação para manuseio do quadro de obstipação intestinal. Com a tomografia de abdômen, pode-se perceber grande impactação fecal em reto e extensão para sigmoide baixo, com fezes em todo o cólon. Sem outras alterações clínicas, laboratoriais e radiológicas, a equipe médica optou corretamente por:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar neostigmina, pois trata-se de pseudobstrução intestinal crônica"
+        },
+        {
+          "letter": "B",
+          "text": "manter os laxativos, incluindo lactulose, enemas glicerinados e clister em gravidade, com perspectiva de colectomia distal, caso não haja melhora em 3 dias"
+        },
+        {
+          "letter": "C",
+          "text": "suspender os laxativos e iniciar terapia com supositórios de glicerina seguidos de extração manual 3 vezes ao dia, pois, sem a retirada do fecaloma, não haverá trânsito intestinal normal"
+        },
+        {
+          "letter": "D",
+          "text": "extração por retossigmoidoscopia rígida com infusão local de óleo mineral e associação de neostigmina mitigando dores abdominais após a liberação do fecaloma endurecido"
+        },
+        {
+          "letter": "E",
+          "text": "suspender lactulose pela distensão, manter laxativos estimulantes como bisacodil (incluindo na forma de supositórios), estimular medidas comportamentais e associar prucaloprida, acompanhando o quadro clínico da paciente."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Motilidade intestinal",
+      "topic": "Constipação crônica refratária — impactação fecal",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "impactação fecal",
+        "constipação crônica",
+        "prucaloprida"
+      ]
+    },
+    {
+      "number": 23,
+      "statement": "Uma paciente de 31 anos foi internada pela terceira vez em hospital de grande porte. Nas duas internações anteriores, suas queixas relacionavam-se a sangramento. Na primeira, aos 20 anos, a internação foi motivada por menorragia e metrorragia. Na época, não foi necessário procedimento, e a investigação não resultou em nenhum diagnóstico. Não havia anemia, plaquetopenia, tampouco distúrbio da coagulação pelo coagulograma. Na segunda internação, aos 25 anos, o sangramento ocorreu após procedimento dentário, com recorrência durante o 2º dia até o 5º dia de extração dentária. Recentemente, retirou o anticoncepcional na tentativa de engravidar, após 11 anos de uso, mas também apresentou um trauma em membro inferior com equimoses pela coxa e perna direita, motivando o uso de anti-inflamatório não esteroidal. Internou-se dessa vez com síndrome anêmica e epigastralgia. A paciente estava pálida, hipocorada, com frequência cardíaca de 110 bpm e pressão arterial em 100 x 50 mmHg. Estava lúcida, orientada, eutrófica e não possuía qualquer sinal de gravidade ou infecção. Não usava qualquer medicação regular e não relatou doença prévia. Seus exames demonstraram piora gradual da anemia entre os 25 anos (hemoglobina 11 g/dl) e o momento atual (8 g/dl). Durante a internação, houve melena, e a investigação de anemia demonstrou morfologia microcítica e hipocrômica, com reticulócitos corrigidos de 1,5%, ferritina 15 ng/ml, índice de saturação de transferrina 12% e TIBC (capacidade total de ligação do ferro) de 400 mcg/dl. O médico responsável prosseguiu a investigação de anemia com endoscopia digestiva alta, que revelou pangastrite aguda grave e algumas angiodisplasias sem sinais de sangramento recente. Ele logo pensou em uma hipótese diagnóstica ao ver plaquetas em 140 mil e coagulograma normal. A condução mais apropriada no momento é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "transfusão de crioprecipitado e dosagem do fator VIII"
+        },
+        {
+          "letter": "B",
+          "text": "transfusão de plaquetas e avaliação do tempo de sangramento"
+        },
+        {
+          "letter": "C",
+          "text": "realização de colonoscopia e dois concentrados de hemácias para estabilização clinica"
+        },
+        {
+          "letter": "D",
+          "text": "sorologias para arboviroses, anti-HIV e pesquisa de FAN e ANCA, enquanto se programa fotocoagulação das angiodisplasias"
+        },
+        {
+          "letter": "E",
+          "text": "pesquisa do antígeno de von Willebrand, dosagem da atividade do fator de von Willebrand dependente de plaquetas e dosagem da atividade do fator VIII."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Doença de von Willebrand",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença de von Willebrand",
+        "fator VIII",
+        "cofator de ristocetina"
+      ]
+    },
+    {
+      "number": 24,
+      "statement": "Uma paciente de 45 anos com sobrepeso foi internada na clínica médica por extensão de trombose venosa antiga com sinais de trombo recente em veia ilíaca direita em ultrassonografia com doppler. Ela havia sido submetida a cirurgia videolaparoscópica dois meses antes devido à colecistectomia (colecistite aguda). Na ocasião, retornou 1 semana depois da alta por trombose venosa profunda em femoral direita. Apesar da anticoagulação com warfarina, houve recorrência da trombose. Não houve qualquer sintoma no período, exceto por dor e sensação de peso na perna afetada. Na primeira trombose venosa profunda (TVP), além do procedimento cirúrgico, ficou mais tempo deitada e usava anticoncepcional, suspenso quando foi diagnosticada a TVP. Há história familiar de trombose. Diante desse quadro, a condução mais acertada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ministrar heparina de baixo peso molecular em dose plena e warfarina, aguardando 3 meses para realizar testes para trombofilia hereditárias"
+        },
+        {
+          "letter": "B",
+          "text": "pesquisar anomalias vasculares com angiotomografia, realizar anticoagulação com rivaroxabana e aguardar 6 meses para pesquisa de trombofilias hereditárias"
+        },
+        {
+          "letter": "C",
+          "text": "prescrever rivaroxabana, ministrar heparina de baixo peso molecular em dose plena e suspender warfarina, realizando os testes de trombofilia hereditária imediatamente"
+        },
+        {
+          "letter": "D",
+          "text": "suspender a warfarina, realizar anticoagulação plena com heparina de baixo peso molecular e pesquisar trombofilias hereditárias após 2 semanas (mutação do fator V de Leiden, mutação do gene da protrombina, dosagem de proteína C, dosagem de proteína S e anticorpos anti-fosfolipídeos)"
+        },
+        {
+          "letter": "E",
+          "text": "suspender warfarina, realizar anticoagulação plena com heparina não fracionada e pesquisar trombofilias hereditárias ao final da primeira semana (mutação do fator V de Leiden, mutação do gene da protrombina, dosagem de proteína C, dosagem de proteína S, pesquisa de deficiência de antitrombina III, anticorpos anti- fosfolipídeos e anticoagulante lúpico)"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Trombofilia hereditária — investigação após TVP recorrente",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "trombofilia hereditária",
+        "fator V de Leiden",
+        "TVP recorrente"
+      ]
+    },
+    {
+      "number": 25,
+      "statement": "Um homem de 52 anos entrou no consultório de clínica médica relatando dores e edema em articulações de joelhos, tornozelos, cotovelos e punhos. O quadro se iniciou há uma semana com forte dor, edema e eritema em joelho esquerdo, evoluindo para as articulações descritas associado a calafrios (não aferiu febre) e lesões cutâneas, a saber: pápulas e pequenas máculas e pústulas, algumas com componente hemorrágico. Havia um eritema nodoso em perna esquerda e, também, leucocitose com desvio à esquerda com predomínio de neutrófilos, associada a marcadores inflamatórios bem elevados (VHS e PCR), compõe o quadro. Foram coletadas culturas de sangue e urina, sem crescimento de germes até o 5º dia. O exame fisico articular demonstra tenossinovite de hálux bilaterais e calcâneos. Não há local para punção articular após um pouco mais de 1 semana do início do quadro. Testes de autoimunidade como FAN, fator reumatoide, antipeptídeo citrulinado cíclico e ANCA foram negativos. Optou-se por um tratamento empírico com melhora importante do quadro cutâneo e articular em 48 horas. O tratamento instituído foi:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ceftriaxona 1g intravenoso por dia"
+        },
+        {
+          "letter": "B",
+          "text": "colchicina 0,5 mg oral 2 vezes por dia"
+        },
+        {
+          "letter": "C",
+          "text": "prednisona 20 mg oral por dia"
+        },
+        {
+          "letter": "D",
+          "text": "azitromicina 500 mg oral 2 vezes por dia"
+        },
+        {
+          "letter": "E",
+          "text": "metotrexato 2,5 mg por dia"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Infectologia",
+      "subtheme": "Infecções sexualmente transmissíveis",
+      "topic": "Síndrome artrite-dermatite gonocócica (gonococcemia disseminada)",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "gonococcemia disseminada",
+        "artrite gonocócica",
+        "tenossinovite"
+      ]
+    },
+    {
+      "number": 26,
+      "statement": "Um homem de 43 anos, após ganho de peso e alguns sintomas dispépticos, procurou o ambulatório de clínica médica. Não havia qualquer histórico de doença pregressa e uso regular de medicação. Seu consumo de álcool era ocasional (em torno de 30 gramas por semana). Não havia história familiar de doença hepática, tampouco sinais ou sintomas como icterícia, dor abdominal ou alteração de hábito intestinal. Ao exame, detectaram-se IMC de 29; circunferência abdominal de 102 cm (altura 1,89 m); pressão arterial de 140 × 90 mmHg; e hepatimetria de 16 cm em linha hemiclavicular direita com fígado palpável e borda romba. Exames laboratoriais revelaram: glicemia de jejum 110 mg/dl, HDL colesterol 40 mg/dl, LDL colesterol 130 mg/dl, triglicerídeos 160 mg/dl, aspartato aminotransferase (AST) de 70 U/L (normal: 15 a 41) e alanina aminotransferase (ALT) 67 U/L (normal: 10 a 35). O restante do hemograma, da bioquímica e do coagulograma foi normal. Na segunda consulta, trouxe a ultrassonografia de abdômen e outros exames solicitados. Sobre a investigação de doença hepática gordurosa associada a disfunção metabólica, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "não se trata doença hepática gordurosa por disfunção metabólica, pois a carga etílica é alta, devendo-se utilizar a elastografia ou biópsia hepática para a finalizar a investigação"
+        },
+        {
+          "letter": "B",
+          "text": "o escore FIB-4 acima de 3,0 e o ultrassom de abdômen demonstrando esteatose hepática prescindem de elastografia para análise de fibrose hepática"
+        },
+        {
+          "letter": "C",
+          "text": "se pode prescindir de marcadores de doença hepática como fator antinuclear, anticorpo-antimitocôndria, níveis de ceruloplasmina e níveis de alfa1 antitripsina, pois o quadro clínico não é compatível com tais condições"
+        },
+        {
+          "letter": "D",
+          "text": "o ultrassom de abdômen demonstra esteatose hepática, mas só haverá o diagnóstico de doença hepática gordurosa por disfunção metabólica após a exclusão de outras causas de lesão hepática aguda e crônica"
+        },
+        {
+          "letter": "E",
+          "text": "elastografia e ultrassom de abdômen devem ser solicitados juntos para dar o diagnóstico e estratificação, poupando custos e tempo do médico e paciente."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Doença hepática esteatótica metabólica — diagnóstico de exclusão",
+      "difficulty": "FACIL",
+      "keywords": [
+        "MASLD",
+        "esteatose hepática",
+        "diagnóstico de exclusão"
+      ]
+    },
+    {
+      "number": 27,
+      "statement": "Após a chegada de paciente de 66 anos com pneumonia comunitária, o residente de clínica médica precisou revisar alguns pontos sobre o tema. O paciente estava prostrado e desorientado. Sua frequência respiratória era de 35 irpm e sua pressão arterial, 100 x 60 mmHg. Não havia qualquer comorbidade descompensada ou internação prévia. O paciente era hipertenso leve em bom controle. Sobre a condução nessa primeira abordagem, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "as coletas de gasometria, hemograma, bioquímica e de material para cultura no sangue e no escarro são recomendadas. Também está recomendado o teste de antígeno para influenza em situações de alta circulação do vírus;"
+        },
+        {
+          "letter": "B",
+          "text": "esse paciente, independentemente do resultado dos primeiros exames, tem pneumonia comunitária grave e deve ser internado, ministrando-se carbapenêmico associado a vancomicina;"
+        },
+        {
+          "letter": "C",
+          "text": "a coleta de escarro para coloração por Gram e cultura e a coleta de hemoculturas são desnecessárias nesse caso;"
+        },
+        {
+          "letter": "D",
+          "text": "a pesquisa de antígeno urinário para Legionella e pneumococo é essencial ao desfecho do caso;"
+        },
+        {
+          "letter": "E",
+          "text": "a dosagem procalcitonina pode guiar a terapia antimicrobiana."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Pneumologia",
+      "subtheme": "Pneumonias",
+      "topic": "Pneumonia grave — investigação inicial",
+      "difficulty": "FACIL",
+      "keywords": [
+        "PAC grave",
+        "hemocultura",
+        "antígeno urinário"
+      ],
+      "reference": "Diretriz brasileira de pneumonia adquirida na comunidade (SBPT)"
+    },
+    {
+      "number": 28,
+      "statement": "Uma mulher de 35 anos foi à emergência por febre, calafrios, dor lombar e pélvica iniciados há 2 dias. Estava com náuseas, mas sem sintomas de irritação urinária. Não havia relato de doenças prévias, medicamentos e instrumentação do trato urinário. No ano anterior, teve dois episódios de infecção urinária. A paciente encontrava-se estável hemodinamicamente, sem febre no momento, e o controle da dor foi adequado nos primeiros minutos. A coleta de urina para EAS e cultura foi realizada, bem como a coleta de hemocultura. A dor lombar foi localizada em ângulo costocondral à direita e ultrassonografia à beira leito não demonstrou dilatação pielocalicial. Apesar da leucocitose com desvio à esquerda e da PCR elevada em 10 vezes em relação à normalidade, a função renal estava preservada. Sobre a abordagem e o provável diagnóstico desse quadro, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A urinálise sem piúria é comum."
+        },
+        {
+          "letter": "B",
+          "text": "O diagnóstico mais provável pode ser firmado com palpação bimanual da pelve e presença de secreção vaginal."
+        },
+        {
+          "letter": "C",
+          "text": "A tomografia de abdômen com contraste é obrigatória nesse caso."
+        },
+        {
+          "letter": "D",
+          "text": "Será necessária a internação hospitalar com antibiótico parenteral por 14 dias."
+        },
+        {
+          "letter": "E",
+          "text": "A conduta recomendada consiste em ceftriaxona 1 g intravenoso, analgesia e observação por 12h, propondo-se continuidade em tratamento domiciliar com antibiótico por via oral."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Infecções do trato urinário",
+      "topic": "Pielonefrite não complicada — tratamento ambulatorial",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "pielonefrite",
+        "ceftriaxona",
+        "tratamento ambulatorial"
+      ]
+    },
+    {
+      "number": 29,
+      "statement": "Uma paciente feminina de 48 anos foi internada por pancreatite aguda apresentando necessidade de hidratação venosa, analgesia parenteral, hemodiálise e reposição de eletrólitos. Durante o sétimo dia de internação com catéter venoso central (CVC), houve febre (38,5 \" ℃) com calafrio e evidência de purulência no óstio do CVC. Foi proposta a coleta de 2 sets de hemocultura após a retirada do catéter venoso central e início de antibiótico, pois havia taquicardia, taquipneia e mudança comportamental. Houve melhora clínica logo no dia seguinte, após as medidas anteriores, com a retirada do CVC e introdução de esquema antibiótico para sepse por catéter venoso central. No 3º dia da coleta saiu o resultado de crescimento de Staphylococcus aureus em 2 frascos de hemocultura. O teste de sensibilidade demonstrou ser sensível à oxacilina. Sobre o quadro descrito, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "coletas de hemocultura não serão mais necessárias, pois a recomendação é de 14 dias de antibiótico para infecção de corrente sanguínea (ICS) relacionada ao catéter por Staphylococcus aureus"
+        },
+        {
+          "letter": "B",
+          "text": "todos os pacientes com hemocultura por Staphylococcus aureus devem ter reavaliações diárias para possíveis focos de disseminação e devem também realizar um ecocardiograma transtorácico"
+        },
+        {
+          "letter": "C",
+          "text": "a análise dos germes em hemocultura deve mostrar se há ou não contaminação. Crescimento de Staphylococcus aureus em hemocultura sempre será indicativo de infecção"
+        },
+        {
+          "letter": "D",
+          "text": "a remoção do catéter foi feita de forma incorreta, podendo ser feito lock de antibiótico pelo catéter para salvar o dispositivo"
+        },
+        {
+          "letter": "E",
+          "text": "Todo paciente com febre ( temperatura axilar acima de 38,0 ºC) deve ter pelo menos 1 set de hemoculturas colhidas."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Bacteremia por Staphylococcus aureus relacionada a cateter",
+      "difficulty": "FACIL",
+      "keywords": [
+        "bacteremia por S. aureus",
+        "cateter venoso central",
+        "ecocardiograma"
+      ]
+    },
+    {
+      "number": 30,
+      "statement": "Um paciente de 65 anos, paraplégico por projétil de arma de fogo, foi internado por febre baixa (até 38 ℃) diária nos últimos 4 dias. Não há outras comorbidades. Ocorreu lesão por pressão em região sacra devido a perda sensitiva e quadro depressivo. O paciente permaneceu acamado. A médica percebeu drenagem de secreção serosa por orifício com flutuação na região sacra, associada a calor e eritema local. Exames laboratoriais demonstraram anemia normocítica, normocrômica e leucocitose com predomínio de neutrofilia e desvio até bastonestes, os quais também estavam elevados. A velocidade de hemossedimentação foi de 96 mm e o PCR estava ultrassensível, com 35 mg/dl (normal até 0,3 mg/dl). O plano diagnóstico mais adequado se resume em:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "evidenciar um quadro clínico compatível, VHS, PCR, leucocitose, hemoculturas e ressonância nuclear magnética (se menos de 2 semanas de evolução) que podem direcionar para a necessidade da realização de biópsia óssea para cultura e histopatologia em osteomielite não hematogênica por contiguidade"
+        },
+        {
+          "letter": "B",
+          "text": "realizar culturas de swab ou material de punção com agulha (por exemplo, aspiração de material no tecido mole em vez de osso) que devem ser usadas para estabelecer um patógeno de osteomielite, uma vez que a correlação entre a cultura de biópsia óssea e essas amostras é alta"
+        },
+        {
+          "letter": "C",
+          "text": "realizar o teste da sonda pelo orifício (probe test) associado a marcadores inflamatórios elevados em paciente com lesão por pressão que reforça o diagnóstico de osteomielite com alto valor preditivo positivo, tornando desnecessários outros exames"
+        },
+        {
+          "letter": "D",
+          "text": "realizar as culturas do trato sinusal (secreção serosa do paciente) que terão valor apenas se o germe for atípico como micobactérias, fungos e bastonetes Gram negativos"
+        },
+        {
+          "letter": "E",
+          "text": "realizar ressonância nuclear magnética de região sacra e iniciar antibiótico empírico com cobertura para germes Gram positivos e negativos."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Infectologia",
+      "subtheme": "Infecções de pele e partes moles",
+      "topic": "Osteomielite por contiguidade em lesão por pressão",
+      "difficulty": "FACIL",
+      "keywords": [
+        "osteomielite",
+        "lesão por pressão",
+        "ressonância magnética"
+      ]
+    },
+    {
+      "number": 31,
+      "statement": "Uma mulher de 43 anos procurou atendimento médico com história de episódios recorrentes de vertigem. Esses episódios duravam várias horas e eram acompanhados por náuseas, vômitos e frequentemente associados à sensação de redução da acuidade auditiva unilateral. Além disso, vinha ocorrendo uma sensação de zumbido. Foram solicitados exames complementares, que sugeriram o diagnóstico de síndrome de Ménière. A médica que acompanha essa paciente, além de solicitar a avaliação de um especialista (otorrinolaringologista), já adiantou, corretamente, a seguinte orientação:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumento de alimentos ricos em ômega 3"
+        },
+        {
+          "letter": "B",
+          "text": "uso de dimenidrinato e piridoxina à noite"
+        },
+        {
+          "letter": "C",
+          "text": "dieta com alimentos de baixo índice glicêmico"
+        },
+        {
+          "letter": "D",
+          "text": "dieta com baixo teor de sódio e uso de diurético"
+        },
+        {
+          "letter": "E",
+          "text": "uso de dose baixa e diária de corticoide sistêmico"
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vestibulares",
+      "topic": "Doença de Ménière — orientação dietética",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "doença de Ménière",
+        "dieta hipossódica",
+        "diurético"
+      ]
+    },
+    {
+      "number": 32,
+      "statement": "Uma estudante universitária de 23 anos marcou avaliação clínica pois vinha apresentando episódios recorrentes de perda de consciência desde a adolescência, geralmente em situações de estresse emocional intenso ou durante prolongada permanência em pé em ambientes quentes. Ela descreveu que, momentos antes de perder a consciência, sentia tontura, visão turva, suor frio e náuseas. Em um dos episódios mais recentes, enquanto estava em pé em uma fila, começou a sentir esses sintomas e desmaiou, recuperando a consciência em menos de 2 minutos. Negou doenças prévias e afirmou que se sentia saudável. Durante a consulta médica, não foram encontradas alterações ao exame físico. A paciente levou Holter de 24 horas, eletrocardiograma e ecocardiograma, que estavam dentro da normalidade. A paciente queria saber o que fazer ao ter a sensação de desmaio. Nesse contexto de um quadro sugestivo de síncope vasovagal, além de sugerir que ela deite no chão ou outro tipo de superfície quando sentir os pródromos de síncope, o médico deve orientá-la a:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "balançar-se alternando o peso de um pé para o outro"
+        },
+        {
+          "letter": "B",
+          "text": "ficar o máximo de tempo com os braços cruzados, respirando fundo e soltando o ar"
+        },
+        {
+          "letter": "C",
+          "text": "ingerir rapidamente uma bebida energética ou um alimento que seja fonte de carboidrato"
+        },
+        {
+          "letter": "D",
+          "text": "elevar os braços acima da cabeça e mantê-los nessa posição até que os sintomas melhorem"
+        },
+        {
+          "letter": "E",
+          "text": "fazer manobras de contrapressão isométricas, como apertar as mãos e cruzar as pernas fazendo contração bilateralmente"
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Cardiologia",
+      "subtheme": "Síncope",
+      "topic": "Síncope vasovagal — manobras de contrapressão isométrica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síncope vasovagal",
+        "manobras de contrapressão",
+        "pródromos"
+      ]
+    },
+    {
+      "number": 33,
+      "statement": "Um paciente de 34 anos procurou ambulatório para realização de um check up médico. Negou quaisquer sintomas ou doenças prévias. Ao exame, a pressão arterial era de 132 por 82 mmHg e a frequência cardíaca, de 68 batimentos por minutos. Foi observada uma irregularidade no ritmo cardíaco, sugerindo a presença de aproximadamente 4 extrassístoles por minuto. O restante do exame físico foi sem alterações. Foi solicitado eletrocardiograma, em que foi evidenciada a presença de algumas extrassístoles ventriculares. Essas alterações foram confirmadas em Holter de 24 horas, em que foi observada uma baixa incidência de extrassístoles ventriculares, sem arritmia supraventricular. O paciente realizou, também, um ecocardiograma, que estava dentro da normalidade, mas ficou preocupado ao terem sido detectadas essas alterações no ritmo cardíaco, apesar de estar assintomático. A orientação mais adequada nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "indicar uma avaliação especializada, visando à realização de um estudo eletrofisiológico"
+        },
+        {
+          "letter": "B",
+          "text": "tranquilizar o paciente e sugerir que evite um consumo elevado de estimulantes como cafeína"
+        },
+        {
+          "letter": "C",
+          "text": "solicitar ressonância magnética cardíaca para investigação de causas para arritmia ventricular"
+        },
+        {
+          "letter": "D",
+          "text": "solicitar cintilografia miocárdica visando a afastar isquemia miocárdica como causadora do quadro do paciente"
+        },
+        {
+          "letter": "E",
+          "text": "iniciar verapamil em dose plena e solicitar novo Holter de 24 horas após dois meses de tratamento com essa medicação."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Cardiologia",
+      "subtheme": "Arritmias",
+      "topic": "Extrassístoles ventriculares benignas em assintomático",
+      "difficulty": "FACIL",
+      "keywords": [
+        "extrassístole ventricular",
+        "Holter",
+        "tranquilização"
+      ]
+    },
+    {
+      "number": 34,
+      "statement": "Um paciente de 59 anos, diabético, tabagista, com diagnóstico de doença arterial periférica em membros inferiores, foi atendido no ambulatório para acompanhamento de rotina. Nos exames laboratoriais realizados dentro do último mês, foram observados colesterol total de 270 mg/dl, HDL de 38 mg/dl, LDL de 198 mg/dl e triglicerídeos de 170 mg/dL. Nesse caso, a terapia hipolipemiante mais indicada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "pitavastatina de 1 a 2 mg ao dia"
+        },
+        {
+          "letter": "B",
+          "text": "ezetimiba de 5 a 10 mg ao dia"
+        },
+        {
+          "letter": "C",
+          "text": "bezafibrato de 200 mg a 400 mg ao dia"
+        },
+        {
+          "letter": "D",
+          "text": "sinvastatina de 10 mg a 20 mg ao dia"
+        },
+        {
+          "letter": "E",
+          "text": "atorvastatina de 40 mg a 80 mg ao dia"
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Cardiologia",
+      "subtheme": "Dislipidemia",
+      "topic": "Doença arterial periférica — terapia hipolipemiante de alta intensidade",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença arterial periférica",
+        "estatina de alta intensidade",
+        "LDL"
+      ]
+    },
+    {
+      "number": 35,
+      "statement": "Uma paciente de 26 anos procurou atendimento médico pois tem apresentado febre baixa há aproximadamente uma semana. Além disso, observou a presença de nódulos dolorosos e avermelhados na região anterior das pernas que surgiram nesse período. Negou outros sintomas ou doenças prévias. Há aproximadamente um mês, iniciou um contraceptivo oral prescrito por sua ginecologista. Em exame clínico, verificaram-se apenas nódulos de aproximadamente 3 cm de diâmetro, eritematosos, dolorosos à palpação e localizados na região anterior das pernas bilateralmente. A médica que atendeu essa paciente suspeitou de que o quadro estivesse relacionado ao uso de contraceptivo oral. Nesse sentido, a principal hipótese para o caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "eritema nodoso"
+        },
+        {
+          "letter": "B",
+          "text": "paniculite lupoide"
+        },
+        {
+          "letter": "C",
+          "text": "ectima gangrenoso"
+        },
+        {
+          "letter": "D",
+          "text": "vasculite urticariforme"
+        },
+        {
+          "letter": "E",
+          "text": "granuloma anular subcutâneo"
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Reumatologia",
+      "subtheme": "Manifestações cutâneas",
+      "topic": "Eritema nodoso associado a contraceptivo oral",
+      "difficulty": "FACIL",
+      "keywords": [
+        "eritema nodoso",
+        "paniculite",
+        "contraceptivo oral"
+      ]
+    },
+    {
+      "number": 36,
+      "statement": "Um paciente em pós-operatório iniciou um quadro de pseudo-obstrução colônica com distensão abdominal, vômitos e dor intensa em todo o abdômen. Após avaliação dos exames complementares e evolução clínica, a equipe médica decidiu iniciar tratamento com neostigmina venosa. Nesse contexto, está recomendada a seguinte conduta durante a infusão venosa da neostigmina:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "glicemia capilar, pelo risco de hipoglicemia grave e sintomática;"
+        },
+        {
+          "letter": "B",
+          "text": "monitorização invasiva da pressão arterial, pelo risco de hipotensão;"
+        },
+        {
+          "letter": "C",
+          "text": "monitorização cardíaca contínua, pelo risco de bradicardia acentuada;"
+        },
+        {
+          "letter": "D",
+          "text": "dosagem de hemograma após a infusão, pela possibilidade de neutropenia grave;"
+        },
+        {
+          "letter": "E",
+          "text": "monitorização clínica relacionada ao alto risco de síndrome de Stevens-Johnson"
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Motilidade intestinal",
+      "topic": "Neostigmina na pseudo-obstrução colônica — monitorização",
+      "difficulty": "FACIL",
+      "keywords": [
+        "neostigmina",
+        "bradicardia",
+        "pseudo-obstrução colônica"
+      ]
+    },
+    {
+      "number": 37,
+      "statement": "Uma paciente de 59 anos procurou atendimento médico, pois vinha apresentando insônia há pelo menos 6 meses, além de redução progressiva no apetite e perda de peso. Relatou ansiedade, tristeza, desânimo, fadiga, alteração da concentração, baixa autoestima e episódios de náuseas. Negou pensamentos de morte, mas alegou que o quadro estava causando significativo impacto social e profissional. Negou doenças prévias ou uso de medicações. Dentro do último mês, havia sido realizada uma investigação extensa para afastar doenças que pudessem causar esses sintomas. Como todos os exames vieram dentro da normalidade, a paciente procurou nova avaliação clínica. Não foram encontradas alterações ao exame clínico. O médico explicou para a paciente que ela estava com um quadro compatível com depressão. Para essa paciente, a medicação que poderia trazer maior benefício, especialmente para os sintomas de insônia, ansiedade, redução do apetite, perda de peso e náuseas, é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Fluoxetina."
+        },
+        {
+          "letter": "B",
+          "text": "Duloxetina."
+        },
+        {
+          "letter": "C",
+          "text": "Mirtazapina."
+        },
+        {
+          "letter": "D",
+          "text": "Topiramato."
+        },
+        {
+          "letter": "E",
+          "text": "Bupropiona."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Psiquiatria",
+      "subtheme": "Transtornos do humor",
+      "topic": "Depressão — escolha de antidepressivo por perfil de sintomas",
+      "difficulty": "FACIL",
+      "keywords": [
+        "depressão",
+        "mirtazapina",
+        "insônia",
+        "perda de apetite"
+      ]
+    },
+    {
+      "number": 38,
+      "statement": "Um paciente de 34 anos é levado ao pronto-socorro por sua esposa, pois vem apresentando cefaleia intensa e convulsões sugestivas de crises parciais complexas. Há presença de leve paresia braquiocrural à direita. É realizada uma tomografia computadorizada de urgência. Diante da história epidemiológica, sintomas, exame físico e achados na tomografia computadorizada de crânio, há a suspeita de neurocisticercose. O próximo exame complementar para avaliação dessa hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "exame parasitológico de fezes;"
+        },
+        {
+          "letter": "B",
+          "text": "ressonância nuclear magnética de crânio;"
+        },
+        {
+          "letter": "C",
+          "text": "ultrassonografia com Doppler transcraniano;"
+        },
+        {
+          "letter": "D",
+          "text": "eletroencefalograma com mapeamento cerebral;"
+        },
+        {
+          "letter": "E",
+          "text": "PET SCAN cerebral com radiotraçador 18F-Fluordeoxiglicose."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Neurocisticercose — investigação complementar",
+      "difficulty": "FACIL",
+      "keywords": [
+        "neurocisticercose",
+        "ressonância magnética de crânio",
+        "crise convulsiva"
+      ]
+    },
+    {
+      "number": 39,
+      "statement": "Uma paciente de 43 anos apresenta-se com um quadro de febre, mal-estar e erupção cutânea de início há 1 semana. Nega alterações na coloração da urina. Há aproximadamente 3 semanas, fez uso de nimesulida e amoxicilina pelo período de 1 semana por uma provável sinusite. Ao exame, a pressão arterial é de 162 por 90 mmHg e há presença de edema periorbital e em membros inferiores. Registra-se a ausência de dor a punho-percussão bilateralmente. Os exames laboratoriais identificam uréia de 62 mg/dL e creatinina de 2,1 mg/dl, além da presença de eosinofilia no hemograma. EAS indica hematúria microscópica, aumento dos leucócitos e cilindros leucocitários. Não há crescimento bacteriano na cultura de urina. A proteinúria em urina de 24 horas registra 1,8 g de proteínas. Ultrassonografia indica rins de tamanho normal, ecogenicidade preservada e ausência de hidronefrose. A causa mais provável de acometimento renal nessa paciente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "nefropatia membranosa;"
+        },
+        {
+          "letter": "B",
+          "text": "pioelonefrite aguda;"
+        },
+        {
+          "letter": "C",
+          "text": "nefrite intersticial;"
+        },
+        {
+          "letter": "D",
+          "text": "nefropatia por IgA;"
+        },
+        {
+          "letter": "E",
+          "text": "amiloidose renal."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Nefrologia",
+      "subtheme": "Injúria renal aguda",
+      "topic": "Nefrite intersticial aguda por anti-inflamatório",
+      "difficulty": "FACIL",
+      "keywords": [
+        "nefrite intersticial aguda",
+        "eosinofilia",
+        "AINE"
+      ]
+    },
+    {
+      "number": 40,
+      "statement": "Um paciente de 69 anos foi admitido no hospital com síndrome de insuficiência cardíaca, aumento significativo do volume abdominal e edema de membros inferiores. Vinha em uso irregular de carvedilol e valsartan. Negou história de consumo de bebida alcoólica e hemotransfusão. O exame clínico indicava turgência jugular patológica, discretos estertores crepitantes bibasais e ritmo cardíaco regular. O abdômen se encontrava ascítico, tenso e com presença do sinal de piparote. Além da abordagem relacionada à insuficiência cardíaca, optou-se pela realização de paracentese. Diante da hipótese de ascite provocada por hepatopatia congestiva, são esperados os seguintes resultados:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "gradiente de albumina soro-ascite (GASA) de 0,9 g/dL e proteína total do líquido ascítico de 1,8 g/dL;"
+        },
+        {
+          "letter": "B",
+          "text": "gradiente de albumina soro-ascite (GASA) de 1,3 g/dL e proteína total do líquido ascítico de 1,5 g/dL;"
+        },
+        {
+          "letter": "C",
+          "text": "gradiente de albumina soro-ascite (GASA) de 1,5 g/dL e proteína total do líquido ascítico de 2,7 g/dL;"
+        },
+        {
+          "letter": "D",
+          "text": "gradiente de albumina soro-ascite (GASA) de 0,8 g/dL e proteína total do líquido ascítico de 2,8 g/dL;"
+        },
+        {
+          "letter": "E",
+          "text": "gradiente de albumina soro-ascite (GASA) de 1,0 g/dL e proteína total do líquido ascítico de 1,9 g/dL."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Ascite por hepatopatia congestiva",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ascite",
+        "GASA alto",
+        "insuficiência cardíaca"
+      ]
+    },
+    {
+      "number": 41,
+      "statement": "Uma paciente de 74 anos foi atendida no ambulatório com queixa de dispneia aos esforços, edema em tornozelos bilateralmente e episódios prévios sugestivos de dispneia paroxística noturna. O exame físico identificou ritmo cardíaco regular e presença da quarta bulha cardíaca, pressão arterial de 138 por 80 mmHg e frequência cardíaca de 72 batimentos por minuto. Tem 162 cm de altura e pesa 82 kg. O exame laboratorial realizado no último mês registrou creatinina de 1,2 mg/dL, glicose de 94 mg/dL e dosagem de peptídeo natriurético cerebral (BNP) de 480 pg/mL. A paciente levou ecocardiograma recente, em que a cavidade ventricular esquerda era de tamanho normal e a função sistólica global do ventrículo esquerdo estava dentro da normalidade (fração de ejeção preservada). Foi, então, elaborado um plano terapêutico. Entre as medicações a serem prescritas para uma paciente como ela, com insuficiência cardíaca e fração de ejeção preservada, aquela que tem maior benefício de redução de morte cardiovascular e hospitalização por insuficiência cardíaca é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ramipril 10 mg ao dia;"
+        },
+        {
+          "letter": "B",
+          "text": "bisoprolol 5 mg ao dia;"
+        },
+        {
+          "letter": "C",
+          "text": "irbesartana 150 mg ao dia;"
+        },
+        {
+          "letter": "D",
+          "text": "dapaglifozina 10 mg ao dia;"
+        },
+        {
+          "letter": "E",
+          "text": "espironolactona 25 mg ao dia."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Insuficiência cardíaca",
+      "topic": "ICFEp — inibidor de SGLT2",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ICFEp",
+        "dapagliflozina",
+        "fração de ejeção preservada"
+      ]
+    },
+    {
+      "number": 42,
+      "statement": "Um médico foi avaliar uma mulher de 68 anos que havia sido internada para realização de colecistectomia eletiva. Essa paciente estava em uso de varfarina há 1 mês em decorrência de um diagnóstico de trombose venosa poplítea e femoral no membro inferior esquerdo. Ao exame físico, havia discreto edema nesse membro, sem quaisquer outras alterações significativas detectáveis ao exame. Os sinais vitais estavam dentro da normalidade. O exame laboratorial do dia anterior havia registrado INR de 2,4, creatinina de 1,0 mg/dL e glicose de 88 mg/dL. A conduta mais indicada nesse caso é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "suspender a varfarina 3 dias antes da cirurgia, sem fazer uso de enoxaparina até a cirurgia ser realizada. Reavaliar o INR no dia anterior à cirurgia;"
+        },
+        {
+          "letter": "B",
+          "text": "suspender a varfarina 7 dias antes da cirurgia e iniciar clopidogrel, que poderá ser mantido durante o procedimento cirúrgico. Nesse caso, não há necessidade da nova avaliação do INR antes da cirurgia;"
+        },
+        {
+          "letter": "C",
+          "text": "ministrar vitamina K para reversão da anticoagulação da varfarina. Em seguida, liberar a cirurgia para o dia seguinte dessa intervenção, após reavaliação do INR;"
+        },
+        {
+          "letter": "D",
+          "text": "suspender a varfarina 5 dias antes da cirurgia e, 2 dias após essa suspensão, iniciar enoxaparina em dose terapêutica. Em seguida, suspender a enoxaparina 24 horas antes da cirurgia. Reavaliar o INR no dia anterior à cirurgia;"
+        },
+        {
+          "letter": "E",
+          "text": "suspender a varfarina 6 dias antes da cirurgia e, após 2 dias dessa suspensão, iniciar rivaroxabana 20 mg ao dia. Em seguida, suspender o rivaroxabana 2 dias antes da cirurgia, sem necessidade de reavaliar o INR no dia anterior à cirurgia."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Manejo perioperatório de anticoagulação (bridging)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ponte de heparina",
+        "varfarina",
+        "perioperatório"
+      ]
+    },
+    {
+      "number": 43,
+      "statement": "Um paciente de 29 anos foi levado para o pronto-socorro por seus familiares por apresentar dificuldade em movimentar os membros inferiores ao acordar e impossibilidade de deambulação. Relatou ser previamente hígido. No dia anterior, realizou exercício físico intenso e extenuante. Disse ter se hidratado adequadamente e à noite, antes de se deitar, comeu grande quantidade de uma refeição rica em carboidrato. Ao exame físico, foi observada uma redução da força proximal em membros inferiores, mas sem outras alterações ao exame. Sinais vitais estavam normais. Nos exames laboratoriais coletados no pronto-socorro foram obtidos os seguintes resultados: sódio: 138 mEq/L, cálcio: 8,9 mEq/L, potássio: 2,2 mEq/L, magnésio: 1,9 mEq/L e glicemia: 86 mEq/L. Foi realizada reposição de potássio no pronto- socorro, e o paciente encaminhado para avaliação ambulatorial. Se for confirmada a hipótese de paralisia periódica hipocalêmica, a orientação para prevenção de novos episódios de fraqueza em membros inferiores é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "evitar alimentos ricos em carboidratos e reduzir o sal na dieta. Evitar exercícios físicos extenuantes"
+        },
+        {
+          "letter": "B",
+          "text": "aumentar a hidratação após exercício aeróbico. Consumir mais carboidrato após exercício muscular;"
+        },
+        {
+          "letter": "C",
+          "text": "aumentar o consumo de fibras solúveis e alimentos ricos em potássio. Evitar atividade aeróbica prolongada;"
+        },
+        {
+          "letter": "D",
+          "text": "reduzir o consumo da proteína da dieta. Evitar o consumo de bebidas alcoólicas nos dias de exercícios intensos;"
+        },
+        {
+          "letter": "E",
+          "text": "adotar uma alimentação rica em potássio, magnésio, sal e proteína de alto valor biológico. Evitar exercícios musculares intensos."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Doenças neuromusculares",
+      "topic": "Paralisia periódica hipocalêmica",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "paralisia periódica hipocalêmica",
+        "hipocalemia",
+        "fraqueza muscular"
+      ]
+    },
+    {
+      "number": 44,
+      "statement": "Uma paciente de 79 anos foi levada pela sua filha para uma consulta clínica pois vinha apresentando episódios de queda da própria altura ao se levantar da cama durante a madrugada. Esse quadro se iniciou há 2 meses, mas nas últimas 2 semanas tinha aumentado a frequência, inclusive com 3 episódios pela manhã, ao se levantar da cama. Estava sendo acompanhada por um neurologista por apresentar doença de Parkinson. Diante desse quadro, ele havia indicado medidas comportamentais, incluindo se sentar antes de se levantar da cama e aumentar tanto a hidratação quanto o consumo de sal na dieta. Contudo, a paciente permaneceu apresentando quedas. Não estava em uso de anti-hipertensivos. Ao exame clínico, a pressão arterial era de 140 por 88 mmHg na posição supina e, ao ficar na posição ortostática, rapidamente a pressão caía para 88 por 60 mmHg. Referiu sensação de intolerância ortostática. Não houve mudança significativa na frequência cardíaca. O exame cardiovascular estava sem alterações. Diante desse quadro, a medicação mais indicada para essa paciente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "etilefrina;"
+        },
+        {
+          "letter": "B",
+          "text": "paroxetina;"
+        },
+        {
+          "letter": "C",
+          "text": "propranolol;"
+        },
+        {
+          "letter": "D",
+          "text": "prednisolona;"
+        },
+        {
+          "letter": "E",
+          "text": "fludrocortisona."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Neurologia",
+      "subtheme": "Distúrbios motores",
+      "topic": "Hipotensão ortostática neurogênica na doença de Parkinson",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hipotensão ortostática",
+        "doença de Parkinson",
+        "fludrocortisona"
+      ]
+    },
+    {
+      "number": 45,
+      "statement": "Um paciente de 54 anos compareceu a consulta de rotina por ser portador de hipertrigliceridemia e hipertensão arterial. Estava em uso de ciprofibrato 100 mg ao dia e losartana 100 mg ao dia. Era assintomático e negava outras doenças. Relatou estar fazendo atividades físicas de forma regular e estar em acompanhamento com nutricionista. Contudo, em exame laboratorial recente, a dosagem sérica de triglicerídeos foi de 520 mg/dL e HDL de 46 mg/dL. Como em exames anteriores, não havia alterações significativas nos valores do LDL (entre 100 e 120 mg/dL). Nesse caso, está indicada a seguinte conduta:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "trocar o ciprofibrato por inclisiran;"
+        },
+        {
+          "letter": "B",
+          "text": "manter o ciprofibrato e associar niacina;"
+        },
+        {
+          "letter": "C",
+          "text": "manter o ciprofibrato e associar ezetimiba;"
+        },
+        {
+          "letter": "D",
+          "text": "manter o ciprofibrato e associar ácido graxo ômega 3;"
+        },
+        {
+          "letter": "E",
+          "text": "trocar o ciprofibrato por uma estatina de alta potência."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Endocrinologia",
+      "subtheme": "Dislipidemia",
+      "topic": "Hipertrigliceridemia grave refratária a fibrato",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "hipertrigliceridemia",
+        "fibrato",
+        "ômega-3"
+      ]
+    },
+    {
+      "number": 46,
+      "statement": "Um homem de 42 anos, previamente hígido, foi levado por seu irmão ao pronto-socorro com um quadro de cefaleia intensa de início súbito, acompanhada de náuseas, vômitos, alterações da acuidade visual e dor nos olhos. Esses sintomas haviam se iniciado nas últimas 24 horas, com piora progressiva. Tinha história de possível sinusite recente, com o uso apenas de sintomáticos. Ao exame, a pressão arterial foi de 116 por 70 mmHg, frequência cardíaca de 108 batimentos por minutos e temperatura axilar de 38,6 °C. Estava sonolento, com edema periorbital e proptose do olho direito. Apresentava quemose conjuntival, dor acentuada à movimentação dos olhos e acometimento do III, IV e VI pares cranianos. Diante desse quadro, a principal hipótese diagnóstica é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "abscessos cerebrais em lobos frontais;"
+        },
+        {
+          "letter": "B",
+          "text": "neuropatia óptica isquêmica anterior;"
+        },
+        {
+          "letter": "C",
+          "text": "trombose séptica do seio cavernoso;"
+        },
+        {
+          "letter": "D",
+          "text": "hemorragia subaracnóidea;"
+        },
+        {
+          "letter": "E",
+          "text": "meningite bacteriana."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Trombose séptica do seio cavernoso",
+      "difficulty": "FACIL",
+      "keywords": [
+        "trombose do seio cavernoso",
+        "proptose",
+        "pares cranianos"
+      ]
+    },
+    {
+      "number": 47,
+      "statement": "Uma paciente de 39 anos procurou o ambulatório com queixas de sonolência diurna e fadiga. Durante a anamnese, ela comentou que vinha dormindo mal à noite. Ela acreditava que seu sono estivesse sendo prejudicado por uma sensação de \"inquietude\" e desconforto nas pernas quando deitava na cama à noite. Isso gerava uma forte necessidade de movimentá-las, o que provocava alívio parcial do desconforto. Negou fazer uso de medicações ou ter doenças prévias. O exame físico estava sem alterações. O médico que estava atendendo suspeitou de síndrome das pernas inquietas. Entre as alternativas abaixo, a conduta mais indicada para essa paciente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "realização de eletroneuromiografia para avaliação de um quadro inicial de polineuropatía desmielinizante;"
+        },
+        {
+          "letter": "B",
+          "text": "solicitação de tomografia computadorizada de crânio para investigar uma causa central de síndrome das pernas inquietas;"
+        },
+        {
+          "letter": "C",
+          "text": "orientação do uso de suplementos de proteínas, pois um maior aporte proteico pode auxiliar no desconforto noturno das pernas;"
+        },
+        {
+          "letter": "D",
+          "text": "implementação ou intensificação de exercícios aeróbicos e musculares, visando a aliviar a sensação de desconforto nas pernas à noite;"
+        },
+        {
+          "letter": "E",
+          "text": "avaliação da cinética do ferro, especialmente a dosagem de ferritina. Se a ferritina estiver baixa, a reposição de ferro poderá trazer benefícios aos sintomas dessa paciente."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Neurologia",
+      "subtheme": "Distúrbios motores",
+      "topic": "Síndrome das pernas inquietas — cinética do ferro",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome das pernas inquietas",
+        "ferritina",
+        "reposição de ferro"
+      ]
+    },
+    {
+      "number": 48,
+      "statement": "Um paciente de 42 anos, em tratamento quimioterápico de leucemia mieloide aguda, foi levado para o pronto-socorro com dor abdominal intensa, náuseas, vômitos e febre. Relatou que esses sintomas se iniciaram nas últimas 24 horas, com piora significativa. Ao exame, o abdômen se encontrava distendido e doloroso à palpação, principalmente no quadrante inferior direito, em que ocorria piora da dor à descompressão. A pressão arterial era de 94 por 58 mmHg; a frequência cardíaca de 109 batimentos por minuto; e a temperatura axilar, de 39 ℃. O exame laboratorial registrou creatinina de 1,7 mg/dL e 410 neutrófilos/mm3. A tomografia de abdômen demonstrou espessamento da parede intestinal (especialmente do ceco) e imagem compatível com pneumatose intestinal. Nesse caso, o diagnóstico mais provável é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "enterocolite neutropênica com isquemia intestinal;"
+        },
+        {
+          "letter": "B",
+          "text": "diverticulite aguda complicada com abscesso;"
+        },
+        {
+          "letter": "C",
+          "text": "apendicite aguda perfurada com peritonite;"
+        },
+        {
+          "letter": "D",
+          "text": "colite pseudomembranosa;"
+        },
+        {
+          "letter": "E",
+          "text": "colite ulcerativa."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Enterocolite neutropênica (tiflite)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "enterocolite neutropênica",
+        "tiflite",
+        "neutropenia febril"
+      ]
+    },
+    {
+      "number": 49,
+      "statement": "Por solicitação de uma amiga, um médico compareceu à casa de uma paciente de 43 anos que apresentava perda do nível de consciência. Foi relatado que essa paciente tinha diabetes mellitus tipo 1 e fazia uso regular de insulina. Encontrava-se com sudorese profusa e com marcado rebaixamento do nível de consciência. Os sinais vitais estavam preservados. A glicemia capilar era de 30 mg/dL. Nesse caso, a conduta mais adequada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Inserir um alimento rico em carboidrato na cavidade oral para correção da hipoglicemia."
+        },
+        {
+          "letter": "B",
+          "text": "Levar a paciente para um pronto-socorro para ser ministrada glicose hipertônica venosa."
+        },
+        {
+          "letter": "C",
+          "text": "Ministrar glucagon por via intramuscular para reversão rápida dos sintomas de hipoglicemia."
+        },
+        {
+          "letter": "D",
+          "text": "Fazer nebulização de adrenalina diluída para resolução mais rápida dos sintomas neuroglicopênicos."
+        },
+        {
+          "letter": "E",
+          "text": "Colocar um líquido com açúcar por via sublingual de forma lenta até o restabelecimento do nível de consciência."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Endocrinologia",
+      "subtheme": "Diabetes mellitus",
+      "topic": "Hipoglicemia grave fora do hospital — glucagon",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipoglicemia grave",
+        "glucagon",
+        "diabetes tipo 1"
+      ]
+    },
+    {
+      "number": 50,
+      "statement": "Um paciente de 62 anos, hipertenso, compareceu a consulta ambulatorial regular. Apesar da implementação adequada de medidas de estilo de vida, relatou que seus níveis pressóricos se mantiveram elevados nas aferições de pressão em sua residência. Estava em uso de doses plenas de enalapril, indapamida e amlodipina. Em investigação recente, foram afastadas causas secundárias de hipertensão arterial. Ao exame, apresentava ritmo cardíaco regular e presença de quarta bulha cardíaca na ausculta cardíaca. A pressão arterial era de 155 por 96 mmHg e a frequência cardíaca era de 71 batimentos por minuto. Em exames laboratoriais recentes, a glicemia foi de 92 mg/dL, creatinina de 1,0 mg/dL, ureia de 32 mg/dL, sódio de 140 mg/dL e potássio de 3,9 mg/dL. No caso desse paciente, a medicação que deve ser associada para um melhor controle pressórico é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "espironolactona;"
+        },
+        {
+          "letter": "B",
+          "text": "hidralazina;"
+        },
+        {
+          "letter": "C",
+          "text": "furosemida;"
+        },
+        {
+          "letter": "D",
+          "text": "verapamil;"
+        },
+        {
+          "letter": "E",
+          "text": "losartana."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Cardiologia",
+      "subtheme": "Hipertensão arterial",
+      "topic": "Hipertensão resistente — quarta droga (espironolactona)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hipertensão resistente",
+        "espironolactona",
+        "quarta bulha"
+      ]
+    },
+    {
+      "number": 51,
+      "statement": "Um homem de 61 anos, diabético, em uso de linezolida por grave infecção cutânea, iniciou um quadro de confusão mental, sudorese, agitação e tremor. Ao exame, apresentava mioclonia e rigidez muscular. A pressão arterial era de 178 por 104 mmHg, a frequência cardíaca era de 112 batimentos por minuto e a temperatura axilar era de 38,2 ℃. Entre as medicações, estava fazendo uso de citalopram 40 mg ao dia. Após a realização de exames complementares para afastar outras doenças, foi levantada a hipótese de síndrome serotoninérgica. Foi suspensa a fluoxetina e foram implementadas medidas de suporte clínico. Na síndrome serotoninérgica, o tratamento dependerá da sua gravidade. Entre as medicações que estão indicadas para uso pela equipe médica, é correto apontar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "buspirona e metadona;"
+        },
+        {
+          "letter": "B",
+          "text": "Ibuprofeno e tramadol;"
+        },
+        {
+          "letter": "C",
+          "text": "naltrexona e flumazenil;"
+        },
+        {
+          "letter": "D",
+          "text": "diazepam e ciproeptadina;"
+        },
+        {
+          "letter": "E",
+          "text": "carbamazepina e naloxona."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Intoxicações exógenas",
+      "topic": "Síndrome serotoninérgica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome serotoninérgica",
+        "ciproeptadina",
+        "diazepam"
+      ]
+    },
+    {
+      "number": 52,
+      "statement": "Um paciente de 72 anos, com parkinsonismo, estava obtendo melhora com o uso de levodopa. Contudo, foi observada piora clínica motora após o início de \"suplementos de vitaminas\", que o paciente começou a usar por conta própria. A causa mais provável do menor efeito da levodopa foi o início da dose diária da seguinte vitamina:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "tiamina 50 mg;"
+        },
+        {
+          "letter": "B",
+          "text": "ácido fólico 1 mg;"
+        },
+        {
+          "letter": "C",
+          "text": "piridoxina 100 mg;"
+        },
+        {
+          "letter": "D",
+          "text": "vitamina A 5.000 UI;"
+        },
+        {
+          "letter": "E",
+          "text": "vitamina D3 2.000 UI."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Neurologia",
+      "subtheme": "Distúrbios motores",
+      "topic": "Doença de Parkinson — interação da levodopa com piridoxina",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença de Parkinson",
+        "levodopa",
+        "piridoxina"
+      ]
+    },
+    {
+      "number": 53,
+      "statement": "Uma dentista de 49 anos procura atendimento clínico por apresentar tremor de longa data nas mãos. Relata ter investigado previamente e ter recebido o diagnóstico de tremor essencial. Não faz uso de medicações, porém esses sintomas estão causando significativo impacto social e profissional. Nega doenças prévias. O exame clínico é compatível com tremor essencial. A pressão arterial é de 138 por 84 mmHg e a frequência cardíaca, de 82 batimentos por minuto. A paciente demonstrou interesse em iniciar medicação visando a um melhor controle do tremor. Nesse caso, a medicação mais indicada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "verapamil;"
+        },
+        {
+          "letter": "B",
+          "text": "propranolol;"
+        },
+        {
+          "letter": "C",
+          "text": "lamotrigina;"
+        },
+        {
+          "letter": "D",
+          "text": "clorpromazina;"
+        },
+        {
+          "letter": "E",
+          "text": "ácido valproico."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Distúrbios motores",
+      "topic": "Tremor essencial — betabloqueador",
+      "difficulty": "FACIL",
+      "keywords": [
+        "tremor essencial",
+        "propranolol"
+      ]
+    },
+    {
+      "number": 55,
+      "statement": "Um paciente de 68 anos, com diagnóstico de câncer de próstata, foi internado para realização de prostatectomia. Estava em uso de anlodipino 10 mg ao dia e atorvastatina 20 mg ao dia. Relatou que no passado fez uso de \"medicação para arritmia\", mas suspendeu por conta própria há 5 anos. Apresentava placa ateromatosa não obstrutiva em carótidas bilateralmente. Foi avaliado pela equipe de clínica médica no dia anterior da cirurgia. O exame físico não apresentava alterações significativas. A pressão arterial era de 148 por 90 mmHg e a frequência cardíaca, de 69 batimentos por minuto. Nesse caso, a conduta correta é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "manter o uso de atorvastatina;"
+        },
+        {
+          "letter": "B",
+          "text": "prescrever atenolol para ser ministrado na manhã da cirurgia;"
+        },
+        {
+          "letter": "C",
+          "text": "orientar o início de amiodarona venosa no dia da cirurgia;"
+        },
+        {
+          "letter": "D",
+          "text": "iniciar ramipril associado a hidroclorotiazida e suspender a cirurgia até melhor controle pressórico;"
+        },
+        {
+          "letter": "E",
+          "text": "iniciar aspirina no dia anterior da cirurgia, visando à redução do risco de eventos cardiovasculares perioperatórios."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Avaliação perioperatória",
+      "topic": "Manejo perioperatório de estatina",
+      "difficulty": "FACIL",
+      "keywords": [
+        "avaliação pré-operatória",
+        "estatina",
+        "risco cardiovascular"
+      ]
+    },
+    {
+      "number": 56,
+      "statement": "Uma mulher de 50 anos, que vinha em acompanhamento oncológico por câncer de mama, é internada com dor óssea refratária às medicações orais. Foram detectadas metástases ósseas, hepáticas e pulmonares. A dor foi bem controlada e foram realizados todos os exames pertinentes ao quadro clinico apresentado. Além disso, a equipe médica discutiu sobre a importância da avaliação da espiritualidade da paciente. Em relação à avaliação da espiritualidade em pacientes que estão em cuidados paliativos, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o rastreio da espiritualidade não está recomendado para pacientes em cuidados paliativos;"
+        },
+        {
+          "letter": "B",
+          "text": "a avaliação da espiritualidade deve ser realizada apenas nos pacientes que se consideram religiosos;"
+        },
+        {
+          "letter": "C",
+          "text": "o rastreamento breve da espiritualidade deve ser realizado apenas pelo serviço de capelania ou líderes religiosos;"
+        },
+        {
+          "letter": "D",
+          "text": "angústia ou sofrimento espiritual pode amplificar outros tipos de sofrimento dos pacientes, como a dor física ou emocional;"
+        },
+        {
+          "letter": "E",
+          "text": "os pacientes e cuidadores geralmente não querem que sua espiritualidade seja abordada pelo profissional de saúde."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Oncologia",
+      "subtheme": "Cuidados paliativos",
+      "topic": "Avaliação da espiritualidade em cuidados paliativos",
+      "difficulty": "FACIL",
+      "keywords": [
+        "espiritualidade",
+        "cuidados paliativos",
+        "sofrimento"
+      ]
+    },
+    {
+      "number": 57,
+      "statement": "Uma mulher de 38 anos é atendida no ambulatório com queixa de aproximadamente 4 a 5 episódios de cistite sintomáticas por ano nos últimos 3 anos, com significativo impacto na sua qualidade de vida. Relata ter sido submetida, nesse período, a investigação com ultrassonografia, tomografia e múltiplos exames de urina. Não há alterações nos exames ginecológicos. No momento da consulta, encontra-se assintomática e com exame de urina recente sem alterações. Visando à prevenção de infecções urinárias de repetição nessa paciente, entre as alternativas abaixo, o esquema mais recomendado é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "doxiciclina 100 mg 2 vezes ao dia por 5 meses;"
+        },
+        {
+          "letter": "B",
+          "text": "cefuroxima 250 mg 2 vezes ao dia por 4 meses;"
+        },
+        {
+          "letter": "C",
+          "text": "levofloxacina 750 mg 1 vez ao dia por 3 meses;"
+        },
+        {
+          "letter": "D",
+          "text": "macrodantina 100 mg 1 vez ao dia por 6 meses;"
+        },
+        {
+          "letter": "E",
+          "text": "ciprofloxacina 500 mg 2 vezes ao dia por 2 meses."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Infecções do trato urinário",
+      "topic": "Profilaxia de ITU recorrente",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ITU recorrente",
+        "profilaxia antibiótica contínua",
+        "nitrofurantoína"
+      ]
+    },
+    {
+      "number": 58,
+      "statement": "Um paciente de 31 anos tem história de tratamento antimicrobiano para \"inflamação no testículo\" há 3 semanas. Apesar de o desconforto ter melhorado, ele sentiu \"algo estranho\" no testículo esquerdo. Por tal motivo, procurou atendimento médico para nova avaliação. Ao exame, verifica-se uma massa testicular à esquerda, indolor à palpação. Não há outras alterações. O médico solicita, então, uma ultrassonografia da bolsa escrotal. Diante da suspeita de câncer testicular, estão indicados os seguintes exames laboratoriais:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aspartato aminotransferase (TGO), calcitonina e CA 19-9;"
+        },
+        {
+          "letter": "B",
+          "text": "antígeno carcinoembrionário (CEA), cromogranina A e CA 125;"
+        },
+        {
+          "letter": "C",
+          "text": "alanina aminotransferase (TGP), CA 15-3 e fosfatase ácida total;"
+        },
+        {
+          "letter": "D",
+          "text": "fosfatase alcalina, CA 72-4 e antígeno mucoide associado a carcinoma (MCA);"
+        },
+        {
+          "letter": "E",
+          "text": "lactato desidrogenase (LDH), alfafetoproteína e beta gonadotrofina coriônica humana (Beta hCG)."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Oncologia",
+      "subtheme": "Tumores sólidos",
+      "topic": "Câncer de testículo — marcadores tumorais",
+      "difficulty": "FACIL",
+      "keywords": [
+        "câncer de testículo",
+        "alfafetoproteína",
+        "beta-hCG",
+        "LDH"
+      ]
+    },
+    {
+      "number": 59,
+      "statement": "Uma paciente de 78 anos procurou o ambulatório de uma clínica médica pois vinha apresentando dispneia aos esforços. Estava em uso de olmesartana 40 mg ao dia e hidroclorotiazida 12,5 mg ao dia. Negava outros sintomas. Ela levou para consulta os exames laboratoriais realizados no último mês. Os resultados de glicemia, sódio, potássio, ureia, creatinina e hemograma estavam dentro da normalidade. O ecocardiograma recente estava sem alterações significativas. O exame físico constatou ritmo cardíaco regular e bulhas normofonéticas. O restante do exame não apresentava alterações. A pressão arterial era de 162 × 80 mmHg e a frequência cardíaca, de 41 batimentos por minuto. A paciente levou um eletrocardiograma realizado 4 semanas antes da consulta, em que foi evidenciado um bloqueio atrioventricular do 2º grau Mobitz II. Esse exame foi repetido no dia do atendimento, quando o bloqueio atrioventricular foi confirmado. Nesse caso, a conduta mais indicada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Associar clonidina visando a um melhor controle da pressão arterial sistólica."
+        },
+        {
+          "letter": "B",
+          "text": "Solicitar Holter de 24 horas para investigar a presença de outras arritmias cardíacas."
+        },
+        {
+          "letter": "C",
+          "text": "Indicar a realização de cintilografia miocárdica com dipiridamol para afastar isquemia miocárdica."
+        },
+        {
+          "letter": "D",
+          "text": "Encaminhar a paciente para uma pronta avaliação por uma equipe especializada diante da indicação de implante de marcapasso definitivo."
+        },
+        {
+          "letter": "E",
+          "text": "Ministrar atropina venosa para reversão do bloqueio atrioventricular, visando a seguir monitorando ambulatorialmente a frequência cardíaca e a pressão arterial."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Arritmias",
+      "topic": "Bloqueio atrioventricular Mobitz II — indicação de marcapasso",
+      "difficulty": "FACIL",
+      "keywords": [
+        "BAV Mobitz II",
+        "marcapasso definitivo",
+        "bradicardia"
+      ]
+    },
+    {
+      "number": 60,
+      "statement": "Um paciente de 46 anos é levado ao pronto-socorro por seus familiares por ter apresentado crise convulsiva em sua residência. Segundo o relato, ele iniciara, há 4 dias, um quadro de cefaleia de forte intensidade, com alterações comportamentais e febre alta. Ao exame, encontrava-se desorientado, sonolento e com hemiparesia à esquerda. A pressão arterial era de 110 × 88 mmHg e a frequência cardíaca, de 98 batimentos por minuto. Foi realizada uma ressonância nuclear magnética, em que foram evidenciadas áreas de hiperintensidade nos lobos temporais bilateralmente. Em seguida, foi realizada uma punção liquórica. No líquor, foi encontrado um aumento de proteínas e leucócitos (com predomínio de linfócitos). Os demais exames solicitados no líquor ainda estavam pendentes. Diante dessa apresentação clínica e da possibilidade de encefalite herpética, além da terapia de suporte clínico, a conduta mais adequada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aguardar todos os resultados do líquor para iniciar o tratamento"
+        },
+        {
+          "letter": "B",
+          "text": "coletar sorologia para herpes simplex no soro e aguardar o resultado para iniciar o tratamento"
+        },
+        {
+          "letter": "C",
+          "text": "programar biópsia cerebral com urgência visando a estabelecer o diagnóstico definitivo"
+        },
+        {
+          "letter": "D",
+          "text": "iniciar corticoide venoso em dose alta para evitar a formação de edema em torno das lesões cerebrais e prevenir sequelas de uma possível meningite"
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar aciclovir pela via venosa, enquanto se aguarda a confirmação do diagnóstico de encefalite herpética ou até que outro diagnóstico seja feito."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Encefalite herpética — tratamento empírico",
+      "difficulty": "FACIL",
+      "keywords": [
+        "encefalite herpética",
+        "aciclovir",
+        "lobo temporal"
+      ]
+    },
+    {
+      "number": 61,
+      "statement": "Uma paciente de 35 anos de idade apresenta quadro de taquicardia, tremores finos, febre, calafrios, sudorese e dor em região anterior do pescoço que piora à palpação. Apresenta dosagem de TSH = 1,60 UI/mL. Exame de VHS = 80 mm/h. O diagnóstico mais provável é tireoidite:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "de Hashimoto;"
+        },
+        {
+          "letter": "B",
+          "text": "pela amiodarona;"
+        },
+        {
+          "letter": "C",
+          "text": "de Riedel;"
+        },
+        {
+          "letter": "D",
+          "text": "de De Quervain;"
+        },
+        {
+          "letter": "E",
+          "text": "pós-parto."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da tireoide",
+      "topic": "Tireoidite subaguda de De Quervain",
+      "difficulty": "FACIL",
+      "keywords": [
+        "tireoidite de De Quervain",
+        "dor cervical",
+        "VHS elevado"
+      ]
+    },
+    {
+      "number": 62,
+      "statement": "Uma paciente com 48 anos de idade comparece ao pronto-socorro devido a um grande edema de lábios superiores e inferiores, sendo este o primeiro episódio. O angioedema também foi observado na língua, porém com menor acometimento. Não havia sinais de obstrução laríngea. Não foram observadas reações cutâneas urticariformes. Prontamente foi administrado 0,3 ml de uma solução 1:1000 via intramuscular de epinefrina, 25 mg de prometazina e 500 mg de hidrocortisona por via venosa. Cerca de 1 hora após, não houve resposta clínico/terapêutica, permanecendo a paciente com o mesmo aspecto, porém com maior acometimento da língua, sem obstrução de vias aéreas. No pronto-socorro, havia disponíveis plasma fresco congelado e ácido tranexâmico, que foram administrados, resultando em excelente melhora. A doença descrita acima é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "angioedema por alergia a alimentos - frutos do mar;"
+        },
+        {
+          "letter": "B",
+          "text": "angioedema adquirido;"
+        },
+        {
+          "letter": "C",
+          "text": "angioedema hereditário;"
+        },
+        {
+          "letter": "D",
+          "text": "mastocitose;"
+        },
+        {
+          "letter": "E",
+          "text": "alergia a picada de inseto."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Alergia e Imunologia",
+      "subtheme": "Angioedema",
+      "topic": "Angioedema adquirido por deficiência de C1 esterase",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "angioedema adquirido",
+        "C1 inibidor",
+        "refratário a epinefrina"
+      ]
+    },
+    {
+      "number": 63,
+      "statement": "Uma pessoa vivendo com HIV teve necessidade de troca de seu esquema antirretroviral devido a falhas e intolerâncias prévias. O médico assistente, antes de iniciar um novo esquema, solicitou a tipificação do alelo HLA B*5701. Essa análise deve ser realizada para a segurança na administração do seguinte antirretroviral:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "tipranavir;"
+        },
+        {
+          "letter": "B",
+          "text": "etravirina;"
+        },
+        {
+          "letter": "C",
+          "text": "abacavir;"
+        },
+        {
+          "letter": "D",
+          "text": "maraviroque;"
+        },
+        {
+          "letter": "E",
+          "text": "enfuvirtida."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Abacavir — rastreio de hipersensibilidade (HLA-B*5701)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "abacavir",
+        "HLA-B*5701",
+        "hipersensibilidade"
+      ]
+    },
+    {
+      "number": 64,
+      "statement": "Paciente HIV +, diagnosticado em 1999, veio para consulta de rotina sem queixas. Já fez uso de vários esquemas antirretrovirais e atualmente está em uso de tenofovir/lamivudina 300-300mg 1x ao dia, darunavir 800mg 1x ao dia e ritonavir 100mg 1x ao dia. A última contagem de linfócitos T CD4 era 1200 células/mm³, e a carga viral do HIV era indetectável. Apesar da obesidade leve e hipertensão arterial, os exames laboratoriais de rotina eram normais, exceto VDRL, que mostrou título 1/64. Nesse caso, a conduta mais apropriada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "benzilpenicilina benzatina 2.400.000 u dose única;"
+        },
+        {
+          "letter": "B",
+          "text": "doxiciclina 100 mg, de 12/12 horas, por 14 dias;"
+        },
+        {
+          "letter": "C",
+          "text": "benzilpenicilina benzatina 1.200.000 u 1x por semana por 3 semanas;"
+        },
+        {
+          "letter": "D",
+          "text": "benzilpenicilina benzatina 2.400.000 u 1x por semana por 3 semanas;"
+        },
+        {
+          "letter": "E",
+          "text": "penicilina cristalina venosa 4.000.000 u a cada 4 horas por 14 dias."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Infectologia",
+      "subtheme": "Infecções sexualmente transmissíveis",
+      "topic": "Sífilis latente tardia em pessoa vivendo com HIV",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "sífilis latente tardia",
+        "VDRL",
+        "penicilina benzatina"
+      ],
+      "reference": "PCDT de Infecções Sexualmente Transmissíveis — Ministério da Saúde"
+    },
+    {
+      "number": 65,
+      "statement": "Um paciente com 63 anos de idade apresenta hepatite B crônica sem tratamento antiviral especifico. Mantém valores anormais de AST e ALT, anti-HBs (-) e HBsAg (+), HBeAg (-). Em relação às manifestações extra-hepáticas pela infecção crônica pelo HBV, a mais prevalente é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "lúpus eritematoso sistêmico;"
+        },
+        {
+          "letter": "B",
+          "text": "amiloidose"
+        },
+        {
+          "letter": "C",
+          "text": "linfoma de Burkitt;"
+        },
+        {
+          "letter": "D",
+          "text": "poliarterite nodosa;"
+        },
+        {
+          "letter": "E",
+          "text": "histiocitose."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatites virais",
+      "topic": "Manifestações extra-hepáticas da hepatite B crônica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hepatite B crônica",
+        "poliarterite nodosa",
+        "manifestação extra-hepática"
+      ]
+    },
+    {
+      "number": 66,
+      "statement": "Coqueluche é uma infecção aguda do trato respiratório causada pela bactéria Bordetella pertussis. A palavra coqueluche significa \"tosse violenta\", expressão que descreve apropriadamente a característica mais consistente e proeminente da doença. O nome chinês para coqueluche é \"tosse de 100 dias\", termo que descreve o curso clínico da doença com precisão. A identificação de B. pertussis foi relatada pela primeira vez por Bordet e Gengou em 1906. A classe de antibióticos mais adequada para tratamento dessa doença é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "fosfomicina;"
+        },
+        {
+          "letter": "B",
+          "text": "quinolona;"
+        },
+        {
+          "letter": "C",
+          "text": "tetraciclina;"
+        },
+        {
+          "letter": "D",
+          "text": "beta-lactâmico;"
+        },
+        {
+          "letter": "E",
+          "text": "macrolídeo."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Doenças de notificação compulsória",
+      "topic": "Coqueluche — tratamento com macrolídeo",
+      "difficulty": "FACIL",
+      "keywords": [
+        "coqueluche",
+        "Bordetella pertussis",
+        "macrolídeo"
+      ]
+    },
+    {
+      "number": 68,
+      "statement": "Mpox é um ortopoxvírus do mesmo gênero que os vírus da varíola e vaccinia. Vários surtos dessa enfermidade em seres humanos foram descritos a partir da década de 1970, em especial na República Democrática do Congo e na Nigéria. Em 2022, houve um surto global dessa doença. Em agosto de 2024, a OMS a declarou como Emergência de Saúde Pública de Importância Internacional. Para o tratamento dessa enfermidade, o fármaco atualmente indicado é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "molnupiravir;"
+        },
+        {
+          "letter": "B",
+          "text": "tecovirimat;"
+        },
+        {
+          "letter": "C",
+          "text": "paxlovid;"
+        },
+        {
+          "letter": "D",
+          "text": "zanamivir;"
+        },
+        {
+          "letter": "E",
+          "text": "baloxavir marboxil."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Doenças emergentes",
+      "topic": "Mpox — tratamento antiviral",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "mpox",
+        "tecovirimat",
+        "ortopoxvírus"
+      ]
+    },
+    {
+      "number": 70,
+      "statement": "Uma mulher com 44 anos, previamente saudável, estava em sua festa surpresa de aniversário no ambiente de trabalho quando apresentou quadro de dor precordial súbita. Foi admitida na emergência com taquicardia, dor torácica e mal-estar geral. PA: 130×95 mmHg. FC: 98 bpm. Ritmo cardíaco regular. As troponina cardíacas encontravam-se com valores ligeiramente aumentados, e o ECG mostrou inversão profunda da onda T de V1 a V6, além de discreta elevação do segmento ST. O ecocardiograma transtorácico mostrou hipocinesia de região apical de ventrículo esquerdo com grande diminuição da fração de ejeção, além de imagem em balonamento nesse mesmo sítio. O diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "infarto agudo do miocárdio;"
+        },
+        {
+          "letter": "B",
+          "text": "tromboembolismo pulmonar;"
+        },
+        {
+          "letter": "C",
+          "text": "miocardite aguda;"
+        },
+        {
+          "letter": "D",
+          "text": "síndrome do coração partido;"
+        },
+        {
+          "letter": "E",
+          "text": "angina instável."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Doenças do pericárdio e miocárdio",
+      "topic": "Cardiomiopatia de Takotsubo",
+      "difficulty": "FACIL",
+      "keywords": [
+        "Takotsubo",
+        "balonamento apical",
+        "estresse emocional"
+      ]
+    },
+    {
+      "number": 71,
+      "statement": "Homem com 63 anos de idade, com quadro de longa dependência de álcool, procura tratamento médico e estratégias psicossociais de apoio. Em relação ao tratamento farmacológico, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o dissulfiram é utilizado na prevenção de recaídas;"
+        },
+        {
+          "letter": "B",
+          "text": "a metildopa auxilia no controle da dependência alcoólica;"
+        },
+        {
+          "letter": "C",
+          "text": "a carbamazepina funciona na prevenção de recaídas;"
+        },
+        {
+          "letter": "D",
+          "text": "o antiepilético de escolha no controle da abstinência alcoólica é a lamotrigina;"
+        },
+        {
+          "letter": "E",
+          "text": "a naltrexona é útil na abstinência aguda de álcool."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Psiquiatria",
+      "subtheme": "Transtornos por uso de substâncias",
+      "topic": "Dependência alcoólica — farmacoterapia de prevenção de recaída",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "dependência alcoólica",
+        "dissulfiram",
+        "prevenção de recaída"
+      ]
+    },
+    {
+      "number": 72,
+      "statement": "Mulher com 65 anos de idade em acompanhamento de doença pulmonar foi submetida a provas de função respiratória. Os seguintes parâmetros foram encontrados: volume expiratório forçado no primeiro segundo (VF1) diminuído; capacidade vital forçada (CVF) diminuída e capacidade pulmonar total aumentada. O distúrbio que a paciente apresenta é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "restritivo;"
+        },
+        {
+          "letter": "B",
+          "text": "obstrutivo;"
+        },
+        {
+          "letter": "C",
+          "text": "parede torácica fraca;"
+        },
+        {
+          "letter": "D",
+          "text": "padrão misto;"
+        },
+        {
+          "letter": "E",
+          "text": "pouca cooperação / compreensão do exame."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Pneumologia",
+      "subtheme": "Função pulmonar",
+      "topic": "Distúrbio ventilatório obstrutivo — espirometria",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "espirometria",
+        "VEF1",
+        "distúrbio obstrutivo"
+      ]
+    },
+    {
+      "number": 73,
+      "statement": "Um paciente, com diagnóstico de HIV/aids devido a quadro de diarreia crônica aos 42 anos de idade, apresentava dermatite seborreica facial grave e perda ponderal > 10%. A contagem de linfócitos TCD4+ era 75 células/mm ³, e a carga viral do HIV era de 915.862 cópias/mm ³. A terapia antirretroviral foi prontamente iniciada, além das profilaxias das infecções oportunistas com sulfametoxazol/trimetoprima e azitromicina. Após 8 semanas do início do tratamento, o paciente apresentou herpes zóster torácico grave, além de três pequenas lesões violáceas em planta do pé direito. A hipótese diagnóstica que explica o presente quadro é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "queda da contagem de linfócitos T CD4;"
+        },
+        {
+          "letter": "B",
+          "text": "resistência viral à terapia;"
+        },
+        {
+          "letter": "C",
+          "text": "síndrome inflamatória da reconstituição imune;"
+        },
+        {
+          "letter": "D",
+          "text": "má adesão ao tratamento;"
+        },
+        {
+          "letter": "E",
+          "text": "desnutrição proteico-calórica."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Síndrome inflamatória da reconstituição imune (IRIS)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "IRIS",
+        "início da TARV",
+        "herpes zóster"
+      ]
+    },
+    {
+      "number": 74,
+      "statement": "Um paciente do sexo masculino, com 48 anos de idade, não tabagista, realizou biópsia transbrônquica em lesão pulmonar detectada durante exame de telerradiografia de tórax para investigação etiológica de tosse, sem outros sintomas. O exame microscópico da lesão mostrou granulomas não necrosantes bem formados, compostos de macrófagos epitelioides fortemente agrupados, sendo frequente a presença de células gigantes. Os granulomas estavam envoltos em bordas de cicatrizes fibrosas hialinas. Concreções laminadas compostas de cálcio e proteínas conhecidas como corpos de Schaumann e inclusões estreladas conhecidas como corpos de asteroides estavam presentes dentro de muitas células gigantes. Foi prescrito corticoide como tratamento, e, seis meses após, as lesões desapareceram. Os achados acima são compatíveis com a seguinte doença:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "síndrome de Blau;"
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de Churg-Strauss;"
+        },
+        {
+          "letter": "C",
+          "text": "doença de Kawasaki;"
+        },
+        {
+          "letter": "D",
+          "text": "granulomatose de Wegener;"
+        },
+        {
+          "letter": "E",
+          "text": "sarcoidose."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Pneumologia",
+      "subtheme": "Doenças intersticiais",
+      "topic": "Sarcoidose — achados histopatológicos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "sarcoidose",
+        "granuloma não caseoso",
+        "corpos de Schaumann"
+      ]
+    },
+    {
+      "number": 75,
+      "statement": "Um jovem com 23 anos de idade tem diagnóstico de nefrolitiase com cálculos de 0,2 e 0,4 cm em rim direito e um terceiro de 0,3 cm em ureter ipsilateral. Vem apresentando cólicas nefréticas com dor moderada nas últimas semanas. Em alguns episódios, foi necessário procurar um serviço de urgência. O tratamento clínico mais indicado para o caso acima é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "citrato de potássio e tansulosina;"
+        },
+        {
+          "letter": "B",
+          "text": "furosemida e IECA em doses baixas;"
+        },
+        {
+          "letter": "C",
+          "text": "restrição de cálcio na dieta;"
+        },
+        {
+          "letter": "D",
+          "text": "suplementação com magnésio;"
+        },
+        {
+          "letter": "E",
+          "text": "associação metenamina + cloreto de metiltionínio."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Nefrolitíase — terapia expulsiva",
+      "difficulty": "FACIL",
+      "keywords": [
+        "nefrolitíase",
+        "citrato de potássio",
+        "tansulosina"
+      ]
+    },
+    {
+      "number": 76,
+      "statement": "A oncocercose, também chamada de cegueira dos rios ou mal do garimpeiro, é uma doença parasitária crônica decorrente da infecção produzida por verme nematódeo que se localiza no tecido subcutâneo, classificado como da espécie Onchocerca volvulus. A transmissão se dá pela picada do inseto conhecido como borrachudo ou pium, infectado com larvas do parasita. Os vermes causadores da doença eliminam microfilárias que, ao se desintegrarem na pele, causam manifestações cutâneas, que podem ser agudas e/ou crônicas. A administração da ivermectina apresenta boa eficácia contra as microfilárias, mas não é eficiente no combate às filárias adultas, que permanecem no organismo do indivíduo, em constante reprodução, por até 15 anos. Para tratamento dos vermes adultos, está indicado(a):",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "albendazol por 7 dias;"
+        },
+        {
+          "letter": "B",
+          "text": "sulfametoxazol + trimetoprima por 1 semana;"
+        },
+        {
+          "letter": "C",
+          "text": "praziquantel em dose única;"
+        },
+        {
+          "letter": "D",
+          "text": "doxiciclina por 6 semanas;"
+        },
+        {
+          "letter": "E",
+          "text": "levamizole por 4 semanas."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Oncocercose — tratamento dos vermes adultos",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "oncocercose",
+        "Onchocerca volvulus",
+        "doxiciclina"
+      ]
+    },
+    {
+      "number": 77,
+      "statement": "Um paciente com 45 anos de idade apresenta lesões esbranquiçadas em placas, localizadas nas bordas da língua. As lesões não são removidas com uso de espátulas. Essa condição patológica está ligada à(ao):",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "HTLV 1;"
+        },
+        {
+          "letter": "B",
+          "text": "micose fungoide;"
+        },
+        {
+          "letter": "C",
+          "text": "Candida glabrata;"
+        },
+        {
+          "letter": "D",
+          "text": "vírus Epstein-Barr;"
+        },
+        {
+          "letter": "E",
+          "text": "parvovírus B19."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Leucoplasia pilosa oral",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "leucoplasia pilosa oral",
+        "Epstein-Barr",
+        "HIV"
+      ]
+    },
+    {
+      "number": 78,
+      "statement": "A febre maculosa (FM) é uma denominação dada no Brasil a um grupo de zoonoses causadas por bactérias do gênero Rickettsia, transmitidas por carrapatos. Assim, para que a infecção ocorra, é necessário que o carrapato infectado esteja fixado ao corpo humano. É uma doença infecciosa febril aguda, de gravidade variável, que pode cursar com formas leves e atípicas, até formas graves, com elevada taxa de letalidade. Sua evolução depende da espécie de Rickettsia envolvida, do tratamento adequado e oportuno, além de fatores inerentes ao indivíduo. Atualmente a FM é confirmada em todas as regiões do território nacional, sendo detectada em áreas antes consideradas silenciosas, onde o conhecimento do ciclo enzoótico e epidêmico permanece incipiente. Entre os animais abaixo, aqueles que atuam como hospedeiro amplificador de R. rickettsii nas populações de carrapato Amblyomma sculptum são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "os gambás;"
+        },
+        {
+          "letter": "B",
+          "text": "os cavalos;"
+        },
+        {
+          "letter": "C",
+          "text": "os cães;"
+        },
+        {
+          "letter": "D",
+          "text": "as capivaras;"
+        },
+        {
+          "letter": "E",
+          "text": "as aves silvestres migratórias."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Febre maculosa brasileira — hospedeiro amplificador",
+      "difficulty": "FACIL",
+      "keywords": [
+        "febre maculosa",
+        "Rickettsia rickettsii",
+        "capivara",
+        "Amblyomma sculptum"
+      ]
+    },
+    {
+      "number": 79,
+      "statement": "As lesões do sarcoma de Kaposi são caracterizadas pela proliferação de células fusiformes que expressam marcadores tanto de células endoteliais (vasculares ou linfáticas) quanto de células musculares lisas. Há também uma profusão de espaços vasculares em forma de fenda, sugerindo que as lesões podem surgir de precursores mesenquimais primitivos de canais vasculares. Nos pacientes com aids, o sarcoma de Kaposi se associa à infecção pelo(a):",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "HIV 2."
+        },
+        {
+          "letter": "B",
+          "text": "Parvovírus B19."
+        },
+        {
+          "letter": "C",
+          "text": "HPV 5."
+        },
+        {
+          "letter": "D",
+          "text": "Vírus Epstein-Barr."
+        },
+        {
+          "letter": "E",
+          "text": "Herpesvírus tipo 8."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Sarcoma de Kaposi — herpesvírus 8",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "sarcoma de Kaposi",
+        "HHV-8",
+        "aids"
+      ]
+    },
+    {
+      "number": 80,
+      "statement": "Uma paciente do sexo feminino, 34 anos, com relato de dor epigástrica crônica, teve piora significativa nos últimos 3 meses. Foi aventada a hipótese de síndrome de Zollinger-Ellison. Assim, a endoscopia digestiva alta detectou úlcera péptica grave. Esse achado é secundário a hipersecreção de ácido gástrico devido a um tumor neuroendócrino não-ß, geralmente bem diferenciado que libera o seguinte hormônio:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "colecistocinina;"
+        },
+        {
+          "letter": "B",
+          "text": "somatostatina;"
+        },
+        {
+          "letter": "C",
+          "text": "gastrina;"
+        },
+        {
+          "letter": "D",
+          "text": "secretina;"
+        },
+        {
+          "letter": "E",
+          "text": "peptídeo YY."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Tumores neuroendócrinos gastrointestinais",
+      "topic": "Síndrome de Zollinger-Ellison — gastrinoma",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome de Zollinger-Ellison",
+        "gastrinoma",
+        "úlcera péptica refratária"
+      ]
+    }
+  ]
+}

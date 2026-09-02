@@ -1,0 +1,19 @@
+# Postgres local para desenvolvimento, quando não se usa Supabase.
+#   docker compose up -d
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: banco_questoes_enare
+    ports:
+      # Host 5433, para não colidir com o Postgres do banco-questoes-uerj (5432) se
+      # os dois rodarem ao mesmo tempo. Dentro do container continua na 5432 padrão.
+      - '5433:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

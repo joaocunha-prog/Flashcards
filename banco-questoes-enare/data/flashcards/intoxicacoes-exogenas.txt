@@ -1,0 +1,30 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Emergências e Terapia Intensiva::Intoxicações exógenas
+Intoxicação por álcoois tóxicos causa acidose metabólica com {{c1::ânion-gap elevado}}.	Etilenoglicol e metanol. Reflete os metabólitos ácidos formados.	Assunto::intoxicacoes-exogenas Conceito
+Intoxicação por álcoois tóxicos também causa {{c1::gap osmolar elevado}}.	Reflete o álcool-mãe ainda não metabolizado.	Assunto::intoxicacoes-exogenas Conceito
+Conforme a intoxicação evolui, o ânion-gap sobe e o gap osmolar {{c1::cai}}.	Os dois gaps evoluem em direções opostas ao longo do tempo.	Assunto::intoxicacoes-exogenas Conceito
+No etilenoglicol, a via metabólica gera ácido glicólico e depois {{c1::oxalato}}.	—	Assunto::intoxicacoes-exogenas Conceito
+O oxalato do etilenoglicol forma cristais que causam {{c1::lesão renal aguda}}.	Cristais de oxalato de cálcio na urina; ausência não afasta o diagnóstico.	Assunto::intoxicacoes-exogenas Conceito
+No metanol, o metabólito tóxico é o {{c1::ácido fórmico}}.	—	Assunto::intoxicacoes-exogenas Conceito
+O ácido fórmico do metanol tem toxicidade específica ao {{c1::nervo óptico}}.	Visão turva, sensação de "campo de neve", risco de cegueira.	Assunto::intoxicacoes-exogenas Conceito
+Antídoto de primeira linha para etilenoglicol e metanol: {{c1::fomepizol}}.	—	Assunto::intoxicacoes-exogenas Conceito
+Fomepizol atua {{c1::inibindo a álcool desidrogenase}}.	Bloqueia a formação dos metabólitos tóxicos.	Assunto::intoxicacoes-exogenas Conceito
+Alternativa ao fomepizol quando indisponível: {{c1::etanol IV}}.	Compete pela mesma enzima, que tem maior afinidade pelo etanol.	Assunto::intoxicacoes-exogenas Conceito
+Fomepizol {{c1::não trata a acidose já formada}}.	Acidose grave estabelecida ainda exige bicarbonato e, com frequência, hemodiálise.	Assunto::intoxicacoes-exogenas Conceito
+Indicações de hemodiálise na intoxicação por etilenoglicol/metanol: {{c1::acidose metabólica grave refratária}}, {{c2::lesão de órgão-alvo}} (renal ou visual), {{c3::instabilidade hemodinâmica}} e {{c4::nível sérico muito elevado}} do álcool.	—	Assunto::intoxicacoes-exogenas Conceito
+Cofator usado no tratamento da intoxicação por metanol: {{c1::ácido fólico}}.	—	Assunto::intoxicacoes-exogenas Conceito
+Cofator usado no tratamento da intoxicação por etilenoglicol: {{c1::tiamina/piridoxina}}.	—	Assunto::intoxicacoes-exogenas Conceito
+EBSERH 2026 Q55: indicações de hemodiálise na intoxicação por etilenoglicol incluem {{c1::acidose refratária e lesão de órgão-alvo}}.	Além do antídoto (fomepizol), a remoção extracorpórea é obrigatória em certos cenários.	Assunto::intoxicacoes-exogenas Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Tríade da síndrome serotoninérgica: alteração do estado mental, hiperatividade autonômica e {{c1::anormalidades neuromusculares}}.	Resulta de excesso de estimulação serotoninérgica em receptores 5-HT1A e 5-HT2A.	Assunto::intoxicacoes-exogenas Conceito
+Na síndrome serotoninérgica, hiperatividade autonômica inclui taquicardia, hipertermia e {{c1::diaforese}}.	—	Assunto::intoxicacoes-exogenas Conceito
+Achado mais específico da síndrome serotoninérgica: {{c1::clônus}}.	Especialmente ocular/espontâneo, mais proeminente em membros inferiores.	Assunto::intoxicacoes-exogenas Conceito
+Síndrome serotoninérgica ocorre por associação de agentes serotoninérgicos, ex.: {{c1::ISRS + IMAO}}.	Também ISRS + tramadol ou ISRS + triptano.	Assunto::intoxicacoes-exogenas Conceito
+Primeira medida terapêutica na síndrome serotoninérgica: {{c1::suspender o agente causador}}.	Pitfall: tratar só com suporte, sem suspender o agente.	Assunto::intoxicacoes-exogenas Conceito
+Síndrome serotoninérgica evolui em {{c1::horas}} (geralmente <24h após início/aumento de dose).	Diferente da síndrome neuroléptica maligna, que evolui em dias.	Assunto::intoxicacoes-exogenas Conceito
+Síndrome neuroléptica maligna, diferente da serotoninérgica, evolui em {{c1::dias}}.	Tem rigidez em cano de chumbo e hiporreflexia, associada a antipsicóticos.	Assunto::intoxicacoes-exogenas Conceito
+ENARE 2025 Q51: reconhecimento de síndrome serotoninérgica pelo {{c1::clônus, hipertermia e agitação}}.	Mais importante que a farmacologia isolada do agente causador.	Assunto::intoxicacoes-exogenas Banca::ENARE Ano::2025 Dificuldade::FACIL
+ENARE 2026 Q24: intoxicação por metanol reconhecida pela {{c1::alteração visual}} característica.	"Campo de neve", risco de cegueira — diferencia de etilenoglicol, que lesa o rim.	Assunto::intoxicacoes-exogenas Banca::ENARE Ano::2026 Dificuldade::FACIL
+🔤 Mnemônico: Metanol Mira o {{c1::nervo óptico}} (via ácido fórmico).	Recurso próprio para fixar qual álcool lesa qual órgão-alvo.	Assunto::intoxicacoes-exogenas Mnemonico
+🔤 Mnemônico: Etilenoglicol Estraga o {{c1::rim}} (via oxalato).	Recurso próprio para fixar qual álcool lesa qual órgão-alvo.	Assunto::intoxicacoes-exogenas Mnemonico

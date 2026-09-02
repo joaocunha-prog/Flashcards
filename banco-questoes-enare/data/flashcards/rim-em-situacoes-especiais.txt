@@ -1,0 +1,26 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Nefrologia::Rim em situações especiais
+Fatores de risco para nefrolitíase: {{c1::hipercalciúria}} (urina supersaturada de sais de cálcio), {{c2::hiperoxalúria}}, {{c3::hipocitratúria}} (o citrato normalmente quela cálcio e inibe a cristalização), {{c4::baixo volume urinário}} e {{c5::hiperparatireoidismo}} (hipercalcemia, aumenta reabsorção óssea e absorção intestinal de cálcio).	—	Assunto::rim-em-situacoes-especiais Conceito
+Diferente do hiperparatireoidismo, o {{c1::hipoparatireoidismo}} reduz o risco de cálculo de cálcio.	Cursa com hipocalcemia/hipocalciúria — é a exceção na lista de fatores de risco.	Assunto::rim-em-situacoes-especiais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Fármaco de escolha na terapia expulsiva do cálculo ureteral: {{c1::alfabloqueador (tansulosina)}}.	Relaxa a musculatura lisa ureteral, facilitando a passagem espontânea.	Assunto::rim-em-situacoes-especiais Banca::ENARE Ano::2025 Dificuldade::FACIL
+Terapia expulsiva é indicada para cálculos ureterais geralmente {{c1::menores que 10 mm}}.	Cálculos maiores geralmente exigem intervenção urológica.	Assunto::rim-em-situacoes-especiais Conceito
+Acompanhamento após terapia expulsiva antes de intervir: até {{c1::4-6 semanas}}.	Se o cálculo não for eliminado nesse prazo.	Assunto::rim-em-situacoes-especiais Conceito
+Profilaxia do cálculo de oxalato de cálcio: {{c1::aumentar a ingesta hídrica}}; manter {{c2::ingesta de cálcio adequada, não restringida}} (liga-se ao oxalato intestinal, reduzindo sua absorção); reduzir {{c3::sódio e proteína animal}} da dieta.	—	Assunto::rim-em-situacoes-especiais Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Restringir cálcio da dieta em cálculo de oxalato é conduta {{c1::errada}}.	Aumenta a absorção e excreção urinária de oxalato — pitfall contraintuitivo.	Assunto::rim-em-situacoes-especiais Conceito
+Se houver hipocitratúria na profilaxia de nefrolitíase, considerar {{c1::citrato de potássio}}.	—	Assunto::rim-em-situacoes-especiais Conceito
+Exame de escolha para localizar e dimensionar cálculo urinário: {{c1::TC de abdome sem contraste}}.	—	Assunto::rim-em-situacoes-especiais Conceito
+Polimixinas e aminoglicosídeos são nefrotóxicos por lesão direta do {{c1::túbulo proximal}}.	Causam necrose tubular aguda.	Assunto::rim-em-situacoes-especiais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+A necrose tubular aguda por aminoglicosídeo/polimixina é tipicamente {{c1::não oligúrica}}.	Dose-dependente e cumulativa.	Assunto::rim-em-situacoes-especiais Conceito
+Aminoglicosídeos se acumulam no túbulo proximal via receptor de {{c1::megalina}}.	Explica toxicidade cumulativa mesmo com níveis séricos "terapêuticos".	Assunto::rim-em-situacoes-especiais Conceito
+A toxicidade tubular por aminoglicosídeo é {{c1::cumulativa}} mesmo em doses corretas.	Monitorar função renal seriadamente durante o uso.	Assunto::rim-em-situacoes-especiais Conceito
+Doença ateroembólica de colesterol ocorre após manipulação de {{c1::grandes vasos}} (cateterismo, cirurgia vascular).	Também após uso de trombolítico/anticoagulante.	Assunto::rim-em-situacoes-especiais Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+A doença ateroembólica de colesterol causa piora renal {{c1::subaguda (dias a semanas)}} após o procedimento.	Diferente da nefropatia por contraste, que piora em 24-48h.	Assunto::rim-em-situacoes-especiais Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Achado cutâneo clássico da doença ateroembólica: {{c1::livedo reticular}}.	Também "dedo azul" (blue toe syndrome) com pulsos periféricos preservados.	Assunto::rim-em-situacoes-especiais Conceito
+Achados laboratoriais transitórios na doença ateroembólica: {{c1::eosinofilia}}, {{c2::eosinofilúria}} e {{c3::hipocomplementemia}}.	—	Assunto::rim-em-situacoes-especiais Conceito
+Na doença ateroembólica, êmbolos de {{c1::cristais de colesterol}} ocluem pequenas artérias e arteríolas.	Liberados de placas ateroscleróticas instáveis.	Assunto::rim-em-situacoes-especiais Conceito
+Anticoagulação ou trombólise são fator {{c1::desencadeante}} da doença ateroembólica, não tratamento.	Devem ser evitadas quando possível.	Assunto::rim-em-situacoes-especiais Conceito
+Biópsia confirmatória da doença ateroembólica mostra cristais de colesterol em formato de {{c1::fenda}}.	Pele ou rim.	Assunto::rim-em-situacoes-especiais Conceito
+Conduta na doença ateroembólica: {{c1::suporte e controle de fatores de risco cardiovascular}}.	Sem terapia específica revertedora; suspender anticoagulante/trombolítico quando possível.	Assunto::rim-em-situacoes-especiais Conceito
+🔤 Mnemônico: hipoPARA reduz cálcio, hipoPARA {{c1::protege}} do cálculo renal (o oposto do hiperparatireoidismo).	Recurso próprio para não confundir a exceção.	Assunto::rim-em-situacoes-especiais Mnemonico

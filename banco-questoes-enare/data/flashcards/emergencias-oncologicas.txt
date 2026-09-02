@@ -1,0 +1,39 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Oncologia::Emergências oncológicas
+A hipercalcemia da malignidade é a causa {{c1::mais comum}} de hipercalcemia em pacientes internados.	—	Assunto::emergencias-oncologicas Conceito
+A hipercalcemia maligna ocorre por dois mecanismos: secreção de PTHrp ou {{c1::osteólise direta}} por metástases.	PTHrp é mais comum (tumores sólidos); osteólise direta é típica de mieloma e câncer de mama.	Assunto::emergencias-oncologicas Conceito
+A hipercalcemia mediada por PTHrp é típica de {{c1::carcinomas escamosos}}.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Quando a hipercalcemia NÃO é mediada pelo PTH nativo, deve-se investigar {{c1::PTHrp}}.	O PTHrp ativa o mesmo receptor do PTH, aumentando reabsorção óssea e renal de cálcio.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na hipercalcemia mediada por PTHrp, o PTH nativo tipicamente está {{c1::suprimido}}.	Feedback negativo pelo cálcio elevado.	Assunto::emergencias-oncologicas Conceito
+Hipercalcemia com lesões líticas e globulina elevada sugere investigar {{c1::gamopatia monoclonal (mieloma múltiplo)}}.	Esse pacote laboratorial aponta para osteólise direta, não PTHrp.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+No mecanismo de osteólise direta, citocinas tumorais causam reabsorção óssea {{c1::sem depender de PTHrp}}.	Contrasta com o mecanismo mediado por PTHrp, mais comum em carcinomas escamosos.	Assunto::emergencias-oncologicas Conceito
+No tratamento da hipercalcemia grave/sintomática, associam-se: {{c1::salina isotônica venosa}} (corrige parte da desidratação, mas não é suficiente sozinha); {{c2::calcitonina}} (ação rápida); {{c3::bisfosfonato IV}} (ação sustentada, começa a agir em 2-4 dias).	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+A hidratação isolada na hipercalcemia grave {{c1::não normaliza}} o cálcio, apenas reduz.	Sempre associar terapia específica (calcitonina + bisfosfonato).	Assunto::emergencias-oncologicas Conceito
+O bisfosfonato IV mais nefrotóxico em infusão rápida é o {{c1::ácido zoledrônico}}.	Em comparação ao pamidronato.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Bisfosfonatos IV exigem ajuste ou contraindicação relativa em {{c1::insuficiência renal significativa}}.	Ignorar a função renal pode precipitar ou agravar lesão renal.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+O excesso de cálcio circulante causa poliúria e desidratação, piorando a {{c1::função renal}}.	Cria um círculo vicioso que agrava a própria hipercalcemia.	Assunto::emergencias-oncologicas Conceito
+Sinais de alarme em lombalgia para compressão medular: dor {{c1::noturna e refratária}}; {{c2::febre e/ou perda ponderal inexplicada}}; e, o mais grave, {{c3::déficit neurológico progressivo}}.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Diante de sinais de alarme em lombalgia, o exame indicado é {{c1::RM de urgência}}.	Não conduta expectante de lombalgia mecânica comum.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Em suspeita clínica forte de compressão medular, a dexametasona deve ser dada {{c1::antes mesmo da confirmação por imagem}}.	Aguardar a confirmação radiológica completa piora o prognóstico neurológico, que pode ser irreversível.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Após a dexametasona na compressão medular confirmada, o tratamento definitivo é {{c1::radioterapia}}.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Cirurgia descompressiva na compressão medular é indicada se houver {{c1::instabilidade ou déficit rapidamente progressivo}}.	Também indicada quando há necessidade de diagnóstico histológico.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::FACIL
+O edema vasogênico da compressão medular responde rapidamente a {{c1::corticoide em altas doses}}.	Explica a urgência de administrar dexametasona.	Assunto::emergencias-oncologicas Conceito
+O quadro clínico da compressão medular inclui: dor dorsal progressiva, pior à noite/decúbito, com {{c1::fraqueza em membros}}; {{c2::alteração esfincteriana}}; e {{c3::nível sensitivo}}.	—	Assunto::emergencias-oncologicas Conceito
+A causa neoplásica mais comum da síndrome da veia cava superior é o {{c1::câncer de pulmão}}.	—	Assunto::emergencias-oncologicas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Uma causa benigna em ascensão da síndrome da veia cava superior é a {{c1::trombose relacionada a cateter/dispositivo}}.	A SVC nem sempre é neoplásica.	Assunto::emergencias-oncologicas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Convulsão na síndrome da veia cava superior sugere mais {{c1::edema cerebral}} do que metástase cerebral isolada.	Tratar toda convulsão nesse cenário automaticamente como metástase é pitfall.	Assunto::emergencias-oncologicas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O quadro clínico da SVC inclui edema de face/pescoço, turgência jugular e {{c1::circulação colateral}}.	Resulta da obstrução do retorno venoso central.	Assunto::emergencias-oncologicas Conceito
+O tratamento da síndrome da veia cava superior é direcionado à {{c1::causa de base}}.	—	Assunto::emergencias-oncologicas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Na SVC, a radioterapia {{c1::não é primeira escolha universal}} para todo tipo histológico.	A escolha terapêutica depende do tipo de tumor subjacente e da causa (neoplásica vs. trombose).	Assunto::emergencias-oncologicas Conceito
+Na enterocolite neutropênica (tiflite), o quadro típico é dor em quadrante inferior direito + febre + {{c1::neutropenia grave}}.	Ocorre pós-quimioterapia.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na enterocolite neutropênica, a TC mostra espessamento de parede cecal e/ou {{c1::pneumatose}}.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+O manejo inicial da enterocolite neutropênica é {{c1::clínico}} (antibiótico de amplo espectro + repouso intestinal).	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na enterocolite neutropênica, a cirurgia é reservada para {{c1::perfuração ou necrose}}.	Indicar cirurgia de rotina sem esses sinais é pitfall.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2025 Dificuldade::FACIL
+"Tiflite" vem do grego "typhlon", que significa {{c1::ceco}}.	Nome alternativo usado de forma intercambiável com enterocolite neutropênica.	Assunto::emergencias-oncologicas Conceito
+Na dor oncológica refratária, a rotação de opioide pode ser, por exemplo, para {{c1::fentanil transdérmico}}.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+A rotação de opioides exige {{c1::recálculo da dose equianalgésica}}, não é troca 1:1 entre fármacos.	Um erro comum de prescrição é manter a mesma dose numérica ao trocar de opioide.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Na dor óssea oncológica refratária, associa-se {{c1::bisfosfonato}} ao manejo analgésico.	—	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Em paciente oncológico com insuficiência renal, o ajuste de opioides e bisfosfonatos deve considerar a {{c1::função renal}}.	Ambos podem se acumular ou se tornar nefrotóxicos.	Assunto::emergencias-oncologicas Banca::ENARE Ano::2026 Dificuldade::MEDIA
+🔤 Mnemônico do quadro clínico da hipercalcemia (tradução livre de "bones, stones, abdominal groans, and psychic moans"): ossos = {{c1::dor óssea}}; pedras = {{c2::litíase renal}}; gemidos abdominais = {{c3::sintomas GI, como constipação}}; grunhidos psíquicos = {{c4::sintomas neuropsiquiátricos, como confusão e letargia}}.	—	Assunto::emergencias-oncologicas Conceito Mnemonico

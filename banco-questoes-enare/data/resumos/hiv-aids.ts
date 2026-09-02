@@ -46,7 +46,12 @@ Praticamente todas as questões brasileiras citam ou seguem de perto o **PCDT de
 
 ## 🧠 Conceito e fisiopatologia
 
-O HIV infecta linfócitos T CD4+ via correceptor (CCR5 ou CXCR4) e integra seu material genético ao genoma do hospedeiro — por isso os alvos terapêuticos são as enzimas virais (transcriptase reversa, integrase, protease). A depleção progressiva de CD4+ define o grau de imunossupressão e o espectro de infecções oportunistas esperado — o raciocínio de "qual CD4 permite qual infecção" (CMV/criptococo/toxoplasmose/linfoma de SNC <100, MAC <50, candidíase esofágica/PCP <200) é um eixo organizador clássico de prova, e é a lógica por trás de cada limiar citado nas entidades abaixo.
+- HIV infecta linfócitos T CD4+ via correceptor (CCR5 ou CXCR4)
+- Integra material genético ao genoma do hospedeiro → por isso os alvos terapêuticos são as enzimas virais (transcriptase reversa, integrase, protease)
+- CD4 caindo = mais imunossupressão = espectro previsível de oportunistas
+- Mnemônico dos limiares de CD4: "200-100-50" — PCP/candidíase (200) → toxo/criptococo/CMV/linfoma de SNC (100) → MAC (50)
+
+💡 Pensa assim: quanto mais baixo o CD4, mais "fundo" no armário de doenças raras a infecção oportunista mora.
 
 ## 🔹 Coinfecção tuberculose-HIV
 
@@ -179,7 +184,9 @@ O HIV infecta linfócitos T CD4+ via correceptor (CCR5 ou CXCR4) e integra seu m
 | <50 | Retinite por CMV, complexo *Mycobacterium avium* (MAC) | Azitromicina semanal (MAC); fundoscopia periódica |
 | Qualquer valor | Tuberculose, coinfecções virais (HBV/HCV) | TARV imediata, independentemente do CD4 |
 
-A posologia do sulfametoxazol-trimetoprima não é fixa dentro da faixa <200: para profilaxia só de pneumocistose, 3x/semana já basta — mas essa dose não protege de forma confiável contra toxoplasmose. Quando o CD4 cai para <100 num paciente IgG anti-*Toxoplasma* positivo, a dose deve subir para **diária**, que é a única que cobre as duas profilaxias ao mesmo tempo. Suspende-se a profilaxia quando o CD4 sobe e se mantém acima do limiar por tempo definido em TARV.
+- A posologia do sulfametoxazol-trimetoprima não é fixa dentro da faixa <200: para profilaxia só de pneumocistose, 3x/semana já basta — mas essa dose não protege de forma confiável contra toxoplasmose
+- Quando o CD4 cai para <100 num paciente IgG anti-*Toxoplasma* positivo, a dose deve subir para **diária**, que é a única que cobre as duas profilaxias ao mesmo tempo
+- Suspende-se a profilaxia quando o CD4 sobe e se mantém acima do limiar por tempo definido em TARV
 
 ## 📚 Referências essenciais
 

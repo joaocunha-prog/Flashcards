@@ -71,15 +71,31 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A DRC representa perda progressiva e irreversível de néfrons funcionantes; os néfrons remanescentes sofrem hiperfiltração compensatória que, paradoxalmente, perpetua a lesão glomerular ao longo do tempo (hipótese de Brenner). As toxinas urêmicas acumulam-se predominantemente quando a reserva funcional renal já está muito reduzida, explicando por que a clínica urêmica surge tardiamente no curso da doença.
+- DRC = perda progressiva e irreversível de néfrons funcionantes
+- Néfrons remanescentes sofrem hiperfiltração compensatória → paradoxalmente, isso perpetua a lesão glomerular ao longo do tempo (hipótese de Brenner)
+- Toxinas urêmicas acumulam-se predominantemente quando a reserva funcional renal já está muito reduzida → por isso a clínica urêmica surge tardiamente no curso da doença
 
-A ureia é produto do catabolismo proteico hepático, filtrada livremente mas parcialmente reabsorvida no túbulo proximal de forma dependente do fluxo urinário — por isso reflete de forma imprecisa a TFG isoladamente, ao contrário da creatinina (e, melhor ainda, da TFG estimada), que sofre menos interferência de fatores extrarrenais como dieta e estado volêmico.
+💡 Pensa assim: os néfrons que sobram "trabalham mais para compensar os que morreram" — e esse excesso de trabalho é o que acaba matando os sobreviventes também, um ciclo que se autoalimenta.
 
-A finerenona bloqueia o receptor mineralocorticoide com estrutura não esteroidal, reduzindo a inflamação e a fibrose renal e cardiovascular mediadas pela aldosterona, com menor afinidade por receptores de andrógeno e progesterona — isso explica seu perfil de efeitos adversos hormonais mais favorável que os antagonistas esteroidais clássicos.
+- Ureia: produto do catabolismo proteico hepático, filtrada livremente mas parcialmente reabsorvida no túbulo proximal de forma dependente do fluxo urinário
+- Por isso reflete de forma imprecisa a TFG isoladamente
+- Creatinina (e, melhor ainda, a TFG estimada) sofre menos interferência de fatores extrarrenais como dieta e estado volêmico → por isso é parâmetro mais confiável
 
-A perda de néfrons também compromete funções endócrinas e metabólicas do rim para além da filtração: cai a produção de eritropoetina (anemia normocítica normocrômica), cai a hidroxilação da vitamina D (hipocalcemia, hiperparatireoidismo secundário e doença óssea — CKD-MBD) e se acumula ânion não excretado (acidose metabólica com ânion gap variável) — esse conjunto de disfunções explica por que o manejo da DRC vai muito além de controlar a progressão da TFG.
+- Finerenona bloqueia o receptor mineralocorticoide com estrutura não esteroidal
+- Reduz a inflamação e a fibrose renal e cardiovascular mediadas pela aldosterona
+- Tem menor afinidade por receptores de andrógeno e progesterona → explica seu perfil de efeitos adversos hormonais mais favorável que os antagonistas esteroidais clássicos (espironolactona/eplerenona)
 
-As duas principais causas de DRC (nefropatia diabética e nefrosclerose hipertensiva) compartilham um mecanismo comum de lesão microvascular glomerular progressiva, o que justifica por que o controle rigoroso de pressão arterial e glicemia continua sendo pilar terapêutico mesmo na era dos novos nefroprotetores — iSGLT2 e finerenona se somam, não substituem, o controle metabólico e pressórico de base.
+- A perda de néfrons também compromete funções endócrinas e metabólicas do rim, para além da filtração:
+  - Cai a produção de eritropoetina → anemia normocítica normocrômica
+  - Cai a hidroxilação da vitamina D → hipocalcemia, hiperparatireoidismo secundário e doença óssea (CKD-MBD)
+  - Acumula-se ânion não excretado → acidose metabólica com ânion gap variável
+- Esse conjunto de disfunções explica por que o manejo da DRC vai muito além de só controlar a progressão da TFG
+
+💡 Pensa assim: o rim doente não só "filtra menos" — ele também "para de fabricar" (eritropoetina, vitamina D ativa) e "para de eliminar ácido", então a DRC vira doença de três frentes (anemia, osso, acidose), não só de retenção.
+
+- As duas principais causas de DRC (nefropatia diabética e nefrosclerose hipertensiva) compartilham um mecanismo comum de lesão microvascular glomerular progressiva
+- Por isso o controle rigoroso de pressão arterial e glicemia continua sendo pilar terapêutico mesmo na era dos novos nefroprotetores
+- iSGLT2 e finerenona **se somam**, não substituem, o controle metabólico e pressórico de base
 
 ## 🩺 Quadro clínico
 

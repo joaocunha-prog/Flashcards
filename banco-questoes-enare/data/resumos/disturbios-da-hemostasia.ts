@@ -40,7 +40,14 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A hemostasia primária forma o tampão plaquetário inicial (plaquetas + FvW, que funciona como ponte entre plaqueta e subendotélio lesado); a secundária estabiliza esse tampão com a rede de fibrina gerada pela cascata de coagulação. Doenças de hemostasia primária (von Willebrand, plaquetopenias) sangram mucosa; doenças de hemostasia secundária (hemofilias) sangram articulação/músculo. A **PTT** foge dessa lógica dupla: é microtrombose por deficiência de **ADAMTS-13** (a protease que cliva multímeros ultralargos de FvW), consumindo plaquetas sem consumir fatores de coagulação — por isso o coagulograma permanece normal, ao contrário da **CIVD**, ativação sistêmica descontrolada que consome plaquetas e fatores ao mesmo tempo. Em câncer, o estado de hipercoagulabilidade é multifatorial (fator tecidual tumoral, estase, compressão vascular, cateteres), o que prolonga a duração recomendada de anticoagulação enquanto a neoplasia estiver ativa.
+- **Hemostasia primária:** forma o tampão plaquetário inicial (plaquetas + FvW, que funciona como ponte entre plaqueta e subendotélio lesado)
+- **Hemostasia secundária:** estabiliza esse tampão com a rede de fibrina gerada pela cascata de coagulação
+- Doenças de hemostasia primária (von Willebrand, plaquetopenias) → sangram **mucosa**; doenças de hemostasia secundária (hemofilias) → sangram **articulação/músculo**
+- **PTT foge dessa lógica dupla:** é microtrombose por deficiência de **ADAMTS-13** (a protease que cliva multímeros ultralargos de FvW), consumindo plaquetas sem consumir fatores de coagulação → por isso o coagulograma permanece normal
+- Isso contrasta com a **CIVD**: ativação sistêmica descontrolada que consome plaquetas e fatores ao mesmo tempo
+- Em câncer, o estado de hipercoagulabilidade é multifatorial (fator tecidual tumoral, estase, compressão vascular, cateteres) → prolonga a duração recomendada de anticoagulação enquanto a neoplasia estiver ativa
+
+💡 Pensa assim: primária = "pedreiro que levanta a parede rápido" (plaqueta+FvW, mucosa); secundária = "reboco que a deixa firme" (fibrina, articulação/músculo profundo). A PTT quebra essa regra porque o problema não é falta de tampão nem de reboco — é excesso de trombo por falta da tesoura (ADAMTS-13) que corta o FvW gigante.
 
 ## 🔹 Púrpura trombocitopênica trombótica (PTT)
 

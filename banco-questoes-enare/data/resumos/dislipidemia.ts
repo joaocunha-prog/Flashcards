@@ -53,9 +53,19 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O LDL em excesso se deposita na íntima arterial e desencadeia o processo aterosclerótico; estatinas reduzem sua síntese ao inibir a HMG-CoA redutase, etapa limitante da via do mevalonato. O **ácido bempedoico** atua em etapa anterior da mesma via, inibindo a **ATP-citrato liase** — como é um pró-fármaco ativado por uma enzima (muito-longa-cadeia acil-CoA sintetase 1) presente no fígado mas praticamente ausente no músculo esquelético, sua ação fica restrita ao hepatócito, o que explica a menor incidência de sintomas musculares em comparação com a estatina.
+- LDL em excesso se deposita na íntima arterial → desencadeia o processo aterosclerótico
+- Estatinas reduzem a síntese de LDL ao inibir a **HMG-CoA redutase**, etapa limitante da via do mevalonato
+- **Ácido bempedoico** atua numa etapa anterior da mesma via, inibindo a **ATP-citrato liase**
+- É um pró-fármaco ativado por uma enzima (muito-longa-cadeia acil-CoA sintetase 1) presente no fígado mas praticamente ausente no músculo esquelético
+- Por isso sua ação fica restrita ao hepatócito → explica a menor incidência de sintomas musculares em comparação com a estatina
 
-Na hipertrigliceridemia grave, o excesso de lipoproteínas ricas em triglicerídeos sobrecarrega a lipase lipoproteica capilar, gerando ácidos graxos livres em excesso que são tóxicos ao parênquima pancreático — mecanismo por trás do risco de pancreatite aguda, que se torna clinicamente relevante acima de 500-1000 mg/dL. Na **hipercolesterolemia familiar**, mutações no receptor de LDL (ou em genes relacionados — apoB, PCSK9) reduzem a depuração hepática de LDL circulante, elevando-o desde o nascimento e antecipando em décadas o início da aterosclerose.
+💡 Pensa assim: estatina e bempedoico bloqueiam a mesma "linha de produção" de colesterol em pontos diferentes — mas só o bempedoico tem a "chave" (a enzima ativadora) trancada dentro do fígado, então ele nunca "liga" dentro do músculo.
+
+- Na hipertrigliceridemia grave, o excesso de lipoproteínas ricas em triglicerídeos sobrecarrega a lipase lipoproteica capilar
+- Isso gera ácidos graxos livres em excesso, tóxicos ao parênquima pancreático → mecanismo por trás do risco de pancreatite aguda
+- Esse risco se torna clinicamente relevante acima de 500-1000 mg/dL
+- Na **hipercolesterolemia familiar**, mutações no receptor de LDL (ou em genes relacionados — apoB, PCSK9) reduzem a depuração hepática de LDL circulante
+- Isso eleva o LDL desde o nascimento e antecipa em décadas o início da aterosclerose
 
 ## 📊 Estratificação de risco e classes terapêuticas
 

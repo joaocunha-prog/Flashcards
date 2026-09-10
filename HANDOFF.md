@@ -485,6 +485,68 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   ad-hoc, não versionado). Renderização via `weasyprint` + `markdown` (Python; instalados via `pip
   install` nesta sessão, não estão no `requirements.txt` do projeto porque não são dependência da
   aplicação, só da geração pontual do PDF).
+- **CONCLUÍDO EM SESSÃO POSTERIOR: os 39 resumos de cauda longa foram criados, completando os 85
+  assuntos do corpus (46 do 80/20 + 39 fora do corte, 1-2 questões reais cada).** Pedido literal do
+  usuário: "pegue o handoff do resumo 80/20 e faça agora o resumo de TODOS os assuntos já
+  abordados". Processo: computei os 85 assuntos direto de `data/provas/*.json` (85 subthemes com
+  ≥1 questão — o número já estava documentado no topo do HANDOFF, "15 temas, 85 assuntos"), achei
+  os 39 que ainda não tinham `data/resumos/<slug>.ts`, extraí o enunciado/alternativas/gabarito
+  reais de cada um (script ad-hoc, JSONs em
+  `/tmp/.../scratchpad/cauda_longa/<slug>.json`) e dividi em 4 lotes de ~10 para 4 agentes em
+  paralelo, cada um com a questão real completa do seu assunto e a mesma regra de não fabricar
+  grounding/referência já estabelecida. **Diferença de formato desta leva:** como cada assunto tem
+  só 1-2 questões reais, a seção "Como a banca cobra" é honesta sobre a baixa incidência (não finge
+  estatística robusta) — e o resto do resumo é extrapolado com a mesma profundidade dos 46
+  anteriores, não simplificado por ter menos grounding. A maioria ficou na estrutura por tipo sem
+  split (tema uno-temático); alguns tiveram split por entidade quando o assunto reunia doenças
+  distintas (ex.: `vasculites`, `valvopatias`, `demencias`, `leucemias-e-linfomas`,
+  `doencas-da-hipofise`). Registrados em `content.ts`/`slugs.ts` centralizadamente (os 4 agentes
+  não tocaram nesses dois arquivos, para evitar conflito de edição concorrente). Validação:
+  `npx tsc --noEmit` e `npm run build` limpos, `parseResumoSections()` roda sem erro nos 85 (844
+  seções, 330 blocos de entidade), checagem automatizada de **104 citações de grounding nos 39
+  novos contra o corpus real — 0 fabricações**. Commits: `fee6cc4`/`5dcee7d`/`3a1c964`/`3d77869`
+  (lotes 1-4), `d591491` (registro em content.ts/slugs.ts + script de seleção), `82bf91b` (merge
+  com o trabalho concorrente de outra sessão — ver nota abaixo). PDF `resumos_completo_85.pdf`
+  gerado e entregue via `SendUserFile` — **em duas rodadas**: a primeira (465 páginas) saiu com dois
+  defeitos visuais que só apareceram no documento grande e completo (não num teste isolado de
+  poucas linhas): (1) os emoji sumiam por completo em vez de aparecer — confirmado o mesmo bug já
+  registrado antes neste HANDOFF ("weasyprint 69" + fonte colorida Noto Color Emoji não sobrevive à
+  subsetagem em documento de centenas de páginas), que eu deveria ter aplicado de cara mas só notei
+  ao inspecionar visualmente (`pymupdf`) algumas páginas renderizadas — checagem automática de texto
+  extraído (`pypdf`) não pega esse tipo de defeito, porque o emoji ainda aparece como caractere no
+  texto extraído mesmo quando o glifo não é desenhado; (2) bug meu de concatenação de string
+  (`f"questão{'ões' if total != 1 else ''}"` produzia "questãoões" em vez de "questões" para
+  assuntos com 2 questões). Corrigi os dois — troquei emoji por um `<span class="sec-dot">` colorido
+  via CSS (cor por tipo de seção, preservando a distinção visual sem depender de fonte de emoji) e
+  corrigi a pluralização — revalidei visualmente (mesmas páginas problemáticas, via `pymupdf` +
+  leitura da imagem) antes de reenviar a versão final (463 páginas). **Lição para a próxima geração
+  de PDF a partir dos resumos: nunca confiar só em `pypdf`/`pdftotext` para validar — sempre
+  renderizar algumas páginas como imagem (`pymupdf`) e olhar de verdade antes de entregar.**
+- **Descoberta importante: resumo escrito ≠ resumo visível na UI.** `/resumos` tem duas abas —
+  "80/20" (`isPareto`, calculada ao vivo pela incidência real, só os 46) e "Selecionados"
+  (`ResumoSelection` no banco, marcação manual). Os 39 resumos de cauda longa têm conteúdo e a
+  página `/resumos/<slug>` funciona por URL direta, mas **não aparecem em nenhuma aba** até alguém
+  marcá-los como Selecionados. Criei `scripts/select-cauda-longa-resumos.ts` (+ `npm run
+  resumos:select-cauda-longa`) que faz isso via `ResumoSelection.upsert` para os 39, idempotente.
+  **Rodei e validei localmente** (Postgres de teste: 39/39 selecionados, aba "Selecionados" mostra
+  os 39, páginas individuais renderizam 200) — mas isso foi só no banco efêmero desta sessão, que
+  cai com o container. **Quando o usuário passar a `DATABASE_URL`/`DIRECT_URL` reais e rodar a
+  importação em produção, é preciso rodar `npm run resumos:select-cauda-longa` uma vez** para os 39
+  aparecerem na aba Selecionados de verdade — sem isso ficam “escritos mas invisíveis” na navegação
+  normal do app (mesma frase de alerta que já existe no comentário de `src/lib/resumos.ts`).
+- **Nota de processo — trabalho concorrente de outra sessão, mesclado sem conflito (`82bf91b`).**
+  Entre a sessão anterior e esta, outra sessão (evidentemente com o usuário) rodou uma rodada
+  "torna resumos mais didáticos (bullets + mnemônicos)" nos 46 resumos do 80/20 e corrigiu de vez o
+  corte de TARV na coinfecção TB-HIV (commits `83bb980`, `6a96d0a`, `42c5f2b`, mais uma nota no
+  HANDOFF de que PDFs de entrega não sobrevivem entre sessões — `b192079`). Eu só descobri isso no
+  `git push` (rejeitado por non-fast-forward) — fiz `git fetch` + `git merge` (sem force-push,
+  sem reescrever histórico), sem conflitos (os arquivos que essa sessão tocou — os 46 originais —
+  são diferentes dos que eu criei — os 39 novos —, e ninguém tocou `content.ts`/`slugs.ts` ao mesmo
+  tempo). Revalidei tudo (tsc + build + parsing dos 85) depois do merge, antes de dar push.
+  **Os 39 resumos novos foram escritos usando `hiv-aids.ts`/`diabetes-mellitus.ts` como referência
+  de formato ANTES dessa rodada "mais didática"** — não têm os bullets/mnemônicos no estilo mais
+  novo. Se o usuário pedir para uniformizar, é aplicar o mesmo tratamento "mais didático" (bullets
+  + 💡 mnemônico no Conceito) nos 39 novos.
 
 ## Pendências
 
@@ -530,7 +592,14 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
 - **Numeração dos "capítulos" nos PDFs de revisão** — ver "Decisões Confirmadas" acima. Perguntei se
   a renumeração estrita por rank (1 assunto = 1 capítulo) é definitiva ou se ele quer manter o
   capítulo-piloto combinado (HIV+Neuro); sem resposta ainda. Não bloqueia nada no código — só
-  importa se ele pedir mais PDFs numerados.
+  importa se ele pedir mais PDFs numerados. O PDF de 85 capítulos desta rodada já segue a numeração
+  por rank estrito, com um divisor visual entre o capítulo 46 e o 47 (80/20 → cauda longa).
+- **AÇÃO PENDENTE EM PRODUÇÃO: rodar `npm run resumos:select-cauda-longa`** assim que o banco real
+  estiver de pé (ver "Decisões Confirmadas" — sem isso os 39 resumos novos ficam invisíveis nas
+  abas de `/resumos`, só acessíveis por URL direta).
+- **Os 39 resumos novos não passaram pela rodada "mais didática" (bullets + mnemônicos)** que os 46
+  originais receberam de outra sessão — ver nota de processo em "Decisões Confirmadas". Uniformizar
+  só se o usuário pedir.
 - Nenhum PR novo a abrir sem pedido explícito — já existe o #2, é só continuar empurrando pra mesma
   branch.
 

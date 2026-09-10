@@ -65,13 +65,22 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A PAC resulta da colonização/infecção do parênquima pulmonar por patógenos que vencem as defesas do trato respiratório inferior (tosse, clearance mucociliar, imunidade local) — o *Streptococcus pneumoniae* continua líder por sua capacidade de evadir a fagocitose via cápsula polissacarídica, mesmo sendo colonizador comum da nasofaringe em pessoas saudáveis.
+- A PAC resulta da colonização/infecção do parênquima pulmonar por patógenos que vencem as defesas do trato respiratório inferior (tosse, clearance mucociliar, imunidade local)
+- O *Streptococcus pneumoniae* continua líder por sua capacidade de evadir a fagocitose via cápsula polissacarídica, mesmo sendo colonizador comum da nasofaringe em pessoas saudáveis
 
-A limitação da cultura de escarro decorre de contaminação inevitável pela flora orofaríngea durante a coleta, degradação da amostra até o processamento, e supressão bacteriana por antibiótico já administrado — problemas que não afetam igualmente o antígeno urinário, que detecta um componente da parede celular bacteriana estável e não depende de bactéria viva na amostra.
+- A limitação da cultura de escarro decorre de três fatores: contaminação inevitável pela flora orofaríngea durante a coleta, degradação da amostra até o processamento, e supressão bacteriana por antibiótico já administrado
+- O antígeno urinário não sofre igualmente com esses problemas, pois detecta um componente da parede celular bacteriana estável e não depende de bactéria viva na amostra
 
-Os escores de gravidade (CURB-65, PSI) traduzem, em variáveis objetivas, o grau de comprometimento sistêmico da infecção — confusão mental e hipotensão refletem hipoperfusão/sepse, ureia elevada reflete disfunção renal por hipoperfusão ou desidratação, e a combinação prediz mortalidade em 30 dias com boa acurácia.
+- Os escores de gravidade (CURB-65, PSI) traduzem, em variáveis objetivas, o grau de comprometimento sistêmico da infecção
+- Confusão mental e hipotensão refletem hipoperfusão/sepse
+- Ureia elevada reflete disfunção renal por hipoperfusão ou desidratação
+- A combinação prediz mortalidade em 30 dias com boa acurácia
 
-Os **agentes atípicos** carecem de parede celular clássica (Mycoplasma) ou têm ciclo de replicação intracelular obrigatório (Chlamydophila, Legionella), o que explica tanto a dificuldade de cultivo em meios convencionais quanto a ineficácia de beta-lactâmicos isolados (que atuam na parede celular) contra eles — daí a necessidade de macrolídeo, tetraciclina ou fluoroquinolona, que atuam em alvos intracelulares/ribossomais.
+- Os **agentes atípicos** carecem de parede celular clássica (Mycoplasma) ou têm ciclo de replicação intracelular obrigatório (Chlamydophila, Legionella)
+- Isso explica tanto a dificuldade de cultivo em meios convencionais quanto a ineficácia de beta-lactâmicos isolados (que atuam na parede celular) contra eles
+- Daí a necessidade de macrolídeo, tetraciclina ou fluoroquinolona, que atuam em alvos intracelulares/ribossomais
+
+💡 Pensa assim: beta-lactâmico é uma "arma" que só funciona contra bactéria com parede celular clássica — atípico não tem essa parede (ou vive escondido dentro da célula), então a arma erra o alvo e é preciso trocar de estratégia.
 
 ## 🔎 Diagnóstico
 

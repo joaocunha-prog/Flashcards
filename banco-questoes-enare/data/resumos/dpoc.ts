@@ -67,11 +67,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Na exacerbação da DPOC, a piora da obstrução ao fluxo aéreo e do aprisionamento de ar aumenta o trabalho respiratório e compromete as trocas gasosas, levando a hipoxemia e, em graus mais avançados, a hipercapnia com acidose respiratória. A oferta excessiva de oxigênio nesse contexto abole a vasoconstrição pulmonar hipóxica que o organismo usa para desviar sangue de áreas mal ventiladas para áreas bem ventiladas — sem essa compensação, o sangue passa por alvéolos mal ventilados sem trocar CO2 adequadamente, piorando a relação ventilação-perfusão e, por consequência, a hipercapnia. O efeito Haldane contribui de forma acessória: a hemoglobina mais saturada de oxigênio tem menor capacidade de carrear CO2 dissolvido/carbamino, liberando CO2 adicional no plasma.
+- Na exacerbação, piora da obstrução ao fluxo aéreo + aprisionamento de ar → aumenta o trabalho respiratório → compromete as trocas gasosas → hipoxemia e, em graus mais avançados, hipercapnia com acidose respiratória
+- Oxigênio em excesso abole a vasoconstrição pulmonar hipóxica (mecanismo compensatório que desvia sangue de áreas mal ventiladas para áreas bem ventiladas)
+- Sem essa compensação, o sangue passa por alvéolos mal ventilados sem trocar CO2 adequadamente → piora a relação ventilação-perfusão → piora a hipercapnia
+- Efeito Haldane contribui de forma acessória: hemoglobina mais saturada de O2 carreia menos CO2 dissolvido/carbamino → libera CO2 adicional no plasma
+- Mnemônico dos 3 mecanismos de hipercapnia por O2 em excesso: **V/Q** (principal) → **Haldane** → **drive** respiratório hipóxico reduzido (acessório)
+- VNI (tipicamente modo bilevel): pressão de suporte inspiratória (reduz o trabalho muscular respiratório) + pressão expiratória positiva (contrapõe o auto-PEEP do aprisionamento aéreo)
+- Isso melhora a ventilação alveolar efetiva e elimina CO2 de forma mais eficiente, revertendo a acidose respiratória sem os riscos da via aérea artificial
+- Na doença estável, a DPOC resulta da combinação, em proporções variáveis, de dois mecanismos: **enfisema** (destruição do parênquima alveolar — reduz a retração elástica e colapsa as pequenas vias aéreas na expiração) e **bronquite crônica** (inflamação crônica de pequenas vias — estreita o lúmen por edema e hipersecreção)
+- Ambos geralmente desencadeados por exposição inalatória crônica (tabagismo na maioria dos casos) → convergem para a limitação irreversível ao fluxo aéreo, detectada na espirometria
 
-A VNI (tipicamente em modo bilevel) atua ofertando pressão de suporte inspiratória (reduzindo o trabalho muscular respiratório) e pressão expiratória positiva (contrapondo o auto-PEEP gerado pelo aprisionamento aéreo), o que melhora a ventilação alveolar efetiva e permite eliminar CO2 de forma mais eficiente, revertendo a acidose respiratória sem os riscos da via aérea artificial.
-
-Na doença estável, a DPOC resulta da combinação, em proporções variáveis, de destruição do parênquima alveolar (enfisema, que reduz a retração elástica e colapsa as pequenas vias aéreas na expiração) e inflamação crônica de pequenas vias aéreas (bronquite crônica, que estreita o lúmen por edema e hipersecreção) — ambos os mecanismos, geralmente desencadeados por exposição inalatória crônica (tabagismo na maioria dos casos), convergem para a limitação irreversível ao fluxo aéreo detectada na espirometria.
+💡 Pensa assim: o oxigênio em excesso tira o "guarda de trânsito" do pulmão (vasoconstrição hipóxica) — sem ele, o sangue passa pela via ruim (alvéolo mal ventilado) e carrega CO2 que não consegue trocar.
 
 ## 🩺 Quadro clínico
 

@@ -31,7 +31,15 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O raciocínio geral das síndromes vestibulares periféricas versus centrais se apoia na distinção entre lesão do labirinto/nervo vestibular (nistagmo unidirecional, suprimido pela fixação visual, sem outros sinais neurológicos) e lesão de tronco/cerebelo (nistagmo que muda de direção, não suprimido pela fixação, frequentemente acompanhado de outros sinais de tronco) — base fisiopatológica do exame HINTS. Dentro das causas periféricas, o mecanismo específico determina a duração do episódio: deslocamento mecânico de otólitos para um canal semicircular (VPPB) gera vertigem de segundos, desencadeada por posição; distensão do labirinto membranoso por acúmulo de endolinfa (Ménière) gera crises de minutos a horas; inflamação/neurite do próprio nervo vestibular (neurite vestibular) gera vertigem contínua por dias enquanto a inflamação persiste. Na migrânea vestibular, o mecanismo foge dessa lógica mecânica/inflamatória periférica — envolve os mesmos circuitos de sensibilização trigeminovascular da enxaqueca clássica, com ativação anômala de vias vestibulares centrais.
+- Distinção periférico vs. central (base fisiopatológica do exame HINTS): lesão do labirinto/nervo vestibular → nistagmo unidirecional, suprimido pela fixação visual, sem outros sinais neurológicos
+- Lesão de tronco/cerebelo → nistagmo que muda de direção, não suprimido pela fixação, frequentemente com outros sinais de tronco
+- Dentro das causas periféricas, o mecanismo específico determina a duração do episódio
+- Deslocamento mecânico de otólitos para um canal semicircular (VPPB) → vertigem de segundos, desencadeada por posição
+- Distensão do labirinto membranoso por acúmulo de endolinfa (Ménière) → crises de minutos a horas
+- Inflamação/neurite do próprio nervo vestibular (neurite vestibular) → vertigem contínua por dias, enquanto a inflamação persiste
+- Migrânea vestibular foge dessa lógica mecânica/inflamatória periférica — envolve os mesmos circuitos de sensibilização trigeminovascular da enxaqueca clássica, com ativação anômala de vias vestibulares centrais
+
+💡 Pensa assim: quanto mais "mecânico e rápido" o gatilho (otólito caindo de posição), mais curta a crise; quanto mais "inflamatório e lento" o processo, mais longa e contínua a vertigem.
 
 ## 🔹 Doença de Ménière
 

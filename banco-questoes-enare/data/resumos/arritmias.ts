@@ -30,7 +30,15 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-No WPW, a via acessória permite que o estímulo elétrico chegue ao ventrículo sem passar pelo retardo fisiológico do nó AV, encurtando o intervalo PR e gerando a onda delta pela pré-excitação de parte do miocárdio ventricular — a mesma via, quando participa da condução de uma fibrilação atrial, não possui o efeito protetor de retardo do nó AV, permitindo frequências ventriculares extremamente altas. O sistema de condução AV tem dois níveis de bloqueio possíveis: o **nó AV** (geralmente benigno, responsivo a atropina, Mobitz I) e o sistema **His-Purkinje infra-hissiano** (Mobitz II), cujo bloqueio é elétrico e estrutural, sem resposta a estímulo vagal, propenso a progressão súbita. Doenças infiltrativas e fibrosantes do sistema de condução (Chagas, sarcoidose, amiloidose, fibrose senil de Lev-Lenègre) atuam justamente nesse nível distal, explicando bloqueios de pior prognóstico.
+- **WPW:** a via acessória permite que o estímulo elétrico chegue ao ventrículo sem passar pelo retardo fisiológico do nó AV
+  - Encurta o intervalo PR e gera a onda delta pela pré-excitação de parte do miocárdio ventricular
+  - Essa mesma via, quando participa da condução de uma fibrilação atrial, **não possui o efeito protetor de retardo do nó AV** → permite frequências ventriculares extremamente altas
+- Sistema de condução AV tem dois níveis de bloqueio possíveis:
+  - **Nó AV** (geralmente benigno, responsivo a atropina, Mobitz I)
+  - Sistema **His-Purkinje infra-hissiano** (Mobitz II), cujo bloqueio é elétrico e estrutural, sem resposta a estímulo vagal, propenso a progressão súbita
+- Doenças infiltrativas e fibrosantes do sistema de condução (Chagas, sarcoidose, amiloidose, fibrose senil de Lev-Lenègre) atuam justamente nesse nível distal → explica bloqueios de pior prognóstico
+
+💡 Pensa assim: o nó AV normal é um "pedágio" que segura o estímulo antes do ventrículo — no WPW a via acessória é uma "estrada alternativa sem pedágio", e numa FA isso deixa o estímulo passar livre e rápido demais para o ventrículo.
 
 ## 🔹 Síndrome de Wolff-Parkinson-White (WPW)
 

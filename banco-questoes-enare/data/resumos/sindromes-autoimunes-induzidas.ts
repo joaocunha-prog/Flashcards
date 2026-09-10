@@ -62,11 +62,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A síndrome ASIA propõe que certos **adjuvantes** — substâncias capazes de amplificar de forma inespecífica a resposta imune inata e adaptativa (usadas propositalmente em vacinas para aumentar imunogenicidade, mas também presentes em silicone, óleos minerais e outros materiais implantados) — podem, em indivíduos geneticamente predispostos, desencadear ativação imune crônica e desregulada. Essa ativação persistente leva a inflamação sistêmica de baixo grau e, em alguns casos, ao desenvolvimento de autoanticorpos e manifestações autoimunes francas.
+- **Adjuvantes** = substâncias que amplificam de forma inespecífica a resposta imune inata e adaptativa
+- Usados propositalmente em vacinas (aumentar imunogenicidade), mas também presentes em silicone, óleos minerais e outros materiais implantados
+- Em indivíduos geneticamente predispostos, podem desencadear ativação imune crônica e desregulada
+- Essa ativação persistente → inflamação sistêmica de baixo grau e, em alguns casos, desenvolvimento de autoanticorpos e manifestações autoimunes francas
+- Mecanismo proposto: estimulação contínua de células apresentadoras de antígeno + produção de citocinas pró-inflamatórias ao redor do material implantado/injetado, com disseminação sistêmica dos efeitos imunológicos
+- Isso explica por que a **remoção do material** costuma associar-se a melhora clínica — retira-se o estímulo antigênico persistente que mantinha a ativação imune
+- À biópsia do tecido periimplante, é comum encontrar reação granulomatosa de corpo estranho com macrófagos ativados — achado que sustenta o critério maior histológico proposto para o diagnóstico
+- Esse mecanismo é conceitualmente o mesmo que fundamenta o uso proposital de adjuvantes em vacinas (potencializar a resposta imune ao antígeno vacinal)
+- A diferença em ASIA: a estimulação é crônica, não controlada, e ocorre em indivíduo geneticamente predisposto — desloca o que seria um estímulo transitório e benéfico para um estado de inflamação persistente e potencialmente patogênico
 
-O mecanismo proposto envolve estimulação contínua de células apresentadoras de antígeno e produção de citocinas pró-inflamatórias ao redor do material implantado ou injetado, com disseminação sistêmica dos efeitos imunológicos — o que explica por que a **remoção do material** costuma associar-se a melhora clínica: retira-se o estímulo antigênico persistente que mantinha a ativação imune. À biópsia do tecido periimplante, é comum encontrar reação granulomatosa de corpo estranho com macrófagos ativados, achado que sustenta o critério maior histológico proposto para o diagnóstico.
-
-Esse mecanismo de ativação imune inespecífica e sustentada é conceitualmente o mesmo que fundamenta o uso proposital de adjuvantes em vacinas (potencializar a resposta imune ao antígeno vacinal) — a diferença em ASIA é que a estimulação é crônica, não controlada e ocorre em indivíduo geneticamente predisposto, deslocando o que seria um estímulo imunológico transitório e benéfico para um estado de inflamação persistente e potencialmente patogênico.
+💡 Pensa assim: o mesmo "empurrão" que a vacina dá de propósito ao sistema imune (adjuvante), em ASIA vira um empurrão contínuo e sem controle — é a diferença entre dar corda pontual num relógio e deixar a corda presa girando sem parar.
 
 ## 🔎 Diagnóstico
 

@@ -35,11 +35,23 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Etilenoglicol e metanol são, por si só, relativamente pouco tóxicos — a toxicidade real vem de seus **metabólitos**, gerados pela álcool desidrogenase seguida de aldeído desidrogenase. Por isso o antídoto (fomepizol, ou etanol como alternativa) atua bloqueando essa via metabólica, competindo pela mesma enzima, e não neutralizando o álcool-mãe em si.
+- Etilenoglicol e metanol são, por si só, relativamente pouco tóxicos
+- A toxicidade real vem de seus **metabólitos**, gerados pela álcool desidrogenase seguida de aldeído desidrogenase
+- Por isso o antídoto (fomepizol, ou etanol como alternativa) atua bloqueando essa via metabólica, competindo pela mesma enzima — e não neutralizando o álcool-mãe em si
 
-A **síndrome serotoninérgica** resulta do excesso de estimulação serotoninérgica nos receptores 5-HT1A e 5-HT2A do SNC e periférico, geralmente por combinação de fármacos com mecanismos serotoninérgicos distintos (ex.: inibição de recaptação + inibição de MAO). O excesso gera hiperatividade neuromuscular (clônus, hiperreflexia, mais proeminente em membros inferiores) e disautonomia — instalação em horas, diferente da síndrome neuroléptica maligna, que evolui em dias por bloqueio dopaminérgico.
+💡 Pensa assim: fomepizol e etanol "furam a fila" na mesma enzima que o etilenoglicol/metanol precisariam usar para virar veneno — ganham a competição e o álcool-mãe é eliminado inalterado, sem nunca virar metabólito tóxico.
 
-As demais toxíndromes seguem a mesma lógica de reconhecimento por eixo farmacológico: agentes colinérgicos inundam a fenda sináptica de acetilcolina, anticolinérgicos bloqueiam receptores muscarínicos, opioides deprimem o centro respiratório via receptores mu, e simpaticomiméticos aumentam catecolaminas — cada eixo produz um padrão previsível de sinais vitais e exame físico que permite tratar antes da confirmação laboratorial.
+- A **síndrome serotoninérgica** resulta do excesso de estimulação serotoninérgica nos receptores 5-HT1A e 5-HT2A do SNC e periférico
+- Geralmente por combinação de fármacos com mecanismos serotoninérgicos distintos (ex.: inibição de recaptação + inibição de MAO)
+- O excesso gera hiperatividade neuromuscular (clônus, hiperreflexia, mais proeminente em membros inferiores) e disautonomia
+- Instalação em **horas** — diferente da síndrome neuroléptica maligna, que evolui em **dias** por bloqueio dopaminérgico
+
+- As demais toxíndromes seguem a mesma lógica de reconhecimento por eixo farmacológico
+- Agentes colinérgicos inundam a fenda sináptica de acetilcolina
+- Anticolinérgicos bloqueiam receptores muscarínicos
+- Opioides deprimem o centro respiratório via receptores mu
+- Simpaticomiméticos aumentam catecolaminas
+- Cada eixo produz um padrão previsível de sinais vitais e exame físico que permite tratar antes da confirmação laboratorial
 
 ## 🔹 Intoxicação por etilenoglicol
 

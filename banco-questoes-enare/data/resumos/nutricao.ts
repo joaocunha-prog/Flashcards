@@ -64,11 +64,22 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A preferência pela via enteral se apoia no conceito de que a mucosa intestinal precisa de estímulo luminal (nutrientes) para manter sua integridade estrutural e imunológica — a ausência de trânsito por tempo prolongado favorece atrofia de vilosidades e translocação bacteriana, aumentando risco infeccioso mesmo em pacientes sem infecção abdominal primária.
+- A preferência pela via enteral se apoia no conceito de que a mucosa intestinal precisa de estímulo luminal (nutrientes) para manter sua integridade estrutural e imunológica
+- A ausência de trânsito por tempo prolongado favorece atrofia de vilosidades e translocação bacteriana
+- Isso aumenta o risco infeccioso mesmo em pacientes sem infecção abdominal primária
 
-Na **síndrome de realimentação**, a reintrodução de carboidratos após jejum prolongado desloca o metabolismo de lipólise para uso de glicose, disparando secreção de insulina — a insulina promove influxo celular maciço de fósforo, potássio e magnésio, depletando rapidamente esses eletrólitos no plasma, com risco de disfunção cardíaca e respiratória. Pelo mesmo mecanismo de troca de substrato metabólico, o consumo de tiamina (cofator da via glicolítica) se acelera, esgotando reservas já baixas no desnutrido crônico.
+💡 Pensa assim: "se não usa, atrofia" vale para o intestino igual vale para músculo — a mucosa parada sem nutriente na luz perde a barreira e "vaza" bactéria para a circulação.
 
-No **bypass gástrico em Y de Roux**, a reconstrução anatômica exclui o estômago distal, duodeno e jejuno proximal do trânsito alimentar — segmentos-chave para absorção de ferro (forma reduzida pelo ácido gástrico), cálcio, vitamina D e onde o fator intrínseco (produzido no estômago) se liga à B12 antes de ser absorvido no íleo terminal; a reconfiguração compromete todas essas etapas simultaneamente. O esvaziamento gástrico acelerado da bolsa remanescente para o jejuno também explica o dumping syndrome, pela chegada rápida de conteúdo hiperosmolar ao intestino delgado.
+- Na **síndrome de realimentação**, a reintrodução de carboidratos após jejum prolongado desloca o metabolismo de lipólise para uso de glicose, disparando secreção de insulina
+- A insulina promove influxo celular maciço de fósforo, potássio e magnésio, depletando rapidamente esses eletrólitos no plasma → risco de disfunção cardíaca e respiratória
+- Pelo mesmo mecanismo de troca de substrato metabólico, o consumo de tiamina (cofator da via glicolítica) se acelera, esgotando reservas já baixas no desnutrido crônico
+
+- No **bypass gástrico em Y de Roux**, a reconstrução anatômica exclui o estômago distal, duodeno e jejuno proximal do trânsito alimentar
+- Esses são segmentos-chave para absorção de ferro (forma reduzida pelo ácido gástrico), cálcio e vitamina D, e onde o fator intrínseco (produzido no estômago) se liga à B12 antes de ser absorvido no íleo terminal
+- A reconfiguração compromete todas essas etapas simultaneamente
+- O esvaziamento gástrico acelerado da bolsa remanescente para o jejuno também explica o dumping syndrome, pela chegada rápida de conteúdo hiperosmolar ao intestino delgado
+
+💡 Pensa assim: o bypass "pula" justamente o trecho do tubo digestivo que funciona como posto de absorção de ferro, cálcio, vitamina D e B12 — por isso a suplementação vitalícia não é exagero, é compensar um desvio de rota permanente.
 
 ## 🔎 Diagnóstico
 

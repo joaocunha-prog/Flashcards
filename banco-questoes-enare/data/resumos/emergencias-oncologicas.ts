@@ -34,7 +34,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-As emergências oncológicas compartilham um padrão: uma alteração local (compressão física, obstrução vascular, invasão intestinal) ou sistêmica (liberação humoral, lise celular maciça) rompe rapidamente um equilíbrio que o organismo não consegue compensar a tempo — daí a exigência de conduta imediata, muitas vezes antes de confirmação completa por imagem/laboratório. A hipercalcemia maligna ocorre por secreção de **PTHrp** (mecanismo humoral, mais comum, ativa o mesmo receptor do PTH) ou por **osteólise direta** mediada por citocinas de metástases ósseas; em ambos, o excesso de cálcio circulante causa poliúria e desidratação, criando um círculo vicioso que agrava a própria hipercalcemia. A compressão medular metastática comprime diretamente a medula por extensão epidural de metástase vertebral, com edema vasogênico que responde rapidamente a corticoide.
+- Emergências oncológicas compartilham um padrão: alteração **local** (compressão física, obstrução vascular, invasão intestinal) ou **sistêmica** (liberação humoral, lise celular maciça) rompe rapidamente um equilíbrio que o organismo não compensa a tempo
+- Daí a exigência de conduta imediata, muitas vezes antes de confirmação completa por imagem/laboratório
+- **Hipercalcemia maligna:** secreção de **PTHrp** (mecanismo humoral, mais comum, ativa o mesmo receptor do PTH) ou **osteólise direta** mediada por citocinas de metástases ósseas
+- Em ambos os mecanismos, o excesso de cálcio circulante causa poliúria e desidratação → círculo vicioso que agrava a própria hipercalcemia
+- **Compressão medular metastática:** comprime diretamente a medula por extensão epidural de metástase vertebral, com edema vasogênico que responde rapidamente a corticoide
+
+💡 Pensa assim: em quase toda emergência oncológica, o "relógio" já está correndo antes do exame confirmar — trata-se pela suspeita clínica forte, não se espera o laudo.
 
 ## 🔹 Hipercalcemia maligna
 

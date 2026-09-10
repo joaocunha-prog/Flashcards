@@ -36,7 +36,15 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A SGB é processo autoimune pós-infeccioso por mimetismo molecular: epítopos de patógenos (gangliosídeos de *Campylobacter jejuni*, o gatilho clássico) se assemelham a componentes do nervo periférico, levando o sistema imune a atacar mielina (forma desmielinizante clássica, AIDP) ou o axônio diretamente (formas axonais, AMAN/AMSAN). A miastenia gravis é doença autoimune pós-sináptica da junção neuromuscular (anticorpos anti-receptor de acetilcolina ou anti-MuSK); a síndrome de Lambert-Eaton é o espelho pré-sináptico (anticorpos contra canais de cálcio voltagem-dependentes) — mecanismos opostos que explicam por que uma piora e a outra melhora com esforço repetido. A paralisia periódica hipocalêmica é canalopatia muscular em que a queda aguda do potássio extracelular (por desvio transcelular, não perda corporal) despolariza paradoxalmente a membrana, tornando-a inexcitável. As afasias corticais seguem a organização perisylviana clássica da linguagem — lesão frontal posterior compromete produção (Broca), lesão temporal posterior compromete compreensão (Wernicke).
+- **SGB:** processo autoimune pós-infeccioso por mimetismo molecular
+  - Epítopos de patógenos (gangliosídeos de *Campylobacter jejuni*, o gatilho clássico) se assemelham a componentes do nervo periférico
+  - O sistema imune passa a atacar a mielina (forma desmielinizante clássica, AIDP) ou o axônio diretamente (formas axonais, AMAN/AMSAN)
+- **Miastenia gravis:** doença autoimune **pós-sináptica** da junção neuromuscular (anticorpos anti-receptor de acetilcolina ou anti-MuSK)
+- **Síndrome de Lambert-Eaton:** espelho **pré-sináptico** (anticorpos contra canais de cálcio voltagem-dependentes) — mecanismos opostos que explicam por que uma piora e a outra melhora com esforço repetido
+- **Paralisia periódica hipocalêmica:** canalopatia muscular em que a queda aguda do potássio extracelular (por desvio transcelular, não perda corporal) despolariza paradoxalmente a membrana, tornando-a inexcitável
+- **Afasias corticais:** seguem a organização perisylviana clássica da linguagem — lesão frontal posterior compromete produção (Broca), lesão temporal posterior compromete compreensão (Wernicke)
+
+💡 Pensa assim: MG "trava o receptor depois da sinapse" (esforço repetido esgota o pouco receptor funcionante → piora); Lambert-Eaton "trava a liberação antes da sinapse" (esforço repetido recruta mais cálcio residual → melhora) — mesma via, defeito em lados opostos, efeito clínico invertido.
 
 ## 🔹 Síndrome de Guillain-Barré (SGB)
 

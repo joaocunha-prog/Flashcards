@@ -33,7 +33,16 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-As SSTI variam num espectro de profundidade — da epiderme (impetigo) à derme superficial/linfáticos (erisipela), à derme profunda/subcutâneo (celulite), à fáscia (fasceíte necrotizante) e ao músculo (piomiosite, mionecrose) — e essa profundidade determina tanto o quadro clínico quanto a urgência terapêutica. Nas infecções necrotizantes, o dano não é só isquêmico: exotoxinas pirogênicas do *S. pyogenes* funcionam como superantígenos, amplificando de forma desproporcional a resposta inflamatória sistêmica — por isso bloquear a síntese dessas toxinas (clindamicina) é estratégia complementar essencial ao debridamento. Infecções por contiguidade (osteomielite a partir de úlcera, mediastinite a partir de foco odontogênico) se espalham ao longo de planos teciduais/fasciais contínuos, sem depender de bacteremia — o que explica por que um foco superficial aparentemente controlado pode já ter alcançado estruturas profundas quando os sinais de alarme aparecem.
+- SSTI variam num espectro de **profundidade**, e essa profundidade determina tanto o quadro clínico quanto a urgência terapêutica:
+  - Epiderme → impetigo
+  - Derme superficial/linfáticos → erisipela
+  - Derme profunda/subcutâneo → celulite
+  - Fáscia → fasceíte necrotizante
+  - Músculo → piomiosite, mionecrose
+- Nas infecções necrotizantes, o dano não é só isquêmico: exotoxinas pirogênicas do *S. pyogenes* funcionam como **superantígenos**, amplificando de forma desproporcional a resposta inflamatória sistêmica → por isso bloquear a síntese dessas toxinas (clindamicina) é estratégia complementar essencial ao debridamento
+- Infecções **por contiguidade** (osteomielite a partir de úlcera, mediastinite a partir de foco odontogênico) se espalham ao longo de planos teciduais/fasciais contínuos, sem depender de bacteremia → por isso um foco superficial aparentemente controlado pode já ter alcançado estruturas profundas quando os sinais de alarme aparecem
+
+💡 Pensa assim: quanto mais fundo o plano acometido (pele → derme → fáscia → músculo), mais silencioso o início e mais rápida a evolução — a fasceíte "grita pouco na pele e mata rápido por dentro", daí a dor desproporcional ao exame ser o sinal de alarme mais valioso.
 
 ## 🔹 Fasceíte necrotizante
 

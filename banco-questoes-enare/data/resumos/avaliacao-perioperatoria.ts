@@ -72,13 +72,27 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A avaliação perioperatória cardiovascular busca estimar o risco de evento cardíaco maior (infarto, morte cardíaca) no perioperatório e decidir se alguma intervenção (exame, otimização farmacológica, adiamento) reduz esse risco sem atrasar desnecessariamente uma cirurgia indicada. O raciocínio central é sequencial: primeiro se pergunta se a cirurgia é urgente (se for, o processo de investigação encurta drasticamente); depois se há doença cardíaca ativa que precise ser tratada antes de qualquer coisa; só então se avalia risco cirúrgico e capacidade funcional do paciente.
+- A avaliação perioperatória cardiovascular busca estimar o risco de evento cardíaco maior (infarto, morte cardíaca) no perioperatório
+- E decidir se alguma intervenção (exame, otimização farmacológica, adiamento) reduz esse risco sem atrasar desnecessariamente uma cirurgia indicada
+- O raciocínio central é sequencial: primeiro se pergunta se a cirurgia é urgente (se for, o processo de investigação encurta drasticamente)
+- Depois se há doença cardíaca ativa que precise ser tratada antes de qualquer coisa
+- Só então se avalia risco cirúrgico e capacidade funcional do paciente
 
-A manutenção da estatina no perioperatório reflete o conceito de que seus benefícios (estabilização de placa aterosclerótica, efeito anti-inflamatório) atuam de forma relativamente rápida e sua retirada abrupta pode gerar efeito rebote pró-inflamatório, aumentando risco isquêmico justamente no período de maior estresse cardiovascular da cirurgia.
+💡 Mnemônico do fluxo: "urgência → ativa → cirúrgico → funcional → índice → exame" — cada pergunta só se faz depois de responder a anterior, nunca em paralelo.
 
-A avaliação perioperatória completa não se limita ao risco cardíaco: risco pulmonar (capacidade de tossir, complacência torácica reduzida pela dor e imobilização), risco de TEV (estase venosa por imobilização, estado pró-coagulante da resposta cirúrgica ao trauma) e risco metabólico (jejum, resposta ao estresse elevando glicemia mesmo em não diabéticos) somam-se ao risco cardíaco na decisão global de conduzir o paciente com segurança pelo período perioperatório.
+- A manutenção da estatina no perioperatório reflete o conceito de que seus benefícios (estabilização de placa aterosclerótica, efeito anti-inflamatório) atuam de forma relativamente rápida
+- Sua retirada abrupta pode gerar efeito rebote pró-inflamatório, aumentando risco isquêmico justamente no período de maior estresse cardiovascular da cirurgia
 
-A resposta neuroendócrina ao trauma cirúrgico (liberação de cortisol, catecolaminas e citocinas inflamatórias) explica por que praticamente todo paciente cirúrgico fica hiperglicêmico transitoriamente, por que o estado é pró-trombótico no pós-operatório imediato, e por que a otimização pré-operatória de comorbidades crônicas (função cardíaca, controle glicêmico, estado nutricional) tem impacto direto na capacidade do organismo de tolerar esse estresse fisiológico adicional.
+- A avaliação perioperatória completa não se limita ao risco cardíaco
+- Risco pulmonar: capacidade de tossir, complacência torácica reduzida pela dor e imobilização
+- Risco de TEV: estase venosa por imobilização, estado pró-coagulante da resposta cirúrgica ao trauma
+- Risco metabólico: jejum, resposta ao estresse elevando glicemia mesmo em não diabéticos
+- Todos esses riscos somam-se ao risco cardíaco na decisão global de conduzir o paciente com segurança pelo período perioperatório
+
+- A resposta neuroendócrina ao trauma cirúrgico (liberação de cortisol, catecolaminas e citocinas inflamatórias) explica três coisas:
+- Por que praticamente todo paciente cirúrgico fica hiperglicêmico transitoriamente
+- Por que o estado é pró-trombótico no pós-operatório imediato
+- Por que a otimização pré-operatória de comorbidades crônicas (função cardíaca, controle glicêmico, estado nutricional) tem impacto direto na capacidade do organismo de tolerar esse estresse fisiológico adicional
 
 ## 🔎 Diagnóstico
 

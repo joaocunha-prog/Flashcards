@@ -38,9 +38,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-No AVC isquêmico agudo, o rtPA lisa o trombo que oclui a artéria cerebral, restaurando fluxo à área de penumbra isquêmica — mas o mesmo mecanismo fibrinolítico que resolve a isquemia pode transformar uma lesão isquêmica em hemorrágica, daí a exigência absoluta de excluir sangramento antes de infundir. Fora da janela de trombólise, o risco de recorrência precoce (sobretudo em déficit leve) é atacado por outra via — antiagregação, não fibrinólise (ver AVC isquêmico, abaixo).
+- No AVC isquêmico agudo, o rtPA lisa o trombo que oclui a artéria cerebral, restaurando fluxo à área de penumbra isquêmica
+- O mesmo mecanismo fibrinolítico que resolve a isquemia pode transformar uma lesão isquêmica em hemorrágica → daí a exigência absoluta de excluir sangramento antes de infundir
+- Fora da janela de trombólise, o risco de recorrência precoce (sobretudo em déficit leve) é atacado por outra via — antiagregação, não fibrinólise (ver AVC isquêmico, abaixo)
 
-Nas infecções do SNC, o mecanismo de dano é duplo: a lesão direta pelo agente (necrose temporal na encefalite herpética; formação de cisto parasitário na neurocisticercose) soma-se à **resposta inflamatória do hospedeiro** — daí corticoide ser adjuvante em neurocisticercose (controla o edema pela morte do parasita) e a dexametasona ser dada junto ao antibiótico na meningite bacteriana pneumocócica (reduz a resposta inflamatória liquórica que causa surdez e outras sequelas).
+Nas infecções do SNC, o mecanismo de dano é duplo:
+
+- Lesão **direta** pelo agente (necrose temporal na encefalite herpética; formação de cisto parasitário na neurocisticercose)
+- Soma-se à **resposta inflamatória do hospedeiro**
+- É por isso que corticoide é adjuvante em neurocisticercose (controla o edema pela morte do parasita) e a dexametasona é dada junto ao antibiótico na meningite bacteriana pneumocócica (reduz a resposta inflamatória liquórica que causa surdez e outras sequelas)
+
+💡 Pensa assim: no AVC isquêmico, o rtPA é uma faca de dois gumes — desentope a artéria, mas pode fazer sangrar; por isso a TC sem hemorragia é o "visto liberado" antes de infundir. Nas neuroinfecções, muitas vezes não é só o "bicho" que faz o estrago, é a resposta do próprio corpo à sua morte — por isso corticoide entra junto do tratamento causal.
 
 ## 🔹 Encefalite herpética
 

@@ -38,7 +38,12 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Cálculos de cálcio formam-se quando a urina fica supersaturada de sais de cálcio, favorecida por hipercalciúria, hiperoxalúria, hipocitratúria (o citrato normalmente quela cálcio e inibe a cristalização) e baixo volume urinário — o hiperparatireoidismo primário aumenta a reabsorção óssea e a absorção intestinal de cálcio, elevando a calciúria, e o hipoparatireoidismo faz o oposto. A doença ateroembólica ocorre quando manipulação mecânica de aorta/grande artéria com placa instável libera êmbolos de cristais de colesterol que ocluem pequenas artérias e arteríolas (pele, rins, retina, trato gastrointestinal) — a resposta inflamatória local e a oclusão progressiva explicam a evolução subaguda, diferente da agressão tóxica direta e imediata do contraste. Aminoglicosídeos e polimixinas são captados ativamente pelo túbulo proximal (via megalina, no caso dos aminoglicosídeos), acumulando-se em concentração muito maior que a plasmática.
+- **Cálculos de cálcio** formam-se quando a urina fica supersaturada de sais de cálcio, favorecida por hipercalciúria, hiperoxalúria, hipocitratúria (o citrato normalmente quela cálcio e inibe a cristalização) e baixo volume urinário
+- Hiperparatireoidismo primário aumenta a reabsorção óssea e a absorção intestinal de cálcio, elevando a calciúria; o hipoparatireoidismo faz o oposto
+- **Doença ateroembólica:** manipulação mecânica de aorta/grande artéria com placa instável libera êmbolos de cristais de colesterol que ocluem pequenas artérias e arteríolas (pele, rins, retina, trato gastrointestinal) → resposta inflamatória local + oclusão progressiva explicam a evolução **subaguda**, diferente da agressão tóxica direta e imediata do contraste
+- **Aminoglicosídeos e polimixinas** são captados ativamente pelo túbulo proximal (via megalina, no caso dos aminoglicosídeos), acumulando-se em concentração muito maior que a plasmática
+
+💡 Pensa assim: contraste "agride e some" (24-48h); êmbolo de colesterol "entope aos poucos e inflama" (dias a semanas) — o relógio do dano é o discriminador entre as duas causas de piora renal pós-cateterismo.
 
 ## 🔹 Fatores de risco para nefrolitíase de cálcio
 

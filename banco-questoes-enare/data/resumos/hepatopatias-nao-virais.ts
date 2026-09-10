@@ -44,7 +44,14 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Na insuficiência hepática aguda, a necrose maciça de hepatócitos libera amônia não metabolizada na circulação sistêmica, e a hiperamonemia aguda causa edema citotóxico de astrócitos — diferente da encefalopatia hepática crônica (mais funcional/neurotransmissor), aqui há risco real e rápido de herniação. A DHEM decorre do acúmulo de triglicérides nos hepatócitos por desequilíbrio entre síntese/captação de ácidos graxos e sua oxidação/exportação, tipicamente ligado a resistência insulínica. A hepatite autoimune resulta de perda de tolerância imunológica contra antígenos hepatocitários; a doença de Wilson decorre de mutação no gene ATP7B (excreção biliar de cobre comprometida); a hemocromatose hereditária (mutação HFE, tipicamente C282Y) aumenta a absorção intestinal de ferro.
+- **Insuficiência hepática aguda:** necrose maciça de hepatócitos libera amônia não metabolizada na circulação sistêmica → hiperamonemia aguda causa edema citotóxico de astrócitos
+- Diferente da encefalopatia hepática crônica (mais funcional/neurotransmissor), aqui há risco real e rápido de herniação
+- **DHEM:** acúmulo de triglicérides nos hepatócitos por desequilíbrio entre síntese/captação de ácidos graxos e sua oxidação/exportação, tipicamente ligado a resistência insulínica
+- **Hepatite autoimune:** perda de tolerância imunológica contra antígenos hepatocitários
+- **Doença de Wilson:** mutação no gene ATP7B (excreção biliar de cobre comprometida)
+- **Hemocromatose hereditária:** mutação HFE (tipicamente C282Y) aumenta a absorção intestinal de ferro
+
+💡 Pensa assim: na insuficiência hepática aguda o cérebro incha rápido (edema citotóxico, é uma emergência de horas); no cirrótico crônico a encefalopatia é mais "devagar e reversível" (disfunção de neurotransmissor) — por isso a vigilância de hipertensão intracraniana só faz sentido na forma aguda.
 
 ## 🔹 Insuficiência hepática aguda e edema cerebral
 

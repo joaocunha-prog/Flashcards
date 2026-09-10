@@ -55,9 +55,16 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O DM2 resulta da combinação entre resistência insulínica progressiva e disfunção secretora das células beta pancreáticas, sobre uma base genética poligênica robusta que interage com fatores ambientais — diferente do DM1, cuja base é autoimune (destruição de células beta) associada a haplótipos HLA específicos e presença de autoanticorpos (anti-GAD, anti-IA2, anti-insulina, anti-ZnT8). O controle glicêmico intensivo reduz complicações microvasculares a longo prazo, mas em idosos a contrapartida da hipoglicemia é desproporcionalmente perigosa: a contrarregulação hormonal (glucagon e catecolaminas) é mais lenta e menos eficiente, a função renal reduzida prolonga a ação de drogas hipoglicemiantes, e a polifarmácia aumenta interações — por isso estudos como o ACCORD mostraram até aumento de mortalidade com metas muito rígidas nessa população.
+- **DM2:** resulta da combinação entre resistência insulínica progressiva e disfunção secretora das células beta pancreáticas, sobre uma base genética **poligênica** robusta que interage com fatores ambientais
+- **DM1:** base autoimune (destruição de células beta) associada a haplótipos **HLA** específicos e presença de autoanticorpos (anti-GAD, anti-IA2, anti-insulina, anti-ZnT8) — diferente do DM2
+- Controle glicêmico intensivo reduz complicações microvasculares a longo prazo, mas em idosos a contrapartida da hipoglicemia é desproporcionalmente perigosa:
+  - Contrarregulação hormonal (glucagon e catecolaminas) mais lenta e menos eficiente
+  - Função renal reduzida prolonga a ação de drogas hipoglicemiantes
+  - Polifarmácia aumenta interações
+  - Por isso estudos como o ACCORD mostraram até aumento de mortalidade com metas muito rígidas nessa população
+- **Glucagon** age estimulando a glicogenólise hepática, elevando rapidamente a glicemia sem necessidade de acesso venoso — mecanismo que falha quando as reservas hepáticas de glicogênio já estão depletadas
 
-O glucagon age estimulando a glicogenólise hepática, elevando rapidamente a glicemia sem necessidade de acesso venoso — mecanismo que falha quando as reservas hepáticas de glicogênio já estão depletadas.
+💡 Pensa assim: DM2 é "genética + ambiente" (poligênico, herdabilidade alta mesmo sem autoimunidade); DM1 é "sistema imune atacando a própria fábrica de insulina" (HLA + autoanticorpos) — por isso DM2 concorda mais entre gêmeos idênticos, mesmo parecendo "menos genético" à primeira vista.
 
 ## 📊 Classificação
 

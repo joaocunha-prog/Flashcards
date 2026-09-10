@@ -34,9 +34,17 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-As **cardiomiopatias infiltrativas/funcionais** (sarcoidose, amiloidose, Takotsubo) comprometem o músculo cardíaco por mecanismos completamente diferentes entre si — substituição por granuloma e fibrose na sarcoidose, depósito extracelular de proteína mal dobrada na amiloidose, toxicidade catecolaminérgica transitória no Takotsubo — mas convergem no mesmo desafio diagnóstico: distinguir umas das outras e de doença coronariana exige RM cardíaca com atenção ao padrão de realce tardio, não apenas ao ecocardiograma.
+- As **cardiomiopatias infiltrativas/funcionais** (sarcoidose, amiloidose, Takotsubo) comprometem o músculo cardíaco por mecanismos completamente diferentes entre si:
+- Sarcoidose → substituição por granuloma e fibrose
+- Amiloidose → depósito extracelular de proteína mal dobrada
+- Takotsubo → toxicidade catecolaminérgica transitória
+- Mas convergem no mesmo desafio diagnóstico: distinguir umas das outras e de doença coronariana exige RM cardíaca com atenção ao padrão de realce tardio, não apenas ao ecocardiograma
 
-As **doenças do pericárdio** têm fisiopatologia distinta: a inflamação (viral na maioria dos casos idiopáticos) ou o acúmulo de líquido no saco pericárdico comprometem primariamente o envelope que envolve o coração, não o músculo cardíaco em si. No tamponamento, o acúmulo rápido de líquido eleva a pressão intrapericárdica acima da pressão de enchimento das câmaras direitas, comprometendo o enchimento diastólico e o débito cardíaco — por isso a velocidade de acúmulo importa mais que o volume absoluto (200 mL agudos tamponam; 1-2 L de acúmulo lento/crônico podem ser bem tolerados).
+- As **doenças do pericárdio** têm fisiopatologia distinta: a inflamação (viral na maioria dos casos idiopáticos) ou o acúmulo de líquido no saco pericárdico comprometem primariamente o envelope que envolve o coração, não o músculo cardíaco em si
+- No tamponamento, o acúmulo rápido de líquido eleva a pressão intrapericárdica acima da pressão de enchimento das câmaras direitas, comprometendo o enchimento diastólico e o débito cardíaco
+- Por isso a velocidade de acúmulo importa mais que o volume absoluto (200 mL agudos tamponam; 1-2 L de acúmulo lento/crônico podem ser bem tolerados)
+
+💡 Pensa assim: o pericárdio agudo é como encher um saco plástico rígido rápido demais — estoura a pressão antes de conseguir "esticar"; o pericárdio crônico é o mesmo saco esticando devagar ao longo de meses, e por isso acomoda muito mais volume sem sufocar o coração.
 
 ## 🔹 Sarcoidose cardíaca
 

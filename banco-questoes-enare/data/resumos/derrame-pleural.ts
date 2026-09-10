@@ -68,13 +68,25 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O acúmulo de líquido no espaço pleural interpõe um meio de baixa condutividade sonora e mecânica entre a parede torácica e o parênquima pulmonar. Isso explica toda a semiologia: a percussão soa maciça porque o líquido não vibra como o ar alveolar; o frêmito toracovocal (vibração transmitida da laringe até a parede torácica) se atenua porque o líquido absorve a vibração em vez de transmiti-la; e o murmúrio vesicular diminui porque o parênquima comprimido ventila menos e o som fica mais distante do estetoscópio.
+- O acúmulo de líquido no espaço pleural interpõe um meio de baixa condutividade sonora e mecânica entre a parede torácica e o parênquima pulmonar
+- Isso explica toda a semiologia: a percussão soa maciça porque o líquido não vibra como o ar alveolar
+- O frêmito toracovocal (vibração transmitida da laringe até a parede torácica) se atenua porque o líquido absorve a vibração em vez de transmiti-la
+- O murmúrio vesicular diminui porque o parênquima comprimido ventila menos e o som fica mais distante do estetoscópio
 
-Na zona de transição entre o líquido e o pulmão comprimido (atelectasia compressiva), o tecido pulmonar parcialmente arejado transmite preferencialmente frequências mais altas — fenômeno que gera a **egofonia**, um achado fisiopatologicamente distinto da broncofonia observada em consolidações (onde todo o parênquima, e não só uma fina camada comprimida, está preenchido por exsudato/transudato alveolar denso).
+💡 Pensa assim: líquido pleural funciona como um "abafador" entre a parede torácica e o pulmão — some o som (murmúrio, frêmito) e o que sobra é o "toc-toc" surdo da percussão maciça.
 
-Do ponto de vista etiológico, o líquido pleural é transudato quando resulta de desequilíbrio hidrostático/oncótico sistêmico (a pleura em si é normal, como na ICC ou na cirrose) e exsudato quando resulta de aumento da permeabilidade capilar pleural ou de drenagem linfática comprometida por doença própria da pleura ou do parênquima adjacente (infecção, neoplasia, inflamação) — essa distinção fisiopatológica é o que os critérios de Light tentam capturar bioquimicamente.
+- Na zona de transição entre o líquido e o pulmão comprimido (atelectasia compressiva), o tecido pulmonar parcialmente arejado transmite preferencialmente frequências mais altas
+- Esse fenômeno gera a **egofonia**, um achado fisiopatologicamente distinto da broncofonia observada em consolidações — nesta, todo o parênquima (e não só uma fina camada comprimida) está preenchido por exsudato/transudato alveolar denso
 
-No derrame parapneumônico, a progressão de estágios reflete a evolução temporal do processo infeccioso: a fase exsudativa inicial (líquido estéril, pH normal) evolui para fase fibrinopurulenta (invasão bacteriana, consumo de glicose, queda de pH, formação de septações de fibrina) e, se não tratada, para fase de organização (espessamento pleural fibroso, encarceramento pulmonar) — por isso a janela para resolução só com antibiótico se fecha rapidamente, e a decisão de drenar depende de reconhecer em que fase o derrame já está.
+- Do ponto de vista etiológico, o líquido pleural é **transudato** quando resulta de desequilíbrio hidrostático/oncótico sistêmico — a pleura em si é normal, como na ICC ou na cirrose
+- É **exsudato** quando resulta de aumento da permeabilidade capilar pleural ou de drenagem linfática comprometida por doença própria da pleura ou do parênquima adjacente (infecção, neoplasia, inflamação)
+- Essa distinção fisiopatológica é o que os critérios de Light tentam capturar bioquimicamente
+
+- No derrame parapneumônico, a progressão de estágios reflete a evolução temporal do processo infeccioso
+- Fase exsudativa inicial: líquido estéril, pH normal
+- Evolui para fase fibrinopurulenta: invasão bacteriana, consumo de glicose, queda de pH, formação de septações de fibrina
+- Se não tratada, evolui para fase de organização: espessamento pleural fibroso, encarceramento pulmonar
+- Por isso a janela para resolução só com antibiótico se fecha rapidamente, e a decisão de drenar depende de reconhecer em que fase o derrame já está
 
 ## 🔎 Diagnóstico
 

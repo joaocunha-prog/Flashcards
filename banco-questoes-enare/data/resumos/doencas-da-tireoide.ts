@@ -33,7 +33,16 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A tireoide produz hormônio sob o eixo hipotálamo-hipófise-tireoide (TRH → TSH → T4/T3), com retroalimentação negativa — por isso TSH suprimido com T4 livre alto define hipertireoidismo primário, e TSH elevado com T4 livre baixo define hipotireoidismo primário, quase sempre a leitura mais rápida e mais cobrada de qualquer prova de tireoide. As doenças autoimunes da tireoide ocupam os dois polos opostos por mecanismos opostos: anticorpo estimulador do receptor de TSH (TRAb) na doença de Graves ativa cronicamente a glândula; anticorpos citotóxicos (anti-TPO, anti-tireoglobulina) na tireoidite de Hashimoto destroem progressivamente o parênquima. Já os quadros de tireotoxicose **sem hiperfunção verdadeira** (De Quervain, tireoidite silenciosa/pós-parto, factícia) compartilham a mesma assinatura laboratorial — **captação de iodo radioativo baixa**, porque não há síntese hormonal aumentada a ser bloqueada por tionamida.
+- Tireoide produz hormônio sob o eixo hipotálamo-hipófise-tireoide (TRH → TSH → T4/T3), com retroalimentação negativa
+- TSH suprimido + T4 livre alto = hipertireoidismo primário
+- TSH elevado + T4 livre baixo = hipotireoidismo primário
+- Essa é quase sempre a leitura mais rápida e mais cobrada de qualquer prova de tireoide
+- As doenças autoimunes da tireoide ocupam os dois polos opostos por mecanismos opostos:
+  - Anticorpo **estimulador** do receptor de TSH (TRAb) na doença de **Graves** → ativa cronicamente a glândula
+  - Anticorpos **citotóxicos** (anti-TPO, anti-tireoglobulina) na tireoidite de **Hashimoto** → destroem progressivamente o parênquima
+- Já os quadros de tireotoxicose **sem hiperfunção verdadeira** (De Quervain, tireoidite silenciosa/pós-parto, factícia) compartilham a mesma assinatura laboratorial: **captação de iodo radioativo baixa**, porque não há síntese hormonal aumentada a ser bloqueada por tionamida
+
+💡 Pensa assim: TRAb "aperta o acelerador" (Graves = hiperfunção verdadeira, capta iodo); anti-TPO "destrói o motor" (Hashimoto = hipofunção); e as tireoidites destrutivas "esvaziam o tanque de uma vez" (hormônio pré-formado extravasa, captação baixa porque não há síntese nova).
 
 ## 🔹 Tempestade tireotóxica
 

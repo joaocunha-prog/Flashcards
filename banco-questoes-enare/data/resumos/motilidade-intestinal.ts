@@ -31,7 +31,13 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A síndrome de Ogilvie resulta de desequilíbrio autonômico da inervação colônica — predomínio simpático sobre parassimpático leva à atonia da musculatura lisa do cólon sem qualquer obstáculo mecânico, causando dilatação progressiva. A neostigmina restaura o tônus colinérgico ao inibir a degradação da acetilcolina, reativando a peristalse; por isso seu efeito colateral cardíaco mais temido (bradicardia) decorre do mesmo mecanismo colinérgico, agora atuando no nó sinusal. Na neuropatia autonômica diabética, a hiperglicemia crônica lesa fibras autonômicas do plexo mientérico, comprometendo a coordenação motora do tubo digestivo em qualquer segmento — daí a sobreposição entre gastroparesia, constipação crônica e pseudo-obstrução intestinal crônica no mesmo paciente diabético.
+- **Síndrome de Ogilvie:** desequilíbrio autonômico da inervação colônica — predomínio simpático sobre parassimpático leva à atonia da musculatura lisa do cólon **sem qualquer obstáculo mecânico**, causando dilatação progressiva
+- **Neostigmina:** restaura o tônus colinérgico ao inibir a degradação da acetilcolina, reativando a peristalse
+  - Por isso seu efeito colateral cardíaco mais temido (bradicardia) decorre do **mesmo mecanismo colinérgico**, agora atuando no nó sinusal
+- **Neuropatia autonômica diabética:** a hiperglicemia crônica lesa fibras autonômicas do plexo mientérico, comprometendo a coordenação motora do tubo digestivo em qualquer segmento
+  - Daí a sobreposição entre gastroparesia, constipação crônica e pseudo-obstrução intestinal crônica no mesmo paciente diabético
+
+💡 Pensa assim: a neostigmina "liga a acetilcolina em todo lugar", não só no intestino — o mesmo remédio que acorda o cólon também pode frear demais o coração, daí a monitorização cardíaca obrigatória.
 
 ## 🔹 Síndrome de Ogilvie (pseudo-obstrução colônica aguda)
 

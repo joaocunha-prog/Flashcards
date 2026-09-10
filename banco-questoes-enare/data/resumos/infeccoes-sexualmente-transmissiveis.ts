@@ -35,7 +35,18 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-A sífilis é doença sistêmica pelo *Treponema pallidum*, cujos estágios refletem diferentes fases da resposta imune do hospedeiro: lesão primária no sítio de inoculação, disseminação hematogênica na fase secundária, período de latência imunológica e potencial reativação tardia com dano tecidual imunomediado (fase terciária) — quanto maior a carga treponêmica presumida, mais doses de penicilina são necessárias. A *Neisseria gonorrhoeae* pode disseminar-se por via hematogênica a partir de mucosa infectada (geralmente assintomática), causando a síndrome artrite-dermatite por embolização séptica de pequenos vasos. A reação de Jarisch-Herxheimer resulta da lise maciça e súbita de espiroquetas logo após a primeira dose eficaz de antibiótico — fenômeno descrito também em outras espiroquetoses, mas classicamente lembrado no tratamento da sífilis secundária, de maior carga treponêmica. A transmissão vertical do *T. pallidum* é transplacentária em qualquer fase da gestação, mais provável e mais grave quanto maior a carga treponêmica materna — daí a exigência de esquema completo e tempestivo para considerar a gestante adequadamente tratada.
+- Sífilis é doença sistêmica pelo *Treponema pallidum*, cujos estágios refletem diferentes fases da resposta imune do hospedeiro:
+  - Lesão primária no sítio de inoculação
+  - Disseminação hematogênica na fase secundária
+  - Período de latência imunológica
+  - Potencial reativação tardia com dano tecidual imunomediado (fase terciária)
+- Quanto maior a carga treponêmica presumida, **mais doses de penicilina** são necessárias
+- *Neisseria gonorrhoeae* pode disseminar-se por via hematogênica a partir de mucosa infectada (geralmente assintomática), causando a síndrome artrite-dermatite por embolização séptica de pequenos vasos
+- Reação de Jarisch-Herxheimer resulta da lise maciça e súbita de espiroquetas logo após a primeira dose eficaz de antibiótico
+  - Fenômeno descrito também em outras espiroquetoses, mas classicamente lembrado no tratamento da sífilis secundária, de maior carga treponêmica
+- Transmissão vertical do *T. pallidum* é transplacentária em qualquer fase da gestação, mais provável e mais grave quanto maior a carga treponêmica materna → daí a exigência de esquema completo e tempestivo para considerar a gestante adequadamente tratada
+
+💡 Pensa assim: mais tempo de doença/mais carga treponêmica = mais "doses de reforço" de penicilina — é por isso que sífilis recente leva 1 dose e sífilis tardia/indeterminada leva 3.
 
 ## 🔹 Infecção gonocócica disseminada (síndrome artrite-dermatite)
 

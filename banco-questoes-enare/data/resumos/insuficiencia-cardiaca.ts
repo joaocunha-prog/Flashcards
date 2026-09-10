@@ -84,13 +84,34 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-Na insuficiência cardíaca com fração reduzida, a ativação neuro-hormonal compensatória (sistema renina-angiotensina-aldosterona e sistema nervoso simpático) inicialmente sustenta o débito cardíaco, mas cronicamente promove remodelamento cardíaco deletério, retenção de sódio/água e fibrose — daí o benefício de bloquear essas vias com IECA/BRA/ARNI, betabloqueador e antagonista de mineralocorticoide, cada um mostrando redução de mortalidade em ensaios clínicos distintos.
+**Ativação neuro-hormonal na HFrEF:**
 
-O sistema dos peptídeos natriuréticos (BNP e seu fragmento inativo NT-proBNP, liberados em resposta ao estiramento miocárdico) é normalmente degradado pela neprilisina. Ao inibir essa enzima, o sacubitril aumenta os níveis circulantes de BNP ativo (efeito terapêutico desejado — vasodilatação, natriurese), mas como consequência os níveis séricos de BNP deixam de refletir fielmente a real condição hemodinâmica do paciente; o NT-proBNP, por não ser substrato da neprilisina, mantém sua correlação com a gravidade da congestão.
+- Sistema renina-angiotensina-aldosterona + sistema nervoso simpático são ativados como compensação
+- Inicialmente sustentam o débito cardíaco
+- Cronicamente promovem remodelamento cardíaco deletério, retenção de sódio/água e fibrose
+- Daí o benefício de bloquear essas vias com IECA/BRA/ARNI, betabloqueador e antagonista de mineralocorticoide — cada um reduz mortalidade em ensaios clínicos distintos
 
-No choque cardiogênico, a classificação hemodinâmica por perfil (perfusão adequada/inadequada = quente/frio; congestão presente/ausente = úmido/seco) orienta diretamente a escolha terapêutica: o perfil frio-úmido reflete baixo débito com congestão, exigindo suporte inotrópico para melhorar a contratilidade, associado a vasopressor quando há hipotensão que compromete a perfusão de órgãos-alvo.
+**Peptídeos natriuréticos e ARNI:**
 
-A fisiopatologia da ICFEp difere da HFrEF: em vez de perda de força contrátil, há relaxamento ventricular anormal (disfunção diastólica) e rigidez miocárdica aumentada, frequentemente associadas a um estado pró-inflamatório sistêmico ligado a comorbidades cardiometabólicas (hipertensão, diabetes, obesidade) — o que explica por que classes que atuam na neuro-hormonal clássica (IECA/BRA/betabloqueador) tiveram resultado neutro em mortalidade nesse grupo, enquanto os inibidores de SGLT2, com mecanismo mais amplo (natriurese osmótica, efeitos metabólicos e anti-inflamatórios), mostraram benefício consistente.
+- BNP e seu fragmento inativo NT-proBNP são liberados em resposta ao estiramento miocárdico e normalmente degradados pela **neprilisina**
+- Ao inibir essa enzima, o sacubitril aumenta os níveis circulantes de BNP ativo (efeito terapêutico desejado — vasodilatação, natriurese)
+- Consequência: os níveis séricos de BNP deixam de refletir fielmente a real condição hemodinâmica do paciente
+- O NT-proBNP, por não ser substrato da neprilisina, mantém sua correlação com a gravidade da congestão
+
+**Choque cardiogênico — perfis hemodinâmicos:**
+
+- Perfusão adequada/inadequada = quente/frio; congestão presente/ausente = úmido/seco
+- O perfil orienta diretamente a escolha terapêutica
+- **Frio-úmido:** baixo débito + congestão → exige suporte inotrópico para melhorar a contratilidade, associado a vasopressor quando há hipotensão que compromete a perfusão de órgãos-alvo
+
+**ICFEp — uma fisiopatologia diferente da HFrEF:**
+
+- Em vez de perda de força contrátil, há relaxamento ventricular anormal (disfunção diastólica) e rigidez miocárdica aumentada
+- Frequentemente associadas a um estado pró-inflamatório sistêmico ligado a comorbidades cardiometabólicas (hipertensão, diabetes, obesidade)
+- Isso explica por que classes que atuam na via neuro-hormonal clássica (IECA/BRA/betabloqueador) tiveram resultado neutro em mortalidade nesse grupo
+- Já os inibidores de SGLT2, com mecanismo mais amplo (natriurese osmótica, efeitos metabólicos e anti-inflamatórios), mostraram benefício consistente
+
+💡 Pensa assim: na HFrEF o "motor" perdeu força e o corpo compensa demais, virando um ciclo vicioso — por isso remédio que trava esse eixo salva vida. Na ICFEp o motor ainda empurra bem, mas o "tanque" não relaxa para encher — por isso remédios que bloqueiam só o eixo neuro-hormonal clássico não ajudam tanto, e algo com ação mais ampla (SGLT2) sim. E lembrando do ARNI: sacubitril "sabota" a enzima que degradaria o BNP — então, com ARNI, só o NT-proBNP continua confiável para medir congestão.
 
 ## 🩺 Quadro clínico
 

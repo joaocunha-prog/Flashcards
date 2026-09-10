@@ -35,9 +35,16 @@ const content = `
 
 ## 🧠 Conceito e fisiopatologia
 
-O **delirium** é uma disfunção cerebral aguda, flutuante, caracterizada por alteração da atenção e da consciência, decorrente de um estresse fisiológico agudo (infecção, distúrbio metabólico, dor, privação sensorial ou de sono, fármacos) atuando sobre um cérebro já vulnerável pela idade, reserva cognitiva reduzida ou demência de base.
+- O **delirium** é uma disfunção cerebral aguda, flutuante, caracterizada por alteração da atenção e da consciência
+- Decorre de um estresse fisiológico agudo (infecção, distúrbio metabólico, dor, privação sensorial ou de sono, fármacos)
+- Esse estresse atua sobre um cérebro já vulnerável pela idade, reserva cognitiva reduzida ou demência de base
 
-A lógica por trás da AGA como um todo é que, no idoso frágil, síndromes geriátricas (delirium, quedas, incontinência, perda de peso, polifarmácia, imobilidade) compartilham uma **via final comum de reserva fisiológica reduzida** — um único fator precipitante (infecção urinária, por exemplo) pode se manifestar como delirium num paciente e como queda ou perda de apetite noutro, dependendo de qual sistema já estava mais próximo do limiar de descompensação. Por isso a avaliação precisa ser ampla mesmo quando a queixa de entrada é única, e por isso o mesmo fator de risco (polifarmácia, por exemplo) aparece repetidamente como causa de síndromes aparentemente não relacionadas.
+- A lógica por trás da AGA como um todo é que, no idoso frágil, as síndromes geriátricas (delirium, quedas, incontinência, perda de peso, polifarmácia, imobilidade) compartilham uma **via final comum de reserva fisiológica reduzida**
+- Um único fator precipitante (infecção urinária, por exemplo) pode se manifestar como delirium num paciente e como queda ou perda de apetite noutro, dependendo de qual sistema já estava mais próximo do limiar de descompensação
+- Por isso a avaliação precisa ser ampla mesmo quando a queixa de entrada é única
+- E por isso o mesmo fator de risco (polifarmácia, por exemplo) aparece repetidamente como causa de síndromes aparentemente não relacionadas
+
+💡 Pensa assim: no idoso frágil, todos os "gigantes da geriatria" compartilham o mesmo cabo de força — puxa de um lado (uma infecção, um remédio novo) e o elo mais fraco da corrente é que arrebenta, seja ele a cognição, o equilíbrio ou o apetite.
 
 ## 🔹 Delirium
 

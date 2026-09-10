@@ -507,21 +507,30 @@ tuberculose|ENARE|2025|6|Hepatotoxicidade por tuberculostáticos|FACIL
   novos contra o corpus real — 0 fabricações**. Commits: `fee6cc4`/`5dcee7d`/`3a1c964`/`3d77869`
   (lotes 1-4), `d591491` (registro em content.ts/slugs.ts + script de seleção), `82bf91b` (merge
   com o trabalho concorrente de outra sessão — ver nota abaixo). PDF `resumos_completo_85.pdf`
-  gerado e entregue via `SendUserFile` — **em duas rodadas**: a primeira (465 páginas) saiu com dois
-  defeitos visuais que só apareceram no documento grande e completo (não num teste isolado de
-  poucas linhas): (1) os emoji sumiam por completo em vez de aparecer — confirmado o mesmo bug já
-  registrado antes neste HANDOFF ("weasyprint 69" + fonte colorida Noto Color Emoji não sobrevive à
-  subsetagem em documento de centenas de páginas), que eu deveria ter aplicado de cara mas só notei
-  ao inspecionar visualmente (`pymupdf`) algumas páginas renderizadas — checagem automática de texto
-  extraído (`pypdf`) não pega esse tipo de defeito, porque o emoji ainda aparece como caractere no
-  texto extraído mesmo quando o glifo não é desenhado; (2) bug meu de concatenação de string
-  (`f"questão{'ões' if total != 1 else ''}"` produzia "questãoões" em vez de "questões" para
-  assuntos com 2 questões). Corrigi os dois — troquei emoji por um `<span class="sec-dot">` colorido
-  via CSS (cor por tipo de seção, preservando a distinção visual sem depender de fonte de emoji) e
-  corrigi a pluralização — revalidei visualmente (mesmas páginas problemáticas, via `pymupdf` +
-  leitura da imagem) antes de reenviar a versão final (463 páginas). **Lição para a próxima geração
-  de PDF a partir dos resumos: nunca confiar só em `pypdf`/`pdftotext` para validar — sempre
-  renderizar algumas páginas como imagem (`pymupdf`) e olhar de verdade antes de entregar.**
+  gerado e entregue via `SendUserFile` — **em três rodadas**, até achar a causa raiz de verdade do
+  bug de emoji (ver abaixo). Defeitos e correções, em ordem:
+  1. **v1 (465 páginas):** dois defeitos visuais que só apareciam no documento grande e completo
+     (não num teste isolado de poucas linhas) — (a) os emoji sumiam por completo em vez de aparecer,
+     mesmo bug já registrado antes neste HANDOFF ("weasyprint 69" + fonte colorida Noto Color Emoji
+     não sobrevive à subsetagem em documento de centenas de páginas); (b) bug de concatenação de
+     string (`f"questão{'ões' if total != 1 else ''}"` produzia "questãoões" em vez de "questões").
+  2. **v2 (463 páginas):** corrigi a pluralização de verdade; para o emoji, **workaround** — troquei
+     cada emoji por um `<span class="sec-dot">` colorido via CSS (cor por tipo de seção), sem
+     depender de fonte de emoji nenhuma. Funcionou, mas o usuário pediu o emoji de volta ("emoji
+     continua sem renderizar").
+  3. **v3 (463 páginas) — fix de verdade, não workaround:** em vez de tirar o emoji, cada um dos 16
+     emoji usados no corpus (🎯💎⚠️📝🆕🧠🩺🔎🚨💊🔀🔤📋📚🔹💡) foi **pré-renderizado como PNG**
+     direto da fonte `NotoColorEmoji.ttf` (`PIL.ImageFont` + `embedded_color=True`, ~120×120px,
+     recortado ao bbox) e embutido como `data:image/png;base64,...` num `<img>` inline no HTML — uma
+     imagem não é afetada pela subsetagem de fonte que causava o bug, então o resultado é idêntico
+     não importa o tamanho do documento. Script de geração dos ícones e o `emoji_data_uris.json`
+     resultante (~80KB total) ficam em `/tmp/.../scratchpad/`, junto com o gerador do PDF.
+  Revalidei visualmente as mesmas páginas problemáticas via `pymupdf` (renderiza a página como PNG,
+  eu leio a imagem de verdade) antes de cada reenvio. **Lição para a próxima geração de PDF a partir
+  dos resumos: nunca confiar só em `pypdf`/`pdftotext` para validar emoji — o caractere aparece no
+  texto extraído mesmo quando o glifo não foi desenhado. Sempre renderizar algumas páginas como
+  imagem e olhar de verdade. E se o emoji sumir nesse tipo de documento grande de novo, a solução
+  que funciona é embutir como `<img>` pré-renderizado, não tentar fazer a fonte funcionar.**
 - **Descoberta importante: resumo escrito ≠ resumo visível na UI.** `/resumos` tem duas abas —
   "80/20" (`isPareto`, calculada ao vivo pela incidência real, só os 46) e "Selecionados"
   (`ResumoSelection` no banco, marcação manual). Os 39 resumos de cauda longa têm conteúdo e a

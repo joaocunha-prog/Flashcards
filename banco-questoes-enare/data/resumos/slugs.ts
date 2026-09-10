@@ -8,9 +8,11 @@
  * entrar nesse bundle.
  *
  * Os 46 assuntos do corte 80/20 do corpus ENARE/EBSERH (ver HANDOFF.md na
- * raiz do repo para o ranking completo). Ao escrever um resumo novo,
- * acrescente o slug aqui — `src/lib/resumos.ts` valida em runtime que todo
- * slug listado tem conteúdo correspondente em `content.ts`.
+ * raiz do repo para o ranking completo), seguidos pelos 39 assuntos de
+ * cauda longa (1-2 questões cada, fora do corte 80/20) — juntos cobrem os
+ * 85 assuntos do corpus com pelo menos 1 questão. Ao escrever um resumo
+ * novo, acrescente o slug aqui — `src/lib/resumos.ts` valida em runtime
+ * que todo slug listado tem conteúdo correspondente em `content.ts`.
  */
 export const RESUMO_SLUGS = [
   'hiv-aids',
@@ -59,6 +61,46 @@ export const RESUMO_SLUGS = [
   'sindromes-vasculares',
   'sindromes-vestibulares',
   'tuberculose',
+  // #47-85 — cauda longa (1-2 questões cada, fora do corte 80/20)
+  'tumores-solidos',
+  'vasculites',
+  'toxicidade-de-quimioterapicos',
+  'doencas-virais',
+  'micoses-sistemicas',
+  'sincope',
+  'transtornos-do-humor',
+  'cuidados-paliativos',
+  'angioedema',
+  'hepatites-virais',
+  'doencas-de-notificacao-compulsoria',
+  'doencas-emergentes',
+  'transtornos-por-uso-de-substancias',
+  'funcao-pulmonar',
+  'tumores-neuroendocrinos-gastrointestinais',
+  'metabolismo-osseo-e-calcio',
+  'micoses-e-micobacterioses-atipicas',
+  'leucemias-e-linfomas',
+  'imunizacao-do-idoso',
+  'cefaleias',
+  'sarcopenia-e-fragilidade',
+  'transtornos-alimentares',
+  'diabetes-no-idoso-fragil',
+  'catatonia',
+  'olho-vermelho',
+  'valvopatias',
+  'estabilizadores-de-humor',
+  'demencias',
+  'doencas-do-pancreas',
+  'espondiloartropatias',
+  'doencas-respiratorias-atipicas',
+  'neutropenia-febril',
+  'sindromes-coronarianas-agudas',
+  'doencas-da-aorta-e-vasculares',
+  'disturbios-acido-base',
+  'doencas-da-hipofise',
+  'sindromes-autoinflamatorias',
+  'disturbios-metabolicos',
+  'sindromes-medulares-e-desmielinizantes',
 ] as const;
 
 export type ResumoSlug = (typeof RESUMO_SLUGS)[number];

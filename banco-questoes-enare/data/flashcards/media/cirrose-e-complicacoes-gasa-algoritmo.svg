@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="780" height="420" fill="#ffffff"/>
+
+  <!-- Root -->
+  <rect x="290" y="15" width="200" height="50" rx="8" fill="#1f3a5f" />
+  <text x="390" y="36" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">Paracentese diagnóstica</text>
+  <text x="390" y="54" text-anchor="middle" fill="#ffffff" font-size="13">Calcular GASA</text>
+
+  <!-- Lines to two branches -->
+  <line x1="390" y1="65" x2="180" y2="110" stroke="#333333" stroke-width="2"/>
+  <line x1="390" y1="65" x2="600" y2="110" stroke="#333333" stroke-width="2"/>
+
+  <!-- Left branch: GASA >= 1.1 -->
+  <rect x="70" y="110" width="220" height="46" rx="8" fill="#2e7d32"/>
+  <text x="180" y="132" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">GASA ≥ 1,1</text>
+  <text x="180" y="148" text-anchor="middle" fill="#ffffff" font-size="12">Hipertensão portal (transudato)</text>
+
+  <!-- Right branch: GASA < 1.1 -->
+  <rect x="490" y="110" width="220" height="46" rx="8" fill="#b71c1c"/>
+  <text x="600" y="132" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="bold">GASA &lt; 1,1</text>
+  <text x="600" y="148" text-anchor="middle" fill="#ffffff" font-size="12">Sem hipertensão portal</text>
+
+  <!-- From left branch down to protein split -->
+  <line x1="180" y1="156" x2="180" y2="190" stroke="#333333" stroke-width="2"/>
+  <text x="190" y="180" font-size="12" fill="#333333">medir proteína total</text>
+
+  <line x1="180" y1="190" x2="90" y2="230" stroke="#333333" stroke-width="2"/>
+  <line x1="180" y1="190" x2="270" y2="230" stroke="#333333" stroke-width="2"/>
+
+  <rect x="15" y="230" width="150" height="56" rx="8" fill="#66bb6a"/>
+  <text x="90" y="252" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Proteína &lt; 2,5 g/dL</text>
+  <text x="90" y="270" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Cirrose hepática</text>
+
+  <rect x="195" y="230" width="150" height="56" rx="8" fill="#43a047"/>
+  <text x="270" y="250" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">Proteína ≥ 2,5 g/dL</text>
+  <text x="270" y="266" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">Causa cardíaca /</text>
+  <text x="270" y="280" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">congestiva (ICC, Budd-Chiari)</text>
+
+  <!-- Right branch down to causes -->
+  <line x1="600" y1="156" x2="600" y2="190" stroke="#333333" stroke-width="2"/>
+  <text x="608" y="180" font-size="12" fill="#333333">citologia oncótica / imagem</text>
+
+  <rect x="480" y="190" width="240" height="96" rx="8" fill="#ef5350"/>
+  <text x="600" y="212" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="bold">Considerar:</text>
+  <text x="600" y="232" text-anchor="middle" fill="#ffffff" font-size="12">Carcinomatose peritoneal</text>
+  <text x="600" y="250" text-anchor="middle" fill="#ffffff" font-size="12">Tuberculose peritoneal</text>
+  <text x="600" y="268" text-anchor="middle" fill="#ffffff" font-size="12">Síndrome nefrótica</text>
+  <text x="600" y="284" text-anchor="middle" fill="#ffffff" font-size="12">Pancreatite</text>
+
+  <!-- Footer note -->
+  <text x="390" y="330" text-anchor="middle" font-size="12" fill="#555555">GASA = albumina sérica − albumina do líquido ascítico</text>
+  <text x="390" y="350" text-anchor="middle" font-size="12" fill="#555555">GASA alto → transudato por hipertensão portal · GASA baixo → causa exsudativa/local</text>
+</svg>

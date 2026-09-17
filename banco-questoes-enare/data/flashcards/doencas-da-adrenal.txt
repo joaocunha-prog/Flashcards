@@ -1,0 +1,27 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Endocrinologia::Doenças da adrenal
+Suspeitar de hiperaldosteronismo primário diante de hipertensão associada a {{c1::hipopotassemia}}.	Especialmente se resistente a múltiplas drogas ou de início precoce/grave.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+A hipopotassemia pode estar {{c1::ausente}} em boa parte dos casos de hiperaldosteronismo primário.	Não excluir o diagnóstico só porque o potássio está normal.	Assunto::doencas-da-adrenal Conceito
+Rastreio de hiperaldosteronismo primário: relação {{c1::aldosterona plasmática/renina plasmática}} elevada.	Feito antes de qualquer exame de imagem.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Antes de dosar a relação aldosterona/renina, deve-se suspender {{c1::espironolactona}}.	Diuréticos poupadores de potássio podem falsear o resultado.	Assunto::doencas-da-adrenal Conceito
+Teste confirmatório após rastreio positivo de hiperaldosteronismo primário: {{c1::sobrecarga salina}}.	Feito antes da TC de adrenais.	Assunto::doencas-da-adrenal Conceito
+Causa de hiperaldosteronismo primário: {{c1::adenoma produtor de aldosterona}} (unilateral).	Mais frequente em jovens, geralmente mais grave.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Causa de hiperaldosteronismo primário: {{c1::hiperplasia adrenal bilateral}}.	É a causa mais comum globalmente, geralmente mais branda.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O adenoma produtor de aldosterona cursa com hipopotassemia e hipertensão mais {{c1::graves}} que a hiperplasia bilateral.	—	Assunto::doencas-da-adrenal Conceito
+{{c1::Cateterismo de veias adrenais}} é o padrão-ouro para lateralizar a produção de aldosterona.	Indicado quando a TC é inconclusiva ou discordante da idade/apresentação.	Assunto::doencas-da-adrenal Conceito
+Cateterismo de veias adrenais é especialmente indicado em pacientes com mais de {{c1::35-40 anos}}.	Risco de incidentaloma não funcionante coexistindo com hiperplasia bilateral funcionante.	Assunto::doencas-da-adrenal Conceito
+Tratamento do adenoma produtor de aldosterona: {{c1::adrenalectomia laparoscópica unilateral}}.	—	Assunto::doencas-da-adrenal Conceito
+Tratamento da hiperplasia adrenal bilateral: {{c1::espironolactona ou eplerenona}}.	Antagonistas do receptor mineralocorticoide.	Assunto::doencas-da-adrenal Conceito
+Insuficiência adrenal terciária é causada pela {{c1::retirada abrupta de glicocorticoide exógeno}} crônico.	Suprime o eixo hipotálamo-hipófise-adrenal (HHA).	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+O achado-chave para suspeitar de insuficiência adrenal terciária é história de {{c1::corticoterapia crônica}} recente.	Cortisol basal baixo reforça o diagnóstico.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Corticoide de uso crônico nunca deve ser suspenso de forma {{c1::abrupta}} — o desmame deve ser gradual.	Suspender "porque o paciente já está melhor" pode precipitar crise adrenal.	Assunto::doencas-da-adrenal Conceito
+Após a suspensão do corticoide, o eixo HHA pode levar {{c1::meses}} para se recuperar.	Por isso o desmame lento é a prevenção da insuficiência adrenal terciária.	Assunto::doencas-da-adrenal Conceito
+Insuficiência adrenal terciária cursa {{c1::sem hiperpigmentação}} cutânea.	Esperar esse achado é pitfall — é típico da forma primária (Addison), não da terciária.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Insuficiência adrenal terciária cursa {{c1::sem hiperpotassemia}} importante.	Diferente da insuficiência adrenal primária.	Assunto::doencas-da-adrenal Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Na insuficiência adrenal terciária, o ACTH está {{c1::baixo ou normal}}.	Reflete a origem central (hipofisária/hipotalâmica) da supressão.	Assunto::doencas-da-adrenal Conceito
+Na insuficiência adrenal primária (Addison), o ACTH está {{c1::elevado}}.	Ao contrário do ACTH baixo/normal da forma terciária.	Assunto::doencas-da-adrenal Conceito
+Na insuficiência adrenal terciária, a zona glomerulosa continua funcionando pois depende do sistema {{c1::renina-angiotensina}}, não do ACTH.	Explica a ausência de hiperpotassemia relevante nessa forma.	Assunto::doencas-da-adrenal Conceito
+Reforçar corticoide (dose de estresse) é necessário em {{c1::cirurgia ou infecção grave}} com eixo ainda suprimido.	Não reforçar a dose nessa situação é pitfall — risco de insuficiência adrenal aguda.	Assunto::doencas-da-adrenal Conceito
+🔤 Mnemônico da insuficiência adrenal terciária: {{c1::SEM}} pigmentação e SEM hiperpotassemia.	Ao contrário da insuficiência adrenal 1ária (Addison). Recurso próprio, não é mnemônico oficial.	Assunto::doencas-da-adrenal Mnemonico

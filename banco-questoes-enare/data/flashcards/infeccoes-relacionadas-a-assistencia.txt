@@ -1,0 +1,27 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Infectologia::Infecções relacionadas à assistência
+Medida isolada mais eficaz de prevenção de infecção relacionada à assistência: {{c1::higiene das mãos}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Os 5 momentos da higiene das mãos (OMS): {{c1::antes de tocar o paciente}}; {{c2::antes de procedimento asséptico}}; {{c3::após risco de exposição a fluido corporal}}; {{c4::após tocar o paciente}}; {{c5::após tocar superfícies próximas ao paciente}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Preferência geral para higienização das mãos: {{c1::álcool gel}}.	Exceto sujidade visível ou suspeita de C. difficile.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Diante de suspeita de C. difficile, a higiene das mãos deve ser feita com {{c1::água e sabão}}.	Álcool gel não elimina esporos.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Diagnóstico ideal de colite por C. difficile combina NAAT/PCR com detecção de {{c1::toxina (EIA) ou antígeno GDH}}.	NAAT isolado pode detectar apenas colonização.	Assunto::infeccoes-relacionadas-a-assistencia Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Um NAAT/PCR positivo isolado para C. difficile pode representar apenas {{c1::colonização assintomática}}.	Por isso confirma-se com detecção de toxina antes de tratar.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Testar para C. difficile apenas em fezes {{c1::diarreicas (não formadas)}}.	Nunca em paciente assintomático — testar fezes formadas gera falso-positivos por colonização.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Algoritmo diagnóstico de C. difficile: triagem por GDH/NAAT seguida de {{c1::EIA de toxina}} para confirmar doença ativa.	<img src="infeccoes-relacionadas-a-assistencia-cdiff-algoritmo.svg" style="max-width:100%">	Assunto::infeccoes-relacionadas-a-assistencia Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Tratamento de primeira linha do C. difficile: {{c1::vancomicina oral ou fidaxomicina}}.	Metronidazol não é mais primeira escolha.	Assunto::infeccoes-relacionadas-a-assistencia Banca::ENARE Ano::2026 Dificuldade::FACIL
+Metronidazol para C. difficile fica reservado a {{c1::indisponibilidade dos agentes preferenciais}} ou doença leve com recurso limitado.	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Fidaxomicina tem menor taxa de recorrência que vancomicina por ser mais {{c1::poupadora da microbiota intestinal}}.	Vantagem em paciente de alto risco de recidiva.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+C. difficile recorrente/refratário: considerar {{c1::transplante de microbiota fecal}} em recorrências múltiplas.	Além de fidaxomicina ou vancomicina em esquema de pulso/redução gradual.	Assunto::infeccoes-relacionadas-a-assistencia Banca::ENARE Ano::2025 Dificuldade::MEDIA
+C. difficile causa colite por produção de {{c1::toxinas A e B}}.	Danificam o citoesqueleto de actina das células epiteliais do cólon.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Uso prévio de antibióticos de amplo espectro rompe a {{c1::microbiota protetora}} do cólon.	Permite proliferação de C. difficile e expressão de toxina.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Caso grave de colite por C. difficile pode formar {{c1::pseudomembranas}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Bacteremia por S. aureus relacionada a cateter exige {{c1::remoção do cateter}}.	—	Assunto::infeccoes-relacionadas-a-assistencia Banca::ENARE Ano::2025 Dificuldade::FACIL
+Após tratar bacteremia por S. aureus, repetir {{c1::hemoculturas de controle}} para confirmar clareamento.	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Toda bacteremia por S. aureus deve levar à investigação ativa de {{c1::endocardite}}.	Pela alta virulência do S. aureus, mesmo com foco aparentemente claro.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Exame para excluir endocardite na bacteremia por S. aureus: {{c1::ecocardiograma}} (transtorácico e, se dúvida, transesofágico).	—	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Bacteremia relacionada a cateter ocorre por colonização do {{c1::biofilme}} na superfície do dispositivo.	S. aureus tem tropismo por endocárdio e material protético.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Duração do tratamento de bacteremia por S. aureus não complicada: mínimo {{c1::2 semanas}}.	Se complicada/endocardite: 4-6 semanas.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+Antibiótico dirigido para bacteremia por S. aureus sensível à meticilina: {{c1::oxacilina/cefazolina}}.	Vancomicina se MRSA.	Assunto::infeccoes-relacionadas-a-assistencia Conceito
+🔤 Mnemônico: C. difficile faz {{c1::esporos}} — por isso "sabão vence esporo, álcool não".	Recurso próprio, não é mnemônico oficial.	Assunto::infeccoes-relacionadas-a-assistencia Mnemonico

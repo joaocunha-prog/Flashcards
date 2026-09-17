@@ -1,0 +1,17 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Geriatria::Avaliação geriátrica ampla
+No delirium do idoso, a primeira medida é sempre {{c1::buscar e tratar a causa de base}}.	Pitfall: sedar o paciente agitado sem investigar antes.	Assunto::avaliacao-geriatrica-ampla Conceito
+Causas de delirium a investigar: {{c1::infecção}}, {{c2::retenção urinária/fecal}}, {{c3::dor não controlada}} e {{c4::polifarmácia}}.	—	Assunto::avaliacao-geriatrica-ampla Conceito
+Benzodiazepínicos {{c1::pioram/precipitam}} delirium no idoso.	Devem ser evitados como primeira linha para agitação.	Assunto::avaliacao-geriatrica-ampla Conceito
+Exceção em que benzodiazepínico é indicado no delirium: {{c1::abstinência alcoólica ou de benzodiazepínico}}.	—	Assunto::avaliacao-geriatrica-ampla Conceito
+Medidas não farmacológicas no delirium: {{c1::reorientação frequente}}, {{c2::correção de déficits sensoriais}} (óculos, aparelho auditivo) e {{c3::mobilização precoce}}.	—	Assunto::avaliacao-geriatrica-ampla Conceito
+No delirium, deve-se evitar {{c1::contenção física}}.	Aumenta agitação, risco de lesão e prolonga o quadro.	Assunto::avaliacao-geriatrica-ampla Conceito
+Antipsicóticos no delirium são reservados para {{c1::agitação grave com risco à segurança}}.	Menor dose e pelo menor tempo possível — não é rotina.	Assunto::avaliacao-geriatrica-ampla Conceito
+O delirium {{c1::hipoativo}} é mais comum e mais subdiagnosticado que o hiperativo.	Letargia e lentificação — costuma piorar à noite (sundowning).	Assunto::avaliacao-geriatrica-ampla Conceito
+Perda de peso involuntária significativa no idoso: {{c1::≥5%}} do peso corporal em 6-12 meses.	Magnitude que exige investigação ativa da causa.	Assunto::avaliacao-geriatrica-ampla Conceito
+🔤 Mnemônico D-D-C-D-D — causas de síndrome consumptiva no idoso: {{c1::Depressão}}, {{c2::Demência}}, {{c3::Câncer}}, {{c4::Doença crônica descompensada}} e {{c5::Disfagia/problemas dentários}}.	Cinco categorias que cobrem a maioria dos casos de perda de peso no idoso.	Assunto::avaliacao-geriatrica-ampla Mnemonico
+Polifarmácia é fator de risco tanto para delirium quanto para {{c1::perda de peso}} no idoso.	Revisar a lista de medicamentos é obrigatório na investigação de ambos.	Assunto::avaliacao-geriatrica-ampla Conceito
+EBSERH 2025 Q55: no delirium do idoso, evitar {{c1::benzodiazepínicos}} como primeira linha.	Exceto na abstinência alcoólica/de benzodiazepínico.	Assunto::avaliacao-geriatrica-ampla Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+ENARE 2025 Q18: síndrome consumptiva no idoso — reconhecer causas prevalentes como {{c1::depressão, demência e câncer}}.	Investigação sistemática das causas mais comuns, não uma rara isolada.	Assunto::avaliacao-geriatrica-ampla Banca::ENARE Ano::2025 Dificuldade::FACIL

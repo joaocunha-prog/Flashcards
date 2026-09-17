@@ -1,0 +1,20 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Reumatologia::Artrites microcristalinas
+Gota é causada por cristais de {{c1::urato monossódico}}.	—	Assunto::artrites-microcristalinas Conceito
+Pseudogota (condrocalcinose) é causada por cristais de {{c1::pirofosfato de cálcio}}.	—	Assunto::artrites-microcristalinas Conceito
+A diferenciação definitiva entre gota e pseudogota é pela {{c1::análise do líquido sinovial}}.	<img src="artrites-microcristalinas-cristais.svg" style="max-width:100%">	Assunto::artrites-microcristalinas Conceito
+Comparação de cristais: urato monossódico (gota) tem formato {{c1::agulha}} e birrefringência {{c2::negativa forte}}; pirofosfato de cálcio (pseudogota) tem formato {{c3::romboide/retangular}} e birrefringência {{c4::positiva fraca}}.	<img src="artrites-microcristalinas-cristais.svg" style="max-width:100%">	Assunto::artrites-microcristalinas Conceito
+Fármacos com efeito uricosúrico incidental: entre os BRA, a {{c1::losartana}}; entre os fibratos, o {{c2::fenofibrato}}; entre as estatinas (em menor grau), a {{c3::atorvastatina}}.	—	Assunto::artrites-microcristalinas Conceito
+Losartana inibe parcialmente o transportador {{c1::URAT1}} no túbulo proximal renal.	Reduz a reabsorção de urato filtrado, aumentando sua excreção.	Assunto::artrites-microcristalinas Conceito
+Elevam o ácido úrico: {{c1::diuréticos tiazídicos e de alça}}, {{c2::AAS em baixas doses}}, {{c3::ciclosporina}} e {{c4::pirazinamida/etambutol}}.	—	Assunto::artrites-microcristalinas Conceito
+Na crise aguda de gota, {{c1::nunca}} se inicia ou ajusta terapia hipouricemiante.	Pode prolongar/piorar o episódio por mobilização de cristais.	Assunto::artrites-microcristalinas Conceito
+Tratamento da crise aguda de gota: {{c1::colchicina, AINE ou corticoide}}.	—	Assunto::artrites-microcristalinas Conceito
+Terapia hipouricemiante crônica (alopurinol) é iniciada apenas {{c1::fora da crise}}.	—	Assunto::artrites-microcristalinas Conceito
+Ao iniciar alopurinol, associa-se profilaxia com {{c1::colchicina em baixa dose}}.	Evita crises de mobilização de cristais nas primeiras semanas.	Assunto::artrites-microcristalinas Conceito
+Punção do líquido sinovial na gota deve sempre incluir {{c1::Gram e cultura}}.	Cristais não excluem artrite séptica concomitante.	Assunto::artrites-microcristalinas Conceito
+Ácido úrico sérico pode estar {{c1::normal}} durante a crise aguda de gota.	Por redistribuição — não usar valor sérico isolado para diagnóstico na fase aguda.	Assunto::artrites-microcristalinas Conceito
+EBSERH 2025 Q44: fármacos com efeito uricosúrico incidental incluem {{c1::losartana e fenofibrato}}.	Efeito colateral benéfico, não a indicação principal desses fármacos.	Assunto::artrites-microcristalinas Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+ENARE 2026 Q75: no líquido sinovial da gota, birrefringência {{c1::negativa}} e formato em agulha.	Questão difícil de microscopia polarizada, diferenciando de pseudogota.	Assunto::artrites-microcristalinas Banca::ENARE Ano::2026 Dificuldade::DIFICIL
+🔤 Mnemônico GOTA-AGULHA-NEGATIVA: gota tem cristal em agulha e birrefringência {{c1::negativa}} forte.	Pseudogota é o oposto: romboide, positiva fraca.	Assunto::artrites-microcristalinas Mnemonico

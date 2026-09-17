@@ -1,0 +1,26 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Cirrose e complicações
+GASA ≥1,1 indica {{c1::hipertensão portal}} como causa da ascite.	GASA = albumina sérica menos albumina do líquido ascítico.	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2025 Dificuldade::FACIL
+GASA <1,1 {{c1::afasta}} hipertensão portal como causa da ascite.	Pensar em carcinomatose, TB peritoneal, síndrome nefrótica, pancreatite.	Assunto::cirrose-e-complicacoes Conceito
+No GASA ≥1,1, proteína do líquido <2,5 g/dL sugere {{c1::cirrose hepática}}.	<img src="cirrose-e-complicacoes-gasa-algoritmo.svg" style="max-width:100%">	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2025 Dificuldade::FACIL
+No GASA ≥1,1, proteína do líquido ≥2,5 g/dL sugere causa {{c1::cardíaca/congestiva}}.	Ex.: ICC, Budd-Chiari, pericardite constritiva.	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2025 Dificuldade::FACIL
+Causas cardíacas de ascite com GASA alto: {{c1::insuficiência cardíaca congestiva}}, síndrome de {{c2::Budd-Chiari}} (trombose de veias hepáticas) e {{c3::pericardite constritiva}} (pode simular ascite cirrótica isolada — atentar à turgência jugular).	—	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2025 Dificuldade::FACIL
+Causas de ascite com GASA baixo: {{c1::carcinomatose peritoneal}}, {{c2::tuberculose peritoneal}}, {{c3::síndrome nefrótica}} e {{c4::pancreatite}}.	Carcinomatose peritoneal foi a resposta em duas vinhetas (ENARE 2026 Q40 e Q79).	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Carcinomatose peritoneal é confirmada por {{c1::citologia oncótica}} do líquido ascítico.	Geralmente proteína alta apesar do GASA baixo.	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2026 Dificuldade::FACIL
+PBE: diagnóstico exige PMN {{c1::≥250/mm³}} no líquido ascítico.	Independe do resultado da cultura.	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2026 Dificuldade::FACIL
+Cultura negativa {{c1::não descarta}} o diagnóstico de PBE.	Chamada de peritonite bacteriana neutrocítica cultura-negativa.	Assunto::cirrose-e-complicacoes Conceito
+Antibiótico de escolha na PBE: {{c1::cefotaxima}} (cefalosporina de 3ª geração).	—	Assunto::cirrose-e-complicacoes Banca::ENARE Ano::2026 Dificuldade::FACIL
+Critérios para dar albumina na PBE: creatinina {{c1::>1 mg/dL}}, {{c2::ureia elevada}} ou bilirrubina {{c3::>4 mg/dL}}.	Reduz mortalidade e insuficiência renal nesses pacientes.	Assunto::cirrose-e-complicacoes Conceito
+Doses de albumina na PBE: dia 1 = {{c1::1,5 g/kg}}; dia 3 = {{c2::1 g/kg}}.	—	Assunto::cirrose-e-complicacoes Conceito
+Profilaxia secundária de norfloxacino é indicada para {{c1::todo paciente pós-PBE}}.	—	Assunto::cirrose-e-complicacoes Conceito
+Profilaxia primária de PBE com norfloxacino indicada em: proteína do líquido <1,5 g/dL associada a {{c1::disfunção renal ou hepática}}; ou {{c2::sangramento digestivo agudo}}.	—	Assunto::cirrose-e-complicacoes Conceito
+Tratamento de escolha da síndrome hepatorrenal: {{c1::terlipressina + albumina}}.	—	Assunto::cirrose-e-complicacoes Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Alternativa em UTI para síndrome hepatorrenal: {{c1::noradrenalina + albumina}}.	—	Assunto::cirrose-e-complicacoes Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Tratamento definitivo da síndrome hepatorrenal: {{c1::transplante hepático}}.	—	Assunto::cirrose-e-complicacoes Conceito
+Síndrome hepatorrenal tipo {{c1::1}} evolui em dias, com pior prognóstico que a tipo 2.	—	Assunto::cirrose-e-complicacoes Conceito
+Síndrome hepatorrenal é diagnóstico de {{c1::exclusão}}.	Sem resposta a expansão com albumina e sem causa estrutural; diferencia de necrose tubular aguda.	Assunto::cirrose-e-complicacoes Conceito
+Ascite cirrótica: diurético de primeira linha é a {{c1::espironolactona}}.	Pode-se associar furosemida.	Assunto::cirrose-e-complicacoes Conceito
+Ascite cirrótica refratária: opção terapêutica é o {{c1::TIPS}}.	Shunt portossistêmico intra-hepático transjugular.	Assunto::cirrose-e-complicacoes Conceito
+🔤 Mnemônico: GASA alto → hipertensão {{c1::portal}} ("alto GASA, alta pressão portal").	Recurso próprio, não é mnemônico oficial.	Assunto::cirrose-e-complicacoes Mnemonico

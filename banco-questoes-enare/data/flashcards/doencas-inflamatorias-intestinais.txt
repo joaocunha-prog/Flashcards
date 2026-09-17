@@ -1,0 +1,26 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Doenças inflamatórias intestinais
+A doença de Crohn acomete o tubo digestivo de forma {{c1::transmural}} (todas as camadas da parede).	Essa transmuralidade explica diretamente suas complicações características.	Assunto::doencas-inflamatorias-intestinais Conceito
+A doença de Crohn tem padrão {{c1::salteado}} (segmentos doentes intercalados com mucosa normal).	Pode acometer qualquer ponto do tubo digestivo, da boca ao ânus.	Assunto::doencas-inflamatorias-intestinais Conceito
+Complicações mais prevalentes da doença de Crohn: {{c1::estenose/suboclusão}} (fibrose cicatricial da inflamação transmural crônica); {{c2::fístulas/abscessos}} (penetração transmural ativa).	As duas podem coexistir na mesma doença — mecanismos diferentes, mesma transmuralidade de base.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Estenose e fístula podem {{c1::coexistir}} na mesma doença de Crohn.	Não são mutuamente excludentes — mecanismos fisiopatológicos distintos, mesma doença.	Assunto::doencas-inflamatorias-intestinais Conceito
+Fístulas perianais são praticamente marca registrada da {{c1::doença de Crohn}}.	Raras na colite ulcerativa, pelo caráter exclusivamente transmural do Crohn.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O padrão radiológico "em corda" ({{c1::string sign}}) reflete estenose luminal por edema/fibrose.	—	Assunto::doencas-inflamatorias-intestinais Conceito
+O string sign é tipicamente encontrado no {{c1::íleo terminal}}.	—	Assunto::doencas-inflamatorias-intestinais Conceito
+Estenose de Crohn com predomínio inflamatório (sem fibrose estabelecida) pode responder a {{c1::tratamento clínico}}.	Tratar toda estenose como indicação cirúrgica imediata é pitfall.	Assunto::doencas-inflamatorias-intestinais Conceito
+Em Crohn com dor abdominal e febre, investigar {{c1::abscesso}} antes de escalar imunossupressor.	Imunossupressão sobre abscesso não drenado piora sepse.	Assunto::doencas-inflamatorias-intestinais Conceito
+Abscesso em Crohn exige {{c1::drenagem}} (percutânea ou cirúrgica) antes do imunobiológico.	—	Assunto::doencas-inflamatorias-intestinais Conceito
+Anti-TNF (infliximabe/adalimumabe) é usado em Crohn {{c1::fistulizante}} refratária, após controle séptico.	—	Assunto::doencas-inflamatorias-intestinais Conceito
+A colite ulcerativa é limitada ao {{c1::cólon}}.	Diferente da doença de Crohn, que pode acometer todo o tubo digestivo.	Assunto::doencas-inflamatorias-intestinais Conceito
+A colite ulcerativa é {{c1::contínua}} a partir do reto.	Diferente do padrão salteado da doença de Crohn.	Assunto::doencas-inflamatorias-intestinais Conceito
+A colite ulcerativa é restrita à {{c1::mucosa e submucosa}}.	Sem a penetração transmural do Crohn.	Assunto::doencas-inflamatorias-intestinais Conceito
+Megacólon tóxico é mais associado à {{c1::colite ulcerativa}}.	Pode ocorrer também em colite de Crohn extensa, mas é menos típico.	Assunto::doencas-inflamatorias-intestinais Conceito
+Colite ulcerativa grave sem resposta a corticoide em 3-5 dias: investigar {{c1::reativação de CMV}}.	Escalar imunossupressão sem excluir CMV antes pode agravar a infecção viral.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Diagnóstico de colite por CMV exige biópsia com pesquisa de {{c1::inclusões virais/imuno-histoquímica}}.	Sorologia e PCR sérico isolados não confirmam doença de órgão-alvo.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Sorologia IgG positiva isolada {{c1::não confirma}} doença ativa por CMV.	Reflete apenas infecção latente na maioria dos adultos.	Assunto::doencas-inflamatorias-intestinais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Ganciclovir (ou valganciclovir) na colite por CMV só deve começar após {{c1::confirmação histológica}}.	Tratamento empírico sem biópsia positiva não é conduta padrão.	Assunto::doencas-inflamatorias-intestinais Conceito
+Imunossupressão em dose alta (corticoide, biológico) é fator de risco para {{c1::reativação de CMV}}.	Quanto mais refratário o surto, maior a suspeita.	Assunto::doencas-inflamatorias-intestinais Conceito
+O 5-ASA é mais eficaz na {{c1::colite ulcerativa}} do que na doença de Crohn.	Usado em doença leve; corticoide entra na indução de surto moderado-grave.	Assunto::doencas-inflamatorias-intestinais Conceito
+🔤 Mnemônico dos achados macro/histológicos do Crohn: {{c1::CHRISTMAS}}.	Cobblestone, High temperature, Reduced lumen, Intestinal fistulae, Skip lesions, Transmural, Malabsorption, Abscesses, Submucosal fibrosis. Mnemônico consagrado na literatura.	Assunto::doencas-inflamatorias-intestinais Mnemonico

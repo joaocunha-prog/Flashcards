@@ -1,0 +1,2832 @@
+{
+  "slug": "enare-2026",
+  "year": 2026,
+  "board": "ENARE",
+  "title": "ENARE 2026",
+  "source": "PROVA_OFICIAL",
+  "reference": "Caderno compilado MEDGRUPO (Concurso na Íntegra), com gabarito oficial e percentual de resposta por alternativa — ENARE 2026",
+  "questions": [
+    {
+      "number": 1,
+      "statement": "Em uma enfermaria de clínica médica, internou-se uma paciente com lesões líticas visualizadas na tomografia de coluna lombar. Ao exame físico, ela apresentava sonolência, fraqueza e desidratação. Um familiar relatou que o quadro se agravou há uma semana. Também havia constipação no último mês quando deixou de deambular devido às dores dorsais. Exames complementares demonstravam: anemia normocítica e normocrômica (Hb 8,5 d/dL), cálcio sérico em 14,2 mg/dL, globulina em 10 g/dL, albumina em 3,2 g/dL. Sobre o caso descrito e a conduta adequada, é correto afirmar que",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "o paratormônio (PTH) sérico aferido deve estar por volta de 80 pg/mL, sendo necessária a investigação das paratireoides."
+        },
+        {
+          "letter": "B",
+          "text": "as medidas de suporte imediato prescritas são clister glicerinado, hemotransfusão e corticoide venoso."
+        },
+        {
+          "letter": "C",
+          "text": "a hidratação venosa é a terapia imediata ideal por haver hipercalcemia moderada."
+        },
+        {
+          "letter": "D",
+          "text": "a prescrição de salina isotônica venosa, calcitonina subcutânea e bisfosfonatos intravenosos é necessária ao tratamento da hipercalcemia grave."
+        },
+        {
+          "letter": "E",
+          "text": "estamos diante de hipercalcemia da malignidade e a melhor conduta imediata será um aspirado de medula óssea em busca de pico monoclonal."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Hipercalcemia maligna",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipercalcemia",
+        "mieloma múltiplo",
+        "bisfosfonato",
+        "calcitonina"
+      ]
+    },
+    {
+      "number": 2,
+      "statement": "Um paciente de 57 anos saiu do consultório de seu clínico assistente com uma prescrição médica que continha, dentre outras medicações, a substância finerenona. Tal droga tem indicação de uso na seguinte situação clínica:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "amiloidose."
+        },
+        {
+          "letter": "B",
+          "text": "esofagite eosinofílica."
+        },
+        {
+          "letter": "C",
+          "text": "fibrose pulmonar idiopática."
+        },
+        {
+          "letter": "D",
+          "text": "hipertensão arterial maligna."
+        },
+        {
+          "letter": "E",
+          "text": "doença renal crônica por diabetes 2 com albuminúria."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Nefrologia",
+      "subtheme": "Doença renal crônica",
+      "topic": "Finerenona na DRC diabética",
+      "difficulty": "FACIL",
+      "keywords": [
+        "finerenona",
+        "DRC",
+        "diabetes",
+        "albuminúria"
+      ]
+    },
+    {
+      "number": 3,
+      "statement": "Na modalidade oral da Profilaxia Pré-Exposição ao HIV (PrEP), o esquema usado é de:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "2 comprimidos diários de dolutegravir."
+        },
+        {
+          "letter": "B",
+          "text": "1 comprimido diário de tenofovir/lamivudina."
+        },
+        {
+          "letter": "C",
+          "text": "1 comprimido diário de tenofovir/entricitabina."
+        },
+        {
+          "letter": "D",
+          "text": "2 comprimidos diários de zinovudina/lamivudina."
+        },
+        {
+          "letter": "E",
+          "text": "1 comprimido diário de dolutegravir e 1 comprimido diário de tenofovir/lamivudina."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Profilaxia pré-exposição (PrEP) oral",
+      "difficulty": "FACIL",
+      "keywords": [
+        "PrEP",
+        "HIV",
+        "tenofovir",
+        "entricitabina"
+      ],
+      "reference": "PCDT de PrEP — Ministério da Saúde"
+    },
+    {
+      "number": 5,
+      "statement": "Mulher de 27 anos, previamente saudável, procura atendimento ambulatorial por quadro de dor abdominal em cólica associada a episódios intermitentes de diarreia com muco, há cerca de três meses. Nega febre, perda de peso, sangramento ou sintomas noturnos. Refere piora dos sintomas em momentos de estresse e sensação de distensão abdominal recorrente. Foi previamente diagnosticada com síndrome do intestino irritável (SII), mas relata que o padrão atual está mais persistente e diferente do habitual. É estudante universitária e descreve rotina estressante, mas sem outras alterações clínicas relevantes. Exames laboratoriais gerais são normais, incluindo hemograma, proteína C reativa, função renal e função tireoidiana. Diante do quadro clínico, a abordagem diagnóstica e terapêutica inicial são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Solicitar exames sorológicos para doença celíaca e iniciar dieta sem glúten empírica."
+        },
+        {
+          "letter": "B",
+          "text": "Repetir exames laboratoriais em um mês e prescrever antiespasmódico, mantendo hipótese funcional."
+        },
+        {
+          "letter": "C",
+          "text": "Realizar colonoscopia com biópsias do cólon para descartar retocolite ulcerativa."
+        },
+        {
+          "letter": "D",
+          "text": "Solicitar exame parasitológico de fezes com pesquisa de cistos, ovos e larvas, e, se positivo, instituir tratamento específico."
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar ciprofloxacino empírico por sete dias e solicitar coprocultura para Salmonella e Shigella."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Parasitoses intestinais como diferencial de SII",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "diarreia crônica",
+        "parasitose intestinal",
+        "EPF",
+        "síndrome do intestino irritável"
+      ]
+    },
+    {
+      "number": 6,
+      "statement": "Homem de 45 anos, previamente hígido, realiza colonoscopia de rastreamento para câncer colorretal, sem história familiar da doença. O exame endoscópico revelou dois pólipos ressecados: um pólipo hiperplásico de 4 mm, localizado no reto; e um pólipo de 6 mm no cólon sigmoide, cuja análise histopatológica evidenciou hiperplasia polipoide composta por glândulas tubulares e retas, sem atipias citológicas, associada a discreto infiltrado linfoplasmocitário e leve edema do córion. Não houve sangramento, dor ou complicações durante o procedimento. Considerando as diretrizes atuais de rastreamento para câncer colorretal, a conduta mais apropriada é realizar colonoscopia",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "em 1 ano, dado o risco de lesão sincrônica não detectada."
+        },
+        {
+          "letter": "B",
+          "text": "de rastreamento em 3 anos, devido à presença de dois pólipos."
+        },
+        {
+          "letter": "C",
+          "text": "de rastreamento em 5 a 10 anos, conforme risco individual."
+        },
+        {
+          "letter": "D",
+          "text": "anual por 3 anos consecutivos, para excluir lesões planas."
+        },
+        {
+          "letter": "E",
+          "text": "a cada 2 anos ou em qualquer momento quando a pesquisa de sangue oculto nas fezes for positiva."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Oncologia",
+      "subtheme": "Rastreamento oncológico",
+      "topic": "Rastreamento de câncer colorretal — pólipo de baixo risco",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "colonoscopia",
+        "pólipo hiperplásico",
+        "rastreamento",
+        "câncer colorretal"
+      ]
+    },
+    {
+      "number": 7,
+      "statement": "Homem de 45 anos é acompanhado ambulatorialmente por nódulo tireoidiano. Não há linfadenomegalias cervicais e o nódulo mede 2,2 cm. TSH está dentro da normalidade e não há sintomas compressivos. Após biópsia por punção aspirativa com agulha fina (PAAF) de nódulo sólido, hipoecoico, com margens irregulares, detectado ao ultrassom no lobo esquerdo da tireoide, o laudo citológico classifica o material como Bethesda III - atipia de significado indeterminado/lesão folicular de significado indeterminado (AUS/FLUS). Diante dessa situação, a conduta mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "repetir PAAF em 4 a 6 semanas e considerar estudo molecular, conforme recursos disponíveis."
+        },
+        {
+          "letter": "B",
+          "text": "solicitar cintilografia tireoidiana com iodo-123 para avaliação funcional do nódulo."
+        },
+        {
+          "letter": "C",
+          "text": "indicar tireoidectomia total com esvaziamento cervical central preventivo."
+        },
+        {
+          "letter": "D",
+          "text": "iniciar terapia supressiva com levotiroxina por 3 a 6 meses, antes de nova avaliação."
+        },
+        {
+          "letter": "E",
+          "text": "encerrar acompanhamento, pois a categoria Bethesda III tem risco muito baixo de malignidade."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da tireoide",
+      "topic": "Nódulo tireoidiano — Bethesda III (AUS/FLUS)",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "nódulo tireoidiano",
+        "PAAF",
+        "Bethesda III",
+        "AUS/FLUS"
+      ]
+    },
+    {
+      "number": 8,
+      "statement": "Mulher de 48 anos, sem comorbidades, é avaliada em consulta ambulatorial após detecção incidental de um nódulo em lobo direito da tireoide, durante exame físico de rotina. Refere boa saúde geral, sem sintomas compressivos ou disfônicos. Ao exame, palpa-se nódulo firme, móvel à deglutição, de 2 cm indolor, sem linfadenomegalias cervicais. Não há antecedentes familiares de câncer de tireoide ou exposição à radiação cervical. TSH sérico está dentro da faixa de normalidade. Ultrassonografia da tireoide mostra nódulo sólido, hipoecoico, com margens levemente irregulares, microcalcificações finas e ausência de halo periférico, compatível com classificação TI-RADS 4. Considerando o caso descrito, a próxima etapa na condução é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "solicitar cintilografia da tireoide com tecnécio-99m para avaliação funcional do nódulo."
+        },
+        {
+          "letter": "B",
+          "text": "repetir ultrassonografia da tireoide e, se o nódulo aumentar 20% em seu maior diâmetro, realizar punção aspirativa por agulha fina (PAAF) guiada por ultrassonografia para análise citológica."
+        },
+        {
+          "letter": "C",
+          "text": "repetir ultrassonografia da tireoide em 6 meses, e solicitar T4 Livre para completar avaliação hormonal."
+        },
+        {
+          "letter": "D",
+          "text": "solicitar punção aspirativa por agulha fina (PAAF) guiada por ultrassonografia para análise citológica."
+        },
+        {
+          "letter": "E",
+          "text": "solicitar biópsia excisional cirúrgica, dado o risco aumentado de malignidade ultrassonográfica."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da tireoide",
+      "topic": "Nódulo tireoidiano — TI-RADS e indicação de PAAF",
+      "difficulty": "FACIL",
+      "keywords": [
+        "TI-RADS",
+        "PAAF",
+        "nódulo tireoidiano"
+      ],
+      "reference": "Diretriz ACR TI-RADS"
+    },
+    {
+      "number": 9,
+      "statement": "Uma mulher de 43 anos com diagnóstico de miastenia gravis há três anos, foi internada para investigação de dispneia. A doença havia sido caracterizada como generalizada, com altos títulos de anticorpos contra o receptor de acetilcolina (AChR). Após tratamento adequado e melhora clínica, uma massa mediastinal foi identificada na tomografia computadorizada, com suspeita de timoma. A paciente evoluía bem, em uso de piridostigmina e corticosteroide oral. Considerando a situação clínica apresentada, a conduta mais apropriada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "realizar timectomia, uma vez que há doença generalizada com anticorpo anti-AChR positivo e suspeita de timoma."
+        },
+        {
+          "letter": "B",
+          "text": "acompanhar com exames de imagem seriados para avaliar possível crescimento da massa mediastinal."
+        },
+        {
+          "letter": "C",
+          "text": "realizar biópsia por videotoracoscopia antes de planejar a ressecção cirúrgica da lesão mediastinal."
+        },
+        {
+          "letter": "D",
+          "text": "adiar a ressecção do timo até que a paciente esteja em completa remissão clínica e sem uso de corticosteroide."
+        },
+        {
+          "letter": "E",
+          "text": "suspender todos os medicamentos para miastenia 48 horas antes da cirurgia, para evitar interações com anestésicos."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Doenças neuromusculares",
+      "topic": "Miastenia gravis com timoma — timectomia",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "miastenia gravis",
+        "timoma",
+        "timectomia",
+        "anti-AChR"
+      ],
+      "reference": "Ensaio MGTX (NEJM 2016)"
+    },
+    {
+      "number": 10,
+      "statement": "Paciente de 58 anos, portador de adenocarcinoma gástrico em tratamento quimioterápico há 3 meses, foi internado por quadro de confusão mental, alteração da marcha e diplopia. O exame físico revela ataxia cerebelar, nistagmo horizontal bilateral e paralisia do sexto par de nervo craniano à direita. A família relatou inapetência importante e perda ponderal de 15 kg nos últimos 2 meses, além de episódios de vômitos frequentes relacionados à quimioterapia. Considerando o quadro descrito, a conduta terapêutica mais apropriada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Administração de haloperidol 5 mg via oral, duas vezes ao dia."
+        },
+        {
+          "letter": "B",
+          "text": "Infusão de tiamina 500 mg endovenosa, seguida de 100 mg três vezes ao dia, de 5 a 7 dias."
+        },
+        {
+          "letter": "C",
+          "text": "Prescrição de complexo B via oral, 1 comprimido ao dia, por 30 dias."
+        },
+        {
+          "letter": "D",
+          "text": "Realização de punção lombar para exclusão de carcinomatose meníngea."
+        },
+        {
+          "letter": "E",
+          "text": "Início de corticoterapia com dexametasona 4 mg endovenosa a cada 6 horas."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Encefalopatia de Wernicke",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "encefalopatia de Wernicke",
+        "tiamina",
+        "ataxia",
+        "nistagmo"
+      ]
+    },
+    {
+      "number": 11,
+      "statement": "Uma mulher de 58 anos com diagnóstico de carcinoma ductal invasivo de mama há dois anos e em tratamento adjuvante, procurou o pronto-socorro relatando dor lombar intensa há cinco dias, com piora progressiva e irradiação para ambos os membros inferiores. Nas últimas 48 horas, desenvolveu fraqueza bilateral em membros inferiores, dificuldade para deambular e retenção urinária. Ao exame físico, apresentou força grau 3 nos membros inferiores, reflexos profundos exaltados, sinal de Babinski bilateral e nível sensitivo na altura de T10. A paciente negava febre, mas referia constipação intestinal recente.Considerando o caso descrito, o diagnóstico mais provável e a conduta mais apropriada são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "síndrome da cauda equina por hérnia discal lombar e cirurgia descompressiva de urgência."
+        },
+        {
+          "letter": "B",
+          "text": "mielite transversa idiopática e pulsoterapia com metilprednisolona endovenosa."
+        },
+        {
+          "letter": "C",
+          "text": "síndrome de compressão medular metastática e administração de dexametasona seguida de radioterapia."
+        },
+        {
+          "letter": "D",
+          "text": "síndrome de cone medular por abscesso epidural e antibioticoterapia endovenosa."
+        },
+        {
+          "letter": "E",
+          "text": "síndrome de compressão medular metastática e laminectomia descompressiva imediata sem corticosteroides."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Compressão medular metastática",
+      "difficulty": "FACIL",
+      "keywords": [
+        "compressão medular",
+        "metástase",
+        "dexametasona",
+        "radioterapia"
+      ]
+    },
+    {
+      "number": 12,
+      "statement": "Um homem de 72 anos, tabagista, foi internado com quadro de dispneia progressiva há três semanas. Durante a investigação, foi Identificada uma massa pulmonar de 4 cm no lobo superior direito, com linfonodomegalia hilar ipsilateral à tomografia de tórax. No terceiro dia de internação, apresentou confusão mental progressiva e sonolência. Exames laboratoriais revelaram: sódio sérico de 118 mEq/L, osmolalidade plasmática de 245 mOsm/kg, osmolalidade urinária de 420 mOsm/kg, sódio urinário de 85 mEq/L, ureia de 28 mg/dL, creatinina de 0,9 mg/dL, ácido úrico sérico de 2,8 mg/dL, ácido úrico urinário de 680 mg/24h e fração excretória de ácido úrico de 18%. Ao exame físico, encontrava-se euvolêmico, sem edemas periféricos, pressão arterial de 130 x 80 mmHg, sem sinais de desidratação ou sobrecarga hídrica. Função tireoidiana e cortisol sérico matinal estavam dentro dos limites da normalidade. Considerando os dados apresentados, o diagnóstico presuntivo e a conduta terapêutica imediata mais apropriada são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "nefropatia perdedora de sal e administração de solução salina hipertônica 3% endovenosa."
+        },
+        {
+          "letter": "B",
+          "text": "síndrome da secreção inapropriada de ADH e restrição hídrica rigorosa a 800 mL/dia."
+        },
+        {
+          "letter": "C",
+          "text": "síndrome da secreção inapropriada do hormônio antidiurético e infusão de 100 ml de solução salina hipertônica a 3%, em 20 minutos."
+        },
+        {
+          "letter": "D",
+          "text": "hiponatremia por reset do osmostato e correção gradual com solução salina isotônica."
+        },
+        {
+          "letter": "E",
+          "text": "síndrome cerebral perdedora de sal e tolvaptan 15 mg via oral, em dose única."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Nefrologia",
+      "subtheme": "Distúrbios hidroeletrolíticos",
+      "topic": "SIADH — hiponatremia grave sintomática",
+      "difficulty": "FACIL",
+      "keywords": [
+        "SIADH",
+        "hiponatremia",
+        "salina hipertônica 3%"
+      ]
+    },
+    {
+      "number": 13,
+      "statement": "Uma mulher de 45 anos, portadora de Diabetes Mellitus tipo 2 há 12 anos, e infecção pelo HIV em uso regular de terapia antirretroviral, há 8 anos, com carga viral indetectável, foi internada para investigação de edema generalizado progressivo há 2 meses. Ao exame físico, apresentava edema com cacifo 3+/4+ em membros inferiores, edema facial matinal e ascite moderada. Os exames laboratoriais revelaram: proteinúria de 24 horas de 8,2 g, albumina sérica de 2,1 g/dL, colesterol total de 320 mg/dL, LDL de 245 mg/dL, creatinina de 1,4 mg/dL e ureia de 45 mg/dL. O exame de urina tipo 1 demonstrou proteinúria 4+ e hematúria glomerular com hemácias dismórficas e presença de cilindros hemáticos. A fundoscopia revelou retinopatia diabética não proliferativa moderada. Sorologias para hepatite B e C negativas. Considerando o quadro clínico apresentado, a investigação etiológica mais apropriada inclui",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dosagem de FAN, anti-DNA e complemento, considerando a elevada probabilidade de nefrite lúpica."
+        },
+        {
+          "letter": "B",
+          "text": "dosagem de anticorpo anti-receptor de fosfolipase A2, complemento, FAN e indicação de biópsia renal."
+        },
+        {
+          "letter": "C",
+          "text": "biópsia renal contraindicada devido ao diabetes de longa duração e presença de retinopatia diabética."
+        },
+        {
+          "letter": "D",
+          "text": "dosagem de crioglobulinas, fator reumatoide e início empírico de corticoterapia para glomeruloesclerose colapsante."
+        },
+        {
+          "letter": "E",
+          "text": "investigação através de hemoglobina glicada e microalbuminúria, pois o quadro é compatível com nefropatia diabética."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Nefrologia",
+      "subtheme": "Glomerulopatias",
+      "topic": "Síndrome nefrótica em PVHIV/diabético — investigação etiológica",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome nefrótica",
+        "anti-PLA2R",
+        "biópsia renal",
+        "HIV",
+        "diabetes"
+      ]
+    },
+    {
+      "number": 14,
+      "statement": "João, 48 anos, procurou atendimento ambulatorial para avaliação de rotina. Apresentava índice de massa corporal de 32 kg/m² circunferência abdominal de 108 cm, hipertensão arterial sistêmica em uso de losartana 50 mg/dia, Diabetes Mellitus tipo 2 diagnosticado há 3 anos, em uso de metformina 500 mg, duas vezes ao dia, e dislipidemia mista. Negava etilismo significativo, mas referia consumo eventual de até duas latas de cerveja nos finais de semana. Exames laboratoriais recentes mostraram: glicemia de jejum de 145 mg/dL, hemoglobina glicada de 7,8%, colesterol total de 245 mg/dL, LDL de 165 mg/dL,HDL de 35 mg/dL e triglicérides de 280 mg/dL. As aminotransferases estavam elevadas: ALT de 68 U/L (VR: 10-40) e AST de 52 U/L (VR: 10-40), com razão AST/ALT de 0,76. Bilirrubinas, fosfatase alcalina e gama- GT estavam normais. O hemograma completo era normal. Ao exame fisico, apresentava esteatose hepática detectada por ultrassonografia abdominal, sem outras alterações significativas. Considerando a doença hepática gordurosa de origem metabólica e os achados descritos, a estratégia de rastreamento mais adequada para avaliação de fibrose hepática é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aplicação inicial do escore FIB-4 e, se o resultado for intermediário (1,30-2,67), realizar elastografia hepática; se a elastografia for ≥ 10 kPa, considerar biópsia hepática."
+        },
+        {
+          "letter": "B",
+          "text": "realização de biópsia hepática percutânea, considerando a presença de múltiplos fatores de risco metabólicos e elevação das aminotransferases"
+        },
+        {
+          "letter": "C",
+          "text": "realização de elastografia hepática como método inicial de triagem, complementada por ressonância magnética com elastografia se os valores estiverem entre 8-12 kPa."
+        },
+        {
+          "letter": "D",
+          "text": "aplicação do escore NAFLD Fibrosis Score (NFS) como método único de avaliação, dispensando métodos complementares, se o resultado for <-1,455."
+        },
+        {
+          "letter": "E",
+          "text": "realização de ultrassom convencional seriado a cada 6 meses para monitorização da progressão da esteatose, sem necessidade de avaliação específica para fibrose."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Doença hepática esteatótica metabólica — rastreio de fibrose",
+      "difficulty": "FACIL",
+      "keywords": [
+        "FIB-4",
+        "elastografia hepática",
+        "MASLD",
+        "esteatose hepática"
+      ]
+    },
+    {
+      "number": 15,
+      "statement": "Maria, 28 anos, professora, procurou atendimento médico queixando-se de fadiga progressiva há quatro meses, associada à palidez cutâneo-mucosa, dispneia aos esforços e palpitações. Referia menorragia desde a menarca, com ciclos menstruais regulares de 28 dias, porém com fluxo intenso durando oito dias. Negava melena, hematoquezia ou outras perdas sanguineas. Relatava alimentação variada, sem restrições dietéticas. Ao exame físico, apresentava palidez cutâneo-mucosa 2+/4+, frequência cardíaca de 102 bpm, pressão arterial de 110 x 70 mmHg e sopro sistólico 2+/6+ no foco mitral, O restante do exame físico não apresentava alterações. Foram solicitados exames complementares para investigação diagnóstica. Os parâmetros laboratoriais que caracterizam adequadamente o diagnóstico de anemia ferropriva, nessa paciente, compreendem",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "hemoglobina 8,5 g/dL, VCM 68 fL, HCM 22 pg. CHCM 28 g/dL, ferritina 8 ng/ml, ferro sérico 45 µg/dL, TIBC 420 µg/d, índice de saturação de transferrina 11%, taxa de reticulócitos corrigido 0,8%."
+        },
+        {
+          "letter": "B",
+          "text": "hemoglobina 9,2 g/dL, VCM 105 fL, HCM 35 pg, CHCM 33 g/dl, ferritina 180 ng/mL, ferro sérico 65 µg/dL, TIBC 280 µg/dL, índice de saturação de transferrina 23%, taxa de reticulocitos corrigido 8,5%."
+        },
+        {
+          "letter": "C",
+          "text": "hemoglobina 7,8 g/dL, VCM 88 fL, HCM 29 pg, CHCM 34 g/dL, ferritina 30 ng/mL, ferro sérico 40 µg/dL, TIBC 180 µg/dL, índice de saturação de transferrina 22%, taxa de reticulócitos corrigido 0,5%"
+        },
+        {
+          "letter": "D",
+          "text": "hemoglobina 8,1 g/dL, VCM 72 fL, HCM 24 pg, CHCM 32 g/dL, ferritina 220 ng/mL, ferro sérico 40 µg/dL, TIBC 350 µg/dL, índice de saturação de transferrina 11%, taxa de reticulocitos corrigido 1,2%."
+        },
+        {
+          "letter": "E",
+          "text": "hemoglobina 9,0 g/dL, VCM 70 fL, HCM 23 pg, CHCM 29 g/dL, ferritina 25 ng/mL, ferro sérico 55 µg/dL, TIBC 320 µg/dL, índice de saturação de transferrina 17%, taxa de reticulócitos corrigido 12%."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Hematologia",
+      "subtheme": "Anemias",
+      "topic": "Anemia ferropriva — perfil laboratorial",
+      "difficulty": "FACIL",
+      "keywords": [
+        "anemia ferropriva",
+        "ferritina",
+        "TIBC",
+        "saturação de transferrina"
+      ]
+    },
+    {
+      "number": 16,
+      "statement": "Severino, 56 anos, etilista por 30 anos (consumo de 80g álcool/dia), é trazido ao pronto-socorro por familiares devido à dor abdominal difusa, febre (38,7 °C) e piora do estado geral há 3 dias. Refere parada do etilismo há 6 meses. Antecedente de duas internações prévias por descompensação de hepatopatia crônica. Ao exame físico: regular estado geral, ictérico (2+/4+), eupneico, FC 108 bpm, PA 100 x 60 mmHg, Tax 38,5 ℃. Abdome distendido, doloroso difusamente, macicez móvel presente, sem sinais de irritação peritoneal. Presença de aranhas vasculares, eritema palmar e ginecomastia. Exames laboratoriais: Hb 9,2 g/dL, leucócitos 12.400/mm³ (bastões 8%, segmentados 78%), plaquetas 89.000/mm³, ureia 78 mg/dL, creatinina 1,4 mg/dL, Na+ 128 mEq/L, bilirrubina total 4,2 mg/dL (direta 3,0 mg/dL), ALT 45 U/L, AST 89 U/L, fosfatase alcalina 180 U/L, albumina sérica 2,1 g/dL, INR 2,1, tempo de protrombina 24 segundos (controle 12s). Paracentese diagnóstica: líquido amarelo-citrino turvo, proteínas 1,8 g/dL, albumina do líquido ascítico 0,9 g/dL, leucócitos 950/mm³ (neutrófilos 85%, linfócitos 15%), cultura em andamento. O diagnóstico mais provável e o tratamento inicial adequado para esse paciente compreendem",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Peritonite bacteriana espontânea; suspensão de diuréticos, cefotaxima 2g EV 8/8h e albumina 1,5g/kg no 1º dia e 1g/kg no 3º dia."
+        },
+        {
+          "letter": "B",
+          "text": "Peritonite bacteriana secundária; suspensão de diuréticos, ciprofloxacino 400mg EV 12/12h e drenagem cirúrgica de foco infeccioso."
+        },
+        {
+          "letter": "C",
+          "text": "Síndrome hepatorrenal tipo 1; expansão volêmica com albumina 1 g/kg/dia, terlipressina 1-2 mg EV 6/6h e hemodiálise de urgência."
+        },
+        {
+          "letter": "D",
+          "text": "Peritonite bacteriana espontânea; manutenção de diuréticos em dose reduzida, cefepime 2g EV 12/12h e albumina 1 g/kg em dose única."
+        },
+        {
+          "letter": "E",
+          "text": "Ascite neutrofílica; norfloxacino 400mg VO 12/12h, albumina 1,5 g/kg no 1º dia e paracentese evacuadora seriada."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Peritonite bacteriana espontânea",
+      "difficulty": "FACIL",
+      "keywords": [
+        "PBE",
+        "cefotaxima",
+        "albumina",
+        "paracentese"
+      ],
+      "reference": "Consenso de Baveno VII / Diretriz EASL de cirrose descompensada"
+    },
+    {
+      "number": 17,
+      "statement": "Paciente masculino, 58 anos, submetido à ressecção intestinal extensa por neoplasia de cólon há 5 dias, evoluiu com distensão abdominal progressiva, náuseas, vômitos e ausência de eliminação de gases e fezes. Ao exame físico, encontrava-se desidratado (2+/4+), emagrecido, mucosas hipocoradas, abdome distendido com ruídos hidroaéreos diminuídos, timpanismo difuso. Dados antropométricos: IMC atual 18,2 kg/m² (IMC haitual 24,8 kg/m²), perda ponderal de 12% nos últimos 3 meses. Exames: Hb 9,2 g/dL, albumina 2,1 g/dL, linfócitos 800mm³, transferrina 120 mg/dL. Radiografia simples de abdome evidenciou múltiplas alças intestinais distendidas com níveis hidroaéreos. O escore de risco nutricional (NRS-2002) calculado foi de 6 pontos. Considerando o quadro apresentado, a conduta nutricional mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar dieta enteral precoce, por sonda nasoentérica, com fórmula polimérica padrão."
+        },
+        {
+          "letter": "B",
+          "text": "aguardar a resolução do íleo paralítico e iniciar dieta oral com suplementação proteica."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar nutrição parenteral total com solução glicoproteica e lipídica."
+        },
+        {
+          "letter": "D",
+          "text": "implementar dieta enteral por gastrostomia com fórmula oligomérica."
+        },
+        {
+          "letter": "E",
+          "text": "prescrever apenas hidratação venosa e aguardar melhora clínica espontânea."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Nutrição",
+      "topic": "Terapia nutricional em íleo pós-operatório com desnutrição grave",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "nutrição parenteral",
+        "NRS-2002",
+        "desnutrição",
+        "íleo pós-operatório"
+      ]
+    },
+    {
+      "number": 18,
+      "statement": "Paciente feminina, 62 anos procura atendimento por fadiga progressiva há 6 meses, associada a episódios de confusão mental, irritabilidade e dificuldade de concentração. Refere ainda parestesias em membros inferiores com sensação de \"queimação\" nos pés e instabilidade à marcha. Nega etilismo, tabagismo ou uso de medicamentos. Ao exame físico: palidez cutâneo-mucosa (2+/4+), glossite atrófica, diminuição da sensibilidade vibratória e posicional em membros inferiores, sinal de Romberg positivo. Exames laboratoriais: Hb 8,2 g/dL, (VCM 110 fL), leucócitos 3.200/mm³, plaquetas 98.000/mm³, LDH 890 U/L (VR: 120-480), bilirrubina indireta 2,8 mg/dL, ácido fólico normal. Esfregaço de sangue periférico revela neutrófilos hipersegmentados e macro-ovalócitos. Para estabelecer o diagnóstico etiológico mais provável, a combinação de exames mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dosagem de ferro sérico, ferritina, endoscopia digestiva alta com biópsia duodenal."
+        },
+        {
+          "letter": "B",
+          "text": "pesquisa de ovos e parasitas nas fezes, dosagem de anticorpos antiendomísio e colonoscopia."
+        },
+        {
+          "letter": "C",
+          "text": "teste de Schilling, dosagem de gastrina sérica e tomografia de abdome."
+        },
+        {
+          "letter": "D",
+          "text": "dosagem de anticorpos antiendomisio, endoscopia digestiva alta e biópsia duodenal."
+        },
+        {
+          "letter": "E",
+          "text": "dosagem de vitamina B12 sérica, anticorpos anti-fator intrínseco, anti-células parietais e endoscopia digestiva alta."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Hematologia",
+      "subtheme": "Anemias",
+      "topic": "Deficiência de vitamina B12 — degeneração combinada subaguda",
+      "difficulty": "FACIL",
+      "keywords": [
+        "deficiência de B12",
+        "anemia megaloblástica",
+        "glossite",
+        "degeneração combinada subaguda"
+      ]
+    },
+    {
+      "number": 19,
+      "statement": "Mulher de 36 anos submetida há 18 meses à cirurgia bariátrica tipo bypass gástrico em Y de Roux, comparece para acompanhamento ambulatorial. Relata perda de 42 kg desde o procedimento e mantém dieta com restrição calórica moderada. Nega sintomas neurológicos ou gastrointestinais atuais. Refere uso diário de polivitamínico completo e vitamina B12 sublingual. Questiona se é necessário realizar exames de rotina, já que se sente bem, e quer também saber quais nutrientes ainda exigem suplementação contínua. Com base nas diretrizes atuais para o seguimento clíico de pacientes após cirutgia bariátrica, a abordagem mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "dispensar exames laboratoriais periódicos após 12 meses de cirurgia, devido à ausência de sintomas e à boa adesão aos polivitamínicos."
+        },
+        {
+          "letter": "B",
+          "text": "manter suplementação de ferro, cálcio com vitamina D, vitamina B12 sublingual e multivitaminico, com exames laboratoriais semestrais no segundo ano."
+        },
+        {
+          "letter": "C",
+          "text": "suplementar zinco e tiamina apenas se houver sintomas clínicos sugestivos de deficiência."
+        },
+        {
+          "letter": "D",
+          "text": "monitorar com hemograma e ferritina, já que outras deficiências são raras após 1 ano de cirurgia."
+        },
+        {
+          "letter": "E",
+          "text": "prescrever cianocobalamina injetável por ser preferida a qualquer forma oral ou sublingual, independentemente da adesão."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Nutrição",
+      "topic": "Seguimento nutricional pós-bypass gástrico em Y de Roux",
+      "difficulty": "FACIL",
+      "keywords": [
+        "cirurgia bariátrica",
+        "bypass em Y de Roux",
+        "suplementação",
+        "ferro",
+        "B12"
+      ]
+    },
+    {
+      "number": 20,
+      "statement": "Homem de 45 anos com diagnóstico de asma desde a infância comparece ao ambulatório de Pneumologia por crises frequentes de dispneia, tosse seca noturna e sibilância nos últimos dois meses. Relata uso regular de budesonida/formoterol 12/400 mcg na forma de pó inalatório, duas vezes ao dia, e salbutamol inalatório conforme demanda, até três vezes por semana. Refere três episódios de exacerbação nos últimos seis meses, um deles necessitando corticosteroide oral. Ao exame físico, apresenta-se em bom estado geral, sem sibilos no momento. Espirometria mostra VEF₁, de 68% do previsto, com relação VEF₁,/CVF reduzida. Prova broncodilatadora positiva. Diante do quadro, a abordagem mais adequada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aumentar a dose do beta-agonista de curta ação de forma regular para controle de sintomas noturnos e reavaliar em um mês."
+        },
+        {
+          "letter": "B",
+          "text": "trocar a associação inalável por monoterapia com corticosteroide inalatório em alta dose."
+        },
+        {
+          "letter": "C",
+          "text": "orientar o uso das medicações e proteção contra alérgenos, solicitar dosagem sérica de IgE total e considerar fenótipo alérgico para terapias biológicas."
+        },
+        {
+          "letter": "D",
+          "text": "introduzir montelucaste como substituto do corticosteroide inalatório."
+        },
+        {
+          "letter": "E",
+          "text": "prescrever beta-agonista de liberação prolongada com antimuscarínico de longa ação para broncodilatação contínua."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Pneumologia",
+      "subtheme": "Asma",
+      "topic": "Asma não controlada — fenótipo alérgico e terapia biológica",
+      "difficulty": "FACIL",
+      "keywords": [
+        "asma",
+        "IgE",
+        "fenótipo alérgico",
+        "terapia biológica"
+      ],
+      "reference": "GINA — Estratégia Global para Asma"
+    },
+    {
+      "number": 21,
+      "statement": "Mulher de 33 anos, previamente hígida, procura atendimento ambulatorial com queixa de distensão abdominal recorrente, flatulência e fezes amolecidas há mais de um ano. Relata episódios frequentes de fadiga, além de história conhecida de anemia microcítica desde a adolescência, com múltiplas tentativas de reposição oral de ferro sem resposta hematológica satisfatória. Atualmente faz uso regular de polivitamínicos e cianocobalamina sublingual, sem melhora significativa do quadro. Exames recentes evidenciaram hemoglobina de 9,8 g/dL, ferritina de 7 ng/mL, vitamina D de 14 ng/mL e zinco sérico reduzido. Nega perda ponderal, cirurgias prévias, perdas sanguíneas visíveis ou uso de anti- inflamatórios. Com base no quadro clínico descrito, a conduta diagnóstica mais adequada frente à principal hipótese clínica é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar dieta isenta de glúten e observar resposta clínica antes da realização de exames laboratoriais."
+        },
+        {
+          "letter": "B",
+          "text": "solicitar anticorpos antitransglutaminase tecidual IgG e antigliadina IgG como rastreio inicial."
+        },
+        {
+          "letter": "C",
+          "text": "encaminhar para endoscopia digestiva alta com biópsia duodenal visto que alterações sorológicas são frequentemente inespecíficas."
+        },
+        {
+          "letter": "D",
+          "text": "solicitar anticorpos antitransglutaminase tecidual IgA e antiendomísio IgA como exames iniciais."
+        },
+        {
+          "letter": "E",
+          "text": "realizar teste de absorção de xilose para confirmação de síndrome de má absorção intestinal."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Doença celíaca — sorologia inicial",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença celíaca",
+        "antitransglutaminase IgA",
+        "antiendomísio IgA"
+      ]
+    },
+    {
+      "number": 22,
+      "statement": "Um paciente de 30 anos apresenta pitting, também conhecido como dedo em dedal. Tal condição se caracteriza por depressões puntiformes em leitos ungueais com tamanho e profundidades variáveis. Um sinal que está ligado à doença é a(o)",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "psoríase."
+        },
+        {
+          "letter": "B",
+          "text": "sarcoidose."
+        },
+        {
+          "letter": "C",
+          "text": "sarcoma de Kaposi."
+        },
+        {
+          "letter": "D",
+          "text": "neoplasia linfoproliferativa."
+        },
+        {
+          "letter": "E",
+          "text": "fibrose pulmonar idiopática."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Reumatologia",
+      "subtheme": "Manifestações cutâneas",
+      "topic": "Pitting ungueal e psoríase",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pitting ungueal",
+        "psoríase",
+        "unha"
+      ]
+    },
+    {
+      "number": 23,
+      "statement": "O FRAX, ferramenta criada pela Organização Mundial da Saúde, foi instituída para a seguinte condição patológica:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "demência."
+        },
+        {
+          "letter": "B",
+          "text": "depressão."
+        },
+        {
+          "letter": "C",
+          "text": "osteoporose."
+        },
+        {
+          "letter": "D",
+          "text": "esteatose hepática."
+        },
+        {
+          "letter": "E",
+          "text": "linfoma não Hodgkin."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Reumatologia",
+      "subtheme": "Metabolismo ósseo e cálcio",
+      "topic": "FRAX e rastreamento de osteoporose",
+      "difficulty": "FACIL",
+      "keywords": [
+        "FRAX",
+        "osteoporose",
+        "risco de fratura"
+      ]
+    },
+    {
+      "number": 24,
+      "statement": "Um homem de 41 anos deu entrada, no serviço de Emergência, em estado clínico grave, com sinais de hipertensão intracraniana, pupilas pouco reativas, confusão mental e vômitos. Entre as medidas de suporte de emergência, na terapia farmacológica, foi usada a droga fomepizol. A condição clínica que o paciente apresentava foi causada por intoxicação por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "MDMA."
+        },
+        {
+          "letter": "B",
+          "text": "metanol."
+        },
+        {
+          "letter": "C",
+          "text": "amitriptilina."
+        },
+        {
+          "letter": "D",
+          "text": "butirofenona."
+        },
+        {
+          "letter": "E",
+          "text": "benzodiazepínico."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Intoxicações exógenas",
+      "topic": "Intoxicação por metanol",
+      "difficulty": "FACIL",
+      "keywords": [
+        "metanol",
+        "fomepizol",
+        "hipertensão intracraniana",
+        "intoxicação"
+      ]
+    },
+    {
+      "number": 25,
+      "statement": "Paciente feminina, 28 anos, apresenta, há três meses, fadiga progressiva, febre baixa vespertina e perda ponderal de 8 kg. Refere ainda diplopia, associada a lesões cutâneas violáceas em membros inferiores. Ao exame físico, microlinfadenopatia cervical bilateral indolor, lesões papulosas eritematosas em dorso das mãos e antebraços, proptose ocular esquerda com limitação da motilidade ocular extrínseca. Exames complementares: tomografia de tórax evidenciou linfonodomegalia mediastinal bilateral simétrica (maiores linfonodos com 3,2 cm), infiltrado pulmonar micronodular bilateral de distribuição perilinfática, espessamento septal irregular. Hemograma: leucócitos 12.800/mm³ com linfocitose relativa, VHS 68 mm/h. LDH elevada. Dosagem de enzima conversora de angiotensina (ECA) sérica: 180 U/L (VR: 8-65). Considerando os três principais diagnósticos diferenciais (sarcoidose, linfoma e doença relacionada à IgG4), o método diagnóstico invasivo mais adequado para elucidação do caso é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mediastinoscopia cervical com biópsia de linfonodo paratraqueal direito."
+        },
+        {
+          "letter": "B",
+          "text": "biópsia de linfonodo cervical superficial com análise histopatológica e imunoistoquímica."
+        },
+        {
+          "letter": "C",
+          "text": "toracotomia exploradora com ressecção de linfonodo mediastinal anterior."
+        },
+        {
+          "letter": "D",
+          "text": "punção aspirativa por agulha fina de linfonodo mediastinal guiada por tomografia."
+        },
+        {
+          "letter": "E",
+          "text": "broncoscopia com criobiópsia transbronquial guiada por ultrassom endobronquial (EBUS)."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Pneumologia",
+      "subtheme": "Doenças intersticiais",
+      "topic": "Diferencial sarcoidose vs. linfoma — biópsia guiada por EBUS",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "sarcoidose",
+        "linfoma",
+        "EBUS",
+        "ECA sérica"
+      ]
+    },
+    {
+      "number": 26,
+      "statement": "Paciente feminina, 32 anos, procura atendimento dermatológico apresentando, há quatro meses, úlceras cutâneas em membros inferiores que não cicatrizam, apesar do uso de antibióticos sistêmicos (cefalexina e posteriormente clindamicina). Refere que as lesões iniciaram após pequenos traumas e evoluíram rapidamente. As culturas bacterianas das úlceras foram negativas em duas ocasiões. Ao exame físico, apresenta múltiplas úlceras profundas e dolorosas em pernas, com bordas violáceas solapadas e base necrótica purulenta, medindo entre 3-8 cm de diâmetro. Observa-se também eritema perilesional. A paciente nega febre, perda ponderal ou sintomas sistêmicos. Exames laboratoriais: hemograma normal, VHS 45 mm/h, PCR 12 mg/L (discretamente elevados). Considerando a hipótese diagnóstica de pio­- derma gangrenoso, são características epidemiológicas, clínicas e laboratoriais compatíveis com essa condição.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "acometimento preferencial de idosos, presença de achados histopatológicos específicos com infiltrado eosinofílico, associação com Diabetes Mellitus na maioria dos casos."
+        },
+        {
+          "letter": "B",
+          "text": "início como pápulas ou pústulas estéreis, fenômeno de patergia em cerca de 25-30% dos casos, associação com doenças sistêmicas em mais de 50% dos pacientes."
+        },
+        {
+          "letter": "C",
+          "text": "cicatrização espontânea habitual, ausência de dor significativa, predileção por extremidades superiores na forma clássica."
+        },
+        {
+          "letter": "D",
+          "text": "presença de vasculite necrotizante como achado histopatológico característico e associação com malignidades hematológicas na maioria dos casos."
+        },
+        {
+          "letter": "E",
+          "text": "acometimento predominante de crianças e adolescentes, resposta rápida aos antibióticos, evolução benigna sem sequelas."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Reumatologia",
+      "subtheme": "Manifestações cutâneas",
+      "topic": "Pioderma gangrenoso",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pioderma gangrenoso",
+        "patergia",
+        "úlcera cutânea"
+      ]
+    },
+    {
+      "number": 27,
+      "statement": "Um paciente de 65 anos, tabagista, procura o pronto-socorro com história de dispneia progressiva e dor torácica do tipo pleurítica no hemitórax direito, há 10 dias. Ao exame físico, apresenta-se em regular estado geral, eupneico em repouso, com frequência respiratória de 24 irpm. Na inspeção do tórax, observa-se abaulamento e redução da mobilidade do hemitórax direito, com retificação dos espaços intercostais. À palpação, identifica-se diminuição do frêmito toracovocal nas bases do hemitórax direito. A percussão revela macicez desde o 6º espaço intercostal até as bases pulmonares direitas. À ausculta, constata-se abolição do murmúrio vesicular na área de macicez, com presença de pectorilóquia fônica e egofonia no limite superior entre a macicez e o som claro pulmonar. A ressonância vocal encontra-se diminuída na mesma topografia da alteração do frêmito toracovocal. O conjunto de achados semiológicos descritos no exame físico desse paciente é mais consistente com o diagnóstico de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "pneumonia lobar com consolidação extensa."
+        },
+        {
+          "letter": "B",
+          "text": "pneumotórax hipertensivo do hemitórax direito."
+        },
+        {
+          "letter": "C",
+          "text": "atelectasia por obstrução brônquica."
+        },
+        {
+          "letter": "D",
+          "text": "derrame pleural de volume moderado."
+        },
+        {
+          "letter": "E",
+          "text": "fibrose pulmonar com retração parenquimatosa."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Pneumologia",
+      "subtheme": "Derrame pleural",
+      "topic": "Semiologia do derrame pleural",
+      "difficulty": "FACIL",
+      "keywords": [
+        "derrame pleural",
+        "macicez",
+        "egofonia",
+        "frêmito toracovocal"
+      ]
+    },
+    {
+      "number": 28,
+      "statement": "Um homem de 32 anos procurou o ambulatório de Infectologia com história de erupção cutânea há três semanas, associada à febre intermitente (37,8 ℃), mal-estar geral, cefaleia e adenomegalia generalizada. Nega lesões genitais prévias ou atuais. Refere múltiplas parcerias sexuais nos últimos 12 meses, enquadrando-se como HSH (homem que faz sexo com homens), sem uso de preservativos de forma regular. Ao exame físico, apresenta erupção maculopapular eritematosa disseminada, incluindo palmas das mãos e plantas dos pés, sendo não pruriginosas. Observam-se adenomegalias cervicais, axilares e inguinais, indolores, móveis, de consistência fibroelástica. Condilomas planos são evidenciados na região perianal. Exame neurológico sem alterações. Exames laboratoriais revelam: VDRL reagente 1:64, TPPA reagente, FTA-ABS IgM reagente, FTA-ABS IgG reagente, HIV negativo, sorologia para hepatite B e C não reagentes. Hemograma, função renal e hepática normais. O diagnóstico e a conduta mais adequados para esse paciente incluem",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "diagnóstico de sífilis secundária precoce, tratamento com penicilina G benzatina 2.400.000 UI, dose única intramuscular, e seguimento sorológico com VDRL em 6 e 12 meses."
+        },
+        {
+          "letter": "B",
+          "text": "diagnóstico de sífilis secundária, realização de punção lombar para afastar neurossífilis, tratamento com penicilina G cristalina 18-24 milhões UI/dia EV por 10-14 dias, se houver acometimento neurológico."
+        },
+        {
+          "letter": "C",
+          "text": "diagnóstico de sífilis latente de duração indeterminada, tratamento com penicilina G benzatina 2.400.000 UI intramuscular, uma dose semanal por três semanas consecutivas, e monitorização sorológica."
+        },
+        {
+          "letter": "D",
+          "text": "diagnóstico de sífilis secundária precoce, tratamento com doxiciclina 100 mg VO 12/12h, por 14 dias, em caso de alergia à penicilina e reteste sorológico em 3, 6 e 12 meses."
+        },
+        {
+          "letter": "E",
+          "text": "diagnóstico de sífilis secundária, investigação de neurossífilis com punção lombar apenas se houver sinais neurológicos, tratamento padrão com penicilina G benzatina 2.400.000 UI intramuscular em dose única, e rastreamento de parcerias sexuais dos últimos três meses."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Infecções sexualmente transmissíveis",
+      "topic": "Sífilis secundária — diagnóstico e tratamento",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "sífilis secundária",
+        "condiloma plano",
+        "VDRL",
+        "penicilina benzatina"
+      ],
+      "reference": "PCDT de Infecções Sexualmente Transmissíveis — Ministério da Saúde"
+    },
+    {
+      "number": 29,
+      "statement": "Homem de 28 anos procurou atendimento em Unidade Básica de Saúde apresentando disúria intensa e corrimento uretral mucopurulento há quatro dias. Negou febre. Refere vida sexual ativa com múltiplas parcerias nos últimos seis meses, uso irregular de preservativo. Ao exame fisico, observa-se corrimento amarelado à expressão do meato uretral, sem outras alterações. A Unidade não dispõe de recursos laboratoriais para investigação etiológica. De acordo com o fluxograma do Protocolo Clínico e Diretrizes Terapêuticas (PCDT) brasileiro 2022 para manejo de corrimento uretral, a conduta mais adequada nesse caso é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "prescrever azitromicina 1g via oral, em dose única, aguardando disponibilidade de exames para complementar o tratamento."
+        },
+        {
+          "letter": "B",
+          "text": "tratar empiricamente para clamidia e gonorreia simultaneamente, orientar sobre fatores de risco e agendar retorno em 7 dias."
+        },
+        {
+          "letter": "C",
+          "text": "solicitar transferência imediata para serviço com recursos laboratoriais, antes de iniciar qualquer tratamento."
+        },
+        {
+          "letter": "D",
+          "text": "prescrever ciprofloxacino 500 mg por 7 dias, considerando ser um antibiótico de amplo espectro."
+        },
+        {
+          "letter": "E",
+          "text": "realizar apenas orientações sobre uso de preservativo e agendar retorno em duas semanas para reavaliação."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções sexualmente transmissíveis",
+      "topic": "Corrimento uretral — manejo sindrômico",
+      "difficulty": "FACIL",
+      "keywords": [
+        "corrimento uretral",
+        "clamídia",
+        "gonorreia",
+        "tratamento empírico"
+      ],
+      "reference": "PCDT de Infecções Sexualmente Transmissíveis — Ministério da Saúde"
+    },
+    {
+      "number": 30,
+      "statement": "Mulher de 34 anos foi trazida ao pronto-socorro após apresentar episódio convulsivo generalizado tônico- clônico, com duração de aproximadamente 2 minutos, seguido de período pós-ictal de 15 minutos. Familiares relataram que a paciente vinha apresentando cefaleia intensa há 3 dias, associada a náuseas e vômitos. Negaram uso de medicações, drogas ilícitas ou álcool. Não possui história familiar de epilepsia. Ao exame físico, encontrava-se consciente, orientada, com sinais vitais estáveis. Exame neurológico revelou papiledema bilateral e discreta hemiparesia à esquerda. Tomografia computadorizada de crânio evidencia lesão expansiva temporal direita, com efeito de massa e edema perilesional. Considerando o quadro clínico apresentado, a investigação e o tratamento mais apropriados são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Ressonância magnética com gadolínio para caracterização da lesão e levetiracetam 500 mg, 12/12h, por 2 anos após resolução completa da lesão."
+        },
+        {
+          "letter": "B",
+          "text": "Eletroencefalograma de 24 horas para estratificação de risco epiléptico e fenitoína 300 mg/dia, até normalização do exame neurologico."
+        },
+        {
+          "letter": "C",
+          "text": "Ressonância magnética com gadolínio para melhor caracterização da lesão e levetiracetam 250 mg, 12/12h, com ajuste posterior conforme resposta clínica e manutenção até resolução completa da condição subjacente."
+        },
+        {
+          "letter": "D",
+          "text": "bBpor tempo indeterminado."
+        },
+        {
+          "letter": "E",
+          "text": "Punção lombar para exclusão de processo inflamatório e ácido valproico 500 mg, 12/12h, por no mínimo 6 meses após estabilização clínica."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "Lesão expansiva com crise convulsiva — investigação e anticonvulsivante",
+      "difficulty": "FACIL",
+      "keywords": [
+        "lesão expansiva",
+        "crise convulsiva",
+        "levetiracetam",
+        "hipertensão intracraniana"
+      ]
+    },
+    {
+      "number": 31,
+      "statement": "Mulher de 42 anos procura atendimento médico queixando-se de múltiplas lesões cutâneas na região abdominal há 3 semanas. Refere ter realizado procedimento de mesoterapia para redução de gordura localizada há aproximadamente 6 semanas. As lesões iniciaram como pequenos nódulos eritematosos que evoluíram para abscessos recorrentes com drenagem espontânea de secreção purulenta. Ao exame fisico, observam-se múltiplas lesões nodulares com coloração violácea, algumas com pontos de drenagem ativa, distribuídas ao longo dos locais de aplicação das injeções. Paciente nega febre perda ponderal au sintomas sistêmicos. Exames laboratoriais mostram leucocitose discreta com neutrofilia. Considerando o quadro clínico apresentado, assinale a conduta diagnóstica e terapêutica mais adequada.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Coleta de material para cultura para micobactérias com teste de sensibilidade convencional e início empírico de claritromicina 500 mg, 12/12h, associada à amicacina 15mg/kg/dia, por 4 meses."
+        },
+        {
+          "letter": "B",
+          "text": "Biópsia das lesões para análise histopatológica com pesquisa de BAAR e cultura bacteriana convencional, seguida de doxiciclina 100 mg, 12/12h, por 6 semanas."
+        },
+        {
+          "letter": "C",
+          "text": "Coleta de material para cultura convencional e hemoculturas, seguida de cefoxitina 4 g, 12/12h, associada à tobramicina 5 mg/kg/dia até resultado das culturas."
+        },
+        {
+          "letter": "D",
+          "text": "Drenagem cirúrgica das lesões com debridamento e trimetoprim-sulfametoxazol 160/800 mg, 12/12h, associado a levofloxacino 750 mg/dia, por 4 semanas."
+        },
+        {
+          "letter": "E",
+          "text": "Coleta de secreção para pesquisa de BAAR, cultura para micobactérias com identificação de espécie e teste de atividade do gene erm para resistência induzível aos macrolídeos, seguida de tratamento baseado nos resultados."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Micoses e micobacterioses atípicas",
+      "topic": "Infecção de partes moles por micobactéria não tuberculosa pós-procedimento estético",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "micobactéria não tuberculosa",
+        "mesoterapia",
+        "BAAR",
+        "infecção de partes moles"
+      ]
+    },
+    {
+      "number": 32,
+      "statement": "Paciente masculino, 68 anos, portador de adenocarcinoma pulmonar metastático, é internado para controle de dor óssea refratária. Relata uso domiciliar de tramadol 100 mg de 6/6h sem alívio adequado da dor (escala visual analógica = 8/10). Ao exame físico, apresenta-se desidratado, com performance status ECOG 2. Os exames laboratoriais mostram: cálcio total 12,8 mg/dL (VR: 8,5-10,5); cálcio ionizado 1,45 mmol/L (VR: 1,12-1,32); creatinina 1,4 mg/dL (VR: 0,7-1,2); ureia 52 mg/dL (VR: 15-45); clearance de creatinina estimado 55 mL/min/1,73m²; sódio 138 mEq/L; potássio 4,2 mEq/L; ALT 28 U/L; AST 32 U/L (função hepática normal). Acerca da conduta terapêutica mais adequada para o controle da dor nesse paciente, é correto afirmar que",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "inclui rotação para morfina oral de liberação imediata 10 mg, de 4/4h, associada a pamidronato 90 mg EV e dexametasona 4 mg/dia."
+        },
+        {
+          "letter": "B",
+          "text": "consiste em manter tramadol na dose atual, adicionar gabapentina 300 mg, de 8/8h, e iniciar ácido zoledrônico 4 mg EV."
+        },
+        {
+          "letter": "C",
+          "text": "envolve substituição por fentanil transdérmico 25 mcg/h, hidratação vigorosa e pamidronato 90 mg EV, após correção da função renal."
+        },
+        {
+          "letter": "D",
+          "text": "compreende rotação para metadona 2,5 mg VO de 8/8h, dexametasona 8 mg/dia e pamidronato 90 mg EV, após hidratação adequada."
+        },
+        {
+          "letter": "E",
+          "text": "abrange substituição por fentanil transdérmico 12 mcg/h, dexametasona 4 mg/dia, ácido zoledrônico 4 mg EV concomitante à hidratação e morfina EV, para analgesia de resgate imediata."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Dor oncológica refratária com hipercalcemia leve e insuficiência renal",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "dor oncológica",
+        "opioide",
+        "rotação de opioides",
+        "bisfosfonato",
+        "hipercalcemia"
+      ]
+    },
+    {
+      "number": 33,
+      "statement": "Paciente de 58 anos internou-se em enfermaria de clinica médica para investigar linfonodomegalia generalizada, sendo a maior uma massa de aproximadamente 15 cm no seu maior diâmetro em região axilar direita com ulceração. Apresentava-se com perda ponderal de 20kg ao longo de 3 meses, febre ocasional, síndrome dipéptica e diarrei crônica ao longo da internação, obteve-se dois diagnósticos: o de linfoma não Hodgkin difuso de grades células B e infecção pelo HIV com CD4+ de 180 células/µL. Também foram realizadas tomografias com contrate venoso evidenciando linfonodomegalias retroperitoniais, espessamento da parede do estômago e do íleo, nódulo suspeito em topografia de adrenal esquerda. O exame de medula óssea revelou infiltrado linfocítico em 45% com presença de células grandes atípicas, núcleos pleomórficos e múltiplos nucléolos proeminentes, compatível com infiltração por linfoma difuso de grandes células B. Considerando que o paciente apresenta linfoma difuso de grandes células B, relacionado ao HIV com envolvimento de múltiplos sítios extranodais, a avaliação complementar obrigatória deve incluir",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "tomografia de tórax com contraste, colonoscopia, punção lombar com análise citológica e tomografia de crânio com contraste."
+        },
+        {
+          "letter": "B",
+          "text": "enterotomografia, endoscopia digestiva alta com biópsias, punção lombar para pesquisa de citologia oncótica, imunofenotipagem e citometria de fluxo e, ainda, ressonância magnética de crânio com contraste."
+        },
+        {
+          "letter": "C",
+          "text": "enterotomografia, retossigmoidoscopia, mielograma e tomografia de crânio com contraste."
+        },
+        {
+          "letter": "D",
+          "text": "tomografia de tórax, endoscopia digestiva alta com biópsias, punção lombar com PCR para EBV e angiorressonância de crânio."
+        },
+        {
+          "letter": "E",
+          "text": "enterotomografia, colonoscopia, punção lombar para pesquisa de citologia oncótica e ressonância magnética de crânio com contraste."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Hematologia",
+      "subtheme": "Leucemias e linfomas",
+      "topic": "Linfoma difuso de grandes células B relacionado ao HIV — estadiamento",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "linfoma difuso de grandes células B",
+        "HIV",
+        "estadiamento",
+        "punção lombar"
+      ]
+    },
+    {
+      "number": 34,
+      "statement": "Uma mulher de 72 anos comparece a uma consulta com o clínico geral para avaliação de rotina. Está lúcida, orientada, com história de hipertensão bem controlada, sem outras comorbidades. Relata nunca ter recebido vacina após os 50 anos e desconhece seu calendário vacinal da infância. Nega viagens recentes, surtos na região ou exposição a doenças infecciosas. Durante a anamnese, menciona que convive diariamente com o neto de dois anos e pretende realizar uma viagem internacional para a África nos próximos meses. Com base nas recomendações atualizadas da Sociedade Brasileira de Imunizações (SBIm), para o calendário vacinal do idoso em 2024/2025, as vacinas indicadas para essa consulta inicial são",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "influenza, esquema sequencial com VPC13 e VPP23, e tríplice bacteriana acelular (dTpa), além de vacina contra hepatite B em três doses."
+        },
+        {
+          "letter": "B",
+          "text": "influenza; VPC20 dose única, dTpa, vacina contra o vírus sincicial respiratório, hepatite B em três doses e herpes zoster inativada em duas doses."
+        },
+        {
+          "letter": "C",
+          "text": "influenza, VPC15 seguida de VPP23, hepatite A e B combinada, e febre amarela com dose única, independentemente do destino de viagem."
+        },
+        {
+          "letter": "D",
+          "text": "influenza, VPC13, herpes zoster atenuada em dose única, dTpa com intervalo de dez anos, e tríplice viral, considerando o convívio com criança não vacinada."
+        },
+        {
+          "letter": "E",
+          "text": "influenza, VPP23 e dTpa, já que as demais estão contraindicadas para idosos acima de 70 anos, exceto em situações de surtos ou internações."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Geriatria",
+      "subtheme": "Imunização do idoso",
+      "topic": "Calendário vacinal do idoso — SBIm 2024/2025",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "calendário vacinal",
+        "idoso",
+        "SBIm",
+        "herpes zoster",
+        "VSR"
+      ],
+      "reference": "Calendário de vacinação SBIm do idoso"
+    },
+    {
+      "number": 35,
+      "statement": "Homem de 70 anos, tabagista, com diagnóstico prévio de DPOC moderado e Diabetes Mellitus tipo 2 controlado, procura atendimento por febre (38,4 ℃), tosse produtiva com expectoração amarelada, prostração e dispneia progressiva há quatro dias. Ao exame físico, encontra-se lúcido e orientado, com frequência respiratória de 28 irpm, pressão arterial de 102/66 mmHg, frequência cardíaca de 108 bpm e saturação de oxigênio de 90% em ar ambiente. Ausculta pulmonar com estertores crepitantes em base esquerda. A radiografia de tórax revela consolidação no lobo inferior esquerdo. Exames laboratoriais mostram leucocitose leve e PCR elevada. Com base nesse caso clínico, a conduta mais apropriada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Prescrever amoxicilina-clavulanato com azitromicina via oral e liberar para tratamento ambulatorial, com retorno precoce."
+        },
+        {
+          "letter": "B",
+          "text": "Prescrever levofloxacino oral em dose única diária, por 7 dias, e solicitar TC de tórax ambulatorial."
+        },
+        {
+          "letter": "C",
+          "text": "Internar em enfermaria para antibioticoterapia venosa com ceftriaxona e azitromicina EV, iniciando coleta de hemoculturas."
+        },
+        {
+          "letter": "D",
+          "text": "Internar em Unidade de Terapia Intensiva para vigilância e suporte respiratório com antibiótico de amplo espectro."
+        },
+        {
+          "letter": "E",
+          "text": "Prescrever ceftriaxona intramuscular em dose única e reavaliar em 48 horas na Unidade Básica de Saúde."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Pneumologia",
+      "subtheme": "Pneumonias",
+      "topic": "Pneumonia adquirida na comunidade — critério de internação",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "PAC",
+        "CURB-65",
+        "internação",
+        "ceftriaxona"
+      ],
+      "reference": "Diretriz brasileira de pneumonia adquirida na comunidade (SBPT)"
+    },
+    {
+      "number": 36,
+      "statement": "Uma mulher de 28 anos, previamente saudável, procura atendimento médico com queixas de início súbito de disúria, polaciúria, urgência miccional e desconforto suprapúbico há 24 horas. Nega febre, dor lombar, náuseas ou corrimento. Relata ter tido dois episódios semelhantes no ano anterior, tratados com antibiótico oral, com boa resposta. Não faz uso de medicamentos contínuos, nega gestação atual e tem vida sexual ativa. Considerando a hipótese clínica mais provável e as diretrizes terapêuticas atuais, a conduta inicial mais adequada é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Solicitar urocultura e ultrassonografia das vias urinárias antes de iniciar o tratamento antibiótico."
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar tratamento empírico com nitrofurantoína 100 mg 12/12h por 5 dias, sem necessidade de exames complementares imediatos."
+        },
+        {
+          "letter": "C",
+          "text": "Prescrever ciprofloxacino 500 mg 12/12h por 5 dias, por se tratar de recorrência em mulher sexualmente ativa."
+        },
+        {
+          "letter": "D",
+          "text": "Utilizar antifúngico oral, considerando possível infecção por Candida spp."
+        },
+        {
+          "letter": "E",
+          "text": "Iniciar sulfametoxazol-trimetoprim por 7 dias após confirmação por urocultura."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Infecções do trato urinário",
+      "topic": "Cistite não complicada recorrente — tratamento empírico",
+      "difficulty": "FACIL",
+      "keywords": [
+        "cistite",
+        "nitrofurantoína",
+        "ITU não complicada"
+      ]
+    },
+    {
+      "number": 37,
+      "statement": "Uma mulher de 43 anos apresenta história de cefaleia diária há mais de seis meses, descrita como opressiva e difusa piorando ao longo do dia. Relata episódios prévios de enxaqueca desde a adolescência, mas, nos últimos meses, passou a utilizar dipirona e ibuprofeno em pelo menos 20 dias do mês, sem melhora significativa. Ao exame neurológico, não há alterações. Sobre o caso descrito, a hipótese diagnóstica mais provável e a melhor conduta inicial são",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "cefaleia tensional crônica primária sem sinais de alarme e manter uso de analgésicos conforme necessidade, iniciando técnicas de relaxamento muscular."
+        },
+        {
+          "letter": "B",
+          "text": "neuralgia do trigêmeo com irradiação difusa e prescrever carbamazepina, considerando a necessidade de descompressão microvascular."
+        },
+        {
+          "letter": "C",
+          "text": "enxaqueca crônica com refratariedade terapêutica e associar triptanos com antieméticos, encaminhando-a para bloqueio anestésico regional."
+        },
+        {
+          "letter": "D",
+          "text": "cefaleia em salvas com padrão atípico e iniciar oxigenoterapia de alto fluxo com verapamil oral."
+        },
+        {
+          "letter": "E",
+          "text": "cefaleia por uso excessivo de medicação sintomática e suspender gradualmente os analgésicos, iniciando tratamento preventivo com antidepressivos tricíclicos ou topiramato."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Neurologia",
+      "subtheme": "Cefaleias",
+      "topic": "Cefaleia por uso excessivo de medicação (cefaleia de rebote)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "cefaleia por abuso de analgésico",
+        "enxaqueca crônica",
+        "topiramato"
+      ]
+    },
+    {
+      "number": 38,
+      "statement": "Paciente feminina, 38 anos, procura atendimento em Unidade de Saúde queixando-se de tosse produtiva há mais de um mês, febre vespertina, sudorese noturna e emagrecimento de 15 kg, nos últimos 4 meses (peso atual 48 kg; peso habitual 63 kg). Relata que há 6 meses iniciou lesões brancas na boca que persistem, e há 2 meses apresenta episódios de diarreia aquosa intermitente, sem sangue. Ao exame físico, apresenta-se com bom estado geral, porém visivelmente emagrecida, com candidíase oral extensa e adenomegalia cervical bilateral. A investigação para tuberculose revela baciloscopia de escarro positiva (3+). O teste rápido para HIV, realizado na mesma consulta, é reagente, confirmado posteriormente por exames complementares. A solicitação da contagem de linfócitos CD4 está pendente. Obs.: no que segue, considere: R – Rifampicina, H – Isoniazida, Z – Pirazinamida, E – Etambutol. Segundo o protocolo clínico e Diretrizes Terapêuticas (PCDT) para Manejo da Infecção pelo HIV em Adultos — Módulo II — Ministério da Saúde 2024, a terapia combinada e a conduta de início do tratamento antirretroviral recomendadas para a coinfecção HIV - tuberculose são:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Iniciar prontamente o esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275) e adiar o início da terapia antirretroviral para após a conclusão da fase intensiva (2 meses) do tratamento da tuberculose."
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar prontamente o esquema para tuberculose com 4 comprimidos de RHZE (150/75/400/275) e em até uma semana iniciar o tratamento antirretroviral, com esquema otimizado para interações medicamentosas com rifampicina."
+        },
+        {
+          "letter": "C",
+          "text": "Iniciar prontamente o esquema para tuberculose com 5 comprimidos de RHZE (150/75/400/275) e, em até duas semanas após o início da terapia para TB, iniciar o tratamento antirretroviral, independentemente da carga viral do HIV."
+        },
+        {
+          "letter": "D",
+          "text": "Iniciar prontamente o esquema para tuberculose com 3 comprimidos de RHZE (150/75/400/275) e, no decorrer da primeira semana do tratamento da TB, iniciar a terapia antirretroviral com esquema otimizado para interações medicamentosas."
+        },
+        {
+          "letter": "E",
+          "text": "Prescrever apenas o esquema para tuberculose com 3 comprimidos de RHZE (150/75/400/275) e aguardar o resultado do CD4 para definir o momento da terapia antirretroviral."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Coinfecção tuberculose-HIV — momento de início da TARV",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "coinfecção TB-HIV",
+        "RIPE",
+        "início da TARV"
+      ],
+      "reference": "PCDT de Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde"
+    },
+    {
+      "number": 39,
+      "statement": "Maria, 52 anos, procurou atendimento com queixa de plenitude pós-prandial, saciedade precoce e náuseas há aproximadamente 6 meses. Relata que, nos últimos 10 anos, teve episódios recorrentes de anemia ferropriva sem sangramento gastrointestinal evidente, necessitando de suplementação oral. Há cerca de 3 anos, foi diagnosticada com hipotireoidismo autoimune, em uso de levotiroxina. Ao exame fisico, apresenta-se emagrecida, com palidez cutaneomucosa e dor leve à palpação epigástrica. Exames laboratoriais mostram hemoglobina de 10,5 g/dL com VCM de 102 fL. Uma endoscopia digestiva alta revelou mucosa gástrica do corpo e fundo com pregueado atenuado e vasos submucosos visíveis, sendo realizada biópsia mapeada. Considerando o quadro clínico, as características clínicas ou laboratoriais que mais corroboram o diagnóstico de gastrite atrófica metaplásica autoimune são a presença de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "hipersecreção de ácido gástrico e infecção ativa por Helicobacter pylori, com atrofia gástrica predominante no antro."
+        },
+        {
+          "letter": "B",
+          "text": "hipergastrinemia associada à hipocloridria e antecedente de anemia ferropriva sem sangramento há anos."
+        },
+        {
+          "letter": "C",
+          "text": "hipogastrinemia e atrofia glandular concentrada principalmente no antro e na curvatura menor."
+        },
+        {
+          "letter": "D",
+          "text": "níveis séricos normais de vitamina B12 e ausência de história de doenças autoimunes concomitantes."
+        },
+        {
+          "letter": "E",
+          "text": "histórico de dieta rica em sal e tabagismo, com atrofia gástrica difusa e baixa probabilidade de desenvolver neoplasias gástricas."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Gastrite atrófica metaplásica autoimune",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "gastrite autoimune",
+        "hipergastrinemia",
+        "anemia ferropriva refratária"
+      ]
+    },
+    {
+      "number": 40,
+      "statement": "Paciente masculino, 68 anos, com histórico de câncer gástrico diagnosticado há 8 meses e em quimioterapia há 2 meses, foi internado com queixa de aumento progressivo do volume abdominal, dor abdominal difusa e dispneia aos pequenos esforços. Referia também perda ponderal não intencional de 8 kg nos últimos 3 meses, associada à hiporexia e astenia. Ao exame físico, apresentava abdome globoso, tenso, com macicez à percussão em flancos e sinal de piparote positivo. Os membros inferiores exibiam edema 2+/4+. Ultrassonografia abdominal revelou ascite volumosa e múltiplas lesões hepáticas sugestivas de metástases. A paracentese diagnóstica foi realizada e o liquido ascítico era amarelo-citrino, levemente turvo. A análise laboratorial do líquido ascítico e do soro revelou os seguintes dados: albumina sérica 3,2 g/dL, albumina do líquido ascítico 2,1 g/dL, proteína total do líquido ascítico 2,8 g/dL, LDH do líquido ascítico 350 U/L (LDH sérico 200 U/L) e contagem de células nucleadas de 800/mm³ com predomínio de linfócitos e monócitos. A citopatologia do líquido ascitico estava pendente. Considerando os achados clínicos e laboratoriais da paracentese, a causa mais provável da ascite nesse paciente seria",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "cirrose hepática descompensada."
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de Budd-Chiari."
+        },
+        {
+          "letter": "C",
+          "text": "carcinomatose peritoneal."
+        },
+        {
+          "letter": "D",
+          "text": "tuberculose peritoneal."
+        },
+        {
+          "letter": "E",
+          "text": "insuficiência cardíaca congestiva."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Ascite por carcinomatose peritoneal — GASA baixo",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "GASA",
+        "carcinomatose peritoneal",
+        "ascite"
+      ]
+    },
+    {
+      "number": 41,
+      "statement": "Uma equipe de saúde da família está implementando um programa de rastreio para sarcopenia em idosos da comunidade. Durante as visitas domiciliares, uma senhora de 85 anos, que vive sozinha e apresenta dificuldades em atividades diárias, como subir escadas e carregar compras, foi selecionada para avaliação. De acordo com as etapas iniciais de rastreio e avaliação da força muscular para o diagnóstico de sarcopenia, a sequência de conduta mais apropriada para essa paciente, no contexto da saúde da família, é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "realizar imediatamente uma densitometria óssea (DEXA) para confirmar a perda de massa muscular e, em seguida, aplicar o teste de caminhada de 6 minutos para avaliar a reserva funcional e estimar o prognóstico."
+        },
+        {
+          "letter": "B",
+          "text": "realizar ultrassonografia do quadríceps para aferir a massa muscular e descartar a necessidade de testes funcionais."
+        },
+        {
+          "letter": "C",
+          "text": "avaliar diretamente a performance física global da paciente utilizando o teste SPPB (Short Physical Performance Battery), e o teste de caminhada de 400 metros, já que as queixas sugerem sarcopenia estabelecida."
+        },
+        {
+          "letter": "D",
+          "text": "solicitar uma ressonância nuclear magnética (RNM) do quadríceps para quantificar a massa muscular, pois é o exame mais preciso para esse fim."
+        },
+        {
+          "letter": "E",
+          "text": "aplicar o questionário SARC-F para identificar o risco de sarcopenia e, se o resultado indicar risco, realizar a avaliação da força de preensão manual ou o teste de levantar-se da cadeira por cinco vezes."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Geriatria",
+      "subtheme": "Sarcopenia e fragilidade",
+      "topic": "Rastreio de sarcopenia — SARC-F",
+      "difficulty": "FACIL",
+      "keywords": [
+        "sarcopenia",
+        "SARC-F",
+        "força de preensão manual"
+      ]
+    },
+    {
+      "number": 42,
+      "statement": "Paciente masculino, de 58 anos, procurou atendimento por quadro de 4 meses de evolução caracterizado por púrpura palpável em membros inferiores, fenômeno de Raynaud persistente e úlceras digitais recorrentes. Refere ainda artralgia em metacarpofalangeanas e joelhos, além de cefaleia intermitente e episódios de visão turva. Ao exame físico, apresentava lesões purpúricas não pruriginosas em pernas, isquemia digital bilateral com necrose em polpa de 2º quirodáctilo direito, e livedo reticularis em extremidades. Nega febre, perda ponderal ou outros sintomas sistêmicos. Exames complementares revelaram: hemograma normal, função renal preservada (creatinina 1,0 mg/dl), cálcio sérico 9,8 mg/dL, eletroforese de proteínas com pico monoclonal na região gama, criocrito de 18%, complemento C4 diminuído. Radiografia de esqueleto axial não evidencia lesões líticas ou expansivas. O exame que exprime o diagnóstico mais provável é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Sorologia para hepatite C reagente com RNA-HCV detectável e crioglobulina mista tipo II."
+        },
+        {
+          "letter": "B",
+          "text": "Sorologia para HIV reagente com carga viral elevada e crioglobulina mista tipo III."
+        },
+        {
+          "letter": "C",
+          "text": "FAN 1:640 padrão homogêneo, anti-DNA positivo e crioglobulina mista tipo II."
+        },
+        {
+          "letter": "D",
+          "text": "Imunofixação sérica demonstrando componente monoclonal IgG kappa e crioglobulina tipo I."
+        },
+        {
+          "letter": "E",
+          "text": "Imunofixação sérica demonstrando componente monoclonal IgM kappa com atividade de fator reumatoide e crioglobulina mista tipo II."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Reumatologia",
+      "subtheme": "Vasculites",
+      "topic": "Crioglobulinemia tipo I associada a gamopatia monoclonal",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "crioglobulinemia tipo I",
+        "componente monoclonal",
+        "Raynaud",
+        "úlcera digital"
+      ]
+    },
+    {
+      "number": 43,
+      "statement": "Um paciente de 73 anos apresentou uma subida muito acentuada dos níveis de PSA, a despeito de ausência de sinais e sintomas de prostatismo. Tal fato o levou a ser submetido à biópsia prostática. Na histopatologia da próstata, utiliza-se a pontuação de Gleason modificada para estratificar o tumor, pontuação essa que varia de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "1 a 4."
+        },
+        {
+          "letter": "B",
+          "text": "1 a 5."
+        },
+        {
+          "letter": "C",
+          "text": "2 a 5."
+        },
+        {
+          "letter": "D",
+          "text": "4 a 8."
+        },
+        {
+          "letter": "E",
+          "text": "6 a 10."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Oncologia",
+      "subtheme": "Rastreamento oncológico",
+      "topic": "Câncer de próstata — escore de Gleason",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "câncer de próstata",
+        "escore de Gleason",
+        "biópsia prostática"
+      ]
+    },
+    {
+      "number": 45,
+      "statement": "Uma mulher de 37 anos apresenta diarreia com episódios recorrentes, distensão abdominal constante e mialgia associada à fadiga, episódios que causam dificuldades em seu trabalho e em sua vida pessoal. O clínico assistente solicitou um exame laboratorial que mostrou níveis séricos aumentados de anticorpos antitranglutaminase IgA e lgG elevados. A condição clínica presente é a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "sarcoidose."
+        },
+        {
+          "letter": "B",
+          "text": "amiloidose."
+        },
+        {
+          "letter": "C",
+          "text": "doença celíaca."
+        },
+        {
+          "letter": "D",
+          "text": "amebíase atípica."
+        },
+        {
+          "letter": "E",
+          "text": "síndrome do intestino irritável."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Doença celíaca — sorologia positiva",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença celíaca",
+        "antitransglutaminase",
+        "diarreia crônica"
+      ]
+    },
+    {
+      "number": 46,
+      "statement": "Uma pessoa de 55 anos, que vive com HIV (PVHIV), faz uso de esquema antirretroviral com tenofovir- lamivudina-dolutegravir. A carga viral se mantém indetectável há mais de 8 anos e a contagem de linfócitos TCD4 é normal. Uma medida atualmente utilizada no tratamento de pacientes estáveis é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "retirar a lamivudina."
+        },
+        {
+          "letter": "B",
+          "text": "diminuir a dose do dolutegravir."
+        },
+        {
+          "letter": "C",
+          "text": "usar apenas o comprimido combinado de tenofovir/lamivudina."
+        },
+        {
+          "letter": "D",
+          "text": "trocar o esquema para medicação injetável bimestral."
+        },
+        {
+          "letter": "E",
+          "text": "usar apenas o comprimido combinado de dolutegravir/lamivudina."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Esquema antirretroviral de duas drogas em paciente estável",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "dolutegravir/lamivudina",
+        "biterapia",
+        "PVHIV estável"
+      ],
+      "reference": "PCDT de Manejo da Infecção pelo HIV em Adultos — Ministério da Saúde"
+    },
+    {
+      "number": 47,
+      "statement": "Em relação à dislipidemia, drogas mais recentes, com mecanismos de ação variados, surgiram, além das já sacramentadas estatinas e fibratos. Um exemplo de droga recentemente surgida é o(a)",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "otilônio."
+        },
+        {
+          "letter": "B",
+          "text": "maraviroc."
+        },
+        {
+          "letter": "C",
+          "text": "icatibanto."
+        },
+        {
+          "letter": "D",
+          "text": "pirfenidona."
+        },
+        {
+          "letter": "E",
+          "text": "ácido bempedoico."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Endocrinologia",
+      "subtheme": "Dislipidemia",
+      "topic": "Ácido bempedoico — nova classe hipolipemiante",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ácido bempedoico",
+        "dislipidemia",
+        "hipolipemiante"
+      ]
+    },
+    {
+      "number": 48,
+      "statement": "A característica mais marcante em relação à diferença entre as afasias de Broca e de Wernicke é a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "repetição da sentença."
+        },
+        {
+          "letter": "B",
+          "text": "presença de agitação."
+        },
+        {
+          "letter": "C",
+          "text": "movimentação ocular."
+        },
+        {
+          "letter": "D",
+          "text": "compreensão auditiva."
+        },
+        {
+          "letter": "E",
+          "text": "nomeação da confrontação."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Neurologia",
+      "subtheme": "Doenças neuromusculares",
+      "topic": "Afasia de Broca vs. Wernicke",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "afasia de Broca",
+        "afasia de Wernicke",
+        "compreensão auditiva"
+      ]
+    },
+    {
+      "number": 49,
+      "statement": "Uma mulher de 45 anos apresenta quadro de síndrome vertiginosa bastante acentuada. O médico assistente, após o diagnóstico do tipo de doença, prescreveu hidroclorotiazida. A síndrome vertiginosa em questão é gerada por",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "neurite vestibular."
+        },
+        {
+          "letter": "B",
+          "text": "doença de Ménière."
+        },
+        {
+          "letter": "C",
+          "text": "vertigem paroxística benigna."
+        },
+        {
+          "letter": "D",
+          "text": "vertigem pós-trauma cranioencefálico."
+        },
+        {
+          "letter": "E",
+          "text": "vertigem por uso continuado de medicação."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Neurologia",
+      "subtheme": "Síndromes vestibulares",
+      "topic": "Doença de Ménière",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença de Ménière",
+        "vertigem",
+        "hidroclorotiazida"
+      ]
+    },
+    {
+      "number": 50,
+      "statement": "Um paciente de 42 anos, em exames laboratoriais de rotina, foi diagnosticado com infecção assintomática pelo HTLV-1, Nunca havia sido testado antes para tal agente. Em relação a esse vírus, é correto afirmar que",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "é um vírus DNA."
+        },
+        {
+          "letter": "B",
+          "text": "o HTLV-1 é menos agressivo que o HTLV-2."
+        },
+        {
+          "letter": "C",
+          "text": "a taxa de transmissão sexual é igual entre homens e mulheres no HTLV-1."
+        },
+        {
+          "letter": "D",
+          "text": "a transmissão via leite materno é mais eficiente do que a transplacentária."
+        },
+        {
+          "letter": "E",
+          "text": "as complicações mais comuns são a encefalite crônica assintomática e o linfoma de células B."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Infecção pelo HTLV-1",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "HTLV-1",
+        "transmissão vertical",
+        "leite materno"
+      ]
+    },
+    {
+      "number": 51,
+      "statement": "Um homem de 41 anos, lavrador, apresenta quadro de artrite inflamatória oligoarticular migratória intermitente de grandes articulações e coluna vertebral. Apresenta associadas diarreia crônica e alterações visuais. A doença que mais provavelmente o paciente apresenta é a:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Doença de Fabry."
+        },
+        {
+          "letter": "B",
+          "text": "Doença de Whipple."
+        },
+        {
+          "letter": "C",
+          "text": "Artrite reumatoide."
+        },
+        {
+          "letter": "D",
+          "text": "Cirrose biliar primária."
+        },
+        {
+          "letter": "E",
+          "text": "Síndrome da artrite-pancreatite."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Doença de Whipple",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença de Whipple",
+        "artrite migratória",
+        "diarreia crônica"
+      ]
+    },
+    {
+      "number": 52,
+      "statement": "Paciente masculino de 38 anos procurou atendimento médico com história de 3 meses de evolução de cansaço e dispneia aos grandes esforços, que posteriormente evoluiu com cefaleia, tinnitus, redução da acuidade auditiva e edema de face. Ao exame físico, apresentava edema das fossas supraclaviculares, circulação colateral em pelerine, varizes do freio lingual e murmúrio vesicular reduzido em região paraesternal bilateralmente. O paciente relatava piora dos sintomas ao assumir o decúbito dorsal. Negava tabagismo e comorbidades prévias. A radiografia de tórax evidenciou alargamento do mediastino anterior e superior. Considerando a apresentação clínica descrita, o diagnóstico mais provável é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "tumor de células germinativas extragonadal."
+        },
+        {
+          "letter": "B",
+          "text": "bócio mergulhante da tireoide."
+        },
+        {
+          "letter": "C",
+          "text": "carcinoma tímico."
+        },
+        {
+          "letter": "D",
+          "text": "trombose do tronco braquiocefálico."
+        },
+        {
+          "letter": "E",
+          "text": "tumor do sulco superior pulmonar (Pancoast)."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Oncologia",
+      "subtheme": "Tumores sólidos",
+      "topic": "Tumor de células germinativas extragonadal mediastinal",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "tumor de células germinativas",
+        "síndrome da veia cava superior",
+        "massa mediastinal"
+      ]
+    },
+    {
+      "number": 53,
+      "statement": "Paciente masculino de 45 anos foi atendido pelo psiquiatra após inúmeras consultas com especialistas. Sua queixa principal descrevia quadro de síndrome dispéptica com empanzinamento, distensão abdominal e receio de se alimentar. Também havia soluços recorrentes após alguns tipos de alimentos, pirose e dor em epigástrio. No início do quadro, há um ano, os sintomas eram relacionados a alimentos gordurosos e carnes, motivando a evitar esses alimentos. Posteriormente, muitos tipos de alimentos como ervilhas, milhos, leite e derivados foram excluídos da dieta por piorarem os sintomas. Passou a evitar alguns condimentos e pastas como purês e caldos grossos, devido à textura desses alimentos. Durante o período de um ano, perdeu 15 kg (peso atual 45 kg) e está com IMC de 18 kg/m². Trouxe alguns exames para a consulta, os quais demonstraram: endoscopia digestiva alta com gastrite leve; ultrassonografia com discreta esteatose hepática; tomografia de abdome e pelve não revelaram qualquer alteração significativa. Negou quaisquer outros sintomas em aparelhos e sistemas orgânicos, exceto pelo já descrito sobre o trato gastrointestinal. O paciente se mostrava insatisfeito e preocupado com o peso atual, porém não havia intenção de emagrecer ou descontentamento com sua percepção corporal previamente. O paciente relatou o divórcio seguido da brusca mudança na rotina e seus hábitos alimentares há um ano e meio com extrema tristeza. O paciente negava e não havia indícios de comportamento purgativo. Também não preencheu critérios para episódio depressivo maior. Sobre o quadro clínico descrito, é correto afirmar que se trata de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "anorexia nervosa, mesmo na ausência de alteração da percepção corporal e receio de ganhar peso."
+        },
+        {
+          "letter": "B",
+          "text": "episódio depressivo maior, sendo os sintomas alimentares secundários ao quadro psiquiátrico."
+        },
+        {
+          "letter": "C",
+          "text": "bulimia nervosa, considerando os episódios de soluços como comportamento compensatório."
+        },
+        {
+          "letter": "D",
+          "text": "transtorno de compulsão alimentar periódica, devido à perda ponderal significativa associada aos sintomas gastrointestinais."
+        },
+        {
+          "letter": "E",
+          "text": "transtorno de ingestão alimentar evitativo-restritivo, caracterizado pela evitação e sensibilidade a texturas alimentares, frequentemente associado a eventos estressores."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Psiquiatria",
+      "subtheme": "Transtornos alimentares",
+      "topic": "Transtorno de ingestão alimentar evitativo-restritivo (ARFID)",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ARFID",
+        "transtorno alimentar",
+        "sensibilidade a textura"
+      ]
+    },
+    {
+      "number": 54,
+      "statement": "Paciente masculino, 48 anos, deu entrada no pronto-socorro com quadro de dor abdominal intensa em fossa ilíaca esquerda. Tomografia computadorizada evidenciou diverticulite aguda complicada por abscesso de 2,5 cm em sigmoide, sem sinais de perfuração livre. Iniciado antibioticoterapia endovenosa com piperacilina-tazobactam. No 7º dia de internação, evoluiu com picos febris, aumento de leucócitos (16.000/mm³) e PCR (18 mg/dL). Perdeu 4 kg desde o início do quadro (peso atual: 68 kg; altura: 1,75 m; IMC: 22,2 kg/m²). Relata inapetência importante e consegue ingerir apenas líquidos em pequenas quantidades. Programada drenagem percutânea guiada por tomografia devido à piora dos parâmetros inflamatórios. A conduta nutricional mais apropriada para esse paciente agora é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "aplicar o NRS-2002 e iniciar nutrição parenteral total devido ao escore de risco elevado."
+        },
+        {
+          "letter": "B",
+          "text": "passar sonda nasogástrica pós-pilórica e iniciar dieta enteral oligomérica objetivando 25 a 30 kcal/kg de peso por dia."
+        },
+        {
+          "letter": "C",
+          "text": "calcular as necessidades nutricionais pela fórmula de Harris-Benedict e iniciar dieta enteral polimérica em torno de 42 mL/h."
+        },
+        {
+          "letter": "D",
+          "text": "aplicar o NRS-2002 e oferecer suporte nutricional suplementar entre 1,2 a 1,5 g de proteína/kg de peso/dia, preferencialmente por via oral."
+        },
+        {
+          "letter": "E",
+          "text": "iniciar nutrição parenteral suplementar imediatamente devido à grande chance de impossibilidade do uso do trato digestivo após a drenagem, mantendo a dieta oral conforme aceitação."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Nutrição",
+      "topic": "Terapia nutricional em diverticulite complicada",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "NRS-2002",
+        "suporte nutricional",
+        "diverticulite complicada"
+      ]
+    },
+    {
+      "number": 55,
+      "statement": "Maria, 28 anos, procura atendimento médico relatando diarreia crônica há 8 meses, com 4-5 evacuações diárias de consistência pastosa, associada a perda ponderal de 6kg no período. Refere também fadiga, distensão abdominal pós-prandial e flatulência excessiva. Apresenta Diabetes Mellitus tipo 1 diagnosticado há 15 anos, em uso de insulina. Ao exame físico, apresenta IMC de 19kg/m², palidez cutânea discreta e distensão abdominal leve. Exames laboratoriais mostram hemoglobina de 10,2g/dL, ferro sérico baixo e ferritina reduzida. A abordagem diagnóstica mais adequada para investigar doença celíaca nessa paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "solicitar dosagem de anticorpo anti-transglutaminase tecidual IgA (tTG-IgA) e, se positivo, realizar endoscopia digerstiva alta com biópsia de duodeno."
+        },
+        {
+          "letter": "B",
+          "text": "realizar endoscopia digestiva alta com biópsia de duodeno independentemente dos resultados sorológicos, devido ao alto risco para doença celíaca."
+        },
+        {
+          "letter": "C",
+          "text": "solicitar dosagem de anticorpo anti-gliadina nativa (AGA-IgA e AGA-IgG) como teste inicial de triagem."
+        },
+        {
+          "letter": "D",
+          "text": "dosagem de anticorpo anti-endomísio IgA (EMA-IgA) isoladamente, devido à sua alta especificidade diagnóstica."
+        },
+        {
+          "letter": "E",
+          "text": "solicitar dosagem de tTG-IgA com dosagem concomitante de IgA total e, idependentemente do resultado, realizar endoscopia digestiva alta com biópsia duodenal."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Investigação de doença celíaca em diabético tipo 1",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença celíaca",
+        "tTG-IgA",
+        "diabetes tipo 1"
+      ]
+    },
+    {
+      "number": 56,
+      "statement": "Roberto 68 anos, é internado eletivamente para ressecção anterior baixa de reto por adenocarcinoma, com tempo cirúrgico estimado de 3 horas sob anestesia geral. Apresenta hipertensão arterial sistêmica controlada com losartana e Diabetes Mellitus tipo 2 em uso de metformina, com hemoglobina glicada de 7,1%. Ao exame físico, encontra-se estável, normocorado, com pressão arterial de 140/85 mmHg e frequência cardíaca de 78 bpm. Nega dispneia aos esforços habituais e refere conseguir subir dois lances de escada sem limitação. Não apresenta história de doença coronariana, insuficiência cardíaca ou doença cerebrovascular. Eletrocardiograma mostra ritmo sinusal sem alterações isquêmicas. A conduta mais apropriada para avaliação pré-operatória do risco cardiovascular nesse paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "solicitar ecocardiograma transtorácico e teste ergométrico devido ao diabetes e hipertensão associados à cirurgia de risco cardiovascular intermediário."
+        },
+        {
+          "letter": "B",
+          "text": "realizar hemograma completo, bioquímica com função renal e hepática, coagulograma e tipagem sanguínea, considerando a capacidade funcional preservada e ausência de fatores de risco clínicos ativos."
+        },
+        {
+          "letter": "C",
+          "text": "solicitar reserva de concentrado de hemácias devido ao risco de sangramento na ressecção retal, além dos exames pré-operatórios de rotina."
+        },
+        {
+          "letter": "D",
+          "text": "realizar radiografia de tórax, ecocardiograma e dosagem de peptídeos natriuréticos para avaliação de insuficiência cardíaca subclínica."
+        },
+        {
+          "letter": "E",
+          "text": "prosseguir com a cirurgia sem exames complementares adicionais, considerando a ausência de sintomas cardiovasculares e eletrocardiograma normal."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Emergências e Terapia Intensiva",
+      "subtheme": "Avaliação perioperatória",
+      "topic": "Avaliação de risco cardiovascular pré-operatório",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "avaliação pré-operatória",
+        "capacidade funcional",
+        "risco cardiovascular"
+      ],
+      "reference": "Diretriz ACC/AHA de avaliação perioperatória cardiovascular"
+    },
+    {
+      "number": 57,
+      "statement": "Antônio, 82 anos, portador de diabetes mellitus tipo 2 há 15 anos, é acompanhado no ambulatório de geriatria. Nos últimos 18 meses, apresentou perda ponderal não intencional de 8 kg, com IMC atual de 19,5 kg/m². A família relata episódios recorrentes de quedas domiciliares e diagnóstico recente de doença de Alzheimer moderada. Ao exame físico, evidencia-se sarcopenia com redução significativa da massa muscular e força de preensão palmar diminuída. Atualmente em uso de metformina 1 g duas vezes ao dia, com hemoglobina glicada de 7,8% e glicemias capilares de jejum variando entre 110-160 mg/dL. As metas glicêmicas mais adequadas para esse paciente são",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "hemoglobina glicada menor que 7% e glicemia de jejum entre 80-130 mg/dL."
+        },
+        {
+          "letter": "B",
+          "text": "hemoglobina glicada menor que 7,5% e glicemia de jejum entre 90-150 mg/dL."
+        },
+        {
+          "letter": "C",
+          "text": "hemoglobina glicada menor que 8% e glicemia de jejum entre 90-150 mg/dL."
+        },
+        {
+          "letter": "D",
+          "text": "hemoglobina glicada menor que 8,5% e glicemia de jejum entre 100-180 mg/dL."
+        },
+        {
+          "letter": "E",
+          "text": "hemoglobina glicada menor que 8% e glicemia de jejum entre 80-130 mg/dL."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Geriatria",
+      "subtheme": "Diabetes no idoso frágil",
+      "topic": "Metas glicêmicas individualizadas no idoso frágil",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "metas glicêmicas",
+        "idoso frágil",
+        "hemoglobina glicada"
+      ],
+      "reference": "Standards of Care da American Diabetes Association"
+    },
+    {
+      "number": 58,
+      "statement": "Um paciente de 56 anos foi atendido em ambulatório especializado em hipertensão resistente. Faz uso regular de anlodipino 5 mg duas vezes ao dia, losartana 50 mg duas vezes ao dia e hidroclorotiazida 25 mg uma vez ao dia. É portador de diabetes tipo 2 em uso de metformina 2 g/dia, com HbA₁c de 7,2%. Mudanças no estilo de vida foram implementadas gradativamente. Ao exame, ictus propulsivo no 5° espaço intercostal esquerdo; pressão arterial em repouso de 150 x 90 mmHg e frequência cardíaca de 89 bpm. O eletrocardiograma sugeria hipertrofia ventricular esquerda; relação albumina/creatinina urinária de 200 mg/g e TFG estimada de 90 mL/min/1,73 m². A MAPA revelou valores normais nas médias de vigília, 24 horas e sono. Diante do caso apresentado, a conduta mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Iniciar espironolactona 25 mg uma vez ao dia."
+        },
+        {
+          "letter": "B",
+          "text": "Iniciar carvedilol 6,25 mg ao dia."
+        },
+        {
+          "letter": "C",
+          "text": "Realizar ecocardiograma e rastreio de hipertensão secundária."
+        },
+        {
+          "letter": "D",
+          "text": "Substituir hidroclorotiazida pela indapamida."
+        },
+        {
+          "letter": "E",
+          "text": "Manutenção das medidas farmacológicas e repetição da MAPA em 3 a 6 meses."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Cardiologia",
+      "subtheme": "Hipertensão arterial",
+      "topic": "Hipertensão resistente — efeito do jaleco branco à MAPA",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipertensão resistente",
+        "MAPA",
+        "efeito do jaleco branco"
+      ]
+    },
+    {
+      "number": 59,
+      "statement": "Um homem de 72 anos foi internado por desidratação e perda ponderal significativa nas últimas semanas. No contexto da investigação, observou-se apatia e redução global da atividade motora. O paciente permanecia vígil, sem delírios ou alucinações evidentes, mas com marcada passividade frente a comandos simples. Em alguns momentos, recusava-se a se mover ou a realizar funções básicas, como fechar os olhos ou ajustar a respiração voluntariamente. Mantinha posturas rígidas por longos períodos e exibia aumento difuso do tônus muscular. Em dias anteriores, foram observados episódios de ecolalia e ecopraxia. Os exames laboratoriais iniciais (hemograma, eletrólitos, função hepática e renal) estavam dentro da normalidade. Considerando o quadro descrito, a conduta mais apropriada inclui",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "administração de antipsicótico intramuscular, uma vez que o quadro é compatível com delirium e exige reversão rápida."
+        },
+        {
+          "letter": "B",
+          "text": "início de antidepressivos tricíclicos, dado que se trata de um quadro sugestivo de depressão com apatia grave."
+        },
+        {
+          "letter": "C",
+          "text": "realização de exames de imagem cerebral, punção lombar, investigação laboratorial ampliada e início de lorazepan como tratamento empírico de catatonia."
+        },
+        {
+          "letter": "D",
+          "text": "introdução de levodopa, considerando tratar-se de uma doença degenerativa com rigidez axial, semelhante à doença de Parkinson."
+        },
+        {
+          "letter": "E",
+          "text": "abordagem imunológica com plasmaférese, visto que a síndrome descrita é compatível com síndrome da pessoa rígida (stiff-person syndrome)."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Psiquiatria",
+      "subtheme": "Catatonia",
+      "topic": "Catatonia — investigação e tratamento com benzodiazepínico",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "catatonia",
+        "lorazepam",
+        "ecolalia",
+        "ecopraxia"
+      ]
+    },
+    {
+      "number": 60,
+      "statement": "Paciente feminina, 28 anos, foi internada pela quarta vez em um hospital de referência. As internações anteriores, ocorridas aos 13,18 e 26 anos, estiveram relacionadas a episódios de sangramento atípico. Aos 13 anos, sangrou prolongadamente após uma amigdalectomia, necessitando de transfusão sanguínea, sendo a investigação inicial inconclusiva. Aos 18, apresentou sangramento uterino disfuncional que exigiu hospitalização, sem identificação de distúrbio da coagulação nem plaquetopenia. Aos 26, teve esquimoses extensas em ambos os braços após uma leve contusão. Atualmente, a paciente procurou o pronto-socorro com fraqueza progressiva e tontura. Havia realizado uma biópsia de pele recente para remoção de nevo suspeito, mas o sangramento do local persistiu por mais de 48 horas, motivando o uso de analgésicos e anti-inflamatórios não esteroidais. Ao exame físico, a paciente estava pálida, hipocorada, com frequência cardíaca de 105 bpm e pressão arterial de 105 × 60 mmHg. Estava lúcida, orientada, eutrófica e não apresentava sinais de gravidade aguda ou infecção. Negava uso de medicação regular ou doença prévia, exceto pelos episódios de sangramento. Seus exames demonstraram uma piora gradual da anemia: Hemoglobina 10 g/dL aos 26 anos, e atualmente 7,5 g/dL. Durante a internação, relatou alguns episódios de enterorragia discreta. A investigação de anemia demonstrou morfologia microcítica e hipocrômica, com reticulócitos corrigidos de 1,2%, ferritina 10 ng/mL, índice de saturação de transferrina 9%, TIBC: 420 mcg/dL. O médico responsável iniciou a investigação de anemia com colonoscopia, que revelou divertículo de Meckel, com erosões superficiais sem sangramento ativo. Ao revisar os exames, observou plaquetas de 160.000/mm³ e um coagulograma normal (TP e PTTa dentro dos limites). Considerando o histórico clínico, os achados do exame físico e os resultados laboratoriais, a conduta mais apropriada no momento seria:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "fazer transfusão de concentrado de plaquetas e avaliação do tempo de sangramento."
+        },
+        {
+          "letter": "B",
+          "text": "fazer transfusão de crioprecipitado e dosagem dos fatores de coagulação II, V, VII, IX e X."
+        },
+        {
+          "letter": "C",
+          "text": "realizar tomografia computadorizada abdominal para pesquisa de sangramento ativo e investigar deficiência de fator XIII."
+        },
+        {
+          "letter": "D",
+          "text": "solicitar painel para doenças autoimunes (FAN, anticorpo anticardiolipina), sorologias para HIV e hepatites virais e tipagem HLA."
+        },
+        {
+          "letter": "E",
+          "text": "pesquisa do antígeno de von Willebrand (VWF:Ag), dosagem da atividade do cofator de ristocetina (VWF:RCo) e atividade do fator VIII (FVIII:C)."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Doença de von Willebrand",
+      "difficulty": "FACIL",
+      "keywords": [
+        "doença de von Willebrand",
+        "fator VIII",
+        "cofator de ristocetina"
+      ]
+    },
+    {
+      "number": 61,
+      "statement": "Mulher de 58 anos foi internada para investigação de paraplegia em 72 horas de evolução, associada à perda urinária. Apresentava histórico de câncer de mama em tratamento quimioterápico por doença metastática óssea e pleural. Relatou febre de 38,5 °C na véspera e cansaço há 5 dias. O exame físico demonstrava nível sensitivo em altura da 4ª vértebra torácica, redução da sensibilidade vibratória e proprioceptiva e paraparesia espástica com sinais piramidais em ambos os membros inferiores. Havia dor em palpação de coluna torácica alta e presença de massa em topografia pélvica. Ao realizar a passagem de cateter vesical de demora, percebeu-se saída de aproximadamente 1L de urina turva. O exame laboratorial de urgência demonstrou anemia normocítica e normocrômica, leucocitose com desvio e PCR ultrassensível elevada. Não havia alterações na bioquímica como disfunção renal ou hepática. Foram coletadas hemoculturas, pesquisa de elementos anormais urinários e urinocultura. Sobre a abordagem desse quadro, é correto afirmar que",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a urinálise sem piúria é comum, devendo-se pesquisar germes para uretrite."
+        },
+        {
+          "letter": "B",
+          "text": "não havendo sinais de sepse ou complicações como piora da função renal, dor no flanco ou pélvica, a paciente pode fazer o tratamento com antibiótico oral."
+        },
+        {
+          "letter": "C",
+          "text": "o ultrassom de abdome e vias urinárias pode detectar com maior precisão complicações renais."
+        },
+        {
+          "letter": "D",
+          "text": "será necessária a internação hospitalar com antibiótico parenteral e investigação com tomografia de abdome com contraste."
+        },
+        {
+          "letter": "E",
+          "text": "deve-se ministrar ceftriaxona 1 g intravenoso, hidratação, analgesia e observação por 12h, propondo continuidade do tratamento em domicílio."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Infecções do trato urinário",
+      "topic": "Pielonefrite complicada por retenção urinária em paciente oncológico",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pielonefrite complicada",
+        "retenção urinária",
+        "antibiótico parenteral"
+      ]
+    },
+    {
+      "number": 62,
+      "statement": "Paciente feminina de 20 anos, HIV positivo em uso de terapia antirretroviral (CD4 e carga viral não disponíveis), foi admitida com tumoração em região cervical e submandibular esquerda de início há 7 dias, acompanhada de febre não aferida, prostração, dificuldade de deglutição progressiva e trismo intenso impedindo abertura oral em mais 1 cm. Relata histórico de fratura de dente recente na região mandibular esquerda. Ao exame físico, apresenta-se taquicárdica (FC 110 bpm), febril (Tax: 38,8 °C), com massa endurecida, dolorosa e quente na região afetada, e dor à mobilização lateral do pescoço. Exames laboratoriais de urgência demonstram leucocitose de 18.000/mm³ com desvio à esquerda (85% neutrófilos) e Proteína C Reativa (PCR) de 150 mg/L. Na conduta diagnóstica e terapêutica inicial para esse quadro, é apropriada a seguinte conduta:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar tratamento com amoxicilina/clavulanato 875/125 mg via oral a cada 12 horas e realizar ultrassonografia cervical para acompanhamento da tumoração, com continuidade do tratamento em domicílio."
+        },
+        {
+          "letter": "B",
+          "text": "administrar ceftriaxona 1g intravenoso por dia e aguardar resultado das hemoculturas para definir a necessidade de drenagem."
+        },
+        {
+          "letter": "C",
+          "text": "realizar punção aspirativa por agulha fina (PAAF) da massa para cultura e citologia antes de iniciar qualquer terapia antimicrobiana."
+        },
+        {
+          "letter": "D",
+          "text": "iniciar cefepime 2g IV a cada 8 horas e metronidazol 500 mg IV a cada 8 horas e realizar tomografia computadorizada de pescoço e tórax com contraste para avaliação de abscesso e extensão para mediastino."
+        },
+        {
+          "letter": "E",
+          "text": "iniciar antibioticoterapia oral com amoxicilina/clavulanato 875/125 mg a cada 12 horas e indicar drenagem cirúrgica imediata do abscesso submandibular."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "Infecções de pele e partes moles",
+      "topic": "Abscesso odontogênico cervical com risco de mediastinite",
+      "difficulty": "FACIL",
+      "keywords": [
+        "abscesso odontogênico",
+        "angina de Ludwig",
+        "mediastinite"
+      ]
+    },
+    {
+      "number": 63,
+      "statement": "Paciente masculino, 68 anos, com histórico de doença arterial coronariana, hipertensão e dislipidemia foi submetido, há cinco dias, a uma cineangiografia coronariana diagnóstica devido à dor torácica anginosa. Desde então, começou a apresentar fraqueza progressiva, dor abdominal difusa e uma redução significativa do volume urinário. No exame físico, estava afebril, com pressão arterial de 130/70 mmHg, mas apresentava livedo reticular extenso em ambas as pernas e plantas dos pés com arroxeamento dos dedos do pé direito, além de pulsos distais palpáveis. Os exames laboratoriais revelaram elevação progressiva de creatinina sérica (de 1,2mg/dL para 3,8mg/dL), leucocitose de 14.500/mm³ (com 6% de eosinófilos) e hipocomplementemia (C3 e C4 reduzidos). A urina tipo I mostrava cilindros granulosos e alguns eosinófilos. Diante do quadro clínico e dos achados laboratoriais descritos, a conduta diagnóstica e/ou terapêutica mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar terapia com corticoide em pulsoterapia para reduzir a inflamação sistêmica e renal."
+        },
+        {
+          "letter": "B",
+          "text": "realizar imediatamente uma tomografia computadorizada da aorta para identificar a origem dos êmbolos."
+        },
+        {
+          "letter": "C",
+          "text": "proceder à biópsia renal para confirmação diagnóstica da vasculite renal."
+        },
+        {
+          "letter": "D",
+          "text": "aguardar a recuperação espontânea da função renal, dada a recente angiografia, o que sugere nefropatia por contraste."
+        },
+        {
+          "letter": "E",
+          "text": "realizar biópsia de pele nas áreas de livedo reticular ou nos dedos do pé direito para buscar cristais de colesterol em arteríolas."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Doença ateroembólica de colesterol pós-cateterismo",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "embolia de colesterol",
+        "livedo reticular",
+        "eosinofilia",
+        "hipocomplementemia"
+      ]
+    },
+    {
+      "number": 64,
+      "statement": "Paciente feminina, 65 anos, com histórico de Diabetes Mellitus tipo 2 de longa data e neuropatia autonômica conhecida, procurou o pronto-socorro devido a uma agudização de sintomas gastrointestinais. Referiu dor abdominal do tipo cólica de forte intensidade, distensão abdominal progressiva, náuseas e episódios de vômitos. É o segundo episódio agudo com esses sinais e sintomas nos últimos seis meses, sendo o atual o mais grave. Cronicamente, queixa-se de constipação crônica e inchaço abdominal pós-prandial. Ao exame físico, apresentava-se desidratada, com abdome muito distendido, doloroso à palpação difusa, mas sem sinais de peritonite. Ruídos hidroaéreos diminuídos. Hemograma de admissão com leucocitose discreta (11.500/mm³) sem desvio à esquerda. Uma tomografia computadorizada de abdome e pelve com contraste demonstrou alças intestinais difusamente dilatadas em delgado e cólon, sem evidência de obstrução mecânica ou massa intraluminal ou extraluminal, mas com diminutos focos de Pneumatosis intestinalis. Exames laboratoriais de admissão revelaram hipocalemia (potássio sérico 2,8 mEq/L) e hipoalbuminemia (2,5 g/dL.). Diante do quadro clínico e dos resultados dos exames, a conduta inicial mais apropriada para essa paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar antibioticoterapia empírica visando a um possível supercrescimento bacteriano intestinal."
+        },
+        {
+          "letter": "B",
+          "text": "programar colonoscopia diagnóstica de urgência para exclusão de obstrução mecânica baixa."
+        },
+        {
+          "letter": "C",
+          "text": "administrar laxativos osmóticos e estimulantes em altas doses para alívio imediato da constipação e distensão abdominal."
+        },
+        {
+          "letter": "D",
+          "text": "iniciar suporte hidroeletrolítico intravenoso, suspender a dieta oral e considerar procinético como eritromicina, prucaloprida ou anticolinesterásico, dependendo da disponibilidade e tolerância."
+        },
+        {
+          "letter": "E",
+          "text": "solicitar exames como sorologias para doença celíaca, hormônios tireoidianos, marcadores inflamatórios e painel de autoanticorpos (ex.: antineuronais e de canais iônicos) para investigar a etiologia subjacente."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Motilidade intestinal",
+      "topic": "Pseudo-obstrução intestinal em neuropatia autonômica diabética",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pseudo-obstrução intestinal",
+        "síndrome de Ogilvie",
+        "neuropatia autonômica"
+      ]
+    },
+    {
+      "number": 65,
+      "statement": "Paciente masculino, 72 anos, foi admitido no pronto-socorro com queixa de inchaço, dor e sensação de peso progressivos na perna direita, há 48 horas. Há três semanas, foi submetido à cirurgia para correção de fratura de fêmur direito, tendo alta hospitalar há uma semana e mantendo-se com mobilidade restrita. Ao exame físico, a perna direita apresentava edema de 3+/4+, eritema discreto, aumento da temperatura local e dor à palpação da panturrilha. O restante do exame físico era normal, sem sinais de sangramento ativo. Exames laboratoriais revelaram D-dímero elevado (1200 ng/mL, valor de referência < 500 ng/mL), hemograma sem alterações significativas (hemoglobina 14,0 g/dL, plaquetas 250.000/mm³), coagulograma normal e função renal preservada (creatinina 0,9 mg/dL). O ultrassom cor doppler venoso do membro inferior direito confirmou a presença de trombose venosa profunda oclusiva no segmento femoropoplíteo, estendendo-se até a veia femoral comum. Diante do diagnóstico de trombose venosa profunda e das características do paciente, a conduta terapêutica inicial mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar apixabana 10 mg, duas vezes ao dia, por sete dias, seguida de 5 mg, duas vezes ao dia, por um período mínimo de três meses."
+        },
+        {
+          "letter": "B",
+          "text": "indicar a inserção de filtro de veia cava inferior para prevenção de embolia pulmonar, seguido de anticoagulação oral."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar heparina não fracionada em bolus seguido de infusão contínua com ajuste por TTPA, seguido de transição para varfarina."
+        },
+        {
+          "letter": "D",
+          "text": "iniciar rivaroxabana 15 mg, duas vezes ao dia, por três semanas, seguida de 10 mg, uma vez ao dia, por um período mínimo de seis meses."
+        },
+        {
+          "letter": "E",
+          "text": "iniciar enoxaparina 1 mg/kg subcutânea a cada 12 horas e, concomitantemente, dabigatrana 150 mg, duas vezes ao dia."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Trombose venosa profunda — anticoagulação com apixabana",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "TVP",
+        "apixabana",
+        "anticoagulação oral direta"
+      ]
+    },
+    {
+      "number": 66,
+      "statement": "Paciente feminina, 28 anos, usuária de lentes de contato de uso prolongado, procurou o pronto-socorro com dor ocular intensa, de início súbito, no olho esquerdo, progressiva, não aliviada por analgésicos e que a impedia de dormir. Relatou que não consegue manter o olho esquerdo aberto devido a uma sensação de \"algo no olho\", além de marcada sensibilidade à luz (fotofobia). Há 24 horas, percebeu vermelhidão intensa e diminuição da acuidade visual no olho afetado, com secreção purulenta esverdeada. Ao exame clínico, o olho esquerdo apresentava hiperemia mais acentuada ao redor da córnea (ciliary flush), pupila miótica e um ponto branco opaco visível na córnea. O reflexo pupilar no olho esquerdo estava diminuído. No olho direito não havia alterações. O provável diagnóstico e a conduta mais apropriada para a paciente são",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ceratite bacteriana e encaminhamento oftalmológico de emergência para início de tratamento antibiótico tópico intensivo."
+        },
+        {
+          "letter": "B",
+          "text": "conjuntivite bacteriana e tratamento com colírio antibiótico."
+        },
+        {
+          "letter": "C",
+          "text": "irite (uveíte anterior) e encaminhamento urgente para uso de corticoides tópicos."
+        },
+        {
+          "letter": "D",
+          "text": "glaucoma de ângulo fechado agudo e colírios hipotensores para redução rápida da pressão intraocular."
+        },
+        {
+          "letter": "E",
+          "text": "hemorragia subconjuntival e conjuntivite bacteriana, com tratamento expectante para a hemorragia e colírio antibiótico para a conjuntivite."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Oftalmologia",
+      "subtheme": "Olho vermelho",
+      "topic": "Ceratite bacteriana em usuária de lente de contato",
+      "difficulty": "FACIL",
+      "keywords": [
+        "ceratite bacteriana",
+        "lente de contato",
+        "olho vermelho"
+      ]
+    },
+    {
+      "number": 67,
+      "statement": "Paciente feminina, 35 anos, apresenta há 8 anos lesões recorrentes em axilas e região inguinal, inicialmente com nódulos dolorosos que evoluíram para abscessos e túneis fistulosos com drenagem de secreção purulenta e odor fétido. Relata impacto significativo na qualidade de vida devido à dor crônica e ao constrangimento social. Seu índice de massa corporal (IMC) é de 32 kg/m², apresentando histórico de dislipidemia, pré-diabetes e tabagismo. A paciente já havia utilizado diferentes ciclos de antibióticos sistêmicos em outras ocasiões, sem melhora expressiva do quadro. Ao exame, múltiplas lesões ativas e cicatrizes fibróticas são observadas em ambas as axilas e virilhas. O International Hidradenitis Suppurativa Severity Score System (IHS4) é de 12, e o Hurley Staging foi considerado estágio II. A biópsia cutânea de uma das lesões revelou infiltrado inflamatório crônico perianexial, com foliculite e ruptura folicular, sem evidência de infecção por patógenos. Considerando o quadro clínico de hidradenite supurativa moderada a grave em fase inflamatória, a conduta terapêutica mais apropriada para a paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar terapia com doxiciclina oral em monoterapia por tempo indeterminado e acompanhamento nutricional para perda de peso."
+        },
+        {
+          "letter": "B",
+          "text": "iniciar rifampicina e clindamicina orais por 12 semanas, associando adalimumabe, juntamente com manejo multidisciplinar das comorbidades, suporte psicológico e analgésicos."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar cefalexina oral por 12 semanas e manejo das comorbidades sistêmicas."
+        },
+        {
+          "letter": "D",
+          "text": "aplicar clindamicina tópica a 1% nas lesões ativas, injeções intralesionais de corticoides e uso de rituximabe subcutâneo associado à gentamicina sestêmica."
+        },
+        {
+          "letter": "E",
+          "text": "tratar com ibrupofeno para dor, lavagem das áreas afetadas com sabonete antisséptico, aconselhamento para cessação do tabagismo e doxiciclina por 14 dias."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Reumatologia",
+      "subtheme": "Manifestações cutâneas",
+      "topic": "Hidradenite supurativa moderada a grave",
+      "difficulty": "FACIL",
+      "keywords": [
+        "hidradenite supurativa",
+        "adalimumabe",
+        "Hurley"
+      ]
+    },
+    {
+      "number": 68,
+      "statement": "Paciente do sexo feminino, 72 anos, internada há 10 dias, em Unidade de Terapia Intensiva, devido à pneumonia grave, tratada com ceftriaxona. Há 48 horas, iniciou quadro de diarreia líquida (6 episódios nas últimas 24 horas), acompanhada de dor abdominal difusa. Apresenta leucocitose de 18.000 células/mm³ e creatinina sérica de 1,8 mg/dL (valor basal de 0,9 mg/dL). A paciente não possui histórico de diarreia prévia. Considerando o quadro clínico e os fatores de risco para infecção por Clostridioides difficile, a conduta diagnóstica e terapêutica mais apropriada é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "iniciar tratamento com metronidazol oral 500 mg, de 8/8h, por 14 dias, enquanto se aguarda o resultado da pesquisa de toxinas A e B nas fezes."
+        },
+        {
+          "letter": "B",
+          "text": "realizar pesquisa isolada de toxinas A e B para Clostridioides difficile nas fezes e iniciar metronidazol oral 500 mg, 3 vezes ao dia, por 10 dias, enquanto se aguarda a confirmação diagnóstica."
+        },
+        {
+          "letter": "C",
+          "text": "iniciar tratamento com fidaxomicina 200 mg, duas vezes ao dia, por 10 dias sem possibilidade de coleta de exames para diagnóstico, uma vez que as fezes são líquidas."
+        },
+        {
+          "letter": "D",
+          "text": "prescrever probióticos, rifaximina por 14 dias, coletar toxina A e B nas fezes e teste de amplificação de ácido nucleico (PCR) nas fezes para Clostridioides difficile, não havendo necessidade de colocar a paciente em precaução de contato."
+        },
+        {
+          "letter": "E",
+          "text": "realizar teste de amplificação de ácido nucleico (PCR) para Clostridioides difficile ou o teste de antígeno glutamato desidrogenase (GDH), em conjunto com a pesquisa das toxinas A e B, ambos nas fezes, e iniciar vancomicina oral 125 mg, 4 vezes por dia, por 10 dias."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Colite por Clostridioides difficile",
+      "difficulty": "FACIL",
+      "keywords": [
+        "Clostridioides difficile",
+        "PCR fezes",
+        "vancomicina oral"
+      ],
+      "reference": "Diretriz IDSA/SHEA para Clostridioides difficile"
+    },
+    {
+      "number": 69,
+      "statement": "Paciente masculino, 78 anos procurou o cardiologista com queixas de dispneia progressiva aos esforços há 2 anos, que agora o impede de caminhar mais de um quarteirão. Relata episódios recentes de tontura e quase desmaio durante atividades mais intensas, além de dor torácica opressiva ao subir escadas, que alivia com repouso. Ao exame físico, apresenta pulsos periféricos de amplitude diminuída e ascenso lento (pulsus parvus et tardus). O ictus cordis é palpável no 6º espaço intercostal esquerdo, linha axilar média, com características propulsivas e sustentadas. Há frêmito sistólico palpável no 2º espaço intercostal direito, junto ao esterno. À ausculta cardíaca, as bulhas são rítmicas, a 2ª bulha (B2) apresenta componente aórtico (A2) hipofonético. É audível uma quarta bulha (84), em ápice cardíaco. Presente sopro sistólico ejetivo (crescendo-decrescendo) de alta intensidade (Grau IV/VI), com pico mesossistólico, mais audível na borda esternal direita alta (2º espaço intercostal) e em foco aórtico acessório (3º espaço intercostal esquerdo), com irradiação nítida para as carótidas e para o ápice (fenômeno de Gallavardin). O sopro diminui discretamente de intensidade à manobra de Valsalva. O diagnóstico cardiovascular mais provável para esse paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "estenose pulmonar grave."
+        },
+        {
+          "letter": "B",
+          "text": "insuficiência mitral crônica."
+        },
+        {
+          "letter": "C",
+          "text": "cardiomiopatia hipertrófica obstrutiva."
+        },
+        {
+          "letter": "D",
+          "text": "esclerose aórtica sem significado hemodinâmico."
+        },
+        {
+          "letter": "E",
+          "text": "estenose aórtica grave."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Cardiologia",
+      "subtheme": "Valvopatias",
+      "topic": "Estenose aórtica grave — semiologia",
+      "difficulty": "FACIL",
+      "keywords": [
+        "estenose aórtica",
+        "pulsus parvus et tardus",
+        "sopro sistólico"
+      ]
+    },
+    {
+      "number": 70,
+      "statement": "Uma paciente de 65 anos, com diagnóstico de doença renal crônica (DRC) estágio IIIB (clearance de creatinina 40 mL/min), apresentando hipertensão arterial sistêmica e Diabetes Mellitus tipo 2, procurou seu médico para se informar sobre quais vacinas ela deveria tomar, considerando suas condições de saúde. Ela se preocupa em manter-se protegida contra infecções. Considerando o calendário de vacinação da Sociedade Brasileira de Imunização (SBIm) 2025 para situações especiais, a recomendação mais adequada para essa paciente é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a vacinação contra o Vírus Sincicial Respiratório (VSR) é recomendada a partir dos 50 anos, especialmente para pessoas com nefropatia, devido ao risco de evolução grave ou descompensação."
+        },
+        {
+          "letter": "B",
+          "text": "a vacina contra influenza é indicada apenas na forma trivalente, independentemente da idade ou comorbidades adicionais, com uma única dose anual."
+        },
+        {
+          "letter": "C",
+          "text": "a vacina pneumocócica VPC13 é sempre a primeira escolha, seguida de uma dose de VPP23 após 5 anos, sem a possibilidade de outras opções."
+        },
+        {
+          "letter": "D",
+          "text": "a vacina contra hepatite B não é prioritária para pacientes com DRC, diabetes ou hipertensão, a menos que haja contato domiciliar com portadores do vírus."
+        },
+        {
+          "letter": "E",
+          "text": "é desnecessária a vacina contra herpes zoster na forma inativada (VZR) nos casos em que já houve doença por varicela ou a vacinação contra herpes zoster na forma atenuada."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Doença renal crônica",
+      "topic": "Vacinação do paciente com DRC — vacina contra VSR",
+      "difficulty": "FACIL",
+      "keywords": [
+        "calendário vacinal",
+        "DRC",
+        "vacina VSR"
+      ],
+      "reference": "Calendário de vacinação SBIm para situações especiais"
+    },
+    {
+      "number": 71,
+      "statement": "Paciente masculino, 55 anos, procurou o consultório médico com queixas de fadiga progressiva, fraqueza, sangramento gengival esporádico e surgimento fácil de equimoses nos últimos 3 meses. Negou febre, calafrios, perda ponderal significativa ou sudorese noturna. Não havia outras comorbidades conhecidas. O paciente não estava em uso recente de medicamentos que pudessem justificar o quadro. Ele relatou histórico de consumo moderado de álcool (cerca de 2 a 3 doses por dia), há aproximadamente 20 anos. Ao exame físico, apresentava-se pálido, com algumas petéquias discretas em membros inferiores. Não havia linfonodomegalias palpáveis. O fígado era palpável há 2 cm abaixo do rebordo costal direito, de consistência normal e indolor. Baço não foi palpável. O restante do exame físico estava sem alterações significativas. Exames laboratoriais iniciais - Hemograma: Hemoglobina: 8,0 g/dL; Leucócitos totais: 2.500/mm³ com Neutrófilos: 1.000/mm³; Plaquetas: 70.000/mm³. Volume Corpuscular Médio (VCM): 105 fL; Anísocitose (+); Plaquetas hipogranulares. Reticulócitos: 0,5%. Cinética de Ferro: Ferro sérico: 90 mcg/dL (VR: 60-170 mcg/dL); Ferritina: 150 ng/mL; VR: 20-250 ng/mL; Capacidade Total de Ligação do Ferro (TIBC): 300 mcg/dL (VR 250-400 mcg/dl). Bioquímica: Bilirrubina total: 1,5 mg/dL com bilirrubina indireta: 1,0 mg/dL; AST: 60 U/L; ALT: 75 U/L; Gama-GT (GGT): 120 U/L (VR: <50 U/L); Creatinina: 1,0 mg/dL. Considerando o quadro clínico e os exames laboratoriais iniciais, a abordagem investigativa mais apropriada para determinar a etiologia da pancitopenia é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "solicitar velocidade de hemossedimentação (VHS), proteína C reativa (PCR) e testes de função tireoidiana."
+        },
+        {
+          "letter": "B",
+          "text": "dosar B12 e folato séricos, e sorologias para HIV, hepatites B e C, Parvovírus B19, CMV e EBV."
+        },
+        {
+          "letter": "C",
+          "text": "realizar mielograma e biópsia de medula óssea, com colorações especiais, citogenéticas e FISH."
+        },
+        {
+          "letter": "D",
+          "text": "investigar hemoglobinúria paroxística noturna por citometria de fluxo e revisão de esfregaço de sangue periférico."
+        },
+        {
+          "letter": "E",
+          "text": "solicitar tomografia computadorizada de tórax, abdome e pelve para investigação de infiltração medular, linfadenopatias e hepatoesplenomegalia."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Hematologia",
+      "subtheme": "Anemias",
+      "topic": "Pancitopenia — investigação inicial",
+      "difficulty": "FACIL",
+      "keywords": [
+        "pancitopenia",
+        "deficiência de B12",
+        "sorologias virais"
+      ]
+    },
+    {
+      "number": 72,
+      "statement": "Um paciente de 45 anos portador de insuficiência renal crônica em tratamento conservador sentiu mal estar geral e procurou uma unidade de emergência. A dosagem sérica de potássio em sangue colhido no momento foi de 6,5 mEq/L. O ECG apresentou alteração que é comum nos quadros de hipercalemia moderada e grave. A alteração esperada é a(o)",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "onda P alargada."
+        },
+        {
+          "letter": "B",
+          "text": "onda T achatada."
+        },
+        {
+          "letter": "C",
+          "text": "encurtamento do intervalo PR."
+        },
+        {
+          "letter": "D",
+          "text": "encurtamento do intervalo QT."
+        },
+        {
+          "letter": "E",
+          "text": "prolongamento do intervalo QRS."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Nefrologia",
+      "subtheme": "Distúrbios hidroeletrolíticos",
+      "topic": "Hipercalemia — alterações eletrocardiográficas",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hipercalemia",
+        "eletrocardiograma",
+        "QRS alargado"
+      ]
+    },
+    {
+      "number": 73,
+      "statement": "Um jovem de 25 anos dá entrada em UPA com quadro de forte dor lombar e vômitos. Ele apresenta cálculos renais por oxalato de cálcio com crises esporádicas de cólica nefrética. Em relação às nefrolitíases, é correto afirmar que",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "a fosfatemia elevada aumenta o risco de geração de cálculos de oxalato de cálcio."
+        },
+        {
+          "letter": "B",
+          "text": "a hidratação venosa volumosa deve ser administrada nas crises de cólica nefrética."
+        },
+        {
+          "letter": "C",
+          "text": "o uso de diuréticos tiazídicos deve ser evitado em casos de litíase por oxalato de cálcio."
+        },
+        {
+          "letter": "D",
+          "text": "o citrato de potássio é uma boa opção terapêutica para cálculos de oxalato de cálcio."
+        },
+        {
+          "letter": "E",
+          "text": "o uso de antiespasmódicos como a escopolamina é bastante eficaz na cólica nefrética e deve ser instituído."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Nefrolitíase por oxalato de cálcio — profilaxia",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "nefrolitíase",
+        "oxalato de cálcio",
+        "citrato de potássio"
+      ]
+    },
+    {
+      "number": 75,
+      "statement": "Um homem de 61 anos apresentou quadro de artrite gotosa na primeira articulação metatarsofalangeana direita. Foi realizada uma artrocentese para confirmação diagnóstica. Em relação ao líquido sinovial colhido, é correto afirmar que:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Apresenta viscosidade alta."
+        },
+        {
+          "letter": "B",
+          "text": "Possui aspecto transparente."
+        },
+        {
+          "letter": "C",
+          "text": "Apresenta coloração amarelada."
+        },
+        {
+          "letter": "D",
+          "text": "A contagem de leucócitos é menor do que 1.000/mL."
+        },
+        {
+          "letter": "E",
+          "text": "O percentual de polimorfonucleares é menor que 50%."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Reumatologia",
+      "subtheme": "Artrites microcristalinas",
+      "topic": "Líquido sinovial na gota",
+      "difficulty": "DIFICIL",
+      "keywords": [
+        "gota",
+        "artrocentese",
+        "líquido sinovial"
+      ]
+    },
+    {
+      "number": 76,
+      "statement": "A lamotrigina é uma droga utilizada como estabilizadora de humor e anticonvulsivante que tem como característica a baixa toxicidade. O aumento da dose deve ser feito de forma lenta e gradual para evitar",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "agitação."
+        },
+        {
+          "letter": "B",
+          "text": "vertigens e náuseas."
+        },
+        {
+          "letter": "C",
+          "text": "crises hipertensivas."
+        },
+        {
+          "letter": "D",
+          "text": "tireotoxicose apática."
+        },
+        {
+          "letter": "E",
+          "text": "síndrome de Stevens-Johnson."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Psiquiatria",
+      "subtheme": "Estabilizadores de humor",
+      "topic": "Lamotrigina — síndrome de Stevens-Johnson",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "lamotrigina",
+        "Stevens-Johnson",
+        "estabilizador de humor"
+      ]
+    },
+    {
+      "number": 77,
+      "statement": "Um homem de 67 anos, pessoa vivendo com HIV, é considerado um \"controlador de elite\". O termo pode ser definido como",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "pessoa que não se infecta pelo HIV a despeito de exposições repetidas sem proteção."
+        },
+        {
+          "letter": "B",
+          "text": "pessoa que necessita de doses menores de antirretrovirais para manter a viremia indetectável."
+        },
+        {
+          "letter": "C",
+          "text": "pessoa que possui contagem de linfócitos T CD4 maior do que a população em geral sem o HIV."
+        },
+        {
+          "letter": "D",
+          "text": "pessoa que mantém a carga viral indetectável com contagem de linfócitos TCD4 normal sem tratamento antirretroviral."
+        },
+        {
+          "letter": "E",
+          "text": "Pessoa em que a testagem anti-HIV é repetidamente não reatora apesar de haver carga viral detectável com valores nem sempre baixos."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Infectologia",
+      "subtheme": "HIV/AIDS",
+      "topic": "Controlador de elite do HIV",
+      "difficulty": "FACIL",
+      "keywords": [
+        "controlador de elite",
+        "HIV",
+        "carga viral indetectável sem TARV"
+      ]
+    },
+    {
+      "number": 78,
+      "statement": "Uma mulher de 37 anos com sinais e sintomas sistêmicos crônicos tais como astenia, dores musculares, alterações no sono, tremores e hipotireoidismo foi diagnosticada com síndrome ASIA. Essa entidade nosológica é consequência principalmente de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "infecção crônica pelo vírus da hepatite B."
+        },
+        {
+          "letter": "B",
+          "text": "infecção crônica pelo vírus da hepatite C."
+        },
+        {
+          "letter": "C",
+          "text": "síndrome paraneoplásica de tumor ginecológico."
+        },
+        {
+          "letter": "D",
+          "text": "implantes de próteses de silicone e outros agentes adjuvantes."
+        },
+        {
+          "letter": "E",
+          "text": "exposição a agentes ionizantes de forma prolongada."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Reumatologia",
+      "subtheme": "Síndromes autoimunes induzidas",
+      "topic": "Síndrome ASIA por implante de silicone",
+      "difficulty": "FACIL",
+      "keywords": [
+        "síndrome ASIA",
+        "prótese de silicone",
+        "adjuvante"
+      ]
+    },
+    {
+      "number": 79,
+      "statement": "Um paciente de 55 anos com ascite volumosa foi submetido a paracentese com análise do líquido ascítico. O gradiente albumina soro-ascite (GASA) se mostrou diminuído. A causa provável da ascite é",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "mixedema."
+        },
+        {
+          "letter": "B",
+          "text": "trombose de veia porta."
+        },
+        {
+          "letter": "C",
+          "text": "carcinomatose peritoneal."
+        },
+        {
+          "letter": "D",
+          "text": "insuficiência cardíaca congestiva."
+        },
+        {
+          "letter": "E",
+          "text": "síndrome da obstrução sinusoidal."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Cirrose e complicações",
+      "topic": "Ascite por carcinomatose peritoneal — GASA baixo",
+      "difficulty": "FACIL",
+      "keywords": [
+        "GASA",
+        "carcinomatose peritoneal",
+        "ascite"
+      ]
+    },
+    {
+      "number": 80,
+      "statement": "Uma mulher em uso contínuo de dabigatrana começou a apresentar episódios de epistaxe e hematúria. Não descontinuou o uso da medicação e os sangramentos se intensificaram. Para reversão do quadro, o indicado é usar:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Vitamina K."
+        },
+        {
+          "letter": "B",
+          "text": "Protamina."
+        },
+        {
+          "letter": "C",
+          "text": "Vasopressina."
+        },
+        {
+          "letter": "D",
+          "text": "Idarucizumabe."
+        },
+        {
+          "letter": "E",
+          "text": "Metilprednisolona."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Reversão de dabigatrana — idarucizumabe",
+      "difficulty": "FACIL",
+      "keywords": [
+        "dabigatrana",
+        "idarucizumabe",
+        "reversão de anticoagulante"
+      ]
+    }
+  ]
+}

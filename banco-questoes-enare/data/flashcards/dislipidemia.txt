@@ -1,0 +1,21 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Cardiologia::Dislipidemia
+Doença arterial periférica é equivalente de {{c1::risco cardiovascular aterosclerótico}}.	Indicação de estatina de alta intensidade, independentemente do LDL basal.	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na DAP, a estatina indicada é de {{c1::alta intensidade}} (atorvastatina 40-80 mg ou rosuvastatina 20-40 mg).	Vinheta ENARE 2025 Q34.	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na DAP, a meta de LDL é {{c1::<70 mg/dL}} (ou <50 se risco adicional muito alto).	—	Assunto::dislipidemia Conceito
+O diagnóstico de DAP é confirmado por índice tornozelo-braquial {{c1::<0,9}}.	Claudicação intermitente é a apresentação clássica, mas nem sempre presente.	Assunto::dislipidemia Conceito
+Em hipertrigliceridemia grave, o risco imediato mais temido é {{c1::pancreatite aguda}}.	Não é apenas o risco cardiovascular que preocupa nesse nível.	Assunto::dislipidemia Conceito
+Hipertrigliceridemia grave torna-se preocupante acima de {{c1::500-1000 mg/dL}}.	Acima de 1000 mg/dL, o tratamento é urgente mesmo sem sintomas.	Assunto::dislipidemia Conceito
+O tratamento farmacológico de primeira linha na hipertrigliceridemia grave é {{c1::fibrato}}.	Junto com restrição de gordura, controle glicêmico e suspensão de álcool.	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Se refratária a fibrato, associar {{c1::ômega-3 em altas doses}} e/ou niacina.	Vinheta ENARE 2025 Q45 (hipertrigliceridemia refratária a fibrato).	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Diante de refratariedade a fibrato, também é preciso investigar {{c1::causas secundárias}}.	Hipotireoidismo, DM descompensado, álcool, síndrome nefrótica, estrogênio, tamoxifeno, retinoides, corticoide.	Assunto::dislipidemia Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Entre os fibratos, {{c1::fenofibrato}} é preferido à genfibrozila quando associado a estatina.	Menor risco de interação farmacológica e miopatia.	Assunto::dislipidemia Conceito
+Com triglicerídeos muito elevados, a fórmula de {{c1::Friedewald}} fica inválida para estimar LDL.	Usar LDL direto ou colesterol não-HDL como referência.	Assunto::dislipidemia Conceito
+O ácido bempedoico inibe a enzima {{c1::ATP-citrato liase}}.	Etapa da síntese de colesterol anterior à HMG-CoA redutase.	Assunto::dislipidemia Banca::ENARE Ano::2026 Dificuldade::FACIL
+O ácido bempedoico é um pró-fármaco ativado seletivamente no {{c1::fígado}}, não no músculo.	Isso reduz o risco de mialgia/miopatia comparado à estatina. Vinheta ENARE 2026 Q47.	Assunto::dislipidemia Banca::ENARE Ano::2026 Dificuldade::FACIL
+O estudo que mostrou redução de eventos cardiovasculares com ácido bempedoico é o {{c1::CLEAR Outcomes}}.	Especialmente útil em intolerância à estatina.	Assunto::dislipidemia Conceito
+O ácido bempedoico pode elevar {{c1::ácido úrico}} e desencadear crise de gota.	Atenção em paciente com histórico de hiperuricemia.	Assunto::dislipidemia Conceito
+Na sequência terapêutica de prevenção secundária, após estatina de alta intensidade vem {{c1::ezetimiba}}.	Depois, inibidor de PCSK9 ou ácido bempedoico se meta não atingida.	Assunto::dislipidemia Conceito
+🔤 Mnemônico da escada terapêutica hipolipemiante: {{c1::EEP}}.	Estatina de alta intensidade → Ezetimiba → PCSK9/bempedoico. Recurso próprio, não é mnemônico oficial.	Assunto::dislipidemia Mnemonico

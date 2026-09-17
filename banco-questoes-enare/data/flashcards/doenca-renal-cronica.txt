@@ -1,0 +1,21 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Nefrologia::Doença renal crônica
+DRC é definida por TFG <{{c1::60 mL/min/1,73m²}} por ≥3 meses.	Ou marcador de dano renal (albuminúria) presente por ≥3 meses.	Assunto::doenca-renal-cronica Conceito
+O critério temporal para definir cronicidade na DRC é persistência por ≥{{c1::3 meses}}.	Confirma que a perda de função não é aguda/reversível.	Assunto::doenca-renal-cronica Conceito
+O estadiamento KDIGO combina categoria de TFG (G1-G5) com categoria de {{c1::albuminúria (A1-A3)}}.	Determina risco de progressão e frequência de seguimento.	Assunto::doenca-renal-cronica Conceito
+Sintomas urêmicos se concentram no estágio {{c1::G5}} (TFG muito baixa, geralmente <15).	Não há correlação linear estreita entre ureia sérica e gravidade clínica em toda a DRC.	Assunto::doenca-renal-cronica Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+A ureia isolada é marcador {{c1::pouco confiável}} de função renal.	Varia com dieta hiperproteica, catabolismo, sangramento digestivo alto, corticoide e hidratação.	Assunto::doenca-renal-cronica Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Relação ureia/creatinina desproporcionalmente alta sugere causa {{c1::pré-renal}}.	Não indica necessariamente piora da TFG basal.	Assunto::doenca-renal-cronica Conceito
+O parâmetro mais robusto para estadiar a DRC é a {{c1::TFG estimada por CKD-EPI}}.	Mais confiável que ureia ou creatinina isoladas.	Assunto::doenca-renal-cronica Conceito
+A ureia é reabsorvida no túbulo proximal de forma dependente do {{c1::fluxo urinário}}.	Por isso reflete de forma imprecisa a TFG isoladamente.	Assunto::doenca-renal-cronica Conceito
+Finerenona é um antagonista {{c1::não esteroidal}} do receptor mineralocorticoide.	Estrutura diferente dos antagonistas esteroidais clássicos (espironolactona/eplerenona).	Assunto::doenca-renal-cronica Banca::ENARE Ano::2026 Dificuldade::FACIL
+Finerenona é indicada em diabéticos tipo 2 com DRC e {{c1::albuminúria}}.	Reduz progressão renal e eventos cardiovasculares.	Assunto::doenca-renal-cronica Conceito
+Finerenona deve ser adicionada a IECA/BRA já otimizados, {{c1::não em substituição}} a eles.	Faz parte de um esquema combinado de nefroproteção.	Assunto::doenca-renal-cronica Conceito
+O principal evento adverso a monitorar com finerenona é {{c1::hipercalemia}}.	Checar potássio antes de iniciar e durante o uso, especialmente com IECA/BRA associado.	Assunto::doenca-renal-cronica Conceito
+Finerenona tem menor afinidade por receptores de {{c1::andrógeno e progesterona}} que os antagonistas esteroidais.	Explica seu perfil de efeitos adversos hormonais mais favorável.	Assunto::doenca-renal-cronica Conceito
+Pilar de nefroproteção no diabético com DRC, além de IECA/BRA e finerenona: {{c1::iSGLT2}} (dapagliflozina/empagliflozina).	Combinados conforme critérios de TFG e potássio.	Assunto::doenca-renal-cronica Conceito
+Paciente com DRC avançada/diálise deve receber as vacinas: {{c1::VSR (vírus sincicial respiratório)}}, {{c2::influenza}}, {{c3::pneumocócica}} e {{c4::hepatite B}}.	Grupo de risco para doença respiratória grave, independente da idade. Evitar vacinas de vírus vivo atenuado em imunossupressão avançada/diálise.	Assunto::doenca-renal-cronica Banca::ENARE Ano::2026 Dificuldade::FACIL
+A indicação de diálise é guiada por critérios clínicos, {{c1::não por um valor isolado de TFG}}.	Uremia sintomática refratária, hipercalemia, acidose ou sobrecarga volêmica refratárias.	Assunto::doenca-renal-cronica Conceito
+🔤 Na DRC, hiperfiltração compensatória dos néfrons remanescentes {{c1::perpetua}} a lesão glomerular.	Hipótese de Brenner — mecanismo paradoxal de progressão da doença.	Assunto::doenca-renal-cronica Mnemonico

@@ -1,0 +1,22 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Hematologia::Anemias
+Anemia ferropriva é {{c1::microcítica e hipocrômica}}.	VCM e HCM baixos.	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+Anemia ferropriva, perfil laboratorial: RDW = {{c1::elevado}}; ferritina = {{c2::baixa}} (marcador mais específico); TIBC (capacidade de ligação do ferro) = {{c3::elevada}}; saturação de transferrina = {{c4::baixa}}.	RDW elevado ajuda a diferenciar de talassemia (RDW tipicamente normal). Foi a vinheta ENARE 2026 Q15 (perfil laboratorial da ferropriva).	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+Ferritina é reagente de {{c1::fase aguda}}.	Em contexto inflamatório, ferritina "normal" não exclui ferropenia.	Assunto::anemias Conceito
+A causa mais comum de ferropenia em adultos é {{c1::perda sanguínea crônica}}.	Investigar trato gastrointestinal em homens e em mulheres pós-menopausa.	Assunto::anemias Conceito
+Deficiência de B12 causa anemia macrocítica com neutrófilos {{c1::hipersegmentados}}.	Achado clássico do esfregaço na deficiência de B12/folato.	Assunto::anemias Conceito
+A degeneração combinada subaguda da medula pode ocorrer {{c1::sem anemia}} concomitante.	Não esperar anemia para suspeitar clinicamente. Vinheta ENARE 2026 Q18.	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+Na degeneração combinada subaguda, o cordão posterior lesado causa perda de {{c1::propriocepção e sensibilidade vibratória}}.	—	Assunto::anemias Conceito
+Na degeneração combinada subaguda, o trato corticoespinhal lesado causa {{c1::espasticidade e Babinski}}.	Cordão lateral da medula.	Assunto::anemias Conceito
+Na falta de B12, tanto ácido metilmalônico quanto {{c1::homocisteína}} ficam elevados.	Na falta isolada de folato, só a homocisteína sobe.	Assunto::anemias Conceito
+Na falta isolada de folato, sobe apenas a {{c1::homocisteína}} (ácido metilmalônico normal).	Esse é o diferencial laboratorial entre falta de B12 e de folato.	Assunto::anemias Conceito
+NÃO repor {{c1::ácido fólico isoladamente}} sem excluir deficiência de B12.	Pode corrigir a anemia e mascarar a progressão do dano neurológico.	Assunto::anemias Conceito
+B12 com manifestação neurológica já estabelecida deve ser reposta por via {{c1::parenteral (IM)}}.	Não tratar quadro neurológico instalado só com via oral.	Assunto::anemias Conceito
+Causa clássica de deficiência de B12 relacionada a cirurgia: {{c1::gastrectomia ou bariátrica}}.	Também: Crohn ileal, metformina crônica, dieta vegana estrita.	Assunto::anemias Conceito
+Na investigação de pancitopenia, o primeiro exame funcional é a contagem de {{c1::reticulócitos}}.	Avalia se a medula está respondendo. Vinheta ENARE 2026 Q71.	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+Reticulócitos baixos na pancitopenia sugerem falência de {{c1::produção medular}}.	Reticulocitose relativa, ao contrário, sugere destruição/sequestro periférico.	Assunto::anemias Conceito
+Após reticulócitos e esfregaço, a investigação de pancitopenia sem causa evidente segue com {{c1::mielograma/biópsia de medula óssea}}.	—	Assunto::anemias Banca::ENARE Ano::2026 Dificuldade::FACIL
+NÃO tratar pancitopenia com {{c1::transfusão empírica}} sem investigar a causa de base.	Suporte transfusional não substitui o diagnóstico etiológico.	Assunto::anemias Conceito
+🔤 Mnemônico do perfil da ferropriva (Ferritina-TIBC-Saturação): {{c1::Baixa-Alta-Baixa}}.	Ferritina baixa, TIBC alta, saturação de transferrina baixa. Recurso próprio, não é mnemônico oficial.	Assunto::anemias Mnemonico

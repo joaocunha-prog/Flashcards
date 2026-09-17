@@ -1,0 +1,30 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Hepatopatias não virais
+Complicação mais temida da insuficiência hepática aguda: {{c1::edema cerebral}} com hipertensão intracraniana.	Diferente da encefalopatia do cirrótico crônico.	Assunto::hepatopatias-nao-virais Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Na insuficiência hepática aguda, o edema cerebral é do tipo {{c1::citotóxico}} e de instalação rápida.	Pode levar a herniação.	Assunto::hepatopatias-nao-virais Conceito
+Hiperamonemia grave (>150-200) na insuficiência hepática aguda é preditor de risco de {{c1::edema cerebral}}.	Justifica monitorização e medidas de redução da pressão intracraniana.	Assunto::hepatopatias-nao-virais Conceito
+Na insuficiência hepática aguda, a amônia não metabolizada causa edema {{c1::de astrócitos}}.	O fígado normalmente converte amônia em ureia.	Assunto::hepatopatias-nao-virais Conceito
+Critérios de King's College definem indicação de {{c1::transplante hepático de urgência}}.	Na insuficiência hepática aguda.	Assunto::hepatopatias-nao-virais Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Critérios de King's College por paracetamol: isolado = {{c1::pH <7,3 ou lactato elevado}}; alternativa (tríade) = {{c2::INR >6,5}} + {{c3::creatinina >3,4}} + {{c4::encefalopatia grau III/IV}}.	—	Assunto::hepatopatias-nao-virais Conceito
+Critérios de King's College não-paracetamol: isolado = {{c1::INR >6,5}}; alternativa = 3 de 5 entre {{c2::idade}}, {{c3::etiologia}}, {{c4::intervalo icterícia-encefalopatia >7 dias}}, {{c5::INR >3,5}} e {{c6::bilirrubina >17,5}}.	—	Assunto::hepatopatias-nao-virais Conceito
+Os critérios de King's College para paracetamol e não-paracetamol {{c1::não são intercambiáveis}}.	Pitfall clássico: aplicar o critério errado para a etiologia da vinheta.	Assunto::hepatopatias-nao-virais Conceito
+DHEM (doença hepática esteatótica associada à disfunção metabólica) é diagnóstico de {{c1::exclusão}}.	Mesmo diante de síndrome metabólica evidente.	Assunto::hepatopatias-nao-virais Banca::ENARE Ano::2025 Dificuldade::FACIL
+Antes de firmar diagnóstico de DHEM, deve-se excluir consumo relevante de {{c1::álcool}}.	Também hepatites virais e hepatopatias autoimunes.	Assunto::hepatopatias-nao-virais Conceito
+Ferramenta não invasiva de primeira linha para rastreio de fibrose na DHEM: {{c1::FIB-4}}.	Também elastografia hepática/FibroScan.	Assunto::hepatopatias-nao-virais Banca::ENARE Ano::2026 Dificuldade::FACIL
+FIB-4 combina idade, AST, ALT e {{c1::plaquetas}}.	Dados já disponíveis na maioria das consultas.	Assunto::hepatopatias-nao-virais Conceito
+Na DHEM, a biópsia hepática deve ser reservada a casos de {{c1::dúvida diagnóstica ou estadiamento incerto}}.	Não deve ser o primeiro exame para estadiar fibrose.	Assunto::hepatopatias-nao-virais Conceito
+A DHEM decorre do acúmulo de {{c1::triglicérides}} nos hepatócitos.	Ligado a resistência insulínica e síndrome metabólica.	Assunto::hepatopatias-nao-virais Conceito
+A evolução da DHEM para esteato-hepatite (inflamação e fibrose) determina o risco de {{c1::cirrose}}.	Daí a importância de estadiar fibrose, não só constatar esteatose.	Assunto::hepatopatias-nao-virais Conceito
+Gastrite atrófica metaplásica autoimune destrói {{c1::células parietais}} do corpo gástrico.	Antiga gastrite tipo A.	Assunto::hepatopatias-nao-virais Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Anticorpos característicos da gastrite autoimune: {{c1::anti-célula parietal e anti-fator intrínseco}}.	—	Assunto::hepatopatias-nao-virais Conceito
+A gastrite autoimune leva a acloridria e deficiência de {{c1::vitamina B12 (anemia perniciosa)}}.	Fator intrínseco necessário à absorção de B12 no íleo terminal.	Assunto::hepatopatias-nao-virais Conceito
+A deficiência de B12 na gastrite autoimune pode preceder por sintomas {{c1::neurológicos}} a anemia macrocítica clássica.	Parestesias, degeneração combinada subaguda de medula.	Assunto::hepatopatias-nao-virais Conceito
+A gastrite autoimune classicamente poupa o {{c1::antro}}, acometendo corpo/fundo.	Mantém células G produtoras de gastrina.	Assunto::hepatopatias-nao-virais Conceito
+Na gastrite autoimune, a gastrina sérica fica {{c1::elevada}} (hipergastrinemia reativa à acloridria).	Pode ser confundida com síndrome de Zollinger-Ellison sem o contexto correto.	Assunto::hepatopatias-nao-virais Conceito
+Gastrite autoimune aumenta o risco de {{c1::adenocarcinoma gástrico}}.	Vigilância endoscópica periódica é indicada.	Assunto::hepatopatias-nao-virais Conceito
+Gastrite autoimune também aumenta o risco de {{c1::tumor carcinoide tipo 1}}.	Por hiperplasia de células enterocromafins-símiles secundária à acloridria crônica.	Assunto::hepatopatias-nao-virais Conceito
+A gastrite autoimune resulta de resposta de linfócitos T contra a {{c1::H+/K+-ATPase}} das células parietais.	—	Assunto::hepatopatias-nao-virais Conceito
+Tratamento da gastrite autoimune: reposição de {{c1::vitamina B12 parenteral}}, geralmente vitalícia.	Além de vigilância endoscópica periódica.	Assunto::hepatopatias-nao-virais Conceito
+🔤 Mnemônico: gastrite autoimune poupa o {{c1::antro}} — "Autoimune Ataca o Alto" (corpo/fundo, não antro).	Recurso próprio, não é mnemônico oficial.	Assunto::hepatopatias-nao-virais Mnemonico

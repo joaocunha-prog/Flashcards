@@ -1,0 +1,22 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Infectologia::Infecções sexualmente transmissíveis
+Infecção gonocócica disseminada cursa com tenossinovite migratória e {{c1::lesões cutâneas pustulosas}} em extremidades.	Síndrome artrite-dermatite gonocócica, por bacteremia de N. gonorrhoeae.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2025 Dificuldade::MEDIA
+A gonococcemia disseminada costuma partir de foco mucoso {{c1::assintomático}}.	Ausência de sintomas genitais não exclui o diagnóstico.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+O tratamento da infecção gonocócica disseminada é {{c1::ceftriaxona parenteral}}.	Dose e duração maiores que a gonorreia não complicada (geralmente 7 dias).	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Na gonococcemia disseminada, as lesões cutâneas surgem por {{c1::embolização séptica}} de pequenos vasos.	Geralmente sem artrite séptica purulenta clássica na maioria das articulações.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+Sífilis secundária apresenta rash {{c1::palmo-plantar}}.	Também condiloma plano e linfadenopatia generalizada.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2026 Dificuldade::MEDIA
+O tratamento da sífilis secundária é penicilina benzatina 2,4 milhões UI em {{c1::dose única}}.	Mesmo esquema da sífilis primária e latente recente.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Sífilis latente tardia é definida por duração {{c1::>1 ano}} (ou indeterminada).	Diferente da latente recente, com <1 ano.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+O tratamento da sífilis latente tardia é penicilina benzatina 1x/semana por {{c1::3 semanas (3 doses)}}.	Diferente da sífilis recente, tratada com dose única.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Em pessoa vivendo com HIV, o esquema de penicilina para sífilis segue os {{c1::mesmos critérios}} da população geral.	A coinfecção não muda o esquema por estágio.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2025 Dificuldade::DIFICIL
+Em pessoa vivendo com HIV com sífilis, há maior vigilância para {{c1::neurossífilis}}.	Também há queda mais lenta da titulação sorológica no seguimento — sem mudar o esquema por estágio.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+Sintoma neurológico/oftálmico/auditivo sugestivo de neurossífilis indica punção lombar {{c1::independente do estágio sorológico}}.	Neurossífilis pode ocorrer em qualquer estágio da doença.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+Gestante alérgica à penicilina com sífilis deve ser submetida a {{c1::dessensibilização}}, não trocar o antibiótico.	Penicilina é a única droga com eficácia comprovada para prevenir sífilis congênita.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+O seguimento da sífilis é feito com {{c1::VDRL/RPR quantitativo seriado}}.	Queda de pelo menos 2 diluições em 6 meses indica resposta adequada.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+O teste treponêmico permanece reagente {{c1::indefinidamente}}, mesmo após cura.	Por isso não serve para monitorar resposta ao tratamento.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+O manejo sindrômico do corrimento uretral cobre empiricamente {{c1::gonorreia e clamídia}} simultaneamente.	Sem esperar confirmação laboratorial.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2026 Dificuldade::FACIL
+No corrimento uretral, o antibiótico para gonococo é {{c1::ceftriaxona}}; para clamídia é {{c2::azitromicina}}.	Cobertura simultânea, sem esperar confirmação laboratorial.	Assunto::infeccoes-sexualmente-transmissiveis Banca::ENARE Ano::2026 Dificuldade::FACIL
+No manejo sindrômico do corrimento uretral, as {{c1::parcerias sexuais}} também devem ser tratadas.	Parte essencial do manejo sindrômico, não só do paciente índice.	Assunto::infeccoes-sexualmente-transmissiveis Conceito
+🔤 Mnemônico da sífilis: dose única cura a recente, {{c1::3 doses}} tratam a tardia.	Ajuda a lembrar a diferença de esquema por estágio.	Assunto::infeccoes-sexualmente-transmissiveis Mnemonico

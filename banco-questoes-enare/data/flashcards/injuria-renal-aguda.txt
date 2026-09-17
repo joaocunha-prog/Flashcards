@@ -1,0 +1,20 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Nefrologia::Injúria renal aguda
+Mnemônico AEIOU — indicações de diálise de urgência: A = {{c1::Acidose refratária}}; E = {{c2::Eletrólitos (hipercalemia refratária/grave)}}; I = {{c3::Intoxicação exógena por substância dialisável}}; O = {{c4::Overload de volume refratário a diurético}}; U = {{c5::Uremia sintomática (encefalopatia, pericardite, sangramento)}}.	Uma indicação absoluta isolada já basta para indicar TRS.	Assunto::injuria-renal-aguda Mnemonico Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Uma única indicação absoluta de diálise de urgência {{c1::já basta}} para indicar TRS.	Não é necessário somar critérios.	Assunto::injuria-renal-aguda Banca::EBSERH Ano::2026 Dificuldade::MEDIA
+Hipercalemia grave com alteração de {{c1::ECG}}, refratária a tratamento clínico, indica diálise de urgência.	Independe do valor absoluto de creatinina.	Assunto::injuria-renal-aguda Conceito
+Indicações de diálise de urgência independem do {{c1::estágio KDIGO}} quando há complicação refratária.	—	Assunto::injuria-renal-aguda Conceito
+Causa comum e subdiagnosticada de IRA por AINE: {{c1::nefrite intersticial aguda (NIA)}}.	—	Assunto::injuria-renal-aguda Banca::ENARE Ano::2025 Dificuldade::FACIL
+Na NIA por AINE, a piora da função renal ocorre {{c1::dias a semanas}} após o início do fármaco.	—	Assunto::injuria-renal-aguda Conceito
+A tríade clássica da NIA (febre, rash, eosinofilia) está presente em menos de {{c1::10%}} dos casos.	Não deve ser exigida para suspeitar do diagnóstico.	Assunto::injuria-renal-aguda Conceito
+Achado típico do sedimento urinário na NIA: {{c1::leucocitúria estéril}}.	—	Assunto::injuria-renal-aguda Banca::ENARE Ano::2025 Dificuldade::FACIL
+Eosinofilúria na NIA é achado sugestivo, mas {{c1::não obrigatório}}.	Sensibilidade e especificidade limitadas.	Assunto::injuria-renal-aguda Conceito
+Medida terapêutica mais importante na NIA medicamentosa: {{c1::suspender o agente causador}}.	Maioria melhora só com isso.	Assunto::injuria-renal-aguda Banca::ENARE Ano::2025 Dificuldade::FACIL
+Corticoide na NIA medicamentosa é considerado apenas se {{c1::não houver melhora após a suspensão do fármaco}}.	Não é conduta inicial de rotina.	Assunto::injuria-renal-aguda Conceito
+Biópsia renal na NIA é reservada a casos {{c1::sem melhora após suspensão do fármaco}}.	—	Assunto::injuria-renal-aguda Conceito
+AINEs causam lesão pré-renal por inibição das {{c1::prostaglandinas vasodilatadoras}}.	Mecanismo hemodinâmico, distinto da NIA.	Assunto::injuria-renal-aguda Conceito
+A lesão pré-renal por AINE é reversível, sem componente {{c1::imunológico}}.	Diferente da NIA, que é imunomediada.	Assunto::injuria-renal-aguda Conceito
+Fator de risco para lesão pré-renal por AINE: uso concomitante de {{c1::IECA ou diurético}}.	—	Assunto::injuria-renal-aguda Conceito
+Mecanismo da NIA é reação de hipersensibilidade mediada por {{c1::células T}}.	—	Assunto::injuria-renal-aguda Conceito

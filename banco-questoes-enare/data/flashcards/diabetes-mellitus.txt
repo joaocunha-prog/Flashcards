@@ -1,0 +1,21 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Endocrinologia::Diabetes mellitus
+O DM2 tem componente genético {{c1::poligênico/multifatorial}}.	Herdabilidade alta, risco muito aumentado com história familiar de primeiro grau.	Assunto::diabetes-mellitus Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Diferente do DM2, o DM1 associa-se principalmente ao {{c1::HLA}}.	Componente autoimune — destruição de células beta.	Assunto::diabetes-mellitus Conceito
+Entre DM1 e DM2, a concordância entre gêmeos monozigóticos é maior no {{c1::DM2}}.	Pegadinha clássica — DM1 é classicamente percebido como "mais genético", mas não é.	Assunto::diabetes-mellitus Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+O efeito legado ("legacy effect") ocorre com controle rígido {{c1::logo após o diagnóstico}} em jovens.	Traz benefício cardiovascular a longo prazo — diferente do controle rígido tardio no idoso.	Assunto::diabetes-mellitus Conceito
+Controle glicêmico intensivo em idosos frágeis {{c1::não reduz mortalidade}}.	Evidência de estudos como o ACCORD.	Assunto::diabetes-mellitus Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Controle glicêmico intensivo em idosos frágeis aumenta o risco de {{c1::hipoglicemia grave}}.	Vinheta EBSERH 2025 Q42.	Assunto::diabetes-mellitus Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Meta de HbA1c em idoso frágil/expectativa de vida limitada deve ser mais {{c1::flexível (7,5-8,5%)}}.	Metas devem ser individualizadas por idade, comorbidade e expectativa de vida.	Assunto::diabetes-mellitus Conceito
+Em idosos, a contrarregulação hormonal à hipoglicemia (glucagon/catecolaminas) é {{c1::mais lenta}}.	Contribui para o maior risco de hipoglicemia grave nessa faixa etária.	Assunto::diabetes-mellitus Conceito
+Hipoglicemia grave fora do hospital, com paciente inconsciente, é tratada com {{c1::glucagon IM/SC}}.	Nunca oferecer alimento/líquido oral nesse cenário. Vinheta ENARE 2025 Q49.	Assunto::diabetes-mellitus Banca::ENARE Ano::2025 Dificuldade::MEDIA
+Em paciente inconsciente com hipoglicemia, NÃO oferecer via {{c1::oral}}.	Risco de aspiração — usar glucagon.	Assunto::diabetes-mellitus Banca::ENARE Ano::2025 Dificuldade::MEDIA
+O glucagon age mobilizando {{c1::glicogênio hepático}}.	Estimula a glicogenólise, elevando a glicemia sem necessidade de acesso venoso.	Assunto::diabetes-mellitus Conceito
+O glucagon pode ser ineficaz quando há depleção de {{c1::glicogênio hepático}} (etilismo crônico, desnutrição).	Nesses casos, glicose IV é necessária assim que houver acesso venoso.	Assunto::diabetes-mellitus Conceito
+Hipoglicemia por {{c1::sulfonilureia}} tem risco de recidiva prolongada.	Meia-vida longa da droga — exige observação estendida.	Assunto::diabetes-mellitus Conceito
+Hipoglicemia grave recorrente é, por si só, indicação de {{c1::relaxar metas glicêmicas}}.	E reconsiderar o esquema terapêutico (ex.: trocar sulfonilureia).	Assunto::diabetes-mellitus Conceito
+O glucagon pode causar {{c1::náusea/vômito}} como efeito adverso.	Orientar posicionamento de segurança em paciente ainda inconsciente.	Assunto::diabetes-mellitus Conceito
+Em hipoglicemia com paciente consciente e capaz de deglutir, usar {{c1::carboidrato de absorção rápida por via oral}}.	Diferente do paciente inconsciente, que precisa de glucagon.	Assunto::diabetes-mellitus Conceito
+🔤 Mnemônico da hipoglicemia grave extra-hospitalar: {{c1::inconsciente = glucagon, nunca via oral}}.	Regra de bolso para lembrar a via de administração correta. Recurso próprio.	Assunto::diabetes-mellitus Mnemonico

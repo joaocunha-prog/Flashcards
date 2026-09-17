@@ -1,0 +1,1094 @@
+{
+  "slug": "ebserh-2025",
+  "year": 2025,
+  "board": "EBSERH",
+  "program": "Grupo Clínica Médica — Conhecimentos Específicos",
+  "title": "EBSERH 2025 — Grupo Clínica Médica",
+  "source": "PROVA_OFICIAL",
+  "reference": "Caderno de questões (pciconcursos.com.br) e gabarito oficial da FGV/EBSERH, EBSERH 2025 — Grupo Clínica Médica — apenas os itens de Conhecimentos Específicos (questões 31 a 60; Conhecimentos Básicos ficaram de fora, a pedido). Sem estatística de percentual de resposta por alternativa nesta fonte, então a dificuldade abaixo é um valor padrão (MEDIA), não medida.",
+  "questions": [
+    {
+      "number": 31,
+      "statement": "Demência é a deterioração das habilidades cognitivas que prejudica a realização das atividades habituais. O seu curso de instalação é variável. Em relação à demência, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Quase 75% dos casos de Doença de Alzheimer começam com ansiedade ou depressão e alterações de personalidade."
+        },
+        {
+          "letter": "B",
+          "text": "Fatores de risco modificáveis associados à sua ocorrência são perda auditiva, tabagismo, etilismo e alto nível educacional."
+        },
+        {
+          "letter": "C",
+          "text": "A apresentação clássica da Doença de Creutzfeldt-Jakob é de uma demência rapidamente progressiva."
+        },
+        {
+          "letter": "D",
+          "text": "História de trauma craniano de repetição é sugestiva de demência vascular."
+        },
+        {
+          "letter": "E",
+          "text": "O principal fator de risco isolado para demência é a doença ateroesclerótica."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Neurologia",
+      "subtheme": "Demências",
+      "topic": "Doença de Creutzfeldt-Jakob — apresentação rapidamente progressiva",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "demência",
+        "Creutzfeldt-Jakob",
+        "demência rapidamente progressiva"
+      ]
+    },
+    {
+      "number": 32,
+      "statement": "Paciente, 74 anos, se apresenta na Emergência com edema facial e cervical, além de queixa de cefaleia e dispneia. Sobre o diagnóstico de síndrome da veia cava superior, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Na faixa etária do paciente, a causa neoplásica mais provável para a síndrome de veia cava superior é um linfoma."
+        },
+        {
+          "letter": "B",
+          "text": "A prevalência de causas benignas de síndrome de veia cava superior está aumentando por conta do aumento do uso de cateteres de longa permanência e marcapassos / desfibriladores."
+        },
+        {
+          "letter": "C",
+          "text": "Na ocorrência de convulsões, a causa mais comum é edema cerebral e, em seguida, a presença de metástases cerebrais."
+        },
+        {
+          "letter": "D",
+          "text": "Radioterapia deve ser a primeira escolha em todos os tipos de síndrome de veia cava de causas neoplásicas."
+        },
+        {
+          "letter": "E",
+          "text": "A remoção do cateter venoso de longa permanência deve ser realizada sem a necessidade de anticoagulação."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Oncologia",
+      "subtheme": "Emergências oncológicas",
+      "topic": "Síndrome da veia cava superior — causas benignas emergentes",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome da veia cava superior",
+        "cateter de longa permanência",
+        "marcapasso"
+      ]
+    },
+    {
+      "number": 33,
+      "statement": "Uma das formas mais comuns de avaliação da insuficiência cardíaca é a graduação pela classificação da New York Heart Association (NYHA). Em relação a essa classificação, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Pacientes cardiopatas da classe I têm fadiga leve nas atividades físicas ordinárias e não em repouso."
+        },
+        {
+          "letter": "B",
+          "text": "Pacientes cardiopatas com sintomas associados em repouso já são, pelo menos, da classe III."
+        },
+        {
+          "letter": "C",
+          "text": "Pacientes cardiopatas assintomáticos, mesmo nas atividades físicas, são incluídos na classe 0."
+        },
+        {
+          "letter": "D",
+          "text": "Pacientes cardiopatas com leve limitação de atividade física são incluídos na classe II."
+        },
+        {
+          "letter": "E",
+          "text": "Pacientes cardiopatas da classe IV são sintomáticos em todas as situações, exceto nas atividades físicas leves."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Insuficiência cardíaca",
+      "topic": "Classificação funcional NYHA",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "NYHA",
+        "classe funcional",
+        "insuficiência cardíaca"
+      ]
+    },
+    {
+      "number": 34,
+      "statement": "A hipertensão arterial sistêmica atinge mais de um bilhão de pessoas e se estima que cause o óbito de 9,4 milhões de pessoas por ano. Sobre as várias doenças associadas à hipertensão arterial e suas causas secundárias, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Embora uma minoria de pacientes com apneia do sono tenha hipertensão, o tratamento da doença com pressão aérea positiva contínua (CPAP) é muito eficaz para controlar a pressão nesses casos."
+        },
+        {
+          "letter": "B",
+          "text": "Hipertensão de origem renovascular está relacionada com deterioração da função renal, quando se faz a combinação de um antagonista de cálcio com diurético tiazídico."
+        },
+        {
+          "letter": "C",
+          "text": "Na hipertensão dos pacientes com hiperaldosteronismo primário, a maioria é assintomática e as causas mais comuns são adenoma produtor de aldosterona e hiperplasia adrenal bilateral."
+        },
+        {
+          "letter": "D",
+          "text": "A obesidade está fortemente associada à hipertensão e à síndrome de resistência à insulina, principalmente à obesidade periférica."
+        },
+        {
+          "letter": "E",
+          "text": "A resistência à insulina é parte da síndrome metabólica, que parece ter um componente genético e baixa resposta às modificações do estilo de vida, como exercício físico."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Endocrinologia",
+      "subtheme": "Doenças da adrenal",
+      "topic": "Hiperaldosteronismo primário — apresentação e causas",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "hiperaldosteronismo primário",
+        "adenoma produtor de aldosterona",
+        "hiperplasia adrenal"
+      ]
+    },
+    {
+      "number": 35,
+      "statement": "Asma é uma doença caracterizada por episódios de obstrução aérea e aumento da responsividade das vias aéreas, acompanhada por reação inflamatória. A asma é uma das mais comuns doenças crônicas associadas à morbidade e à mortalidade. Sobre a asma, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Uma significativa proporção da hereditariedade da asma está relacionada com a atopia, que é uma tendência genética para a produção de IgA específica em resposta a alérgenos."
+        },
+        {
+          "letter": "B",
+          "text": "O infiltrado inflamatório é composto basicamente por neutrófilos. O infiltrado de eosinófilos e mastócitos é visto na doença mais severa."
+        },
+        {
+          "letter": "C",
+          "text": "A maior grossura das vias aéreas não tem relação com a severidade da asma, pois é achado universal por conta das crises inflamatórias."
+        },
+        {
+          "letter": "D",
+          "text": "Uma das possíveis causas do broncoespasmo severo pode ser mediada pela diminuição dos níveis de óxido nítrico local, que é frequentemente documentada."
+        },
+        {
+          "letter": "E",
+          "text": "A reação inflamatória do tipo 2, associada com interleucinas 4, 5 e 13, é a forma mais comum de estímulo ao aumento da reatividade brônquica."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Pneumologia",
+      "subtheme": "Asma",
+      "topic": "Inflamação tipo 2 — IL-4, IL-5 e IL-13",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "asma",
+        "inflamação tipo 2",
+        "interleucinas"
+      ]
+    },
+    {
+      "number": 36,
+      "statement": "Paciente, 59 anos, tabagista de longa data e portador de enfisema, é admitido no hospital com hipoxemia, taquipneia e dispneia. Sobre o caso apresentado, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "O uso de corticoide acelera a recuperação, mas não evita recaída posterior. Deve ser usado pelo menos, quatro semanas."
+        },
+        {
+          "letter": "B",
+          "text": "O uso de oxigênio deve ser feito para manter a SP02  90% apenas. Em alguns pacientes, pode haver aumento da PaCO2."
+        },
+        {
+          "letter": "C",
+          "text": "Os antibióticos devem ser usados apenas nos casos de evidência radiológica ou microbiológica, mesmo nos casos mais severos, por conta da colonização por bactérias multirresistentes."
+        },
+        {
+          "letter": "D",
+          "text": "A embolia pulmonar, importante causa de taquipneia, está excluída, porque não ocorre durante as exacerbações de doença pulmonar obstrutiva crônica."
+        },
+        {
+          "letter": "E",
+          "text": "A radiografia de tórax deve ser realizada em todos os casos de exacerbação da doença pulmonar obstrutiva crônica, pois existem novas anormalidades na maioria dos casos."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Pneumologia",
+      "subtheme": "DPOC",
+      "topic": "Exacerbação da DPOC — oxigenoterapia controlada",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "DPOC",
+        "oxigenoterapia",
+        "hipercapnia"
+      ]
+    },
+    {
+      "number": 37,
+      "statement": "Paciente do sexo feminino, 49 anos de idade, procura auxílio médico por dor abdominal de forte intensidade, localizada em epigastro e hipocôndrio direito. Sobre o caso, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Na hipótese de pancreatite aguda, a ultrassonografia de abdômen deve ser realizada como modalidade de imagem inicial para avaliar a presença de cálculos e dilatação de vias biliares."
+        },
+        {
+          "letter": "B",
+          "text": "A elevação de amilase e lipase mais de três vezes o valor de referência é indicativa de pancreatite aguda e quanto mais altos os valores, mais severa é a doença."
+        },
+        {
+          "letter": "C",
+          "text": "A tomografia computadorizada de abdômen com contraste deve ser realizada precocemente, nas primeiras 24-48 horas, para avaliar a presença de necrose pancreática."
+        },
+        {
+          "letter": "D",
+          "text": "A presença de anemia e de leucocitose são considerados marcadores de severidade da pancreatite aguda."
+        },
+        {
+          "letter": "E",
+          "text": "A presença de necrose pancreática visualizada por exames de imagem, deve levar ao tratamento com antibióticos e ressecção cirúrgica."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Doenças do pâncreas",
+      "topic": "Pancreatite aguda — ultrassonografia como imagem inicial",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "pancreatite aguda",
+        "ultrassonografia",
+        "cálculo biliar"
+      ]
+    },
+    {
+      "number": 38,
+      "statement": "Em relação às doenças inflamatórias intestinais, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Um diagnóstico diferencial dessas doenças é a infecção por micobactéria, predominante em pacientes com imunidade normal, ou por citomegalovírus, nos imunossuprimidos."
+        },
+        {
+          "letter": "B",
+          "text": "São doenças genéticas com contribuição modesta da microbiota intestinal na sua patogenia."
+        },
+        {
+          "letter": "C",
+          "text": "A colite ulcerativa causa dores no quadrante inferior direito do abdômen e diarreia, por vezes sendo confundido com apendicite."
+        },
+        {
+          "letter": "D",
+          "text": "As complicações mais prevalentes na Doença de Crohn são a diarreia disabsortiva e a formação de fístulas."
+        },
+        {
+          "letter": "E",
+          "text": "A colangite esclerosante primária que evolui para cirrose hepática é documentada na maioria dos pacientes com doença intestinal inflamatória."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Doenças inflamatórias intestinais",
+      "topic": "Doença de Crohn — complicações mais prevalentes",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "doença de Crohn",
+        "fístula",
+        "diarreia disabsortiva"
+      ]
+    },
+    {
+      "number": 39,
+      "statement": "A insuficiência renal é estabelecida quando existe uma diminuição da taxa de filtração glomerular, o que habitualmente é avaliado pelo nível plasmático da creatinina. Em relação à insuficiência renal, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A suspeita de insuficiência renal pré-renal deve surgir quando a relação entre o nitrogênio ureico e a creatinina plasmáticos for de 10:1 e a excreção de sódio urinário estiver aumentada."
+        },
+        {
+          "letter": "B",
+          "text": "A presença de azotemia, de anemia e de hipocalcemia deve levar o clínico ao diagnóstico de uma insuficiência renal aguda."
+        },
+        {
+          "letter": "C",
+          "text": "Os sinais e os sintomas de uremia se desenvolvem em níveis diferentes de creatinina plasmática de acordo com fatores associados ao paciente, mas, em geral, a taxa de filtração glomerular está abaixo de 15 mL/min."
+        },
+        {
+          "letter": "D",
+          "text": "A presença de proteinúria no “spot urinário” (pesquisa de elementos anormais e sedimentos) é inespecífica, podendo representar albumina (síndrome nefrótica) ou imunoglobulinas (mieloma múltiplo)."
+        },
+        {
+          "letter": "E",
+          "text": "A presença de hematúria grosseira com coágulos, na maior parte dos casos, vai indicar uma patologia do rim."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Nefrologia",
+      "subtheme": "Doença renal crônica",
+      "topic": "Uremia — correlação com taxa de filtração glomerular",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "uremia",
+        "taxa de filtração glomerular",
+        "insuficiência renal"
+      ]
+    },
+    {
+      "number": 40,
+      "statement": "Assinale a opção que apresenta a melhor recomendação de detecção precoce de adenocarcinoma de cólon, segundo as diretrizes da força-tarefa de prevenção americana (US Preventive Task Forces).",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Realizar a pesquisa de sangue oculto nas fezes a cada 5 anos, entre 45 e 75 anos de idade."
+        },
+        {
+          "letter": "B",
+          "text": "Realizar colonoscopia a cada 10 anos entre os 45 e 75 anos de idade."
+        },
+        {
+          "letter": "C",
+          "text": "Realizar sigmoidoscopia combinada com pesquisa de sangue oculto nas fezes a cada 5 anos, entre os 45 e os 75 anos de idade."
+        },
+        {
+          "letter": "D",
+          "text": "Realizar colonoscopia e/ou pesquisa de sangue oculto nas fezes apenas a partir dos 55 anos de idade até os 75 anos de idade, a cada 5 anos."
+        },
+        {
+          "letter": "E",
+          "text": "Realizar colonoscopia para detecção de adenocarcinoma de cólon apenas naqueles com histórico familiar da doença."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Oncologia",
+      "subtheme": "Rastreamento oncológico",
+      "topic": "Câncer colorretal — recomendação USPSTF",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "USPSTF",
+        "colonoscopia",
+        "rastreamento"
+      ]
+    },
+    {
+      "number": 41,
+      "statement": "Em relação ao diabetes mellitus, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A recomendação é iniciar a avaliação para diabetes aos 50 anos de idade, exceto nos obesos ou com outros fatores de risco."
+        },
+        {
+          "letter": "B",
+          "text": "A prevalência aumentou nas últimas décadas, principalmente do diabetes mellitus tipo 1 pela melhora no diagnóstico."
+        },
+        {
+          "letter": "C",
+          "text": "O teste de tolerância à glicose oral após uma ou duas horas não deve ser mais usado, dada a alta sensibilidade da hemoglobina glicada para o diagnóstico de intolerância à glicose."
+        },
+        {
+          "letter": "D",
+          "text": "No diabetes mellitus gestacional a hiperglicemia é detectada por volta do terceiro trimestre da gravidez, desde que não haja evidência da doença antes da mesma."
+        },
+        {
+          "letter": "E",
+          "text": "O diabetes tipo 2 tem um componente genético muito forte, com concordância maior do que 50% em gêmeos idênticos."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Endocrinologia",
+      "subtheme": "Diabetes mellitus",
+      "topic": "Diabetes tipo 2 — componente genético",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "diabetes tipo 2",
+        "gêmeos idênticos",
+        "concordância genética"
+      ]
+    },
+    {
+      "number": 42,
+      "statement": "O paciente com diabetes mellitus sem um tratamento eficaz está sujeito a diversas complicações. Em relação aos aspectos do tratamento e às complicações, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Nos estudos de monitorização intensiva de glicose em pacientes mais idosos com diabetes mellitus tipo 2, o controle glicêmico muito intensivo pôde levar à maior mortalidade."
+        },
+        {
+          "letter": "B",
+          "text": "Metformina é o hipoglicemiante oral mais utilizado no tratamento do diabetes mellitus do tipo 2 devido à sua praticidade, já que pode ser usado mesmo em pacientes com insuficiência renal ou hepática."
+        },
+        {
+          "letter": "C",
+          "text": "Ao contrário do que ocorre no paciente com diabetes mellitus tipo 1, a terapia com insulina nunca faz parte do tratamento inicial do diabetes mellitus do tipo 2."
+        },
+        {
+          "letter": "D",
+          "text": "A retinopatia diabética, que aparece ao fim da primeira década de hiperglicemia ou no início da segunda década, causa perda visual, mas, felizmente, quase nunca leva à cegueira."
+        },
+        {
+          "letter": "E",
+          "text": "A microalbuminúria que ocorre na nefropatia diabética deve ser tratada com controle glicêmico e diuréticos; os agentes inibidores da enzima conversora de angiotensina devem ser evitados."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Endocrinologia",
+      "subtheme": "Diabetes mellitus",
+      "topic": "Controle glicêmico intensivo no idoso — mortalidade",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "controle glicêmico intensivo",
+        "idoso",
+        "mortalidade"
+      ]
+    },
+    {
+      "number": 43,
+      "statement": "Paciente masculino, 45 anos de idade, em investigação para dor em região lombar baixa bilateral persistente e que piora à noite. Existe também dificuldade de mobilizar a coluna lombar particularmente em repouso. A avaliação laboratorial do sangue revelou anemia, elevação da fosfatase alcalina e da imunoglobulina IgA. A dosagem de anticorpos antinucleares foi negativa. O paciente fez uma ressonância magnética para a investigação da dor, cujo laudo foi normal. O diagnóstico de espondiloartropatia foi pensado, porém existe um achado que é muito incomum nesse grupo de doenças. A respeito desse caso, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A elevação da imunoglobulina IgA não tem relação com a doença."
+        },
+        {
+          "letter": "B",
+          "text": "A rigidez da coluna lombar é maior durante atividade física."
+        },
+        {
+          "letter": "C",
+          "text": "A elevação de fosfatase alcalina não faz parte das manifestações da doença."
+        },
+        {
+          "letter": "D",
+          "text": "As espondiloartropatias são muito raras após os 40 anos de idade."
+        },
+        {
+          "letter": "E",
+          "text": "A dosagem de anticorpos antinucleares, na imensa maioria dos casos, é positiva."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Reumatologia",
+      "subtheme": "Espondiloartropatias",
+      "topic": "Espondiloartropatia — apresentação atípica após os 40 anos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "espondiloartropatia",
+        "idade de início",
+        "IgA elevada"
+      ]
+    },
+    {
+      "number": 44,
+      "statement": "Em relação ao tratamento da artrite gotosa, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Colchicina não é eficaz na crise de gota, mas é essencial como profilaxia."
+        },
+        {
+          "letter": "B",
+          "text": "Anti-inflamatórios não esteroidais são reservados para crises de forte intensidade."
+        },
+        {
+          "letter": "C",
+          "text": "Losartana e fenofibrato auxiliam na redução do ácido úrico sérico."
+        },
+        {
+          "letter": "D",
+          "text": "Alopurinol deve ser utilizado por toda a vida após a crise gotosa, para evitar a cronicidade."
+        },
+        {
+          "letter": "E",
+          "text": "Corticoides tópicos ou sistêmicos são eficazes quando usados por período prolongado."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Reumatologia",
+      "subtheme": "Artrites microcristalinas",
+      "topic": "Gota — fármacos com efeito uricosúrico incidental",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "gota",
+        "losartana",
+        "fenofibrato",
+        "ácido úrico"
+      ]
+    },
+    {
+      "number": 45,
+      "statement": "Um eletrocardiograma com ritmo sinusal, encurtamento do intervalo P-R, ondas delta e alargamento do complexo QRS é típico de",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "miocardiopatia hipertrófica."
+        },
+        {
+          "letter": "B",
+          "text": "síndrome de Wolff-Parkinson-White."
+        },
+        {
+          "letter": "C",
+          "text": "intoxicação por digoxina."
+        },
+        {
+          "letter": "D",
+          "text": "bloqueio A-V de segundo grau Mobitz II."
+        },
+        {
+          "letter": "E",
+          "text": "hipercalcemia severa."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Cardiologia",
+      "subtheme": "Arritmias",
+      "topic": "Síndrome de Wolff-Parkinson-White — achados eletrocardiográficos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "WPW",
+        "onda delta",
+        "PR curto"
+      ]
+    },
+    {
+      "number": 46,
+      "statement": "Paciente do sexo feminino, 73 anos, apresenta febre e tosse. Sobre a suspeita de pneumonia, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A vacina pneumocócica de polissacarídeo (PPSV23) está recomendada porque gera memória imunológica mais longa do que a conjugada (PCV13)."
+        },
+        {
+          "letter": "B",
+          "text": "A demonstração radiológica de pneumatocele é altamente sugestiva de infecção fúngica."
+        },
+        {
+          "letter": "C",
+          "text": "A dosagem de procalcitonina tem excelente valor preditivo positivo para o diagnóstico de pneumonia bacteriana."
+        },
+        {
+          "letter": "D",
+          "text": "Oseltamivir deve ser iniciado após teste positivo para vírus influenza apenas nos pacientes imunossuprimidos."
+        },
+        {
+          "letter": "E",
+          "text": "A positividade da cultura de escarro é menor ou igual a 50%, mesmo nos casos de etiologia pneumocócica com bacteremia."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Pneumologia",
+      "subtheme": "Pneumonias",
+      "topic": "Pneumonia pneumocócica — sensibilidade da cultura de escarro",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "pneumonia pneumocócica",
+        "cultura de escarro",
+        "bacteremia"
+      ]
+    },
+    {
+      "number": 47,
+      "statement": "A encefalopatia é umas das mais temidas complicações das hepatopatias avançadas. No caso das hepatites agudas, a encefalopatia costuma estar relacionada a",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "edema cerebral."
+        },
+        {
+          "letter": "B",
+          "text": "neurotoxinas intestinais."
+        },
+        {
+          "letter": "C",
+          "text": "causa infecciosa."
+        },
+        {
+          "letter": "D",
+          "text": "ingesta excessiva de proteínas."
+        },
+        {
+          "letter": "E",
+          "text": "acidose metabólica."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Hepatopatias não virais",
+      "topic": "Encefalopatia na hepatite aguda — edema cerebral",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "encefalopatia hepática",
+        "hepatite aguda",
+        "edema cerebral"
+      ]
+    },
+    {
+      "number": 48,
+      "statement": "As opções a seguir apresentam condições que predispõem a ocorrência de nefrolitíase, à exceção de uma. Assinale-a.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Obesidade."
+        },
+        {
+          "letter": "B",
+          "text": "Doença de Crohn."
+        },
+        {
+          "letter": "C",
+          "text": "Acidose tubular renal distal."
+        },
+        {
+          "letter": "D",
+          "text": "Hipoparatireoidismo primário."
+        },
+        {
+          "letter": "E",
+          "text": "Diabetes Mellitus tipo 2."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Nefrologia",
+      "subtheme": "Rim em situações especiais",
+      "topic": "Fatores de risco para nefrolitíase — hipoparatireoidismo como exceção",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "nefrolitíase",
+        "hipoparatireoidismo",
+        "fatores de risco"
+      ]
+    },
+    {
+      "number": 49,
+      "statement": "Analise os exames a seguir. Hemoglobina: 6,9 g/dL; Volume corpuscular médio: 106 fL; Plaquetas: 34.000/mm3; Atividade de Protrombina: 100% (INR 0,99); Tempo de Tromboplastina Parcial Ativada: 23 seg. (relação 1,1). A seguinte condição está associada a esses achados:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "trombocitopenia por heparina."
+        },
+        {
+          "letter": "B",
+          "text": "coagulação intravascular disseminada."
+        },
+        {
+          "letter": "C",
+          "text": "púrpura trombocitopência trombótica."
+        },
+        {
+          "letter": "D",
+          "text": "hemofilia A."
+        },
+        {
+          "letter": "E",
+          "text": "púrpura trombocitopência idiopática."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Hematologia",
+      "subtheme": "Distúrbios da hemostasia",
+      "topic": "Púrpura trombocitopênica trombótica — perfil laboratorial",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "PTT",
+        "plaquetopenia",
+        "coagulograma normal"
+      ]
+    },
+    {
+      "number": 50,
+      "statement": "Em relação à infecção por Mycoplasma pneumoniae, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A afinidade do agente infeccioso pelos alvéolos pulmonares faz com que a apresentação como pneumonia seja muito mais comum do que como infecção de vias aéreas superiores."
+        },
+        {
+          "letter": "B",
+          "text": "A infecção é transmitida por gotículas expectoradas durante a tosse e resultam em doença clinicamente aparente em cerca de 80% dos casos."
+        },
+        {
+          "letter": "C",
+          "text": "O período de incubação é curto, menos de duas semanas tipicamente, o que faz com que o tempo de surto infeccioso em uma população seja curto."
+        },
+        {
+          "letter": "D",
+          "text": "Uma das formas comuns de adoecimento é a infecção do ouvido causando otite média com ou sem miringite bolhosa."
+        },
+        {
+          "letter": "E",
+          "text": "Uma vez feita a hipótese diagnóstica, o diagnóstico pode ser feito pela combinação da coloração de Gram no escarro com a detecção de crioaglutininas."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Doenças respiratórias atípicas",
+      "topic": "Mycoplasma pneumoniae — transmissão e apresentação",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "Mycoplasma pneumoniae",
+        "pneumonia atípica",
+        "transmissão por gotículas"
+      ]
+    },
+    {
+      "number": 51,
+      "statement": "As infecções hospitalares são um importante fator de morbi- mortalidade. Assinale a afirmativa correta acerca da medida que mais se destaca para diminuir o risco de sua ocorrência.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "O uso de antibioticoterapia profilática antes de todas as cirurgias e procedimentos tem levado a uma diminuição considerável de infecção por bactérias multirresistentes."
+        },
+        {
+          "letter": "B",
+          "text": "O isolamento respiratório do paciente é fundamental para se evitar a disseminação da infecção por Staphylococcus aureus."
+        },
+        {
+          "letter": "C",
+          "text": "O uso de álcool gel é muito pouco eficaz quando comparado à higiene com água e sabão, exceto para Clostridium difficile."
+        },
+        {
+          "letter": "D",
+          "text": "O cuidado no manejo de equipos de soro é fundamental para evitar infecção de cateter vascular, já que o patógeno se infiltra pelo interior do cateter na maioria dos casos."
+        },
+        {
+          "letter": "E",
+          "text": "A lavagem adequada das mãos com água e sabão diminui a chance de infecção cruzada."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Infectologia",
+      "subtheme": "Infecções relacionadas à assistência",
+      "topic": "Prevenção de infecção hospitalar — higiene das mãos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "infecção hospitalar",
+        "higiene das mãos",
+        "prevenção"
+      ]
+    },
+    {
+      "number": 52,
+      "statement": "Paciente é admitido com hemiparesia facio-braquio-crural esquerda iniciada há três horas. O achado da tomografia computadorizada de crânio mais importante para a infusão de ativador do plasminogênio tecidual recombinante, nesse caso, é:",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "ausência de hemorragia."
+        },
+        {
+          "letter": "B",
+          "text": "ausência de edema cerebral."
+        },
+        {
+          "letter": "C",
+          "text": "presença de hemorragia."
+        },
+        {
+          "letter": "D",
+          "text": "presença de edema cerebral."
+        },
+        {
+          "letter": "E",
+          "text": "irrelevante, pois não influirá na decisão terapêutica."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Neurologia",
+      "subtheme": "Neuroinfecção e emergências neurológicas",
+      "topic": "AVC isquêmico — critério de imagem para trombólise",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "AVC isquêmico",
+        "trombólise",
+        "tomografia de crânio",
+        "hemorragia"
+      ]
+    },
+    {
+      "number": 53,
+      "statement": "Paciente masculino, 49 anos, submetido recentemente à quimioterapia para uma neoplasia de pulmão, comparece à Emergência por conta de febre. Na admissão, o paciente encontra-se abatido, com pressão arterial de 90 x 60 mmHg; frequência cardíaca de 110 bpm; frequência respiratória de 24 IRpM e saturação de oxigênio na hemoglobina de 92%. O hemograma evidencia hemoglobina de 9,3 g/dL, leucócitos 700/mm3 (50% de neutrófilos, 30% linfócitos e 20% monócitos) e plaquetas 97.000/mm3. Em relação ao tratamento a ser seguido, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Como o paciente não está neutropênico, o tratamento antibiótico dependerá da presença de cateter vascular."
+        },
+        {
+          "letter": "B",
+          "text": "O tratamento com amoxicilina, clavulanato e ciprofloxacina pode ser prescrito, caso a duração de neutropenia desse paciente seja curta."
+        },
+        {
+          "letter": "C",
+          "text": "O tratamento ideal para o paciente deve ser determinado pelo foco de infecção e após o resultado de hemoculturas para se minimizar a resistência bacteriana."
+        },
+        {
+          "letter": "D",
+          "text": "O tratamento com cefepime é uma boa opção, já que infecção por Pseudomonas aeruginosa é comum nesse cenário."
+        },
+        {
+          "letter": "E",
+          "text": "Pacientes em tratamento quimioterápico que apresentam febre sempre são uma emergência clínica e devem receber os antibióticos mais potentes possíveis."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Hematologia",
+      "subtheme": "Neutropenia febril",
+      "topic": "Neutropenia febril — cobertura empírica para Pseudomonas",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "neutropenia febril",
+        "cefepime",
+        "Pseudomonas aeruginosa"
+      ]
+    },
+    {
+      "number": 54,
+      "statement": "Em relação ao infarto agudo do miocárdio, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Nos pacientes com dor típica e que não apresentam elevação do segmento ST, a doença coronariana de três vasos é incomum."
+        },
+        {
+          "letter": "B",
+          "text": "Nos pacientes sem elevação de ST no eletrocardiograma, a incidência de angina instável é maior do que a do infarto agudo do miocárdio por conta da maior sensibilidade dos testes sanguíneos."
+        },
+        {
+          "letter": "C",
+          "text": "A incidência de infarto agudo do miocárdio com elevação de ST no eletrocardiograma está diminuindo por intervenções médicas e mudança de hábitos."
+        },
+        {
+          "letter": "D",
+          "text": "A presença de alterações do eletrocardiograma como infradesnivelamento do segmento ST não ocorre nos pacientes com infarto agudo do miocárdio sem elevação do ST e devem levar a hipóteses alternativas como pericardite."
+        },
+        {
+          "letter": "E",
+          "text": "A medição sérica de troponina não é útil em um paciente com equivalente anginoso se o eletrocardiograma não evidenciar elevação do ST, pois existem múltiplas causas para a elevação da troponina."
+        }
+      ],
+      "answerKey": "C",
+      "theme": "Cardiologia",
+      "subtheme": "Síndromes coronarianas agudas",
+      "topic": "Infarto agudo do miocárdio — tendência epidemiológica do supra de ST",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "IAM",
+        "supradesnivelamento de ST",
+        "epidemiologia"
+      ]
+    },
+    {
+      "number": 55,
+      "statement": "Sobre os cuidados gerais com o paciente geriátrico em medicina interna, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Pacientes geriátricos devem sempre seguir os exames de triagem para neoplasias como colonoscopia e mamografia preconizados para os mais jovens, dado o aumento da expectativa de vida da população."
+        },
+        {
+          "letter": "B",
+          "text": "Não se deve usar benzodiazepínicos ou sedativos-hipnóticos como primeiro tratamento em pacientes idosos com delirium."
+        },
+        {
+          "letter": "C",
+          "text": "Pacientes idosos podem ter poucos sintomas de infecção e, por isso, qualquer evidência de anormalidade como bacteriúria deve ser prontamente medicada mesmo que assintomática."
+        },
+        {
+          "letter": "D",
+          "text": "Nos idosos, o diabetes mellitus é causa de declínio físico acelerado. Assim, a busca de valores baixos de hemoglobina glicada deve ser perseguida, mesmo sendo necessários múltiplos medicamentos."
+        },
+        {
+          "letter": "E",
+          "text": "Pacientes idosos são frágeis e as doenças evoluem para complicações de forma muito rápida. Assim, esses pacientes devem ser internados para tratamento agressivo em todas as situações."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Geriatria",
+      "subtheme": "Avaliação geriátrica ampla",
+      "topic": "Delirium no idoso — evitar benzodiazepínicos",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "delirium",
+        "benzodiazepínico",
+        "idoso"
+      ]
+    },
+    {
+      "number": 56,
+      "statement": "Em relação à esteatorreia, que ocorre por distúrbios da absorção de lipídeos, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Os triglicerídeos de cadeia média são absorvidos pelos enterócitos após serem submetidos à lipólise."
+        },
+        {
+          "letter": "B",
+          "text": "A síntese de ácidos biliares é regulada pela secreção de fator de crescimento de fibroblastos pelo fígado que vai exercer ação ao nível do íleo para regular a reabsorção dos sais biliares."
+        },
+        {
+          "letter": "C",
+          "text": "A lipólise se inicia no intestino delgado com os triglicerídeos de cadeia longa."
+        },
+        {
+          "letter": "D",
+          "text": "A linfangiectasia intestinal causa distúrbios de lipólise e secreção de ácidos biliares."
+        },
+        {
+          "letter": "E",
+          "text": "A abetalipoproteinemia é causa de esteatorreia por distúrbio a nível dos quilomícrons."
+        }
+      ],
+      "answerKey": "E",
+      "theme": "Gastroenterologia e Hepatologia",
+      "subtheme": "Diarreias e má absorção",
+      "topic": "Esteatorreia — abetalipoproteinemia",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "esteatorreia",
+        "abetalipoproteinemia",
+        "quilomícron"
+      ]
+    },
+    {
+      "number": 57,
+      "statement": "Sobre os dois exames complementares laboratoriais mais solicitados para a aferição da função renal, a dosagem de ureia e a da creatinina, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "A taxa de filtração glomerular pode ser subestimada pela dosagem de ureia já que esta é reabsorvida nos túbulos renais."
+        },
+        {
+          "letter": "B",
+          "text": "A creatinina deriva do metabolismo da creatina nos músculos e varia demasiadamente de um dia para o outro."
+        },
+        {
+          "letter": "C",
+          "text": "A dosagem de creatinina tem a vantagem de que apenas a lesão renal implica na elevação do seu nível no sangue."
+        },
+        {
+          "letter": "D",
+          "text": "Tanto a dosagem de ureia como a de creatinina são preditivas de uremia sintomática."
+        },
+        {
+          "letter": "E",
+          "text": "A dosagem de ureia e a de creatinina são marcadores muito precisos da taxa de filtração glomerular e, por isso, são muito utilizados na prática."
+        }
+      ],
+      "answerKey": "A",
+      "theme": "Nefrologia",
+      "subtheme": "Doença renal crônica",
+      "topic": "Limitações da dosagem de ureia na avaliação renal",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "ureia",
+        "creatinina",
+        "taxa de filtração glomerular"
+      ]
+    },
+    {
+      "number": 58,
+      "statement": "Paciente masculino, 55 anos de idade, apresenta fraqueza severa nas pernas. No exame físico, é detectada leve diminuição da sensibilidade e arreflexia profunda. No dia seguinte, o quadro evolui para paraplegia e o paciente apresenta síncope por hipotensão postural. O paciente tem história de infecção viral duas semanas antes. Após exames adicionais, o diagnóstico final foi de síndrome de Guillain-Barré. Sobre o caso, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "O diagnóstico está errado porque hipotensão postural não faz parte da síndrome de Guillain-Barré."
+        },
+        {
+          "letter": "B",
+          "text": "O líquor apresenta aumento de proteínas e leucocitose à custa de linfócitos."
+        },
+        {
+          "letter": "C",
+          "text": "O diagnóstico clínico é suficiente para o diagnóstico."
+        },
+        {
+          "letter": "D",
+          "text": "Na eletroneuromiografia, o padrão mais comum é desmielinizante no Ocidente."
+        },
+        {
+          "letter": "E",
+          "text": "O caso é curioso porque, no Ocidente, essa doença é mais comum em crianças do sexo feminino."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Neurologia",
+      "subtheme": "Doenças neuromusculares",
+      "topic": "Síndrome de Guillain-Barré — padrão eletroneuromiográfico",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "Guillain-Barré",
+        "eletroneuromiografia",
+        "desmielinizante"
+      ]
+    },
+    {
+      "number": 59,
+      "statement": "Em relação à insuficiência cardíaca descompensada, assinale a afirmativa correta.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Os betabloqueadores só devem ser utilizados naqueles que utlizam inibidores de enzima conversora de angiotensina na dose máxima."
+        },
+        {
+          "letter": "B",
+          "text": "Diuréticos tiazídicos têm a preferência em relação à furosemida."
+        },
+        {
+          "letter": "C",
+          "text": "Nitroprussiato de sódio só deve ser usado em caso de crise hipertensiva."
+        },
+        {
+          "letter": "D",
+          "text": "A espironolactona adicionada após inibidores de enzima conversora de angiotensina e betabloqueadores resulta em melhora de sobrevida dos pacientes."
+        },
+        {
+          "letter": "E",
+          "text": "O uso de análogos de eritropoetina em pacientes com anemia resultou em melhora da sobrevida global."
+        }
+      ],
+      "answerKey": "D",
+      "theme": "Cardiologia",
+      "subtheme": "Insuficiência cardíaca",
+      "topic": "Espironolactona na insuficiência cardíaca — benefício de sobrevida",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "espironolactona",
+        "insuficiência cardíaca",
+        "sobrevida"
+      ]
+    },
+    {
+      "number": 60,
+      "statement": "Assinale a opção que indica apenas parasitoses intestinais que tenham passagem pulmonar pelas larvas.",
+      "alternatives": [
+        {
+          "letter": "A",
+          "text": "Ancylostoma duodenalis, Enterobius vermiculares e Ascaris lumbricoides."
+        },
+        {
+          "letter": "B",
+          "text": "Ascaris lumbricoides, Strongyloides stercoralis e Ancylostoma duodenalis."
+        },
+        {
+          "letter": "C",
+          "text": "Strongyloides stercoralis, Trichuris trichiura e Ascaris lumbricoides."
+        },
+        {
+          "letter": "D",
+          "text": "Enterobius vermiculares, Trichuris trichiura e Ancylostoma duodenalis."
+        },
+        {
+          "letter": "E",
+          "text": "Strongyloides stercoralis, Enterobius vermiculares e Trichuris trichiura."
+        }
+      ],
+      "answerKey": "B",
+      "theme": "Infectologia",
+      "subtheme": "Doenças tropicais e negligenciadas",
+      "topic": "Parasitoses intestinais com passagem pulmonar (síndrome de Löffler)",
+      "difficulty": "MEDIA",
+      "keywords": [
+        "síndrome de Löffler",
+        "Ascaris",
+        "Strongyloides",
+        "Ancylostoma"
+      ]
+    }
+  ]
+}

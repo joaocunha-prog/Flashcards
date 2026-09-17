@@ -1,0 +1,24 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Nutrição
+Princípio geral da terapia nutricional: se o trato gastrointestinal funciona, {{c1::use-o}} (via enteral).	Parenteral é reservada para quando a enteral é impossível, insuficiente ou contraindicada.	Assunto::nutricao Conceito
+Nutrição parenteral é reservada para quando a via enteral é {{c1::impossível, insuficiente ou contraindicada}}.	Ex.: obstrução completa, íleo prolongado, isquemia intestinal.	Assunto::nutricao Conceito
+Íleo pós-operatório com desnutrição grave: terapia nutricional não deve ser postergada além de {{c1::5-7 dias}}.	Desnutrição grave muda o cálculo de risco-benefício a favor de tratar mais cedo.	Assunto::nutricao Conceito
+Em íleo pós-operatório com desnutrição grave, prefere-se via enteral, avançando a sonda {{c1::além do piloro/jejunal}} se necessário.	—	Assunto::nutricao Conceito
+Íleo pós-operatório prolongado deve levantar suspeita de {{c1::complicação cirúrgica de base}} (coleção, deiscência).	—	Assunto::nutricao Conceito
+Síndrome de realimentação manifesta-se nas primeiras {{c1::24-72h}} da reintrodução calórica.	Fraqueza muscular, arritmia, insuficiência respiratória, edema, alteração do sensório.	Assunto::nutricao Conceito
+Síndrome de realimentação causa hipofosfatemia, hipocalemia e {{c1::hipomagnesemia}} graves.	—	Assunto::nutricao Conceito
+Fisiopatologia da síndrome de realimentação: reintrodução de carboidratos dispara secreção de {{c1::insulina}}.	—	Assunto::nutricao Conceito
+A insulina na síndrome de realimentação promove influxo celular maciço de {{c1::fósforo, potássio e magnésio}}.	Depleta esses eletrólitos no plasma.	Assunto::nutricao Conceito
+Prevenção da síndrome de realimentação: iniciar dieta com {{c1::volume/calorias reduzidos}}.	—	Assunto::nutricao Conceito
+Prevenção da síndrome de realimentação: repor eletrólitos {{c1::antes e durante}} a realimentação, não depois.	Pitfall clássico: iniciar nutrição parenteral plena sem reposição eletrolítica prévia.	Assunto::nutricao Conceito
+🔤 Mnemônico B-Fe-Ca-D-Fo — suplementação vitalícia pós-bypass em Y de Roux: {{c1::vitamina B12}}, {{c2::ferro}}, {{c3::cálcio}}, {{c4::vitamina D}} e {{c5::folato}}.	Os cinco pilares do acompanhamento nutricional a longo prazo.	Assunto::nutricao Mnemonico
+Cálcio e vitamina D são absorvidos principalmente no {{c1::duodeno/jejuno proximal}}.	Segmento excluído no bypass gástrico em Y de Roux.	Assunto::nutricao Conceito
+B12 depende do {{c1::fator intrínseco}} produzido no estômago para ser absorvida no íleo terminal.	—	Assunto::nutricao Conceito
+Deficiência de B12 pós-bypass leva {{c1::meses a anos}} para se manifestar clinicamente.	Grandes reservas hepáticas — suplementação começa antes dos sintomas aparecerem.	Assunto::nutricao Conceito
+Na diverticulite não complicada, a conduta nutricional é dieta {{c1::líquida/pobre em resíduos}}.	—	Assunto::nutricao Conceito
+Na diverticulite complicada com jejum prolongado previsto, a via nutricional preferida é a {{c1::enteral}}.	Preserva a integridade da mucosa e reduz translocação bacteriana.	Assunto::nutricao Conceito
+ENARE 2026 Q17: em íleo pós-operatório com desnutrição grave, não postergar a {{c1::terapia nutricional}} além do razoável.	Prioriza via enteral quando o trânsito permite.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::MEDIA
+ENARE 2026 Q19: seguimento pós-bypass em Y de Roux exige suplementar {{c1::B12, ferro, cálcio, vitamina D e folato}}.	Os cinco pilares do acompanhamento nutricional a longo prazo.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::FACIL
+ENARE 2026 Q54: terapia nutricional em diverticulite complicada exige escolher {{c1::via e momento certos}} do suporte nutricional.	Integra gravidade da complicação abdominal com decisão nutricional.	Assunto::nutricao Banca::ENARE Ano::2026 Dificuldade::DIFICIL

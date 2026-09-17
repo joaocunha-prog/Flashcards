@@ -1,0 +1,31 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Reumatologia::Manifestações cutâneas
+Eritema nodoso é uma paniculite {{c1::septal}}.	Inflamação no septo do tecido adiposo subcutâneo, sem vasculite associada.	Assunto::manifestacoes-cutaneas Conceito
+No eritema nodoso, os nódulos são tipicamente {{c1::pré-tibiais}}.	Face anterior das pernas, simétricos, dolorosos e quentes.	Assunto::manifestacoes-cutaneas Conceito
+O eritema nodoso {{c1::nunca ulcera ou necrosa}}.	É esse achado que o diferencia de vasculites e do pioderma gangrenoso.	Assunto::manifestacoes-cutaneas Conceito
+Entre as causas de eritema nodoso, o fármaco mais cobrado é {{c1::anticoncepcional oral}}.	Também: sulfonamidas, infecção estreptocócica, sarcoidose, DII, gestação.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2025 Dificuldade::FACIL
+Além do ACO, outro fármaco clássico causador de eritema nodoso é {{c1::sulfonamida}}.	—	Assunto::manifestacoes-cutaneas Conceito
+Diante de eritema nodoso por droga, a conduta inicial é {{c1::suspender o agente causal}}.	Foi a vinheta ENARE 2025 Q35 (eritema nodoso associado a contraceptivo oral).	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2025 Dificuldade::FACIL
+O eritema nodoso NÃO deve ser tratado como {{c1::celulite bacteriana}}.	Não é infecção — antibiótico empírico não trata a causa real.	Assunto::manifestacoes-cutaneas Conceito
+Eritema nodoso é uma reação de hipersensibilidade tipo {{c1::IV}}.	Deposição de imunocomplexos e ativação inflamatória no septo adiposo.	Assunto::manifestacoes-cutaneas Conceito
+Pitting ungueal (unhas em dedal) é achado clássico de {{c1::psoríase ungueal}}.	Pode ocorrer mesmo sem placa cutânea evidente.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Pitting ungueal isolado é fator de risco para {{c1::artrite psoriásica}}.	Mesmo em paciente sem placas cutâneas visíveis — foi a vinheta ENARE 2026 Q22.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Tríade ungueal clássica da psoríase: {{c1::pitting}} (unhas em dedal); {{c2::onicólise}}; {{c3::hiperceratose subungueal}}.	Pode ocorrer mesmo sem placa cutânea evidente; pitting isolado já é fator de risco para artrite psoriásica.	Assunto::manifestacoes-cutaneas Conceito
+Pioderma gangrenoso tem bordas {{c1::violáceas e solapadas}}.	Úlcera necrótica de crescimento rápido, dor desproporcional ao aspecto inicial.	Assunto::manifestacoes-cutaneas Conceito
+Pioderma gangrenoso é classicamente associado a {{c1::doença inflamatória intestinal}}.	Principalmente retocolite ulcerativa.	Assunto::manifestacoes-cutaneas Conceito
+Além da DII, pioderma gangrenoso também se associa a {{c1::artrite reumatoide}}.	E a neoplasias mieloproliferativas.	Assunto::manifestacoes-cutaneas Conceito
+Pioderma gangrenoso é diagnóstico de {{c1::exclusão}}.	Biópsia serve para excluir infecção, vasculite e neoplasia — não confirma o diagnóstico por si só.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
+No pioderma gangrenoso, trauma cirúrgico agressivo {{c1::piora a lesão}} — fenômeno de patergia.	Por isso a biópsia deve ser limitada e conservadora.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
+O tratamento de base do pioderma gangrenoso é {{c1::imunossupressão sistêmica}}, não cirurgia extensa.	Corticoide sistêmico ou ciclosporina, mais tratamento da doença associada.	Assunto::manifestacoes-cutaneas Conceito
+Pioderma gangrenoso é uma dermatose {{c1::neutrofílica}}.	Neutrófilos se acumulam de forma estéril na derme, causando necrose progressiva.	Assunto::manifestacoes-cutaneas Conceito
+Hidradenite supurativa acomete o {{c1::folículo piloso}}.	Doença inflamatória crônica, com oclusão folicular seguida de ruptura.	Assunto::manifestacoes-cutaneas Conceito
+Hidradenite supurativa acomete tipicamente áreas {{c1::intertriginosas}}.	Axilas, virilha, região inframamária, região perianal.	Assunto::manifestacoes-cutaneas Conceito
+Na hidradenite supurativa, cicatrizes classicamente descritas são em {{c1::corda}}.	Junto de nódulos, abscessos recorrentes e fístulas.	Assunto::manifestacoes-cutaneas Conceito
+A gravidade da hidradenite supurativa é estadiada pela escala de {{c1::Hurley}}.	Estágios I a III — orienta a escolha do tratamento.	Assunto::manifestacoes-cutaneas Conceito
+Na hidradenite supurativa moderada a grave refratária, o biológico de escolha é {{c1::adalimumabe}}.	Anti-TNF — primeira linha entre os biológicos para essa doença. Vinheta ENARE 2026 Q67.	Assunto::manifestacoes-cutaneas Banca::ENARE Ano::2026 Dificuldade::FACIL
+Na hidradenite supurativa, duas citocinas envolvidas na fisiopatologia são TNF-alfa e {{c1::IL-17}}.	Justifica a eficácia dos biológicos que bloqueiam essas vias.	Assunto::manifestacoes-cutaneas Conceito
+Hidradenite leve é tratada inicialmente com {{c1::antibiótico tópico ou oral}}.	Doxiciclina, ou clindamicina + rifampicina.	Assunto::manifestacoes-cutaneas Conceito
+Doença cicatricial avançada de hidradenite supurativa pode exigir {{c1::exérese cirúrgica ampla}}.	Reservada para doença já com dano estrutural estabelecido.	Assunto::manifestacoes-cutaneas Conceito
+🔤 Mnemônico das causas de eritema nodoso: {{c1::ESIDG}}.	Estreptococo, Sarcoidose, Inflamatória intestinal (DII), Droga (ACO/sulfa), Gestação. Recurso próprio, não é mnemônico oficial.	Assunto::manifestacoes-cutaneas Mnemonico

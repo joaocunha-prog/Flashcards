@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 800" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="860" height="800" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <text x="430" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Avaliação de risco cardiovascular pré-operatório</text>
+
+  <!-- Box 1 -->
+  <rect x="200" y="50" width="360" height="60" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="380" y="75" text-anchor="middle" font-size="15" fill="#14324a">Cirurgia é de</text>
+  <text x="380" y="95" text-anchor="middle" font-size="15" fill="#14324a">EMERGÊNCIA?</text>
+
+  <rect x="640" y="50" width="200" height="60" rx="8" fill="#fdecec" stroke="#b23b3b" stroke-width="2"/>
+  <text x="740" y="72" text-anchor="middle" font-size="12.5" fill="#7a2323">Operar já.</text>
+  <text x="740" y="88" text-anchor="middle" font-size="12.5" fill="#7a2323">Otimizar o possível</text>
+  <text x="740" y="104" text-anchor="middle" font-size="12.5" fill="#7a2323">no tempo disponível</text>
+
+  <line x1="560" y1="80" x2="635" y2="80" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="597" y="72" text-anchor="middle" font-size="12" fill="#333">Sim</text>
+
+  <line x1="380" y1="110" x2="380" y2="150" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="398" y="134" text-anchor="start" font-size="12" fill="#333">Não</text>
+
+  <!-- Box 2 -->
+  <rect x="170" y="150" width="420" height="80" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="380" y="172" text-anchor="middle" font-size="14.5" fill="#14324a">Doença cardíaca ATIVA/INSTÁVEL?</text>
+  <text x="380" y="192" text-anchor="middle" font-size="12" fill="#14324a">(SCA &lt;60d, ICC descompensada,</text>
+  <text x="380" y="209" text-anchor="middle" font-size="12" fill="#14324a">arritmia significativa, valvopatia grave sintomática)</text>
+
+  <rect x="640" y="155" width="200" height="70" rx="8" fill="#fdecec" stroke="#b23b3b" stroke-width="2"/>
+  <text x="740" y="180" text-anchor="middle" font-size="12.5" fill="#7a2323">Tratar/estabilizar</text>
+  <text x="740" y="197" text-anchor="middle" font-size="12.5" fill="#7a2323">antes de cirurgia</text>
+  <text x="740" y="213" text-anchor="middle" font-size="12.5" fill="#7a2323">eletiva</text>
+
+  <line x1="590" y1="190" x2="635" y2="190" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="612" y="182" text-anchor="middle" font-size="12" fill="#333">Sim</text>
+
+  <line x1="380" y1="230" x2="380" y2="270" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="398" y="254" text-anchor="start" font-size="12" fill="#333">Não</text>
+
+  <!-- Box 3 -->
+  <rect x="200" y="270" width="360" height="55" rx="8" fill="#eef6ee" stroke="#3f7a4f" stroke-width="2"/>
+  <text x="380" y="293" text-anchor="middle" font-size="14" fill="#204a29">Classificar risco CIRÚRGICO</text>
+  <text x="380" y="311" text-anchor="middle" font-size="12.5" fill="#204a29">(baixo vs. alto risco de evento cardíaco)</text>
+
+  <line x1="380" y1="325" x2="380" y2="365" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Box 4 -->
+  <rect x="170" y="365" width="420" height="80" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="380" y="390" text-anchor="middle" font-size="14.5" fill="#14324a">Capacidade funcional ≥ 4 METs?</text>
+  <text x="380" y="410" text-anchor="middle" font-size="12" fill="#14324a">(ex.: sobe 2 lances de escada</text>
+  <text x="380" y="427" text-anchor="middle" font-size="12" fill="#14324a">sem sintomas)</text>
+
+  <rect x="640" y="370" width="200" height="70" rx="8" fill="#eafbea" stroke="#2f8a4a" stroke-width="2"/>
+  <text x="740" y="395" text-anchor="middle" font-size="12.5" fill="#1e5c30">Prosseguir para</text>
+  <text x="740" y="412" text-anchor="middle" font-size="12.5" fill="#1e5c30">cirurgia, sem</text>
+  <text x="740" y="428" text-anchor="middle" font-size="12.5" fill="#1e5c30">investigação extra</text>
+
+  <line x1="590" y1="405" x2="635" y2="405" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="612" y="397" text-anchor="middle" font-size="12" fill="#333">Sim</text>
+
+  <line x1="380" y1="445" x2="380" y2="485" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="398" y="469" text-anchor="start" font-size="12" fill="#333">Não / indeterminada</text>
+
+  <!-- Box 5 -->
+  <rect x="140" y="485" width="480" height="105" rx="8" fill="#fff6e6" stroke="#b8860b" stroke-width="2"/>
+  <text x="380" y="507" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#5c4308">Calcular RCRI (índice de Lee) — 1 ponto cada:</text>
+  <text x="380" y="527" text-anchor="middle" font-size="12.5" fill="#5c4308">cirurgia de alto risco · DAC · ICC</text>
+  <text x="380" y="546" text-anchor="middle" font-size="12.5" fill="#5c4308">doença cerebrovascular · DM insulino-dependente</text>
+  <text x="380" y="565" text-anchor="middle" font-size="12.5" fill="#5c4308">creatinina &gt; 2 mg/dL</text>
+  <text x="380" y="584" text-anchor="middle" font-size="12" font-style="italic" fill="#5c4308">≥2 pontos eleva risco de evento cardíaco maior</text>
+
+  <line x1="380" y1="590" x2="380" y2="630" stroke="#333" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Box 6 -->
+  <rect x="140" y="630" width="480" height="110" rx="8" fill="#eaf2fb" stroke="#2c5f8a" stroke-width="2"/>
+  <text x="380" y="655" text-anchor="middle" font-size="14.5" fill="#14324a">RCRI elevado E o resultado do exame</text>
+  <text x="380" y="675" text-anchor="middle" font-size="14.5" fill="#14324a">mudaria a conduta?</text>
+  <text x="380" y="700" text-anchor="middle" font-size="12.5" fill="#14324a">Sim → exame complementar dirigido</text>
+  <text x="380" y="718" text-anchor="middle" font-size="12.5" fill="#14324a">(ex.: ecocardiograma, teste de estresse)</text>
+  <text x="380" y="736" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#14324a">Não → seguir para a cirurgia</text>
+
+  <text x="430" y="775" text-anchor="middle" font-size="12" font-style="italic" fill="#555">Pedir exame "de rotina" fora dessa lógica é conduta ultrapassada.</text>
+</svg>

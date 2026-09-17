@@ -1,0 +1,32 @@
+#separator:tab
+#html:true
+#notetype:Cloze
+#deck:ENARE-EBSERH::80-20::Gastroenterologia e Hepatologia::Diarreias e má absorção
+Sorologia inicial para doença celíaca: {{c1::anti-transglutaminase tecidual IgA (anti-tTG IgA)}}.	Sempre pedir junto a IgA total.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::FACIL
+Ao pedir anti-tTG IgA, sempre dosar também {{c1::IgA total}}.	Deficiência seletiva de IgA é mais comum em celíacos e falseia o resultado para negativo.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::FACIL
+Deficiência seletiva de IgA é {{c1::10-15 vezes}} mais comum em celíacos que na população geral.	—	Assunto::diarreias-e-ma-absorcao Conceito
+Se IgA total baixo na investigação de celíaca, usar {{c1::anti-tTG IgG ou anti-peptídeo deaminado de gliadina IgG}}.	—	Assunto::diarreias-e-ma-absorcao Conceito
+Sorologia positiva para celíaca {{c1::não fecha}} o diagnóstico.	Exceto critérios pediátricos específicos que dispensam biópsia com anticorpo muito elevado.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::FACIL
+Padrão-ouro para confirmar doença celíaca: {{c1::biópsia duodenal}}.	Mostra atrofia vilositária, hiperplasia de criptas e linfocitose intraepitelial.	Assunto::diarreias-e-ma-absorcao Conceito
+A biópsia duodenal para celíaca deve ser feita com o paciente ainda {{c1::consumindo glúten}}.	Retirar a dieta antes mascara os achados histológicos.	Assunto::diarreias-e-ma-absorcao Conceito
+Doença associada à celíaca por mecanismo autoimune comum: {{c1::diabetes mellitus tipo 1}}.	Rastreio sorológico deve ser considerado em diabético tipo 1 com sintomas GI, déficit de crescimento ou anemia inexplicada.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Doença celíaca é enteropatia autoimune desencadeada pela {{c1::gliadina}}, fração do glúten.	Em indivíduos geneticamente predispostos (HLA-DQ2/DQ8).	Assunto::diarreias-e-ma-absorcao Conceito
+Na celíaca, a gliadina deaminada pela transglutaminase ativa linfócitos {{c1::T CD4+}} na lâmina própria.	Gera destruição das vilosidades intestinais.	Assunto::diarreias-e-ma-absorcao Conceito
+Tratamento da doença celíaca: {{c1::dieta isenta de glúten, estrita e vitalícia}}.	Com reposição das deficiências nutricionais associadas.	Assunto::diarreias-e-ma-absorcao Conceito
+Doença de Whipple é causada pela bactéria {{c1::Tropheryma whipplei}}.	Infecção sistêmica crônica intracelular.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::FACIL
+Tríade clássica da doença de Whipple: {{c1::artralgia migratória}}, {{c2::diarreia com má absorção}} e {{c3::perda de peso}}.	Pode haver febre e linfadenopatia associadas.	Assunto::diarreias-e-ma-absorcao Conceito
+Achado histológico diagnóstico de Whipple: macrófagos {{c1::PAS-positivos}} na lâmina própria.	Grânulos são restos bacterianos digeridos parcialmente.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::FACIL
+Whipple pode causar endocardite com {{c1::hemocultura negativa}}.	Pensar nele diante de endocardite cultura-negativa com sintomas articulares associados.	Assunto::diarreias-e-ma-absorcao Conceito
+Sem antibioticoterapia prolongada na Whipple, a {{c1::recidiva}} é frequente.	—	Assunto::diarreias-e-ma-absorcao Conceito
+Tratamento inicial da doença de Whipple: {{c1::ceftriaxona (ou penicilina G) IV por 2 semanas}}.	Seguido de sulfametoxazol-trimetoprima oral por 1 a 2 anos.	Assunto::diarreias-e-ma-absorcao Conceito
+Abetalipoproteinemia é causada por mutação na {{c1::MTP}} (proteína microssomal transportadora de triglicérides).	Doença rara, autossômica recessiva.	Assunto::diarreias-e-ma-absorcao Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Achado no esfregaço de sangue periférico na abetalipoproteinemia: {{c1::acantocitose}}.	Hemácias espiculadas — pista importante para o diagnóstico.	Assunto::diarreias-e-ma-absorcao Banca::EBSERH Ano::2025 Dificuldade::MEDIA
+Na abetalipoproteinemia, o colesterol sérico é tipicamente {{c1::muito baixo}}.	Apesar de ingestão alimentar normal.	Assunto::diarreias-e-ma-absorcao Conceito
+Vitamina lipossolúvel mais afetada na abetalipoproteinemia: {{c1::vitamina E}}.	Causa ataxia e retinopatia.	Assunto::diarreias-e-ma-absorcao Conceito
+A ausência de MTP impede a montagem de {{c1::quilomícrons e VLDL}} no enterócito/hepatócito.	Bloqueia a exportação de lipídeos absorvidos, causando esteatorreia grave.	Assunto::diarreias-e-ma-absorcao Conceito
+Tratamento da abetalipoproteinemia: dieta pobre em gordura de cadeia longa e {{c1::suplementação de vitaminas lipossolúveis em altas doses}}.	Especialmente vitamina E.	Assunto::diarreias-e-ma-absorcao Conceito
+Parasita protótipo a excluir antes de rotular um quadro como síndrome do intestino irritável: {{c1::Giardia}}.	Especialmente com epidemiologia de risco.	Assunto::diarreias-e-ma-absorcao Banca::ENARE Ano::2026 Dificuldade::MEDIA
+Exame para excluir parasitose antes de fechar diagnóstico de SII: {{c1::parasitológico de fezes seriado}} (3 amostras).	Antígeno fecal ou PCR quando disponível para Giardia.	Assunto::diarreias-e-ma-absorcao Conceito
+Giardíase clássica causa diarreia crônica {{c1::não sanguinolenta}}, com distensão e flatulência.	Sem febre alta nem sangue, diferindo de causas invasivas.	Assunto::diarreias-e-ma-absorcao Conceito
+Tratamento da giardíase: {{c1::metronidazol ou tinidazol}}.	—	Assunto::diarreias-e-ma-absorcao Conceito
+🔤 Mnemônico para investigar diarreia crônica: sempre excluir {{c1::parasitose}} antes de rotular como funcional (SII).	"Todo SII novo merece 3 amostras de fezes antes do rótulo."	Assunto::diarreias-e-ma-absorcao Mnemonico

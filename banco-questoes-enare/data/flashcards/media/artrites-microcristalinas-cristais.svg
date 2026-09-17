@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 340" width="100%" height="auto" font-family="Arial, Helvetica, sans-serif">
+  <rect x="0" y="0" width="700" height="340" fill="#ffffff"/>
+  <text x="350" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Líquido sinovial — cristais sob luz polarizada</text>
+
+  <!-- Left panel: Gota -->
+  <rect x="30" y="55" width="300" height="255" rx="10" fill="#fdecea" stroke="#b3261e" stroke-width="2"/>
+  <text x="180" y="85" text-anchor="middle" font-size="16" font-weight="bold" fill="#7a1a15">GOTA</text>
+  <text x="180" y="105" text-anchor="middle" font-size="12" fill="#7a1a15">Urato monossódico</text>
+
+  <!-- needle crystals, yellow (negative birefringence, parallel) -->
+  <g stroke="#d4a017" stroke-width="4" stroke-linecap="round">
+    <line x1="90" y1="150" x2="150" y2="130"/>
+    <line x1="120" y1="175" x2="185" y2="150"/>
+    <line x1="95" y1="195" x2="160" y2="175"/>
+    <line x1="140" y1="205" x2="210" y2="180"/>
+  </g>
+  <g stroke="#3355cc" stroke-width="4" stroke-linecap="round">
+    <line x1="200" y1="140" x2="255" y2="200"/>
+    <line x1="230" y1="130" x2="270" y2="175"/>
+  </g>
+  <text x="180" y="235" text-anchor="middle" font-size="12" fill="#7a1a15">Formato: agulha</text>
+  <text x="180" y="255" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a1a15">Birrefringência NEGATIVA forte</text>
+  <text x="180" y="275" text-anchor="middle" font-size="11" fill="#7a1a15">Amarelo quando paralelo</text>
+  <text x="180" y="291" text-anchor="middle" font-size="11" fill="#7a1a15">ao eixo do compensador</text>
+
+  <!-- Right panel: Pseudogota -->
+  <rect x="370" y="55" width="300" height="255" rx="10" fill="#e8f0fe" stroke="#2c5aa0" stroke-width="2"/>
+  <text x="520" y="85" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3a63">PSEUDOGOTA</text>
+  <text x="520" y="105" text-anchor="middle" font-size="12" fill="#1a3a63">Pirofosfato de cálcio</text>
+
+  <!-- rhomboid crystals, blue -->
+  <g fill="#3355cc" stroke="#1a3a63" stroke-width="1">
+    <polygon points="450,150 480,135 510,150 480,165"/>
+    <polygon points="500,175 528,162 555,175 528,188"/>
+    <polygon points="440,190 468,177 495,190 468,203"/>
+    <polygon points="530,200 555,190 578,200 555,210"/>
+  </g>
+  <text x="520" y="235" text-anchor="middle" font-size="12" fill="#1a3a63">Formato: romboide / retangular</text>
+  <text x="520" y="255" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a63">Birrefringência POSITIVA fraca</text>
+  <text x="520" y="275" text-anchor="middle" font-size="11" fill="#1a3a63">Azul quando paralelo</text>
+  <text x="520" y="291" text-anchor="middle" font-size="11" fill="#1a3a63">ao eixo do compensador</text>
+
+  <text x="350" y="330" text-anchor="middle" font-size="12" fill="#1a1a1a">Cristais intracelulares (dentro de neutrófilos) na crise aguda — sempre enviar Gram/cultura junto</text>
+</svg>

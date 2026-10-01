@@ -1,0 +1,15 @@
+{
+  "name": "notion-upload",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sobe resumos em Markdown para o Notion, com as imagens locais",
+  "type": "module",
+  "bin": { "notion-upload": "upload.mjs" },
+  "scripts": {
+    "upload": "node upload.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@tryfabric/martian": "^1.2.4"
+  }
+}

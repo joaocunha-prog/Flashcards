@@ -47,3 +47,8 @@ npm run dev
 ```
 
 Abra `http://localhost:3000`.
+
+## Outras ferramentas
+
+- **[notion-upload/](notion-upload/)** — sobe resumos em Markdown para o Notion junto com as
+  imagens locais.
